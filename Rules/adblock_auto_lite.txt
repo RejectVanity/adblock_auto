@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xAPt83kksNGThSZew4r4uA
+! Checksum: PgBb/07k31v/qtgc7ixA4A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230330202712
+! Version: 20230330205731
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-03-30 20:27:12
-! Total Count: 18364
+! Last modified: 2023-03-30 20:57:31
+! Total Count: 18777
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitlink Homepage: https://www.gitlink.org.cn/keytoolazy/adblock_auto/tree/main/README.md
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -12,6 +12,7 @@
 ! Github Raw Link: https://lingeringsound.github.io/adblock_auto/Rules/adblock_auto_lite.txt
 ###AdBlockDialog
 ###Ad_windows
+###ChapterView  .slide-baidu
 ###J_sideFooter.side_footer
 ###Layeraa1
 ###Layeraa2
@@ -20,6 +21,7 @@
 ###QEff1
 ###QEff2
 ###QQ_Full
+###SOHU_MAIN  .module-cmt-float-bar
 ###TopAdvert
 ###Video-Shunt-Box + .container
 ###ZAML
@@ -39,6 +41,8 @@
 ###abde
 ###abnotify
 ###abp-killer
+###ad  #h2_player_prevideo
+###ad  .pre-img
 ###ad-SNSSplashAd
 ###ad-box
 ###ad-index
@@ -76,6 +80,7 @@
 ###ad_full
 ###ad_globle_div
 ###ad_headerbanner
+###ad_inview_are
 ###ad_left
 ###ad_lightbox
 ###ad_link
@@ -153,6 +158,8 @@
 ###antiAdBlock
 ###antiBlock
 ###anti_adblock
+###app  .publicAllContentBg  .bigBannerBg
+###app.app  .topic-big
 ###appBottomIn
 ###appIn
 ###appad.cate
@@ -181,6 +188,8 @@
 ###bgad
 ###bgframe[style^="position: fixed;"]
 ###bl_mobile_float
+###body  #left-promotion
+###body  #right-promotion
 ###bottom-ads
 ###bottom-ads-container
 ###bottom-gg1
@@ -197,9 +206,16 @@
 ###breadCrumb + .t[style="margin-top:8px"]
 ###cat_intro_first_ad
 ###cat_intro_second_ad
+###chaptername + div  div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###check_ad_block
 ###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
+###container  .item.title_normal
+###container  .item.title_top
+###container  .sectionBanner
+###container  .wrapper  .fl
+###container  a.block
+###container.container  a.item
 ###content-ad
 ###content_adblock_message
 ###coupletLeft
@@ -216,6 +232,7 @@
 ###detection-block-overlay
 ###dgf_pc
 ###dom_adblock
+###downdiv  .downcode
 ###doyoo_mon_mask
 ###doyoo_monitor
 ###duilian_left
@@ -227,6 +244,7 @@
 ###eis_pad2
 ###everydayadv_mask
 ###fab
+###fc_foot  #f_skyf
 ###fixed-bottom-modal[style^="right:"][style$="px; display: block;"]
 ###fk_faiVisitStateAd
 ###flashad
@@ -263,16 +281,21 @@
 ###gudingweiDiv
 ###haoetv1
 ###haoxinqing_me_img
+###head_ad_are
 ###header + #topBox
+###header  a[target="_blank"]  img[style="width:100%;height:60px;margin-bottom:2px;"]
 ###header-top + .advertisement
 ###header_ad
 ###header_global_ad
+###hellobox  .mylist
+###hengfu  #jiukan
 ###hengfu1.banner
 ###hengfu2.banner
 ###hfad
 ###hj-right-aside[style="float: right;"]
 ###homead
 ###ignielAdBlock
+###img-txt-wrapper  #title_desc_div
 ###imgad
 ###imgs5[height="60px"]
 ###index_aside_ad
@@ -284,6 +307,8 @@
 ###js_ads_banner_top
 ###js_ads_banner_top_slide
 ###kfpopupDiv
+###ks  .DaKuang
+###kt_playera[target="_blank"]
 ###ldgindexbuttom
 ###leftAD
 ###leftCouple
@@ -314,6 +339,8 @@
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
+###main.site-main  div  div  a[href]  img
+###mainbody:nth-child(5)  .mylist
 ###mdp-deblocker-js-disabled
 ###menu + #topBox
 ###menu + script + #topBox
@@ -322,16 +349,22 @@
 ###mgid_iframe1
 ###miaov_float_layer
 ###micast_ads
+###midBox  .wrap  .clearfix.mod
 ###modal-adblocker
 ###modalAblockWrapper
 ###modalgg
 ###movieInfoRight
+###movietp  .movietp
 ###mui-player + #player_pic
 ###mv_ad_dom
 ###mv_float_layer
 ###my-adsFPR
+###my_dp_
+###my_gd_
 ###nafikblock
 ###nav + .slider-spons
+###nav-home  .coment-bottom
+###navcontainer + .moneyare
 ###netease_mail_footer
 ###news_top_advert
 ###notify-adblock
@@ -345,24 +378,30 @@
 ###piao_div_3[style*="width:140px;"]
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
+###player  #ADtip
 ###player-bottom-ads
 ###playerAd
 ###playerAdvLayer
 ###playerJsvLayer.jsv-layer
 ###player_ad
 ###player_banner[style*="fixed;"]
+###player_pause  .tip + a[target="_blank"]
+###player_pause[style^="position"]  a[target="_blank"]
 ###plus-upsell-adblock
 ###pop_hongbao
 ###popapIsBlockedAd
 ###popup.t
 ###pp-modal-id
+###projectpostbody  a[target="_blank"]
 ###propagandaInsert[style="display: flex;"]
 ###ptcmsad1
+###qj960
 ###qj960b
 ###qrcodeDownloadBar
 ###qrcodeWrap
 ###recommend-float + .footer + .popup
 ###reportPop
+###results.content-main  .eLeft
 ###rightAD
 ###rightCouple
 ###rightCouple + #leftFloat
@@ -382,6 +421,8 @@
 ###rip[href*=".taobao.com"]
 ###rm-float + .popup
 ###rm-float3
+###rollingadBox  .wrap
+###search  a[href="/top1.html"]
 ###sidearm-adblock-modal
 ###sign-ad
 ###sitefocus.focus
@@ -407,6 +448,7 @@
 ###tanx-con-1
 ###tanx-fold-main
 ###taotaole
+###td_tpc  .ads
 ###test333
 ###textad
 ###textggs
@@ -420,6 +462,7 @@
 ###top_ad
 ###top_ad_box
 ###top_ads0
+###top_box  a[onclick^="javascript"]
 ###topad1
 ###toperAd2
 ###toptb + div[align="center"]
@@ -442,6 +485,10 @@
 ###video_playr_side.video_playr_sider.videoplayerside
 ###widget-quan
 ###windlocation
+###wp  .V-video-floats
+###wp  .V-videoFloat
+###wrapper  .topad
+###wrapper  div[style="padding:3px;"]  #pic
 ###wrapperBlocker
 ###xinnxi
 ###xqad
@@ -456,6 +503,7 @@
 ##.AdblockMessage_msg
 ##.BrokenAd
 ##.Flagrow-Ads-under-header
+##.MacPlayer  #play-pause
 ##.RMss1
 ##.ReadAd
 ##.ReadAd2
@@ -482,6 +530,7 @@
 ##.a_xsfl
 ##.aab-post
 ##.aasd-text
+##.aasdw
 ##.ab-detected
 ##.ab-notice
 ##.abde
@@ -593,6 +642,7 @@
 ##.ad_right_2
 ##.ad_sd #a_d1
 ##.ad_sd #ad1
+##.ad_sd  .container  a  img[src*=".qhimg.com"]
 ##.ad_text
 ##.ad_thread
 ##.ad_top
@@ -650,6 +700,7 @@
 ##.adlist
 ##.adlistcss
 ##.adp-popup
+##.ads  a  img[src*=".sinaimg."]
 ##.ads-1
 ##.ads-2
 ##.ads-after-content
@@ -666,6 +717,7 @@
 ##.ads3
 ##.ads4
 ##.ads_
+##.ads_all  .ads_w
 ##.ads_desktop
 ##.ads_mobile
 ##.adsblocked
@@ -699,6 +751,8 @@
 ##.appdownload_ad + .hider
 ##.appguide-wrap
 ##.appguide-wrap[onclick*="bcebos.com"]
+##.archive  a[ontouchstart="this.click();"]
+##.area  .tuiguang
 ##.area_ad
 ##.artad
 ##.article-pop-up-ad
@@ -728,6 +782,7 @@
 ##.bdads
 ##.bdyp-sygg-ul
 ##.below_ads
+##.bg  img[src*=".meituan.net"]
 ##.bg_ad
 ##.bigClickTeasersBlock
 ##.bing-ads-wrapper
@@ -741,10 +796,14 @@
 ##.bottom-adv
 ##.bottomAd
 ##.bottomSponsor
+##.bottom_fixed  #imgs_link4
+##.bottom_fixed  a  img[src$=".gif"]
+##.bottom_fixed  a[rel='nofollow'][target='_blank']
 ##.bottom_mengcheng_ad_wrap
 ##.bottomads
 ##.bottomads + .leftd
 ##.bottomd + .leftd
+##.bottomd  .closebox2
 ##.box-ad
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 ##.broadcastMe[style="width: 1200px;"]
@@ -763,7 +822,11 @@
 ##.chat-right-ad
 ##.chat-sysbroadcast-ad
 ##.chat-top-ad
+##.clearfix.col5.row  #listBox
 ##.col-ad
+##.col-lg-3.col-xs-6  .well
+##.col-md-10  .banner-table-block
+##.col5  dl#randomBox
 ##.comiis_ad
 ##.comiis_adbox
 ##.comiis_guanggao
@@ -772,9 +835,17 @@
 ##.common-topad
 ##.common_ad
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
+##.con_section  .d
 ##.conch-ads-box
+##.container  .index-ad
+##.container  .slide-baidu
+##.container  a.mid-wrapper
+##.container  a[href^="http"]  .ads
 ##.containeradvertising
+##.content  a  .topline
 ##.content-ads
+##.content-video  .ads
+##.content-video  .ads-player
 ##.content_ad_300
 ##.corner-gg
 ##.counterAdblocks
@@ -792,26 +863,33 @@
 ##.dispositifAdblock
 ##.dispositifAdblockContent
 ##.dispositifAdblockMessageBox
+##.div-search-box.col-lg-offset-2.col-lg-8  a[href^="http"][target="_blank"]
 ##.diysdk_webServices_banners1und1MainContent
 ##.dlad
 ##.downcode[style^="position:fixed;z-index:1000;top:200px;"]
 ##.dplayer-logo
+##.duilian  .leftd
 ##.eazy_ad_unblocker_holder_class
 ##.ec-ad
 ##.edtj
 ##.eis_muad
+##.error  #qqs
 ##.event_fullscreen_gg_modal
 ##.f-sign-cont[data-dysign-adid]
+##.fed-part-case  .ads-img
 ##.fed-play-advs
 ##.feed-ad
 ##.feed-item[data-ad]
 ##.ff-ads
 ##.fixed-bottom.jsv.jsv-g1
 ##.flash_ad
+##.flex-row  #propagandaLeft
+##.flex-row  #propagandaRight
 ##.float-adv-left-bottom
 ##.float-adv-left-top
 ##.float-adv-right-bottom
 ##.float-adv-right-top
+##.float-left12  .div-list
 ##.floatAd
 ##.float_bot_right
 ##.fnwehjnc12
@@ -826,6 +904,7 @@
 ##.fuckadblock
 ##.full-ads
 ##.full.banners12
+##.g1_wz  .g1_tp
 ##.getads
 ##.gg-box
 ##.gg-one
@@ -855,12 +934,15 @@
 ##.hao123-unionad-pic
 ##.happy-inside-player
 ##.happy-under-player-mobile
+##.hbp  .wp_banner
 ##.hd-adv
 ##.head-ad
 ##.head_ad
 ##.headad
 ##.header-blocked-ad
 ##.headxx11xiaoapp
+##.heg  .div-list
+##.heg  .partner-list
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
 ##.hongbao_hd
@@ -871,6 +953,7 @@
 ##.iHead960x90
 ##.ibtad
 ##.ima-ad-container
+##.imgBox  div[class^="ad"]
 ##.imgad
 ##.index-top-aassd
 ##.index-top-ad
@@ -894,10 +977,12 @@
 ##.js-adb-msg
 ##.js-checkad-warning
 ##.js-cui-pt-item[data-qhb]
+##.jsv  .mobile-adv
 ##.ka-flo
 ##.kill-adblock-container
 ##.kjk-flo
 ##.ksads
+##.kuandu  .bottommob
 ##.leftAd
 ##.leftadv
 ##.leftd + .rightd
@@ -905,6 +990,9 @@
 ##.leftd2 + .rightd2
 ##.leftd3 + .rightd3
 ##.leo-container .ssr1
+##.link  .image[src*=".qhimg.com/"]
+##.listok  a  img[src*=".alicdn.com"][width="980"][height="80"]
+##.listok  a  img[style^="width:980px;height:"]
 ##.loc-home-top-adv-new
 ##.lol-ad
 ##.lol_ad
@@ -918,8 +1006,14 @@
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
+##.main-content  .a2b3
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.main_adbalert
+##.mainbg  #s11navtop
+##.maomi-content  #main-container  .row.mob40 + .row
+##.maomi-content  .section-banner
+##.maomi-content  .section-menu  .row  a[target="_blank"]
+##.maomi-content  a[target="_blank"]
 ##.mbads
 ##.mdp-deblocker-wrapper
 ##.mediav-newsfeed-listitem-type-1
@@ -946,17 +1040,22 @@
 ##.msg-adblock
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
+##.mylist  a  img[width^="9"][height="80"]
 ##.myplayer_ima-ad-container
 ##.myui-extra + .noticetext
 ##.n-banner--adblocked
 ##.nQIAj
 ##.nQIAj1
 ##.nav-area + .wrapper .tuiguang
+##.newstyle  .container  a[target="_blank"]
+##.newstyle  a  img[src*="img.com/i/"]
 ##.no-ad-reminder
 ##.no-mobile[style="position: fixed;right:0px;bottom: 0px;"]
 ##.noadblock
 ##.nonepc.mad
 ##.nordvpn-popup + .sidebar-vpn
+##.nr_all  .m_f_a.sw_sp
+##.opt  a[target="_blank"]  img[src*=".360buyimg.com"]
 ##.orbui-post
 ##.overBanner.dowloadBtn
 ##.page-wwads
@@ -967,12 +1066,18 @@
 ##.pasuAD
 ##.pcd_ad
 ##.pcgg
+##.photo-two  a[onclick^="_czc."]
 ##.play_list_adbox
 ##.player + .sponsor
 ##.player-bottom-gg
+##.player-info  .recommend-two.recommend-list
+##.player-news  .news-list
+##.player-rm  a[href*="/ad.html?url="]
+##.player-rm  a[target="_blank"]
 ##.player-rm-float
 ##.player_ggw
 ##.playtop.col-pd
+##.plc  .a_p
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-m-overlay
 ##.popup + .shortcuts-mobile-overlay
@@ -983,11 +1088,14 @@
 ##.qpdb + a[href]
 ##.qq_nr_lad
 ##.qzdhf
+##.qzhfaa
 ##.r-ad
 ##.r_ad
 ##.readerListADbox
 ##.readmidad
+##.recommended-grids  .file[style="margin: 5px 2px 5px 2px;"]
 ##.remove-adblock-msg
+##.right  .content  .ads
 ##.right-ad
 ##.rightAD
 ##.rightAd
@@ -998,6 +1106,7 @@
 ##.room-ad-top
 ##.room-ad-video-down
 ##.rotate-adv
+##.row  .gao-bg
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.scupioadslot
@@ -1009,6 +1118,8 @@
 ##.sidead
 ##.sidebar-ad
 ##.siteAnn1
+##.smcms-wrap  .group-box  a[target="_blank"]  img
+##.smcms-wrap  a[target="_blank"]  img
 ##.spon-img[src*=".alicdn."]
 ##.sponsor_image
 ##.spot_nav_under_ad
@@ -1032,8 +1143,12 @@
 ##.textadlist
 ##.textadv
 ##.theme_custom_slidebox-ad-below
+##.thumb-overlay-albums  .col-xs-12[style="display: flex;justify-content: center;"]
+##.title  .gg
 ##.tmall_ad_container
 ##.tmall_bg15
+##.tooltip  #tp
+##.top  a  .topline[src^="/photo/"]
 ##.top-ads
 ##.top-bar-adblock
 ##.top-gg
@@ -1042,6 +1157,10 @@
 ##.topSponsor
 ##.top_ad
 ##.top_ad_ban
+##.top_box  #foot
+##.top_box  #indextop
+##.top_box  #news
+##.top_box  li  a[href^="/js/app.htm?"]
 ##.top_func_ad
 ##.topad1
 ##.topads
@@ -1056,8 +1175,11 @@
 ##.txtguanggao
 ##.ui-ad
 ##.uk-width-1-1.adbox
+##.video-holder  a[target="_blank"]  img[src*=".360buyimg.com"]
 ##.video-item-ads
+##.video_details  .banner
 ##.vodads
+##.w100b  .m_adv
 ##.w_ad
 ##.warning-adblock
 ##.warning-adblock-box
@@ -1069,6 +1191,7 @@
 ##.widget-ads
 ##.widget-qianhuiji
 ##.widget-topadding
+##.widget-xlxb
 ##.widget_ad_rotator
 ##.widget_adbox
 ##.widget_ads
@@ -1080,6 +1203,7 @@
 ##.widget_ui_textasb
 ##.widget_ui_textaub
 ##.wordurl[style="   width: 42%; float:left; text-align: center;"]
+##.wp  .ad-box
 ##.wp.a2_h
 ##.wp.a_f
 ##.wp.a_h
@@ -1088,6 +1212,9 @@
 ##.wpcom_ad_wrap
 ##.wrap + #btmBox
 ##.wrap + #midBox
+##.wrap.mt10.clearfix  .box.top_box
+##.wrapper  #asxv
+##.wrapper  a[target="_blank"]  .ads
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
 ##.wwads-cn
@@ -1102,6 +1229,7 @@
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
+##[class*="ads-
 ##[class*="ads_"]
 ##[class*="ads_border"]
 ##[class*="chp_ads_blocker_detector-show"]
@@ -1113,9 +1241,11 @@
 ##[class*="th-ad"]
 ##[class*="video-view-ads"]
 ##[class*="view-ads"]
+##[class*="xplayer-ads-
 ##[class="ad noadmo"]
 ##[class="phone-ads ads-bg"]
 ##[class="rmadb-info"]
+##[class][data-sitename][data-header-version]  div[id^="detection-
 ##[class][onclick*=".ununxsxs.top"]
 ##[class][onclick="goAppHtml();"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -1127,10 +1257,13 @@
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class^="ad none"]
 ##[class^="appdownload_ad"]
+##[class^="banner-grid-item"]  a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
 ##[class^="bfad"]
+##[class^="col"][class*="padding-0"]  [style]
 ##[class^="naicon btn btn-raised"]
 ##[class^="player-advertising"]
+##[class^="player-rm"][class*="rm-two"][class*="rm-list"]  
 ##[class^="stsxxgtv_"]
 ##[class^="vertical_mobile_ad"]
 ##[class^="videoad"]
@@ -1144,8 +1277,10 @@
 ##[href*="https://kkdh.xhdhyv.com"]
 ##[href*="https://zi.nvurz.com"]
 ##[href="/adad.html"]
+##[href]  .add
 ##[id$="ad-box"]
 ##[id*="theAd_slider"]
+##[id]  .wrap  .clearfix.mod
 ##[id^="ad-index"]
 ##[id^="adDisabledBtn"][onclick][href]
 ##[id^="appss"][style]
@@ -1163,6 +1298,7 @@
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
+##[style^="display: inline-block;margin:"]  a[target="_blank"][href][title]
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
@@ -1171,6 +1307,7 @@
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$=".anwangdaohang.com"]
+##a[href$=".php"]  img[src*=".bcebos.com"]
 ##a[href$="/108mg8.com"]
 ##a[href$="/186ob.com"]
 ##a[href$="/1c626.com"]
@@ -1235,14 +1372,18 @@
 ##a[href*=".c43066a9.com"]
 ##a[href*=".cangpie.com/"]
 ##a[href*=".caohang.com.cn/"]
+##a[href*=".cc:"]  img[src]
 ##a[href*=".celadonstyle.com/"]
 ##a[href*=".cgn8j9f4j3g.com:"]
 ##a[href*=".chengyuhuashi.com/"]
 ##a[href*=".chicagospy.com/"]
+##a[href*=".club:"]  img[src]
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
+##a[href*=".com/av.html?"]  img[src]
 ##a[href*=".com/tg.html?id="]
+##a[href*=".com:"]  img[src]
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
 ##a[href*=".covasco.com/"]
@@ -1347,6 +1488,7 @@
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
 ##a[href*=".tholikiranam.com/"]
+##a[href*=".top"]  img[src]
 ##a[href*=".topnfb.com/"]
 ##a[href*=".trustarticle.com/"]
 ##a[href*=".tsguozikeji.cn"]
@@ -1377,6 +1519,8 @@
 ##a[href*=".xxgxqscl.com/"]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*=".xyanovo.com/"]
+##a[href*=".xyz:"]  img[src*=".qlogo.cn"]
+##a[href*=".xyz:"]  img[src]
 ##a[href*=".xyz?ch=ssmh"]
 ##a[href*=".yabo414.com"]
 ##a[href*=".yabo816.com"]
@@ -1464,6 +1608,7 @@
 ##a[href*="/afu.php"]
 ##a[href*="/aiyoubet178.com/"]
 ##a[href*="/akmh047.vip"]
+##a[href*="/auth/register?code="]  img
 ##a[href*="/av888822.vip/"]
 ##a[href*="/ayx600.com/"]
 ##a[href*="/ayxbet846.vip"]
@@ -1535,6 +1680,7 @@
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/odnb.vip"]
 ##a[href*="/ppffj.me/"]
+##a[href*="/register/?i_code="]  img
 ##a[href*="/shishangta.cn"]
 ##a[href*="/sm003r.tv"]
 ##a[href*="/sm010k.xyz"]
@@ -1565,16 +1711,27 @@
 ##a[href*="/youyicl/youku.html"][target="_blank"]
 ##a[href*="/yyds101.com"]
 ##a[href*="/yyh.net/"]
+##a[href*="://2"]  img[src*=".qlogo.cn"]
 ##a[href*="://4"][href*="/vod."]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
+##a[href*=":10443/"]  img[src$="gif"]
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
+##a[href*="?channelCode="]  img[src*=".com"]
+##a[href*="?channelCode="]  img[src*=".xyz"]
+##a[href*="?channelCode="]  img[src]
+##a[href*="?invite_code="]  img[src*=".com"]
+##a[href*="?register="]  img[src*=".douyinpic.com"]
+##a[href*="?register="]  img[width="100%"]
+##a[href*="b2pk.com/b/a/d/"][href*=".php?"]  img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
 ##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
+##a[href="/bbs/"]  img[src*=".bcebos.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
+##a[href="/forum/"]  img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/static/xzgg/index.html"]
@@ -1590,20 +1747,30 @@
 ##a[href="https://xq97.com"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
+##a[href="javascript:void(0)"][rel="nofollow"][target="_new"]  img[src]
 ##a[href="javascript:window.GoTp();"]
 ##a[href="墮落姬甲"][target="_blank"]
 ##a[href="天下布魔"][target="_blank"]
 ##a[href="極樂夜王"][target="_blank"]
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
+##a[href]  .img[src*="lbsugc.cdn.bcebos.com"]
+##a[href][rel="nofollow"][target="_blank"]  img[class][src]
+##a[href][target="_blank"]  img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
+##a[href][target="_blank"]  img[src="https://vip2.loli.io"]
+##a[href][target="_blank"]  img[src][class="topline"]
+##a[href][target="_blank"]  img[src^="images/gg/"][alt]
 ##a[href][target="_blank"][onclick*="广告"]
 ##a[href][target="_blank"][onclick*="横幅"][onclick*="'value': 500"]
 ##a[href][target="_blank"][onclick*="点击"][onclick*="'value': 500"]
 ##a[href][target="_blank"][onclick*="点击"][onclick*="图标"][onclick*="'value':1"][onclick*="gtag"]
+##a[href][target="_blank"][rel="external nofollow"]  img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
+##a[href^="/ad/"]  img[id][src*="hdslb.com"]
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/redirect?tid="]
+##a[href^="http"]  img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##a[href^="http://ad.doubleclick.net/"]
@@ -1624,15 +1791,40 @@
 ##a[href^="javascript:gl012"] + img
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
+##a[id][target="_blank"]  img[src*="help-ol.bj.bcebos.com"]
 ##a[onclick*=".lyty665.com"]
 ##a[onclick*="/dasp.php?a="]
+##a[onclick*="open"]  img[src*=".dailygn.com/"]
+##a[onclick^="_czc."]  .add
+##a[onclick^="_czc."]  .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
+##a[onclick^="gtag"]  .add
 ##a[onclick^="gtag"][onclick*="广告"]
+##a[onclick^="javascript:pc_"]  img[src*=".alicdn.com"]
+##a[rel="nofollow"][href][target="_blank"]  div[class^="q-responsive"]
+##a[rel="nofollow"][href][target="_blank"]  img[rel="nofollow"][height][width][style]
 ##a[style$="2147483647;"][ontouchstart]
 ##a[style*=".ajzsa.xyz/"]
 ##a[style*=".e-years.net/"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
+##a[target="_bank"]  img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
+##a[target="_blank"]  img.king
+##a[target="_blank"]  img[height="120px"][src*=".c-ctrip.com"][src$=".gif"]
+##a[target="_blank"]  img[height="120px"][src*=".meituan.net"][src$=".gif"]
+##a[target="_blank"]  img[height="120px"][src*=".tripcdn.com"][src$=".gif"]
+##a[target="_blank"]  img[height="120px"][src*="qlogo.cn"][src$=".png"]
+##a[target="_blank"]  img[height="60px"][src*=".126.net"][src$=".gif"]
+##a[target="_blank"]  img[height="60px"][src*=".360buyimg.com"][src$=".gif"]
+##a[target="_blank"]  img[height="60px"][src*=".alicdn.com"][src$=".gif"]
+##a[target="_blank"]  img[height="60px"][src*=".c-ctrip.com"][src$=".gif"]
+##a[target="_blank"]  img[height="60px"][src*=".lenovo.com"][src$=".png"]
+##a[target="_blank"]  img[height="60px"][src*=".meituan.net"][src$=".gif"]
+##a[target="_blank"]  img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
+##a[target="_blank"]  img[height="60px"][src*="qlogo.cn"][src$=".png"]
+##a[target="_blank"]  img[src*=".bitautoimg.com/"][src$=".gif"]
+##a[target="_blank"]  img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
+##a[target="_blank"][href*="/jump-"]  img[src][style]
 ##a[target="_blank"][onclick*="广告点击"]
 ##adblock-detect
 ##adblock-modal-component
@@ -1649,21 +1841,45 @@
 ##amp-sticky-ad
 ##bkveng
 ##body .has-ad
+##body  div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
+##body  div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
+##body  span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
+##body  style + div[id="ics"]
+##body.page  .popup
+##body[onload*="u()"]  #x
+##body[ontouchstart]  #topBox
 ##button[data-openuri="|BTN_URL|"]
 ##button[onclick*=".xacg.info/"]
+##center  a[target="_blank"]  img[style="padding- bottom:5px;width:960px;height:120px;"]
+##center  a[target="_blank"]  img[style="padding- bottom:5px;width:960px;height:60px;"]
+##center  p  a[target="_blank"]  img[width="728px"][height="90px"]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
+##div  span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div#ad_id
 ##div#xinxi
 ##div.ad-nav-box
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[align="center"]  a[href^="/url/"]  img[src*=".alicdn.com"]
+##div[align="center"]  a[href^="/url/"]  img[src*=".qpic.cn"]
 ##div[bannerlist]
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
+##div[class$="d"]  span[class^="closebox"]
+##div[class$="pic"]  span[class^="closebox"]
 ##div[class*="clearfix-ads"]
+##div[class*="col"]  a[rel="nofollow noopener noreferrer"][href][target="_blank"]
+##div[class*="col"][clearfix]  a[target="_blank"][onclick][href]
 ##div[class*="featherlight"]
 ##div[class*="ff-ads"]
 ##div[class*="invideo-native-adv_"]
+##div[class*="is_"]  a  img[referrerpolicy="no-referrer"]
 ##div[class*="video-item--adv"]
+##div[class="links"]  a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
+##div[class="main_column"]  div[class="VIP"]  a[class="hot"][href]
+##div[class][id][style]  .pic_container
+##div[class^="col-sm"]  div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
+##div[class^="hengfu"]  a[href][target="_blank"]
+##div[class^="is_"]  a  img[referrerpolicy="no-referrer"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="ps_"][value="20"]
@@ -1671,9 +1887,14 @@
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id="videoMask"]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
+##div[id][style="width: 100%;"]  div  div  iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[id][style="width: 100%;"]  div  iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[id^="a"]  a[target="_blank"][style="margin-top:3px;"]
+##div[id^="a-loading-"]  span
 ##div[id^="ad_thread"]
 ##div[id^="adv-"].adv
 ##div[id^="div-gpt-ad"]
+##div[id^="em"]  a[onclick^="em"][max-width]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[id^="rfads"]
 ##div[id^="test"][style*="fixed"][style*="position:"]
@@ -1693,12 +1914,15 @@
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[onclick^="window.location.href"][onclick*="apps.apple.com/cn/"]
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
+##div[style=" max-width:985px;  margin:0 auto;"]  a  img[height="60px"]
+##div[style=" max-width:988px;  margin:0 auto;"]  a  img[height="120px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
 ##div[style="display:none;"] + script + #container.container
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
+##div[style="width: 100%;"]:not([id]):not([class])  iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
 ##div[style^="position"][onclick^="window.open"]
@@ -1707,12 +1931,23 @@
 ##div[style^="position:fixed;inset:0px;z-index:100000;height:100%;width:100%"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 ##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01;"][style*="cursor:pointer"]
+##div[style^="width: 100%;"]:not([id]):not([class])  iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
 ##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="opacity: 100;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="overflow: hidden;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##dl#listwoBox
+##header + #main:nth-child(n+3)  .container-fluid.mb-0.p-0
+##header + #main:nth-child(n+3)  .container-fluid.mb-0.p-0 + .jsv-g1
+##header + #main:nth-child(n+3)  .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+3)  .jsv.jsv-g1.mb-0  .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+4)  .container-fluid.mb-0.p-0
+##header + #main:nth-child(n+4)  .container-fluid.mb-0.p-0 + .jsv-g1
+##header + #main:nth-child(n+4)  .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+4)  .container-fluid.mb-3.p-0 + .jsv-g1
+##header + #main:nth-child(n+4)  .jsv.jsv-g1.mb-0  .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+4)  div[id^="po-s"]:not(#po-shd)
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*=".xxmh891.com/"]
 ##iframe[src*="//a.adtng.com"]
@@ -1775,13 +2010,18 @@
 ##img[style][alt][src*="/data/ds3/"][src$=".php"]
 ##img[style][alt][src*="/data/game/"][src$=".gif"]
 ##img[width="320"][height="50"]
+##li[class="dataic"]  a[href*="/?channelCode="][target]
+##li[class="dataic"]  div  a[href][name="点击播放"]
+##li[id^="dataic"]  div  a[href][name="点击播放"]
 ##p[style^="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background:"]
 ##script + #coupletBox
 ##script + #rbbox
 ##script + #strl
 ##script + #strl + div[style]
 ##script + [id][style="width:100%;height:auto;min-height:120px;position:relative;display:block;"]
+##script + a[href]  img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
+##script + a[target="_bank"]  img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
 ##script + div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 ##script[src$="/base.js"] + #couplet
@@ -1795,11 +2035,13 @@
 ##style + .topd + .bottomd
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"]  table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
 #@##Ad300x145
 #@##Ad300x250
 #@##Ad728x90
+#@##AdAre
 #@##AdBox160
 #@##AdContainer
 #@##AdDiv
@@ -1841,6 +2083,7 @@
 #@##adTeaser
 #@##ad_300
 #@##ad_728
+#@##ad_are
 #@##ad_big
 #@##ad_box
 #@##ad_channel
@@ -1918,6 +2161,7 @@
 #@#.dfp-ad
 #@#.dfp-ad-unit
 #@#.fs_ads
+#@#.g
 #@#.googleads
 #@#.has-ad
 #@#.home_top_right_ad
@@ -1935,6 +2179,7 @@
 #@#.main_advert_section
 #@#.main_intro_ad
 #@#.main_right_ad
+#@#.main_wrapper_upper_ad_are
 #@#.mainadWrapper
 #@#.mainadbox
 #@#.mango_ads
@@ -2526,13 +2771,18 @@
 015.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,04141.com.ua,0432.ua,04563.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,0462.ua,0472.ua,048.ua,04868.com.ua,0512.com.ua,05136.com.ua,05161.com.ua,0522.ua,0532.ua,05366.com.ua,0542.ua,05447.com.ua,0552.ua,056.ua,0564.ua,0566.com.ua,0569.com.ua,057.ua,061.ua,06153.com.ua,0619.com.ua,0623.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,0629.com.ua,0642.ua,06452.com.ua,0652.ua,0692.ua,1rnd.ru,3652.ru,3654.ru,3849.com.ua,44.ua,4594.com.ua,5692.com.ua,62.ua,6262.com.ua,6264.com.ua,65.media,7232.kz,8422city.ru,anapa.life,angarsk38.ru,bazhopol.ru,city01.am,city41.ru,comores24.com,go01.ru,go11.kz,go212.by,go216.by,go26.ru,go31.ru,go61.ru,go7812.ru,godublin.info,golondon.info,goriga.info,gorod3466.ru,gorodarmavir.ru,goroddomodedovo.ru,goshymkent.kz,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,infolyubertsy.ru,inform69.ru,vilniuje.info,yocity12.ru##.bung-container
 101.ru##.showMessageAdBlock
 11fzw.com##.index-top-ad
+11fzw.com##a[href*="go.php?url="][target="_blank"]  img[src]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"]  img[alt][src$=".gif"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"]  img[alt][src]
+1snau.ru,bychico.net,dyrik.ru,ecosounds.net,in-drive.ru,inforpost.com,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,turbominer.ru##body  div[style*="z-index"][style*="9999"]
 24video.xxx##.adt
 2cycomic.com,yemancomic.com##[href*=".xacg.info/"]
 2cycomic.com,yemancomic.com##[onclick*="javascript:location.href="]
 2cycomic.com,yemancomic.com##div[style^="width: 100%;background-color: black;color: white;padding: 0px 0;"]
 2cycomic.com,yemancomic.com##div[style^="width: 100%;background-color: black;color: white;padding: 15px 0;"]
+2ip.me,2ip.ua##.alert-mess  .row
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,solidworksvideo.ru,wordvideo.ru###prozrachnyi2,#video_window2
 3g.163.com,m.163.com##.floatMenu-logo
 3g.163.com,m.163.com##.js-area-aboveTieList.area-above
@@ -2554,6 +2804,7 @@
 6446.tv,lgyy.tv,lgyy.cc##[id^="syad"]
 69vj.com###vban
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
+7sim.net##html  body ~ div
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/oklist/vars.js
 ://*:*/yeyue.html?k=$csp=script-src
@@ -2633,6 +2884,7 @@
 :99/js/ads/
 =AdCode_$script,third-party
 =AdCode_sjdb
+=Ad_ZGoods&
 =BAIDU_SSP_define&
 =SOGOU_WAP_SETJSONADSLOT&
 =ad_top_slider&
@@ -2723,6 +2975,7 @@
 @@||ptitchef.com/js/ads.js
 @@||qpython.club^$generichide
 @@||shahid.mbc.net^$generichide
+@@
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||static.koreus.com/js/advert.js
 @@||static.tieba.baidu.com/tb/editor/images/client/image_emoticon*.png
@@ -2769,15 +3022,20 @@ _yad_jsonp_
 abc-fonts.me###galepro-core-adb-enabled
 abc-people.com##div[style*="background-color"][style*="position"][style*="z-index"]
 acomics.ru##div[style*="/design/common/pic/please"]
+admin.rainbow-online.ru,fastpic.ru,gitjournal.tech,logist.uxxo.ru,maxpark.com,meteoservice.ru,newsland.com,pawno-info.ru,smolensk-auto.ru,smolensk-auto.site##body  div[id]:not([class])[style="display: block;"]
 adultdeepfakes.com##[class^="root--"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 alexfilm.cc##.panel-primary
 andevice.ru,dietdo.ru##.adb-def
+anime-bit.ru##.layer_box  #header
+anime.anidub.life,myanime.online,online.anidub.com#?#div[style^="position: fixed;"]:-abp-has( :-abp-contains(Обнаружена блокировка рекламы))
 animedub.ru##.poverh
 animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jeanzzz.ru##.no-adb
+anticollector.biz.ua,cnc3018.ru,factorio.su##body  div[class][style*="background"][style*="display: 
 aratta-ukraine.com,drawnstories.ru,gisclub.tv,kinda.media,teremok.org.ua,webos-forums.ru###mdl_adb
 artfile.me###jadb
 asn.in.ua,beadeath.dclans.ru###mdl_ctnr
+audio-hi-fi.ru,electro-sila.ru##.blok_new  div[style]
 auto62rus.ru,eset-key.ru,mycrib.ru,piggy-bank.online,politonline.ru,showmehow.ru##[data-type="anti-abp"]
 autohome.com.cn###float_bottom_button
 autohome.com.cn###float_new_button
@@ -2795,6 +3053,7 @@ autohome.com.cn##.slideIn.summary-dealer-yiliu
 autohome.com.cn##.union-ad-placeholder
 autohome.com.cn##[class$="-loading"][data-action="loading"][id="loadMore"]
 autohome.com.cn##ol
+baidu.com###header  div:last-child  div  a:first-child
 baidu.com##.barea-ad
 baidu.com##.brand-entry
 baidu.com##.ec_ad_results
@@ -2818,12 +3077,15 @@ baike.baidu.com##[class^="yitiao-"]
 baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
 baike.so.com##[id^="business-flow"]
 bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##div[style^="background:#444;"]
+bdmbase.ru##html  .q1
 besplatka.ua##.adBl
 biggestplayer.me##.adblock + *
 biggestplayer.me##.masr
 biggestplayer.me##.soret
+bigpuzzle.ru##td[valign="top"][width="200px"][height="600"]  div[style]
 bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
 bing.com###BottomAppPro
+bing.com###b_results  li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
 bing.com###banner
 bing.com###bingBrand
 bing.com##.OpInNwWndw
@@ -2832,6 +3094,7 @@ bing.com##.adsMvC
 bing.com##.b_ad
 bing.com##.b_adBottom
 bing.com##.b_adLastChild
+bing.com##.b_poleContent  #ifeu
 bing.com##.bnp_rich_div_visible.bottom
 bing.com##.bnp_rich_div_visible.top
 bing.com##.mapsTextAds
@@ -2856,13 +3119,18 @@ boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##[data-group]
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##[style*="min-height:"][style*="border-bottom: solid"]
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##[style^="bottom:"][style*="position: absolute;"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##a[href][target="_blank"]  img[alt][src$=".gif"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##div  div  a[href="https://"][target="_blank"][rel="nofollow"]
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##div[class$="_"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##div[style="display: 
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##img[src^="//boyloves"][src*="/static_pc/nb/"][src*=".php?"]
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##video
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc#?#:-abp-has(.adsbyexoclick)
 bqg33.com##a[href][target="_blank"],font[color="red"]
 brazzers-hdx.club##.adblck
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
+budport.com.ua##body  div[style^="position:fixed;"][style*="z-index"][style*="background"]
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
 bycard.by,goodfon.ru,old-games.ru,satsis.info,swordmaster.org##.adb
@@ -2873,10 +3141,13 @@ ceesty.com,clkme.me,clkmein.com,cllkme.com,corneey.com,destyy.com,festyy.com,ges
 chahid4u.tk###unblocker
 che168.com##.talkprice.liaoliao.float-zixun
 chejiahao.m.autohome.com.cn##.pgc-details-recommend-list
+chipinfo.pro###content-container  div[style^="position: fixed;"]
+closermag.fr##div[id^="detection-
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
 cofp.ru##.admitad-checker-popup
 comptoir-info.com#@#.textad
 cowcotland.com,wamiz.com###adblocker
+cs-amba.ru##.bank
 cxem.net###antiAdBlock
 czx.to###vdl_ctnr
 d1bzw.com##[id="appurl"],[id="bbsurl"]
@@ -2885,7 +3156,10 @@ d3.ru##section[data-uid="ad"]
 d3.ru##section[data-uid="extraAd"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
 darkteam.net##.pls_rmv
+daz3d.ru,portfel.info##body  div[id][style="display: block;"]
 dbz-fantasy.com#@##adTeaser
+ddys.art##div  a[href][target="_blank"]  img
+ddys.art##div  span  a  img
 dealerdunet.fr#@#.text_ads
 debrideurstream.fr#@##pubdirecte
 delfi.ee###ab--notification-ribbon
@@ -2894,19 +3168,25 @@ delfi.lv##.notification-widget
 diantaiwang.com##a[href^="https://s.click.taobao.com/"][target="_blank"]
 diantaiwang.com##img[src^="/js/imgs"]
 dm590.com##.external
+dmh8.me,dm88.me##.padding-0  ul[style]
 dmh8.me,dm88.me##div[id^="test"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmh8.me,dm88.me,bccn.net##img[src*="data:"]
 dnaav.com##div[id^="dnaav_b"]
 doctorrouter.ru##.jgcabd-container
+dominus.kiev.ua##body  #myModal
 dressupmix.ru,teensgames.ru###adblock_popup
+drive2.ru##a[href][target="_blank"]  img[src][style^="width: 100%; height: auto;"][style*="vertical-align: middle; max-width: 240px;"]
 drive2.ru##img[src^="https://avatars.mds.yandex.net/get-adfox-content/"]
+drive2.ru#?#div[class]:-abp-has( div[id][class]  a[href]  img[src^="https://avatars.mds.yandex.net/get-adfox-content/"])
 dropmefiles.com.ua,dropmefiles.net##.intro
+dtf.ru,vc.ru##.layout__right-column  div[class*=" "][style]  div[class*=" "]  div:only-child
 dyjihe8.com##div[style*="text-indent: -10000px !important; line-height: 0px !important;"]
 dz-android.com,freeiphone.fr,hommedumatch.fr,jetetroll.com,testious.com#@##adsense
 dzfoot.com##.messageB
 e-xecutive.ru##.warning
 efukt.com##[data-ad-type]
+electric-house.ru##.blok_forum  div[style]
 elhow.ru###b-info-wrapper
 eporner.com##[id^="admobile"]
 etr.fr##.no_block
@@ -2915,52 +3195,83 @@ euroiphone.eu##.div-download-h
 euroiphone.eu##.div-download-v
 events.baidu.com##.bottom-img
 exler.ru##.adblock-pls
+factorio.su##body  div[id][class][style*="background"][style*="visible"]
 fairytailmx.com#@##sponsored-ad
+fanfics.me##.red.nodat
 fanyi.baidu.com##.app-bar
 fanyi.baidu.com##.bottom-intro
 fanyi.baidu.com##[class^="jifeng-"]
+fightnews.info##body  blockquote
+filmix.ac,filmix.gay,filmix.homes,filmix.life,filmix.tech,filmix.zone###oframeplayer  #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
 filmix.ac,filmix.gay,filmix.homes,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
 financerites.com##div[id^="__vliadb"]
 findretros.com##.fuck-adblock
 finfront.ru##div[class^="swal2"]
+finget.ru,katalog-aktsii.ru,rp5.by,rp5.kz,rp5.ru,rp5.ua,sms24.info,sms24.me,vikings-warofclans.ru##body  div:not([id]):not([class])[style^="position"][style*="background"][style*="z-index"]
 flightradar24.com###bottomRightPanel
 flightradar24.com###responsiveBottomPanel
 forum.bestflowers.ru###exposeMask
 forum.bestflowers.ru##.xenOverlay
+forum.pcastuces.com##div  [src] + [id] + [class][style^="display: block;"]
 forum.qrz.ru,life.ru,mastergrad.com,wallpapershome.ru##.adblock
+forum.vip-cxema.org##body  #document_modal.modal,#some_ad_block_key_popup
 forum.virtualdjing.com#@#.adFrame
+forumdz.com##body .breadcrumb + center  [color="red"]  b
 fotoshop-online.org##.aslot
+fotoshop-online.org##section  .col-full + script + center[class]
 freelogovectors.net##div[class^="popup"]
+frkp.lol###film  #content  span[style="color:#ff6a00;"]
 fstore.biz#@##adblockinfo
 gamaniak.com#@#.adsbygoogle
 gamcore.com##[class*="adn-"]
 game2.baifumeiba.com###gotoPlay
 game2day.ru##div[class^="adblock_"]
 gamesubject.com###headb
+gaming.co.ua,pingvin.pro##body  div[id][class][style*="z-index"][style*="9999"],body  div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
 ganoderma-mushrooms.com,korrektor.name,varicream.org###turn_advert.adblock
+gdekluet.ru##body  div[class^="stop-
+gegejimeng.com##a[href]  img[src*="bdxiguaimg.com/"]
+gegejimeng.com##a[href]  img[src*="m.360buyimg.com/"]
+gisher.org##body  div[id^="ban"][style]
+gismeteo.by,gismeteo.ru##div[class^="stop
 gk-stalker.xyz###gkadblock
 go.mail.ru##.js-adb-msg
 goha.ru#@#.goha_ads
 goha.ru#@#.goha_ads_acceptable
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###atvcap + #tvcap  .mnr-c  .commercial-unit-mobile-top
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###atvcap  .cu-container  div  div[data-pla="1"]
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###center_col  #taw  #tvcap  .cu-container  .commercial-unit-desktop-top
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###tads[aria-label]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###tadsb[aria-label]
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs  .iKidV  .Ee92ae + .P2mpm + .hp3sk
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs  div[jscontroller="YD5eo"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs:not(.mnr-c)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-bottom
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top .jackpot-main-content-container  .UpgKEd + .nZZLFc  div  .vci
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top  .v7hl4d
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top  div[data-pla="1"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##AMP-AD
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##[data-text-ad]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##a[href^="https://www.googleadservices.com/pagead/aclk?"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##button[jsaction="pane.adBanner.whyThisAdClick"]
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##c-wiz[jsrenderer="YnuqN"]  div  div  .Rn1jbe
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div#main  div.D1fz0e
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[aria-label="Ads"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-crl="true"][data-id^="CarouselPLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-ismultirow="true"][data-id^="CarouselPLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jstcache]  a[href^="/aclk?"]
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[role="navigation"] + c-wiz  div  .kxhcC
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div.azyBPe:-abp-has(span.jHLihd)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div.azyBPe:-abp-has(span.jHLihd) + div
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div.sbsb_c:-abp-has(span.jHLihd)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:"]:-abp-has(span.irmCpc)
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(div[class*="-haAclf-"]  div.UzWqLb)
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-badge-haAclf"]  span[class$="-badge"])
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-haAclf"]  span  button)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane."]:-abp-has(span.jHLihd)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="pane."]:-abp-has(span.ARktye-Btuy5e)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="pane.place.carousel.card"]:-abp-has(span.ARktye-badge)
@@ -2968,21 +3279,25 @@ google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,
 google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk##div[style^="margin-bottom:15px"][class^="jsx-"]
 google.co.uk##.GBTLFYRDM0
 google.com###tadsc
+google.com###topstuff  #wmxmsg
 google.com##.GC3LC41DERB + div[style="position: relative; height: 170px;"]
 google.com##.GGQPGYLCD5
 google.com##.GGQPGYLCMCB
 google.com##.GISRH3UDHB
 google.com##.nH.MC
+gta.com.ua##body  div[id][style*="background"][style*="visible"]
 hanyu.baidu.com###download-wrapper
 hanyu.baidu.com##[id^="fengchao_els"]
 hearthhead.com,thottbot.com,wowhead.com##.sidebar-bg
 hearthhead.com,wowhead.com##.block-bg
 helpsetup.ru##.veramoy
 hitline.org.ua##.bantop
+homerun.re,strikeout.co,vipbox.sx,vipleague.ch,vipleague.co,vipleague.is,vipleague.me##span[id][style]  div[id]:first-child:last-child
 hypebeast.com,hypebeast.kr#@#.ad-blocked
 i.factor.ua###adb-info
 i.factor.ua##[data-place-block]
 ideya-biznesa.ru##.admania_adblock_detector
+idmzj.com##.Introduct  div  div  div
 idmzj.com##.bottomDown
 idmzj.com##[class$="close"][href="javascript:;"]
 idmzj.com#@#[onclick*="app"]
@@ -2991,11 +3306,16 @@ ifeng.com##[class^="appRecommend"]
 ifeng.com##[class^="bottom_box"]
 ifeng.com##[class^="fixSlideBox-"]
 ifeng.com##[class^="hot_box"]
+igorchernomoretz.com##body  div[id^="ab"]
+igorchernomoretz.com##body  div[id^="ab"] + div[style*="cursor"]
 imgrutor.com,playtor.tv##div[class^="adblock-warning"]
+in-trend.biz##body  [id][style^="z-index"]
 info-mage.ru###helpme[style="display: block;"]
 internet-law.ru###fab-enabled
 iphonesoft.fr,iphonetweak.fr###msgUser
 irk.ru##.b-adblock-message
+it-enginer.ru##body  #modal[style*="blur"]
+ivi.ru##.ivi-footer ~ div[class]  style + div[class]
 iwin.com#@##sponsorText
 ixbt.com##.fc-ab-root
 izmailov.tv##.popupBlock
@@ -3015,6 +3335,7 @@ jingyanlib.com##[class$="-ad"]
 jingyanlib.com##div[id^="adIndex"]
 jinxiyue.com##a[onclick^="qinlintest"]
 journaldugeek.com##.banner__content
+just-for-fun.ru##body  div[class*="-container"][class*="-hide"]
 kaermorhen.ru###top-line-container
 kanobu.ru##.c-moneyPlace_empty
 kimo.ma##.adb
@@ -3022,6 +3343,7 @@ kinoafisha.ua##.turn-off-add-block-text
 kinoprofi.net##.warning-adblock
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
 kissvk.com###madBlockModal,.modal-backdrop
+koolhydraatarmerecepten.info##body  [style^="z-index: 1000000; "]
 kubik3.ru##.adbs
 l-a-w.ru,mhelp.kz##.swal2-container
 lagrosseradio.com###warn
@@ -3044,12 +3366,14 @@ m.douban.com##.write-comment
 m.douban.com##[href^="https://www.douban.com/doubanapp/card/get_app"]
 m.douban.com##[src^="//at4.doubanio.com/"]
 m.douban.com##[src^="https://at4.doubanio.com"]
+m.douban.com##div.center  div  div
 m.hupu.com##.hupu-footer-btn
 m.hupu.com##.open-hupu
 m.iask.sina.com.cn###hot_answer_search
 m.iask.sina.com.cn##[class^="hot-search"]
 m.iask.sina.com.cn##[class^="hot-top-con"]
 m.iask.sina.com.cn##[class^="hotop-"]
+m.iask.sina.com.cn##[class^="likeness-answer-"]  a[href^="https://m.iask.sina.com.cn"][target="_blank"]
 m.iask.sina.com.cn##[class^="new-similar-dl"]
 m.iask.sina.com.cn##[class^="related-"]
 m.iask.sina.com.cn##[class^="wb2_look"]
@@ -3079,18 +3403,23 @@ m.wannianli8.com##.cesuankuang
 m.wannianli8.com##.csbox
 m.youdao.com##.banner-item
 m.youdao.com##.top-download
+ma.by###bodysubcont  div[style^="padding"]:not([id]):not([class])
 madou.club##a[href*="//www.pssy.xyz"]
 madou.club##a[href][target="_blank"][rel="nofollow noopener"]
 maigoo.com##[class*="ads"]
 mail.rambler.ru##.notification-warning
 malekal.com##.topad
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##.index-banner  [class*="swiper-container"]
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##[class^="swiper-slide"]  a[target="blank"][rel="nofollow noopenner"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##[data-group="ad_common_tool_bar_top"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##[data-group^="ad_chapter_top"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##div[style*="margin: 10px;"][style*="border-radius: 20px;"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##input[alt][src^="/static/custom/files/"][type="image"]
+manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun#@#.ad-are
 math-prosto.ru###requestShutOfBlocker
 mbd.baidu.com##.drag-bottom
+md4u.ru###pagecontent  div[style*="background-color"]
 mediafire.com###abnotify
 medical-club.net##.blocker-notice,.blocker-overlay
 megatest.online##.msg-AdBlock
@@ -3106,17 +3435,27 @@ missav.com,missav888.com,missav123.com##[class^="root--"]
 missav.com,missav888.com,missav123.com##[href*="//bit.ly/"]
 missav.com,missav888.com,missav123.com##div[class^="flex justify-center"]
 missav.com,missav888.com,missav123.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
+mnogoto4ka.ru###sb-site  div[class][style*="z-index"][style*="999999"]
 monacomatin.mc,nicematin.com,varmatin.com##.RhooBg
 monacomatin.mc,nicematin.com,varmatin.com##.modalRhoo
+mover.uz###oframeplayer  [class][style^="display: 
 msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
+music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body  div[style^="min-height"]  .notify
+music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body  div[style^="min-height"]  .notify *
 myanimelist.net##._unit
+myshared.ru###download_form  .uk-margin-top[style]
+natural-cosmetology.ru##body  div[style*="background-color:#ff0000;color:#ffffff;"]
 nautiljon.com###cmsg
 nevasport.ru##.adblock-notify
+newkaliningrad.ru##body  .soclinks + script + div[class]:not([id])
+newnavitel.blogspot.com##.post-body  div[dir]  div[dir]  h1#result
 nexusmods.com##.areplacer
 nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #313131;"]
+nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm-club.ws,nnmclub.to,nontorclub.in.net##body  .request
 nonameno.com,rusrek.com##.alert
 novostroy-m.ru###advert_result
+numberempire.com###toplink  h3[style="color: red"]
 nv.ua##img[src="/images/dis_blocker_big.jpg"]
 nxnba.com##.bootom-fixed
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
@@ -3126,6 +3465,7 @@ ostroh.info###modal.modal-bg
 ot-boutique.fr#@##publicite
 outlook.live.com##.N3k7EN5vRGTrONWBPg250
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+painart.ru##body  div[id][style^="display: block"][style*="background: red"]
 pan.baidu.com##.share-error-ad
 papergeek.fr##[id^="padb_widget_"]
 pastenow.ru###google-block
@@ -3135,12 +3475,16 @@ peers.tv##.moanerwrap
 ph4.ru##div[style^="width: 728px; height: 90px;"]
 ph4.ru##table[width][height="90"][style]
 photolessons.org###modal-adbmon-div
+pic4you.ru,pic5you.ru##body  #bb
 piratia.su###block-warning
+pkmods.com##body  div[style*="z-index"][style*="background"]
 pl#@#.ad
 pl#@#.ads
 pl#@#.advert
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-right:5px;color:#FFF;  background-color:#666;font-family:Maven Pro,century gothic, arial, helvetica, sans serif;padding-top:94px;  height:600px;  padding-left:5px; font-size:18px; "]
+playunturned.ru##.side_left  center
+playunturned.ru##.side_right  center
 pln-pskov.ru###check_ad_block
 polska-ie.com#@##adsense
 poncy.ru###hide-adblock
@@ -3148,7 +3492,9 @@ pornfind.org,pornbest.org,ptt.sex,pornlulu.com##[id^="bottom-ads"]
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.links.row
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.row.links
 pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,youporn.com###pb_template
+pornhub.com###singleFeedSection  .emptyBlockSpace
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
+pornhub.com,pornhubthbh7ap3u.onion##figure  [id][style="display: block;"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[src^="bLob:"]
@@ -3156,9 +3502,12 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##div[onclick*="bp1.com"]
+poznamka.ru##body  [id]:not([class])[style^="z-index"]
 ppc.world##.detected-block-modal
 ppc.world##.js-detected-block
 pr-cy.ru##div[id^="aabb"]
+professorweb.ru###submain  div[class^="a"][style]
+provinceinfo.ru###header  .container  a[href="/menu"] ~ h2
 pvcalc.ru##div[style^="position:fixed; top:0px; left:0px; opacity: 0.9;"]
 pythonworld.ru##.pythonworld-contributor
 qaru.site##.similar.a[style]
@@ -3181,10 +3530,13 @@ rusopen.com##.classblsi.addshr
 rutab.net##div[class^="ggmodale"]
 sanstv.ru###adblock
 savevideo.me##div[id^="ads_notice_"]
+savevideo.me##td  div[class]:not([id])[style*="important"]
 scantrad.net##.adbon
 sd-company.su###dom_adblock
 sdamgia.ru##div[style^="text-align:center; color:red;"][style*="font-size:16px"]
+sdamgia.ru##main  div[class*=" "]:nth-child(-n+2)  div ~ div
 sexmod.pw,md91av.top,twavbook999.cc,siaoredbook.cc,mitaonuhai.cc,gipinreba.cc,r18lumod.cc##[class*="topads"],[class*="tads"],[class*="bottomads"],[class*="bads"],[class*="leftd"],[class*="rightd"],a[target="_blank"][href][onclick]
+shadbase.com##img[alt="ad
 shahid4u.club#@#.adsBox
 shuba.life##.md\:u-block
 shuba.life##img[height][src^="https://shuba.life/static/banners/placeholders/"]
@@ -3219,6 +3571,7 @@ sm.cn##.ad-dot-container
 sm.cn##.ad-wolong-container
 sm.cn##.ali_row[ad_aid]
 sm.cn##.article.ali_row + #sc ~ .article.ali_row
+sm.cn##.c-container  div[data-sc*="etao"]
 sm.cn##.crumb-link + .other
 sm.cn##.ec-goods-list
 sm.cn##.oab-ball-wrap
@@ -3243,7 +3596,12 @@ so.com###js-mh-news-sdk-sad
 so.com###js-mod-fixed-float
 so.com###mohe-360pic_ext--normal
 so.com###mohe-biu_dianshang
+so.com###mohe-biu_gouwu  .g-card
 so.com###mohe-etao_shangye
+so.com###mohe-gouwu  .g-shadow
+so.com###mohe-m-smzdm_haoji
+so.com###mohe-medicine_sy  .cont
+so.com###mohe-product_gouwu  .g-card
 so.com###mohe-right_windows_ads
 so.com###msocomBottomBanner
 so.com###news-loadingMore
@@ -3263,6 +3621,7 @@ so.com##.js-busi-item
 so.com##.js-business-list
 so.com##.js-guess-list
 so.com##.js-left-rec-busi
+so.com##.js-show-dat
 so.com##.map_business_con
 so.com##.mh-sad
 so.com##.news-list
@@ -3273,6 +3632,7 @@ so.com##.spread
 so.com##.windisplayCell
 so.com##a[data-log*="cpc"]
 so.com##div[id^="guang-"]
+so.com##div[id^="mohe-biu_360"]  .g-card
 so.com##li[data-cpc_query]
 so.com##li[data-id^="cm_display_init_text_"]
 sogou.com###PZL
@@ -3282,12 +3642,15 @@ sogou.com###appNewsBtn
 sogou.com###appRedPackageAd
 sogou.com###bottom_appad
 sogou.com###detailRightAd
+sogou.com###emailLogin  div.hd-slider
 sogou.com###sogou_vr_21222401_wrap_0
+sogou.com###text_ad_are
 sogou.com##.ad-img-bt + .picContainer
 sogou.com##.ad_result
 sogou.com##.aside-qcode
 sogou.com##.bottombar
 sogou.com##.game-op
+sogou.com##.hd-slider  .slider-container
 sogou.com##.js-ad-item
 sogou.com##.mobad
 sogou.com##.pop-tuiguang
@@ -3306,8 +3669,10 @@ sogou.com##A[data-log*="PicAd"]
 sogou.com##div[class^="news-top-banner"]
 sogou.com##div[class^="rt-gameright"]
 sogou.com##ul[class^="atAd"]
+sogou.com#?#div[class^="right-feedback"]:-abp-has(.list-step-title:-abp-contains(网游))
 soonnight.com##.display_natural
 sostav.ru###rek_blocker
+space.utema.ru##.main-content-padding  div[class]:not([itemprop])
 spanishdict.com##.whitelist
 spankbang.com###interstitial_div_v2
 spankbang.com###interstitial_div_v3
@@ -3315,6 +3680,7 @@ spankbang.com##.ptgncdn_holder
 spankbang.com##[class*="_ad"]
 spankbang.com##[class="thumb is_live"]
 spankbang.com##[class^="lv_cm_int_"]
+spankbang.com##div[class*="top"]  img[src][class*="cls"]
 spele.nl##.adblocker
 sport-express.ru##.se-adv-notice
 sprashivalka.com##.ad
@@ -3339,8 +3705,11 @@ stalkerportaal.ru##.video_adsense
 strikeout.co,vipbox.sx,vipleague.co,vipleague.is##div[style="display: block;"]
 stroi-help.ru##.alert_warn
 sv.baidu.com##.open-button-wrap
+swaego.ru##body  .special-message-wrapper
 taisinba.com,taimadou.com,rapidtai.com##.top-phonehome
 tassbiz.ru##.adblock_notif
+technologypep.com##.main-container-wrap  div[class$="-bg"]
+technologypep.com##.main-container-wrap  div[id][class][style*="opacity"]
 techonthenet.com###sabl
 telesputnik.ru##.adbPopup
 the-village.com.ua##.infoA
@@ -3352,21 +3721,26 @@ tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##a[href*="/baidu.php?url="]
 tieba.baidu.com##div[add-shield-track]
+toolslib.net##.row  .col-md-7  .panel-default
 topcraft.ru##.ad-info
+torrnado.win##body  div  .a-overlay
 tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
 trackr.fr##.alert-dashed
 tsn.ua##.c-aside__port
 tuchkatv.ru##.adb_m
+tut.by##body  div[style*="position: fixed;"][style*="right: 0;"]
 tvcook.ru##.cat
 txxx.com##[class*="popup"]
 txxx.com##a[href][rel="nofollow"][target="_blank"]
 uakino.club##.side-content-adblock
 ucoin.net###bottom-notice
+ukr.net##body  .yellow-die
 usgang.ch###rectangle-wrapper
 veseloeradio.ru##.racy_sidebar
 vesti-ukr.com###adblockpopup
 video.sina.cn##section.Card_Mb16
 videobug.net,videofun.me,vidzur.com##.randid
+videofun.me###flowplayer  div[class][style]:first-child
 view.inews.qq.com##[class*="downloader-"]
 view.inews.qq.com##[class^="style_floatingRight__"]
 vk.barkov.net##.alert-danger
@@ -3407,9 +3781,11 @@ www.zhihu.com,zhihu.com##.Pc-word
 www.zhihu.com,zhihu.com##.QuestionAdBanner
 www.zhihu.com,zhihu.com##.RelatedReadings-adItem
 www.zhihu.com,zhihu.com##.RelatedReadings.Card
+www.zhihu.com,zhihu.com##.Sticky  .Card[data-za-detail-view-path-module="ContentList"]
 www.zhihu.com,zhihu.com##.TopstoryItem--advertCard
 www.zhihu.com,zhihu.com##.WeiboAd-wrap
 www.zhihu.com,zhihu.com##div[data-type="ad"]
+www.zhihu.com,zhihu.com#?#.TopstoryItem:-abp-has(.Popover  .TopstoryItem-advertButton)
 xbbs.me##.push-bottom
 xchina.co,xchina.fun,xchina.tv##.exoclick_300x250
 xchina.co,xchina.fun,xchina.tv##.push-bottom
@@ -3423,7 +3799,9 @@ xchina.co,xchina.fun,xchina.tv##[href*="#"]
 xchina.co,xchina.fun,xchina.tv##a[href*="/redirect/ad-"]
 xchina.co,xchina.fun,xchina.tv##div[class*="jquery-modal"]
 xchina.co,xchina.fun,xchina.tv##div[class*="modalAd"]
+xchina.co,xchina.fun,xchina.tv##div[style*="width:  
 xgroovy.com##.adsbyexoclick
+xgroovy.com##.fluid_ad_ct
 xgroovy.com##[class^="fluid-b"]
 xgroovy.com##[class^="headA"],[class^="headC"]
 xgroovy.com##div[class^="in is_mobile"]
@@ -3431,6 +3809,7 @@ xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
+xiuren5.com,xgmn02.com##a[href]  img[src$=".gif"]
 xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 xnxx.com##[class*="ad-"]
 xnxx.com##[id^="ad-"]
@@ -3441,8 +3820,10 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__behavioral-direct
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__rim-direct-incut.react-component
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items  div.block-search  .block-search__content
 yarik-sat.com##.noadb
 yhdmw.com##.bottom_fixed
+yhdmw.com##div.container  iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##canvas
 ykt.ru##.n-banner--adblocked
@@ -3469,6 +3850,7 @@ zhidao.baidu.com##[href*="/baidu.php?"]
 zle.com$script
 |https://m.frgls.com/js/*.js?v=1.3
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
+||*/ad/$redirect=noop-0.1s.mp3,domain=huaren.tv,medi
 ||*^sdtfrom=^$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||*ggua.xyz^$third-party
 ||*xav.*/guang/*.gif
@@ -3827,6 +4209,7 @@ zle.com$script
 ||17173.com/if/
 ||17173.com/new/
 ||17173.com/x/
+||17173cdn.com/20*.mp4$redirect=noop-0.1s.mp3,domain=17173.com,medi
 ||17173cdn.com/a/lib/vda/seed.js
 ||17173cdn.com/a/www/index/2016v2/js/seed.js
 ||17173cdn.com/js/play/page/pThridPlayerAd.js
@@ -3869,6 +4252,7 @@ zle.com$script
 ||18av.mm-cg.com/*/7mmtv.gif
 ||18avday.*/aa/
 ||18comic.*/iframe
+||18comic.*/media/albums/*?$medi
 ||18comic.*/media/logo/
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/*.gif
@@ -4246,6 +4630,7 @@ zle.com$script
 ||3h3.com/js/listad.js
 ||3h3.com/js/show/
 ||3hbox.com^
+||3k8.com/d/js/m/the
 ||3lga3.cn^
 ||3naf.xyz^
 ||3p8801.co^
@@ -4285,6 +4670,7 @@ zle.com$script
 ||44pv.com^$third-party
 ||4567.org^$third-party
 ||469716.top^
+||47.100.0.249/js/the
 ||470kk.com/js/config.js
 ||470kk.com/js/indextop.js
 ||476bu131.cn^
@@ -5126,6 +5512,7 @@ zle.com$script
 ||a304.top^$image,domain=hihbt.com
 ||a32a.com.cn^$third-party
 ||a3vy69.cn^
+||a44u.icu^
 ||a5jf.xyz^
 ||a5xiazai.com/z/
 ||a666.one^
@@ -5872,6 +6259,7 @@ zle.com$script
 ||amazonaws.com/s?z=
 ||amazonaws.com/xxx/buhidoh/$script,domain=buhidoh.net
 ||amazonclix.com^
+||amazononline.xyz/mp4/*.mp4$redirect=noop-0.1s.mp3,domain=iyingshi7.tv|localmv1.com,medi
 ||amillionads.com^
 ||ammcg.imgscloud.com/toy/
 ||amobee.com^
@@ -5982,6 +6370,7 @@ zle.com$script
 ||api.tinyhoneybee.com/api/getADConfig
 ||api.tinyhoneybee.com/api/getADResource
 ||api.usebutton.com^
+||api.wudizuqiu.com/72nb
 ||api.wudizuqiu.com/bocai.js
 ||api2.appscraft.mobi/banner/get_banners.php
 ||apic.91bixin.net/api/thirdadv/
@@ -6641,6 +7030,7 @@ zle.com$script
 ||bianxianmao.com^$third-party
 ||bianzhirensheng.com/img/banner.jpg
 ||bianzhirensheng.com/img/bianzhiji.jpg
+||biaoge.tv/f
 ||biaoshipai.net^
 ||bibotsays.com^
 ||biddingx.com^$third-party
@@ -7752,6 +8142,7 @@ zle.com$script
 ||d2.sina.com.cn^$object,script
 ||d239g0z67jcted.cloudfront.net^
 ||d26yfyk0ym2k1u.cloudfront.net^
+||d27tpsznug51gz.cloudfront.net/creatives/*.mp4$redirect=noop-1s.mp4,medi
 ||d27tpsznug51gz.cloudfront.net^
 ||d2kadvyeq051an.cloudfront.net^$third-party
 ||d2nrdy2pg3k168.cloudfront.net^
@@ -8397,6 +8788,7 @@ zle.com$script
 ||e708.net^
 ||e7ckr.icu^
 ||e8jp9.com^
+||e9377f.com^$redirect=noop-0.1s.mp3,domain=eastday.com,medi
 ||ea0jlu8jie.cn^
 ||ealooov.cn^
 ||eamobile.com/gameasset/direct/draper/*/ads/
@@ -9074,6 +9466,7 @@ zle.com$script
 ||g.doubleclick.net^
 ||g.gegeyingshi.com^
 ||g.hsw.cn^
+||g.jinti.com/f/a/
 ||g.lznews.cn^
 ||g.mnw.cn^
 ||g.rexian.net.cn/js/
@@ -9722,6 +10115,7 @@ zle.com$script
 ||haoimgs.com/images/*.gif
 ||haokan3.cn^
 ||haokan5.com/js/haokanjs/2014_
+||haokan5.com/js/haokanjs/play
 ||haokan5.com/js/haokanjs/tj.js
 ||haokan5.com/js/haokanjs/youxiajiao.js
 ||haokoubei.top^
@@ -9808,6 +10202,7 @@ zle.com$script
 ||heavy-r.com/js/mobile*.js
 ||hebei.com.cn/eap/
 ||hebei.com.cn/sys/online_calc.js
+||hebtv.com/d/a/the
 ||hebufr7h.shop^
 ||hebzycw.com^
 ||hecan123.top^
@@ -9833,6 +10228,7 @@ zle.com$script
 ||helloavgirls.com/public/hg/
 ||hellobody.online^
 ||hellocdn.top^
+||hellocenter.xyz^*.mp4$redirect=noop-1s.mp4,domain=localmv1.com,medi
 ||hellogithub.com/v1/advert/
 ||hellohang.love^
 ||helloprojects.up.seesaa.net/image/E381A1E38287E381A3E381A8E381A0E38191-3fe11-thumbnail2.png
@@ -10190,6 +10586,7 @@ zle.com$script
 ||hust.cx^
 ||huxnbnk.cn^
 ||huya.com*/cache1min.
+||huya.com/leaf/*=vodadv&$redirect=noop-0.1s.mp3,domain=huya.com,medi
 ||huyaimg.msstatic.com/cdnimage/roomad/
 ||huyccuy.cn^
 ||hv740pyh.cn^
@@ -10678,6 +11075,8 @@ zle.com$script
 ||iqiyi.com/show2?cb=
 ||iqiyi.com/track$popup
 ||iqmbao.xyz^
+||iqnew.com/d/js/m/the
+||iqshw.com/d/js/m/the
 ||iqzone.com^$third-party
 ||iqzt3ec.cn^
 ||ir002423.cn^
@@ -11085,6 +11484,7 @@ zle.com$script
 ||jmbbs.cn/sjgg/
 ||jmcomic.asia/iframe_
 ||jmcomic.asia/iframe_*&idzone=
+||jmcomic1.*/media/albums/*?$medi
 ||jmcomic1.cc/iframe_v*?type=exo&idzone=
 ||jmged.xyz^
 ||jmgwh.cn^
@@ -11392,6 +11792,7 @@ zle.com$script
 ||kanjuwo.com/js/6
 ||kanjuwo.com/js/8
 ||kankanmi.com/js/zjgg
+||kankantv.*/javascript/the
 ||kankantv.cc/330-50.gif
 ||kankanwu.com/le/
 ||kankanwu.com/xuxu/
@@ -11830,6 +12231,7 @@ zle.com$script
 ||lcloc.com^
 ||lcmnyfk.cn^
 ||lcmqyl.cn^$third-party
+||lcxw.cn/d/js/the
 ||lcxw.cn/i/*dl.js
 ||lczk.cn^$third-party
 ||ld0766.com/*20*a/
@@ -11978,6 +12380,7 @@ zle.com$script
 ||links.cn/mmshow
 ||linkvans.com^$third-party
 ||linkwan.com/gb/broadmeter/speed/cp.js
+||linkwan.com/gb/javascript/
 ||linkwan.com/gb/javascript/b4.js
 ||linkwan.com/gb/javascript/c5-
 ||linovel.net/cp/lk/ad/externalAd?
@@ -12313,6 +12716,7 @@ zle.com$script
 ||m.yanglaopt.net^
 ||m.yap.yahoo.com^$domain=~not.dns
 ||m.ybstwl.com/public/tpl/m2/js/
+||m.yeniakit.com.tr/anlasm
 ||m.yhdm.so/bar/yfgg.js
 ||m.ysxs8.com/js/content_db.js
 ||m.zwsteel.cn^$third-party
@@ -12392,6 +12796,9 @@ zle.com$script
 ||manlisgx.fun^
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
+$image,redirect=1x1.gif,important
+gif$image,redirect=1x1.gif,important
+$image,redirect=1x1.gif,~third-party
 ||mao1.jsnovel.com^
 ||maobujie.com^
 ||maodh.com/admin/up/*.gif
@@ -14183,6 +14590,7 @@ zle.com$script
 ||ql.uzuzuz.com^
 ||qliiom.xyz^
 ||qling.com^$third-party
+||qlogo.cn^$domain=250dgj.g
 ||qlogo.cn^$domain=chichiav1.xyz
 ||qlogo1.store.qq.com^
 ||qlsynmly.fun^
@@ -14661,6 +15069,7 @@ zle.com$script
 ||s-adx.op-mobile.opera.com^
 ||s-msn.com/portal/xiatui.js
 ||s.*.com/pp.php?uid=$third-party
+||s.69vj.com/assets/DIY.$image,medi
 ||s.adx.opera.com^
 ||s.go.sohu.com^*/?callback=
 ||s.htkk*.top:20443^$script
@@ -14957,6 +15366,7 @@ zle.com$script
 ||sho9wbox.com^$third-party
 ||shoagooy.net^$third-party
 ||shoudan6.press^
+
 ||shoujizhuanqian.store^
 ||shouyefrom.xyz^
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
@@ -15037,6 +15447,7 @@ zle.com$script
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
 ||sinaimg.cn/large/$domain=chakd.com|seehd.so
+||sinaimg.cn/large/*.gif$domain=mp4ba.l
 ||sinaimg.cn/large/0076zeZ4gy1gw0if4mgwoj30tj03ptbj.jpg
 ||sinaimg.cn/large/6f8a2832gy1g7qyw7suqjj21400p0ake.jpg
 ||sinaimg.cn/large/8c8bd65d$domain=loldk.com
@@ -16355,6 +16766,7 @@ zle.com$script
 ||v.jsbgh.cn^$third-party
 ||v.laogu.wang/template/*/images/g_js^
 ||v.lbsbbw.cn^$third-party
+||v.lvlt.crcdn.net/*/video.mp4?$redirect=noop-1s.mp4,medi
 ||v.pcswtw.cn^$third-party
 ||v.rssnzw.cn^$third-party
 ||v.sssgbw.cn^$third-party
@@ -16819,6 +17231,7 @@ zle.com$script
 ||whycywhivu.pro^
 ||whytoss.com^
 ||whzz.shop^
+||wi-fi.ru/ad_video/$redirect=noop-1s.mp4,important,medi
 ||widespace.com^
 ||widget.ezprice.com.tw^$third-party
 ||widget.sellwild.com/amp/insideevs$domain=insideevs-com.cdn.ampproject.org
@@ -18374,3 +18787,4 @@ zle.com$script
 ||zzz4.com/JS_AD/
 ||zzzhuoxiaqu.online^
 ||zzzyk.com/js/
+~manwa.me,~manwa.site,~manwa1.site,~manwa3.site,~manwa2.site,~manwa1.me,~manwa2.me,~manwa2.vip,~manwa3.vip,~manwa4.vip,~manwa5.vip,~manwa.fun,~manwa6.vip,~manwa7.vip,~manwa8.vip,~manwa9.vip,~manwa10.vip##.ad-are
