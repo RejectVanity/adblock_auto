@@ -1,2 +1,19 @@
-# adblock_auto
-自动合并 Adblock 规则，用于网页广告拦截
+# 混合规则
+### 自动更新(2023-03-30 13:05:48)
+| 名称 | GIthub订阅链接 | GItlink订阅链接 |
+| :-- | :-- | :-- |
+| 混合规则(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/adblock_auto.txt) | [订阅](https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock_auto/raw/adblock_auto.txt) |
+| 混合规则精简版(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/adblock_auto_lite.txt) | [订阅](https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock_auto/raw/adblock_auto_lite.txt) |
+
+### 上游规则
+<details>
+<summary>点击查看上游规则</summary>
+<ul>
+<li> <a href="https://easylist-downloads.adblockplus.org/easylist.txt" target="_blank" > Easylist </a> </li>
+<li> <a href="https://easylist-downloads.adblockplus.org/easylistchina.txt" target="_blank" > EasylistChina </a> </li>
+<li> <a href="https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" target="_blank" > Antiadblockfilters </a> </li>
+<li> <a href="https://filters.adtidy.org/android/filters/15_optimized.txt" target="_blank" > Adguard DNS optimized </a> </li>
+<li> <a href="https://filters.adtidy.org/extension/ublock/filters/11.txt" target="_blank" > Adguard mobile </a> </li>
+<li> <a href="https://filters.adtidy.org/extension/ublock/filters/224.txt" target="_blank" > Adguard Chinese </a> </li>
+</ul>
+</details>
