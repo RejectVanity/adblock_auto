@@ -133,6 +133,7 @@ cat << key > "${file}"
 | 混合规则精简版(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅](https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock_auto/raw/Rules/adblock_auto_lite.txt) |
 
 ### 上游规则
+#### 感谢各位大佬❤ (ɔˆз(ˆ⌣ˆc)
 <details>
 <summary>点击查看上游规则</summary>
 <ul>
