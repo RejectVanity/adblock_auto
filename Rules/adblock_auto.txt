@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: AgZFsaTeWjk1IpADfXImzA
+! Checksum: wUrgtGh4BqHXXGcbag5weA
 ! Title: 混合规则(自动更新)
-! Version: 20230330213611
+! Version: 20230330213908
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-03-30 21:36:11
-! Total Count: 109765
+! Last modified: 2023-03-30 21:39:08
+! Total Count: 109744
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitlink Homepage: https://www.gitlink.org.cn/keytoolazy/adblock_auto/tree/main/README.md
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6375,7 +6375,6 @@
 ##.ad-anchor
 ##.ad-aps-wide
 ##.ad-are
-##.ad-area
 ##.ad-area--pd
 ##.ad-area-small
 ##.ad-article-breaker
@@ -20710,7 +20709,6 @@ $websocket,domain=5nj.com|cechi8.com
 /300_250_
 /300x150_
 /300x250-
-/300x250.$image
 /300x250.$image,domain=~manwa.me|~manwa.site|~manwa1.site|~manwa3.site|~manwa2.site|~manwa1.me|~manwa2.me|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa.fun|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip
 /300x250_
 /300x250b.
@@ -31022,7 +31020,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||shopeemobile.com/shopee/*/modules/ads/
 @@||shopeesz.com/shopee/*/modules/ads/
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
-@@||shouji.com.cn/static/v1/js/appinfo.js
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
 @@||simba.taobao.com/?name=mcad$script
@@ -33830,17 +33827,12 @@ boxthislap.org##img[width="728px"][height="90px"]
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
 boycall.com##.source_info
 boyfriendtv.com##.video-extra-wrapper
-boylov.xyz,boylove.cc###fake_avivid_waterfall_webpush
 boylov.xyz,boylove.cc##.owl-carousel
-boylov.xyz,boylove.cc##.swiper-wrapper
 boylov.xyz,boylove.cc##div[data-type="1"]
-boylov.xyz,boylove.cc##div[style="display: block"]
-boylov.xyz,boylove.cc#?#:-abp-has(>.adsbyexoclick)
 boylove.cc###fake_avivid_waterfall_webpush
 boylove.cc###floating_page
 boylove.cc###yteggbue
 boylove.cc##.dzxvovcm
-boylove.cc##.reader-home-swiper
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc###fake_avivid_waterfall_webpush
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##.reader-home-swiper
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##.swiper-wrapper
@@ -41236,9 +41228,7 @@ mansurfer.com##.headerbanner
 mansurfer.com##a[href*="/out/"]
 manualslib.com##.abp_adv_b
 manualslib.com##.abp_adv_s-title
-manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-are
-manwa.me#@#.ad-area
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##.index-banner  [class*="swiper-container"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##.index-banner > [class*="swiper-container"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##[class^="swiper-slide"]  a[target="blank"][rel="nofollow noopenner"]
@@ -41250,9 +41240,7 @@ manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manw
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##input[alt][src^="/static/custom/files/"][type="image"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun#@#.ad-are
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun#@#.ad-area
-manwa2.me##.ad-area > a
 manwa2.me#@#.ad-are
-manwa2.me#@#.ad-area
 maolihui.com##.con-ad
 maomaomom.com###execphp-15
 maomaomom.com###execphp-21
@@ -47596,8 +47584,6 @@ xcalibrscans.com###close-teaser
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
-xchina.co##.push-top
-xchina.co##div[style*="width: 300px;"][style*="height: 455px;"]
 xchina.co,xchina.fun#@#.banner_ad
 xchina.co,xchina.fun,xchina.tv##.exoclick_300x250
 xchina.co,xchina.fun,xchina.tv##.push-bottom
@@ -47613,8 +47599,6 @@ xchina.co,xchina.fun,xchina.tv##div[class*="jquery-modal"]
 xchina.co,xchina.fun,xchina.tv##div[class*="modalAd"]
 xchina.co,xchina.fun,xchina.tv##div[style*="width:  
 xchina.co,xchina.fun,xchina.tv##div[style*="width: 300px;"][style*="height: 455px;"]
-xchina.fun##a[href*="/redirect/ad-"]
-xchina.fun##div[adid]
 xclient.info###pop_business
 xcmh.cc##div[style="margin:0 auto 12px; adding:0;width:980px;height:250px;overflow:hidden;"]
 xcritic.com##a[href^="http://www.adultdvdempire.com/"][href*="?partner_id="]
@@ -70378,7 +70362,6 @@ zzzyk.com###Tinfo
 ||exo.kiev.ua^
 ||exoav.com/nb/nt.js
 ||exobafrgdf.com^
-||exoclick.com^
 ||exoclick.com^$third-party
 ||exoclsodaqs.com^
 ||exodsp.com^
@@ -83094,9 +83077,6 @@ zzzyk.com###Tinfo
 ||manualcasketlousy.com^
 ||manufacturerexpandedagrarian.com^
 ||manughl.de^
-||manwa.fun/static/upload/ads/$image,redirect=1x1.gif,important
-||manwa.me/static/custom/files/300X250.gif$image,redirect=1x1.gif,important
-||manwa2.me/static/custom/files/300X250.$image,redirect=1x1.gif,~third-party
 ||manysoftlink.ru^
 ||mao1.jsnovel.com^
 ||maobujie.com^
@@ -95934,7 +95914,6 @@ zzzyk.com###Tinfo
 ||shotyfy.com^
 ||shoubsee.net^
 ||shoudan6.press^
-||shouji.com.cn/static/v1/js/appinfo.js
 ||shoujizhuanqian.store^
 ||shoungak.net^
 ||shoushushi.info^
