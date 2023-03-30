@@ -63,7 +63,7 @@ local IFS=$'\n'
 local white_list_file="${2}"
 for o in `cat "${white_list_file}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' `
 do
- sed -i "/${o}/d" "${file}"
+`pwd`/busybox sed -i "/${o}/d" "${file}"
 done
 }
 
