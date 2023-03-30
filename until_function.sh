@@ -61,7 +61,7 @@ local file="${1}"
 local white_list_file="${2}"
 for o in `cat "${white_list_file}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' `
 do
-	modtify_file=`grep -Ev "${o}" "${file}"`
+	modtify_file=`grep -pv "${o}" "${file}"`
 	echo "${modtify_file}" > "${file}"
 done
 }
