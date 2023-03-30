@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Ztr8LIoZ2kRe69fhxOZEvw
+! Checksum: exj0vDI5owWqTaqcYyCU1g
 ! Title: 混合规则(自动更新)
-! Version: 20230330205730
+! Version: 20230330210307
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-03-30 20:57:30
-! Total Count: 107597
+! Last modified: 2023-03-30 21:03:07
+! Total Count: 107575
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitlink Homepage: https://www.gitlink.org.cn/keytoolazy/adblock_auto/tree/main/README.md
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -290,6 +290,7 @@
 ###acm-ad-tag-lawrence_dfp_mobile_arkadium
 ###ad  #h2_player_prevideo
 ###ad  .pre-img
+###ad-
 ###ad--article--home-mobile-paramount-wrapper
 ###ad--article-bottom-wrapper
 ###ad--article-top
@@ -311,7 +312,6 @@
 ###ad-300-detail
 ###ad-300-sidebar
 ###ad-300X250-2
-###ad-300
 ###ad-300b
 ###ad-300x250
 ###ad-300x250-0
@@ -340,7 +340,6 @@
 ###ad-Rectangle_2
 ###ad-SNSSplashAd
 ###ad-Superbanner
-###ad-
 ###ad-ads
 ###ad-advertorial
 ###ad-affiliate
@@ -377,7 +376,6 @@
 ###ad-block
 ###ad-block-125
 ###ad-block-2
-###ad-block-a
 ###ad-block-bottom
 ###ad-block-container
 ###ad-border
@@ -664,7 +662,6 @@
 ###ad160
 ###ad160-2
 ###ad160600
-###ad160
 ###ad160x600
 ###ad1[onclick="window.open(this.url)"]
 ###ad1[style^="position:"]
@@ -1849,11 +1846,10 @@
 ###adsplace4
 ###adsplash
 ###adspot
+###adspot-
 ###adspot-1
 ###adspot-2
-###adspot-2
 ###adspot-2b
-###adspot-
 ###adspot-bottom
 ###adspot-c
 ###adspot-d
@@ -3437,8 +3433,8 @@
 ###head_advert
 ###headad
 ###headadvert
-###header + #topBox
 ###header  a[target="_blank"]  img[style="width:100%;height:60px;margin-bottom:2px;"]
+###header + #topBox
 ###header-ad
 ###header-ad-background
 ###header-ad-block
@@ -4373,9 +4369,9 @@
 ###redirect-ad-modal
 ###reference-ad
 ###region-node-advert
+###reklam
 ###reklam_buton
 ###reklam_center
-###reklam
 ###reklama_big
 ###reklama_left_body
 ###reklama_left_up
@@ -5990,6 +5986,7 @@
 ##.acm-ad-container
 ##.acm-ad-tag-unit
 ##.acm_ad_zones
+##.ad-
 ##.ad--300
 ##.ad--300x250
 ##.ad--468
@@ -6250,7 +6247,6 @@
 ##.ad-SuperBanner
 ##.ad-TOPPER
 ##.ad-W
-##.ad-
 ##.ad-ab
 ##.ad-abc
 ##.ad-above-footer
@@ -7045,6 +7041,7 @@
 ##.ad-skyscraper3
 ##.ad-slider
 ##.ad-slot
+##.ad-slot-
 ##.ad-slot--billboard--article--wrapper
 ##.ad-slot--container-inline
 ##.ad-slot--inline
@@ -7062,7 +7059,6 @@
 ##.ad-slot-234-60
 ##.ad-slot-300-250
 ##.ad-slot-728-90
-##.ad-slot-
 ##.ad-slot-article
 ##.ad-slot-banner
 ##.ad-slot-container
@@ -7363,7 +7359,6 @@
 ##.ad120x600
 ##.ad125
 ##.ad125x125
-##.ad125x125
 ##.ad125x125b
 ##.ad140
 ##.ad160
@@ -7454,7 +7449,6 @@
 ##.ad300x250Top
 ##.ad300x250_box
 ##.ad300x250_container
-##.ad300x250
 ##.ad300x250b
 ##.ad300x250box
 ##.ad300x250box2
@@ -7878,6 +7872,7 @@
 ##.adWrapper1
 ##.adZone
 ##.adZoneRight
+##.ad_
 ##.ad_0
 ##.ad_1
 ##.ad_1000_125
@@ -8022,7 +8017,6 @@
 ##.ad__window
 ##.ad__wrapper
 ##.ad__wrapper-element
-##.ad_
 ##.ad_adInfo
 ##.ad_ad_160
 ##.ad_ad_300
@@ -8342,9 +8336,9 @@
 ##.ad_row_bottom_item
 ##.ad_rtg300
 ##.ad_scroll
+##.ad_sd  .container  a  img[src*=".qhimg.com"]
 ##.ad_sd #a_d1
 ##.ad_sd #ad1
-##.ad_sd  .container  a  img[src*=".qhimg.com"]
 ##.ad_secondary
 ##.ad_section_300x250
 ##.ad_section_728x90
@@ -8835,7 +8829,6 @@
 ##.admputop
 ##.admz
 ##.adnSpot
-##.adnSpota
 ##.adname
 ##.adnet_are
 ##.adnotecenter
@@ -11156,7 +11149,6 @@
 ##.bigAds
 ##.bigAdvBanner
 ##.bigAdvMiddle
-##.bigAdvMiddle
 ##.bigBoxAdAre
 ##.bigClickTeasersBlock
 ##.bigCubeAd
@@ -11421,8 +11413,8 @@
 ##.bottomadvert
 ##.bottomadwords
 ##.bottombarad
-##.bottomd + .leftd
 ##.bottomd  .closebox2
+##.bottomd + .leftd
 ##.bottomgooglead
 ##.bottomleader
 ##.bottomleader-ad-wrapper
@@ -11851,10 +11843,10 @@
 ##.comment_ad
 ##.comment_ad_box
 ##.commentads
-##.commercial-unit-mobile-top .jackpot-main-content-container  .UpgKEd + .nZZLFc  .vci
-##.commercial-unit-mobile-top .jackpot-main-content-container  .UpgKEd + .nZZLFc  div  .vci
 ##.commercial-unit-mobile-top  .v7hl4d
 ##.commercial-unit-mobile-top  div[data-pla="1"]
+##.commercial-unit-mobile-top .jackpot-main-content-container  .UpgKEd + .nZZLFc  .vci
+##.commercial-unit-mobile-top .jackpot-main-content-container  .UpgKEd + .nZZLFc  div  .vci
 ##.commercialAd
 ##.common-topad
 ##.common_ad
@@ -14625,8 +14617,8 @@
 ##.myTestAd
 ##.myadmid
 ##.myinarticlead
-##.mylist + #topthree
 ##.mylist  a  img[width^="9"][height="80"]
+##.mylist + #topthree
 ##.myplayer_ima-ad-container
 ##.myui-extra + .noticetext
 ##.n-banner--adblocked
@@ -15229,7 +15221,6 @@
 ##.quigo-ad
 ##.quigoads
 ##.qzdhf
-##.qzhfaa
 ##.r-ad
 ##.r-pause-ad-container
 ##.r7ad
@@ -15328,7 +15319,6 @@
 ##.reklam-masthead
 ##.reklam2
 ##.reklam728
-##.reklam
 ##.reklama-c
 ##.reklama-vert
 ##.reklama1
@@ -15859,9 +15849,9 @@
 ##.sidebar-320__box_adv
 ##.sidebar-350ad
 ##.sidebar-ad
+##.sidebar-ad-
 ##.sidebar-ad-300
 ##.sidebar-ad-300x250-cont
-##.sidebar-ad-
 ##.sidebar-ad-are
 ##.sidebar-ad-b
 ##.sidebar-ad-box
@@ -18424,11 +18414,11 @@
 ##aside[id^="adrotate_widgets-"]
 ##atf-ad-slot
 ##bkveng
-##body .has-ad
 ##body  div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body  div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body  span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body  style + div[id="ics"]
+##body .has-ad
 ##body.page  .popup
 ##body[onload*="u()"]  #x
 ##body[ontouchstart]  #topBox
@@ -18591,8 +18581,8 @@
 ##guj-ad
 ##header + #main:nth-child(n+3)  .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+3)  .container-fluid.mb-0.p-0 + .jsv-g1
-##header + #main:nth-child(n+3)  .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+3)  .jsv.jsv-g1.mb-0  .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+3)  .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4)  .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4)  .container-fluid.mb-0.p-0 + .jsv-g1
 ##header + #main:nth-child(n+4)  .container-fluid.mb-3.p-0
@@ -19044,6 +19034,8 @@
 #@#.ws_contentAd660
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
+$image,redirect=1x1.gif,important
+$image,redirect=1x1.gif,~third-party
 $image,third-party,domain=258zw.com
 $image,third-party,domain=lady1.top
 $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
@@ -20278,7 +20270,6 @@ $websocket,domain=5nj.com|cechi8.com
 /300_250_
 /300x150_
 /300x250-
-
 /300x250.$image,domain=~manwa.me|~manwa.site|~manwa1.site|~manwa3.site|~manwa2.site|~manwa1.me|~manwa2.me|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa.fun|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip
 /300x250_
 /300x250b.
@@ -27940,7 +27931,6 @@ $websocket,domain=5nj.com|cechi8.com
 159i.com##.a2d
 159i.com##.a3d
 159i.com##.a4d
-159i.com##.a
 159i.com##a[href*="/"]:not([href*="159i.com"])
 159i.com##a[href*="ai69"]
 159i.com##a[href^="//159i.com/tz/"]
@@ -28192,7 +28182,6 @@ $websocket,domain=5nj.com|cechi8.com
 1ting.com##div[style="position:fixed;bottom:0;z-index:999"]
 1ydt.com###head
 2.taobao.com##.download-layer
-20-0.net###biedamadeyouchongtule-a
 2000fun.com##.single-box
 200sht.info,sehuatang.org##.show-text
 2014.qq.com#@##adIframe
@@ -28689,7 +28678,6 @@ $websocket,domain=5nj.com|cechi8.com
 51cto.com#$#.top_bg { height: 60px !important; }
 51cto.com#@#.addare
 51cto.com,chinaacc.com,yidianzixun.com##.banner
-51dll.com,fulisuo.com,papa1024.com###a
 51live.com###adquality
 51live.com###waterMark
 51nb.com###diynavtop + .t_rown[cellpadding="5"]
@@ -29467,6 +29455,7 @@ $websocket,domain=5nj.com|cechi8.com
 ?wpproadszoneid=
 ?wpstealthadsjs=
 ?zoneid=*&ext=$script
+@@
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -30388,7 +30377,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||shopeemobile.com/shopee/*/modules/ads/
 @@||shopeesz.com/shopee/*/modules/ads/
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
-@@
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
 @@||simba.taobao.com/?name=mcad$script
@@ -31770,7 +31758,6 @@ androidadult.com##.adswait
 androidauthority.com##.--qc
 androidauthority.com##.-Ci
 androidauthority.com##.-Yc
-androidauthority.com##.a
 androidauthority.com##.andro-in-article-sidebar-desktop-placement
 androidauthority.com##.andro-mid-article-placement
 androidauthority.com,courthousenews.com,imgmak.com,infobel.com,linkedin.com,soundguys.com##.ad-banner
@@ -32154,7 +32141,6 @@ avbebe.com##.sidebar  .xoxo  li[id^="execphp-"]
 avbebe.com##.sidebar  .xoxo  li[id^="text-"]
 avbebe.com##.sidebar a[href][target="_blank"]  img
 avcao.cc##.ps-body  div[class^="adv-top"]
-avcao.cc##div#a
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class^="bxm4mm-"]
 avgle.com###avyc
 avgle.com###nft
@@ -32457,7 +32443,6 @@ baike.com###ad-xnsc
 baike.com###newsfix-on
 baike.com##.ad_xuanban
 baike.so.com##[id^="business-flow"]
-baike567.com,wuhaozhan.net##.aaaa
 baike567.com,wuhaozhan.net##[onclick*=".tb.cn"]
 baike567.com,wuhaozhan.net##[onclick*="open"]
 baike567.com,wuhaozhan.net##a[href*=".click"]
@@ -33036,17 +33021,12 @@ boxthislap.org##img[width="728px"][height="90px"]
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
 boycall.com##.source_info
 boyfriendtv.com##.video-extra-wrapper
-
 boylov.xyz,boylove.cc##.owl-carousel
-
 boylov.xyz,boylove.cc##div[data-type="1"]
- 
-
 boylove.cc###fake_avivid_waterfall_webpush
 boylove.cc###floating_page
 boylove.cc###yteggbue
 boylove.cc##.dzxvovcm
-
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc###fake_avivid_waterfall_webpush
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##.reader-home-swiper
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##.swiper-wrapper
@@ -33348,8 +33328,8 @@ carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
 cars.mitula.ae#@#.adsList
 carsales.com.au,technobuffalo.com##.page-header
 carsdirect.com###TopBanner
-cartoon18.com##.embed-responsive.position-relative + .card-body  .lines  span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com##.embed-responsive.position-relative  a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
+cartoon18.com##.embed-responsive.position-relative + .card-body  .lines  span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com#?#.container-fluid  .row  .item:-abp-has( .card  .card-body  .lines  span.badge:contains(/^ad$/))
 cartoon18.com#?#.container-fluid  .row  .item:has( .card  .card-body  .lines  span.badge:contains(/^ad$/))
 cartoon18.com#?#.row:-abp-has(.badge:-abp-contains(ad))
@@ -33589,8 +33569,8 @@ chinatimes.com##.tab_4_box
 chinatimes.com##div[class*="googlead_"]
 chinatimes.com##div[class^="banner"]
 chinatimes.com#@#.page_ad
-chinatp.com.cn###FloatL_2
 chinatp.com.cn###FloatL
+chinatp.com.cn###FloatL_2
 chinatp.com.cn###FloatRb
 chinavoa.com###Content_VOA
 chinaxinge.com##.sy05
@@ -36560,6 +36540,7 @@ giantfreakinrobot.com##.pw-leaderboard-btf-container
 giantfreakinrobot.com##.pw-med-rect-atf-container
 giantfreakinrobot.com##.pw-med-rect-btf-container
 giantfreakinrobot.com##.pw-ph-med-rect
+gif$image,redirect=1x1.gif,important
 gifcompressor.com,heic2jpg.com,imagecompressor.com,jpg2png.com,png2jpg.com,webptojpeg.com,wordtojpeg.com##.h
 gifcompressor.com,heic2jpg.com,jpg2png.com,png2jpg.com,webptojpeg.com,wordtojpeg.com##.header__right
 gifsauce.com##.widget_live
@@ -36687,8 +36668,8 @@ goodreturns.in##.gr-db-ad-content
 goodreturns.in,gizbot.com,filmibeat.com,oneindia.com#?#ulli:-abp-has( div[id^="taboola-mid-home-stream"])
 goodrx.com##div[class^="adContainer"]
 goodrx.com##div[class^="adWrapper-"]
-google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###atvcap + #tvcap  .mnr-c  .commercial-unit-mobile-top
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###atvcap  .cu-container  div  div[data-pla="1"]
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###atvcap + #tvcap  .mnr-c  .commercial-unit-mobile-top
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###center_col  #taw  #tvcap  .cu-container  .commercial-unit-desktop-top
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###tads[aria-label]
@@ -36697,9 +36678,9 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs  div[jscontroller="YD5eo"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs:not(.mnr-c)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-bottom
-google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top .jackpot-main-content-container  .UpgKEd + .nZZLFc  div  .vci
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top  .v7hl4d
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top  div[data-pla="1"]
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-mobile-top .jackpot-main-content-container  .UpgKEd + .nZZLFc  div  .vci
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.uEierd
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##AMP-AD
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##[data-text-ad]
@@ -39106,7 +39087,6 @@ ksl.com#@##adHeader
 ksstradio.com###footer-widgets
 kt51.com,nfstar.net##.bottom_fixed
 ktkkt.com##.top980
-ktkkt.com##.top980
 ktkkt.com##.vod980
 ktm2day.com##.vc_wp_text
 ktsf.com###sow-slider-18
@@ -39782,7 +39762,6 @@ mansurfer.com##.headerbanner
 mansurfer.com##a[href*="/out/"]
 manualslib.com##.abp_adv_b
 manualslib.com##.abp_adv_s-title
-
 manwa.me#@#.ad-are
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##.index-banner  [class*="swiper-container"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##[class^="swiper-slide"]  a[target="blank"][rel="nofollow noopenner"]
@@ -39792,7 +39771,6 @@ manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manw
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##input[alt][src^="/static/custom/files/"][type="image"]
 manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun#@#.ad-are
-  
 manwa2.me#@#.ad-are
 maolihui.com##.con-ad
 maomaomom.com###execphp-15
@@ -40013,8 +39991,6 @@ microsoftnews.msn.cn##div[class^="nativeAd-DS-card"]
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1  div[style^="display: grid;"]  div[style^="grid-area:"]:last-child  .card-DS-card1-1  div[class^="nativeAd-DS-card"]:upward(2)
 middleeasteye.net##.region-before-navigation
 middleeasteye.net##.sidebar-photo-extend
-midifan.com##.mid-aa
-midifan.com##.top-aa
 miercn.com###foot_return_foot
 miercn.com##.ad_list
 miercn.com##.color-box
@@ -41277,8 +41253,8 @@ pconline.com.cn##.block-jcz
 pconline.com.cn##.box-jcz
 pconline.com.cn##.fixLeftQRcode
 pconline.com.cn##.hongbao_1111
-pconline.com.cn##.ivy  .ivy-wrap
 pconline.com.cn##.ivy  
+pconline.com.cn##.ivy  .ivy-wrap
 pconline.com.cn##.jcz-focus
 pconline.com.cn##.juletao
 pconline.com.cn##.m-JCZ-scrollBlock
@@ -42462,11 +42438,11 @@ ruanyifeng.com##a[href*=".ke.qq.com"]
 ruanyifeng.com##a[href*="?utm_source="]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
 ruanyifeng.com##div[style*="important"]
-ruanyifeng.com#?#.asset-content  p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p  img
 ruanyifeng.com#?#.asset-content  p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p  img
+ruanyifeng.com#?#.asset-content  p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p  img
 ruanyifeng.com#@#a  img[src*="wangbase.com/blogimg/asset/"]
-ruanyifeng.com#@?#.asset-content  p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p  img
 ruanyifeng.com#@?#.asset-content  p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p  img
+ruanyifeng.com#@?#.asset-content  p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p  img
 rugbyonslaught.com##.sticky-add
 ruian.com##.ad_oper
 ruian.com##div[class^="gg_"]
@@ -43537,7 +43513,6 @@ swarajyamag.com##._1eNH8
 swarajyamag.com##[class*="page-top-adv-wrapper"]
 swarajyamag.com##[class^="banner-ad-"]
 sweethentai.com##[href^="https://gadlt.nl/"]
-swfchan.com###aaa
 swimswam.com##.polls-461
 swimswam.com##.swimswam-acf
 swisscows.com##.advrts
@@ -44213,7 +44188,6 @@ today.az###TODAY_Slot_Vertical_01_240x400
 today.az###banner_750x90
 todayonline.com##.tw-flex-shrink-2
 todayuknews.com##.stream-item-top-wrapper
-tokder.org###aaa
 tokder.org###ssss
 tom.com###body_right_banner
 tom.com###popupDivgame
@@ -45594,8 +45568,6 @@ xcalibrscans.com###close-teaser
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
-
-  
 xchina.co,xchina.fun#@#.banner_ad
 xchina.co,xchina.fun,xchina.tv##.exoclick_300x250
 xchina.co,xchina.fun,xchina.tv##.push-bottom
@@ -45610,8 +45582,6 @@ xchina.co,xchina.fun,xchina.tv##a[href*="/redirect/ad-"]
 xchina.co,xchina.fun,xchina.tv##div[class*="jquery-modal"]
 xchina.co,xchina.fun,xchina.tv##div[class*="modalAd"]
 xchina.co,xchina.fun,xchina.tv##div[style*="width:  
-
-
 xclient.info###pop_business
 xcmh.cc##div[style="margin:0 auto 12px; adding:0;width:980px;height:250px;overflow:hidden;"]
 xcritic.com##a[href^="http://www.adultdvdempire.com/"][href*="?partner_id="]
@@ -45712,8 +45682,8 @@ xiaoz.me##.gg6
 xiaoz.me##.sidebar a  img
 xiaoz.me,xingkbjm.com##.sidebar a  img
 xiashanet.com###top_content
-xiazai.zol.com.cn###downBoxGaosu  .clearfix:first-child
 xiazai.zol.com.cn###downBoxGaosu  
+xiazai.zol.com.cn###downBoxGaosu  .clearfix:first-child
 xiazai.zol.com.cn##.down-btn-yd + div[class]
 xiazaiba.com##.down-btn1
 xiazaiba.com##.down-btn2
@@ -46056,8 +46026,8 @@ ygdy8.cc##body  a[href^="/"]
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container  iframe[src][rel="nofollow"]
 yhgou.cc##.ch1
-yhgou.cc##.col-lg-12 + .row
 yhgou.cc##.col-lg-12  
+yhgou.cc##.col-lg-12 + .row
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##canvas
 yibian.hopto.org###no-adblock-box
@@ -46540,7 +46510,6 @@ zol.com.cn###official_url
 zol.com.cn###relatedProduct
 zol.com.cn##.down-append-mol__pic
 zol.com.cn##.down-dxlt
-zol.com.cn##.down-gaosu
 zol.com.cn##.down-gaosu
 zol.com.cn##.down-gaosub
 zol.com.cn##.down-gaosuc
@@ -68255,7 +68224,6 @@ zzzyk.com###Tinfo
 ||exo.kiev.ua^
 ||exoav.com/nb/nt.js
 ||exobafrgdf.com^
-
 ||exoclick.com^$third-party
 ||exoclsodaqs.com^
 ||exodsp.com^
@@ -80959,9 +80927,6 @@ zzzyk.com###Tinfo
 ||manualcasketlousy.com^
 ||manufacturerexpandedagrarian.com^
 ||manughl.de^
-$image,redirect=1x1.gif,important
-gif$image,redirect=1x1.gif,important
-$image,redirect=1x1.gif,~third-party
 ||manysoftlink.ru^
 ||mao1.jsnovel.com^
 ||maobujie.com^
@@ -93796,7 +93761,6 @@ $image,redirect=1x1.gif,~third-party
 ||shotyfy.com^
 ||shoubsee.net^
 ||shoudan6.press^
-
 ||shoujizhuanqian.store^
 ||shoungak.net^
 ||shoushushi.info^
