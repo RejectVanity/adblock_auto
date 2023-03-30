@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: YCEZrd/6uLtPY3fx6GgQyQ
+! Checksum: RpGt5/Y1narBUGjhZ+UQOw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230330191137
+! Version: 20230330192126
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-03-30 19:11:37
-! Total Count: 0
+! Last modified: 2023-03-30 19:21:26
+! Total Count: 1
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitlink Homepage: https://www.gitlink.org.cn/keytoolazy/adblock_auto/tree/main/README.md
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
 ! GItlink Raw Link: https://code.gitlink.org.cn/api/v1/repos/keytoolazy/adblock_auto/raw/Rules/adblock_auto_lite.txt
 ! Github Raw Link: https://lingeringsound.github.io/adblock_auto/Rules/adblock_auto_lite.txt
-
+(/home/runner/work/adblock_auto/adblock_auto/busybox grep -Ev ^xchina\.co##div\[class\*=\"modalAd\"]$ /home/runner/work/adblock_auto/adblock_auto/Rules/adblock_auto_lite.txt)
