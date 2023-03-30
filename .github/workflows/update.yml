@@ -23,8 +23,10 @@ jobs:
         bash update.sh
     - name: Commit files
       run: |
+        git pull
         git config --local user.email ${{ secrets.MYEMAIL }}
         git config --local user.name ${{ secrets.MYUSERNAME }}
+        git add .
         git commit -a -m "Rules update"
     - name: Push changes
       uses: ad-m/github-push-action@master
