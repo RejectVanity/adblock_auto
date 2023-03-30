@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 #下载Adblock规则
 function download_link(){
 local IFS=$'\n'
@@ -61,7 +62,7 @@ local file="${1}"
 local white_list_file="${2}"
 for o in `cat "${white_list_file}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' `
 do
-	modtify_file=`grep -pv "${o}" "${file}"`
+	modtify_file="(`pwd`/busybox grep -Ev ${o} ${file})"
 	echo "${modtify_file}" > "${file}"
 done
 }
