@@ -47,7 +47,7 @@ cat << key > "${file}"
 ! Github Raw Link: https://lingeringsound.github.io/adblock_auto/Rules/${file##*/}
 key
 echo "${original_file}" >> "${file}"
-#perl "`pwd`/addchecksum.pl" "${file}"
+perl "`pwd`/addchecksum.pl" "${file}"
 }
 
 #净化规则
@@ -63,7 +63,7 @@ local IFS=$'\n'
 local white_list_file="${2}"
 for o in `cat "${white_list_file}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' `
 do
-	`pwd`/busybox sed -i "/${o}/d" "${file}"
+ `pwd`/busybox sed -i "/${o}/d" "${file}"
 done
 }
 
