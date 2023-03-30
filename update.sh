@@ -13,6 +13,9 @@ Base_Rules_Folder="`pwd`/base"
 #创建目录
 mkdir -p "${Download_Folder}" "${Sort_Folder}/lite" "${Combine_Folder}/lite" "${Rules_Folder}" && echo "※`date +'%F %T'` 创建临时目录成功！"
 
+#设置权限
+chmod -R 777 "`pwd`"
+
 #下载规则
 download_link "${Download_Folder}"
 
