@@ -22,7 +22,7 @@ do
 test "$(echo "${i}" | grep -E '^#' )" && continue
 	name=`echo "${i}" | cut -d '|' -f2`
 		URL=`echo "${i}" | cut -d '|' -f1`
-	test ! -f "${name}" && curl -k -L -o "${target_dir}/${name}" "${URL}" >/dev/null 2>&1 && echo "※ `date +'%F %T'` ${name} 下载成功！"
+	test ! -f "${target_dir}/${name}" && curl -k -L -o "${target_dir}/${name}" "${URL}" >/dev/null 2>&1 && echo "※ `date +'%F %T'` ${name} 下载成功！"
 dos2unix "${target_dir}/${name}" >/dev/null 2>&1
 done
 }
