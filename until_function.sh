@@ -58,7 +58,6 @@ function modtify_adblock_original_file() {
 
 function make_white_rules(){
 local file="${1}"
-local IFS=$'\n'
 local white_list_file="${2}"
 for i in `cat "${white_list_file}" 2>/dev/null | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d'`
 do
