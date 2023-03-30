@@ -47,7 +47,7 @@ cat << key > "${file}"
 ! Github Raw Link: https://lingeringsound.github.io/adblock_auto/Rules/${file##*/}
 key
 echo "${original_file}" >> "${file}"
-perl "`pwd`/addchecksum.pl" "${file}"
+#perl "`pwd`/addchecksum.pl" "${file}"
 }
 
 #净化规则
