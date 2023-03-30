@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mAji/qNyYK47v0nlNHV/dA
+! Checksum: 8bGj1fWRBy/PypUEKkESFg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230330213012
+! Version: 20230330213613
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-03-30 21:30:12
-! Total Count: 19185
+! Last modified: 2023-03-30 21:36:13
+! Total Count: 19190
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitlink Homepage: https://www.gitlink.org.cn/keytoolazy/adblock_auto/tree/main/README.md
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3230,6 +3230,7 @@ $image,redirect=1x1.gif,~third-party
 @@||ptitchef.com/js/ads.js
 @@||qpython.club^$generichide
 @@||shahid.mbc.net^$generichide
+@@||shouji.com.cn/static/v1/js/appinfo.js
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||static.koreus.com/js/advert.js
 @@||static.tieba.baidu.com/tb/editor/images/client/image_emoticon*.png
@@ -13201,6 +13202,9 @@ zle.com$script
 ||manlisgx.fun^
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
+||manwa.fun/static/upload/ads/$image,redirect=1x1.gif,important
+||manwa.me/static/custom/files/300X250.gif$image,redirect=1x1.gif,important
+||manwa2.me/static/custom/files/300X250.$image,redirect=1x1.gif,~third-party
 ||mao1.jsnovel.com^
 ||maobujie.com^
 ||maodh.com/admin/up/*.gif
@@ -15770,6 +15774,7 @@ zle.com$script
 ||sho9wbox.com^$third-party
 ||shoagooy.net^$third-party
 ||shoudan6.press^
+||shouji.com.cn/static/v1/js/appinfo.js
 ||shoujizhuanqian.store^
 ||shouyefrom.xyz^
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
