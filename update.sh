@@ -41,7 +41,7 @@ cp -rf "${Base_Rules_Folder}/adblock" "${Combine_Folder}/adblock.txt"
 cp -rf "${Base_Rules_Folder}/其他.prop" "${Combine_Folder}/其他.txt"
 Combine_adblock_original_file "${Rules_Folder}/adblock_auto.txt" "${Combine_Folder}"
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto.txt"
-#make_white_rules "${Rules_Folder}/adblock_auto.txt" "`pwd`/white_list/white_list.prop"
+make_white_rules "${Rules_Folder}/adblock_auto.txt" "`pwd`/white_list/white_list.prop"
 write_head "${Rules_Folder}/adblock_auto.txt" "混合规则(自动更新)" && echo "※`date +'%F %T'` 混合规则合并完成！"
 #lite
 Combine_adblock_original_file "${Combine_Folder}/lite/adblock_combine.txt" "${Sort_Folder}/lite"
@@ -49,7 +49,7 @@ cp -rf "${Base_Rules_Folder}/adblock_lite" "${Combine_Folder}/lite/adblock_lite.
 cp -rf "${Base_Rules_Folder}/其他.prop" "${Combine_Folder}/lite/其他.txt"
 Combine_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt" "${Combine_Folder}/lite"
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt"
-#make_white_rules "${Rules_Folder}/adblock_auto_lite.txt" "`pwd`/white_list/white_list.prop"
+make_white_rules "${Rules_Folder}/adblock_auto_lite.txt" "`pwd`/white_list/white_list.prop"
 write_head "${Rules_Folder}/adblock_auto_lite.txt" "混合规则精简版(自动更新)" && echo "※`date +'%F %T'` 混合规则精简版合并完成！"
 
 rm -rf "`pwd`/temple"
