@@ -62,8 +62,7 @@ local file="${1}"
 local white_list_file="${2}"
 for o in `cat "${white_list_file}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' `
 do
-	modtify_file="(`pwd`/busybox grep -Ev ${o} ${file})"
-	echo "${modtify_file}" > "${file}"
+	`pwd`/busybox sed -i "/${o}/d" "${file}"
 done
 }
 
