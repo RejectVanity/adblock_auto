@@ -1,7 +1,5 @@
 name: update_adblock_rules
 on:
-  push:
-    branches: [main]
   watch:
     types: [started]
   schedule:
