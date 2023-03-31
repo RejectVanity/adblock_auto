@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 2Mo5g2Ch6IA3A0G4gTobeQ
+! Checksum: CsmpjY9rm3wj6miZr4oUHQ
 ! Title: 混合规则(自动更新)
-! Version: 20230331101806
+! Version: 20230331111928
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-03-31 10:18:06
-! Total Count: 107620
+! Last modified: 2023-03-31 11:19:28
+! Total Count: 107624
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitlink Homepage: https://www.gitlink.org.cn/keytoolazy/adblock_auto/tree/main/README.md
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4333,6 +4333,7 @@
 ###pushdown_ad
 ###pusher-ad
 ###pvadscontainer
+###qinav_a1
 ###qj960a
 ###qj960b
 ###qpon_big_ad-teaser
@@ -10945,6 +10946,7 @@
 ##.b-header-ad
 ##.b-mobile-spots
 ##.b-right-rail--ads
+##.b300 > .h100 > a[href^="http"]
 ##.bAdvertisement
 ##.b_ad
 ##.b_adLastChild
@@ -67601,6 +67603,7 @@ zzzyk.com###Tinfo
 ||eooslfyhziubo.com^
 ||eopa5tepa.icu^
 ||eopad.cyou^
+||eoqtyyp.cn^
 ||eoqygep.cn^
 ||eoredi.com^
 ||eosads.com^
@@ -106381,6 +106384,7 @@ zzzyk.com###Tinfo
 ||yuetx.cc^
 ||yueyuego.com^
 ||yueyuelao.cn^
+||yufeng8.tech^
 ||yufuyan.cn^
 ||yugaley.info^
 ||yuggcd.com^
