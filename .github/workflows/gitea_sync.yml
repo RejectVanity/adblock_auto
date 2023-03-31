@@ -13,7 +13,7 @@ jobs:
       - uses: varunsridharan/action-gitea-mirror@main
         name: " ⏳ Setting Up Mirror"
         with:
-          gh_username: ${{ secrets.MYUSERNAME }}
+          gh_username: ${{ secrets.GH_USERNAME }}
           gh_accesstoken: ${{ secrets.GH_TOKEN }}
           gitea_host: ${{ secrets.GITEA_HOST }}
           gitea_username: ${{ secrets.GITEA_USERNAME }}
