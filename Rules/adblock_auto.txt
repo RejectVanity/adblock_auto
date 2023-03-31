@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: yGR874UGAPYhr7ycnSuW9w
+! Checksum: jYmhcV/ptLmNh6pCVinZLQ
 ! Title: 混合规则(自动更新)
-! Version: 20230331160758
+! Version: 20230331201011
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-03-31 16:07:58
-! Total Count: 107627
+! Last modified: 2023-03-31 20:10:11
+! Total Count: 107630
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitlink Homepage: https://www.gitlink.org.cn/keytoolazy/adblock_auto/tree/main/README.md
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -28465,6 +28465,7 @@ $websocket,domain=5nj.com|cechi8.com
 3d66.com##.advertisement-carousel
 3d66.com##.botfocus
 3d66.com##.down-adver
+3dmgame.com###index_bg_box
 3dmgame.com###min_ad_con
 3dmgame.com###yxj_fmt_gg
 3dmgame.com##.Content_L > p
@@ -43372,6 +43373,7 @@ ssr.tools,zhujiwiki.com##.asb-post-footer
 sss.xxx##.fel-item
 sssam.com##+js(set-constant, ads, '')
 sssam.com##.widget_html_ad
+sstv.pw##.container > a > img[style="width: 100%;"]
 ssuip.com###mask
 stackoverflow.com##.clc-cp-lb
 stackoverflow.com##.js-sidebar-zone
@@ -92383,6 +92385,7 @@ zzzyk.com###Tinfo
 ||s1-a1.dnvodcdn.me^*.mp4
 ||s1-a1.dnvodcdn.me^*.svg
 ||s1.dugoogle.com^
+||s1.hanlinzhijia.com^
 ||s1.intimshop.ru^
 ||s1.pipishu.com^
 ||s1.qiqutt.cn^
