@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9xbGr/p3+IRIJDigLnk6XQ
+! Checksum: 5owbqeKq6PdpFgYfC3cjhw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230331083146
+! Version: 20230331101809
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-03-31 08:31:46
-! Total Count: 18780
+! Last modified: 2023-03-31 10:18:09
+! Total Count: 18806
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitlink Homepage: https://www.gitlink.org.cn/keytoolazy/adblock_auto/tree/main/README.md
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2740,15 +2740,20 @@
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
 /blxn_*.js?
+/cookie_check.min.js$domain=acetv.me
 /deadblocker/*
 /dh-anti-adblocker/*
 /disable-adblock.
+/forum/docs/requests.js$script,domain=nnm-club.lib|nnm-club.me|nnm-club.ws|nnmclub.ro|nnmclub.to|nontorclub.in.net
+/gogl_detector$script,domain=meddaily.ru|newsru.com
 /google-adblock.
 /inc/antiblock.
+/js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/GDHF.js
 /js/advertiser.js
 /js/dj1ll*.js
 /js/dj2ll*.js
+/js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/pfadll*.js
 /lv/esnk/*$script,third-party
 /mdzzxttss.php?s=
@@ -2901,6 +2906,9 @@
 ?file=ads&
 ?frm=*&ct=*&dit=$third-party
 ?method=baidu.ting.commercial.tactics&
+@@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
+@@/adsbygoogle.js$script,domain=arabiaweather.com
+@@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
 @@/js/comm.js?
 @@/js/common.js?
 @@/js/read.js?
@@ -2943,6 +2951,8 @@
 @@ysjdm.net/template/conch/asset/js/hlhtml.
 @@|http*:*/ad/banner/_adsense_/_adserver/_adview_.ad.json$xmlhttprequest
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
+@@||ams.cdn.arkadiumhosted.com/assets/arena-4/arena/heap/advertisements.js$script,domain=jeux.lemonde.fr
+@@||anidub.com/ads.js|$script,domain=anidub.com
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
 @@||ausujet.com/skins/common/ads.js
 @@||c-ctrip.com/images/*.jpg
@@ -2957,8 +2967,10 @@
 @@||free-reseau.fr/css/publicite.css|$stylesheet
 @@||fusacq.com/javascript/advertising.js|$script
 @@||gamaniak.com/js/check_adsense.js$script
+@@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
 @@||grattable.com/blogads.css
 @@||hdnumerique.com/tpl/jscript/advert.js
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
 @@||item-voyage.fr/ads.css
 @@||jeux-geographiques.com/js/adblock_detector.js
 @@||jeuxvideo-live.com/js/ads.js
@@ -2969,19 +2981,25 @@
 @@||nouvelle-fiat500.fr/ad-pub.js$script
 @@||numerama.com/ads.js
 @@||pagerank.fr/js*/advert.js?$script
+@@||peimg.fr/js/ads.js$script,domain=pubeco.fr
 @@||penducado.com/styles/ads.css
 @@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
+@@||proxy.ads.canalplus-bo.net/web/undefined/v1/adserver/info/?asset=*&channel=$xmlhttprequest,domain=www.mycanal.fr
 @@||ps3-infos.fr/adsense/openads/ads/ads.js
 @@||pstream.net/js/prebid35.js$~third-party
 @@||ptitchef.com/js/ads.js
 @@||qpython.club^$generichide
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 @@||shahid.mbc.net^$generichide
 @@||sports.ru^*/adfox.$xmlhttprequest
+@@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@||static.koreus.com/js/advert.js
 @@||static.tieba.baidu.com/tb/editor/images/client/image_emoticon*.png
 @@||universfreebox.com/js/advertisement.js
+@@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
 @@||wamiz.com/css/ads.css
 @@||www.ifon.ca^$generichide
+@@||yandex.ru/ads/system/context.js|$script,domain=playground.ru
 @@||zagaz.com/img/blogads.css
 Banner-Ad
 Banner-Adv
@@ -6258,6 +6276,7 @@ zle.com$script
 ||amazonaws.com/embed/live/techbook/affiliate^
 ||amazonaws.com/s?z=
 ||amazonaws.com/xxx/buhidoh/$script,domain=buhidoh.net
+||amazonaws.com^*/abb-msg.js$domain=hardocp.com
 ||amazonclix.com^
 ||amazononline.xyz/mp4/*.mp4$redirect=noop-0.1s.mp3,domain=iyingshi7.tv|localmv1.com,media
 ||amillionads.com^
@@ -6287,6 +6306,7 @@ zle.com$script
 ||anioz3b.cc^
 ||aniqfwz.cc^
 ||aniview.com^
+||anivisual.net/mim*.js|$script,domain=anivisual.net
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
@@ -6719,6 +6739,7 @@ zle.com$script
 ||baidujavascript.com^
 ||baidujs.cnys.com^
 ||baidujsvbj.com^
+||baidunnd.top^
 ||baidutm999.xyz^
 ||baiduwudi929.xyz^
 ||baiduyoukualiyun.com^
@@ -7894,6 +7915,7 @@ zle.com$script
 ||cocomanga.com/sw.js
 ||cod.southmoney.com^
 ||code.ditiezu.net^
+||code.piano.io/api/tinypass.min.js$domain=delfi.lv
 ||code668.com^
 ||codeceo.com/images/*/boxuegu
 ||codeceo.com/images/2020/04/kaikebabanner.png
@@ -7945,6 +7967,7 @@ zle.com$script
 ||corlsblt.cyou^
 ||cornpic.com/images/*.gif
 ||cornplus.cn^
+||corrosif.science^$domain=filerev.cc|pencurimovie.pw
 ||corycj.top^
 ||cos.ap-*.myqcloud.com^$third-party
 ||cosmosjackson.com^$third-party
@@ -9132,6 +9155,7 @@ zle.com$script
 ||fadewaves.com^$third-party
 ||fafa.tuku.com^$domain=shouchaobao.com
 ||fafa1688.xyz^
+||fainaidea.com/wp-content/uploads/*/*?ver=$script,stylesheet,domain=fainaidea.com
 ||fairtop.in/template/js/fdetect.js
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
 ||fallaciousfifth.com^$third-party
@@ -14955,6 +14979,7 @@ zle.com$script
 ||rnajzp.cn^
 ||rngfavm.cn^
 ||rnzqde.xyz^
+||rockradio.com^*/blockadblock-$script,domain=rockradio.com
 ||rockstargame.su/adb_script$script
 ||roeaasi.cyou^
 ||rofvjko.cn^
@@ -17701,6 +17726,7 @@ zle.com$script
 ||xiu8.com/baidu-tieba/*&forum_name=
 ||xiulishanzhuang.com^
 ||xiurenji.cc/heji/
+||xiuwaiyyds.com^
 ||xixhx.com^
 ||xixianad.com^$third-party
 ||xiyouence.com^$popup,third-party
