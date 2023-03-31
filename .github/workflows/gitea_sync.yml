@@ -1,24 +1,55 @@
-name: " ⏳  Gitea Mirror Setup"
+ame: " ⏳  Gitea Mirror Setup"
 
 on:
+
+  workflow_dispatch:
+
   schedule:
-    - cron: 0 */5 * * *
+
+    - cron: 0 0 * * *
   watch:
     types: [started]
 
+  push:
+
+    branches:
+
+      - main
+
 jobs:
+
   build:
+
     runs-on: ubuntu-latest
+
     steps:
+
       - uses: varunsridharan/action-gitea-mirror@main
+
         name: " ⏳ Setting Up Mirror"
+
         with:
+
           gh_username: ${{ secrets.GH_USERNAME }}
+
           gh_accesstoken: ${{ secrets.GH_TOKEN }}
+
           gitea_host: ${{ secrets.GITEA_HOST }}
+
           gitea_username: ${{ secrets.GITEA_USERNAME }}
+
           gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
+
+          gitea_gist_prefix: "gist"
+
+          gitea_gist_surfix: ""
+
+          gistsSource: true
+
+          gistsStared: true
+
           repositoryStared: true
+
           repositorySource: true
+
           repositoryForked: true
-          repomap: ${{ secrets.GH_USERNAME }}/adblock_auto = ${{ secrets.GITEA_USERNAME }}/adblock_auto
