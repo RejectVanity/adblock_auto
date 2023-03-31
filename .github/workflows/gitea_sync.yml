@@ -2,7 +2,7 @@ name: " ⏳  Gitea Mirror Setup"
 
 on:
   schedule:
-    - cron: 0 0 * * *
+    - cron: 0 */5 * * *
   watch:
     types: [started]
 
