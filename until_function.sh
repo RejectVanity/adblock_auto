@@ -133,6 +133,11 @@ test -f "${file}" && rm -rf "${file}"
 cat << key > "${file}"
 # 混合规则
 ### 自动更新(`date +'%F %T'`)
+
+## 统计
+### 访问人数 : ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007_auto&left_color=green&right_color=red)
+
+
 | 名称 | GIthub订阅链接 | Github加速订阅链接 | GitCode订阅链接 | 
 | :-- | :-- | :-- | :-- |
 | 混合规则(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅](https://raw.githubusercontents.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto.txt) |
