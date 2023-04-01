@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: gmNQ57LXy/xY7QCHhhWvCA
+! Checksum: Wjqm94gfAWdheZYuQMa7Gg
 ! Title: 混合规则(自动更新)
-! Version: 20230401160720
+! Version: 20230401171552
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-01 16:07:20
-! Total Count: 107893
+! Last modified: 2023-04-01 17:15:52
+! Total Count: 107899
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19652,6 +19652,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cam/ads/
 .cc/ad/
 .cc/ads/
+.cc/api/getPos?jspath=/$~third-party
 .cc/js/ads/
 .cc/s.php?id=$script,third-party
 .cfm?ad=
@@ -19671,6 +19672,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/?ss=$script,third-party
 .cn/a.gif?
 .cn/ads/
+.cn/api/getPos?jspath=/$~third-party
 .cn/b.gif?
 .cn/gg/$script,third-party
 .cn/j/*$script,third-party
@@ -19758,6 +19760,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/adx/
 .com/adx_
 .com/adz/
+.com/api/getPos?jspath=/$~third-party
 .com/bads/
 .com/banner_list.js
 .com/c.gif?
@@ -20177,6 +20180,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/ads/
 .xyz/alpine?$third-party
 .xyz/angular.js?
+.xyz/api/getPos?jspath=/$~third-party
 .xyz/base*.js?
 .xyz/c.php?s=
 .xyz/effect.php?
@@ -40217,6 +40221,8 @@ motorhomefacts.com###header-promo
 motorsport.com##.ms-ap
 motorsport.com##.ms-apb-dmpu
 motortrend.com###MT_Articles_300x250_top
+motortrend.com##._2IzhW
+motortrend.com##._2xd_t
 motortrend.com##div[data-ad-targeting]
 mover.uz###oframeplayer > [class][style^="display: block"]
 movie-censorship.com##a[href*="/out.php?"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: iywT98sLB5vA1DMt4qnoag
+! Checksum: 79UG5/pgyh47624w9SNdMA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230401160721
+! Version: 20230401171553
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-01 16:07:21
-! Total Count: 18825
+! Last modified: 2023-04-01 17:15:53
+! Total Count: 18829
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2408,6 +2408,7 @@
 .cam/ads/
 .cc/ad/
 .cc/ads/
+.cc/api/getPos?jspath=/$~third-party
 .cc/js/ads/
 .cilipa*/js/os.js
 .cloud/ads/
@@ -2416,6 +2417,7 @@
 .club/r/*$xmlhttprequest
 .cn/a.gif?
 .cn/ads/
+.cn/api/getPos?jspath=/$~third-party
 .cn/b.gif?
 .cn/gg/$script,third-party
 .cn/j/*$script,third-party
@@ -2452,6 +2454,7 @@
 .com/adv1/?q=
 .com/adv?
 .com/adx/
+.com/api/getPos?jspath=/$~third-party
 .com/c.gif?
 .com/code.php?a=index&z=$script,third-party,xmlhttprequest
 .com/core/js/the_pf.js
@@ -2631,6 +2634,7 @@
 .xyz/ad/
 .xyz/alpine?$third-party
 .xyz/angular.js?
+.xyz/api/getPos?jspath=/$~third-party
 .xyz/base*.js?
 .xyz/c.php?s=
 .xyz/effect.php?
