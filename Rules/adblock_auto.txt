@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Wjqm94gfAWdheZYuQMa7Gg
+! Checksum: JjfkaXOllJcBw90p6TZk1A
 ! Title: 混合规则(自动更新)
-! Version: 20230401171552
+! Version: 20230401210313
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-01 17:15:52
-! Total Count: 107899
+! Last modified: 2023-04-01 21:03:13
+! Total Count: 107910
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -16662,6 +16662,7 @@
 ##.tips_advertisement
 ##.title > .gg
 ##.title-ad
+##.tl-ad-container
 ##.tmall_ad_container
 ##.tmall_bg15
 ##.tmiads
@@ -34116,6 +34117,8 @@ cosxcos.cc##div[class*="yy"]
 cotton.pink##.adsbyfalcon
 coub.com##.timeline-banner
 counselheal.com,mobilenapps.com###vplayer_large
+countdown.co.nz#?#cdx-card:-abp-has(product-badge-list)
+countdown.co.nz,nscreenmedia.com,whoscored.com##.banner-container
 counter.dev,lindaikejisblog.com##.da
 counterpunch.org##.header-center
 coveteur.com###native_1
@@ -50075,6 +50078,9 @@ zzzyk.com###Tinfo
 ||aaa.tumanyi.com^
 ||aaa.vidox.net^
 ||aaaa8.top^
+||aaaaa599.com^
+||aaaaa663.com^
+||aaaaa855.com^
 ||aaaaaco.com^
 ||aaacompany.net^
 ||aaaesme.cn^
@@ -69251,6 +69257,7 @@ zzzyk.com###Tinfo
 ||filitrac.com^
 ||fillidutt.tw^
 ||fillsitsy.cam^
+||fillvpn.com^
 ||filmoljupci.com^
 ||filmplus.ru^
 ||filterexchangecage.com^
@@ -76502,6 +76509,7 @@ zzzyk.com###Tinfo
 ||jeribpupiled.com^
 ||jerredsite.pro^
 ||jerridlarded.com^
+||jerrytom.xyz^
 ||jersit.com^
 ||jerupt.com^
 ||jervinreverdi.uno^
@@ -93816,6 +93824,7 @@ zzzyk.com###Tinfo
 ||shaque.vip^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||shar3yourf1le.com^
+||sharapako.com^
 ||share-server.com^
 ||share.baidu.com/static/js/
 ||share.dmhy.org^*.*?$image
@@ -103297,6 +103306,7 @@ zzzyk.com###Tinfo
 ||wap*.m.xuehongxs.com$script
 ||wap-click.com^
 ||wap.gonb.org/qjlm_wap.js
+||wap.hfoyjg.cn^
 ||wap.hfoyjg.cn^$third-party
 ||wap.jd-tv.com/skin/js/ssp.js
 ||wap.vsekratko.ru/brend/
@@ -105665,6 +105675,7 @@ zzzyk.com###Tinfo
 ||xwqvytuiko.com^
 ||xww360.com^
 ||xwwj.ink^
+||xx.shaque.vip^
 ||xx.shaque.vip^$third-party
 ||xxbughz.cn^
 ||xxccdshj.com^
