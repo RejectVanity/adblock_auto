@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: JjfkaXOllJcBw90p6TZk1A
+! Checksum: jWuCaDwO2X2E7UGWmTxV7A
 ! Title: 混合规则(自动更新)
-! Version: 20230401210313
+! Version: 20230402000639
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-01 21:03:13
-! Total Count: 107910
+! Last modified: 2023-04-02 00:06:39
+! Total Count: 107914
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -15115,6 +15115,8 @@
 ##.postend-advert
 ##.poster_ad
 ##.postfooterad
+##.postmessage > #googleFirst
+##.postmessage > #googleSecond
 ##.posts-ad
 ##.powerinbox
 ##.pp-ad-container
@@ -18596,6 +18598,8 @@
 ##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0 + .jsv-g1
 ##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
+##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) > .container-fluid.mb-0.p-0 + .jsv-g1
 ##header + #main:nth-child(n+4) > .container-fluid.mb-3.p-0
