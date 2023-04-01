@@ -135,7 +135,7 @@ cat << key > "${file}"
 ### 自动更新(`date +'%F %T'`)
 
 ## 统计
-### 访问人数 : ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.10007_auto&left_color=green&right_color=red)
+### 访问人数 : ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.adblock_auto&left_color=green&right_color=red)
 
 
 | 名称 | GIthub订阅链接 | Github加速订阅链接 | GitCode订阅链接 | 
