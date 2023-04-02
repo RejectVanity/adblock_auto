@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1kCNuf4eB7oSyzQbs2bMog
+! Checksum: urNqtDDRj/zqqtd/jU7PVA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230402160714
+! Version: 20230402235727
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-02 16:07:14
-! Total Count: 18845
+! Last modified: 2023-04-02 23:57:27
+! Total Count: 18858
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1313,6 +1313,7 @@
 ##a[href$=".120ydrayy.com"]
 ##a[href$=".anwangdaohang.com"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
+##a[href$=".xyz:8443"]
 ##a[href$="/108mg8.com"]
 ##a[href$="/186ob.com"]
 ##a[href$="/1c626.com"]
@@ -1622,6 +1623,7 @@
 ##a[href*="/bibo149.com:"]
 ##a[href*="/blfanss.com"]
 ##a[href*="/bli2a.com/"]
+##a[href*="/bucd.icu"]
 ##a[href*="/bucd.icu/"]
 ##a[href*="/ck345.cc"]
 ##a[href*="/cslpldyc.me"]
@@ -1712,6 +1714,7 @@
 ##a[href*="/xchina.fun/redirect/ad"]
 ##a[href*="/yb6277.vip"]
 ##a[href*="/ybhth689.com"]
+##a[href*="/yfj8159.com"]
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
 ##a[href*="/youyicl/youku.html"][target="_blank"]
@@ -2901,6 +2904,7 @@
 :99/js/ads/
 =AdCode_$script,third-party
 =AdCode_sjdb
+=AdCode_sjdb$script,third-party
 =Ad_ZPlusGoods&
 =BAIDU_SSP_define&
 =SOGOU_WAP_SETJSONADSLOT&
@@ -3750,6 +3754,8 @@ tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##a[href*="/baidu.php?url="]
 tieba.baidu.com##div[add-shield-track]
+tnaflix.com##.bannerBlock
+tnaflix.com##.rbsd
 toolslib.net##.row > .col-md-7 > .panel-default
 topcraft.ru##.ad-info
 torrnado.win##body > div > .a-overlay
@@ -7222,6 +7228,7 @@ zle.com$script
 ||boylove.cc/bookimages/img/
 ||boylove.cc/static/js/yymh.js
 ||boylove.cc^*/img/20*.gif
+||boyloves.fun^*/img/20*.gif
 ||bozhihua.com^$third-party
 ||bozhixiang.top^
 ||bp.blogspot.com^$domain=avmimi.com
@@ -12890,6 +12897,7 @@ zle.com$script
 ||mayuting0821.ltd^
 ||mb.gulongbbs.com^
 ||mbai.cn^$third-party
+||mbalib.com/common/a_mbalib/
 ||mbazhaheix.top^
 ||mbepa.xyz^
 ||mblapi.ssl2.duapps.com^
@@ -14157,9 +14165,11 @@ zle.com$script
 ||pic.0597kk.com^
 ||pic.959.cn/media/js/
 ||pic.baihuawen.cn^
+||pic.dibtvft.cn^$script,third-party
 ||pic.fengniao.com^
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.ivzfpwm.cn^$script
+||pic.ivzfpwm.cn^$script,third-party
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
 ||pic.touleb.cn/banner/
 ||pic.yupoo.com/showflash/
@@ -14650,6 +14660,7 @@ zle.com$script
 ||qlogo.cn^$domain=250dgj.ga
 ||qlogo.cn^$domain=chichiav1.xyz
 ||qlogo1.store.qq.com^
+||qlspx.com:$third-party,other
 ||qlsynmly.fun^
 ||qlzjwgb.cn^
 ||qm.qq.com^$domain=se8u.cc
@@ -18352,6 +18363,7 @@ zle.com$script
 ||yular.cn^
 ||yulidianshang.com^
 ||yuliglsd.space^
+||yulingaa.xyz^
 ||yumingroot.xyz^
 ||yumnxwvd.ink^
 ||yun-pdm2000.cn^
@@ -18507,6 +18519,7 @@ zle.com$script
 ||zdama.xyz^
 ||zdama.xyz^$third-party
 ||zdambl.*$third-party
+||zdambl.xyz^$third-party
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdhfff.xyz^
