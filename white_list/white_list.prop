@@ -39,5 +39,9 @@ manwa.me#\$#\.ad-area.*}$
 ^xchina.co##\[href\*=\"#\"\]$
 ^xchina.co##div\[class\*=\"jquery-modal\"]$
 ^xchina.co##div\[class\*=\"modalAd\"]$
+! 百度笔记
+#results[[:space:]]>[[:space:]]div\[class\]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)$
+#results[[:space:]]>[[:space:]]div\[class\]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)$
+
 
 
