@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 46oXfJ0M4vSgJwOkvs8h+Q
+! Checksum: p8rDb5l5f6T6nau+cjWN6Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230403192748
+! Version: 20230403193309
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-03 19:27:48
-! Total Count: 18874
+! Last modified: 2023-04-03 19:33:09
+! Total Count: 18875
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3324,6 +3324,7 @@ google.com##.nH.MC
 gta.com.ua##body > div[id][style*="background"][style*="visible"]
 hanyu.baidu.com###download-wrapper
 hanyu.baidu.com##[id^="fengchao_els"]
+hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hearthhead.com,thottbot.com,wowhead.com##.sidebar-bg
 hearthhead.com,wowhead.com##.block-bg
 helpsetup.ru##.veramoy

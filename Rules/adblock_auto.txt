@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: pyefqo5lqi91Omfch/0MKg
+! Checksum: 6hDiNaeJeEBdhZMJtPB14g
 ! Title: 混合规则(自动更新)
-! Version: 20230403192746
+! Version: 20230403193307
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-03 19:27:46
-! Total Count: 108156
+! Last modified: 2023-04-03 19:33:07
+! Total Count: 108157
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -37219,6 +37219,7 @@ hd21.com,winporn.com###spot_video_underplayer_livecams
 hdchina.org##.sitead
 hdfcbank.com#@#.adLink
 hdfcbank.com#@#.adbanner
+hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hdshare.cn,it168.com###adv
 hdtube.porn##.g-col-banners
 hdtube.porn,pornid.xxx##.cs-under-player
