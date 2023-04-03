@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qtuaaMMrnt/MDI1jhWKusw
+! Checksum: 46oXfJ0M4vSgJwOkvs8h+Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230403160835
+! Version: 20230403192748
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-03 16:08:35
-! Total Count: 18872
+! Last modified: 2023-04-03 19:27:48
+! Total Count: 18874
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1767,6 +1767,7 @@
 ##a[href] > .img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href][rel="nofollow"][target="_blank"] > img[class][src]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
+##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
@@ -2943,6 +2944,7 @@
 @@/xxgg/yuedu.js
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
+@@://img.souche.com/*.jpg
 @@game.baifumeiba.com/login/ad/adex.js
 @@manwa.me/static/custom/files/300X250.gif
 @@manwa.site/static/custom/files/300X250.gif

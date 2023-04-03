@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: k16hngcOgbwjizLaVCg5Mg
+! Checksum: pyefqo5lqi91Omfch/0MKg
 ! Title: 混合规则(自动更新)
-! Version: 20230403160833
+! Version: 20230403192746
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-03 16:08:33
-! Total Count: 108151
+! Last modified: 2023-04-03 19:27:46
+! Total Count: 108156
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18080,6 +18080,7 @@
 ##a[href] > .img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href][rel="nofollow"][target="_blank"] > img[class][src]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
+##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
@@ -29628,6 +29629,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@/xxgg/yuedu.js
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
+@@://img.souche.com/*.jpg
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
 @@?sid=ads$domain=126.com|mail.163.com
@@ -34446,6 +34448,7 @@ dailyfx.com##.dfx-article__sidebar
 dailyherald.com##.stnContainer
 dailymail.co.uk###promo-unit
 dailymail.co.uk###sky-right
+dailymail.co.uk##.connatix-wrapper
 dailymail.co.uk##.mol-fe-vouchercodes-redesign
 dailymail.co.uk##.mpu_puff_wrapper
 dailymail.co.uk##.puff_pastel
@@ -37260,6 +37263,8 @@ helensburghadvertiser.co.uk,the-gazette.co.uk##.btn
 hellenicshippingnews.com##.bigbanner
 hellocare.com.au##.post-wrapper__portrait-ads
 hellogiggles.com##.karma_unit
+hellomagazine.com##.-variation-megabanner
+hellomagazine.com##.hm-ad-container
 hellomagazine.com##.promohola
 hellomagazine.com##.sponsored-news
 hellomagazine.com##div[id^="div-hola-slot-"]
