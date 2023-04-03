@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6hDiNaeJeEBdhZMJtPB14g
+! Checksum: ITJrLJRysnsK5yMyL13mCg
 ! Title: 混合规则(自动更新)
-! Version: 20230403193307
+! Version: 20230404000716
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-03 19:33:07
-! Total Count: 108157
+! Last modified: 2023-04-04 00:07:16
+! Total Count: 108166
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -33044,11 +33044,14 @@ book.qidian.com#$##j-topBgBox + .crumbs-nav.top-op { margin-bottom: 10px !import
 book118.com##div[style*="width: 252px;height: 260px;"]
 book18.org##[id^="bottom-ads"]
 bookgew.com###AdsT
+booking.com#?#div[data-testid="property-card"]:-abp-has(div[data-testid="new-ad-design-badge"])
+booking.com#?#div[data-testid="property-card"]:-abp-has(span[data-testid="new-ad-design-badge"])
 booklife.com###interstitial
 booklife.com,yabeat.org###interstitial
 booklink.me,p9.com.tw###ad2
 booklink.me,p9.com.tw,xinhuanet.com###ad2
 bookrb.com##a[href="/rmtj.html"]
+bookrbx.com##a[href="/rmtj.html"]
 bookriot.com###top_takeover
 bookriot.com##.random-content-pro-wrapper
 bookriot.com##.tbr-promo
@@ -34669,6 +34672,9 @@ dfir.training##.moduleid-307
 dfir.training##.moduleid-347
 dfir.training##.moduleid-358
 dg-premium.com##.footer__partner-logo
+dhaomu.com##.ceo-ad
+dhaomu.com##.ceo-footer-h
+dhaomu.com##.sidebar > .slide
 di.fm##.gpt-slot
 dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
@@ -54324,6 +54330,7 @@ zzzyk.com###Tinfo
 ||analytics.gokwik.co^
 ||analytics.gooogol.com^
 ||analytics.gorillanation.com^
+||analytics.grape.media^
 ||analytics.greensender.pl^
 ||analytics.groupe-seb.com^
 ||analytics.growthphysics.com^
@@ -74761,6 +74768,7 @@ zzzyk.com###Tinfo
 ||iemwbu.cn^
 ||iendoo.com^
 ||ieoyptnech.com^
+||iepda.xyz^
 ||ieroohhcytpar.xyz^
 ||ietyofedinj89yewtburgh.com^
 ||ieuhd.com^
@@ -103104,6 +103112,7 @@ zzzyk.com###Tinfo
 ||vologda-info.ru^
 ||voloter.top^
 ||volthamfondue.com^
+||volts.shopping.naver.com^
 ||voluim.com^
 ||volumeearthquakedozen.com^
 ||volument.com^
