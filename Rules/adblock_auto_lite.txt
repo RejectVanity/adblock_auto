@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: MFt4Ey8glwoQkRpdGNG2Kg
+! Checksum: qtuaaMMrnt/MDI1jhWKusw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230403083209
+! Version: 20230403160835
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-03 08:32:09
-! Total Count: 18858
+! Last modified: 2023-04-03 16:08:35
+! Total Count: 18872
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2715,6 +2715,7 @@
 /abb-msg.js
 /ad-blocking-advisor/*
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
+/adManager.js$script,third-party
 /adb-watch.
 /adbDetect.
 /adbDetect/*
@@ -5730,6 +5731,7 @@ zle.com$script
 ||ad6media.fr^
 ||ad8888.top^
 ||ad9377.com^
+||ad999.biz^$third-party
 ||adadmin.house365.com^
 ||adadvisor.net^
 ||adaog.com^
@@ -6796,6 +6798,7 @@ zle.com$script
 ||baldbaptismrisk.com^
 ||ballive.*/addm/
 ||balmoralmkt.com^$third-party
+||balspaulite.com^
 ||banbf.com^
 ||banfd.com^
 ||banfs.com^
@@ -7500,6 +7503,7 @@ zle.com$script
 ||ccl1.icu^
 ||cclw.xyz^
 ||ccmeng.com^$third-party
+||ccohayo.xyz^
 ||ccpufcj.cn^
 ||ccpvmjh.cn^
 ||ccrgxye.cn^
@@ -11502,6 +11506,7 @@ zle.com$script
 ||jitapu.com/inc/adv
 ||jitashe.org/template/jitashe/image/bc/3
 ||jiu9.shop^
+||jiuba20230320.live^
 ||jiudashi.shop^
 ||jiudiandyw.com^
 ||jiuku.pw^
@@ -12006,6 +12011,7 @@ zle.com$script
 ||kkkkdm.com/mg/show
 ||kkqeqk.cn^
 ||kkuuu.top^
+||kkylx.xyz^
 ||kl-toys.com^
 ||kl87n.xyz^
 ||klandmart.com/K-Landmart_0011.jpg
@@ -14006,6 +14012,7 @@ zle.com$script
 ||p3tt.com^
 ||p4f52tll.cn^
 ||p4p.sina.com.cn^
+||p4pd.cn^
 ||p7ivj09f.xyz^
 ||p7lvj09f.shop^
 ||p8u.hinet.net^
@@ -14604,6 +14611,7 @@ zle.com$script
 ||qisaoba.com^
 ||qishenga.com^*.gif$domain=meiju11.com
 ||qishuk.com/css/wap.
+||qishula.com/css/wap.
 ||qist.me^
 ||qitou20230204.live^
 ||qiutian.buzz^
@@ -15053,6 +15061,7 @@ zle.com$script
 ||rqpvevt.cn^
 ||rqwnzbx.cn^
 ||rr.pochengweiyuan.com^$third-party
+||rr3r.com/requestData.
 ||rrkky.top^
 ||rrll.love^
 ||rrpdhal.cn^
@@ -15078,6 +15087,7 @@ zle.com$script
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||rtcegcp.cn^
 ||rthmnj.xyz^
+||rtjmln.xyz^
 ||rtkyvd.xyz^
 ||rtmark.net^
 ||rtmtgf.xyz^
@@ -15359,6 +15369,7 @@ zle.com$script
 ||sgsdqs.xyz^
 ||sh.sina.com.cn/iframe/522/
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
+||sh6ss7.top^
 ||sh996.dftoutiao.com^
 ||shackapple.com^
 ||shakegoldfish.com^$third-party
@@ -16322,6 +16333,7 @@ zle.com$script
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tmea116.oss-cn-beijing.aliyuncs.com^
 ||tmioe.com/img/att/boom.jpg
+||tmochyf.cn^
 ||tmrhoe2.com^
 ||tmz.vo.llnwd.net^
 ||tnarzc.com^
@@ -17589,6 +17601,7 @@ zle.com$script
 ||xcaqa.xyz^
 ||xcaqe.xyz^
 ||xcar.com.cn/dsp/ad
+||xcaukve.cn^
 ||xcdzsw.com^
 ||xcf-bd-js.chuimg.com^
 ||xchina.co/plugins/jquery.modal/
@@ -18093,6 +18106,7 @@ zle.com$script
 ||yfkgnqu.cn^
 ||yflog.me^
 ||yfmhik.xyz^
+||yfohgo.xyz^
 ||yfot.com.cn^
 ||yfue99.xyz^
 ||yfunkgk.cn^
