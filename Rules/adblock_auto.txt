@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: //AEmXeYkvOpLDstu4uCSg
+! Checksum: qSNveC4+bvq1nWNEHDRqtw
 ! Title: 混合规则(自动更新)
-! Version: 20230404203930
+! Version: 20230404235106
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-04 20:39:30
-! Total Count: 108329
+! Last modified: 2023-04-04 23:51:06
+! Total Count: 108331
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -32250,6 +32250,7 @@ axisbank.com##.topbandBg_New
 axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
 axn-asia.com,onetvasia.com##.pane-dart-dart-tag-300x250-rectangle
 axutongxue.com,axutongxue.net##style + div[id]
+axutongxue.net###uuuui
 axutongxue.net##+js(no-setTimeout-if, getCookie(")
 axutongxue.net##body > article[style]
 azcentral.com,detroitnews.com,freep.com##div[id^="ad-slot-"]
@@ -32669,6 +32670,7 @@ beforeitsnews.com##[id^="banners_"]
 beforeitsnews.com,bigleaguepolitics.com,in5d.com##a[href*=".hop.clickbank.net"]
 beforeitsnews.com,bigleaguepolitics.com,in5d.com,mytruthnews.com,thetruedefender.com##[href*="hop.clickbank.net"]
 beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
+beforeitsnews.com,in5d.com,mytruthnews.com,thetruedefender.com##[href*="hop.clickbank.net"]
 behe.com
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
 beincrypto.com##.cont-wrapper
