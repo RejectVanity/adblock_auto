@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: RzsVIpgg1Xnpajn+sMKXJA
+! Checksum: ZsariF/he1Pk7/OB7twYfA
 ! Title: 混合规则(自动更新)
-! Version: 20230405104857
+! Version: 20230405120956
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-05 10:48:57
-! Total Count: 108351
+! Last modified: 2023-04-05 12:09:56
+! Total Count: 108359
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -31967,6 +31967,7 @@ apkonline.net,kisshentai.net,onworks.net##div[id^="ad"]
 apkwhale.com###download > div
 apnaohio.com,miradiorumba.com#@##ad-header
 apnews.com##.Leaderboard
+apnews.com##[data-card-id="sovrn-article-midarticle"]
 apnews.com##div[class^="Component-adTitle-"]
 apnews.com##div[class^="Component-dfp-"]
 apnews.com##div[class^="Component-placeholderWrapper-"]
@@ -32253,6 +32254,7 @@ axios.com##[data-vars-category="sidebar_promo"]
 axisbank.com##.topbandBg_New
 axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
 axn-asia.com,onetvasia.com##.pane-dart-dart-tag-300x250-rectangle
+axutongxue.com,axutongxue.net###uuuui
 axutongxue.com,axutongxue.net##style + div[id]
 axutongxue.net###uuuui
 axutongxue.net##+js(no-setTimeout-if, getCookie(")
@@ -37199,6 +37201,7 @@ hardwaretimes.com###tie-block_1239
 hardwaretimes.com###tie-block_2144
 hardwaretimes.com###tie-block_3197
 hardwaretimes.com##.stream-item-widget
+hardwaretimes.com,oneindia.com###parentDiv0
 hatenacorp.jp#@#.ads-link
 haveibeenpwned.com#?#.actionsBar:-abp-has(.why1Password)
 haveibeenpwned.com#?#.bodyGradient>:-abp-has(.why1Password)
@@ -43070,6 +43073,7 @@ sinolub.com##div[id^="bs_"]
 sinolub.com##div[style="float:left; padding-right:20px;"]
 sisixxb.com##.preflink
 site.baidu.com##.pstr.mt10
+sitelike.org###HeaderAdsenseCLSFix
 siteslike.com##.rif
 skidrowcodexreloaded.com##.footer-sticky
 skinme.cc,yuntue.com##.huodong
@@ -43888,6 +43892,8 @@ tekno.kompas.com##.kcm
 tekno.kompas.com##.native-wrap
 teleboy.ch##.grid-col-content-leaderboard
 telegraph.co.uk##.commercial-unit
+telegraphindia.com##.ttdadbox310
+telegraphindia.com##.uk-background-muted
 telesputnik.ru##.adbPopup
 tellymix.co.uk###sidebar > div[style]
 tellymix.co.uk##.a-text
@@ -78204,6 +78210,7 @@ zzzyk.com###Tinfo
 ||kingpolo.com.cn^
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kingsun.online^
+||kingsunsky.ltd^
 ||kingucoelect.website^
 ||kingwam.com^
 ||kingwitheaa.lol^
@@ -80927,6 +80934,7 @@ zzzyk.com###Tinfo
 ||lx52168.online^
 ||lxanimation.cn^
 ||lxapk.com/wp-content/uploads/*.gif
+||lxbbs.fun^
 ||lxbjs.baidu.com^$third-party
 ||lxfsimoastsiite.xyz^
 ||lxiaoxin.com^
