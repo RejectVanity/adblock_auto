@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: u0dMFhOSWKG630iS/SBzNQ
+! Checksum: 6Lwf06oKjGOvSYULi7Aw9A
 ! Title: 混合规则(自动更新)
-! Version: 20230405021937
+! Version: 20230405082719
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-05 02:19:37
-! Total Count: 108332
+! Last modified: 2023-04-05 08:27:19
+! Total Count: 108343
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -21974,6 +21974,7 @@ $websocket,domain=5nj.com|cechi8.com
 /adman_
 /admanager.$~object,domain=~admanager.alzura.com|~admanager.google.com
 /admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com
+/admanager/*$~object,domain=~blog.google|~konograma.com
 /admanager/*$~object,domain=~konograma.com
 /admanager3.
 /admanager_$domain=~konograma.com
@@ -36222,6 +36223,8 @@ fuliba2022.net###focusslide
 fuliba2022.net##li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img
 fuliba2022.net#?#.sidebar > div.widget:-abp-has(> div.textwidget > ul[style] > li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img)
 fuliba2022.net#?#.sidebar > div.widget:has(> div.textwidget > ul[style] > li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img)
+fuliba2023.net,fuliba23.net,uliba.net###focusslide
+fuliba2023.net,fuliba23.net,uliba.net##.widget_ui_orbui
 fuliba2023.net,uliba.net###focusslide
 fuliba2023.net,uliba.net##.widget_custom_html
 fuliba2023.net,uliba.net##.widget_ui_slider
@@ -49905,6 +49908,7 @@ zzzyk.com###Tinfo
 ||9icmzvn6.website^
 ||9ihome.com/info/ADTopvnet/
 ||9ist.com/others/ad/
+||9itan.cc^
 ||9itmr1lzaltn.com^
 ||9j1y.cn^
 ||9j5e.top^
@@ -57628,6 +57632,7 @@ zzzyk.com###Tinfo
 ||bejolteonor.com^
 ||bejson.com/static/ydxyt/
 ||bekannt-im-web.de^
+||bekco.xyz^
 ||beklefkiom.com^
 ||beklinkor.com^
 ||beknittykhana.life^
@@ -67267,6 +67272,7 @@ zzzyk.com###Tinfo
 ||ecpoc.com/style/ad
 ||ecsanalytics.com^
 ||ecslkbpb.com^
+||ecsv2.roblox.com^
 ||ecthymaalgodon.com^
 ||ectinhoratio.lol^
 ||ectresulto.com^
@@ -67974,6 +67980,7 @@ zzzyk.com###Tinfo
 ||epfcfhtjxqd.com^
 ||epfmfqh.cn^
 ||eph-adsjutarnji.cdn.sysbee.net^
+||ephemeralcounters.api.roblox.com^
 ||epi0tzwi.com^
 ||epicgameads.com^
 ||epigaeatoasty.com^
@@ -72609,6 +72616,7 @@ zzzyk.com###Tinfo
 ||gzppit.com^
 ||gzqgaq.xyz^
 ||gzqudou.com^
+||gzsjym.xyz^
 ||gzts188.com^
 ||gzvxqwi.cn^
 ||gzwl.xyz^
@@ -74257,6 +74265,7 @@ zzzyk.com###Tinfo
 ||huasheng.love^
 ||huasuihz.top^
 ||huataisangao.cn^
+||huaweinnd.top^
 ||huawuhui.club^
 ||huayancn.cn^
 ||huayange.com^
@@ -99775,6 +99784,7 @@ zzzyk.com###Tinfo
 ||tracer.perezhilton.com^
 ||traces.sr.roku.com^
 ||traceworks.com^
+||tracing.roblox.com^
 ||track-aws.notsy.io^
 ||track-mixer.ru^
 ||track-re01.com^
@@ -107936,6 +107946,7 @@ zzzyk.com###Tinfo
 ||znktkt.cn^
 ||znllfp.xyz^
 ||znnhmzumod.com^
+||znnodl.xyz^
 ||znqip.net^
 ||znyiaxnaf.com^
 ||zo6g.top^
