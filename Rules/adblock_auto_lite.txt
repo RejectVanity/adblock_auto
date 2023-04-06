@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: s6ilCHwAmhXlrviHEYm6UQ
+! Checksum: dd8QI2GUErg7+gdpbDH3yQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230406083022
+! Version: 20230406160750
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-06 08:30:22
-! Total Count: 18908
+! Last modified: 2023-04-06 16:07:50
+! Total Count: 18914
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -967,6 +967,7 @@
 ##.indexad4
 ##.indexnews-ad
 ##.inner-advertise
+##.inset-sty > .banner.el-carousel
 ##.it618_firstad_flex
 ##.item-ad
 ##.itopbar + .container
@@ -1124,6 +1125,7 @@
 ##.siteAnn1
 ##.smcms-wrap > .group-box > a[target="_blank"] > img
 ##.smcms-wrap > a[target="_blank"] > img
+##.space-y-6 > .advertising
 ##.spon-img[src*=".alicdn."]
 ##.sponsor_image
 ##.spot_nav_under_ad
@@ -6153,6 +6155,7 @@ zle.com$script
 ||albertabelen.com^
 ||albyprd.cn^
 ||aldtop.com/scrtips/
+||alejd.xyz^
 ||alert.autohome.com.cn^
 ||alexa.cn/upfile/images/
 ||ali213.net/images/bg_lt.jpg
@@ -9380,6 +9383,7 @@ zle.com$script
 ||flurry.cachefly.net^
 ||flurry.com^
 ||flygo.ru^
+||flyinsky2009.ltd^
 ||flyv.tv/a/$xmlhttprequest
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm086.com/Plugins/search
@@ -15663,6 +15667,7 @@ zle.com$script
 ||sm45k.com^
 ||smaclick.com^
 ||smaero.jp/advimg/
+||smailes.pro^
 ||smart-flash.jp/wp-content/themes/original/embed/FoneH
 ||smart-flash.jp/yahoo_ad.html
 ||smart.tinyhoneybee.com/log/
@@ -17071,6 +17076,7 @@ zle.com$script
 ||vongsond.uno^
 ||voocl.com^
 ||vorlsblf.cyou^
+||vorluic.cn^
 ||vorsprung-online.de/images/images/*/Werbung/bannermobilwerbung.jpg
 ||vouninked.com^
 ||vpbbc.cn^
