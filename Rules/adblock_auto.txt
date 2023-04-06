@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1AlWfnjV3yrgYprseTn3Vg
+! Checksum: wkzWJENn8xSkgvhUni3esQ
 ! Title: 混合规则(自动更新)
-! Version: 20230407000709
+! Version: 20230407004939
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-07 00:07:09
-! Total Count: 108576
+! Last modified: 2023-04-07 00:49:39
+! Total Count: 108588
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -40428,14 +40428,25 @@ msn.com##[class^="nativeAd"]
 msn.com##[data-test-id="mrr-nativead"]
 msn.com##[id^="native_ad_"]
 msn.com##a.nativead[target="_blank"]
+msn.com##a[aria-label="AliExpress"]
 msn.com##a[aria-label="Amazon Assistant"]
+msn.com##a[aria-label="Amazon"]
+msn.com##a[aria-label="Bol.com"]
+msn.com##a[aria-label="Booking.com"]
+msn.com##a[aria-label="Ricardo"]
+msn.com##a[aria-label="Today's Deals"]
 msn.com##a[aria-label="eBay"]
 msn.com##a[href*=".booking.com/"]
+msn.com##a[href*="/aff_m?offer_id="]
+msn.com##a[href*="?sub_aff_id="]
 msn.com##a[href^="https://amzn.to/"]
+msn.com##a[href^="https://clk.tradedoubler.com/click?"]
 msn.com##a[href^="https://clkde.tradedoubler.com/click?"]
 msn.com##a[href^="https://disneyplus.bn5x.net/"]
+msn.com##a[href^="https://prf.hn/click/camref:"]
 msn.com##a[href^="https://rover.ebay.com/rover/"]
 msn.com##a[href^="https://ww55.affinity.net/"]
+msn.com##a[href^="https://www.awin1.com/cread.php"]
 msn.com##a[href^="https://www.jdoqocy.com/"]
 msn.com##cs-native-ad-card
 msn.com##div[aria-label="promotions"]
@@ -85198,6 +85209,7 @@ zzzyk.com###Tinfo
 ||novem.pl^
 ||november-lax.com^
 ||noviceavengeclemency.com^
+||novipnoad.com/bd/
 ||novipnoad.com/theme/js/helper.
 ||novizna.xyz^
 ||novosti-online.gq^
