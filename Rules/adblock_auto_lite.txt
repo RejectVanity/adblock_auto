@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: dd8QI2GUErg7+gdpbDH3yQ
+! Checksum: ZPevQmXjRgd9O1Dz/bWUZw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230406160750
+! Version: 20230407000710
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-06 16:07:50
-! Total Count: 18914
+! Last modified: 2023-04-07 00:07:10
+! Total Count: 18921
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3150,6 +3150,7 @@ blog.sina.cn###pl-ad-after-comments
 blog.sina.cn###pl-adtop-bar
 blog.sina.cn###pl-blog-artad
 book18.org##[id^="bottom-ads"]
+bookskeeper.ru,e-xecutive.ru##.warning
 bouweenpc.nl###header-banner
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc###fake_avivid_waterfall_webpush
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##.reader-home-swiper
@@ -3892,6 +3893,8 @@ zhidao.baidu.com##.vricxrhmzs-ecom-ads
 zhidao.baidu.com##.wap-youx-change-asp
 zhidao.baidu.com##[href*="/baidu.php?"]
 zle.com$script
+zx-pk.ru###stickymsg
+zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: dashed; border-color: red;"]
 |https://m.frgls.com/js/*.js?v=1.3
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*/ad/$redirect=noop-0.1s.mp3,domain=huaren.tv,media
@@ -9726,6 +9729,7 @@ zle.com$script
 ||gg.miinaa.com^
 ||gg.miued.com^
 ||gg.sonhoo.com^
+||gg.taoseyy.cn^
 ||gg.uuu9.com^
 ||gg1.mengchongzu.com^
 ||gg123456789gg.com^*.js
@@ -14384,6 +14388,7 @@ zle.com$script
 ||privetapp.ru/ads/
 ||prju.top^
 ||prjwqs.xyz^
+||prlioxb.cn^
 ||pro.cn^$third-party
 ||pro.iweihai.cn^
 ||prod.cm.publishers.advertising.a2z.com^
@@ -15777,6 +15782,7 @@ zle.com$script
 ||sosodo.xyz^
 ||sosrom.cn^
 ||souche.com^$third-party
+||souche.com^*.gif
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||souid.com/images/css/123.js
 ||souid.com/templets/js/sougg.js
@@ -18553,6 +18559,7 @@ zle.com$script
 ||zbjimg.com/static/union/
 ||zbpx.xyz^
 ||zbsybh.cn^$third-party
+||zbvchabjbcj.com^
 ||zbzbzzz.top^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
