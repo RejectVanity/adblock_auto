@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: NIluOujAL8oL1FD68ImR0w
+! Checksum: vJBooMMCD0frAkPGh6iuZA
 ! Title: 混合规则(自动更新)
-! Version: 20230407160811
+! Version: 20230408000712
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-07 16:08:11
-! Total Count: 108684
+! Last modified: 2023-04-08 00:07:12
+! Total Count: 108701
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19143,6 +19143,7 @@ $websocket,domain=5nj.com|cechi8.com
 -120x600-
 -120x600.
 -120x600_
+-1316632262.cos.
 -160-600.
 -160x400-
 -160x600-
@@ -24674,6 +24675,7 @@ $websocket,domain=5nj.com|cechi8.com
 /forum_ad.
 /forums/ad/*
 /fourapi/api/data/money?date=$xmlhttprequest
+/frambox.php?166$script,~third-party
 /frame_ads_
 /framead-
 /framead.
@@ -27003,6 +27005,7 @@ $websocket,domain=5nj.com|cechi8.com
 /svnad/*
 /svr/*.aspx?placeid=$third-party
 /svr/popwin.aspx?$third-party
+/swiper.php?166$script,~third-party
 /switchadbanner.
 /sxgg/12.js
 /sxgg/13
@@ -32830,6 +32833,7 @@ bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card_
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):-abp-has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
+bilibili.com#?#.feed-card:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]))
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.to###yytf
 bimiacg.net##.tuiguang
@@ -39794,6 +39798,7 @@ macworld.co.uk###vTXbybUFn
 macworld.co.uk##.videoContainer
 macworld.co.uk,techadvisor.com##.carouselEmbeddableDeal
 macworld.co.uk,techadvisor.com##img[referrerpolicy]
+macys.com#?#li.productThumbnailItem:-abp-has(.sponsored-items-label)
 madou.club##a[href*="//www.pssy.xyz"]
 madou.club##a[href][target="_blank"][rel="nofollow noopener"]
 mafagames.com#@##adsContainer
@@ -57335,6 +57340,7 @@ zzzyk.com###Tinfo
 ||bcguwwgkms.xyz^
 ||bchaser.info^
 ||bchina-1.xsfaya.com^
+||bcivqxd.cn^
 ||bclikeqt.com^
 ||bcloudhost.com^
 ||bcm.interactives.dk^
@@ -67816,6 +67822,7 @@ zzzyk.com###Tinfo
 ||elizaguarapo.com^
 ||elkbahtax.com^
 ||elkconsistbirch.com^
+||elkhornreddens.com^
 ||ellaysad.live^
 ||ellcurvth.com^
 ||elle.alljournal.ru^
@@ -68859,6 +68866,7 @@ zzzyk.com###Tinfo
 ||extenderlypoit.xyz^
 ||extentitle.space^
 ||extern.prisjakt.nu^
+||external-ad.bunjang.co.kr^
 ||external-api.impression-neo.naver.com^
 ||external-promo-metrics.yandex.net^
 ||external.reseguiden.se^
@@ -78645,6 +78653,7 @@ zzzyk.com###Tinfo
 ||koji-analytics.com^
 ||kojwex.top^
 ||kokanmokum.tech^
+||kokobehnowder.com^
 ||kokofits.com^
 ||kokojia.com^$third-party
 ||kokos.click^
@@ -82812,6 +82821,7 @@ zzzyk.com###Tinfo
 ||minuterhythm.com^
 ||minwear.com.cn^
 ||minyaartcrafts.cn^
+||minyascannat.com^
 ||minzhouxinxi.cn^
 ||miokoo.com^
 ||mipagerank.com^
@@ -82841,6 +82851,7 @@ zzzyk.com###Tinfo
 ||miscreantmine.com^
 ||miscreantmoon.com^
 ||misear.com^
+||miseryclevernessusage.com^
 ||misguidedstork.com^
 ||mishapideal.com^
 ||mishishoka.pro^
@@ -84239,6 +84250,7 @@ zzzyk.com###Tinfo
 ||nairapp.com^
 ||naisoops.net^
 ||naivescorries.com^
+||naiyoz.lol^
 ||naj.sk^
 ||najva.com^
 ||nakamasweb.com^
@@ -84942,6 +84954,7 @@ zzzyk.com###Tinfo
 ||ninja.onap.io^
 ||ninjacat.io^
 ||ninkorant.online^
+||ninnycoastal.com^
 ||ninoglostoay.com^
 ||nipmucktwicer.com^
 ||nipoughtnt.guru^
@@ -85468,6 +85481,7 @@ zzzyk.com###Tinfo
 ||nupharbakongo.com^
 ||nuqqcgb.cn^
 ||nur.gratis^
+||nuraghireels.com^
 ||nurno.com^
 ||nurobi.info^
 ||nursecompellingsmother.com^
@@ -93217,6 +93231,7 @@ zzzyk.com###Tinfo
 ||s232.theintelligencer.com^
 ||s24-analytics.com^
 ||s24hc8xzag.com^
+||s2517.com^
 ||s2block.com^
 ||s2blosh.com^
 ||s2d6.com^
@@ -101282,6 +101297,7 @@ zzzyk.com###Tinfo
 ||tumgcmu.cn^
 ||tummeddomicil.space^
 ||tummiarunzpf.com^
+||tummingfass.com^
 ||tummyunmovedfetch.com^
 ||tumnxwvd.ink^
 ||tumri.net^
@@ -107826,6 +107842,7 @@ zzzyk.com###Tinfo
 ||zealeddrizzly.com^
 ||zealotsick.com^
 ||zealousfield.com^
+||zealpickup.com^
 ||zealso.com^
 ||zebestof.com^
 ||zebraicrudista.com^
