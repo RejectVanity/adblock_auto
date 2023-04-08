@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: h3OPB6vmf0XCLYy5U7n/bA
+! Checksum: usaP5/EaHZ367gW/Hf70pg
 ! Title: 混合规则(自动更新)
-! Version: 20230408160720
+! Version: 20230409000628
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-08 16:07:20
-! Total Count: 108893
+! Last modified: 2023-04-09 00:06:28
+! Total Count: 108904
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -13854,6 +13854,7 @@
 ##.js_ad_wrapper
 ##.js_contained-ad-container
 ##.js_deferred-ad
+##.js_midbanner_ad_slot
 ##.js_movable_ad_slot
 ##.js_preheader-ad-container
 ##.js_related-stories-inset
@@ -17784,6 +17785,7 @@
 ##a[href*=".meta-kp.com/"]
 ##a[href*=".meta-wg.com/"]
 ##a[href*=".mieseng.com/"]
+##a[href*=".mmrjmh.com/"]
 ##a[href*=".nffhome.com/"]
 ##a[href*=".nfkonline.com/"]
 ##a[href*=".nfqtech.com/"]
@@ -19844,6 +19846,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/logo/ad.js
 .com/logo/logo.js
 .com/logo/logoxia.js
+.com/m-2594|$script,third-party
 .com/m.aspx?action=$third-party,script
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
@@ -41633,6 +41636,7 @@ pirateiro.com##._br9is
 piratia.su###block-warning
 pixabay.com##.carbon-ad
 pixabay.com##.external-media
+pixabay.com##.present-g-item
 pixabay.com##.present-gtty-item
 pixabay.com##.show-getty-item
 pixabay.com##.show-gtty-item
@@ -46340,6 +46344,7 @@ youku.com###ykBottomBanner
 youku.com##+js(nano-setTimeout-booster, e-, , 0.02)
 youku.com##+js(nano-setTimeout-booster, r--, , 0.02)
 youku.com##.pop-prompt-box
+youku.com##.src_adwrap
 youku.com##.videolist_s_body > div.common_container > div[id^="ab_"]
 youku.com##.yk-AD-tong
 youku.com##div[data-adext]
@@ -53603,6 +53608,7 @@ zzzyk.com###Tinfo
 ||akdashang.vip^
 ||akdbr.com^
 ||akdcunfxex.com^
+||akdhiahcjojdkck.com^
 ||akeaprhmebxfj.com^
 ||akelandord.buzz^
 ||akfdpto.cn^
@@ -69552,6 +69558,7 @@ zzzyk.com###Tinfo
 ||feijisu5.com/js/huimi-
 ||feilan5.cn^
 ||feisia1.cn^
+||feistyhelicopter.com^
 ||feiszw.com/style/t.js
 ||feiszw.com/style/w.js
 ||feitian001.com^$third-party
@@ -75349,6 +75356,7 @@ zzzyk.com###Tinfo
 ||ijkcmm.com^
 ||ijkqwopm.xyz^
 ||ijnocom.ru^
+||ijnuhb.top^
 ||ijorecepous.com^
 ||ijquery11.com^
 ||ijrah.top^
@@ -82877,6 +82885,7 @@ zzzyk.com###Tinfo
 ||mindless-series.pro^
 ||mindlessmark.com^
 ||mindlytix.com^
+||mindopu.com^
 ||mindreskatt.se^
 ||mindtake.com^
 ||mine.nahnoji.cz^
@@ -85594,6 +85603,7 @@ zzzyk.com###Tinfo
 ||nuqqcgb.cn^
 ||nur.gratis^
 ||nuraghireels.com^
+||nurahf.xyz^
 ||nurno.com^
 ||nurobi.info^
 ||nursecompellingsmother.com^
@@ -104776,6 +104786,7 @@ zzzyk.com###Tinfo
 ||whaxanso.net^
 ||whazugho.com^
 ||whbhsoft.cn^
+||whbn.xyz^
 ||whcajsb.com^
 ||whdupigghrm.xyz^
 ||whdx.cc/js/
