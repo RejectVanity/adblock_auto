@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Q0d3N2MAKVVjQMBhXkRnUg
+! Checksum: 3UB+g86P/Wu9O2N2xGKqKA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230409160707
+! Version: 20230409163811
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-09 16:07:07
-! Total Count: 18960
+! Last modified: 2023-04-09 16:38:11
+! Total Count: 18964
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3623,6 +3623,7 @@ sm.cn##.sc_operating_activity_ball
 sm.cn##.sc_operating_activity_banner
 sm.cn##.wl-dot-container
 sm.cn##.wolong-container
+sm.cn##a[href*="sm.cn/adclick?"]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 sm.cn##div[id*="_Shopping_Etao_"]
 sm.cn##div[id^="ad_"]
@@ -3876,6 +3877,9 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##canvas
 ykt.ru##.n-banner--adblocked
 yocast.tv###ra9e
+yz.m.sm.cn##[id^="ad_"]
+yz.m.sm.cn##[id^="dl-banner-"]
+yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 zakon.kz##.adblock_alert
 zgpingshu.com##a[href^="http://cy.aiboxs.cn/"][target="__blank"]
 zhaosw.com##div.recommend

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: HdCVDwibr9qIwZGQhsf65g
+! Checksum: Kw2+N8khP4coFZ8PF0r9hw
 ! Title: 混合规则(自动更新)
-! Version: 20230409160704
+! Version: 20230409163809
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-09 16:07:04
-! Total Count: 109010
+! Last modified: 2023-04-09 16:38:09
+! Total Count: 109014
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -43217,6 +43217,7 @@ sm.cn##.sc_operating_activity_ball
 sm.cn##.sc_operating_activity_banner
 sm.cn##.wl-dot-container
 sm.cn##.wolong-container
+sm.cn##a[href*="sm.cn/adclick?"]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 sm.cn##div[id*="_Shopping_Etao_"]
 sm.cn##div[id^="ad_"]
@@ -46530,6 +46531,9 @@ yy.com###rbappend
 yy.com,le.com##+js(nowebrtc)
 yyrtv.com##.right-gg
 yyrtv.com##li[class*="baidu"]
+yz.m.sm.cn##[id^="ad_"]
+yz.m.sm.cn##[id^="dl-banner-"]
+yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 yzl333.com##a[href^="https://jump.9118ads.com/"]
 yzl333.com#?#.row > div.col-sm-6:-abp-has(> div.well > a[href^="https://jump.9118ads.com/"])
 yzl333.com#?#.row > div.col-sm-6:has(> div.well > a[href^="https://jump.9118ads.com/"])
