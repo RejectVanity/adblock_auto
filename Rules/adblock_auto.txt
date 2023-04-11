@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: fyLrmTnG4AdTEOMp1rtv+Q
+! Checksum: gXXgTeYmtDvwmPEt5wcnLw
 ! Title: 混合规则(自动更新)
-! Version: 20230412000720
+! Version: 20230412005253
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-12 00:07:20
-! Total Count: 109541
+! Last modified: 2023-04-12 00:52:53
+! Total Count: 109548
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -30182,6 +30182,8 @@ $websocket,domain=5nj.com|cechi8.com
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||guancha.cn/ad/m_
 @@||gunosy.co.jp/img/ad/$image,~third-party
+@@||guokr.com/apis/flowingboard/item/guokrapp_
+@@||guokr.com/apis/flowingboard/item/m_
 @@||haiwai.com^$generichide
 @@||hanjubaike.com^$script,~third-party
 @@||hanjuwang.com^$script,~third-party
@@ -34883,6 +34885,10 @@ diyifanwen.com##.Hzh2
 dizhanw.com,jiangjunzy.com##div[style="background: #fff;padding:5px;"]
 dj92cc.com,djkk.com,tingqq.com#@#.share_list
 djchuang.com###amazon3
+djljz.cn###djl_hdhb
+djljz.cn###toolbar
+djljz.cn##.bottom_slide_box
+djljz.cn##.left_fixed_ad
 djwma.com###logo
 dkoding.in##.mrf-adv__wrapper
 dkoding.in##.sidebar .widget_custom_html
@@ -66257,6 +66263,7 @@ zzzyk.com###Tinfo
 ||djicdn.com/uploads/ad_image_file/
 ||djidbagbacgfgbgdaace.ru^
 ||djiybut.cn^
+||djljz.cn/Plugins/Template/XJLY/js/app.
 ||djm080u34wfc5.cloudfront.net^
 ||djmaza.in^
 ||djmcpwbbeggb.com^
@@ -73071,8 +73078,6 @@ zzzyk.com###Tinfo
 ||guojinfeng123.top^
 ||guojitv.com/m/ad/
 ||guojitv.com/m/js/ad_
-||guokr.com/apis/flowingboard/item/guokrapp_
-||guokr.com/apis/flowingboard/item/m_
 ||guokr.com/baidu-cbjs/
 ||guominziben.com^
 ||guoshihuaiyao.com^
@@ -108635,6 +108640,8 @@ zzzyk.com###Tinfo
 ||zdhm.cn^
 ||zdjljvsi.com^
 ||zdkdwk.buzz^
+||zdkdwk.live^$third-party
+||zdkjr.xyz^$third-party
 ||zdktgps.cn^
 ||zdlnhv.xyz^
 ||zdlogs.sphereup.com^

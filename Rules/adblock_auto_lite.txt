@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: WsF/G1aB1lOYcY74NLbh9A
+! Checksum: nIartusHgfYf6qWZBUf7eQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230412000722
+! Version: 20230412005255
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-12 00:07:22
-! Total Count: 19003
+! Last modified: 2023-04-12 00:52:55
+! Total Count: 19006
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2995,6 +2995,8 @@
 @@||gamaniak.com/js/check_adsense.js$script
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
 @@||grattable.com/blogads.css
+@@||guokr.com/apis/flowingboard/item/guokrapp_
+@@||guokr.com/apis/flowingboard/item/m_
 @@||hdnumerique.com/tpl/jscript/advert.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
 @@||item-voyage.fr/ads.css
@@ -10076,7 +10078,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||guojinfeng123.top^
 ||guojitv.com/m/ad/
 ||guojitv.com/m/js/ad_
-||guokr.com/apis/flowingboard/item/m_
 ||guokr.com/baidu-cbjs/
 ||guominziben.com^
 ||guoshihuaiyao.com^
@@ -18665,6 +18666,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zdcj.net^*/ad
 ||zdhfff.xyz^
 ||zdkdwk.buzz^
+||zdkdwk.live^$third-party
+||zdkjr.xyz^$third-party
 ||zdktgps.cn^
 ||zdlnhv.xyz^
 ||zdqx.com/statics/v1/images/gif/
