@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xHUWVK+LbIAfK3uGWKYW7w
+! Checksum: fyLrmTnG4AdTEOMp1rtv+Q
 ! Title: 混合规则(自动更新)
-! Version: 20230411160840
+! Version: 20230412000720
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-11 16:08:40
-! Total Count: 109530
+! Last modified: 2023-04-12 00:07:20
+! Total Count: 109541
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -27155,8 +27155,10 @@ $websocket,domain=5nj.com|cechi8.com
 /tigtag_custom/include/popup.
 /tikilink?
 /tileads/*
+/timer.aspx?481$script,~third-party
 /timer.aspx?568$script,~third-party
 /timer.aspx?649$script,~third-party
+/timer.aspx?719$script,~third-party
 /tinlads.
 /tinyad.
 /tisai/img/nav_980_90.gif
@@ -34695,6 +34697,7 @@ debka.com##.top-full-width-sidebar
 debrideurstream.fr#@##pubdirecte
 deckstats.net###header_right_big
 decoist.com##.r300
+decrypt.co##.opacity-75
 decrypt.co##[style^="min-width: 728px;"]
 decrypt.co#?#span:-abp-contains(AD)
 decrypt.co,metabattle.com##div[style^="min-width: 300px;"]
@@ -34893,6 +34896,7 @@ dlkoo.cc##ins[id^="tanxssp-outer-conmm_"]
 dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 dllme.com##.captchabox > div
 dlsdk.appsflyer.com^
+dlsdk.appsflyersdk.com^
 dm010.com##a[href*=".apk"]
 dm5.com###a1
 dm5.com###youce
@@ -39563,6 +39567,7 @@ linkfang.org###LinkFang_Horizontal
 linkhub.icu##a[href^="/downloadnow.php?"]
 linkhub.icu##a[href^="/linknow.php?"]
 linksly.co###imgAddDirectLink
+linkvertise.com##lv-taboola-ctr-ad-dummy
 linovelib.com##+js(abort-current-script, document.createElement, b.onerror)
 linovelib.com#$##byspider { display: none !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
@@ -41084,6 +41089,8 @@ niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
 nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
 nivod4.tv##.nav-ads
+nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
+nivod5.tv,nivod4.tv##.nav-ads
 nlc.gov.cn###lovexin12xx
 nmgk2.com,zzkdhb.com##li[style*="important"]
 nmgnews.com.cn###div_ad4
@@ -47415,6 +47422,7 @@ zzzyk.com###Tinfo
 ||120askimages.com/ask/js/askfrom.js
 ||120askimages.com/ask/js/q
 ||120askimages.com/ask/zhenshi/templates/pub/js/loadPart.js
+||121.204.246.*.gif
 ||121.204.246.13^
 ||121.40.25.88^
 ||121.43.114.38:8087/advs.js
@@ -58620,6 +58628,7 @@ zzzyk.com###Tinfo
 ||bizzclick.com^
 ||bj-gov-cn.website^
 ||bj1110.online^
+||bjads.bejbej.ca^
 ||bjakku.com^
 ||bjbdlt.com.cn^
 ||bjbrsfh.cn^
@@ -67704,6 +67713,7 @@ zzzyk.com###Tinfo
 ||ec73ce0ab9.com^
 ||eca578b203.com^
 ||ecae03ea3d.com^
+||ecav5.com^
 ||eccbb.com^
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
@@ -92262,6 +92272,7 @@ zzzyk.com###Tinfo
 ||referrer.website^
 ||referrill.com^
 ||refersion.com^
+||reffnik.cn^
 ||refilmsreeper.website^
 ||refinedads.com^
 ||reflectedcockbegan.com^
