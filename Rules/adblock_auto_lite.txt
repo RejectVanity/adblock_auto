@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Y8+6ghhdoEAQphYOIQQkNw
+! Checksum: np84nkNjj5x2GXcAGD2jkQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230411083231
+! Version: 20230411160026
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-11 08:32:31
-! Total Count: 18987
+! Last modified: 2023-04-11 16:00:26
+! Total Count: 18998
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2833,6 +2833,8 @@
 69vj.com###vban
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
 7sim.net##html > body ~ div
+://*.zd*.live/*x*x*x*x*=$third-party
+://*.zd*.xyz/*x*x*x*x*=$third-party
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/oklist/vars.js
 ://*:*/yeyue.html?k=$csp=script-src
@@ -3707,10 +3709,12 @@ sogou.com##.sr-adv
 sogou.com##.tg-box-1
 sogou.com##.tgad-box
 sogou.com##.tgad-title
+sogou.com##.top-list[data-type="hotword"]
 sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
 sogou.com##A[data-log*="PicAd"]
+sogou.com##LI.sugg-hot
 sogou.com##div[class^="news-top-banner"]
 sogou.com##div[class^="rt-gameright"]
 sogou.com##ul[class^="atAd"]
@@ -7842,6 +7846,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cjxbeyh.cn^
 ||cjy200107152004.ltd^
 ||ck180.net/mitao
+||ck33.top^
 ||ckaiv.com^
 ||ckerw.xyz^
 ||ckg.vipyl.com^
@@ -8265,6 +8270,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||d7y5grtl.site^
 ||d830x8j3o1b2k.cloudfront.net^
 ||d86.xyz^
+||d86n.top^
 ||d8962a.xyz^
 ||d8r7.xyz^
 ||d94gz.cn^
@@ -9234,6 +9240,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fafa1688.xyz^
 ||fainaidea.com/wp-content/uploads/*/*?ver=$script,stylesheet,domain=fainaidea.com
 ||fairtop.in/template/js/fdetect.js
+||falal.cn^
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
 ||fallaciousfifth.com^$third-party
 ||faloo.com/ou/site/
@@ -13119,6 +13126,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||mh3666.com^*.jsonp
 ||mhdjkx.cn^
 ||mhdnspro.com^
+||mhegew.xyz^
 ||mhhsa.xyz^
 ||mhi9da.cn^
 ||mhivqcu.cn^
@@ -13995,6 +14003,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||oqxep.cn^
 ||orgaorg.com^
 ||orientalocean.mobi^
+||originate.ltd^
 ||oronwg.xyz^
 ||oronwg.xyz^$third-party
 ||oroqikj.cn^
@@ -15659,6 +15668,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||siuscs.xyz^
 ||siwei.pub^
 ||sixarwr.cn^
+||sjalipa.cn^
 ||sjbaiduadv1.redou.com^
 ||sjcm.fun^
 ||sjdfuvz.cn^
@@ -17237,6 +17247,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||wangderder.xyz^
 ||wangduoduo.pw^
 ||wanghu2020.ltd^
+||wangjc.ltd^
 ||wangjianxd.site^
 ||wangjiayi.fun^
 ||wangjing.cn*/upload/com/
