@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ahb+BG9S++1UE7wBfG3p8w
+! Checksum: IODHcDPbF1oPEBPqEBuuUA
 ! Title: 混合规则(自动更新)
-! Version: 20230411000704
+! Version: 20230411083230
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-11 00:07:04
-! Total Count: 109397
+! Last modified: 2023-04-11 08:32:30
+! Total Count: 109417
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -563,6 +563,7 @@
 ###ad-right-top
 ###ad-right2
 ###ad-right3
+###ad-rotator
 ###ad-row
 ###ad-section
 ###ad-separator
@@ -18215,6 +18216,7 @@
 ##a[href^="https://chaturbate.com/in/?track="]
 ##a[href^="https://chaturbate.jjgirls.com/?track="]
 ##a[href^="https://claring-loccelkin.com/"]
+##a[href^="https://click.candyoffers.com/"]
 ##a[href^="https://click.dtiserv2.com/"]
 ##a[href^="https://click.hoolig.app/"]
 ##a[href^="https://click.linksynergy.com/fs-bin/"]
@@ -27152,6 +27154,8 @@ $websocket,domain=5nj.com|cechi8.com
 /tigtag_custom/include/popup.
 /tikilink?
 /tileads/*
+/timer.aspx?568$script,~third-party
+/timer.aspx?649$script,~third-party
 /tinlads.
 /tinyad.
 /tisai/img/nav_980_90.gif
@@ -32714,6 +32718,8 @@ beermoneyforum.com##.p-body-sidebar
 beermoneyforum.com##.samTextUnit
 beermoneyforum.com,forums.sailinganarchy.com,geekdoing.com,sportfishingbc.com,studentdoctor.net##.samBannerUnit
 beermoneyforum.com,geekdoing.com,studentdoctor.net##.samBannerUnit
+beforeitsnews.com##.fzsm2x
+beforeitsnews.com##.gn5d776fnho4
 beforeitsnews.com##.notTwitterCardsGrid
 beforeitsnews.com##[id^="banners_"]
 beforeitsnews.com,bigleaguepolitics.com,in5d.com##a[href*=".hop.clickbank.net"]
@@ -34882,6 +34888,7 @@ dlemm.cn,isiyuan.net,xiaodigufz.com##.themead
 dlkoo.cc##ins[id^="tanxssp-outer-conmm_"]
 dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 dllme.com##.captchabox > div
+dlsdk.appsflyer.com^
 dm010.com##a[href*=".apk"]
 dm5.com###a1
 dm5.com###youce
@@ -57544,6 +57551,7 @@ zzzyk.com###Tinfo
 ||bd2020.co/gg/
 ||bd3.chuiyue.com^
 ||bd4travel.com^
+||bd742.com^
 ||bd888.qizuang.com^
 ||bda1.ayule.net^
 ||bdad.gaotie.net^
@@ -68840,6 +68848,7 @@ zzzyk.com###Tinfo
 ||events*.cre.ma^
 ||events-*.op.hicloud.com^
 ||events-api*.outfit7.com^
+||events-api.soundcloud.com^
 ||events-collector-api.viacom.tech^
 ||events-collector.spot.im^
 ||events-jp.splash-screen.net^
@@ -70931,6 +70940,7 @@ zzzyk.com###Tinfo
 ||fvpmzvdv.com^
 ||fvtrx.cyou^
 ||fvtyhe.com^
+||fvzljv.xyz^
 ||fw-ad.jp^
 ||fwbntw.com^
 ||fwccw.com^
@@ -77222,6 +77232,7 @@ zzzyk.com###Tinfo
 ||jbugk.com^
 ||jbuzacg.cn^
 ||jbyy010.com^
+||jbzjegn.cn^
 ||jbzyw.com/Application/M/adv/
 ||jc001.cn/ci/jad/fix.
 ||jc001.cn/img/yhj.gif
@@ -80008,6 +80019,7 @@ zzzyk.com###Tinfo
 ||lemotherofhe.com^
 ||lemouwee.com^
 ||lencool.cn^
+||lendc.xyz^
 ||lengthcalk.com^
 ||lenkmio.com^
 ||lenmit.com^
@@ -83026,6 +83038,7 @@ zzzyk.com###Tinfo
 ||mhcnmfubxacind.com^
 ||mhdjkx.cn^
 ||mhdnspro.com^
+||mhegew.xyz^
 ||mhggzg.com^
 ||mhhsa.xyz^
 ||mhi9da.cn^
@@ -89017,6 +89030,7 @@ zzzyk.com###Tinfo
 ||play2.biz^
 ||play5play1.com^
 ||play6111.com/js/
+||playamedia.com^
 ||playbook88a2.com^
 ||playboyconformhusband.com^
 ||player-feedback-v1.glomex.com^
@@ -89616,6 +89630,7 @@ zzzyk.com###Tinfo
 ||pr.ikovrov.ru^
 ||pr.rusmed.ru^
 ||pr0gram.org^
+||pra.praxis.nl^
 ||practitionermonsieurstable.com^
 ||practthreat.club^
 ||pradma.com^
@@ -95524,6 +95539,7 @@ zzzyk.com###Tinfo
 ||sistercomb.com^
 ||siswensaidoh.xyz^
 ||sitdoobly.com^
+||site-azp.slgnt.eu^
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
 ||site-kaiseki-tool.com^
 ||site-rank.com^
@@ -100879,6 +100895,7 @@ zzzyk.com###Tinfo
 ||tracker.remp.sme.sk^
 ||tracker.revip.info^
 ||tracker.rqmob.com^
+||tracker.samplicio.us^
 ||tracker.secretescapes.com^
 ||tracker.services.vaix.ai^
 ||tracker.shopclues.com^
@@ -101889,6 +101906,7 @@ zzzyk.com###Tinfo
 ||turmitweir.com^
 ||turmoilragcrutch.com^
 ||turn.com^
+||turncdn.com^
 ||turnefo.ru^
 ||turner.com/xslo/cvp/ads/$domain=cnn.com
 ||turngrind.com^
@@ -107180,6 +107198,7 @@ zzzyk.com###Tinfo
 ||xyimg.net^$domain=~xy.com
 ||xyj321.com/static/xyj/js/foot_slide_bar_
 ||xyj321.com/static/zx/js/zx-con-jsq_
+||xyjaewocysv.com^
 ||xylansudra.cam^
 ||xylaoppress.com^
 ||xyleticfrette.com^
@@ -107677,6 +107696,7 @@ zzzyk.com###Tinfo
 ||yiqiv.com^$third-party
 ||yiren34.com/js/
 ||yirtaycyytr.xyz^
+||yisangyyds.com^
 ||yisd.press^
 ||yishengad.com^
 ||yishu.red^
