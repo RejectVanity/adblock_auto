@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 3h4ekF+e/TxuVxIvvILMWA
+! Checksum: fef/ih9APneH9Ts7MX1aMA
 ! Title: 混合规则(自动更新)
-! Version: 20230412160812
+! Version: 20230412170222
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-12 16:08:12
-! Total Count: 109599
+! Last modified: 2023-04-12 17:02:22
+! Total Count: 109601
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -40698,6 +40698,7 @@ mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> div > a)
 mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:nth-last-of-type(2):-abp-has(> br + a)
+mydrivers.com#@#a[href*="/bp.ashx"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
 myexception.cn##.m_a
@@ -64851,6 +64852,7 @@ zzzyk.com###Tinfo
 ||dacounter.com^
 ||dacyh.cyou^
 ||dacyptepa.pro^
+||dad-api.dcard.tw^
 ||dada8828.com/js/aaa/
 ||dadawm.cc^
 ||daddychess.online^

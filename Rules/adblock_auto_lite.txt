@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Cmd6hv4xSlfvNeQaYKOkwg
+! Checksum: Gr8rgkdNIaBcNnCzmyspAg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230412160813
+! Version: 20230412170224
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-12 16:08:13
-! Total Count: 19014
+! Last modified: 2023-04-12 17:02:24
+! Total Count: 19016
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3492,6 +3492,7 @@ msn.com,msn.cn##[data-t*="NativeAd"]
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify *
 myanimelist.net##._unit
+mydrivers.com#@#a[href*="/bp.ashx"]
 myshared.ru###download_form > .uk-margin-top[style]
 natural-cosmetology.ru##body > div[style*="background-color:#ff0000;color:#ffffff;"]
 nautiljon.com###cmsg
@@ -8291,6 +8292,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dabizi.net/images/pcad.png
 ||dacfusm.cn^
 ||dacyh.cyou^
+||dad-api.dcard.tw^
 ||dada8828.com/js/aaa/
 ||dadawm.cc^
 ||daddychess.online^
