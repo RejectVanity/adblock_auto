@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ReLEtRGf9bJQjsA/IyExjQ
+! Checksum: KmqZ34U4pGAyWhH6RA+1pw
 ! Title: 混合规则(自动更新)
-! Version: 20230412171156
+! Version: 20230412171449
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-12 17:11:56
+! Last modified: 2023-04-12 17:14:49
 ! Total Count: 109600
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -40682,7 +40682,6 @@ mydrivers.com##.zcdf ~ div[style]
 mydrivers.com##a[href*=".ashx?to="]
 mydrivers.com##a[href*=".dangbei.com"]
 mydrivers.com##a[href*="/a.ashx"]
-mydrivers.com##a[href*="/bp.ashx"]
 mydrivers.com##a[href*="/huodong.ashx"]
 mydrivers.com##a[href*="/zt.ashx"]
 mydrivers.com##a[style][href*=".jd.com/"]
@@ -40698,6 +40697,7 @@ mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> div > a)
 mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:nth-last-of-type(2):-abp-has(> br + a)
+mydrivers.com#@#a[href*="/bp.ashx"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
 myexception.cn##.m_a
