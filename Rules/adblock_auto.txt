@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: KmqZ34U4pGAyWhH6RA+1pw
+! Checksum: AtEpNVHwU81GQGDB4XKUaQ
 ! Title: 混合规则(自动更新)
-! Version: 20230412171449
+! Version: 20230413000716
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-12 17:14:49
-! Total Count: 109600
+! Last modified: 2023-04-13 00:07:16
+! Total Count: 109628
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5723,6 +5723,7 @@
 ##.BrokenAd
 ##.ButtonAd
 ##.Cheat__outbrain
+##.CitrusBannerWrapper--enollj
 ##.CommentAd
 ##.ConnatixAd
 ##.ContentAd
@@ -17434,6 +17435,7 @@
 ##AMP-AD
 ##A[href*=".com/?Agent="]
 ##A[href*="/mx456.cc"]
+##A[href*="/st66st.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
@@ -17479,6 +17481,7 @@
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
 ##[class^="s2nPlayer"]
 ##[class^="stsxxgtv_"]
+##[class^="tile-picker__CitrusBannerContainer-sc-"]
 ##[class^="vertical_mobile_ad"]
 ##[class^="videoad"]
 ##[class^="xqad"]
@@ -18474,6 +18477,7 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
+##citrus-ad-wrapper
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##display-ad-component
 ##display-ads
@@ -18534,6 +18538,7 @@
 ##div[data-google-query-id]
 ##div[data-id-advertdfpconf]
 ##div[data-insertion]
+##div[data-mini-ad-unit]
 ##div[data-mpu1]
 ##div[data-native-ad]
 ##div[data-native_ad]
@@ -28518,6 +28523,7 @@ $websocket,domain=5nj.com|cechi8.com
 360kuai.com###xunjia-modal-btn
 360kuai.com##.bottom_rectangle_gg_outer_box
 360kuai.com##.detail-top-banner
+360kuai.com##.detail__top__title__under
 360kuai.com##.k-float-btn__qrcode__body
 360kuai.com##.novel_galery_icon
 360kuai.com##.taskbar
@@ -28566,6 +28572,7 @@ $websocket,domain=5nj.com|cechi8.com
 3dmgame.com##.Gmaeinfobtn_tab > span
 3dmgame.com##.Gmaeinfobtn_tab > span + a
 3dmgame.com##.Gmaeinfobtn_tab > span + a+a
+3dmgame.com##.Indexadd-100
 3dmgame.com##.R_qingtianzhu
 3dmgame.com##.Tonglan
 3dmgame.com##.a_list
@@ -54125,6 +54132,7 @@ zzzyk.com###Tinfo
 ||allyes.com^$third-party
 ||allypublicity.com^
 ||allzdorovy.ru^
+||almabelen.com^
 ||almapa2.com^
 ||almareepom.com^
 ||almasatten.com^
@@ -65134,6 +65142,7 @@ zzzyk.com###Tinfo
 ||dating-banners.com^
 ||dating-cart.com^
 ||dating-exchange.com^
+||dating-roo3.site^
 ||dating-service.net^
 ||dating-z.shop^
 ||dating2cloud.org^
@@ -66968,6 +66977,7 @@ zzzyk.com###Tinfo
 ||ds9e.top^
 ||dsail-tech.com^
 ||dsandmaroons.com^
+||dsas.danawa.com^
 ||dsb.yahoo.co.jp^
 ||dsb6jelx4yhln.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
@@ -69767,6 +69777,7 @@ zzzyk.com###Tinfo
 ||fdiirjong.com^
 ||fdjigxyxstiu.xyz^
 ||fdlvnldfnyhicc.xyz^
+||fdorxsat.com^
 ||fdplttrk.com^
 ||fdrhbw.com^
 ||fds-1230.cc^
@@ -70105,6 +70116,7 @@ zzzyk.com###Tinfo
 ||finnanregauge.com^
 ||fiobio.ru^
 ||fioem.cyou^
+||fionamignon.com^
 ||fiorenetwork.com^
 ||fippledolcino.digital^
 ||fipvn.cn^
@@ -73873,6 +73885,7 @@ zzzyk.com###Tinfo
 ||heleric.com^
 ||helesandoral.com^
 ||helic3oniusrcharithonia.com^
+||helid.xyz^
 ||heligh.com^
 ||helilong.xyz^
 ||hellay.net^
@@ -79684,6 +79697,7 @@ zzzyk.com###Tinfo
 ||lajeshuru.pro^
 ||lajidewanyi.top^
 ||lajimeiguo.top^
+||lake.joongang.co.kr^
 ||lakequincy.com^
 ||lakvandula.com^
 ||lalaaal.cn^
@@ -80885,6 +80899,7 @@ zzzyk.com###Tinfo
 ||log-lb.skyperfectv.co.jp^
 ||log-live.direct.ly^
 ||log-marketing.jp^
+||log-music-data.line-apps.com^
 ||log-player.arte.tv^
 ||log-sg.bytegsdk.com^
 ||log-stats.weathercn.com^
@@ -81259,6 +81274,7 @@ zzzyk.com###Tinfo
 ||lookedpieter.uno^
 ||lookery.com^
 ||lookfornews.net^
+||lookinews.com^
 ||lookit.cz^
 ||lookmy.info^
 ||lookoutboccies.com^
@@ -84288,6 +84304,7 @@ zzzyk.com###Tinfo
 ||mudcxq.cn^
 ||muddiedbubales.com^
 ||muddledaftermath.com^
+||muddychronicstuffed.com^
 ||muddyjustify.com^
 ||mudezs.com^
 ||mudperipherd.club^
@@ -85720,6 +85737,7 @@ zzzyk.com###Tinfo
 ||noodlesignifyghosts.com^
 ||noodshare.pics^
 ||nooen.com^$popup
+||noofigat.net^
 ||nooncommentary.com^
 ||noonfrequentpea.com^
 ||nooroapo.com^
@@ -88133,6 +88151,7 @@ zzzyk.com###Tinfo
 ||pbdjtlghawpiuoq.com^
 ||pbgcsk3.com^
 ||pbgrd.com^
+||pbgtpjz.cn^
 ||pbhdwm.cn^
 ||pbid.iforex.com^
 ||pbjcdypkbmcmrc.xyz^
@@ -91286,6 +91305,7 @@ zzzyk.com###Tinfo
 ||qlssbq.cn^
 ||qlsynmly.fun^
 ||qlugsc.cn^
+||qlvlaqcd.com^
 ||qlzjwgb.cn^
 ||qm.qq.com^$domain=se8u.cc
 ||qmbnkdh.cn^
@@ -95038,6 +95058,7 @@ zzzyk.com###Tinfo
 ||shacksigning.com^
 ||shacsda.name^
 ||shadamu2.com^
+||shadowminer.top^
 ||shaggytank.com^
 ||shaiban.wang^
 ||shaickox.com^
@@ -96220,6 +96241,7 @@ zzzyk.com###Tinfo
 ||snowy.bellroy.com^
 ||snptrk.com^
 ||snsjiq.xyz^
+||snsv.ru^
 ||sntjim.com^
 ||snugglethesheep.com^
 ||snugphotographer.com^
@@ -98695,6 +98717,7 @@ zzzyk.com###Tinfo
 ||t.adlpo.com^
 ||t.adx.opera.com^
 ||t.ajrkm.link^
+||t.apkpure.net^
 ||t.arianelab.com^
 ||t.auditedmedia.org.au^
 ||t.beop.io^
@@ -101850,6 +101873,7 @@ zzzyk.com###Tinfo
 ||ts-ads.info^
 ||ts.delfi.lt^
 ||ts.grmnmwv.cn^
+||ts.line-apps.com^
 ||ts.tradetracker.net^
 ||ts166.net^
 ||ts166.net^$third-party
@@ -104281,6 +104305,7 @@ zzzyk.com###Tinfo
 ||voc.com.cn/adsClick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
+||vocaivie.xyz^
 ||vocalconferencesinister.com^
 ||vocalreverencepester.com^
 ||vodafone-direkt.de^
@@ -106110,6 +106135,7 @@ zzzyk.com###Tinfo
 ||wpnetwork.eu^
 ||wpnjrm.com^
 ||wpnjs.com^
+||wpnokuxfmu.xyz^
 ||wpnrtnmrewunrtok.xyz^
 ||wpnsrv.com^
 ||wpnsrv.com^$third-party,important
@@ -106954,6 +106980,8 @@ zzzyk.com###Tinfo
 ||xkyn.com/imgs/js/xx.js
 ||xkzjq.cn^
 ||xkzzyk.cn^
+||xkzzz.com/zb_users/plugin/MoreLinks*/show.
+||xkzzz.com/zb_users/plugin/MoreLinks/MoreLinks.
 ||xl-trk.com^
 ||xl2d.top^
 ||xl720.com/tmp/

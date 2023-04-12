@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1wJ0jc4GdhVHgl3e96GR+Q
+! Checksum: fBe0Ppah/LxJZb79Uc+rrg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230412171450
+! Version: 20230413000718
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-12 17:14:50
-! Total Count: 19016
+! Last modified: 2023-04-13 00:07:18
+! Total Count: 19023
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1233,6 +1233,7 @@
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
 ##A[href*="/mx456.cc"]
+##A[href*="/st66st.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
@@ -6317,6 +6318,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||allnorilsk.ru/js/adb.js
 ||allowfencelist.com^$third-party
 ||allyes.$third-party
+||almabelen.com^
 ||alrr.club^
 ||alskfdf.com^
 ||alt-ad.mail.ru^
@@ -9375,6 +9377,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||files.zmzjstu.com/g3^
 ||fillidutt.tw^
 ||fioem.cyou^
+||fionamignon.com^
 ||firebaseio.com/promo_view.json
 ||firefoxchina.cn/2014/*_foxphone.png
 ||firefoxchina.cn/chome_*.html
@@ -10355,6 +10358,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||heiye.cc/js/xuanfu.js
 ||hejing.cloud^
 ||hekcctie.cyou^
+||helid.xyz^
 ||helilong.xyz^
 ||hellay.net^
 ||hello-jm.com/foot.js
@@ -14168,6 +14172,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||payoneok.com^
 ||pb.shuxigua.com^
 ||pbgcsk3.com^
+||pbgtpjz.cn^
 ||pbhdwm.cn^
 ||pbmp.ali213.net/js/
 ||pbrhblu.cn^
@@ -17940,6 +17945,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xkqit.com^
 ||xkyn.com/imgs/js/xx.js
 ||xkzzyk.cn^
+||xkzzz.com/zb_users/plugin/MoreLinks*/show.
+||xkzzz.com/zb_users/plugin/MoreLinks/MoreLinks.
 ||xl2d.top^
 ||xl720.com/tmp/
 ||xleqs.xyz^
