@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: bYe441hfzyYbhwUedzo+Hw
+! Checksum: kNAEujpPLuyNYMP0RlZ/yw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230413163832
+! Version: 20230413195038
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-13 16:38:32
-! Total Count: 19043
+! Last modified: 2023-04-13 19:50:38
+! Total Count: 19051
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1238,6 +1238,7 @@
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="-ads"]
 ##[class$="ad-box"]
+##[class$="video-ads"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
@@ -3773,6 +3774,8 @@ the-village.com.ua##.infoA
 theav.xyz##[class*="-gg"]
 theav.xyz##[class*="absolute-"]
 theav.xyz##div[id*="theav"][style*="margin"] > div > span
+theporn.cc##[class*="-gg"]
+theporn.cc##div[id*="theporn"][style*="margin"] > div > span
 tianyancha.com##[class^="download-"]
 tianyancha.com##[id^="banner_mobile_"]
 tieba.baidu.com##.fengchao-banner-defensive
@@ -6829,6 +6832,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||baishuku.com/news/$script
 ||baitaiad.com^$third-party
 ||baiten.cn/images/weInternation/
+||baitu1llbkotsfthllcjeg.com^
 ||baitugu.com^$third-party
 ||baixing.com/bb/*/?category=
 ||baixing.com/widget/
@@ -6895,6 +6899,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbads.vip^
+||bbangads.*.net^$third-party
 ||bbazhaheiv.top^
 ||bbk5921.yncjsc.cn^$third-party
 ||bbnnnb.com^*.js
@@ -11067,6 +11072,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||img.3sjt.com^
 ||img.90bfw.com^*.gif
 ||img.eol.cn/images/ed/$~image
+||img.eprice.com.tw/img/dis/file/*-f.html
 ||img.ferlie.net^
 ||img.ferlie.net^$domain=wangchao.net.cn
 ||img.hdsky.me/images/20*.gif
@@ -14168,6 +14174,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||panpan.org/plus/img/
 ||panpan.org/templets/ad/
 ||panruo.net.cn^
+||pansclub.xyz^
 ||pansoso.com^*pss.
 ||panyh123456.cn^
 ||paohao.com^
@@ -16666,6 +16673,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||twadakesi.cyou^
 ||twavtv.com/js/jquery.colorbox
 ||twcczhu.com^$third-party
+||twinrdsrv.com$xmlhttprequest,third-party
 ||twlcyc.cn^
 ||twn2e.cn^
 ||twnb.xyz^

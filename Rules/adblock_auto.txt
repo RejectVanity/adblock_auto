@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: YaSSiG7eUgRtsYOgwuRZMQ
+! Checksum: 0Ky0LbPHQDpfYj+frySwWA
 ! Title: 混合规则(自动更新)
-! Version: 20230413163830
+! Version: 20230413195035
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-13 16:38:30
-! Total Count: 109803
+! Last modified: 2023-04-13 19:50:35
+! Total Count: 109810
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17444,6 +17444,7 @@
 ##DFP-AD
 ##[class$="-ads"]
 ##[class$="ad-box"]
+##[class$="video-ads"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
@@ -44272,8 +44273,10 @@ theporn.cc###wp > div[id]
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
 theporn.cc##.video_playr_sider
+theporn.cc##[class*="-gg"]
 theporn.cc##div > div[align="center"]
 theporn.cc##div[class^="_"]
+theporn.cc##div[id*="theporn"][style*="margin"] > div > span
 theportugalnews.com##.banners-250
 theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
@@ -57182,6 +57185,7 @@ zzzyk.com###Tinfo
 ||baiten.cn/images/weInternation/
 ||baithoph.net^
 ||baitikoam.com^
+||baitu1llbkotsfthllcjeg.com^
 ||baitugu.com^$third-party
 ||baitwizardrhythm.com^
 ||baityounger.com^
@@ -57563,6 +57567,7 @@ zzzyk.com###Tinfo
 ||bbaannrr03.com^
 ||bbaannrr05.com^
 ||bbads.vip^
+||bbangads.*.net^$third-party
 ||bbangads.b-cdn.net^
 ||bbazhaheiv.top^
 ||bbbx.xyz^
@@ -75974,6 +75979,7 @@ zzzyk.com###Tinfo
 ||img.3sjt.com^
 ||img.90bfw.com^*.gif
 ||img.eol.cn/images/ed/$~image
+||img.eprice.com.tw/img/dis/file/*-f.html
 ||img.ferlie.net^
 ||img.ferlie.net^$domain=wangchao.net.cn
 ||img.hdsky.me/images/20*.gif
@@ -102291,6 +102297,7 @@ zzzyk.com###Tinfo
 ||twinpinenetwork.com^
 ||twinplan.com^
 ||twinrdack.com^
+||twinrdsrv.com$xmlhttprequest,third-party
 ||twinrdsrv.com^
 ||twinrdsyn.com^
 ||twinsoflave.com^
