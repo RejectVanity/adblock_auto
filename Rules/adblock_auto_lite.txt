@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: NF8dq0I8FfFsMAnSI0vPig
+! Checksum: 4V3Yr9wlzLuXBTgoQa35Og
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230413083000
+! Version: 20230413134233
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-13 08:30:00
-! Total Count: 19026
+! Last modified: 2023-04-13 13:42:33
+! Total Count: 19035
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2833,6 +2833,7 @@
 6446.tv,lgyy.tv,lgyy.cc##[id^="syad"]
 69vj.com###vban
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
+7mmtv.sx##[class^="root--"]
 7sim.net##html > body ~ div
 ://*.zd*.live/*x*x*x*x*=$third-party
 ://*.zd*.xyz/*x*x*x*x*=$third-party
@@ -9804,6 +9805,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ggxwb.miguvideo.com^
 ||gh8s.top^
 ||ghghgf.51dongshi.com^
+||ghghgf.xuexiwa.com^
 ||ghhtt.top^
 ||ghjie.com/JS/youcegg.js
 ||ghjie.com/images/2012/images/bg
@@ -11146,6 +11148,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||impservice*.yodao.com^
 ||impservice*.youdao.com^
 ||imrworldwide.com^
+||imu2021.site^
 ||imview.cn^
 ||imwx.com/mobile/adconfig/
 ||inclk.com^$popup
@@ -11187,6 +11190,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ioaiaou.cn^
 ||iocoder.cn/alert/js/alert.js
 ||ioeq5cead.icu^
+||ioiksw.cn^
 ||iojgo.com^
 ||iongsoni.uno^
 ||ionqv.cn^
@@ -13775,6 +13779,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nownews.com/assets/js/setAds.js
 ||noxagile.duapp.com^
 ||np176.com^
+||npdkdb.xyz^
 ||npmeingm7.shop^
 ||nqbcf.cn/html/top
 ||nqcacox.cn^
@@ -16772,6 +16777,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ub1.job592.com^
 ||ubalh.com^
 ||ubazhaheit.top^
+||ubifyc.xyz^
 ||ubktmlk.cn^
 ||ubln.top^
 ||ubmcvideo.baidustatic.com^
@@ -17342,6 +17348,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||web.51fishplace.com^$third-party
 ||web.900.la^
 ||web0513.com^
+||web4023.top^
 ||web8.net^$third-party
 ||webjx.com/zanzhushang/
 ||webkaka.com*/click/$image
@@ -18063,6 +18070,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xuetao.site^
 ||xuexi.hydcd.com^
 ||xuexi.wiki^
+||xuexiwa.com^$script,third-party
 ||xueyanshan.com^
 ||xuhaijun.pw^
 ||xujingch.com^
@@ -18629,6 +18637,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||z1.pclady.com.cn^
 ||z1hihu.xmcimg.com^
 ||z2x5c8.com^$image,domain=hihbt.com
+||z4a.net/images/*/960-60.
 ||z4a.net^$domain=aotu43.com
 ||z4a.net^*/960x
 ||z66ggsh.top^
