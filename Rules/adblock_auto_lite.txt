@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0yw9nhDScAKhHpeqhsC1uw
+! Checksum: Mi+Swb8ZwN43VURoakk5Zw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230413210153
+! Version: 20230413234505
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-13 21:01:53
-! Total Count: 19054
+! Last modified: 2023-04-13 23:45:05
+! Total Count: 19079
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1372,6 +1372,7 @@
 ##a[href*=".asada-kairyo.com/"]
 ##a[href*=".ax10a.com/"]
 ##a[href*=".ayx300.com/"]
+##a[href*=".bd379.vip"]
 ##a[href*=".beiren.cc"]
 ##a[href*=".bet365.gdn"]
 ##a[href*=".bet927.bet"]
@@ -2409,6 +2410,7 @@
 &adsrc=
 &xhtml?$script,third-party
 -*-*-*-*.panda^$script,third-party
+-1316632262.cos.
 -1688-wp-media/ads/
 -728-90.
 -728x90.
@@ -2422,8 +2424,11 @@
 .8ox.cn
 .adsense.
 .adserver.
+.asp?wg&df=$script,third-party
+.asp?wsg&df=$script,third-party
 .bid/ads/
 .blog/ads/
+.bt*.com/imgs.js?t=
 .cam/ads/
 .cc/ad/
 .cc/ads/
@@ -2434,6 +2439,7 @@
 .club/ads/
 .club/adv/
 .club/r/*$xmlhttprequest
+.cn/*-*-*.xc$script,third-party
 .cn/a.gif?
 .cn/ads/
 .cn/api/getPos?jspath=/$~third-party
@@ -2458,6 +2464,7 @@
 .com/*/ddd3.js
 .com/*/ddd4.js
 .com/*/ffff.js
+.com/0gg/gg*.js
 .com/?Intr=$popup,third-party
 .com/?aff=$popup,third-party
 .com/Public/js/duileft.js
@@ -2514,6 +2521,7 @@
 .com/logo/ad.js
 .com/logo/logo.js
 .com/logo/logoxia.js
+.com/m-2594|$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
 .com/myjs/mys_alljs.js
@@ -2530,6 +2538,7 @@
 .com/sc/*?x=$script,third-party
 .com/sc/*?x=$third-party
 .com/sh/back/*$third-party
+.com/sh/to/$script,third-party,xmlhttprequest
 .com/sh/to/*$third-party
 .com/static/js/ad.js
 .com/style/vue.js?v=
@@ -2537,7 +2546,9 @@
 .com/tonglan2.js
 .com/topjs/
 .com/uploads/*-860x250.gif
+.com/vh1/$script,third-party
 .com/vh1/1$third-party
+.com/vj1/$script,third-party
 .com/vj1/1$third-party
 .com/vodad.js
 .com/zz/*2.txt$xmlhttprequest
@@ -2545,10 +2556,14 @@
 .com/zz/yd2.js
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:12289/$script,third-party
 .com:2516/code/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
+.cyou/*_*_an*js?$script,third-party
+.cyou/*_*_u*js?$script,third-party
 .eu/ads/
+.fun/*_*_rony.js
 .fun/ad/
 .fun/scripts/my_33.js
 .hk/ad2/
@@ -2556,6 +2571,7 @@
 .hk/groupon/ads/
 .html?ad_
 .html?android=hx*&_$csp=script-src
+.icu/*_*_rony.js
 .icu/ads/
 .in/js/ads/
 .info/ad.js
@@ -2598,6 +2614,8 @@
 .net/ads/
 .net/adv/
 .net/js/ads/
+.net/vh1/$script,third-party
+.net/vj1/$script,third-party
 .niusnews.com/upload/banners/
 .nyaa.fun/static/img/*_refesh.
 .nyaa.fun/static/img/host/*.gif
@@ -2620,6 +2638,7 @@
 .shop/r/*$xmlhttprequest
 .shop/xling_*_*.js?
 .site:*/*/*.js
+.site:20443/*.js^$script,third-party
 .swf?clicktag=
 .test15./
 .top/?channelCode=
@@ -2648,6 +2667,7 @@
 .xyz/99x/
 .xyz/?ch=ssmh
 .xyz/?channelCode=
+.xyz/?channelCode=$csp=script-src
 .xyz/Uxxt*zt.js
 .xyz/ack?s=
 .xyz/ad/
@@ -2669,6 +2689,7 @@
 .xyz/svelte?$third-party
 .xyz/upload/ad/
 .xyz/vendors?$third-party
+.xyz/vh1/$script,third-party
 .xyz/vikkehmes_*_*_mykkdedde.js?$third-party,script
 .xyz/vj1/$third-party
 .xyz/vue?$third-party
@@ -2875,12 +2896,14 @@
 ://mobixc.*.fun$third-party
 ://p.qlogo.cn/qqmail_head/*
 ://rou*/_next/static/chunks/pages/home-
+://s.htkk*.top:$script,third-party
 ://seai*/ads/float.js
 ://shiold*.zhaosw.com$script
 ://vlets.*.club$third-party
 ://vlets.*.cyou$third-party
 ://vlets.*.shop$third-party
 ://vlets.*.xyz$third-party
+://xingkong6688s.oss-
 ://yin*.zgpingshu.com
 :1010/openV5.js
 :10443/$script,subdocument,third-party
@@ -2897,6 +2920,7 @@
 :538/attachment/js/
 :538/attachment/xjdb.jpg
 :63666/960x150.
+:6607/qy/$script,third-party
 :701/Pus/pus.js
 :701/gd_xueersi/$popup
 :7701/load.cw.js
@@ -9591,6 +9615,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fzbkgni.cn^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzckwij.cn^
+||fzcsd33.com^
 ||fzd3.com/gg/
 ||fzf1.top^
 ||fzlol.com/images/$script
