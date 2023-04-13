@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: AtEpNVHwU81GQGDB4XKUaQ
+! Checksum: NqwAmE1pXpfJEB6zrIUG5g
 ! Title: 混合规则(自动更新)
-! Version: 20230413000716
+! Version: 20230413082958
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-13 00:07:16
-! Total Count: 109628
+! Last modified: 2023-04-13 08:29:58
+! Total Count: 109657
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3111,6 +3111,7 @@
 ###eis_pad1
 ###eis_pad2
 ###elgoogybsda
+###em_ad_superbanner
 ###embedAD
 ###embedADS
 ###event_ads
@@ -5053,6 +5054,7 @@
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-express
 ###taboola-below-article-thumbnails-v2
+###taboola-below-forum-thumbnails
 ###taboola-content
 ###taboola-footer-ad
 ###taboola-main-container
@@ -11450,6 +11452,7 @@
 ##.box-ad
 ##.box-ad-a
 ##.box-ad-grey
+##.box-ad-middle
 ##.box-ad-mr1
 ##.box-ad-right-column
 ##.box-ad-unit-j
@@ -28224,7 +28227,9 @@ $websocket,domain=5nj.com|cechi8.com
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
 18porn.sex,18teensex.tv,4kporn.xxx,amateurporn.me,bigtitslust.com,danude.com,daporn.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
 18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xgroovy.com,xxxshake.com##.table
+18porn.sex,amateur8.com,anyporn.com,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,hentai-moon.com,its.porn,pervertslut.com,porngem.com,porntop.com,sexpornimages.com,sexvid.xxx,sortporn.com,xhamster.com##.sponsor
 18porn.sex,amateur8.com,anyporn.com,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,hentai-moon.com,pervertslut.com,porngem.com,porntop.com,sexpornimages.com,sexvid.xxx,sortporn.com,xhamster.com##.sponsor
+18teensex.tv,3movs.xxx,adultwebmarket.com,amamilf.com,amateurelders.com,analpornpix.com,babesmachine.com,beachpornpics.com,bikinipornpics.com,bizzarepornpics.com,bukkakepornpics.com,castingpornpics.com,cfnmpornpics.com,chaturbate.com,classicpornpics.com,creampiepornpics.com,cuckoldpornpics.com,cumshotpornpics.com,eldersfaces.com,facialpornpics.com,faperson.com,fboomporn.com,fetishshrine.com,freepornpicss.com,gramateurs.com,grannarium.com,handjobpornpics.com,happysex.ch,hiddenhomemade.com,imagezog.com,its.porn,jackoffson.com,jerkoffer.com,legalporn4k.com,lyama.net,maturator.com,maturenudism.com,milffox.com,nonameporn.com,nudismpornpics.com,oldgf.com,oldies.name,oldnudism.com,omfgpics.com,omgmov.com,outdoorpornpics.com,paradisehill.cc,picschan.com,picsleaks.com,playvids.com,porngames.com,private.com,publicpornpics.com,realelders.com,submittedgf.com,swingerspornpics.com,threesomepornpics.com,uniformpornpics.com,upskirtpornpics.com,video.laxd.com,vidxnet.com,vjav.com,voyeurpornpics.com,wankerson.com,watchhentaivideo.com,waybig.com,xanalsex.com,xbabe.com,xcum.com,xfreepornpic.com,xfreesexpic.com,xfreexxx.com,xgrannypics.com,xhomemadeporn.com,xmaturewoman.com,xmaturewomen.com,xnudepics.com,xpiglet.com,xpornophoto.com,xpornophotos.com,xpornopics.com,xpornpicture.com,xpornpix.com,xpussypics.com,xwifepics.com,xworldsex.com,xxxpicsxxx.com,xxxpornpix.com,youcanfaptothis.com,yourdailygirls.com,youx.xxx##.banner
 18teensex.tv,3movs.xxx,adultwebmarket.com,amamilf.com,amateurelders.com,analpornpix.com,babesmachine.com,beachpornpics.com,bikinipornpics.com,bizzarepornpics.com,bukkakepornpics.com,castingpornpics.com,cfnmpornpics.com,chaturbate.com,classicpornpics.com,creampiepornpics.com,cuckoldpornpics.com,cumshotpornpics.com,eldersfaces.com,facialpornpics.com,faperson.com,fboomporn.com,fetishshrine.com,freepornpicss.com,gramateurs.com,grannarium.com,handjobpornpics.com,happysex.ch,hiddenhomemade.com,imagezog.com,jackoffson.com,jerkoffer.com,legalporn4k.com,lyama.net,maturator.com,maturenudism.com,milffox.com,nonameporn.com,nudismpornpics.com,oldgf.com,oldies.name,oldnudism.com,omfgpics.com,omgmov.com,outdoorpornpics.com,paradisehill.cc,picschan.com,picsleaks.com,playvids.com,porngames.com,private.com,publicpornpics.com,realelders.com,submittedgf.com,swingerspornpics.com,threesomepornpics.com,uniformpornpics.com,upskirtpornpics.com,video.laxd.com,vidxnet.com,vjav.com,voyeurpornpics.com,wankerson.com,watchhentaivideo.com,waybig.com,xanalsex.com,xbabe.com,xcum.com,xfreepornpic.com,xfreesexpic.com,xfreexxx.com,xgrannypics.com,xhomemadeporn.com,xmaturewoman.com,xmaturewomen.com,xnudepics.com,xpiglet.com,xpornophoto.com,xpornophotos.com,xpornopics.com,xpornpicture.com,xpornpix.com,xpussypics.com,xwifepics.com,xworldsex.com,xxxpicsxxx.com,xxxpornpix.com,youcanfaptothis.com,yourdailygirls.com,youx.xxx##.banner
 1905.com##+js(json-prune,videolink)
 1905.com##.mobile_ad_promote
@@ -31456,6 +31461,7 @@ abovethelaw.com##.single-post__sponsored-post--desktop
 abovetopsecret.com,thelibertydaily.com##[href^="https://mypatriotsupply.com/"]
 abpclub.co.uk##img[width="118"]
 absolutelyrics.com,cdrlabs.com,exiledonline.com,findtheword.info,realitywanted.com,revizoronline.com,snapfiles.com###topbanner
+abysscdn.com,hqq.to,hqq.tv,megaplay.cc,netuplayer.top,playertoast.uno,plushd.bio,waaw.to##a[title="Free money easy"]
 ac-room.cc##.ad.v-card
 ac-room.cc#?#.waterfall > div.waterfall-box > div.waterfall-item:-abp-has(> div.ad)
 ac-room.cc#?#.waterfall > div.waterfall-box > div.waterfall-item:has(> div.ad)
@@ -32636,6 +32642,7 @@ barandbench.com##div[class^="ad-slot"]
 barclaysatpworldtourfinals.com###rolex-small-clock
 barelist.com##a[onclick="CallServer('ad', '')"]
 barelist.com,spankingtube.com##a[onclick]
+barkinganddagenhampost.co.uk,becclesandbungayjournal.co.uk,blogto.com,burymercury.co.uk,cambstimes.co.uk,cardealermagazine.co.uk,crimemagazine.com,dailyedge.ie,derehamtimes.co.uk,dissmercury.co.uk,dunmowbroadcast.co.uk,eadt.co.uk,eastlondonadvertiser.co.uk,edp24.co.uk,elystandard.co.uk,etf.com,eveningnews24.co.uk,exmouthjournal.co.uk,fakenhamtimes.co.uk,football.co.uk,gearspace.com,gematsu.com,greatyarmouthmercury.co.uk,hackneygazette.co.uk,hamhigh.co.uk,hertsad.co.uk,huntspost.co.uk,icaew.com,ilfordrecorder.co.uk,iol.co.za,ipswichstar.co.uk,islingtongazette.co.uk,lgr.co.uk,lowestoftjournal.co.uk,maltapark.com,midweekherald.co.uk,momjunction.com,morningstar.co.uk,newhamrecorder.co.uk,newstalkzb.co.nz,northnorfolknews.co.uk,northsomersettimes.co.uk,pinkun.com,proxcskiing.com,romfordrecorder.co.uk,royston-crow.co.uk,saffronwaldenreporter.co.uk,sidmouthherald.co.uk,stowmarketmercury.co.uk,sudburymercury.co.uk,tbivision.com,the42.ie,thecomet.net,thedrum.com,thejournal.ie,tineye.com,trucksplanet.com,wattonandswaffhamtimes.co.uk,whtimes.co.uk,wisbechstandard.co.uk,wymondhamandattleboroughmercury.co.uk##.advert
 barkinganddagenhampost.co.uk,becclesandbungayjournal.co.uk,blogto.com,burymercury.co.uk,cambstimes.co.uk,cardealermagazine.co.uk,crimemagazine.com,dailyedge.ie,derehamtimes.co.uk,dissmercury.co.uk,dunmowbroadcast.co.uk,eadt.co.uk,eastlondonadvertiser.co.uk,edp24.co.uk,elystandard.co.uk,etf.com,eveningnews24.co.uk,exmouthjournal.co.uk,fakenhamtimes.co.uk,football.co.uk,gematsu.com,greatyarmouthmercury.co.uk,hackneygazette.co.uk,hamhigh.co.uk,hertsad.co.uk,huntspost.co.uk,icaew.com,ilfordrecorder.co.uk,iol.co.za,ipswichstar.co.uk,islingtongazette.co.uk,lgr.co.uk,lowestoftjournal.co.uk,maltapark.com,midweekherald.co.uk,momjunction.com,morningstar.co.uk,newhamrecorder.co.uk,newstalkzb.co.nz,northnorfolknews.co.uk,northsomersettimes.co.uk,pinkun.com,proxcskiing.com,romfordrecorder.co.uk,royston-crow.co.uk,saffronwaldenreporter.co.uk,sidmouthherald.co.uk,stowmarketmercury.co.uk,sudburymercury.co.uk,tbivision.com,the42.ie,thecomet.net,thedrum.com,thejournal.ie,tineye.com,trucksplanet.com,wattonandswaffhamtimes.co.uk,whtimes.co.uk,wisbechstandard.co.uk,wymondhamandattleboroughmercury.co.uk##.advert
 barnesandnoble.com##.product-commentary-advertisement
 barrettsportsmedia.com###mvp-wallpaper
@@ -36178,6 +36185,8 @@ forum.wordreference.com###botSupp
 forum.wordreference.com###topSupp
 forum.xda-developers.com##.notices--thnoticesplus_topbar
 forumdz.com##body .breadcrumb + center > [color="red"] > b
+forums.anandtech.com,forums.androidcentral.com,forums.pcgamer.com,forums.space.com,forums.tomsguide.com,forums.tomshardware.com,forums.whathifi.com###rightcol_top
+forums.anandtech.com,forums.androidcentral.com,forums.pcgamer.com,forums.space.com,forums.tomsguide.com,forums.tomshardware.com,forums.whathifi.com,redflagdeals.com###header_leaderboard
 forums.anandtech.com,forums.pcgamer.com,forums.space.com,forums.tomsguide.com,forums.tomshardware.com,forums.whathifi.com###rightcol_top
 forums.anandtech.com,forums.pcgamer.com,forums.space.com,forums.tomsguide.com,forums.tomshardware.com,forums.whathifi.com,redflagdeals.com###header_leaderboard
 forums.anandtech.com,forums.pcgamer.com,forums.tomsguide.com,forums.tomshardware.com###footer_leaderboard
@@ -36623,7 +36632,12 @@ gearlive.com,mediamass.net,noscript.net###google
 gearspace.com###container__DesktopFDAdBanner
 gearspace.com###container__DesktopForumdisplayHalfway
 gearspace.com###navbar_notice_617
+gearspace.com###navbar_notice_704
 gearspace.com##.bnb--inline
+gearspace.com##.bnb-container
+gearspace.com##.subforum-sponsor
+gearspace.com##.support
+gearspace.com##.top_ad_section
 gearspace.com,himovies.to,home-barista.com,rarpc.co,shtfplan.com,warecracks.com,washingtontimes.com##a[onclick]
 gebi1.com###fwin_dialog
 gebi1.com###fwin_dialog_cover
@@ -37414,6 +37428,7 @@ hentai-top100.com##[href^="http://www.grainesdecannabis.fr/"]
 hentai2read.com##.alert-danger
 hentai2read.com##.zonePlaceholder
 hentai2read.com##[href^="https://camonster.com"]
+hentai2read.com##div[data-type="leaderboard-top"]
 hentai2w.com##.aff-col
 hentai2w.com##.aff-content-col
 hentai2w.com,pornxt.com###playerOverlay
@@ -37651,6 +37666,7 @@ houdao.com###header-ban
 houdao.com##a[style^="background:url"]
 house.qq.com###yf
 house.qq.com##.bm
+house.yahoo.com.tw##.content_r > .rbox:first-child
 house365.com###AD-coup-left
 house365.com###ft-login
 house365.com###marryD
@@ -40512,6 +40528,7 @@ msn.com##.dynamicRRWrapper
 msn.com##.galleryPage_eoabNativeAd-DS-EntryPoint1-1
 msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.intra-article-ad
+msn.com##.intra-article-ad-full
 msn.com##.intra-article-ad-half
 msn.com##.medianetintraarticlenativead
 msn.com##.modernRightRail_stickyTopBannerAd-DS-EntryPoint1-1
@@ -42993,8 +43010,12 @@ sexvid.porn,sexvid.pro,sexvid.xxx##.download_link
 sexvid.porn,sexvid.pro,sexvid.xxx##.player-sponsor
 sexvid.xxx##.bottom_spots
 sexvid.xxx##.box_site
+sexvid.xxx##.player-cs
+sexvid.xxx##.site_holder
 sexvid.xxx##.spots_field
+sexvid.xxx##.spots_thumbs
 sexvid.xxx##.top-cube
+sexvid.xxx##.under_player_link
 sexyandfunny.com###best-friends
 sexyandfunny.com###sexy-links
 sexyandfunny.com##.content-source
@@ -57788,6 +57809,7 @@ zzzyk.com###Tinfo
 ||beamedshipwreck.com^
 ||beamincrease.com^
 ||beampulse.com^
+||beamvolcano.com^
 ||beanspriority.com^
 ||beanstalkdata.com^
 ||beanvehicleopening.com^
@@ -64966,6 +64988,7 @@ zzzyk.com###Tinfo
 ||dalucm.xyz^
 ||dalyai.com^
 ||dalysb.com^
+||dalysh.com^
 ||damaged-shop.pro^
 ||damageddistance.com^
 ||damageshaybird.com^
@@ -66533,6 +66556,7 @@ zzzyk.com###Tinfo
 ||dobnor.com^
 ||doboacki.net^
 ||doc88.com^*/count.js
+||doccd.xyz^
 ||docer.org/static/utils/jquery.min.js
 ||doceree.com^
 ||dochase.com^
@@ -85870,6 +85894,7 @@ zzzyk.com###Tinfo
 ||npario-inc.net^
 ||npbyrpnfwsviur.com^
 ||npcad.com^
+||npdkdb.xyz^
 ||npdyxhvefuqkj.xyz^
 ||npecialukiz.com^
 ||npecialukize.lol^
@@ -90961,6 +90986,7 @@ zzzyk.com###Tinfo
 ||qasrae.com^
 ||qat5.top^
 ||qatarchekmak.com^
+||qatuaad.cn^
 ||qawpicxuca.com^
 ||qawxtenkeo.com^
 ||qaykb.com^
@@ -101270,6 +101296,7 @@ zzzyk.com###Tinfo
 ||tracking.practicefusion.com^
 ||tracking.prd.mz.internal.unity3d.com^
 ||tracking.propelmedia.com^
+||tracking.purchasely.io^
 ||tracking.rapidape.com^
 ||tracking.rce.veeseo.com^
 ||tracking.realtor.com^
@@ -102400,6 +102427,7 @@ zzzyk.com###Tinfo
 ||ubercpm.com^
 ||ubertags.com^
 ||ubertracking.info^
+||ubifyc.xyz^
 ||ubiquitousyard.com^
 ||ubisbrw.cn^
 ||ubish.com^
@@ -109292,6 +109320,7 @@ zzzyk.com###Tinfo
 ||zoukooso.com^
 ||zouloafi.net^
 ||zouneeto.net^
+||zouqiuyyds.com^
 ||zoute.cyou^
 ||zoutubephaid.com^
 ||zouxinyan.xyz^
