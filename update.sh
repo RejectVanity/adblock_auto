@@ -10,6 +10,10 @@ Combine_Folder="`pwd`/temple/combine"
 Rules_Folder="`pwd`/Rules"
 Base_Rules_Folder="`pwd`/base"
 
+#删除缓存?(也许)
+rm -rf "${Rules_Folder}" "`pwd`/temple" 2>/dev/null
+
+
 #创建目录
 mkdir -p "${Download_Folder}" "${Sort_Folder}/lite" "${Combine_Folder}/lite" "${Rules_Folder}" && echo "※`date +'%F %T'` 创建临时目录成功！"
 
