@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: c7+Xh+LYBphGR1c0aTGiDw
+! Checksum: YaSSiG7eUgRtsYOgwuRZMQ
 ! Title: 混合规则(自动更新)
-! Version: 20230413160838
+! Version: 20230413163830
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-13 16:08:38
-! Total Count: 109796
+! Last modified: 2023-04-13 16:38:30
+! Total Count: 109803
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17442,6 +17442,7 @@
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
+##[class$="-ads"]
 ##[class$="ad-box"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
@@ -17947,6 +17948,7 @@
 ##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
+##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/afu.php"]
 ##a[href*="/aiyoubet178.com/"]
 ##a[href*="/akmh047.vip"]
@@ -32445,6 +32447,7 @@ baidu.com##.brand-entry
 baidu.com##.businessvip-wrapper
 baidu.com##.c-container.ec-container
 baidu.com##.c-result[data-tpl="adv_wenku_fc"]
+baidu.com##.c-video-player
 baidu.com##.cbg-Ads
 baidu.com##.chunwan-wrapper
 baidu.com##.commentEmbed-backHomeCard
@@ -44117,6 +44120,9 @@ the18.com##.push-downv
 theage.com.au,smh.com.au#@#div[id^="_"] > iframe[scrolling="no"][src^="http"][width][height][frameborder="0"]
 theartnewspaper.com##.justify-center.flex.w-full
 theatlantic.com##div[class*="Leaderboard_placeholder_"]
+theav.xyz##[class*="-gg"]
+theav.xyz##[class*="absolute-"]
+theav.xyz##div[id*="theav"][style*="margin"] > div > span
 theav.xyz##div[v-if="is_show()"]
 theav.xyz,69xx.one,theporn.cc##+js(set-constant, is_show, false)
 theav.xyz,69xx.one,theporn.cc#$##alert_windows { display: none !important; }
@@ -87974,6 +87980,7 @@ zzzyk.com###Tinfo
 ||panpan.org/plus/img/
 ||panpan.org/templets/ad/
 ||panruo.net.cn^
+||pansclub.xyz^
 ||pansoso.com^*pss.
 ||pansymerbaby.com^
 ||pantafives.com^

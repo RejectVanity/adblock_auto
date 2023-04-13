@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mRJnUlpzLEfa6GvDbHCQxQ
+! Checksum: bYe441hfzyYbhwUedzo+Hw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230413160840
+! Version: 20230413163832
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-13 16:08:40
-! Total Count: 19037
+! Last modified: 2023-04-13 16:38:32
+! Total Count: 19043
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1236,6 +1236,7 @@
 ##A[href*="/st66st.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
+##[class$="-ads"]
 ##[class$="ad-box"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
@@ -1616,6 +1617,7 @@
 ##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
+##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/afu.php"]
 ##a[href*="/aiyoubet178.com/"]
 ##a[href*="/akmh047.vip"]
@@ -3104,6 +3106,7 @@ autohome.com.cn##ol
 baidu.com###header > div:last-child > div > a:first-child
 baidu.com##.barea-ad
 baidu.com##.brand-entry
+baidu.com##.c-video-player
 baidu.com##.ec_ad_results
 baidu.com##.ec_wise_ad
 baidu.com##.na-ec-ad-tag
@@ -3767,6 +3770,9 @@ technologypep.com##.main-container-wrap > div[id][class][style*="opacity"]
 techonthenet.com###sabl
 telesputnik.ru##.adbPopup
 the-village.com.ua##.infoA
+theav.xyz##[class*="-gg"]
+theav.xyz##[class*="absolute-"]
+theav.xyz##div[id*="theav"][style*="margin"] > div > span
 tianyancha.com##[class^="download-"]
 tianyancha.com##[id^="banner_mobile_"]
 tieba.baidu.com##.fengchao-banner-defensive
