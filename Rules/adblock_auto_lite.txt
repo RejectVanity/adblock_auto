@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BsDV5tmhjUsKNuERuD7meg
+! Checksum: 6EB3OffC0DkOdPxJWK/A/w
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230414083040
+! Version: 20230414130511
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-14 08:30:40
-! Total Count: 18261
+! Last modified: 2023-04-14 13:05:11
+! Total Count: 18269
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1705,6 +1705,8 @@
 ##a[href][target="_blank"][onclick*="点击"][onclick*="图标"][onclick*="'value':1"][onclick*="gtag"]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
+##a[href][title*="sponsor"][target="_blank"] > img[src$=".gif"]
+##a[href][title*="sponsor"][target="_blank"] > img[src$=".png"]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
@@ -5218,6 +5220,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||922tp.com/wp-content/uploads/*0x
 ||92dp.com/home/showga?
 ||92ghai.com/zz/
+||92ph.cn^
 ||92uq.com/Ads/
 ||9304hhh999.vip^
 ||933m.com/1.js
@@ -6221,6 +6224,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||anhuigecui.cn^
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
+||aniauu2.cc^
 ||aniem44.cc^
 ||anioz3b.cc^
 ||aniqfwz.cc^
@@ -12127,6 +12131,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||linkwan.com/gb/javascript/c5-
 ||linovel.net/cp/lk/ad/externalAd?
 ||linovelib.com/scripts/zation.js
+||linuozhiyao.xyz^
 ||linuxde.net/wp-content/uploads/ad/
 ||linuxeden.com/plus/web_js.php
 ||linuxidc.com/linuxfile/linux$script
@@ -16978,6 +16983,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||wv86s.fun^
 ||wvggzak.cn^
 ||wvubjgl.cn^
+||wvwl.cn^
 ||ww7814.win/pic
 ||ww9874.com/asset/playerInit.js
 ||wwads.cn^$third-party
@@ -17699,6 +17705,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||youmw.com^$third-party
 ||youpukeji.cn^
 ||youqunjx.com^$third-party
+||youradexchange.com^$third-party
 ||youth.cn/images/c.js
 ||youth.cn/images/public_
 ||youth.cn/qwtf2015/
@@ -18148,6 +18155,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zoujitea.hk^
 ||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
 ||zouqiuyyds.com^
+||zoushao.xyz^
 ||zoute.cyou^
 ||zouxinyan.xyz^
 ||zowralr.cn^

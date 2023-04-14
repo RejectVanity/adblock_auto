@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Bt4ScMCpk1i9cyb5jyN9XA
+! Checksum: gpZAec2zgAnQa4kAnUvf3g
 ! Title: 混合规则(自动更新)
-! Version: 20230414083037
+! Version: 20230414130508
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-14 08:30:37
-! Total Count: 105644
+! Last modified: 2023-04-14 13:05:08
+! Total Count: 105680
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18059,6 +18059,8 @@
 ##a[href][target="_blank"][onclick*="点击"][onclick*="图标"][onclick*="'value':1"][onclick*="gtag"]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
+##a[href][title*="sponsor"][target="_blank"] > img[src$=".gif"]
+##a[href][title*="sponsor"][target="_blank"] > img[src$=".png"]
 ##a[href^="//a.bestcontentfare.top/"]
 ##a[href^="//pubads.g.doubleclick.net/"]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
@@ -21855,6 +21857,7 @@ $websocket,domain=5nj.com|cechi8.com
 /adlantis.
 /adlayer.
 /adlayer/*
+/adlead.$domain=~adlead.co.il|~adlead.com|~adlead.pro|~adlead.ru
 /adlead.$domain=~adlead.com|~adlead.pro|~adlead.ru
 /adlead.$domain=~adlead.com|~adlead.ru
 /adleader.
@@ -37227,6 +37230,7 @@ healthline.com##.css-umsscj
 healthline.com##div.css-0 > div[class]:not([id])
 healthline.com,medicalnewstoday.com##.css-1wm8u43
 healthnfitness.net##.adTrack
+healthnfitness.net##.row-section-game-widget
 healthyceleb.com##.td-header-header-full
 healthylives.tw###contentBox > div[style^="width:336px;height: 280px;"]
 healthylives.tw##div[id^="gad"]
@@ -43582,6 +43586,7 @@ studio55.fi#@#.column-ad
 study.163.com###j-newpeople
 studyfinds.org##.sfspot
 studygolang.com###ad-right1
+stuff.co.nz##.ad__caption
 stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
 stuff.co.nz##.sics-component__widget--neighbourlyShowcasePlus
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
@@ -44925,6 +44930,7 @@ v2rayssr.com###b2-widget-html-12
 v2rayssr.com###gg-box
 v2rayssr.com##.slider-4-box1
 v2rayssr.com#$##wrapfabtest { height: 1px!important; }
+v3rmillion.net###sharingPlace
 v4dwkcv.com
 v5pc.com###full_downad
 vallejosun.com##div[style^="max-width:1200px;min-height:300px;"]
@@ -46482,6 +46488,7 @@ zddream.com##div[style^="width:100%;height:100%;border:2px"]
 zdface.com#@#.top-ad
 zdfans.com##.btn11[onclick]
 zdfans.com##ul[id^="gaosuxiazai"]
+zdnet.com##.c-adDisplay_container_incontent-all-top
 zdnet.com##.c-avStickyVideo
 zdnet.com##.leader-bottom
 zdnet.com##.leader-top
@@ -49466,6 +49473,7 @@ zzzyk.com###Tinfo
 ||8d26e3a7f3.com^
 ||8d3e6ea132.com^
 ||8d8d.me/images/dealer.gif
+||8de2448875.com^
 ||8e41249557.com^
 ||8e9d62ac9b.com^
 ||8en.net^$third-party
@@ -49558,6 +49566,7 @@ zzzyk.com###Tinfo
 ||92f77b89a1b2df1b539ff2772282e19b.com^
 ||92f83e092d.com^
 ||92ghai.com/zz/
+||92ph.cn^
 ||92uq.com/Ads/
 ||9304hhh999.vip^
 ||933m.com/1.js
@@ -50239,6 +50248,7 @@ zzzyk.com###Tinfo
 ||abskursin.com^
 ||absolstats.co.za^
 ||absolutechapelequation.com^
+||absolutelytowns.com^
 ||absoluteroute.com^
 ||absolvecarriagenotify.com^
 ||absolvehostkilled.com^
@@ -54524,6 +54534,7 @@ zzzyk.com###Tinfo
 ||anormal-tracker.de^
 ||anorrecenturybr.com^
 ||anpjcoapgd.com^
+||anpnipbfaxr.com^
 ||anppseo.cn^
 ||anqpq.cn^
 ||anqu.com/b.js
@@ -55294,6 +55305,7 @@ zzzyk.com###Tinfo
 ||asgclickkl.com^
 ||asgclickpop.com^
 ||asgclickpp.com^
+||asgildedalloverw.com^
 ||asgmofqnjs.com^
 ||asgorebysschan.com^
 ||asgust.com^
@@ -56188,6 +56200,7 @@ zzzyk.com###Tinfo
 ||b2c.com^
 ||b2f227b09e.com^
 ||b2o6b39taril.com^
+||b30da4e330.com^
 ||b325a35aa1.com^
 ||b329d177ff.com^
 ||b32e499621.com^
@@ -59565,6 +59578,7 @@ zzzyk.com###Tinfo
 ||cardniu.com^$third-party
 ||careful-oven.pro^
 ||carefuldolls.com^
+||careless-category.pro^
 ||carenterhosi.xyz^
 ||caressleazy.com^
 ||careuropecreatures.com^
@@ -59685,6 +59699,7 @@ zzzyk.com###Tinfo
 ||cauly.co.kr/richad/
 ||caunaurou.com^
 ||caunuscoagel.com^
+||causcs.com^
 ||causecherry.com^
 ||causecherry.com^$third-party
 ||causingguard.com^
@@ -62441,6 +62456,7 @@ zzzyk.com###Tinfo
 ||crackac.com^
 ||crafthenry.com^
 ||craftkeys.com^
+||craftsmanvolleyballhist.com^
 ||cragconcluded.com^
 ||craharice.com^
 ||crajeon.com^
@@ -63966,6 +63982,7 @@ zzzyk.com###Tinfo
 ||damskiy.xyz^
 ||damumu.xyz^
 ||dana123.com^
+||danaineuveas.com^
 ||danakilaskarel.com^
 ||danaoren.shop^
 ||dancaa.com^
@@ -64753,6 +64770,7 @@ zzzyk.com###Tinfo
 ||dfu7.com/JiaYou/sogou
 ||dfvarz.xyz^
 ||dfvvx58.com^
+||dfwbfr2blhmr5.cloudfront.net^
 ||dfwskw7.com^
 ||dfyouolsdq.com^
 ||dfzv25.com^
@@ -67344,6 +67362,7 @@ zzzyk.com###Tinfo
 ||erate.co.il^
 ||ercnrxa.cn^
 ||ercoeteasacom.com^
+||erdeallyighab.com^
 ||erdecisesgeorg.info^
 ||erders.com^
 ||erdsyzb.com^
@@ -69185,6 +69204,7 @@ zzzyk.com###Tinfo
 ||forgoodplay.com^
 ||forgoprokick.icu^
 ||forgottedvere.xyz^
+||forjoiyvid.online^
 ||fork.ink^
 ||forkcdn.com^
 ||forlumineoner.com^
@@ -69718,6 +69738,7 @@ zzzyk.com###Tinfo
 ||fyesqma.cn^
 ||fyfvaxi.cn^
 ||fyglovilo.pro^
+||fyiyducvgp.com^
 ||fykdxpdnhy.com^
 ||fypcy.cyou^
 ||fyreball.com^
@@ -73664,6 +73685,7 @@ zzzyk.com###Tinfo
 ||ibzgcrusher.com^
 ||ic-live.com^
 ||icaile.com/z.php?id=
+||icanhazip.com^
 ||icao4.com/uploads/pic/2.jpg
 ||icarabatt.com^
 ||icast.cn^$third-party
@@ -76650,6 +76672,7 @@ zzzyk.com###Tinfo
 ||kbqebfcubeiaa.com^
 ||kbtzxl.com^
 ||kbugxeslbjc8.com^
+||kbyjxhnweoi.com^
 ||kc.gouchezj.com^
 ||kccdk.com/Content/img/*.gif
 ||kcdn.xyz^
@@ -78446,6 +78469,7 @@ zzzyk.com###Tinfo
 ||linono.ru^
 ||linovel.net/cp/lk/ad/externalAd?
 ||linovelib.com/scripts/zation.js
+||linuozhiyao.xyz^
 ||linuxde.net/wp-content/uploads/ad/
 ||linuxeden.com/plus/web_js.php
 ||linuxidc.com/linuxfile/linux$script
@@ -84930,6 +84954,7 @@ zzzyk.com###Tinfo
 ||ovsliqrcwqsqfxf.xyz^
 ||ovtopli.ru^
 ||ovvwunawrt.com^
+||ovyondkggnqhmt.xyz^
 ||owadakesk.cyou^
 ||owap.su^
 ||owap.su^$third-party
@@ -85208,6 +85233,7 @@ zzzyk.com###Tinfo
 ||pahtwt.tech^
 ||pahtzh.tech^
 ||paibopse.com^
+||paicepte.xyz^
 ||paid.outbrain.com^
 ||paidforfree.com^
 ||paidlinkz.net^
@@ -86395,6 +86421,7 @@ zzzyk.com###Tinfo
 ||pixel.parsely.com^
 ||pixel.pcworld.com^
 ||pixel.playbuzz.com^
+||pixel.poptok.com^
 ||pixel.propublica.org^
 ||pixel.randi.adswizz.com
 ||pixel.reddit.com^
@@ -92521,6 +92548,7 @@ zzzyk.com###Tinfo
 ||sikelypleaste.site^
 ||sikqcwz.cn^
 ||sikr.chimeratool.com^
+||silagecircaea.com^
 ||silasagreement.com^
 ||silebu.xyz^
 ||silenitmanby.info^
@@ -96818,6 +96846,7 @@ zzzyk.com###Tinfo
 ||tightenmonuments.com^
 ||tighterstarringsinking.com^
 ||tightervarying.com^
+||tightpowder.com^
 ||tightsaturdayi.com^
 ||tiglesoshi.pro^
 ||tigtag.com/images/*1000x
@@ -98959,6 +98988,7 @@ zzzyk.com###Tinfo
 ||tzlit.cn^
 ||tzngisyi.xyz^
 ||tzsvodu.cn^
+||tzugumojfm.com^
 ||tzwaw.pw^
 ||u*.takru.com^
 ||u-ad.info^
@@ -99142,6 +99172,7 @@ zzzyk.com###Tinfo
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
 ||udookrou.com^
+||udpauawx.xyz^
 ||udpztkb.cn^
 ||udraokrou.com^
 ||udwgzninhil.com^
@@ -101513,6 +101544,7 @@ zzzyk.com###Tinfo
 ||weakcompromise.com^
 ||wealop.com^
 ||wealthyprovisionsclay.com^
+||weaped.com^
 ||weaponsort.club^
 ||weaquc.xyz^
 ||wearbasin.com^
@@ -102797,6 +102829,7 @@ zzzyk.com###Tinfo
 ||wvnuubmothth.com^
 ||wvrney.com^
 ||wvubjgl.cn^
+||wvwl.cn^
 ||wvzhj.com^
 ||ww2.imgadult.com^
 ||ww2.imgtaxi.com^
@@ -104396,6 +104429,7 @@ zzzyk.com###Tinfo
 ||youractualblog.com^
 ||youractualwords.com^
 ||youradexchange.com^
+||youradexchange.com^$third-party
 ||youramigo.com^
 ||yourbestappever.top^
 ||yourblocksite.com^
@@ -105305,6 +105339,7 @@ zzzyk.com###Tinfo
 ||zoavuwew.com^
 ||zoawufoy.net^
 ||zobesmu.cn^
+||zobsaims.com^
 ||zoda.ru^
 ||zodiakactive.com^
 ||zodvlr.xyz^
@@ -105360,6 +105395,7 @@ zzzyk.com###Tinfo
 ||zouloafi.net^
 ||zouneeto.net^
 ||zouqiuyyds.com^
+||zoushao.xyz^
 ||zoute.cyou^
 ||zoutubephaid.com^
 ||zouxinyan.xyz^
