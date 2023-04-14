@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6Qjkac4qQDpidFbgIkKuVw
+! Checksum: cBUXUJ6F4z2odJjJjRNCGQ
 ! Title: 混合规则(自动更新)
-! Version: 20230414131257
+! Version: 20230414131956
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-14 13:12:57
-! Total Count: 105680
+! Last modified: 2023-04-14 13:19:56
+! Total Count: 105630
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18047,7 +18047,6 @@
 ##a[href="極樂夜王"][target="_blank"]
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
-##a[href][rel="nofollow"][target="_blank"] > img[class][src]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
@@ -18475,7 +18474,6 @@
 ##div[id*="MarketGid"]
 ##div[id*="ScriptRoot"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
-##div[id*="qinav_"] > a > img[src]
 ##div[id="videoMask"]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -18628,7 +18626,6 @@
 ##img[src^="https://www.static04.top/data/images/"][src$=".gif"]
 ##img[style][alt][src*="/data/ds3/"][src$=".php"]
 ##img[style][alt][src*="/data/game/"][src$=".gif"]
-##img[style][src*=".ru/data/"][alt]
 ##img[width="320"][height="50"]
 ##ins.adsbygoogle
 ##li[class="dataic"] > a[href*="/?channelCode="][target]
@@ -20054,7 +20051,6 @@ $websocket,domain=5nj.com|cechi8.com
 .ro/ads/
 .rolloverad.
 .ru/ads/
-.ru/data/game/*/*.gif
 .ru^$third-party,script,domain=muzmob.org
 .se/ads/
 .sexplaycam.com^
@@ -28474,18 +28470,7 @@ $websocket,domain=5nj.com|cechi8.com
 3dnatives.com##a[data-bid][target="_blank"]
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,solidworksvideo.ru,wordvideo.ru###prozrachnyi2,#video_window2
 3dtube.xxx,milf.dk,nakedtube.com,pornmaki.com##.promotionbox
-3g.163.com##.floatMenu-logo
-3g.163.com##.js-area-aboveTieList.area-above
-3g.163.com##.js-area-topBanner.area-topBanne
-3g.163.com##.js-open-app
-3g.163.com##.js-open-app.backflow-floating
-3g.163.com##.js-open-app.main-openApp
-3g.163.com##.js-open-newsapp.widget-slider-article-simple
-3g.163.com##.js-recommend-wrap.recommend
-3g.163.com##.js-recommend.recommend
 3g.163.com##.ne_rps
-3g.163.com##.s-openApp
-3g.163.com##[src^="//ymjs.adutp.com/kjivriyd?"]
 3g.163.com,m.163.com##.floatMenu-logo
 3g.163.com,m.163.com##.js-area-aboveTieList.area-above
 3g.163.com,m.163.com##.js-area-topBanner.area-topBanne
@@ -28497,7 +28482,6 @@ $websocket,domain=5nj.com|cechi8.com
 3g.163.com,m.163.com##.js-recommend.recommend
 3g.163.com,m.163.com##.s-openApp
 3g.163.com,m.163.com##[src^="//ymjs.adutp.com/kjivriyd?"]
-3g.baidu.com,m.baidu.com,m5.baidu.com###header > div > div
 3g.baidu.com,m.baidu.com,m5.baidu.com##.blank-frame
 3g.baidu.com,m.baidu.com,m5.baidu.com##div[style="overflow: hidden;background: #fff;position: relative;"]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
@@ -29168,11 +29152,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://im.yfled888.com/*.jpg
 ://jhf.ru^
 ://kma.biz^
-://ln.*.cyou
 ://ln.*.cyou$third-party
-://ln.*.fun
 ://ln.*.fun$third-party
-://ln.*.mobi
 ://ln.*.mobi$third-party
 ://m.*.cn/*.xmtl?$third-party
 ://m.*.cn/*/*.js?ssid=_
@@ -29180,21 +29161,13 @@ $websocket,domain=5nj.com|cechi8.com
 ://m.*.pw/*/*.js?$third-party
 ://m.*.top/*.js?ssid=_
 ://mine.torrent.pw^
-://mobivx.*.cam
 ://mobivx.*.cam$third-party
-://mobivx.*.club
 ://mobivx.*.club$third-party
-://mobivx.*.cyou
 ://mobivx.*.cyou$third-party
-://mobivx.*.fun
 ://mobivx.*.fun$third-party
-://mobixc.*.cam
 ://mobixc.*.cam$third-party
-://mobixc.*.club
 ://mobixc.*.club$third-party
-://mobixc.*.cyou
 ://mobixc.*.cyou$third-party
-://mobixc.*.fun
 ://mobixc.*.fun$third-party
 ://o0e.ru^
 ://o0e.ru^$third-party
@@ -29214,13 +29187,9 @@ $websocket,domain=5nj.com|cechi8.com
 ://sportframe*.co^
 ://sportframe*.org^
 ://tru.am^
-://vlets.*.club
 ://vlets.*.club$third-party
-://vlets.*.cyou
 ://vlets.*.cyou$third-party
-://vlets.*.shop
 ://vlets.*.shop$third-party
-://vlets.*.xyz
 ://vlets.*.xyz$third-party
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://xingkong6688s.oss-
@@ -32559,7 +32528,6 @@ bcbay.com##table[id] + table[style="margin:3px auto;"]
 bcbay.com,creaders.net##.syzx
 bccn.net##div[style*="height:90"]
 bccn.net##img[src*="data:"]
-bccn.net,dmh8.me##img[src*="data:"]
 bcmagazine.net##img[style^="width:300px;"]
 bcquan.me##.bcqad
 bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##div[style^="background:#444;"]
@@ -34775,10 +34743,6 @@ dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530.net,hdshare.cn,it168.com###adv
 dm590.com##.external
-dmh8.me##.padding-0 > ul[style]
-dmh8.me##div[id^="test"]
-dmh8.me##div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
-dmh8.me##h1
 dmh8.me,dm88.me##.padding-0 > ul[style]
 dmh8.me,dm88.me##div[id^="test"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
@@ -40140,10 +40104,6 @@ missav.com,missav888.com,missav123.com##[class^="root--"]
 missav.com,missav888.com,missav123.com##[href*="//bit.ly/"]
 missav.com,missav888.com,missav123.com##div[class^="flex justify-center"]
 missav.com,missav888.com,missav123.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
-missav888.com,missav.com##.under_player
-missav888.com,missav.com##[class^="root--"]
-missav888.com,missav.com##div[class^="flex justify-center"]
-missav888.com,missav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 missingremote.com###top-bar
 missyuan.com##.spaceborder
 mitbbs.ca,mitbbs.com##.index_add
@@ -42503,7 +42463,6 @@ robloxhackscripts.com###custom_html-23
 rocket-league.com##.rlg-footer-ads-container
 rocket-league.com##.rlg-trading-ad
 rocket-league.com##.rlg-trading-spacer
-rockmods.net###ignielAdBlock
 rockmods.net#@#.adsbygoogle
 rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
@@ -43375,7 +43334,6 @@ spankbang.com###interstitial_div_v2
 spankbang.com###interstitial_div_v3
 spankbang.com##.live-rotate
 spankbang.com##.livecam-rotate
-spankbang.com##.lv_cm_int_no
 spankbang.com##.ptgncdn_holder
 spankbang.com##[class*="_ad"]
 spankbang.com##[class="thumb is_live"]
@@ -45136,13 +45094,8 @@ waipian17.com,waipian5.com,waipian13.com##.player-rm rm-two rm-list
 waipian17.com,waipian5.com,waipian13.com##[href^="https://at.umtrack.com"]
 waipian17.com,waipian5.com,waipian13.com##[src^="data:image/png;base64,"]
 waipian17.com,waipian5.com,waipian13.com##div[class^="shortcuts-"][class$="-overlay"]
-waipian5.com##.open.popup-icon.popup-tips.popup
-waipian5.com##.player-rm rm-two rm-list
 waipian5.com##.popup
 waipian5.com##.shortcuts-mobile-overlay
-waipian5.com##[href^="https://at.umtrack.com"]
-waipian5.com##[src^="data:image/png;base64,"]
-waipian5.com##body > .shortcuts-mobile-overlay
 waipian5.com#@#a[href*=".umtrack.com/"]
 wakingtimes.com###media_image-2
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
@@ -45818,9 +45771,6 @@ xhamster.com,xhamster2.com##.wio-xbanner
 xhamster18.desi##.xplayer-banner
 xhamster2.com##.wio-xspa
 xhd.cn##.xinad
-xhofficial.com,xhamster.com##[class*="video-view-ads"]
-xhofficial.com,xhamster.com##[class*="view-ads"]
-xhofficial.com,xhamster.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
