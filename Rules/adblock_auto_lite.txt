@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: agykvJch03Sa0mDtwyBN2Q
+! Checksum: bKNFJ3xfUasEtWsDS1IJJA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230415083324
+! Version: 20230415104300
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-15 08:33:24
-! Total Count: 18273
+! Last modified: 2023-04-15 10:43:00
+! Total Count: 18284
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1792,6 +1792,7 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
+##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div#ad_id
 ##div#xinxi
@@ -3927,6 +3928,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||08088.top^
 ||085cczz.com^
 ||0885.net^$third-party
+||08u6q.com^
 ||0941.org^
 ||096iokj.com^
 ||0f4l.xyz^
@@ -7043,6 +7045,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||blueduckredapple.com^
 ||blueidea.com/js/ajs.js
 ||blxezur.cn^
+||blxfqq.com^
 ||blz105.com/player/ad.html
 ||bm999999.com^$popup
 ||bmjs.xzw.com^
@@ -7775,6 +7778,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cntronics.com/adsupload/
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
+||cnucpaq.xyz^
 ||cnwnews.com/ad-nrtop/
 ||cnwnews.com/gg
 ||cnwnews.com/images/kgt
@@ -7960,6 +7964,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cvbdw.xyz^
 ||cvcddno.cn^
 ||cvemhco.cn^
+||cvmesi.xyz^
 ||cvsheil.com^
 ||cvshknd.cn^
 ||cw9twua9.shop^
@@ -13102,6 +13107,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||naiki.top^
 ||nalapop.com^
 ||nan-net.com/*/bbs/s/inc/$subdocument
+||naned.xyz^
 ||nanfengyl.com/static/js/zdad.js
 ||nanigans.com^
 ||nanlisgc.fun^
@@ -14626,6 +14632,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||route34.cn^
 ||rp5o.top^
 ||rpacnud.cn^
+||rpajqxo.cn^
 ||rppg.pro^
 ||rptjx.xyz^
 ||rpvdfb.xyz^
@@ -15712,6 +15719,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tffindmarket.live^
 ||tffytdo.cn^
 ||tfg2.com/images/upfile/AD/
+||tfonlyuse.shop^
 ||tfptlgrw.co^
 ||tfptlgrw.live^
 ||tfzozf.xyz^
@@ -16499,6 +16507,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||vivachina.co^
 ||vivud.com/iframe/MOBILE_TOP_PLAYER/
 ||vj1p.xyz^
+||vjhjxh.xyz^
 ||vjianshen1688.com^
 ||vjie.com^$third-party
 ||vjkmmog.cn^
@@ -16726,6 +16735,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||weddingeeos.com^$third-party
 ||weduoke.com^
 ||weekslw.com^
+||weeqmcq.cn^
 ||weeuqek.cn^
 ||wegowan.com^
 ||wei2008.com/js/*0.
@@ -17499,6 +17509,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yaseok.com/uploads/20*.gif
 ||yatemy.cn^
 ||yazhouse*.com/images/gg/$image
+||yb0a.xyz^
 ||ybayck.xyz^
 ||ybfljs.com^
 ||ybgo.xyz^
