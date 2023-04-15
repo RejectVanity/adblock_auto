@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: VBx0wjr9v7M4qPfP6hDiXQ
+! Checksum: qjQymdEoLNoq4X9qRK9H7g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230415160705
+! Version: 20230415194710
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-15 16:07:05
-! Total Count: 18291
+! Last modified: 2023-04-15 19:47:10
+! Total Count: 18297
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1264,10 +1264,12 @@
 ##[class^="bdads"]
 ##[class^="bfad"]
 ##[class^="col"][class*="padding-0"] > [style]
+##[class^="footer-ad"]
 ##[class^="naicon btn btn-raised"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
 ##[class^="stsxxgtv_"]
+##[class^="th-ad"]
 ##[class^="vertical_mobile_ad"]
 ##[class^="videoad"]
 ##[class^="xqad"]
@@ -3123,6 +3125,7 @@ ceesty.com,clkme.me,clkmein.com,cllkme.com,corneey.com,destyy.com,festyy.com,ges
 chahid4u.tk###unblocker
 che168.com##.talkprice.liaoliao.float-zixun
 chejiahao.m.autohome.com.cn##.pgc-details-recommend-list
+chinasex.com.es##[class^="footer-ad"]
 chipinfo.pro###content-container > div[style^="position: fixed;"]
 closermag.fr##div[id^="detection-block"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
@@ -5153,6 +5156,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||897263tqs.com^
 ||89h8.com^
 ||89qp98.com^
+||8b4v.cn^
 ||8b8r.icu^
 ||8bo.com/template/default/8bo/j/app.js
 ||8bobf.*/da.aspx
@@ -5472,6 +5476,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||aa9z.cn^
 ||aaa.tumanyi.com^
 ||aaaa8.top^
+||aaaaa288.com^
 ||aaaaa599.com^
 ||aaaaa663.com^
 ||aaaaa699.com^
@@ -10174,6 +10179,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hmgzhqe.cn^
 ||hmjeiak.cn^
 ||hmjiayi.com^
+||hmoe12.com/wp-content/uploads/202*.gif
 ||hmong-miaojiuyi.com^
 ||hmpubc.xyz^
 ||hmreuj.com^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: V/Pc+LfdCpZoJTYqM8KA9g
+! Checksum: INwpWIFdqaJnH3ANtqHHcQ
 ! Title: 混合规则(自动更新)
-! Version: 20230415160704
+! Version: 20230415194707
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-15 16:07:04
-! Total Count: 105746
+! Last modified: 2023-04-15 19:47:07
+! Total Count: 105765
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17466,11 +17466,13 @@
 ##[class^="bfad"]
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="div-gpt-ad"]
+##[class^="footer-ad"]
 ##[class^="naicon btn btn-raised"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
 ##[class^="s2nPlayer"]
 ##[class^="stsxxgtv_"]
+##[class^="th-ad"]
 ##[class^="tile-picker__CitrusBannerContainer-sc-"]
 ##[class^="vertical_mobile_ad"]
 ##[class^="videoad"]
@@ -24281,6 +24283,7 @@ $websocket,domain=5nj.com|cechi8.com
 /diantan.js
 /dibun5nodnbmp.js
 /dictionary/ads/*
+/didna_config.js
 /dif/?cid
 /dig_ad.
 /digest/ads.
@@ -28727,6 +28730,7 @@ $websocket,domain=5nj.com|cechi8.com
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,cupfox.app,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.net,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,cupfox.app,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.net,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 52pk.com###baidutop
 52pk.com###baidutop2
@@ -33576,6 +33580,7 @@ chinapdf.com###floatright
 chinaqking.com###cnt-ad
 chinaqking.com###newsAD
 chinaqking.com###readerServiceDIV
+chinasex.com.es##[class^="footer-ad"]
 chinasmartgrid.com.cn##.ht60ad
 chinatimes.com##.l_ad
 chinatimes.com##.tab_4_box
@@ -34390,6 +34395,7 @@ dailymail.co.uk##.puff_pastel
 dailymail.co.uk##.watermark
 dailymail.co.uk,namesecure.com#@#.adHolder
 dailymail.co.uk,thisismoney.co.uk##.billboard_wrapper
+dailymail.co.uk,thisismoney.co.uk##.connatix-wrapper
 dailymail.co.uk,thisismoney.co.uk##.watermark
 dailymotion.com##div[class^="AdBanner"]
 dailymotion.com##div[class^="DisplayAd"]
@@ -36692,6 +36698,7 @@ golfchannel.com##.gc-mps-ad
 golfdigest.com##.o-ArticleRecirc
 golfmagic.com##.sticky-container
 golfmagic.com,kbb.com##.sticky-container
+golfmagic.com,kbb.com,thisismoney.co.uk##.sticky-container
 golfweather.com##.ox300x250
 golfworkoutprogram.com##.lasso-container
 golinksworld.com###btn_download
@@ -40330,8 +40337,11 @@ mscbsc.com##.bao1
 mse.360.cn##a[id^="banner"]
 msguides.com###right-bottom-camp
 msn.cn##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
+msn.cn##.intra-article-ad-full
 msn.cn##.nativeadserversidecontentmodule
 msn.cn##.rc > a[href^="https://sp.booking.com/"]
+msn.cn##[class^="articlePage_eoabContent"]
+msn.cn##cs-native-ad-card
 msn.cn##div[class^="nativeAd-DS-card"]
 msn.com###displayAdCard
 msn.com###partners
@@ -41614,6 +41624,7 @@ playno1.com##.mn > div[style="margin-bottom:10px;"]
 playno1.com##.sd.pph
 playok.com###pread
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-right:5px;color:#FFF;  background-color:#666;font-family:Maven Pro,century gothic, arial, helvetica, sans serif;padding-top:94px;  height:600px;  padding-left:5px; font-size:18px; "]
+playpilot.com#?#.search-preview .side:-abp-has(> .provider)
 plays01.com##.adbox-bg
 playstationtrophies.org###vnt-lb-a
 playstationtrophies.org,xboxachievements.com###vnt-lb-a
@@ -42365,6 +42376,7 @@ redgifs.com##.placard-wrapper
 redgifs.com##a[href^="https://camsfinders.com/"]
 redgifs.com##div[class^="AdTabs_"]
 redgifs.com##div[class^="AdUnit_"]
+redgifs.com##div[style="width: 300px; height: 250px;"]
 rediff.com###world_right1
 rediff.com###world_top
 redircdn.com##.al
@@ -43142,6 +43154,7 @@ smsfi.com##.google_ad_home_page_100percent
 smutr.com##a[href^="https://smutr.com/?action=trace"]
 smutty.com##.bms_slider_div
 smutty.com##.tig_following_tags2
+smutty.com##iframe[scrolling="no"]
 smzdm.com###footer_layer
 smzdm.com##.J_index_wall
 smzdm.com##.banner-stuff
@@ -45466,6 +45479,9 @@ wikihow.com###contribute_footer
 wikihow.com##.al_method
 wikikeep.com##.widget-area
 wikiprocedure.com#?##mw-content-text > div:-abp-contains(/^Advertisement$/)
+wikiwand.com##.article_footerStickyAd__wvdui
+wikiwand.com##.article_sectionAd__rMyBc
+wikiwand.com##.content_headerAd__USjzd
 win007.com##a[href^="http://www.edewin.com/"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 win007.com##td[height="18"][bgcolor="#FFFFE8"]
@@ -49447,6 +49463,7 @@ zzzyk.com###Tinfo
 ||8a6549cded.com^
 ||8aaee039a0.com^
 ||8abf43d6ad.com^
+||8b4v.cn^
 ||8b8r.icu^
 ||8b96142da5.com^
 ||8b98b1a05a.com^
@@ -50016,6 +50033,7 @@ zzzyk.com###Tinfo
 ||aaa.tumanyi.com^
 ||aaa.vidox.net^
 ||aaaa8.top^
+||aaaaa288.com^
 ||aaaaa599.com^
 ||aaaaa663.com^
 ||aaaaa699.com^
@@ -72824,6 +72842,7 @@ zzzyk.com###Tinfo
 ||hmgzhqe.cn^
 ||hmjeiak.cn^
 ||hmjiayi.com^
+||hmoe12.com/wp-content/uploads/202*.gif
 ||hmong-miaojiuyi.com^
 ||hmongcash.com^
 ||hmpubc.xyz^
