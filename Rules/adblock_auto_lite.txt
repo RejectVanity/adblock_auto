@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BBFAe/DU6GKUW/aRRY51nQ
+! Checksum: RzTpWNB5KgeR3iJABKmE3A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230416160716
+! Version: 20230416211938
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-16 16:07:16
+! Last modified: 2023-04-16 21:19:38
 ! Total Count: 18307
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -1241,7 +1241,6 @@
 ##[class*="skip-ad"]
 ##[class*="slick-"][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"]
 ##[class*="synopsisAd ReadAd ReadAd2"]
-##[class*="th-ad"]
 ##[class*="video-view-ads"]
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
@@ -1447,6 +1446,7 @@
 ##a[href*=".nfylife.com/"]
 ##a[href*=".nktxv.com/"]
 ##a[href*=".ohakaguide.com/"]
+##a[href*=".oidmwq2v.cn"]
 ##a[href*=".onazs.com/"]
 ##a[href*=".open0317.top/"]
 ##a[href*=".picoville.com/"]
@@ -7805,6 +7805,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||coandroid.ru/uploads/mobcoin.png
 ||cocomanga.com/sw.js
 ||cod.southmoney.com^
+||code.bizdirlib.com^
 ||code.ditiezu.net^
 ||code.piano.io/api/tinypass.min.js$domain=delfi.lv
 ||codeceo.com/images/*/boxuegu
@@ -16046,7 +16047,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tuotianxia.top^
 ||tupian55.com^*.gif
 ||tupo.link^
-||turbo.adsbynimbus.com^
 ||turn.com^
 ||turner.com/xslo/cvp/ads/$domain=cnn.com
 ||tutudao.net/js/gg*.js
