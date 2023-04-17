@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: U3envPEjcySHBHw1cc9tnA
+! Checksum: D5kjB+WM8OB5JeA3hhTXiQ
 ! Title: 混合规则(自动更新)
-! Version: 20230417083134
+! Version: 20230417085423
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-17 08:31:34
-! Total Count: 106024
+! Last modified: 2023-04-17 08:54:23
+! Total Count: 106049
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -46019,7 +46019,11 @@ xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
 xunyingwang.com###adModalLabel
 xvideo.cc##+js(set-constant, poped, true)
+xvideos.com##[class$="-ad"]
+xvideos.com##[class$="-ads"]
 xvideos.com##[id*="ad-"]
+xvideos.com##[id^="ad-"]
+xvideos.com##[id^="ads-"]
 xvideos.com,xvideos.es##.player-video.xv-cams-block
 xvna.com##.articleAD
 xvna.com##.rctad
@@ -52146,6 +52150,7 @@ zzzyk.com###Tinfo
 ||adstats.tencentmusic.com^
 ||adsterra.com^
 ||adsterra.org^
+||adstico.io^
 ||adstime.org^
 ||adstk.io^
 ||adstock.pro^
@@ -56101,6 +56106,7 @@ zzzyk.com###Tinfo
 ||ax21pics.org^
 ||axcdt.cn^
 ||axcdy.cn^
+||axcmaxacghp.com^
 ||axeldivision.com^
 ||axelsermit.com^
 ||axepqoutxsmsm.xyz^
@@ -57694,6 +57700,7 @@ zzzyk.com###Tinfo
 ||bewilderedbattle.com^
 ||bewilderedblade.com^
 ||bewsejqcbm.com^
+||bexxhlatjhmyei.xyz^
 ||bexxtnnhyjrww.xyz^
 ||beyanmaan.com^
 ||beyedortostr.info^
@@ -59884,6 +59891,7 @@ zzzyk.com###Tinfo
 ||ccgateway.net^
 ||ccgjmzv.cn^
 ||ccieoqej.xyz^
+||ccijsamwqurnde.com^
 ||ccio6rope.cyou^
 ||ccjrapjmxq.com^
 ||ccjudian.com^
@@ -60303,6 +60311,7 @@ zzzyk.com###Tinfo
 ||cgdjy.top^
 ||cgdxxbtffpysqm.com^
 ||cgeckmydirect.biz^
+||cgecuyoo.com^
 ||cgfdjz.net/xia.js
 ||cggf.xyz^
 ||cgiale.com^
@@ -60918,6 +60927,7 @@ zzzyk.com###Tinfo
 ||ckwbsidfgf.xyz^
 ||ckwlurries.com^
 ||ckxxbao.com/templets/default/js/wx.js
+||ckyjapugk.com^
 ||cl*.k5a.io^
 ||cl-ad.x-flow.app^
 ||cl.canva.com^
@@ -69389,6 +69399,7 @@ zzzyk.com###Tinfo
 ||forgottedvere.xyz^
 ||forjoiyvid.online^
 ||forjoiyvid.site^
+||forjoiyvid.space^
 ||forjoiyvids.online^
 ||fork.ink^
 ||forkcdn.com^
@@ -70860,6 +70871,7 @@ zzzyk.com###Tinfo
 ||glattepush.com^
 ||glaubuph.com^
 ||glaughoa.xyz^
+||glaunsil.xyz^
 ||glaurtas.com^
 ||glauvoob.com^
 ||glaxaukr.net^
@@ -73651,6 +73663,7 @@ zzzyk.com###Tinfo
 ||hxbt.alading123.com^
 ||hxcrlt.cn^
 ||hxdqsvw.cn^
+||hxfjbdgjscufctm.xyz^
 ||hxguqogewaicf42s.in.net^
 ||hxiak.com^
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
@@ -76308,6 +76321,7 @@ zzzyk.com###Tinfo
 ||jqdldk.cn^
 ||jqdnvg.com^
 ||jqk2me2mzf.ru^
+||jqlumzbdtet.com^
 ||jqnggnsa.fun^
 ||jqsex.com^
 ||jqtree.com^
@@ -77090,6 +77104,7 @@ zzzyk.com###Tinfo
 ||khgj.cn^$third-party
 ||khilane.ru^
 ||khment.com^
+||khoslo.com^
 ||khoteris.ru^
 ||khrtac.xiangha.com^
 ||khufaw2.com^
@@ -83688,6 +83703,7 @@ zzzyk.com###Tinfo
 ||nplxa.com^
 ||npmeingm7.shop^
 ||nposition.club^
+||npqmaekkg.com^
 ||npracticalwhic.buzz^
 ||nprove.com^
 ||npttech.com/advertising.js|$important,script,redirect=fuckadblock.js-3.2.0
@@ -88140,6 +88156,7 @@ zzzyk.com###Tinfo
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
 ||publisher-network.com^
 ||publisheradnetwork.com^
+||publisherads.click^
 ||publishercounting.com^
 ||publishflow.com^
 ||publited.com^
@@ -88927,6 +88944,7 @@ zzzyk.com###Tinfo
 ||qpgyy.com/add01.html
 ||qpic.cn/qq_public/$domain=m.nfydd.com
 ||qpic.cn/qqgameedu/0/cfc175896f5b4d6a9ff115b3096dcebe_
+||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
 ||qponfva.cn^
@@ -89162,6 +89180,8 @@ zzzyk.com###Tinfo
 ||qunar.com/vataframe/b.html?
 ||qunaw.cyou^
 ||qunlove.com^*.gif
+||quodartily.com^
+||quoisy.com^
 ||quokkacheeks.com^
 ||quotecosmopolitandetached.com^
 ||quotes.com^
@@ -96331,6 +96351,7 @@ zzzyk.com###Tinfo
 ||taulajobarbe.com^
 ||taumeln.com^
 ||taurinkimonos.uno^
+||tautqnuxgjraavl.com^
 ||tauvoojo.net^
 ||tauwoumo.net^
 ||tawdryson.com^
@@ -99708,6 +99729,7 @@ zzzyk.com###Tinfo
 ||uncinalmystes.com^
 ||uncipi.com^
 ||uncn.jp^
+||uncommonmaintainhurt.com^
 ||unconditionally.wang^
 ||uncooleserine.cam^
 ||uncoreswizzle.com^
@@ -100999,6 +101021,7 @@ zzzyk.com###Tinfo
 ||viokan.xvhod.ru^
 ||violates.wang^
 ||violationphysics.com^
+||violencemathstowards.com^
 ||violentanimal.pro^
 ||violetlovelines.com^
 ||violondeaf.guru^
@@ -102359,6 +102382,7 @@ zzzyk.com###Tinfo
 ||whnews.cn/wh_public/xuxu/
 ||whnoxcmxgbqrq.xyz^
 ||whoachoh.com^
+||whoalsos.com^
 ||whoapsoo.com^
 ||whoaremyfriends.com^
 ||whoaremyfriends.net^
@@ -105264,6 +105288,7 @@ zzzyk.com###Tinfo
 ||zcoptry.com^
 ||zcp.zwame.pt^
 ||zcrui.com^
+||zcsnjbjlwn.com^
 ||zczcvx.com^
 ||zd518.cn/bfq2.html
 ||zdabnt.*$third-party
