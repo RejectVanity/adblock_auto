@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: oRJOlCxfTOUSn3Gg1StN7A
+! Checksum: zQTLrcTu1nT5Sgjq+bjjOA
 ! Title: 混合规则(自动更新)
-! Version: 20230417160841
+! Version: 20230418000729
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-17 16:08:41
-! Total Count: 106059
+! Last modified: 2023-04-18 00:07:29
+! Total Count: 106073
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4226,6 +4226,7 @@
 ###playerAd
 ###playerAdsRight
 ###playerAdvLayer
+###playerContainer > .nav-ads
 ###playerJsvLayer.jsv-layer
 ###player_ad
 ###player_ads
@@ -27621,6 +27622,7 @@ $websocket,domain=5nj.com|cechi8.com
 10.0.0.211###toolbar
 10.10.34.*
 10.10.5.12#@#.banner_ad
+1001games.com,alistapart.com,arcadebomb.com,armageddonexpo.com,bikechatforums.com,birminghamworld.uk,bristolworld.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,derbyshiretimes.co.uk,doncasterfreepress.co.uk,elyricsworld.com,euobserver.com,eurochannel.com,fifetoday.co.uk,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gartic.io,garticphone.com,glasgowworld.com,gr8.cc,gsprating.com,hartlepoolmail.co.uk,hortidaily.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,israelnationalnews.com,japantimes.co.jp,jpost.com,kissasians.org,lincolnshireworld.com,liverpoolworld.uk,livescore.in,londonworld.com,manchesterworld.uk,marinelink.com,mercopress.com,miltonkeynes.co.uk,mmorpg.com,mob.org,myfreemp3.to,newcastleworld.com,news.am,news.net,northamptonchron.co.uk,northantstelegraph.co.uk,northumberlandgazette.co.uk,oncyprus.com,onlineconvertfree.com,pharmatimes.com,portsmouth.co.uk,powerboat.world,reversephonesearch.com.au,roblox.com,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,swzz.xyz,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,warwickshireworld.com,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com,yorkshirepost.co.uk##.banner
 1001games.com,alistapart.com,arcadebomb.com,armageddonexpo.com,bikechatforums.com,birminghamworld.uk,bristolworld.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,derbyshiretimes.co.uk,doncasterfreepress.co.uk,elyricsworld.com,euobserver.com,eurochannel.com,fifetoday.co.uk,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gartic.io,garticphone.com,glasgowworld.com,gr8.cc,gsprating.com,hartlepoolmail.co.uk,hortidaily.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,israelnationalnews.com,japantimes.co.jp,jpost.com,kissasians.org,lincolnshireworld.com,liverpoolworld.uk,livescore.in,londonworld.com,manchesterworld.uk,marinelink.com,mercopress.com,miltonkeynes.co.uk,mmorpg.com,mob.org,newcastleworld.com,news.am,news.net,northamptonchron.co.uk,northantstelegraph.co.uk,northumberlandgazette.co.uk,oncyprus.com,onlineconvertfree.com,pharmatimes.com,portsmouth.co.uk,powerboat.world,reversephonesearch.com.au,roblox.com,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,swzz.xyz,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,warwickshireworld.com,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com,yorkshirepost.co.uk##.banner
 1001tracklists.com#?#a[onclick^='gaLnkTr']
 1001tracklists.com,himovies.to,home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
@@ -32729,6 +32731,8 @@ bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
+bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.ex-card-common:-abp-has(.gg-icon) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:-abp-has(.bypb-icon) { remove: true; }
@@ -32736,6 +32740,8 @@ bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
+bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
+bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
@@ -49352,6 +49358,7 @@ zzzyk.com###Tinfo
 ||7xdown.com/idcgg/
 ||7xi9g1.com1.z0.glb.clouddn.com^
 ||7xsf3h.com1.z0.glb.clouddn.com^
+||7xwx.cn^
 ||8*.tianya.cn^
 ||80055404.vtt^
 ||800c7864eb.com^
@@ -50602,6 +50609,7 @@ zzzyk.com###Tinfo
 ||ad-hatena.com^
 ||ad-img.diyidan.net^
 ||ad-indicator.com^
+||ad-log-upload-os.hoyoverse.com^
 ||ad-log.wemakeprice.com^
 ||ad-loupe.com^
 ||ad-m.asia^
@@ -57753,6 +57761,7 @@ zzzyk.com###Tinfo
 ||bgkecb.com^
 ||bgkrbh.com^
 ||bglbsb.cn^
+||bgn.gg^
 ||bgnlaigv.fun^
 ||bgpng.me^
 ||bgrndi.com
@@ -72623,6 +72632,7 @@ zzzyk.com###Tinfo
 ||hepburn.net.cn^
 ||hephedronwa.ru^
 ||heprisitho.ru^
+||hepsaign.com^
 ||heptaneleaner.com^
 ||heqinyyds.com^
 ||heqishengcai1006.xyz^
@@ -78449,6 +78459,7 @@ zzzyk.com###Tinfo
 ||lg.lotus.vn^
 ||lgad.cjpowercast.com.edgesuite.net^
 ||lgbxelnukhsil.xyz^
+||lgfiufyaycsh.com^
 ||lgh2.fun^
 ||lgjxw.xyz^
 ||lgjygg.com^
@@ -90918,6 +90929,7 @@ zzzyk.com###Tinfo
 ||rsnignsz.xyz^
 ||rsnoownmz.fun^
 ||rsntcgoowyxsu.com^
+||rsodmwkxkioj.xyz^
 ||rss-loader.com/interres/$subdocument,third-party
 ||rss9f.top^
 ||rssbank.ir^
@@ -92247,6 +92259,7 @@ zzzyk.com###Tinfo
 ||seriousfiles.com^
 ||seriouspartner.biz^
 ||seriouspartner.ru^
+||serioussuit.com^
 ||seriy2sviter11o9.com^
 ||serl.mooo.com^
 ||sermondirt.com^
@@ -93184,6 +93197,7 @@ zzzyk.com###Tinfo
 ||skmtyaw.cn^
 ||sknkwpvrkz.com^
 ||skoovyads.com^
+||skt-asum.com^
 ||skukfaokdm.com^
 ||skwstat.ru^
 ||sky.dunsuan.com^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8DAK5vB17tAnBquDr6NCBQ
+! Checksum: nUsqNHrNvo2aCv9xSEyBew
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230417160843
+! Version: 20230418000731
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-17 16:08:43
-! Total Count: 18325
+! Last modified: 2023-04-18 00:07:31
+! Total Count: 18328
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -381,6 +381,7 @@
 ###player-bottom-ads
 ###playerAd
 ###playerAdvLayer
+###playerContainer > .nav-ads
 ###playerJsvLayer.jsv-layer
 ###player_ad
 ###player_banner[style*="fixed;"]
@@ -5072,6 +5073,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||7xdown.com/idcgg/
 ||7xi9g1.com1.z0.glb.clouddn.com^
 ||7xsf3h.com1.z0.glb.clouddn.com^
+||7xwx.cn^
 ||8*.tianya.cn^
 ||801.tianyaui.com^
 ||80538w2f.cn^
@@ -15191,6 +15193,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||skiyvwu.cn^
 ||skluff.com^$third-party
 ||skmtyaw.cn^
+||skt-asum.com^
 ||sky.dunsuan.com^
 ||skyrock.net/img/*/adblock/
 ||skzlz.cn^
