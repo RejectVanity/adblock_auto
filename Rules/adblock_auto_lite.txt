@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8cII/kfLNk++RMC6AhwriQ
+! Checksum: TZIa2lZr6B9whriynpKNkQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230417085424
+! Version: 20230417090850
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-17 08:54:24
-! Total Count: 18321
+! Last modified: 2023-04-17 09:08:50
+! Total Count: 18320
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1302,7 +1302,7 @@
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
-##[style^="display: inline-block;margin:"] > a[target="_blank"][href][title]
+##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
@@ -3812,7 +3812,6 @@ xnxx.com##[class*="ad-"]
 xnxx.com##[id^="ad-"]
 xvideos.com##[class$="-ad"]
 xvideos.com##[class$="-ads"]
-xvideos.com##[id*="ad-"]
 xvideos.com##[id^="ad-"]
 xvideos.com##[id^="ads-"]
 xxdm.in##.bottom_fixed
