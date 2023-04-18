@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: XjT31cB1/DgfuJUsKrX+uw
+! Checksum: dbWKnwc+RJR5nAD9bsOI5Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230418083009
+! Version: 20230418130241
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-18 08:30:09
-! Total Count: 18333
+! Last modified: 2023-04-18 13:02:41
+! Total Count: 18336
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -230,6 +230,7 @@
 ###detection-block
 ###detection-block-overlay
 ###dgf_pc
+###diads
 ###dom_adblock
 ###downdiv > .downcode
 ###doyoo_mon_mask
@@ -2605,7 +2606,7 @@
 .xyz/vue?$third-party
 .xyz/xling_*_*.js?
 .zone/ads/
-/*_1_/bigREDdog.$third-party
+/*_*_/bigREDdog.$third-party
 /300x250.$image,domain=~manwa.me|~manwa.site|~manwa1.site|~manwa3.site|~manwa2.site|~manwa1.me|~manwa2.me|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa.fun|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip
 /?channelCode=bfy
 /AdblockMessage.
@@ -7177,6 +7178,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||btc.com/v1/poster/production/explorer-banner.
 ||btc440.top^
 ||btcfans.com/template/comiis_lssy/ad/
+||btds.zog.link^$third-party
 ||btdx8.com/tmp/
 ||btkat.com/style/l.js
 ||btmao.cc/Public/yd/
@@ -7360,6 +7362,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cbdm.weathercn.com^
 ||cbfw.cn/gonggong/chibi/cf_
 ||cbgyhe.cn^
+||cbhwekr.cn^
 ||cbjs.baidu.com^
 ||cbjs.ciwei.in^
 ||cc.8181zx.com^
@@ -10151,6 +10154,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||highperformancedisplayformat.com^
 ||hiibcfr.cn^
 ||hikari.website^
+||himeneko.ink^
 ||hinet.net/product/promotion/$popup
 ||hinet.net/radio/getAdcode.do
 ||hioek.cyou^
@@ -10986,6 +10990,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||iu9g.top^
 ||iuerxw.xyz^
 ||iugbjkqwc.xyz^
+||iughyy7919.com^
 ||iuliglsh.space^
 ||iumnxwvh.ink^
 ||iuou.myadobe.cn^
@@ -12885,6 +12890,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||moe123.net/static/img/1200x200_
 ||moedao.com/js/top.js
 ||moegirl.org.cn/insight/MoegirlInsight.
+||moend.xyz^
 ||moerats.com/usr/affpc/
 ||moes3quba.cyou^
 ||mofox.com^
@@ -13883,6 +13889,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pjtime.com/js/show_ad
 ||pk331.cn^
 ||pkeog.cn^
+||pki.net.cn/public/*/plugins/
+||pki.net.cn/public/1/assets/js/custom/tt.
 ||pkk1.zuimeiniwo.com^
 ||pkkylyx.xyz^
 ||pkvs.com/public/300/
@@ -14602,11 +14610,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
-||rijutv.*/statics/alljs/rijutvapp.
-||rijutv.*/statics/alljs/rijutvpc.js
-||rijutv.*/statics/js/tb.js
-||rijutv.*/statics/skin/hjtv-wap/js/plus.js
-||rijutv.*/uploadfile/8c96dc2f564c1b56.png
 ||rikqo.cc^
 ||rinc.ink^
 ||rinn.love^
@@ -14704,6 +14707,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rtb.nexage.com^
 ||rtb.platform.glispa.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
+||rtbrennab.com^$third-party
 ||rtcegcp.cn^
 ||rtdxqq.com^
 ||rthmnj.xyz^
@@ -15901,8 +15905,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tlsynmli.fun^
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
-||tlxxw.cc/public/*/plugins/
-||tlxxw.cc/public/1/assets/js/custom/tt.
 ||tm1.hoiplay.com^
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
@@ -17370,6 +17372,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xn--xhq9mt12cf5v.xn--io0a7i^$third-party
 ||xne1ocient87zxz.360doc.cn^
 ||xng02.com/api.php?mod=ad&
+||xni.ink^
 ||xniexnz.cn^
 ||xnklgas.cn/common/getBannerList
 ||xnnews.com.cn/adgl/
