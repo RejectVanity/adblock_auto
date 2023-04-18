@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SyAikn2WUgdu8hPwk2Y4Cg
+! Checksum: bDFaFyqYKyasKhA2oKGmHg
 ! Title: 混合规则(自动更新)
-! Version: 20230418164754
+! Version: 20230419000636
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-18 16:47:54
-! Total Count: 106159
+! Last modified: 2023-04-19 00:06:36
+! Total Count: 106183
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19817,8 +19817,10 @@ $websocket,domain=5nj.com|cechi8.com
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
 .com/vh1/1$third-party
+.com/vh2/$script,third-party
 .com/vj1/$script,third-party
 .com/vj1/1$third-party
+.com/vj2/$script,third-party
 .com/vodad.js
 .com/vs.php?id=$script,third-party
 .com/zz/*2.txt$xmlhttprequest
@@ -30240,6 +30242,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4spaces.org|aboluowang.com|chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -32041,6 +32044,8 @@ audiokarma.org##.message > center b
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
 audioreview.com###bottom-leaderboard
+audiotag.info###dclaim
+audiotag.info##.dialog-fog
 audioz.download###PromoHead
 audioz.download##[src*="/promo/"]
 audizine.com##.AdvallyTag
@@ -36107,6 +36112,7 @@ freelogovectors.net##div[class^="popup"]
 freemovies.tv##.publis-bottom
 freemovies.tv,pornjam.com##.publis-bottom
 freenet.de#@#.frn_contAdHead
+freeones.com##.banner-placeholder
 freeones.com##.js-track-event
 freeonlineapps.net##.sp
 freepik.com###adobe-pagination-mkt-copy
@@ -40388,6 +40394,7 @@ msn.com##.serversidenativead.secondary
 msn.com##.windowsBannerAdContainer-DS-EntryPoint1-1
 msn.com##[class^="articlePage_eoabContent"]
 msn.com##[class^="nativeAd"]
+msn.com##[data-m*="Infopane_CMSBasicCardstore_article"]
 msn.com##[id^="native_ad_"]
 msn.com##a.nativead[target="_blank"]
 msn.com##a[aria-label="AliExpress"]
@@ -40413,6 +40420,9 @@ msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##div[data--adqjyluqt]
 msn.com##div[data-section-id="sponsored.stripe.shopping"]
+msn.com##li[data-m*="NativeAdItem"] > a > *
+msn.com##li[data-provider="gemini"]
+msn.com##li[data-provider="outbrain"]
 msn.com##msft-content-card[data-t*="NativeAd"]
 msn.com##msft-content-card[href^="https://api.taboola.com/"]
 msn.com##msft-content-card[id^="contentcard_nativead-"]
@@ -41016,6 +41026,8 @@ notes.io##.directMessageBanner
 novinite.com##.banner300x250
 novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
+novipnoad.com##img[src*="/bd/"] + span
+novipnoad.com#?#.video-item:-abp-has(img[src*="/bd/"])
 novostroy-m.ru###advert_result
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
@@ -43424,6 +43436,7 @@ spankbang.com##[class*="_ad"]
 spankbang.com##[class="thumb is_live"]
 spankbang.com##[class^="lv_cm_int_"]
 spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
+spankbang.com##a[href^="https://www.iyalc.com/"]
 spankbang.com##div[class*="top"] > img[src][class*="cls"]
 spankingtube.com##.well3
 spbo1.com##td[width="100%"][height="18"][bgcolor="#ffffff"][align="center"][colspan="13"]
@@ -59971,6 +59984,7 @@ zzzyk.com###Tinfo
 ||cddgouukdoaxdng.com^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
 ||cdend.com^
+||cdfda.xyz^
 ||cdfgdafijhcbjejeabf.ru^
 ||cdgfa.ifeng.com^
 ||cdgtw3.guapaijia.com^
@@ -61628,6 +61642,7 @@ zzzyk.com###Tinfo
 ||code.kinofactor.ru^
 ||code.lockbot.net^
 ||code.piano.io/api/tinypass.min.js$domain=delfi.lv
+||code.usergram.info^
 ||code.vh45130.eurodir.ru^
 ||code668.com^
 ||codeceo.com/images/*/boxuegu
@@ -66632,6 +66647,7 @@ zzzyk.com###Tinfo
 ||eagletskoku.com^
 ||eaglic.com^
 ||eaglid.com^
+||ealdi.xyz^
 ||ealeo.com^
 ||eallywasnothy.com^
 ||ealooov.cn^
@@ -69029,6 +69045,7 @@ zzzyk.com###Tinfo
 ||findicaterperty.site^
 ||findingexchange.com^
 ||findlnk.com^
+||findnam.xyz^
 ||findnewline.com^
 ||findswiftresults.com^
 ||finedergotic.com^
@@ -70675,6 +70692,7 @@ zzzyk.com###Tinfo
 ||gfdrkskillso.xyz^
 ||gfghr.com^
 ||gfjhgfjfebhccgafaed.ru^
+||gfkhapiuxjkspbq.xyz^
 ||gflcsiot.com^
 ||gfn1.ugap.fr^
 ||gfnormal00aa.com^
@@ -70975,6 +70993,7 @@ zzzyk.com###Tinfo
 ||gllmh.com/style/js/gd
 ||gllmh.com/style/js/gll
 ||glo-glo-oom.com^
+||gloagaus.xyz^
 ||gloalrie.com^
 ||gloamucm.xyz^
 ||gloansad.com^
@@ -77853,6 +77872,7 @@ zzzyk.com###Tinfo
 ||l.fairblocker.com^
 ||l.ffsagami.com^
 ||l.ffx.io^
+||l.francetvinfo.fr^
 ||l.hamazo.tv^
 ||l.ikora.tv^
 ||l.junglekouen.com^
@@ -87139,6 +87159,7 @@ zzzyk.com###Tinfo
 ||pointomatic.com^
 ||pointroll.com^
 ||points2shop.com^
+||poiqwnekb.com^
 ||poisedpig.com^
 ||poisism.com^
 ||poisonencouragement.com^
@@ -87325,6 +87346,7 @@ zzzyk.com###Tinfo
 ||poqjnkdsou.net^
 ||poqoiwn.com^
 ||poqup.com^
+||poqwnllkm.com^
 ||porcelainfurtherties.com^
 ||poredii.com^
 ||porepoise.com^
@@ -89030,6 +89052,7 @@ zzzyk.com###Tinfo
 ||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
+||qpoiwnelc.com^
 ||qponfva.cn^
 ||qprskl.com^
 ||qptnew.com^
@@ -97949,6 +97972,7 @@ zzzyk.com###Tinfo
 ||tr.snapchat.com^
 ||tr.suedkurier.de^
 ||tr.topdevvn.com^
+||tr.usergram.info^
 ||tr.vitals.co^
 ||tr.www.cloudflare.com^
 ||tr1.admeira.ch^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: djo/r6bgC3DBn93m2MlWUQ
+! Checksum: 7KOjrjBkex0r0KuiysprWA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230418164756
+! Version: 20230419000638
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-18 16:47:56
-! Total Count: 18338
+! Last modified: 2023-04-19 00:06:38
+! Total Count: 18347
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2947,6 +2947,7 @@
 @@||manwa.*/static/custom/files/300X250.gif
 @@||nouvelle-fiat500.fr/ad-pub.js$script
 @@||numerama.com/ads.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
 @@||pagerank.fr/js*/advert.js?$script
 @@||peimg.fr/js/ads.js$script,domain=pubeco.fr
 @@||penducado.com/styles/ads.css
@@ -3021,6 +3022,8 @@ aratta-ukraine.com,drawnstories.ru,gisclub.tv,kinda.media,teremok.org.ua,webos-f
 artfile.me###jadb
 asn.in.ua,beadeath.dclans.ru###mdl_ctnr
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
+audiotag.info###dclaim
+audiotag.info##.dialog-fog
 auto62rus.ru,eset-key.ru,mycrib.ru,piggy-bank.online,politonline.ru,showmehow.ru##[data-type="anti-abp"]
 autohome.com.cn###float_bottom_button
 autohome.com.cn###float_new_button
@@ -7407,6 +7410,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cdcc3.com^
 ||cdcd.ink^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
+||cdfda.xyz^
 ||cdgfa.ifeng.com^
 ||cdgtw3.guapaijia.com^
 ||cdhhbyy.cn^
@@ -8689,6 +8693,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||e8jp9.com^
 ||e9377f.com^$redirect=noop-0.1s.mp3,domain=eastday.com,media
 ||ea0jlu8jie.cn^
+||ealdi.xyz^
 ||ealooov.cn^
 ||eamobile.com/gameasset/direct/draper/*/ads/
 ||eap.big5.enorth.com.cn^
@@ -9146,6 +9151,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||files.jb51.net/image/
 ||files.zmzjstu.com/g3^
 ||fillidutt.tw^
+||findnam.xyz^
 ||fioem.cyou^
 ||fionamignon.com^
 ||firebaseio.com/promo_view.json
@@ -13934,6 +13940,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||poh.uoydhco.cn^
 ||poiful.com/sdk/vrizeadsdk.
 ||pointlesshour.com^$third-party
+||poiqwnekb.com^
 ||pojihfnkbllg.net^
 ||pojjtt.xyz^
 ||poke88.com^
@@ -13954,6 +13961,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||popunderstar.com^$important,third-party
 ||poqjnkdsou.net^
 ||poqoiwn.com^
+||poqwnllkm.com^
 ||porjjhu.cn^
 ||porlsbll.cyou^
 ||porn5f.com/nb/*.php?
@@ -14341,6 +14349,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
+||qpoiwnelc.com^
 ||qponfva.cn^
 ||qptnew.com^
 ||qq.com/Index/getAdsAndHotspot
