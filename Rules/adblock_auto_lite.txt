@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BcDTcLF5E7cFzHoVNEMGFA
+! Checksum: djo/r6bgC3DBn93m2MlWUQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230418160830
+! Version: 20230418164756
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-18 16:08:30
-! Total Count: 18337
+! Last modified: 2023-04-18 16:47:56
+! Total Count: 18338
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3388,6 +3388,7 @@ m.thepaper.cn##.index_footer_banner__Mcr_R
 m.thepaper.cn##[class*="index_details_ad"]
 m.wannianli8.com##.cesuankuang
 m.wannianli8.com##.csbox
+m.ximalaya.com##a[class*="schema-link"][to^="iting://open"]
 m.youdao.com##.banner-item
 m.youdao.com##.top-download
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
