@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: dIXMP9H9EViQ5s0yf2m7iA
+! Checksum: i8Dc4vvW8Y67nc7V4sAlVw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230419160834
+! Version: 20230419185155
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-19 16:08:34
-! Total Count: 18357
+! Last modified: 2023-04-19 18:51:55
+! Total Count: 18364
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2774,6 +2774,7 @@
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
 7mmtv.sx##[class^="root--"]
 7sim.net##html > body ~ div
+://*.zd*.fyi/*x*x*x*x*=$third-party
 ://*.zd*.live/*x*x*x*x*=$third-party
 ://*.zd*.xyz/*x*x*x*x*=$third-party
 ://*:*/chunyu.html?k=$csp=script-src
@@ -2857,7 +2858,7 @@
 :9001/code/
 :99/js/ads/
 =AdCode_$script,third-party
-=AdCode_sjdb$script,third-party
+=AdCode_sjdb$third-party
 =Ad_ZPlusGoods&
 =BAIDU_SSP_define&
 =SOGOU_WAP_SETJSONADSLOT&
@@ -4269,6 +4270,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||18comic.*/static/resources/images/JGG/
 ||18comic.*/templates/frontend/airav/js/*1_2df4.js
 ||18comic.vip/templates/frontend/airav/js/92_81c7.js
+||18so.vip^
 ||1909.me/upload/ad/
 ||192.151.218.66^$third-party
 ||19216811.la/net/advert
@@ -8962,6 +8964,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||events-*.op.hicloud.com^
 ||everestop.io^
 ||everyonepiano.cn/Public/*0x
+||evmnlpv.cn^
 ||evunmc.xyz^
 ||ew740.cn^
 ||ewadakesw.cyou^
@@ -9277,6 +9280,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fsdnp.cyou^
 ||fsgsfaf6.com^
 ||fspjjp.xyz^
+||fssxyiq.cn^
 ||ft.com/a.html
 ||ft8e.top^
 ||ftanya.ltd^
@@ -12341,6 +12345,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lu228.com/ajs/
 ||lubao-food.mobi^
 ||lucasyyy.ltd^
+||luckydino.ren^
 ||luckyforworlds.com^
 ||lunhua5.com/images/more.gif
 ||lunivr.xyz^
@@ -13833,6 +13838,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pianbar.net/JS/hottj.js
 ||pianjicdn.com^*.php
 ||pianyuan.org/zfb.
+||piaochong.co^
 ||piaodown.com/xtm/
 ||piaohua.com/js/yzz/$script
 ||piaoliang.com/js/all.js
@@ -13886,6 +13892,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
 ||pites.cc/js/top.php
+||pithjpf.cn^
 ||pitudashen.top^
 ||pivlzt.xyz^
 ||pixabay.com/static/img/publisher/*_ad_
@@ -14322,7 +14329,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qlogo.cn^$domain=250dgj.ga
 ||qlogo.cn^$domain=chichiav1.xyz
 ||qlogo1.store.qq.com^
-||qlspx.com:$third-party,other
+||qlspx.com:$third-party
 ||qlsynmly.fun^
 ||qlzjwgb.cn^
 ||qm.qq.com^$domain=se8u.cc
