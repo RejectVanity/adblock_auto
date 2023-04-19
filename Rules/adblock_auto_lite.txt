@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: i8Dc4vvW8Y67nc7V4sAlVw
+! Checksum: 78nipTNQ0kn9hdu/y1/1GQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230419185155
+! Version: 20230420000724
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-19 18:51:55
-! Total Count: 18364
+! Last modified: 2023-04-20 00:07:24
+! Total Count: 18368
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -839,6 +839,7 @@
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
 ##.con_section > .da
 ##.conch-ads-box
+##.container + .container > .warp > .cate
 ##.container > .index-ad
 ##.container > .slide-baidu
 ##.container > a.mid-wrapper
@@ -1574,6 +1575,7 @@
 ##a[href*="/blfanss.com"]
 ##a[href*="/bli2a.com/"]
 ##a[href*="/bucd.icu"]
+##a[href*="/bucd.top"]
 ##a[href*="/ck345.cc"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/ctyitopo17.com"]
@@ -6257,6 +6259,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||aniem44.cc^
 ||anioz3b.cc^
 ||aniqfwz.cc^
+||aniqgsz.cc^
 ||aniview.com^
 ||anivisual.net/mim*.js|$script,domain=anivisual.net
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
@@ -14514,6 +14517,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||r528e.cn^$third-party
 ||r5h6.icu^
 ||r7mediar.com^$popup
+||ra1.xyz^
 ||rabbitbreath.com^$third-party
 ||rabbitcloud.ltd^
 ||rabbitrifle.com^$third-party

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ZqocbGw8Ts57y+0r4rdiGg
+! Checksum: Usk+3lLeNq3e6V9jXIXXwQ
 ! Title: 混合规则(自动更新)
-! Version: 20230419185153
+! Version: 20230420000722
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-19 18:51:53
-! Total Count: 106428
+! Last modified: 2023-04-20 00:07:22
+! Total Count: 106436
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11906,6 +11906,7 @@
 ##.contained-ad-container
 ##.contained-ad-shaft
 ##.contained-ad-wrapper
+##.container + .container > .warp > .cate
 ##.container > .index-ad
 ##.container > .slide-baidu
 ##.container > a.mid-wrapper
@@ -17917,6 +17918,7 @@
 ##a[href*="/bli2a.com/"]
 ##a[href*="/bucd.icu"]
 ##a[href*="/bucd.icu/"]
+##a[href*="/bucd.top"]
 ##a[href*="/ck345.cc"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/ctyitopo17.com"]
@@ -39962,6 +39964,7 @@ maxthon.cn###festival-fix-bottom
 maxthon.cn###festival-rain-wrapper
 maxthon.cn###festival-skin-link
 maxthon.cn###header-float-promote
+maxthon.cn###mx3-popularization-float
 maxthon.cn###shopping
 maxthon.cn###side-game-pop
 maxthon.cn###top-slider-ad
@@ -42606,6 +42609,7 @@ rottentomatoes.com##.leaderboard_wrapper
 rottentomatoes.com#@#.page_ad
 rouman5.com##.fixed-bottom
 rouman5.com##a[href*=".tapdb.net"]
+rouman5.com#?#.col-md-4 > div.row:has(> div.col > h5:contains(支持一下吧))
 royalroad.com##.text-center.light
 royalroad.com##[href^="/advertising/redirect"]
 rpclip.com##.widget-item-wrap
@@ -54659,6 +54663,7 @@ zzzyk.com###Tinfo
 ||aninter.net^
 ||anioz3b.cc^
 ||aniqfwz.cc^
+||aniqgsz.cc^
 ||aniruyt.ru^
 ||aniview.com^
 ||anivisual.net/mim*.js|$script,domain=anivisual.net
@@ -59092,6 +59097,7 @@ zzzyk.com###Tinfo
 ||btpremnav.com^
 ||btprmnav.com^
 ||btr.domywife.com^
+||btrace.qq.com^
 ||btrack.homedy.com^
 ||btrll.com^
 ||btsaffiliations.com^
@@ -59351,6 +59357,7 @@ zzzyk.com###Tinfo
 ||bwtsrv.com^
 ||bwwlw.cn^
 ||bwwrovgwdfe.xyz^
+||bx-cloud.com^
 ||bx.neolabs.kz^
 ||bx9000.top^
 ||bxacmsvmxb.com^
@@ -89617,6 +89624,7 @@ zzzyk.com###Tinfo
 ||r932o.com^
 ||r9ljguu1k4.ru^
 ||ra.rockcontent.com^
+||ra1.xyz^
 ||raac33.net^
 ||rabattcoop.com^
 ||rabbitbreath.com^
