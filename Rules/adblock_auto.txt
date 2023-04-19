@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: bDFaFyqYKyasKhA2oKGmHg
+! Checksum: aM1zfmiolKe13PJjv5YX0w
 ! Title: 混合规则(自动更新)
-! Version: 20230419000636
+! Version: 20230419083349
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-19 00:06:36
-! Total Count: 106183
+! Last modified: 2023-04-19 08:33:49
+! Total Count: 106215
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19288,6 +19288,7 @@ $websocket,domain=5nj.com|cechi8.com
 -ads.php?
 -ads/ad-
 -ads/assets/
+-ads/assets/$domain=~web-ads.org
 -ads/get?
 -ads/img/
 -ads/oas/
@@ -27327,7 +27328,9 @@ $websocket,domain=5nj.com|cechi8.com
 /weather-sponsor/*
 /web-ad_
 /web-ads.
+/web-ads.$domain=~web-ads.org
 /web-ads/*
+/web-ads/*$domain=~web-ads.org
 /web/ad/*$domain=gamer.com.tw
 /web/ads/*
 /web2_ad.
@@ -49428,6 +49431,7 @@ zzzyk.com###Tinfo
 ||83133.com/api/
 ||833761.com^
 ||8341.store^
+||8353e36c2a.com^
 ||8429a46b31.com^
 ||843acfbeb0.com^
 ||8456.xyz^
@@ -49459,6 +49463,7 @@ zzzyk.com###Tinfo
 ||8684.com/com/sys_ad_
 ||8684.com/local/bdadv.
 ||8684.com/shuang11/
+||86aa86d2f4.com^
 ||86cb1dcb13ba5a1a.com^
 ||86cg.me/sys
 ||86o0h.top^
@@ -52876,6 +52881,7 @@ zzzyk.com###Tinfo
 ||afgr7.com^
 ||afgr8.com^
 ||afgr9.com^
+||afgtrwd1.com^
 ||afgxkazryxp.com^
 ||afi-b.com^
 ||afij001.xyz^
@@ -53324,6 +53330,7 @@ zzzyk.com###Tinfo
 ||ajorinryeso.com^
 ||ajpxs.xyz^
 ||ajqsdnwcrpp.com^
+||ajucem.xyz^
 ||ajur.info^
 ||ajuyacxneja.xyz^
 ||ajwbkgejrxxrr.xyz^
@@ -58580,6 +58587,7 @@ zzzyk.com###Tinfo
 ||books.com.tw/exep/ap/$third-party
 ||books.com.tw/web/apActivityStick?
 ||books.rakuten.co.jp/books/img/js/smart/sp-footer-ad-banner
+||bookstaircasenaval.com^
 ||booktxt.net/js/easyAD
 ||booktxt.net/js/mangoIndexBanner.js
 ||booleanfalces.website^
@@ -59117,6 +59125,7 @@ zzzyk.com###Tinfo
 ||bummestdebrief.com^
 ||bumnxwvs.ink^
 ||bumpyfruitless.com^
+||bumpyremittancecarnivorous.com^
 ||bumq.com^
 ||bunchance.com^
 ||bunchbox.co^
@@ -59905,6 +59914,7 @@ zzzyk.com###Tinfo
 ||cbt.whatcounts.net^
 ||cbtmyonynqhrcdp.xyz^
 ||cbtrk.net^
+||cbyiqsfp.com^
 ||cbyjpnjua.xyz^
 ||cc-api-data.adobe.io^
 ||cc-dt.com^
@@ -60706,6 +60716,7 @@ zzzyk.com###Tinfo
 ||chmproxy.bid^
 ||chnci.com^$third-party
 ||chnmoney.com/dfile/
+||chnuuee.xyz^
 ||cho7932105co3l2ate3covere53d.com^
 ||choachim.com^
 ||choacmax.xyz^
@@ -63790,6 +63801,7 @@ zzzyk.com###Tinfo
 ||d36wtdrdo22bqa.cloudfront.net^
 ||d36zfztxfflmqo.cloudfront.net^
 ||d370hf5nfmhbjy.cloudfront.net^
+||d379fkejtn2clk.cloudfront.net^
 ||d37aacdbcc.com^
 ||d37abonb6ucrhx.cloudfront.net^
 ||d37pempw0ijqri.cloudfront.net^
@@ -64837,6 +64849,7 @@ zzzyk.com###Tinfo
 ||deserterstrugglingdistil.com^
 ||desgao1zt7irn.cloudfront.net^
 ||desigactinific.org^
+||design01.top^
 ||designatejay.com^
 ||designatejumped.com^
 ||designslicensedeep.com^
@@ -68144,6 +68157,7 @@ zzzyk.com###Tinfo
 ||exerciseundergone.com^
 ||exfjpw.com^
 ||exgzyg.cn^
+||exhausted-use.pro^
 ||exhaustedaccess.pro^
 ||exhibitedderivedremarkable.com^
 ||exhibitionunattractive.com^
@@ -69468,6 +69482,7 @@ zzzyk.com###Tinfo
 ||forjoiyvid.site^
 ||forjoiyvid.space^
 ||forjoiyvids.online^
+||forjoiyvids.pics^
 ||fork.ink^
 ||forkcdn.com^
 ||forlumineoner.com^
@@ -69634,6 +69649,7 @@ zzzyk.com###Tinfo
 ||free-website-statistics.com^
 ||free3dgame.xyz^
 ||freeavalanche.ru^
+||freebaitar.com^
 ||freebiesurveys.com^
 ||freebloghitcounter.com^
 ||freebuy.top^
@@ -69964,6 +69980,7 @@ zzzyk.com###Tinfo
 ||fw-ad.jp^
 ||fwbntw.com^
 ||fwccw.com^
+||fweia.xyz^
 ||fwesx.com^
 ||fwlgepp.cn^
 ||fwmbjrl.cn^
@@ -72915,6 +72932,7 @@ zzzyk.com###Tinfo
 ||himhedrankslo.xyz^
 ||himselves.com^
 ||himselvesobr.club^
+||hinaprecent.info^
 ||hinaxrckuolr.com^
 ||hindisupref.ru^
 ||hindsight.significanceapps.com^
@@ -74233,6 +74251,7 @@ zzzyk.com###Tinfo
 ||igtqora.cn^
 ||igusoft.com^
 ||igvuw.com^
+||igylwxvxgsuvcs.xyz^
 ||igyrmknlpr.xyz^
 ||ih1.fileforums.com^
 ||ih336.com^*a.js
@@ -81019,6 +81038,7 @@ zzzyk.com###Tinfo
 ||meltmilk.com^
 ||meltpiratehamlet.com^
 ||meltwater.com^
+||membai.com^
 ||member.javtvnow.xyz^
 ||member.jschina.com.cn/AD
 ||membersfifteenthintent.com^
@@ -82359,6 +82379,7 @@ zzzyk.com###Tinfo
 ||mudezs.com^
 ||mudperipherd.club^
 ||muer.cdn-baidu.fs-sywh.com^
+||mufflealiases.com^
 ||mufflercypress.com^
 ||mufflerlamia.com^
 ||mufoa6k.cn^
@@ -85317,6 +85338,7 @@ zzzyk.com###Tinfo
 ||overture.com^
 ||overwhelmcontractorlibraries.com^
 ||overwhelmingdarncalumny.com^
+||overwiththinlea.info^
 ||overzoruaon.com^
 ||overzubatan.com^
 ||ovexui.xyz^
@@ -85501,6 +85523,7 @@ zzzyk.com###Tinfo
 ||p59othersq.com^
 ||p64gk2yhba0p.com^
 ||p78lld1s.top^
+||p7cloud.net^
 ||p7ivj09f.xyz^
 ||p7lvj09f.shop^
 ||p7m1rc80jdum.com^
@@ -85786,6 +85809,7 @@ zzzyk.com###Tinfo
 ||part-time-job.biz^
 ||partagedefichiers.com^
 ||partclick.ir^
+||partef.com^
 ||parth2enerocis9tsust2ricus7pidata.com^
 ||parthanonstatue.com^
 ||parthetwo.ru^
@@ -86001,6 +86025,7 @@ zzzyk.com###Tinfo
 ||pc768.com^
 ||pc841.com/show/
 ||pcads.ru^
+||pcalwshbnwysh.com^
 ||pcapp-data-collect.youku.com^
 ||pcauto.com.cn/forum/1508/intf7631.js
 ||pcauto.com.cn/forum/autobbs/clubtl/
@@ -89590,6 +89615,7 @@ zzzyk.com###Tinfo
 ||ratyakhu.ru^
 ||rauceesh.com^
 ||raufoomoochi.com^
+||raunowhy.xyz^
 ||raupsica.net^
 ||raupsoap.com^
 ||raupsooy.net^
@@ -97935,6 +97961,7 @@ zzzyk.com###Tinfo
 ||tptrk.ru^
 ||tpvdcqw.cn^
 ||tpx.tesseradigital.com^
+||tpycithabalj.com^
 ||tpyshaaxps.com^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
@@ -99390,6 +99417,7 @@ zzzyk.com###Tinfo
 ||txmsw.mobi^
 ||txnnhz.cn^
 ||txnwq.xyz^
+||txphjl.xyz^
 ||txt.eu^
 ||txtcw.cn^
 ||txtrek.net^
@@ -103198,6 +103226,7 @@ zzzyk.com###Tinfo
 ||wschao.xyz^
 ||wsdd11.com^
 ||wsdof.xyz^
+||wseojloda.com^
 ||wsfreshdn.gq^
 ||wsgblw.com^
 ||wshosting.ru^
@@ -103584,6 +103613,7 @@ zzzyk.com###Tinfo
 ||xchina.tv/upload/ad/
 ||xcjcy.pro^
 ||xcjwq.world^
+||xckyqq.com^
 ||xclaimwords.net^
 ||xclicks.net^
 ||xclk-integracion.com^
@@ -103716,6 +103746,7 @@ zzzyk.com###Tinfo
 ||xianzhice.com^
 ||xiaobaipan.com/tb.html
 ||xiaobi*.com/layer/layer.js
+||xiaochen1.cn^
 ||xiaodongrui.com^
 ||xiaodutv.com/xda?
 ||xiaohui.ink^
@@ -104810,6 +104841,7 @@ zzzyk.com###Tinfo
 ||ynlsgw.com^
 ||ynmpzs.cn^
 ||ynpvnroa.com^
+||ynuvqtlcmao.com^
 ||ynwia.com^
 ||ynwsyl.com^
 ||ynyikk.com^
