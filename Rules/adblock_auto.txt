@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Rc1ohDQZPjKXzSUvhX5iBw
+! Checksum: Nm/s947OhiS4m92wWVqoYw
 ! Title: 混合规则(自动更新)
-! Version: 20230420221108
+! Version: 20230420223056
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-20 22:11:08
-! Total Count: 106669
+! Last modified: 2023-04-20 22:30:56
+! Total Count: 106671
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -27189,7 +27189,7 @@ $websocket,domain=5nj.com|cechi8.com
 /up/ads/*
 /update_ads/*
 /uplimg/ads/*
-/upload/ad/*$image
+/upload/ad/*$image,domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc
 /upload/ads/*
 /upload/ads/*$domain=~ads.ae
 /upload/site/tbgg/*.gif
@@ -29296,6 +29296,7 @@ $websocket,domain=5nj.com|cechi8.com
 =728x90/
 =728x90;
 =AdCode_$script,third-party
+=AdCode_$third-party
 =AdCode_sjdb
 =AdCode_sjdb$third-party
 =Ad_ZPlusGoods&
@@ -29447,7 +29448,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
-@@/300x250.gif$domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc
+@@/300x250.gif$domain=manwa1.vip|manwa2.vip|manwa3.vip|manwa4.vip|manwa5.vip|manwa6.vip|manwa7.vip|manwa8.vip|manwa9.vip|manwa10.vip|manwa.vip|manwa1.site|manwa2.site|manwa3.site|manwa4.site|manwa5.site|manwa6.site|manwa7.site|manwa8.site|manwa9.site|manwa10.site|manwa.site|manwa1.me|manwa2.me|manwa3.me|manwa4.me|manwa5.me|manwa6.me|manwa7.me|manwa8.me|manwa9.me|manwa10.me|manwa.me|mwcomic1.cc|mwcomic2.cc|mwcomic3.cc|mwcomic4.cc|mwcomic5.cc|mwcomic6.cc|mwcomic7.cc|mwcomic8.cc|mwcomic9.cc|mwcomic10.cc|mwcomic.cc
 @@/WebAd/*$domain=yongyoujia.com
 @@/ad-close.png$domain=ch.com
 @@/ad/images/*$domain=37-express.com|vnnox.com
@@ -29612,6 +29613,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@mwcomic7.cc/static/custom/files/300X250.gif
 @@mwcomic8.cc/static/custom/files/300X250.gif
 @@mwcomic9.cc/static/custom/files/300X250.gif
+@@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
 @@pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
 @@tangsanshu.net/js/comm.js
 @@yetianlian.la/js/comm.js
