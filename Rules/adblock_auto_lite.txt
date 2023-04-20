@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: WeA3IKdQvb4NNrn3FcPNkQ
+! Checksum: y3UaL6aveMFcgT6ZuAjgsA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230420160816
+! Version: 20230420221110
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-20 16:08:16
-! Total Count: 18379
+! Last modified: 2023-04-20 22:11:10
+! Total Count: 18411
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2613,7 +2613,7 @@
 .xyz/xling_*_*.js?
 .zone/ads/
 /*_*_/bigREDdog.$third-party
-/300x250.$image,domain=~manwa.me|~manwa.site|~manwa1.site|~manwa3.site|~manwa2.site|~manwa1.me|~manwa2.me|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa.fun|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip
+/300x250.$image,domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc
 /?channelCode=bfy
 /AdblockMessage.
 /SvgAdblockDetected/*
@@ -2877,6 +2877,7 @@
 ?file=ads&
 ?frm=*&ct=*&dit=$third-party
 ?method=baidu.ting.commercial.tactics&
+@@/300x250.gif$domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
 @@/adsbygoogle.js$script,domain=arabiaweather.com
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
@@ -2902,20 +2903,48 @@
 @@game.baifumeiba.com/login/ad/adex.js
 @@manwa.me/static/custom/files/300X250.gif
 @@manwa.site/static/custom/files/300X250.gif
+@@manwa.vip/static/custom/files/300X250.gif
 @@manwa1.me/static/custom/files/300X250.gif
 @@manwa1.site/static/custom/files/300X250.gif
+@@manwa1.vip/static/custom/files/300X250.gif
+@@manwa10.me/static/custom/files/300X250.gif
+@@manwa10.site/static/custom/files/300X250.gif
 @@manwa10.vip/static/custom/files/300X250.gif
 @@manwa2.me/static/custom/files/300X250.gif
 @@manwa2.site/static/custom/files/300X250.gif
 @@manwa2.vip/static/custom/files/300X250.gif
+@@manwa3.me/static/custom/files/300X250.gif
 @@manwa3.site/static/custom/files/300X250.gif
 @@manwa3.vip/static/custom/files/300X250.gif
+@@manwa4.me/static/custom/files/300X250.gif
+@@manwa4.site/static/custom/files/300X250.gif
 @@manwa4.vip/static/custom/files/300X250.gif
+@@manwa5.me/static/custom/files/300X250.gif
+@@manwa5.site/static/custom/files/300X250.gif
 @@manwa5.vip/static/custom/files/300X250.gif
+@@manwa6.me/static/custom/files/300X250.gif
+@@manwa6.site/static/custom/files/300X250.gif
 @@manwa6.vip/static/custom/files/300X250.gif
+@@manwa7.me/static/custom/files/300X250.gif
+@@manwa7.site/static/custom/files/300X250.gif
 @@manwa7.vip/static/custom/files/300X250.gif
+@@manwa8.me/static/custom/files/300X250.gif
+@@manwa8.site/static/custom/files/300X250.gif
 @@manwa8.vip/static/custom/files/300X250.gif
+@@manwa9.me/static/custom/files/300X250.gif
+@@manwa9.site/static/custom/files/300X250.gif
 @@manwa9.vip/static/custom/files/300X250.gif
+@@mwcomic.cc/static/custom/files/300X250.gif
+@@mwcomic1.cc/static/custom/files/300X250.gif
+@@mwcomic10.cc/static/custom/files/300X250.gif
+@@mwcomic2.cc/static/custom/files/300X250.gif
+@@mwcomic3.cc/static/custom/files/300X250.gif
+@@mwcomic4.cc/static/custom/files/300X250.gif
+@@mwcomic5.cc/static/custom/files/300X250.gif
+@@mwcomic6.cc/static/custom/files/300X250.gif
+@@mwcomic7.cc/static/custom/files/300X250.gif
+@@mwcomic8.cc/static/custom/files/300X250.gif
+@@mwcomic9.cc/static/custom/files/300X250.gif
 @@tangsanshu.net/js/comm.js
 @@yetianlian.la/js/comm.js
 @@yetianlian.la/xxgg/common.js
@@ -2951,7 +2980,7 @@
 @@||ktu.sv2.biz/sv3/advertisement.js
 @@||larvf.com/js/ads.js
 @@||manga-news.com/js/advert.js$script
-@@||manwa.*/static/custom/files/300X250.gif
+@@||manwa*/static/custom/files/300X250.gif
 @@||nouvelle-fiat500.fr/ad-pub.js$script
 @@||numerama.com/ads.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
@@ -3407,14 +3436,14 @@ madou.club##a[href][target="_blank"][rel="nofollow noopener"]
 maigoo.com##[class*="ads"]
 mail.rambler.ru##.notification-warning
 malekal.com##.topad
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##.index-banner > [class*="swiper-container"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##[class^="swiper-slide"] > a[target="blank"][rel="nofollow noopenner"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##[data-group="ad_common_tool_bar_top"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##[data-group^="ad_chapter_top"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##div[style*="margin: 10px;"][style*="border-radius: 20px;"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun##input[alt][src^="/static/custom/files/"][type="image"]
-manwa.me,manwa.site,manwa1.site,manwa3.site,manwa2.site,manwa1.me,manwa2.me,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vipmanwa.fun#@#.ad-area
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc##.index-banner > [class*="swiper-container"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc##[class^="swiper-slide"] > a[target="blank"][rel="nofollow noopenner"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc##[data-group="ad_common_tool_bar_top"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc##[data-group^="ad_chapter_top"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc##div[style*="margin: 10px;"][style*="border-radius: 20px;"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc##input[alt][src^="/static/custom/files/"][type="image"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc#@#.ad-area
 math-prosto.ru###requestShutOfBlocker
 mbd.baidu.com##.drag-bottom
 md4u.ru###pagecontent > div[style*="background-color"]
@@ -5796,6 +5825,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ads.fotoable.com^
 ||ads.glispa.com^
 ||ads.go2reach.com^
+||ads.imbc.com^
 ||ads.imovideo.ru^
 ||ads.iosappsworld.com^
 ||ads.jianchiapp.com^
@@ -9295,6 +9325,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ftchinese.com/m/marketing/
 ||ftdmfxq.cn^
 ||ftfnewu.cn^
+||fthqzxq.cn^
 ||ftimg.net/s?z=
 ||ftnthzv.cn^
 ||ftrtnr.xyz^
@@ -15237,6 +15268,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||skfjdf.xyz^
 ||skfqxkk.cn^
 ||skiyvwu.cn^
+||skluff.com^
 ||skluff.com^$third-party
 ||skmtyaw.cn^
 ||skt-asum.com^
@@ -18388,4 +18420,4 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zzz4.com/JS_AD/
 ||zzzhuoxiaqu.online^
 ||zzzyk.com/js/
-~manwa.me,~manwa.site,~manwa1.site,~manwa3.site,~manwa2.site,~manwa1.me,~manwa2.me,~manwa2.vip,~manwa3.vip,~manwa4.vip,~manwa5.vip,~manwa.fun,~manwa6.vip,~manwa7.vip,~manwa8.vip,~manwa9.vip,~manwa10.vip##.ad-area
+~manwa1.vip,~manwa2.vip,~manwa3.vip,~manwa4.vip,~manwa5.vip,~manwa6.vip,~manwa7.vip,~manwa8.vip,~manwa9.vip,~manwa10.vip,~manwa.vip,~manwa1.site,~manwa2.site,~manwa3.site,~manwa4.site,~manwa5.site,~manwa6.site,~manwa7.site,~manwa8.site,~manwa9.site,~manwa10.site,~manwa.site,~manwa1.me,~manwa2.me,~manwa3.me,~manwa4.me,~manwa5.me,~manwa6.me,~manwa7.me,~manwa8.me,~manwa9.me,~manwa10.me,~manwa.me,~mwcomic1.cc,~mwcomic2.cc,~mwcomic3.cc,~mwcomic4.cc,~mwcomic5.cc,~mwcomic6.cc,~mwcomic7.cc,~mwcomic8.cc,~mwcomic9.cc,~mwcomic10.cc,~mwcomic.cc##.ad-area
