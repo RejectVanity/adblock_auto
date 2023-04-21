@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 2bHSdtettK2F8MeyZh7EwQ
+! Checksum: f7GcAkJ5g0DGO8jJNPqLTw
 ! Title: 混合规则(自动更新)
-! Version: 20230421083108
+! Version: 20230421160803
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-21 08:31:08
-! Total Count: 106682
+! Last modified: 2023-04-21 16:08:03
+! Total Count: 106696
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -39706,6 +39706,7 @@ m.douban.com##[src^="https://at4.doubanio.com"]
 m.douban.com##div.center > div > div
 m.economictimes.com##.adContainer
 m.economictimes.com##.bannerwrapper
+m.economictimes.com,someecards.com,trailspace.com##.adContainer
 m.economictimes.com,trailspace.com##.adContainer
 m.hao123.com##.tuizhan
 m.hupu.com##.hupu-footer-btn
@@ -45002,6 +45003,10 @@ usnews.com##[class*="ad-spacer"]
 usnews.com##div[class^="Ad__Container-"]
 usnews.com##div[class^="ad-spacer"]
 usnews.com##div[class^="ad-spacer_"]
+utne.com###URTK_Bottom_728x90
+utne.com###URTK_Middle_300x250
+utne.com###URTK_Right_300x600
+utne.com###top_advertisement
 uu114.cn##.side_top_banner
 uuu9.com###cm1337
 uuu9.com###top
@@ -45869,6 +45874,8 @@ x6g.com##.addd
 xbabe.com##.bnnrs-aside
 xbbs.me##.push-bottom
 xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
+xbeibeix.com##+js(no-setTimeout-if, /\.height\(\) == 0|adsbygoogle/)
+xbeibeix.com#@#.google-ad
 xbiquwx.la##.box_con > div[style="margin:10px auto;width: 930px;height: 250px;"]
 xblian.com##a[href^="https://page.pe/"]
 xblian.com##img[alt*="广告"]
@@ -54715,6 +54722,7 @@ zzzyk.com###Tinfo
 ||anida.info^
 ||aniem44.cc^
 ||anifefashionism.com^
+||anifk71.cc^
 ||anightsregalia.cam^
 ||animated-button.pro^
 ||animated-company.pro^
@@ -55250,6 +55258,7 @@ zzzyk.com###Tinfo
 ||apricotaimless.com^
 ||aprilineffective.com^
 ||apritifunbid.com^
+||aprlitj.cn^
 ||apromoweb.com^
 ||aprtn.com^
 ||aprtx.com^
@@ -79868,6 +79877,7 @@ zzzyk.com###Tinfo
 ||loshrhaphae.com^
 ||losingfoundation.com^
 ||losingoldfry.com^
+||losslace.com^
 ||losstrack.com^
 ||lostincunt.com^
 ||lotionmodule.com^
@@ -84107,6 +84117,7 @@ zzzyk.com###Tinfo
 ||notix.io^
 ||notmining.org^
 ||notorietycheerypositively.com^
+||notsy.io^
 ||noucoush.net^
 ||nougacoush.com^
 ||noughttrustthreshold.com^
@@ -84716,6 +84727,7 @@ zzzyk.com###Tinfo
 ||offerstrategy.com^
 ||offerwall-adnative.com^
 ||offerwall.headlines.pw^
+||offerwall.yandex.net^
 ||offfurreton.com^
 ||office.ad1.ru^
 ||officerolivehaughty.com^
@@ -93952,6 +93964,7 @@ zzzyk.com###Tinfo
 ||smarttds.ru^
 ||smarttopchain.nl^
 ||smartyads.com^
+||smartytech.io^
 ||smartzonessva.com^
 ||smashnewtab.com^
 ||smashquartz.com^
@@ -106091,6 +106104,7 @@ zzzyk.com###Tinfo
 ||zheevmmvlwg.com^
 ||zhej78i1an8w6ceu.com^
 ||zhekoudajie.com^
+||zhemu.xyz^
 ||zhenben.cc/2000/
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
 ||zhengjie.com/a_d?
