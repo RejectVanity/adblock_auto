@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Y05PmoVT5HKqwI+ofQeTTA
+! Checksum: JTZhbOOt9Uw9GBZJQqG5cw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230422000717
+! Version: 20230422015135
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-22 00:07:17
-! Total Count: 18429
+! Last modified: 2023-04-22 01:51:35
+! Total Count: 18447
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1716,6 +1716,7 @@
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/redirect?tid="]
+##a[href^="/template/1/html/ad/"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -1892,6 +1893,7 @@
 ##iframe[src*="//go.goaserv.com"]
 ##iframe[src*="//syndication.exosrv.com/"]
 ##iframe[src="/ad.html"]
+##iframe[src^="//ads."]
 ##iframe[width="320"][height="50"]
 ##img#adv1
 ##img[alt="亚星体育"]
@@ -2693,6 +2695,7 @@
 /ads?zone_id=
 /ads_iframe
 /adsmatcher-anti-adblock/*
+/advertisement/*
 /antiadblockmsg.
 /arlinablock.js
 /bar/yfgg.js
@@ -5190,6 +5193,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||8861203.com^
 ||8881img.com^
 ||8886i.top^
+||88885aaa.com^
 ||888dizhi.com/888/
 ||888yh.xyz^
 ||88993aaa.com^
@@ -5528,6 +5532,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||aaa.tumanyi.com^
 ||aaaa8.top^
 ||aaaaa288.com^
+||aaaaa556.com^
 ||aaaaa599.com^
 ||aaaaa663.com^
 ||aaaaa699.com^
@@ -8945,6 +8950,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||eporner.com/adblock
 ||eprice.com.tw/img/tw_m/ad/
 ||eprxasz.cn^
+||eq.af31f.site^
 ||eqnggnsw.fun^
 ||eqpzy.cyou^
 ||eqyzc.cyou^
@@ -9700,6 +9706,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||go.mobstitialtag.com^
 ||go.vrvm.com^
 ||go.xlivrdr.com$third-party
+||go.xlviirdr.com/smartpop$third-party
 ||go2av.com/for_ad/
 ||go2av.com/js/AM.js
 ||go2s.co/*/*.zip
@@ -9711,6 +9718,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||gocyghol.vip^
 ||godie.cyou^
 ||godloveme.cn^
+||godpvqnszo.com^$third-party
 ||gogfhq.xyz^
 ||gogorenti.wang/js/m_cp
 ||gogpix.cn^
@@ -13993,6 +14001,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pmthinktank.shop^
 ||pndagz.com^
 ||pnesemr.cn^
+||pnez8.rut6m.xyz^
 ||pniao99.com/statics/js/stat.js
 ||pnirrb.cn^
 ||pnrqz.xyz^
@@ -14275,6 +14284,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qianduoduo.fit^
 ||qiangqi.shop^
 ||qianhua.*/data/attachment/portal/
+||qianjiao45wde15.xyz^
 ||qianmeiby.com^
 ||qianqian.red^
 ||qianrenge.cc/qian/
@@ -14526,6 +14536,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qvxhgni.cn^
 ||qvyzdox.cn^
 ||qwadakesy.cyou^
+||qwahk.com^
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcqqw.xyz^
 ||qwe0231141.bj.bcebos.com^
@@ -14595,6 +14606,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rbazhaheiz.top^
 ||rbgfxxt.cn^
 ||rbioclv.cn^
+||rbrv9.cn^
 ||rbvi.top^
 ||rbywg.com^
 ||rc.ie13.com^
@@ -15021,6 +15033,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||selectinstall.cn^
 ||selenaroberta.com^
 ||selfishsnake.com^$third-party
+||semaobf1.com^
 ||sensors.larkplayerapp.com^
 ||sensors.snaptubeapp.com^
 ||senxiaopang.top^
@@ -16254,8 +16267,10 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||u1.qyxxpd.com^
 ||u1.shuaiku.com^
 ||u10*.com/*.gif$domain=bhuai.top
+||u1010.com^
 ||u1011.com^
 ||u1033.com^
+||u1077.com^
 ||u1099.com^
 ||u1102.com^
 ||u1557.com^
@@ -16283,6 +16298,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||u644.fun^
 ||u66099.com^
 ||u756fvjp.cn^
+||u833ij.com^
 ||u88.cn^$third-party
 ||u8hdqyug.co^
 ||u8hdqyug.live^
@@ -16462,6 +16478,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||utywsi.cn^
 ||uu1.3gu.com^
 ||uu2e.com^
+||uu5731uu.com^
 ||uu99k.com^
 ||uugtv.com/x/app/videoSpread?
 ||uuu9.tieba.com^$subdocument
@@ -17387,6 +17404,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xinyuejiayuan.com^
 ||xinyumingad.com^$third-party
 ||xinzhanggui.wang^
+||xiod.xyz^
 ||xiongdong.com^
 ||xiongfengwang.com.cn^
 ||xiongyin.com^$third-party
