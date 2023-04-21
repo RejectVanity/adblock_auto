@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: f7GcAkJ5g0DGO8jJNPqLTw
+! Checksum: dXm71sf92jZurB/BK0ZXtA
 ! Title: 混合规则(自动更新)
-! Version: 20230421160803
+! Version: 20230422000715
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-21 16:08:03
-! Total Count: 106696
+! Last modified: 2023-04-22 00:07:15
+! Total Count: 106727
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18075,6 +18075,7 @@
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/redirect?tid="]
+##a[href^="/template/1/html/ad/"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -27698,6 +27699,7 @@ $websocket,domain=5nj.com|cechi8.com
 1090ys8.com##a[target="_blank"] > img[src*="alicdn.com"]
 1090ys8.com,bbt.tv,btbt.tv,fiime.cn,mmiyue.com#@#.google-ad
 1090ys8.com,bbt.tv,btbt.tv,fiime.cn,mmiyue.com,qcheng.cc#@#.google-ad
+1090ys8.com,bbt.tv,btbt.tv,fiime.cn,mmiyue.com,qcheng.cc,xbeibeix.com#@#.google-ad
 1090ys8.com,rouman5.com##a[href*="tyrantdb.com"]
 10co.biz,10co.xyz,10co.co,10co.me###popad
 10co.biz,10co.xyz,10co.co,10co.me#$##myTestAd { height: 1px!important; }
@@ -32672,6 +32674,7 @@ bellinghamherald.com##.zone-el
 bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,newsobserver.com##.zone
 bendibao.com###wxbox
 bendibao.com##.content_r_ad300
+bendsource.com,buzzfeed.com,federalnewsnetwork.com,imgur.io,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
 bendsource.com,federalnewsnetwork.com,imgur.io,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
 bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
 bentoneveningnews.com,dailyregister.com,dailyrepublicannews.com###billBoardATF
@@ -33265,6 +33268,7 @@ buy.ccb.com#@##top_ad
 buyout.pro,news.com.au,zlinked.com#@#.advertiser
 buzz.ie,irishpost.com,theweekendsun.co.nz##.add-block
 buzzfeed.com##.ad-awareness
+buzzfeed.com##.card--article-ad
 buzzfeed.com##.js-bfa-impression
 buzzfeed.com,buzzfeednews.com##.desktop-sticky-ad_desktopStickyAdWrapper__a_tyF
 buzzfeednews.com##div[id^="BF_ADX_"]
@@ -49605,6 +49609,7 @@ zzzyk.com###Tinfo
 ||8881919.cc^
 ||8881img.com^
 ||8886i.top^
+||88885aaa.com^
 ||8889888.vip^
 ||888dizhi.com/888/
 ||888media.net^
@@ -50209,10 +50214,12 @@ zzzyk.com###Tinfo
 ||aaa.vidox.net^
 ||aaaa8.top^
 ||aaaaa288.com^
+||aaaaa556.com^
 ||aaaaa599.com^
 ||aaaaa663.com^
 ||aaaaa699.com^
 ||aaaaa855.com^
+||aaaaa882.com^
 ||aaaaaco.com^
 ||aaacompany.net^
 ||aaaesme.cn^
@@ -54264,6 +54271,7 @@ zzzyk.com###Tinfo
 ||analytics.anvato.net^
 ||analytics.any.do^
 ||analytics.apnewsregistry.com^
+||analytics.apotekhjartat.se^
 ||analytics.appsbnet.com.br^
 ||analytics.appservice.tech^
 ||analytics.archive.org^
@@ -58295,6 +58303,7 @@ zzzyk.com###Tinfo
 ||bjzcbx.com^
 ||bjzshy.cn^
 ||bk.goodline.info^
+||bkae.top^
 ||bkembwdgujzp.com^
 ||bkill.com/css/js/*top
 ||bkill.com/css/js/abcbl.js
@@ -58355,6 +58364,7 @@ zzzyk.com###Tinfo
 ||blamads.com^
 ||blamedbuckie.fun^
 ||bland-husband.com^
+||blaneo.com^
 ||blastcahs.com^
 ||blastieliatris.com^
 ||blastsbigener.com^
@@ -66621,6 +66631,7 @@ zzzyk.com###Tinfo
 ||dwnews.net/js/common/dwnews.dwcn.ad.js
 ||dwnews.net/js/common/dwnews.ga.js
 ||dwnm2295blvjq.cloudfront.net^
+||dwoonqodmk.com^
 ||dwqfmvc.cn^
 ||dwr3zytn850g.cloudfront.net^
 ||dwrz5az.cn^
@@ -72700,6 +72711,7 @@ zzzyk.com###Tinfo
 ||hauglees.net^
 ||haulmserinys.com^
 ||haulrationally.com^
+||haulstugging.com^
 ||haunigre.net^
 ||hauntcontribution.com^
 ||hauntlist.com^
@@ -73253,6 +73265,7 @@ zzzyk.com###Tinfo
 ||hipals.com^
 ||hiperstat.com^
 ||hipersushiads.com^
+||hiphoapt.xyz^
 ||hippchapter.com^
 ||hippostravois.store^
 ||hiprofitnetworks.com^
@@ -80022,6 +80035,7 @@ zzzyk.com###Tinfo
 ||ltassrv.com.s3.amazonaws.com^
 ||ltassrv.com^
 ||ltbyw.top/data/images/*.gif
+||ltckrqiy.com^
 ||ltcprtc.com^
 ||ltcraft.ru^
 ||ltengronsa.com^
@@ -83516,6 +83530,7 @@ zzzyk.com###Tinfo
 ||netstam.com^
 ||netstats.dk^
 ||netszex.com^
+||nettlyphosis.com^
 ||nettube.top^
 ||netund.com^
 ||netupdater.info^
@@ -87534,6 +87549,7 @@ zzzyk.com###Tinfo
 ||podosupsurge.com^
 ||podsolnu9hi10.com^
 ||podtiaumteen.space^
+||podunksewless.com^
 ||poeid.cyou^
 ||poembetray.com^
 ||poemswrestlingstrategy.com^
@@ -89250,6 +89266,7 @@ zzzyk.com###Tinfo
 ||qiangqi.shop^
 ||qiangren.biz^
 ||qianhua.*/data/attachment/portal/
+||qianjiao45wde15.xyz^
 ||qianmeiby.com^
 ||qiannian.biz^
 ||qianqian.red^
@@ -89717,6 +89734,7 @@ zzzyk.com###Tinfo
 ||qvyzdox.cn^
 ||qwa3ldhn9u0t.com^
 ||qwadakesy.cyou^
+||qwahk.com^
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcqqw.xyz^
 ||qwe.qrrgv.space^
@@ -89952,6 +89970,7 @@ zzzyk.com###Tinfo
 ||rank4all.eu^
 ||rankchamp.de^
 ||rankertorten.com^
+||rankestmowers.com^
 ||ranking-charts.de^
 ||ranking-counter.de^
 ||ranking-hits.de^
@@ -90059,6 +90078,7 @@ zzzyk.com###Tinfo
 ||rbioclv.cn^
 ||rbljoyvsvtj.xyz^
 ||rbnt.org^
+||rbrv9.cn^
 ||rbrxg.com^
 ||rbthindic.xyz^
 ||rbthre.work^
@@ -92500,6 +92520,7 @@ zzzyk.com###Tinfo
 ||seal.networksolutions.com^
 ||seal.qualys.com^
 ||sealedsimplicitynoun.com^
+||sealeryshilpit.com^
 ||sealerysuppler.com^
 ||sealine-pfuoxcbgd.netdna-ssl.com^
 ||sealine.youku.com/yk/*callback=adpagesdk$script
@@ -92692,6 +92713,7 @@ zzzyk.com###Tinfo
 ||semantic-finder.com^
 ||semanticverses.com^
 ||semantiqo.com^
+||semaobf1.com^
 ||semasio.net^
 ||semi-cod.com^
 ||semicoloninadequacypleasantly.com^
@@ -98639,6 +98661,7 @@ zzzyk.com###Tinfo
 ||track.venatusmedia.com^
 ||track.vio.edu.vn^
 ||track.vscash.com^
+||track.vtcnews.vn^
 ||track.wattpad.com^
 ||track.wayin.com^
 ||track.wildblue.com^
@@ -99966,8 +99989,11 @@ zzzyk.com###Tinfo
 ||u1.idongde.com^
 ||u1.qyxxpd.com^
 ||u1.shuaiku.com^
+||u10*.com/*.gif$domain=bhuai.top
+||u1010.com^
 ||u1011.com^
 ||u1033.com^
+||u1077.com^
 ||u1099.com^
 ||u1102.com^
 ||u1557.com^
@@ -100009,6 +100035,7 @@ zzzyk.com###Tinfo
 ||u7kgr54jr7.ru^
 ||u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me^
 ||u8.hujiang.com^
+||u833ij.com^
 ||u88.cn^$third-party
 ||u8hdqyug.co^
 ||u8hdqyug.live^
@@ -100887,6 +100914,7 @@ zzzyk.com###Tinfo
 ||utywsi.cn^
 ||uu1.3gu.com^
 ||uu2e.com^
+||uu5731uu.com^
 ||uu99k.com^
 ||uuaauw.com^
 ||uuaoy.com^
@@ -104013,6 +104041,7 @@ zzzyk.com###Tinfo
 ||x7r3mk6ldr.com^
 ||x8.cho-chin.com^
 ||x800.top^
+||x81zw.co/js/dsnmd.
 ||x822.mrt.com^
 ||x8kwcr3l.xyz^
 ||x9.shinobi.jp^
@@ -104329,6 +104358,7 @@ zzzyk.com###Tinfo
 ||xinyuejiayuan.com^
 ||xinyumingad.com^$third-party
 ||xinzhanggui.wang^
+||xiod.xyz^
 ||xiongdong.com^
 ||xiongfengwang.com.cn^
 ||xiongyin.com^$third-party
@@ -106463,6 +106493,7 @@ zzzyk.com###Tinfo
 ||zrpyfgt.cn^
 ||zrvnhlwypqpwjw.com^
 ||zrwba.cn^
+||zrwpporp.com^
 ||zrys.xyz^
 ||zrysogsiq.uno^
 ||zs.dhl.de^
