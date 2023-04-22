@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sofLt1HNjqvCvIpnYzrSAQ
+! Checksum: 3p6384ew6OvNzYicmsZ5ww
 ! Title: 混合规则(自动更新)
-! Version: 20230422160733
+! Version: 20230423000644
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-22 16:07:33
-! Total Count: 106790
+! Last modified: 2023-04-23 00:06:44
+! Total Count: 106801
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11350,6 +11350,7 @@
 ##.bomAd
 ##.bonnier-ad
 ##.bonnier-ads-middle
+##.book > #btmBox
 ##.bookad
 ##.bordered-ad
 ##.bostad
@@ -18552,6 +18553,7 @@
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[onclick^="window.location.href"][onclick*="apps.apple.com/cn/"]
 ##div[recirculation-ad-container]
+##div[role="listitem"] > div > div > .bannerliststyle
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
@@ -25274,6 +25276,7 @@ $websocket,domain=5nj.com|cechi8.com
 /jquery.adi.
 /jquery.adx.
 /jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
+/jquery.modal.$domain=1909.me|8se.me|litu100.xyz|xchina.co|xchina.fun|xchina.pro
 /jquery.modal.$domain=8se.me|xchina.fun|xchina.co|1909.me|litu100.xyz|xchina.pro
 /jquery.peelback.
 /jquery/ad.
@@ -31628,6 +31631,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alicocsouth.inter.71edge.com/videos/other/*.f4v
+aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
 alipay.com###J-cooperant-banner
 alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
 aliyun.com###yq-a-r-bottom
@@ -41312,6 +41316,7 @@ opensubtitles.org###watch_online
 opensubtitles.org##.a_1.a.p
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
 opensubtitles.org##div[itemscope=""][itemtype="http://schema.org/Movie"] > fieldset
+opentable.ae,opentable.ca,opentable.co.th,opentable.co.uk,opentable.com,opentable.com.au,opentable.com.mx,opentable.de,opentable.es,opentable.hk,opentable.ie,opentable.it,opentable.jp,opentable.nl,opentable.sg##div[data-promoted="true"]
 opticsky.cn###head > .tac
 opticsky.cn##.p83_gridC > .cc
 optimum.net##.paidResult
@@ -43308,6 +43313,7 @@ smzdm.com##.feed-stuff
 smzdm.com##.foot-banner
 smzdm.com##.g_g
 smzdm.com##.side-stuff
+smzdm.com#@#.comment_share
 smzy.com###ad_down_box
 smzy.com###showa
 smzy.com###x_pc_down_g
@@ -47541,6 +47547,7 @@ zzzyk.com###Tinfo
 ||14i8trbbx4.com^
 ||150075.com^
 ||1503.net/code/
+||1512a.com^
 ||1527ego.com^
 ||152media.com^
 ||15306ad0e1.com^
@@ -55641,6 +55648,7 @@ zzzyk.com###Tinfo
 ||askedopinionatedimmediately.com^
 ||asketo.ru^
 ||askewflatted.com^
+||askfollow.us^
 ||askfsh.cn^
 ||askfuelads.com^
 ||askingconsideration.com^
@@ -58104,6 +58112,7 @@ zzzyk.com###Tinfo
 ||biggersplinterrattle.com^
 ||biggestgainsurvey.top^
 ||biggestplayer.cachefly.net^
+||biggggg.com/videos/*/media_000$redirect=noop-0.1s.mp3,domain=nivod4.tv,media
 ||bigheartedresentfulailment.com^
 ||bigleads.ru^
 ||bigmining.com^
@@ -69980,6 +69989,7 @@ zzzyk.com###Tinfo
 ||free-website-hit-counters.com^
 ||free-website-statistics.com^
 ||free3dgame.xyz^
+||freeadd.me^
 ||freeavalanche.ru^
 ||freebaitar.com^
 ||freebiesurveys.com^
@@ -99911,6 +99921,7 @@ zzzyk.com###Tinfo
 ||twistconcept.com^
 ||twisteryirr.com^
 ||twittad.com^
+||twitterfollowers.site^
 ||twlcyc.cn^
 ||twn2e.cn^
 ||twnb.xyz^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jfSFEXrWqH+XgL0H2+NJBw
+! Checksum: ruj0liOFxNExs4VVSWU82g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230422160734
+! Version: 20230423000647
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-22 16:07:34
-! Total Count: 18466
+! Last modified: 2023-04-23 00:06:47
+! Total Count: 18471
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1123,6 +1123,7 @@
 ##.sidead
 ##.sidebar-ad
 ##.siteAnn1
+##.slider-ad[adid]
 ##.smcms-wrap > .group-box > a[target="_blank"] > img
 ##.smcms-wrap > a[target="_blank"] > img
 ##.space-y-6 > .advertising
@@ -1649,6 +1650,7 @@
 ##a[href*="/x9658.cc"]
 ##a[href*="/xapps5.xyz"]
 ##a[href*="/xchina.fun/redirect/ad"]
+##a[href*="/xchina.info/redirect/ad"]
 ##a[href*="/yb6277.vip"]
 ##a[href*="/ybhth689.com"]
 ##a[href*="/yfj8159.com"]
@@ -1861,6 +1863,7 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[onclick^="window.location.href"][onclick*="apps.apple.com/cn/"]
+##div[role="listitem"] > div > div > .bannerliststyle
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
@@ -4197,6 +4200,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||14bobo.com/js/
 ||150075.com^
 ||1503.net/code/
+||1512a.com^
 ||1527ego.com^
 ||154.196.143.171^
 ||154.7.80.158^
@@ -7057,6 +7061,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||biercloud.love^
 ||bifjicdigchgihajabb.ru^
 ||bigear.cn/cache/htmlcache/
+||biggggg.com/videos/*/media_000$redirect=noop-0.1s.mp3,domain=nivod4.tv,media
 ||bigmobileads.com^
 ||bihaipack.com^
 ||bikannovel.com^
