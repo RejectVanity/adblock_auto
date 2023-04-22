@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 265RBu3jAYSYH6qt65FkOg
+! Checksum: bwmytwW61IAADEkkwqOVFQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230422083128
+! Version: 20230422120237
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-22 08:31:28
-! Total Count: 18453
+! Last modified: 2023-04-22 12:02:37
+! Total Count: 18460
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1819,6 +1819,7 @@
 ##div[class*="invideo-native-adv_"]
 ##div[class*="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class*="video-item--adv"]
+##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
 ##div[class][id][style] > .pic_container
@@ -2779,6 +2780,7 @@
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
 7mmtv.sx##[class^="root--"]
 7sim.net##html > body ~ div
+99re.com##a[href][target="_blank"] > img[src]
 ://*.zd*.fyi/*x*x*x*x*=$third-party
 ://*.zd*.live/*x*x*x*x*=$third-party
 ://*.zd*.xyz/*x*x*x*x*=$third-party
@@ -2961,6 +2963,7 @@
 @@||anidub.com/ads.js|$script,domain=anidub.com
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
 @@||ausujet.com/skins/common/ads.js
+@@||avgle.com/embed/$genericblock,generichide
 @@||c-ctrip.com/images/*.jpg
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
@@ -3082,6 +3085,8 @@ autohome.com.cn##.slideIn.summary-dealer-yiliu
 autohome.com.cn##.union-ad-placeholder
 autohome.com.cn##[class$="-loading"][data-action="loading"][id="loadMore"]
 autohome.com.cn##ol
+avgle.com##a[href*="/redirect"]
+avgle.com##img[src*=".php"]
 baidu.com###header > div:last-child > div > a:first-child
 baidu.com##.barea-ad
 baidu.com##.brand-entry
@@ -3741,6 +3746,7 @@ stroi-help.ru##.alert_warn
 sv.baidu.com##.open-button-wrap
 swaego.ru##body > .special-message-wrapper
 taisinba.com,taimadou.com,rapidtai.com##.top-phonehome
+tasexy.com##[id^="sexy_b"]
 tassbiz.ru##.adblock_notif
 technologypep.com##.main-container-wrap > div[class$="-bg"]
 technologypep.com##.main-container-wrap > div[id][class][style*="opacity"]
@@ -10743,6 +10749,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||iicke.cyou^
 ||iid97.com/bdgo/
 ||iid97.com/wp-content/cache/autoptimize/js/
+||iidjo.xyz^
 ||iigushi.com^
 ||iihpwzo.cn^
 ||iiilab.com/sponsor
