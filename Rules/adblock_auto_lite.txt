@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7eI7Fm+GX2rbGkMupJmjQw
+! Checksum: +eSNV+9HC/VWsnwvlWuRTw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230423083447
+! Version: 20230423092637
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-23 08:34:47
-! Total Count: 18478
+! Last modified: 2023-04-23 09:26:37
+! Total Count: 18767
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -209,6 +209,7 @@
 ###check_ad_block
 ###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
+###container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
 ###container > .item.title_normal
 ###container > .item.title_top
 ###container > .sectionBanner
@@ -1086,6 +1087,7 @@
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-m-overlay
 ##.popup + .shortcuts-mobile-overlay
+##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.preroll-blocker
@@ -1363,6 +1365,7 @@
 ##a[href*=".bet365.gdn"]
 ##a[href*=".bet927.bet"]
 ##a[href*=".bfq04.com/"]
+##a[href*=".biquge"][href*="app"]
 ##a[href*=".birthcaker.cn"]
 ##a[href*=".bj-lingan.com/"]
 ##a[href*=".blueyoko.com/"]
@@ -1688,6 +1691,7 @@
 ##a[href="http://hqbet2191.com"]
 ##a[href="http://www.tw787.com/"]
 ##a[href="http://www.yabovip5.cc/"]
+##a[href="http://www.zmtt.net/download"]
 ##a[href="https://368259.com"]
 ##a[href="https://guapitv.app/"]
 ##a[href="https://www.ledlandi.com"]
@@ -2785,6 +2789,61 @@
 7mmtv.sx##[class^="root--"]
 7sim.net##html > body ~ div
 99re.com##a[href][target="_blank"] > img[src]
+://*.biqu*.cc/*/*.js
+://*.biqu*.cn/*/*.js
+://*.biqu*.co/*/*.js
+://*.biqu*.com/*/*.js
+://*.biqu*.info/*/*.js
+://*.biqu*.la/*/*.js
+://*.biqu*.net/*/*.js
+://*.biqu*.org/*/*.js
+://*.biqu*.so/*/*.js
+://*.biqu*.tw/*/*.js
+://*.biqu*.us/*/*.js
+://*.dingdian*.cc/*/*.js
+://*.dingdian*.cn/*/*.js
+://*.dingdian*.co/*/*.js
+://*.dingdian*.com/*/*.js
+://*.dingdian*.info/*/*.js
+://*.dingdian*.la/*/*.js
+://*.dingdian*.net/*/*.js
+://*.dingdian*.org/*/*.js
+://*.dingdian*.so/*/*.js
+://*.dingdian*.tw/*/*.js
+://*.dingdian*.us/*/*.js
+://*.kbookzw*.cc/*/*.js
+://*.kbookzw*.cn/*/*.js
+://*.kbookzw*.co/*/*.js
+://*.kbookzw*.com/*/*.js
+://*.kbookzw*.info/*/*.js
+://*.kbookzw*.la/*/*.js
+://*.kbookzw*.net/*/*.js
+://*.kbookzw*.org/*/*.js
+://*.kbookzw*.so/*/*.js
+://*.kbookzw*.tw/*/*.js
+://*.kbookzw*.us/*/*.js
+://*.kudushu*.cc/*/*.js
+://*.kudushu*.cn/*/*.js
+://*.kudushu*.co/*/*.js
+://*.kudushu*.com/*/*.js
+://*.kudushu*.info/*/*.js
+://*.kudushu*.la/*/*.js
+://*.kudushu*.net/*/*.js
+://*.kudushu*.org/*/*.js
+://*.kudushu*.so/*/*.js
+://*.kudushu*.tw/*/*.js
+://*.kudushu*.us/*/*.js
+://*.luoqiu*.cc/*/*.js
+://*.luoqiu*.cn/*/*.js
+://*.luoqiu*.co/*/*.js
+://*.luoqiu*.com/*/*.js
+://*.luoqiu*.info/*/*.js
+://*.luoqiu*.la/*/*.js
+://*.luoqiu*.net/*/*.js
+://*.luoqiu*.org/*/*.js
+://*.luoqiu*.so/*/*.js
+://*.luoqiu*.tw/*/*.js
+://*.luoqiu*.us/*/*.js
 ://*.zd*.fyi/*x*x*x*x*=$third-party
 ://*.zd*.live/*x*x*x*x*=$third-party
 ://*.zd*.xyz/*x*x*x*x*=$third-party
@@ -2887,6 +2946,234 @@
 ?file=ads&
 ?frm=*&ct=*&dit=$third-party
 ?method=baidu.ting.commercial.tactics&
+@@.cc/dist/comm.js$~third-party
+@@.cc/dist/common.js$~third-party
+@@.cc/dist/zepto.min.js$~third-party
+@@.cc/js/chapter.js$~third-party
+@@.cc/js/comm.js$~third-party
+@@.cc/js/common.js$~third-party
+@@.cc/js/jquery.min.js$~third-party
+@@.cc/js/read.js$~third-party
+@@.cc/js/style.css$~third-party
+@@.cc/js/wap.js$~third-party
+@@.cc/js/yuedu.js$~third-party
+@@.cc/script/comm.js$~third-party
+@@.cc/script/read.js$~third-party
+@@.cc/script/wap.js$~third-party
+@@.cc/script/yuedu.js$~third-party
+@@.cc/xxgg/bookll*.js$~third-party
+@@.cc/xxgg/bookxxll*.js$~third-party
+@@.cc/xxgg/comm.js$~third-party
+@@.cc/xxgg/yuedu.js$~third-party
+@@.cn/dist/comm.js$~third-party
+@@.cn/dist/common.js$~third-party
+@@.cn/dist/zepto.min.js$~third-party
+@@.cn/js/chapter.js$~third-party
+@@.cn/js/comm.js$~third-party
+@@.cn/js/common.js$~third-party
+@@.cn/js/jquery.min.js$~third-party
+@@.cn/js/read.js$~third-party
+@@.cn/js/style.css$~third-party
+@@.cn/js/wap.js$~third-party
+@@.cn/js/yuedu.js$~third-party
+@@.cn/script/comm.js$~third-party
+@@.cn/script/read.js$~third-party
+@@.cn/script/wap.js$~third-party
+@@.cn/script/yuedu.js$~third-party
+@@.cn/xxgg/bookll*.js$~third-party
+@@.cn/xxgg/bookxxll*.js$~third-party
+@@.cn/xxgg/comm.js$~third-party
+@@.cn/xxgg/yuedu.js$~third-party
+@@.co/dist/comm.js$~third-party
+@@.co/dist/common.js$~third-party
+@@.co/dist/zepto.min.js$~third-party
+@@.co/js/chapter.js$~third-party
+@@.co/js/comm.js$~third-party
+@@.co/js/common.js$~third-party
+@@.co/js/jquery.min.js$~third-party
+@@.co/js/read.js$~third-party
+@@.co/js/style.css$~third-party
+@@.co/js/wap.js$~third-party
+@@.co/js/yuedu.js$~third-party
+@@.co/script/comm.js$~third-party
+@@.co/script/read.js$~third-party
+@@.co/script/wap.js$~third-party
+@@.co/script/yuedu.js$~third-party
+@@.co/xxgg/bookll*.js$~third-party
+@@.co/xxgg/bookxxll*.js$~third-party
+@@.co/xxgg/comm.js$~third-party
+@@.co/xxgg/yuedu.js$~third-party
+@@.com/dist/comm.js$~third-party
+@@.com/dist/common.js$~third-party
+@@.com/dist/zepto.min.js$~third-party
+@@.com/js/chapter.js$~third-party
+@@.com/js/comm.js$~third-party
+@@.com/js/common.js$~third-party
+@@.com/js/jquery.min.js$~third-party
+@@.com/js/read.js$~third-party
+@@.com/js/style.css$~third-party
+@@.com/js/wap.js$~third-party
+@@.com/js/yuedu.js$~third-party
+@@.com/script/comm.js$~third-party
+@@.com/script/read.js$~third-party
+@@.com/script/wap.js$~third-party
+@@.com/script/yuedu.js$~third-party
+@@.com/xxgg/bookll*.js$~third-party
+@@.com/xxgg/bookxxll*.js$~third-party
+@@.com/xxgg/comm.js$~third-party
+@@.com/xxgg/yuedu.js$~third-party
+@@.info/dist/comm.js$~third-party
+@@.info/dist/common.js$~third-party
+@@.info/dist/zepto.min.js$~third-party
+@@.info/js/chapter.js$~third-party
+@@.info/js/comm.js$~third-party
+@@.info/js/common.js$~third-party
+@@.info/js/jquery.min.js$~third-party
+@@.info/js/read.js$~third-party
+@@.info/js/style.css$~third-party
+@@.info/js/wap.js$~third-party
+@@.info/js/yuedu.js$~third-party
+@@.info/script/comm.js$~third-party
+@@.info/script/read.js$~third-party
+@@.info/script/wap.js$~third-party
+@@.info/script/yuedu.js$~third-party
+@@.info/xxgg/bookll*.js$~third-party
+@@.info/xxgg/bookxxll*.js$~third-party
+@@.info/xxgg/comm.js$~third-party
+@@.info/xxgg/yuedu.js$~third-party
+@@.la/dist/comm.js$~third-party
+@@.la/dist/common.js$~third-party
+@@.la/dist/zepto.min.js$~third-party
+@@.la/js/chapter.js$~third-party
+@@.la/js/comm.js$~third-party
+@@.la/js/common.js$~third-party
+@@.la/js/jquery.min.js$~third-party
+@@.la/js/read.js$~third-party
+@@.la/js/style.css$~third-party
+@@.la/js/wap.js$~third-party
+@@.la/js/yuedu.js$~third-party
+@@.la/script/comm.js$~third-party
+@@.la/script/read.js$~third-party
+@@.la/script/wap.js$~third-party
+@@.la/script/yuedu.js$~third-party
+@@.la/xxgg/bookll*.js$~third-party
+@@.la/xxgg/bookxxll*.js$~third-party
+@@.la/xxgg/comm.js$~third-party
+@@.la/xxgg/yuedu.js$~third-party
+@@.me/dist/comm.js$~third-party
+@@.me/dist/common.js$~third-party
+@@.me/dist/zepto.min.js$~third-party
+@@.me/js/chapter.js$~third-party
+@@.me/js/comm.js$~third-party
+@@.me/js/common.js$~third-party
+@@.me/js/jquery.min.js$~third-party
+@@.me/js/read.js$~third-party
+@@.me/js/style.css$~third-party
+@@.me/js/wap.js$~third-party
+@@.me/js/yuedu.js$~third-party
+@@.me/script/comm.js$~third-party
+@@.me/script/read.js$~third-party
+@@.me/script/wap.js$~third-party
+@@.me/script/yuedu.js$~third-party
+@@.me/xxgg/bookll*.js$~third-party
+@@.me/xxgg/bookxxll*.js$~third-party
+@@.me/xxgg/comm.js$~third-party
+@@.me/xxgg/yuedu.js$~third-party
+@@.net/dist/comm.js$~third-party
+@@.net/dist/common.js$~third-party
+@@.net/dist/zepto.min.js$~third-party
+@@.net/js/chapter.js$~third-party
+@@.net/js/comm.js$~third-party
+@@.net/js/common.js$~third-party
+@@.net/js/jquery.min.js$~third-party
+@@.net/js/read.js$~third-party
+@@.net/js/style.css$~third-party
+@@.net/js/wap.js$~third-party
+@@.net/js/yuedu.js$~third-party
+@@.net/script/comm.js$~third-party
+@@.net/script/read.js$~third-party
+@@.net/script/wap.js$~third-party
+@@.net/script/yuedu.js$~third-party
+@@.net/xxgg/bookll*.js$~third-party
+@@.net/xxgg/bookxxll*.js$~third-party
+@@.net/xxgg/comm.js$~third-party
+@@.net/xxgg/yuedu.js$~third-party
+@@.org/dist/comm.js$~third-party
+@@.org/dist/common.js$~third-party
+@@.org/dist/zepto.min.js$~third-party
+@@.org/js/chapter.js$~third-party
+@@.org/js/comm.js$~third-party
+@@.org/js/common.js$~third-party
+@@.org/js/jquery.min.js$~third-party
+@@.org/js/read.js$~third-party
+@@.org/js/style.css$~third-party
+@@.org/js/wap.js$~third-party
+@@.org/js/yuedu.js$~third-party
+@@.org/script/comm.js$~third-party
+@@.org/script/read.js$~third-party
+@@.org/script/wap.js$~third-party
+@@.org/script/yuedu.js$~third-party
+@@.org/xxgg/bookll*.js$~third-party
+@@.org/xxgg/bookxxll*.js$~third-party
+@@.org/xxgg/comm.js$~third-party
+@@.org/xxgg/yuedu.js$~third-party
+@@.so/dist/comm.js$~third-party
+@@.so/dist/common.js$~third-party
+@@.so/dist/zepto.min.js$~third-party
+@@.so/js/chapter.js$~third-party
+@@.so/js/comm.js$~third-party
+@@.so/js/common.js$~third-party
+@@.so/js/jquery.min.js$~third-party
+@@.so/js/read.js$~third-party
+@@.so/js/style.css$~third-party
+@@.so/js/wap.js$~third-party
+@@.so/js/yuedu.js$~third-party
+@@.so/script/comm.js$~third-party
+@@.so/script/read.js$~third-party
+@@.so/script/wap.js$~third-party
+@@.so/script/yuedu.js$~third-party
+@@.so/xxgg/bookll*.js$~third-party
+@@.so/xxgg/bookxxll*.js$~third-party
+@@.so/xxgg/comm.js$~third-party
+@@.so/xxgg/yuedu.js$~third-party
+@@.tw/dist/comm.js$~third-party
+@@.tw/dist/common.js$~third-party
+@@.tw/dist/zepto.min.js$~third-party
+@@.tw/js/chapter.js$~third-party
+@@.tw/js/comm.js$~third-party
+@@.tw/js/common.js$~third-party
+@@.tw/js/jquery.min.js$~third-party
+@@.tw/js/read.js$~third-party
+@@.tw/js/style.css$~third-party
+@@.tw/js/wap.js$~third-party
+@@.tw/js/yuedu.js$~third-party
+@@.tw/script/comm.js$~third-party
+@@.tw/script/read.js$~third-party
+@@.tw/script/wap.js$~third-party
+@@.tw/script/yuedu.js$~third-party
+@@.tw/xxgg/bookll*.js$~third-party
+@@.tw/xxgg/bookxxll*.js$~third-party
+@@.tw/xxgg/comm.js$~third-party
+@@.tw/xxgg/yuedu.js$~third-party
+@@.us/dist/comm.js$~third-party
+@@.us/dist/common.js$~third-party
+@@.us/dist/zepto.min.js$~third-party
+@@.us/js/chapter.js$~third-party
+@@.us/js/comm.js$~third-party
+@@.us/js/common.js$~third-party
+@@.us/js/jquery.min.js$~third-party
+@@.us/js/read.js$~third-party
+@@.us/js/style.css$~third-party
+@@.us/js/wap.js$~third-party
+@@.us/js/yuedu.js$~third-party
+@@.us/script/comm.js$~third-party
+@@.us/script/read.js$~third-party
+@@.us/script/wap.js$~third-party
+@@.us/script/yuedu.js$~third-party
+@@.us/xxgg/bookll*.js$~third-party
+@@.us/xxgg/bookxxll*.js$~third-party
+@@.us/xxgg/comm.js$~third-party
+@@.us/xxgg/yuedu.js$~third-party
 @@/300x250.gif$domain=manwa1.vip|manwa2.vip|manwa3.vip|manwa4.vip|manwa5.vip|manwa6.vip|manwa7.vip|manwa8.vip|manwa9.vip|manwa10.vip|manwa.vip|manwa1.site|manwa2.site|manwa3.site|manwa4.site|manwa5.site|manwa6.site|manwa7.site|manwa8.site|manwa9.site|manwa10.site|manwa.site|manwa1.me|manwa2.me|manwa3.me|manwa4.me|manwa5.me|manwa6.me|manwa7.me|manwa8.me|manwa9.me|manwa10.me|manwa.me|mwcomic1.cc|mwcomic2.cc|mwcomic3.cc|mwcomic4.cc|mwcomic5.cc|mwcomic6.cc|mwcomic7.cc|mwcomic8.cc|mwcomic9.cc|mwcomic10.cc|mwcomic.cc
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
 @@/adsbygoogle.js$script,domain=arabiaweather.com
@@ -3392,6 +3679,7 @@ liga.net#@#div[id^="div-gpt-ad"]
 llifle.com###ad_blocker_found
 lostfilm.tv##div[class^="alarm"]
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
+luoqiuzw.com##.show-app2
 m.bilibili.com##.home-float-openapp.launch-app-btn
 m.bilibili.com##.large.openapp-dialog
 m.bilibili.com##.m-float-openapp.launch-app-btn
@@ -11188,6 +11476,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jbazhaheia.top^
 ||jbnmuye.cn^
 ||jbplm.com^
+||jbtfmis.xyz^
 ||jbuzacg.cn^
 ||jbyy010.com^
 ||jbzjegn.cn^
