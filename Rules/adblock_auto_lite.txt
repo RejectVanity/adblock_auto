@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sM5efSn87+fV+PhYqhMriw
+! Checksum: 8eFgdBEwawXWjoikHoojkg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230423171103
+! Version: 20230423214714
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-23 17:11:03
-! Total Count: 18490
+! Last modified: 2023-04-23 21:47:14
+! Total Count: 18500
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3106,9 +3106,16 @@ baidu.com##.na-ec-ad-tag
 baidu.com##.wgt-union-wapqbyoux-ads
 baidu.com##[class$="-ad"]
 baidu.com##[class$="-ads"]
+baidu.com##[class$="_ad"]
+baidu.com##[class$="_ads"]
+baidu.com##[class*="ad"][class*="recommend"]
+baidu.com##[class*="brand"][class*="Entry"]
+baidu.com##[class*="fc-"][id*="ad"]
 baidu.com##[class*="na-ec-"]
 baidu.com##[class^="ad-"]
 baidu.com##[class^="fc-"]
+baidu.com##[id*="ec-"][id*="ad"]
+baidu.com##[id*="ec_"][id*="ad"]
 baidu.com##[srcid*="_ad"]
 baidu.com,bdimg.com###aside-ad
 baijiahao.baidu.com##.infinite-scroll-component__outerdiv
@@ -8206,6 +8213,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dailynews.sina.com/gb/ads/
 ||dailynews.wiki^
 ||dailyportalz.jp/api/dpz/adPosts|
+||daima.aixiaola.com^
 ||daima.diaoben.net^
 ||daima.ijq.tv^
 ||daima.ssata.cn^
@@ -15683,6 +15691,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||suyuhao233.xyz^
 ||svdpgmt.cn^
 ||svnfgib.cn^
+||sw76r85eda3k.com/need/h5.
 ||swadakesb.cyou^
 ||swelen.com^
 ||swicgq.xyz^
@@ -17214,6 +17223,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||wxskqy.cn^
 ||wxtp.cdn.bcebos.com^$popup
 ||wxumevd.cn^
+||wxxmt.xyz^
 ||wxzrw.com^
 ||wy123.fun^
 ||wy213.com^$popup,third-party
