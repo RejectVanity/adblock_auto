@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: +eSNV+9HC/VWsnwvlWuRTw
+! Checksum: d4ADq/yfh7WgkMM0wa5a2g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230423092637
+! Version: 20230423160727
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-23 09:26:37
-! Total Count: 18767
+! Last modified: 2023-04-23 16:07:27
+! Total Count: 18773
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -45,6 +45,7 @@
 ###ad > .pre-img
 ###ad-SNSSplashAd
 ###ad-box
+###ad-floatwin
 ###ad-index
 ###ad-message
 ###ad1[onclick="window.open(this.url)"]
@@ -4902,6 +4903,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||3798.com^$third-party
 ||37tek.fun^
 ||380.tw^$popup,third-party
+||380tv.com/upload/*-ad-
 ||387635.com^
 ||38taobao.com^
 ||39.net/PictureLib/A/f76/20170814/org_1428963.gif
@@ -6579,6 +6581,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ammcg.imgscloud.com/toy/
 ||amobee.com^
 ||amradmin.5173.com^
+||amryqmm.cn^
 ||ams.fx678.com^
 ||amvecurt.cn^
 ||an.facebook.com^
@@ -8837,6 +8840,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||dongya.org^
 ||doniv.net^$third-party
+||donku.club^
 ||doodlemobile.com/feature_server/fullScreen/get.php
 ||doodlemobile.com/feature_server/geo-ip/test.php
 ||doracms.cn^
@@ -8921,6 +8925,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dszeda.cn^
 ||dtckvpc.cn^
 ||dtjhtp.xyz^
+||dtnhjzl.xyz^
 ||dtqiow.cn^
 ||du1.bbdj.com^
 ||du9zgx.cn^
@@ -18362,6 +18367,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yyujke.top^
 ||yyupphb.cn^
 ||yywccbdy.cyou^
+||yywh.vip^
 ||yywvruv.cn^
 ||yywz123.com/file/A*.js
 ||yyxjt.cloud^
