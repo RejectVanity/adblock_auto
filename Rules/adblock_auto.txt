@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: dbbAqsZ9JQJ2lTk7E8IXNQ
+! Checksum: e8QID/Rj2aeLZTAijTZxaw
 ! Title: 混合规则(自动更新)
-! Version: 20230423165130
+! Version: 20230423171101
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-23 16:51:30
-! Total Count: 107715
+! Last modified: 2023-04-23 17:11:01
+! Total Count: 107800
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -30045,9 +30045,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.cc/*/*jquery*.js$~third-party
 @@.cc/*/comm*.js$~third-party
 @@.cc/*/common.js$~third-party
+@@.cc/*/jquery.main.js$~third-party
+@@.cc/*/login.js$~third-party
+@@.cc/*/md5*.js$~third-party
+@@.cc/*/md5.min.js$~third-party
 @@.cc/*/user.js$~third-party
 @@.cc/dist/comm.js$~third-party
 @@.cc/dist/common.js$~third-party
+@@.cc/dist/login.js$~third-party
+@@.cc/dist/md5.min.js$~third-party
 @@.cc/dist/zepto.min.js$~third-party
 @@.cc/js/chapter.js$~third-party
 @@.cc/js/comm.js$~third-party
@@ -30057,6 +30063,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.cc/js/style.css$~third-party
 @@.cc/js/wap.js$~third-party
 @@.cc/js/yuedu.js$~third-party
+@@.cc/login.js$~third-party
 @@.cc/script/comm.js$~third-party
 @@.cc/script/read.js$~third-party
 @@.cc/script/wap.js$~third-party
@@ -30068,9 +30075,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.cn/*/*jquery*.js$~third-party
 @@.cn/*/comm*.js$~third-party
 @@.cn/*/common.js$~third-party
+@@.cn/*/jquery.main.js$~third-party
+@@.cn/*/login.js$~third-party
+@@.cn/*/md5*.js$~third-party
+@@.cn/*/md5.min.js$~third-party
 @@.cn/*/user.js$~third-party
 @@.cn/dist/comm.js$~third-party
 @@.cn/dist/common.js$~third-party
+@@.cn/dist/login.js$~third-party
+@@.cn/dist/md5.min.js$~third-party
 @@.cn/dist/zepto.min.js$~third-party
 @@.cn/js/chapter.js$~third-party
 @@.cn/js/comm.js$~third-party
@@ -30080,6 +30093,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.cn/js/style.css$~third-party
 @@.cn/js/wap.js$~third-party
 @@.cn/js/yuedu.js$~third-party
+@@.cn/login.js$~third-party
 @@.cn/script/comm.js$~third-party
 @@.cn/script/read.js$~third-party
 @@.cn/script/wap.js$~third-party
@@ -30091,9 +30105,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.co/*/*jquery*.js$~third-party
 @@.co/*/comm*.js$~third-party
 @@.co/*/common.js$~third-party
+@@.co/*/jquery.main.js$~third-party
+@@.co/*/login.js$~third-party
+@@.co/*/md5*.js$~third-party
+@@.co/*/md5.min.js$~third-party
 @@.co/*/user.js$~third-party
 @@.co/dist/comm.js$~third-party
 @@.co/dist/common.js$~third-party
+@@.co/dist/login.js$~third-party
+@@.co/dist/md5.min.js$~third-party
 @@.co/dist/zepto.min.js$~third-party
 @@.co/js/chapter.js$~third-party
 @@.co/js/comm.js$~third-party
@@ -30103,6 +30123,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.co/js/style.css$~third-party
 @@.co/js/wap.js$~third-party
 @@.co/js/yuedu.js$~third-party
+@@.co/login.js$~third-party
 @@.co/script/comm.js$~third-party
 @@.co/script/read.js$~third-party
 @@.co/script/wap.js$~third-party
@@ -30114,11 +30135,17 @@ $websocket,domain=5nj.com|cechi8.com
 @@.com/*/*jquery*.js$~third-party
 @@.com/*/comm*.js$~third-party
 @@.com/*/common.js$~third-party
+@@.com/*/jquery.main.js$~third-party
+@@.com/*/login.js$~third-party
+@@.com/*/md5*.js$~third-party
+@@.com/*/md5.min.js$~third-party
 @@.com/*/user.js$~third-party
 @@.com/ad.aspx|$domain=xdingdian.cc
 @@.com/adv/$domain=my.ctrip.com
 @@.com/dist/comm.js$~third-party
 @@.com/dist/common.js$~third-party
+@@.com/dist/login.js$~third-party
+@@.com/dist/md5.min.js$~third-party
 @@.com/dist/zepto.min.js$~third-party
 @@.com/js/a_d/$domain=colamanhua.com
 @@.com/js/chapter.js$~third-party
@@ -30129,6 +30156,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.com/js/style.css$~third-party
 @@.com/js/wap.js$~third-party
 @@.com/js/yuedu.js$~third-party
+@@.com/login.js$~third-party
 @@.com/logo/ad.$domain=colamanhua.com
 @@.com/script/comm.js$~third-party
 @@.com/script/read.js$~third-party
@@ -30143,9 +30171,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.info/*/*jquery*.js$~third-party
 @@.info/*/comm*.js$~third-party
 @@.info/*/common.js$~third-party
+@@.info/*/jquery.main.js$~third-party
+@@.info/*/login.js$~third-party
+@@.info/*/md5*.js$~third-party
+@@.info/*/md5.min.js$~third-party
 @@.info/*/user.js$~third-party
 @@.info/dist/comm.js$~third-party
 @@.info/dist/common.js$~third-party
+@@.info/dist/login.js$~third-party
+@@.info/dist/md5.min.js$~third-party
 @@.info/dist/zepto.min.js$~third-party
 @@.info/js/chapter.js$~third-party
 @@.info/js/comm.js$~third-party
@@ -30155,6 +30189,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.info/js/style.css$~third-party
 @@.info/js/wap.js$~third-party
 @@.info/js/yuedu.js$~third-party
+@@.info/login.js$~third-party
 @@.info/script/comm.js$~third-party
 @@.info/script/read.js$~third-party
 @@.info/script/wap.js$~third-party
@@ -30167,9 +30202,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.la/*/*jquery*.js$~third-party
 @@.la/*/comm*.js$~third-party
 @@.la/*/common.js$~third-party
+@@.la/*/jquery.main.js$~third-party
+@@.la/*/login.js$~third-party
+@@.la/*/md5*.js$~third-party
+@@.la/*/md5.min.js$~third-party
 @@.la/*/user.js$~third-party
 @@.la/dist/comm.js$~third-party
 @@.la/dist/common.js$~third-party
+@@.la/dist/login.js$~third-party
+@@.la/dist/md5.min.js$~third-party
 @@.la/dist/zepto.min.js$~third-party
 @@.la/js/chapter.js$~third-party
 @@.la/js/comm.js$~third-party
@@ -30179,6 +30220,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.la/js/style.css$~third-party
 @@.la/js/wap.js$~third-party
 @@.la/js/yuedu.js$~third-party
+@@.la/login.js$~third-party
 @@.la/script/comm.js$~third-party
 @@.la/script/read.js$~third-party
 @@.la/script/wap.js$~third-party
@@ -30190,9 +30232,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.me/*/*jquery*.js$~third-party
 @@.me/*/comm*.js$~third-party
 @@.me/*/common.js$~third-party
+@@.me/*/jquery.main.js$~third-party
+@@.me/*/login.js$~third-party
+@@.me/*/md5*.js$~third-party
+@@.me/*/md5.min.js$~third-party
 @@.me/*/user.js$~third-party
 @@.me/dist/comm.js$~third-party
 @@.me/dist/common.js$~third-party
+@@.me/dist/login.js$~third-party
+@@.me/dist/md5.min.js$~third-party
 @@.me/dist/zepto.min.js$~third-party
 @@.me/js/chapter.js$~third-party
 @@.me/js/comm.js$~third-party
@@ -30202,6 +30250,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.me/js/style.css$~third-party
 @@.me/js/wap.js$~third-party
 @@.me/js/yuedu.js$~third-party
+@@.me/login.js$~third-party
 @@.me/script/comm.js$~third-party
 @@.me/script/read.js$~third-party
 @@.me/script/wap.js$~third-party
@@ -30213,9 +30262,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.net/*/*jquery*.js$~third-party
 @@.net/*/comm*.js$~third-party
 @@.net/*/common.js$~third-party
+@@.net/*/jquery.main.js$~third-party
+@@.net/*/login.js$~third-party
+@@.net/*/md5*.js$~third-party
+@@.net/*/md5.min.js$~third-party
 @@.net/*/user.js$~third-party
 @@.net/dist/comm.js$~third-party
 @@.net/dist/common.js$~third-party
+@@.net/dist/login.js$~third-party
+@@.net/dist/md5.min.js$~third-party
 @@.net/dist/zepto.min.js$~third-party
 @@.net/js/chapter.js$~third-party
 @@.net/js/comm.js$~third-party
@@ -30225,6 +30280,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.net/js/style.css$~third-party
 @@.net/js/wap.js$~third-party
 @@.net/js/yuedu.js$~third-party
+@@.net/login.js$~third-party
 @@.net/script/comm.js$~third-party
 @@.net/script/read.js$~third-party
 @@.net/script/wap.js$~third-party
@@ -30236,9 +30292,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.org/*/*jquery*.js$~third-party
 @@.org/*/comm*.js$~third-party
 @@.org/*/common.js$~third-party
+@@.org/*/jquery.main.js$~third-party
+@@.org/*/login.js$~third-party
+@@.org/*/md5*.js$~third-party
+@@.org/*/md5.min.js$~third-party
 @@.org/*/user.js$~third-party
 @@.org/dist/comm.js$~third-party
 @@.org/dist/common.js$~third-party
+@@.org/dist/login.js$~third-party
+@@.org/dist/md5.min.js$~third-party
 @@.org/dist/zepto.min.js$~third-party
 @@.org/js/chapter.js$~third-party
 @@.org/js/comm.js$~third-party
@@ -30248,6 +30310,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.org/js/style.css$~third-party
 @@.org/js/wap.js$~third-party
 @@.org/js/yuedu.js$~third-party
+@@.org/login.js$~third-party
 @@.org/script/comm.js$~third-party
 @@.org/script/read.js$~third-party
 @@.org/script/wap.js$~third-party
@@ -30260,9 +30323,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.so/*/*jquery*.js$~third-party
 @@.so/*/comm*.js$~third-party
 @@.so/*/common.js$~third-party
+@@.so/*/jquery.main.js$~third-party
+@@.so/*/login.js$~third-party
+@@.so/*/md5*.js$~third-party
+@@.so/*/md5.min.js$~third-party
 @@.so/*/user.js$~third-party
 @@.so/dist/comm.js$~third-party
 @@.so/dist/common.js$~third-party
+@@.so/dist/login.js$~third-party
+@@.so/dist/md5.min.js$~third-party
 @@.so/dist/zepto.min.js$~third-party
 @@.so/js/chapter.js$~third-party
 @@.so/js/comm.js$~third-party
@@ -30272,6 +30341,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.so/js/style.css$~third-party
 @@.so/js/wap.js$~third-party
 @@.so/js/yuedu.js$~third-party
+@@.so/login.js$~third-party
 @@.so/script/comm.js$~third-party
 @@.so/script/read.js$~third-party
 @@.so/script/wap.js$~third-party
@@ -30283,9 +30353,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.tw/*/*jquery*.js$~third-party
 @@.tw/*/comm*.js$~third-party
 @@.tw/*/common.js$~third-party
+@@.tw/*/jquery.main.js$~third-party
+@@.tw/*/login.js$~third-party
+@@.tw/*/md5*.js$~third-party
+@@.tw/*/md5.min.js$~third-party
 @@.tw/*/user.js$~third-party
 @@.tw/dist/comm.js$~third-party
 @@.tw/dist/common.js$~third-party
+@@.tw/dist/login.js$~third-party
+@@.tw/dist/md5.min.js$~third-party
 @@.tw/dist/zepto.min.js$~third-party
 @@.tw/js/chapter.js$~third-party
 @@.tw/js/comm.js$~third-party
@@ -30295,6 +30371,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.tw/js/style.css$~third-party
 @@.tw/js/wap.js$~third-party
 @@.tw/js/yuedu.js$~third-party
+@@.tw/login.js$~third-party
 @@.tw/script/comm.js$~third-party
 @@.tw/script/read.js$~third-party
 @@.tw/script/wap.js$~third-party
@@ -30306,9 +30383,15 @@ $websocket,domain=5nj.com|cechi8.com
 @@.us/*/*jquery*.js$~third-party
 @@.us/*/comm*.js$~third-party
 @@.us/*/common.js$~third-party
+@@.us/*/jquery.main.js$~third-party
+@@.us/*/login.js$~third-party
+@@.us/*/md5*.js$~third-party
+@@.us/*/md5.min.js$~third-party
 @@.us/*/user.js$~third-party
 @@.us/dist/comm.js$~third-party
 @@.us/dist/common.js$~third-party
+@@.us/dist/login.js$~third-party
+@@.us/dist/md5.min.js$~third-party
 @@.us/dist/zepto.min.js$~third-party
 @@.us/js/chapter.js$~third-party
 @@.us/js/comm.js$~third-party
@@ -30318,6 +30401,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.us/js/style.css$~third-party
 @@.us/js/wap.js$~third-party
 @@.us/js/yuedu.js$~third-party
+@@.us/login.js$~third-party
 @@.us/script/comm.js$~third-party
 @@.us/script/read.js$~third-party
 @@.us/script/wap.js$~third-party
@@ -65280,6 +65364,7 @@ zzzyk.com###Tinfo
 ||dailynews.wiki^
 ||dailyportalz.jp/api/dpz/adPosts|
 ||dailystuffall.com^
+||daima.aixiaola.com^
 ||daima.diaoben.net^
 ||daima.ijq.tv^
 ||daima.ssata.cn^
