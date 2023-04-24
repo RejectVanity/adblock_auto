@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: OkKq/8IrA5x3OZ/j1wPX7Q
+! Checksum: pWr3IULOk1jZ9bOsYU9qbg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230424160839
+! Version: 20230425000717
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-24 16:08:39
-! Total Count: 18510
+! Last modified: 2023-04-25 00:07:17
+! Total Count: 18516
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3111,7 +3111,7 @@ baidu.com##[class$="_ad"]
 baidu.com##[class$="_ads"]
 baidu.com##[class*="ad"][class*="recommend"]
 baidu.com##[class*="brand"][class*="Entry"]
-baidu.com##[class*="fc-"][id*="ad"]
+baidu.com##[class*="fc-"][class*="ad"]
 baidu.com##[class*="na-ec-"]
 baidu.com##[class^="ad-"]
 baidu.com##[class^="fc-"]
@@ -6588,6 +6588,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||avtt123.cc/*/dm.js
 ||avz3.xyz^
 ||aw6s.top^
+||awdc6.com^
 ||awesomeagreement.com^$third-party
 ||awifi.cn^$third-party
 ||awleo.cn^
@@ -7602,6 +7603,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgdiqvn.cn^
 ||cgdjy.top^
+||cge.cc^
 ||cgfdjz.net/xia.js
 ||cgqmss.xyz^
 ||cgskqg.com^
@@ -7762,6 +7764,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cj-sys.club^
 ||cj7g.top^
 ||cja-1223.cc^
+||cjcvd6.com^
 ||cjdby.net/Public/home/images/advImg/
 ||cjgcedu.com^
 ||cjhaoliao.xyz^
@@ -8296,6 +8299,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dchxxvk.cn^
 ||dcmh.xyz^
 ||dcnjc4.com^
+||dcqs4.com^
 ||dcvbnzss.xyz^
 ||dczqjfo.cn^
 ||dd-lightingshow.com^
@@ -11928,6 +11932,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||kpqdkg.xyz^
+||kprjva.cn^
 ||kpshx.douguo.com^
 ||kptygka.cn^
 ||kq7it3c6.club^
@@ -12804,6 +12809,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
 ||melife.love^
+||mem3.cn^
 ||meng.360zuowen.com^
 ||mengbalh.fun^
 ||mengbli.com^
