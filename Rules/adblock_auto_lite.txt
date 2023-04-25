@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: U2dnl0AsQPNqRuXao3V/mw
+! Checksum: U2PQKfdci8GMRYJIIE4byQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230425002242
+! Version: 20230425083151
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-25 00:22:42
-! Total Count: 18519
+! Last modified: 2023-04-25 08:31:51
+! Total Count: 18533
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -208,6 +208,7 @@
 ###cat_intro_second_ad
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###check_ad_block
+###checkadblockernow
 ###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
 ###container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
@@ -343,6 +344,7 @@
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
 ###main.site-main > div > div > a[href] > img
 ###mainbody:nth-child(5) > .mylist
+###mdp-deblocker-ads
 ###mdp-deblocker-js-disabled
 ###menu + #topBox
 ###menu + script + #topBox
@@ -655,6 +657,7 @@
 ##.ad_zone
 ##.adace-popup-detector
 ##.adb-def
+##.adb-detect.simple-alert-boxes
 ##.adb-enabled
 ##.adbanner
 ##.adbd-background
@@ -2693,6 +2696,7 @@
 /adblock-notice-
 /adblock-notify-by-bweb/*
 /adblock-warning-teaser/*
+/adblockDetector.
 /adblock_alerter.
 /adblock_alerter/*
 /adblock_erreur.
@@ -2733,6 +2737,7 @@
 /js/dj2ll*.js
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/pfadll*.js
+/levelmaxblock.js
 /lv/esnk/*$script,third-party
 /mdzzxttss.php?s=
 /mod_ablockdetector/*
@@ -2747,7 +2752,9 @@
 /vs.php?id=$third-party,xmlhttprequest
 /wdbloogablock.js
 /wp-content/plugins/ad-block-defender/*
+/wp-content/plugins/adunblocker/*
 /wp-content/plugins/deadblocker/*
+/wp-content/plugins/deblocker/*
 /wp-content/uploads/an-temp/*$script,stylesheet
 /wutime_adblock/*
 /www/delivery/*
@@ -12170,6 +12177,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lebkrli.cn^
 ||lecai.com/page/zhuanti/baidu/
 ||lecuiwangluo.com^
+||ledni.xyz^
 ||leeleo.top^$third-party
 ||lefengtv.com/js/tj.js
 ||leiersuqd.com^
@@ -14831,6 +14839,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rqmob.com^
 ||rqnggnsz.fun^
 ||rqpvevt.cn^
+||rqytqq.com^
 ||rr.pochengweiyuan.com^$third-party
 ||rr3r.com/requestData.
 ||rrkky.top^
@@ -14839,6 +14848,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rrr.plus^
 ||rrysogsiz.uno^
 ||rryy99.com/statics/js/stat.js
+||rsbepv.xyz^
 ||rsdkk26.xyz^
 ||rsdown.cn/statics/images/rs-banner.jpg
 ||rsmdlk.cn^
@@ -17053,6 +17063,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||winde.cc^
 ||windows.net/732d.js
 ||windowsxi.com^
+||windyang.xyz^
 ||winwin7.com/statics/js/pos_js/
 ||wioe3quod.cyou^
 ||wisafnie.space^
@@ -17246,6 +17257,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||wydfghjjh.live^
 ||wydnbnni.xyz^
 ||wyhifdpatl.com^
+||wyjbvoz.xyz^
 ||wykw.fun^
 ||wylqafraq7.com^
 ||wymcloud.love^
@@ -17765,6 +17777,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yea.im/5ht.gif
 ||yecaoyun.com/AD/
 ||yefu365.com/rebo/function.js
+||yegzkw.xyz^
 ||yehaobo5.com/js/
 ||yeip5aehi.icu^
 ||yellowjm.com^
@@ -18295,6 +18308,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zhongyi.ifeng.com/a/zt.js
 ||zhongyoo.com/img/js/tongji.js
 ||zhongyoo.com/shuju/
+||zhoubo01.cn^
 ||zhoudm.love^
 ||zhouduanyyds.com^
 ||zhpfl.cn^
