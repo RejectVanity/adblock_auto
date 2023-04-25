@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FmvBSnjU15DdYoxGHO6JVQ
+! Checksum: tPPPC58oYArPEOFQejhZaQ
 ! Title: 混合规则(自动更新)
-! Version: 20230426000729
+! Version: 20230426005402
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-26 00:07:29
+! Last modified: 2023-04-26 00:54:02
 ! Total Count: 108099
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -29105,7 +29105,6 @@ $websocket,domain=5nj.com|cechi8.com
 939394.xyz##div[style*="position: fixed;"]
 939394.xyz##img[src*=".xyz"][src*=".gif"]
 939394.xyz##img[src^="/"]
-939394.xyz##img[src^="\"]
 939394.xyz##img[src^="\\"]
 939394.xyz#?#:-abp-properties(/fixed|data/)
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
@@ -46572,6 +46571,7 @@ weiyun001.com##.agency-list
 weiyun001.com##.bg-box > .slide-box
 weiyun001.com##.g-side-r > a[onclick^="onLogs"]
 weizhenwx.com
+wen.baidu.com##.feed-recommend
 wenda.so.com##a[href^="http://e.so.com/search/eclk?"]
 wenda.tianya.cn##.s1Tit + .sideBox
 wendangwang.com###divActivity
@@ -62152,7 +62152,6 @@ zzzyk.com###Tinfo
 ||ciattedrof.ru^
 ||cibgphkiqbjk.com^
 ||cibleclick.com^
-||cibntv.net/youku/$media,mp4
 ||cibntv.net/youku/*.mp4?$media,redirect=noop-1s.mp4,domain=v.youku.com,important
 ||cibntv.net/youku/*.mp4?$media,redirect=noopmp4-1s,domain=v.youku.com,important
 ||cicelysewans.com^
@@ -85127,6 +85126,7 @@ zzzyk.com###Tinfo
 ||niulai0323166.space^
 ||niumeng.xyz^
 ||niunai.buzz^
+||niupic.com/images/2019/11/17/_17.
 ||niuspykmn.bar^
 ||niuxgame77.com^
 ||niuza.com^$image,subdocument,third-party
