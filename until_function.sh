@@ -77,7 +77,7 @@ local file="${1}"
 local target_content="${2}"
 local fix_content="${3}"
 test ! -f "${file}" -o "${fix_content}" = "" && return 
-sed -i "s|${target_content}|${fix_content}|g" "${file}"
+`pwd`/busybox sed -i "s|${target_content}|${fix_content}|g" "${file}"
 }
 
 function Combine_adblock_original_file(){
