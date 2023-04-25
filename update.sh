@@ -53,10 +53,14 @@ cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Combine_Folder}/antiadbloc
 #合并预处理规则
 Combine_adblock_original_file "${Rules_Folder}/adblock_auto.txt" "${Combine_Folder}"
 
+#规则小修
+fix_Rules "${Rules_Folder}/adblock_auto.txt" '\$popup,domain=racaty\.io,0123movie\.ru' '\$popup,domain=racaty\.io\|0123movie\.ru'
+fix_Rules "${Rules_Folder}/adblock_auto.txt" '##aside:-abp-has' '#\?#aside:-abp-has'
+fix_Rules "${Rules_Folder}/adblock_auto.txt" '##tr:-abp-has' '#\?#tr:-abp-has'
+
+
 #净化去重规则
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto.txt"
-
-
 #读取白名单 剔除规则
 make_white_rules "${Rules_Folder}/adblock_auto.txt" "`pwd`/white_list/white_list.prop"
 #写入头信息
@@ -72,10 +76,15 @@ cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Combine_Folder}/lite/antia
 
 #合并预处理规则
 Combine_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt" "${Combine_Folder}/lite"
+
+#规则小修
+fix_Rules "${Rules_Folder}/adblock_auto_lite.txt" '\$popup,domain=racaty\.io,0123movie\.ru' '\$popup,domain=racaty\.io\|0123movie\.ru'
+fix_Rules "${Rules_Folder}/adblock_auto_lite.txt" '##aside:-abp-has' '#\?#aside:-abp-has'
+fix_Rules "${Rules_Folder}/adblock_auto_lite.txt" '##tr:-abp-has' '#\?#tr:-abp-has'
+
+
 #净化去重规则
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt"
-
-
 #读取白名单 剔除规则
 make_white_rules "${Rules_Folder}/adblock_auto_lite.txt" "`pwd`/white_list/white_list.prop"
 #写入头信息
