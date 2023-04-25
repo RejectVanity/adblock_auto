@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sMvr8GvuGUKkreRgGc3twA
+! Checksum: FmvBSnjU15DdYoxGHO6JVQ
 ! Title: 混合规则(自动更新)
-! Version: 20230425160824
+! Version: 20230426000729
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-25 16:08:24
-! Total Count: 108083
+! Last modified: 2023-04-26 00:07:29
+! Total Count: 108099
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17680,6 +17680,7 @@
 ##a[href*=".7wkw.com"]
 ##a[href*=".832103.top"]
 ##a[href*=".832112.top"]
+##a[href*=".8720018.cc"]
 ##a[href*=".9xiazaiqi.com"]
 ##a[href*=".ad222.xyz"]
 ##a[href*=".aff007.pro"]
@@ -17702,6 +17703,7 @@
 ##a[href*=".birthcaker.cn"]
 ##a[href*=".bj-lingan.com/"]
 ##a[href*=".blueyoko.com/"]
+##a[href*=".btwuji.cc"]
 ##a[href*=".buscandolaidea.com/"]
 ##a[href*=".c43066a9.com"]
 ##a[href*=".cangpie.com/"]
@@ -25771,6 +25773,7 @@ $websocket,domain=5nj.com|cechi8.com
 /nativeads-
 /nativeads.
 /nativeads/*
+/nativebanner/ane-native-banner.js
 /nav-ad-
 /nav_ad/*
 /navad/*
@@ -26122,6 +26125,7 @@ $websocket,domain=5nj.com|cechi8.com
 /plugins/ads/*
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
+/plugins/ane-preroll-
 /plugins/cactus-ads/*$script,stylesheet
 /plugins/cpx-advert/*$script
 /plugins/dx-ads/*$script
@@ -33099,6 +33103,9 @@ auto-online.com.tw##.text_links_h
 auto-online.com.tw##div[style="width:336px;height:280px;margin:0;background:#000000"]
 auto-online.com.tw##div[style="width:728px;height:130px;margin:0;background:#000000"]
 auto.economictimes.indiatimes.com##.mrec-ads-slot
+auto.hindustantimes.com##.adsHeight300x600
+auto.hindustantimes.com##.adsHeight970x250
+auto.hindustantimes.com##.bottomSticky
 auto.ifeng.com##.acquire_1
 auto.qq.com###tips
 auto.sina.com.cn###bottomInquryBar
@@ -42854,6 +42861,7 @@ porn-w.org#?#.row:-abp-contains(Promotion Bot)
 porn.com##.foot-zn
 porn.com##a[href*="&ref="]
 porn18videos.com##.playerRight
+porn300.com###overlay-video
 porn300.com##.aaann_fake
 porn300.com##.aaann_fake__video-units
 porn300.com##.wrapper__related-sites
@@ -43051,6 +43059,7 @@ premiumtimesng.com##.directcampaign
 premiumtimesng.com##.premi-texem-campaign
 premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 premiumtimesng.com##img[alt$=" Ad"]
+presearch.com##[x-data*="kwrdAdFirst"]
 presearch.com##div[x-data*="kwAdFirst"]
 presskitaquat.com##.e3lan-top
 pretoria.co.za##.banner-bg
@@ -49274,6 +49283,7 @@ zzzyk.com###Tinfo
 ||32xp.com/upimg/
 ||33.autohome.com.cn^
 ||330efd3d90.com^
+||331qka.cn^
 ||3324.cn^$third-party
 ||3331909.com^
 ||3332218.com^
@@ -74286,6 +74296,7 @@ zzzyk.com###Tinfo
 ||hfawdgz.cn^
 ||hfc195b.com^
 ||hffdjxnyxckf.xyz^
+||hffxc.com^
 ||hfjsbf.xyz^
 ||hflssy.com^
 ||hfoyjg.cn^
@@ -86137,6 +86148,7 @@ zzzyk.com###Tinfo
 ||okgvtr.com^
 ||okingabodew.xyz^
 ||okitwpyslqm.com^
+||okkazeo.com/img/habillage/banner/
 ||okkkk.com^
 ||okksucr.com^
 ||okkxmyogxog.com^
@@ -91353,6 +91365,7 @@ zzzyk.com###Tinfo
 ||rbthre.work^
 ||rbtwo.bid^
 ||rbvi.top^
+||rbxunao.cn^
 ||rbywg.com^
 ||rc.dxsvr.com^
 ||rc.ie13.com^
@@ -100469,6 +100482,7 @@ zzzyk.com###Tinfo
 ||traffic.name^
 ||traffic.pinklabel.com^
 ||traffic.shareaholic.com^
+||traffic.styria.hr^
 ||traffic.tc-clicks.com^
 ||traffic.vietnhan.co^
 ||traffic.wdc.center^
@@ -103763,6 +103777,7 @@ zzzyk.com###Tinfo
 ||watchsk.com^
 ||watchtaro.com^
 ||watchthistop.net^
+||watchtopapps.com^
 ||waterfairy.xyz^
 ||waterproofmanipulativereunion.com^
 ||wateryvan.com^
@@ -104461,6 +104476,7 @@ zzzyk.com###Tinfo
 ||widget-pixels.outbrain.com^
 ||widget-view.dmm.co.jp^
 ||widget-view.dmm.com^
+||widget.admiral.hr^
 ||widget.boende.se^
 ||widget.cdn.citygate.se^
 ||widget.chat.zalo.me^
