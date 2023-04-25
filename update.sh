@@ -44,23 +44,41 @@ sort_adblock_Rules "${Sort_Folder}" "${Download_Folder}/Adguard_mobile.txt" '^##
 echo "※`date +'%F %T'` 开始合并规则……"
 #Full
 Combine_adblock_original_file "${Combine_Folder}/adblock_combine.txt" "${Sort_Folder}"
+#复制补充规则
 cp -rf "${Base_Rules_Folder}/adblock" "${Combine_Folder}/adblock.txt"
 cp -rf "${Base_Rules_Folder}/其他.prop" "${Combine_Folder}/其他.txt"
 cp -rf "${Base_Rules_Folder}/去除小说广告.prop" "${Combine_Folder}/去除小说广告.txt"
 cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Combine_Folder}/antiadblockfilters.txt"
+
+#合并预处理规则
 Combine_adblock_original_file "${Rules_Folder}/adblock_auto.txt" "${Combine_Folder}"
+
+#净化去重规则
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto.txt"
+
+
+#读取白名单 剔除规则
 make_white_rules "${Rules_Folder}/adblock_auto.txt" "`pwd`/white_list/white_list.prop"
+#写入头信息
 write_head "${Rules_Folder}/adblock_auto.txt" "混合规则(自动更新)" && echo "※`date +'%F %T'` 混合规则合并完成！"
+
 #lite
 Combine_adblock_original_file "${Combine_Folder}/lite/adblock_combine.txt" "${Sort_Folder}/lite"
+#复制补充规则
 cp -rf "${Base_Rules_Folder}/adblock_lite" "${Combine_Folder}/lite/adblock_lite.txt"
 cp -rf "${Base_Rules_Folder}/其他.prop" "${Combine_Folder}/lite/其他.txt"
 cp -rf "${Base_Rules_Folder}/去除小说广告.prop" "${Combine_Folder}/去除小说广告.txt"
 cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Combine_Folder}/lite/antiadblockfilters.txt"
+
+#合并预处理规则
 Combine_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt" "${Combine_Folder}/lite"
+#净化去重规则
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt"
+
+
+#读取白名单 剔除规则
 make_white_rules "${Rules_Folder}/adblock_auto_lite.txt" "`pwd`/white_list/white_list.prop"
+#写入头信息
 write_head "${Rules_Folder}/adblock_auto_lite.txt" "混合规则精简版(自动更新)" && echo "※`date +'%F %T'` 混合规则精简版合并完成！"
 
 rm -rf "`pwd`/temple"
