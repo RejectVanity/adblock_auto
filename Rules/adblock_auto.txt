@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: WLs3LadkfvZqIPpEl6JTSQ
+! Checksum: 7BlbgCqBTlkzfFNw8mwN9w
 ! Title: 混合规则(自动更新)
-! Version: 20230426160802
+! Version: 20230427000754
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-26 16:08:02
-! Total Count: 108091
+! Last modified: 2023-04-27 00:07:54
+! Total Count: 108107
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -25964,6 +25964,7 @@ $websocket,domain=5nj.com|cechi8.com
 /pads/default/*
 /page-ads-
 /page-ads.
+/page-links-to/dist/new-tab.js
 /page-peel
 /page/?s=$third-party
 /page/ad/*
@@ -40713,6 +40714,7 @@ m.mylust.com##.topb-100
 m.mylust.com##.topb-250
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com#@#.ad_caption
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com#@#.ad_caption
+m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
 m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
@@ -42026,6 +42028,7 @@ niutuku.com###downAD1
 niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
+nivod4.tv##.nav-ads
 nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
 nivod5.tv,nivod4.tv##.nav-ads
 nlc.gov.cn###lovexin12xx
@@ -44648,6 +44651,7 @@ steamanalyst.com##[href^="https://static.steamanalyst.com/steam/delivery/"]
 steamcardexchange.net,unshorten.it###advertisement
 steamcn.com##div > a[href*=".taobao.com"]
 steamcn.com##div[class*="liz_"]
+steamgifts.com##div.dont_block_me
 steamladder.com##.salad
 steamstats.cn##.card-link
 steamstats.cn##.v-window
@@ -46686,6 +46690,7 @@ wnacg.com,wnacg.org##img[width="399"][height*="6"]
 wnacg.com,wnacg.org##script + div > a > img
 wnacg.org##a[href^="https://l.tyrantdb.com/"][target="_blank"] > img
 wncv.com##.simple-image
+wnflb2023.com##.GzList
 woego.cn#@##topAds
 wolfstream.tv###customAnnouncement
 wolfstream.tv##.cover2
@@ -47535,6 +47540,7 @@ youtube.com##ytd-video-masthead-ad-v3-renderer
 youtube.com##ytm-companion-slot
 youtube.com##ytm-promoted-sparkles-text-search-renderer
 youtube.com##ytm-promoted-sparkles-web-renderer
+youtube.com#?#ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:-abp-has(ytd-display-ad-renderer)
 youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
 youtube.com#@#.overlay-ads
 youtube.com#@#.video-ads
@@ -51985,6 +51991,7 @@ zzzyk.com###Tinfo
 ||ad.zima.kg^
 ||ad.zing.vn^
 ||ad.zinimedia.com^
+||ad.zui.com^
 ||ad1.udn.com^
 ||ad120m.com^
 ||ad123.ynet.com^
@@ -58005,6 +58012,7 @@ zzzyk.com###Tinfo
 ||banners-gallery.coccoc.com^
 ||banners-slb.mobile.yandex.net^
 ||banners.adfox.net^
+||banners.defenceweb.co.za^
 ||banners.etermax.com^
 ||banners.getiton.com^
 ||banners.haqqin.az^
@@ -61334,6 +61342,7 @@ zzzyk.com###Tinfo
 ||cdn.jst.ai^
 ||cdn.klasseo.com^
 ||cdn.lodeo.io^
+||cdn.logrocket.com^
 ||cdn.maaw.io^
 ||cdn.malokacha.club^
 ||cdn.marjmedya.com^
@@ -63228,6 +63237,7 @@ zzzyk.com###Tinfo
 ||comilar-efferiff.icu^
 ||comin.co^
 ||comitechokier.com^
+||coml.be^
 ||comm.app.autohome.com.cn^
 ||comm100.cn/livechatserver/chatbutton.*&res=
 ||commander1.com^
@@ -67795,6 +67805,7 @@ zzzyk.com###Tinfo
 ||dyguo.com/pc/nr336.js
 ||dyh1wzegu1j6z.cloudfront.net^
 ||dyhjw.com/Public/v3/appdown/images/AppEntrance.png
+||dyhnbgtsl.xyz^
 ||dyino.com^
 ||dyj8pbcnat4xv.cloudfront.net^
 ||dyjcydn.cloud^
@@ -68514,6 +68525,7 @@ zzzyk.com###Tinfo
 ||eisafniw.space^
 ||eisys-bcs.jp^
 ||eitago.com^
+||eitb7.top^
 ||eiteribesshaints.com^
 ||eitfromthe.com^
 ||eitgun.com^
@@ -77183,6 +77195,7 @@ zzzyk.com###Tinfo
 ||iyurw.xyz^
 ||iyxuude.cn^
 ||izapteensuls.com^
+||izatcloud.net^
 ||izdagda.ru^
 ||izdatra.ru^
 ||izea.com^
@@ -84835,6 +84848,7 @@ zzzyk.com###Tinfo
 ||news-headlines.co^
 ||news-host.net^
 ||news-mars.com^
+||news-molixo.cc^
 ||news-muheji.com^
 ||news-network.ru^
 ||news-venere.com^
@@ -96626,6 +96640,7 @@ zzzyk.com###Tinfo
 ||staticad.thethao247.vn^
 ||staticaws.365scores.com/AdsConfig/
 ||staticiv.com^
+||statics.123pan.com/static-by-custom/web-banner
 ||statics.woozooo.com/img/*.js$domain=lanzous.com
 ||stationeryshapeless.com^
 ||statis.dsp.vn^
@@ -104477,6 +104492,7 @@ zzzyk.com###Tinfo
 ||widget.sellwild.com^
 ||widget.shopstyle.com^
 ||widget.socialmart.ru^
+||widget.sparrow.ru^
 ||widget.tippebannere.no^
 ||widget.utinet.ru^
 ||widget.zenback.jp^
