@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SosnZ33e8Divgm1swL+Osg
+! Checksum: jhgEfUqy93RAuYfDj8KU2w
 ! Title: 混合规则(自动更新)
-! Version: 20230427083342
+! Version: 20230427093111
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-27 08:33:42
-! Total Count: 108186
+! Last modified: 2023-04-27 09:31:11
+! Total Count: 108196
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11922,6 +11922,7 @@
 ##.container > .slide-baidu
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
+##.container > iframe[src*="123.html"][width][height]
 ##.container--ad
 ##.container--ads
 ##.container--ads-leaderboard-atf
@@ -17074,6 +17075,7 @@
 ##.video_ads
 ##.video_details > .banner
 ##.videoad
+##.videoad-base
 ##.videoad2
 ##.videootv
 ##.videos-ad
@@ -21417,6 +21419,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ad_premium_
 /ad_preroll-
 /ad_print.
+/ad_provider.
 /ad_rectangle_
 /ad_red.
 /ad_refresh.
@@ -26165,6 +26168,7 @@ $websocket,domain=5nj.com|cechi8.com
 /pop.go?ctrlid=$popup
 /pop2.js
 /pop?tid=
+/pop_8_2.js
 /pop_ad.
 /pop_adfy.
 /pop_ads.
@@ -27317,6 +27321,7 @@ $websocket,domain=5nj.com|cechi8.com
 /video_ad_
 /video_ads.
 /video_ads/*
+/video_slider3.js
 /videoad.
 /videoad.$domain=~videoad.in
 /videoad_new.
@@ -35752,6 +35757,7 @@ dissentmagazine.org##.bc_random_banner
 distractify.com##.gXgoom
 distractify.com##.obIeh
 distractify.com##.sc-jcwofb
+distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.bDBSfh
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.hTgZCF
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.ljqtHz
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.sc-oefIU
@@ -38313,6 +38319,7 @@ hentai2read.com##div[data-type="leaderboard-top"]
 hentai2w.com##.aff-col
 hentai2w.com##.aff-content-col
 hentai2w.com,pornxt.com###playerOverlay
+hentai2w.com,pornxt.com,xhentai.tv###playerOverlay
 hentaianimedownloads.com##.bp_detail
 hentaiblue.com##.widget_text
 hentaicomic.*,wnacg1.cc,wnacg.*##+js(abort-current-script, document.write, /\.(gif|php)/)
@@ -39562,6 +39569,7 @@ japantoday.com##.widget--jobs
 jav.work##.releated_video[style^="overflow: hidden;"]
 jav.work##.top-banner
 jav321.com###popup-container
+jav4tv.com#?#aside:-abp-has(.ads_300_250)
 jav777.cc###divExoLayerWrapper
 jav777.xyz##+js(noeval-if, ADS_BLOCKED)
 jav777.xyz##iframe[src^="//ads.exoclick.com/"]
@@ -60348,6 +60356,7 @@ zzzyk.com###Tinfo
 ||bulkyfriend.com^
 ||bull3t.co^
 ||bullads.net^
+||bulletads.org^
 ||bulletprofit.com^
 ||bulletprofitadclick.com^
 ||bulletprofitads.com^
@@ -99949,6 +99958,7 @@ zzzyk.com###Tinfo
 ||track.cpatool.net^$popup,third-party
 ||track.customer.io^
 ||track.custora.com^
+||track.dark.bz^
 ||track.datescan.info
 ||track.ddmanager.ru^
 ||track.dictionary.com^
