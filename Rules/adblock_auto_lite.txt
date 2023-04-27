@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8BWwn9k392y26HG6/5vfxQ
+! Checksum: /XoXxc1v2OBAw7+iJavprg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230428000643
+! Version: 20230428002938
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-28 00:06:43
-! Total Count: 18507
+! Last modified: 2023-04-28 00:29:38
+! Total Count: 18508
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3076,6 +3076,7 @@ baidu.com##[class^="fc-"]
 baidu.com##[id*="ec-"][id*="ad"]
 baidu.com##[id*="ec_"][id*="ad"]
 baidu.com##[srcid*="_ad"]
+baidu.com#@#.ad-wrapper
 baidu.com,bdimg.com###aside-ad
 baijiahao.baidu.com##.infinite-scroll-component__outerdiv
 baijiahao.baidu.com##.undefined
