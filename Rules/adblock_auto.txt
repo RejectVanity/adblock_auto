@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Z1gGi9mBWe+xqem+2RTqzw
+! Checksum: rVxkx7X6Fmpp4fml66sftQ
 ! Title: 混合规则(自动更新)
-! Version: 20230428185738
+! Version: 20230429000655
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-28 18:57:38
-! Total Count: 108422
+! Last modified: 2023-04-29 00:06:55
+! Total Count: 108446
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9535,6 +9535,7 @@
 ##.adscontentcenter
 ##.adscontntad
 ##.adscreen
+##.adsdelivery
 ##.adsdesktop
 ##.adsdiv
 ##.adsection_a2
@@ -22756,6 +22757,7 @@ $websocket,domain=5nj.com|cechi8.com
 /adsdaqbox_
 /adsdaqsky_
 /adsdelivery.
+/adsdelivery/*
 /adsdfp/*
 /adsdk/*
 /adsdm.
@@ -42823,6 +42825,7 @@ pichunter.com##.__autofooterwidth
 pickmypostcode.com##.aside-right.aside
 picnob.com##.ah-box-i-w
 picnob.com##.ah-box-n-w
+picsporn.net#?#.box:-abp-has(> .dip-exms)
 pigai.org###newnotice
 pigglywigglystores.com#?#.fp-item:-abp-has(.fp-tag-ad)
 pikalytics.com###dex-list-0
@@ -45586,10 +45589,12 @@ tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.post_client_down
 tieba.baidu.com##.tl_spread
+tieba.baidu.com##.top_toutu_admarks
 tieba.baidu.com##.tuijian-wrap
 tieba.baidu.com##a.j_couplet.couplet_right,a.j_couplet.couplet_left
 tieba.baidu.com##a[href*="/baidu.php?url="]
 tieba.baidu.com##div[add-shield-track]
+tieba.baidu.com#$#.special_conf_skin .wrap1 { background: none !important; }
 tieba.baidu.com,wapp.baidu.com##.iSlider-wrapper-container-hot-thread
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 tiermaker.com##.desktop-sticky
@@ -60282,6 +60287,7 @@ zzzyk.com###Tinfo
 ||brews.marketale.com^
 ||brewseryngo.com^
 ||briareddollier.com^
+||bribrieslabon.com^
 ||bricius-ing.com^
 ||bridalplums.com^
 ||bridesmaidcleft.com^
@@ -61502,6 +61508,7 @@ zzzyk.com###Tinfo
 ||cdj-dap.s3-ap-northeast-1.amazonaws.com^
 ||cdjvd.com^
 ||cdn*.swaxis.com^
+||cdn-99-pic.cc^
 ||cdn-adn-*.rayjump.com^
 ||cdn-adn.rayjump.com^
 ||cdn-ads.thesaigontimes.vn^
@@ -64931,6 +64938,7 @@ zzzyk.com###Tinfo
 ||d1diqetif5itzx.cloudfront.net^
 ||d1dli2tyorled9.cloudfront.net^
 ||d1e28xq8vu3baf.cloudfront.net^
+||d1e3vw6pz2ty1m.cloudfront.net^
 ||d1e9rtdi67kart.cloudfront.net^
 ||d1ebha2k07asm5.cloudfront.net^
 ||d1err2upj040z.cloudfront.net^
@@ -68286,6 +68294,7 @@ zzzyk.com###Tinfo
 ||eanalyzer.de^
 ||eanddescri.com^
 ||eanddrsgankru.com.ua^
+||eanlingtumfie.com^
 ||eap.big5.enorth.com.cn^
 ||eap.enorth.com.cn^
 ||eapsmnw.cyou^
@@ -68549,6 +68558,7 @@ zzzyk.com###Tinfo
 ||editionlingerexpanded.com^
 ||editorpilotlimbs.com^
 ||edjadcscca.com^
+||edjnkones.com^
 ||edlilu.com^
 ||edmalvkiahrhmu.xyz^
 ||edmanalytics.pandahall.com^
@@ -68959,6 +68969,7 @@ zzzyk.com###Tinfo
 ||emltrk.com^
 ||emmermyotic.com^
 ||emmi-findet.de^
+||emodinlighten.com^
 ||emolapnay.com^
 ||emoney.cn/www/officalWebStatic/js/slideAd.js
 ||emostbeautif.xyz^
@@ -69009,6 +69020,7 @@ zzzyk.com###Tinfo
 ||enclforlane.com^
 ||encloseddealing.com^
 ||encloseprecious.com^
+||encodeinflected.com^
 ||encoderfarmstatsnew.servicebus.windows.net^
 ||encounterboastful.com^
 ||encourageidea.com^
@@ -69769,6 +69781,7 @@ zzzyk.com###Tinfo
 ||exaleprn.com^
 ||exaltationinsufficientintentional.com^
 ||examinationevolutionmingle.com^
+||exampulsate.com^
 ||exapxl.de^
 ||exarchykhu.store^
 ||exasperationplotincarnate.com^
@@ -79083,6 +79096,7 @@ zzzyk.com###Tinfo
 ||king3rsc7ol9e3ge.com^
 ||kingads.mobi^
 ||kingads.net^
+||kingads.space^
 ||kingadsvip.club^
 ||kingkongapp.com^*/web/adv/list?
 ||kingleo.hk^
@@ -82985,6 +82999,7 @@ zzzyk.com###Tinfo
 ||mesalplayboy.com^
 ||meshagreeable.com^
 ||meshpetrols.com^
+||mesilswwroiu.com^
 ||mesiniklan.andipublisher.com^
 ||meslameighty.com^
 ||message-hub-svc.usw2.cordial.com^
@@ -85314,6 +85329,7 @@ zzzyk.com###Tinfo
 ||nianshen.xyz^
 ||nibblebit.com/assets/media/adverts.php
 ||niblewren.co^
+||nibvtxyofd.com^
 ||nibzitgas.com^
 ||nice-mw.com^
 ||nicelinks.site/ad-block-
@@ -86416,6 +86432,7 @@ zzzyk.com###Tinfo
 ||ojqbnqdwycws.com^
 ||ojtosjaqkrr.com^
 ||ojuhwc.xyz^
+||ojzfinlhemu.com^
 ||ok-11-cai.cc^
 ||ok-ddjsyuming.com^
 ||ok-qqzzjsyuming.com^
@@ -86938,6 +86955,7 @@ zzzyk.com###Tinfo
 ||oqxep.cn^
 ||oracleinfinity.io^
 ||orahmaggi.xyz^
+||oralistnations.com^
 ||orallantyneth.com^
 ||oralmaliciousmonday.com^
 ||oranegfodnd.com^
@@ -89945,6 +89963,7 @@ zzzyk.com###Tinfo
 ||protagcdn.com^
 ||protally.net^
 ||protawe.com^
+||proteavoices.com^
 ||protecmedia.com^
 ||protectcrev.com^
 ||protectedfolkssomebody.com^
@@ -101856,6 +101875,7 @@ zzzyk.com###Tinfo
 ||uglypath.pro^
 ||ugnlaigt.fun^
 ||ugostlyhewo.xyz^
+||ugricmoist.com^
 ||ugroocuw.net^
 ||ugyplysh.com^
 ||ugyyod.com^
@@ -101901,6 +101921,7 @@ zzzyk.com###Tinfo
 ||ujjxwbfgpfymc.xyz^
 ||ujlrvzfws.com^
 ||ujm.hansel.io^
+||ujooshog.com^
 ||ujtketerrehepren.xyz^
 ||ujvidekck.com^
 ||ukan.online^
@@ -103932,6 +103953,7 @@ zzzyk.com###Tinfo
 ||wagersinging.com^
 ||waggishpig.com^
 ||waggonerchildrensurly.com^
+||wagnal.com^
 ||wagoapse.com^
 ||wahahespecked.guru^
 ||wahehegryde.com^
@@ -104137,6 +104159,7 @@ zzzyk.com###Tinfo
 ||waycash.net^
 ||waycloud.info^
 ||wayfarerspoutpraise.com^
+||wayfinderanalytics.servicebus.windows.net^
 ||waygatecrowbar.com^
 ||waykingroup.com^
 ||waymarkgentiin.com^
@@ -107674,6 +107697,7 @@ zzzyk.com###Tinfo
 ||zdlnhv.xyz^
 ||zdlogs.sphereup.com^
 ||zdnet.com.cn/js/pv.js
+||zdo-bdg.xyz^
 ||zdorovmagazine.ru^
 ||zdqx.com/statics/v1/images/gif/
 ||zdrawnews.ru^
