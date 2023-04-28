@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bVi4w353X2o5AorrGYrl9w
+! Checksum: /Mi8f8wF37SVlKG/HGGH7A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230428160808
+! Version: 20230428185741
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-28 16:08:08
+! Last modified: 2023-04-28 18:57:41
 ! Total Count: 18526
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -386,7 +386,6 @@
 ###player-bottom-ads
 ###playerAd
 ###playerAdvLayer
-###playerContainer > .nav-ads
 ###playerJsvLayer.jsv-layer
 ###player_ad
 ###player_banner[style*="fixed;"]
@@ -2576,7 +2575,6 @@
 .site:20443/*.js^$script,third-party
 .swf?clicktag=
 .test15./
-.top/?channelCode=
 .top/?channelCode=$document
 .top/ad-
 .top/ads/
@@ -2602,7 +2600,6 @@
 .xyz/*?16$third-party
 .xyz/99x/
 .xyz/?ch=ssmh
-.xyz/?channelCode=
 .xyz/?channelCode=$csp=script-src
 .xyz/?channelCode=$document
 .xyz/Uxxt*zt.js
@@ -2638,7 +2635,6 @@
 .zone/ads/
 /*_*_/bigREDdog.$third-party
 /300x250.$image,domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc|~mwcomic1.biz|~mwcomic2.biz|~mwcomic3.biz|~mwcomic4.biz|~mwcomic5.biz|~mwcomic6.biz|~mwcomic7.biz|~mwcomic8.biz|~mwcomic9.biz|~mwcomic10.biz|~mwcomic.biz|~mwcomic1.xyz|~mwcomic2.xyz|~mwcomic3.xyz|~mwcomic4.xyz|~mwcomic5.xyz|~mwcomic6.xyz|~mwcomic7.xyz|~mwcomic8.xyz|~mwcomic9.xyz|~mwcomic10.xyz|~mwcomic.xyz|~mwcomic1.top|~mwcomic2.top|~mwcomic3.top|~mwcomic4.top|~mwcomic5.top|~mwcomic6.top|~mwcomic7.top|~mwcomic8.top|~mwcomic9.top|~mwcomic10.top|~mwcomic.top|~manwa1.xyz|~manwa2.xyz|~manwa3.xyz|~manwa4.xyz|~manwa5.xyz|~manwa6.xyz|~manwa7.xyz|~manwa8.xyz|~manwa9.xyz|~manwa10.xyz|~manwa.xyz
-/?channelCode=bfy
 /?channelCode=bfy$document
 /AdblockMessage.
 /SvgAdblockDetected/*
@@ -2919,6 +2915,7 @@
 @@/adsbygoogle.js$script,domain=arabiaweather.com
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
+@@/upload/ads/*$domain=manwa1.vip|manwa2.vip|manwa3.vip|manwa4.vip|manwa5.vip|manwa6.vip|manwa7.vip|manwa8.vip|manwa9.vip|manwa10.vip|manwa.vip|manwa1.site|manwa2.site|manwa3.site|manwa4.site|manwa5.site|manwa6.site|manwa7.site|manwa8.site|manwa9.site|manwa10.site|manwa.site|manwa1.me|manwa2.me|manwa3.me|manwa4.me|manwa5.me|manwa6.me|manwa7.me|manwa8.me|manwa9.me|manwa10.me|manwa.me|mwcomic1.cc|mwcomic2.cc|mwcomic3.cc|mwcomic4.cc|mwcomic5.cc|mwcomic6.cc|mwcomic7.cc|mwcomic8.cc|mwcomic9.cc|mwcomic10.cc|mwcomic.cc|mwcomic1.biz|mwcomic2.biz|mwcomic3.biz|mwcomic4.biz|mwcomic5.biz|mwcomic6.biz|mwcomic7.biz|mwcomic8.biz|mwcomic9.biz|mwcomic10.biz|mwcomic.biz|mwcomic1.xyz|mwcomic2.xyz|mwcomic3.xyz|mwcomic4.xyz|mwcomic5.xyz|mwcomic6.xyz|mwcomic7.xyz|mwcomic8.xyz|mwcomic9.xyz|mwcomic10.xyz|mwcomic.xyz|mwcomic1.top|mwcomic2.top|mwcomic3.top|mwcomic4.top|mwcomic5.top|mwcomic6.top|mwcomic7.top|mwcomic8.top|mwcomic9.top|mwcomic10.top|mwcomic.top|manwa1.xyz|manwa2.xyz|manwa3.xyz|manwa4.xyz|manwa5.xyz|manwa6.xyz|manwa7.xyz|manwa8.xyz|manwa9.xyz|manwa10.xyz|manwa.xyz
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
 @@://img.souche.com/*.jpg
@@ -5508,6 +5505,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||a3.jandan.net^
 ||a304.top^$image,domain=hihbt.com
 ||a32a.com.cn^$third-party
+||a3kd0.top^
 ||a3vy69.cn^
 ||a44u.icu^
 ||a5jf.xyz^
@@ -9336,8 +9334,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||frxcdn.xyz^
 ||fs0523.com^
 ||fsclzs.com/Ad_User/
-||fsdfkjd.ykchicheng.com/assets/chunyu
-||fsdfkjd.ykchicheng.com/assets/yeyue
 ||fsdnp.cyou^
 ||fsgsfaf6.com^
 ||fspjjp.xyz^
@@ -9654,6 +9650,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||gjohvhf.cn^
 ||gjr.ink^
 ||gjwind.com/xxmh.gif
+||gjxczx.xyz^
 ||gk1.582582.com^
 ||gk1.zjbiz.net^
 ||gk99.com/static/js/a-d-sys.js
@@ -10400,6 +10397,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hsex.men/nb/
 ||hsex.men/view/img/*.gif
 ||hsiaik.com^
+||hsili.ltd^
 ||hskj.net^
 ||hskzoab.cn^
 ||hslyqs.com^
@@ -15699,6 +15697,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||suyuhao233.xyz^
 ||svdpgmt.cn^
 ||svnfgib.cn^
+||svrojrv.cn^
 ||sw76r85eda3k.com/need/h5.
 ||swadakesb.cyou^
 ||swelen.com^
@@ -17759,6 +17758,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yd3c.top^
 ||ydgal.com/axfile/
 ||ydhwhz.cn^
+||ydjs.luyouwang.com^
 ||ydqcjy.cn^
 ||ydqkpy.cn^
 ||ydss.cn/test.www.jdpay.com
