@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: rVxkx7X6Fmpp4fml66sftQ
+! Checksum: en0EpP7Amqrn5S078xEI/g
 ! Title: 混合规则(自动更新)
-! Version: 20230429000655
+! Version: 20230429004638
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-29 00:06:55
-! Total Count: 108446
+! Last modified: 2023-04-29 00:46:38
+! Total Count: 108451
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -29197,6 +29197,8 @@ $websocket,domain=5nj.com|cechi8.com
 9uu.com##.gao-bg
 9uu.com##.gao-wrapper
 9uu.com##.relate-container
+://*.*27txt.com/*/*.js$~third-party
+://*.*27txt.com/xi.js$~third-party
 ://*.*biqu.cc/*/*.js
 ://*.*biqu.cn/*/*.js
 ://*.*biqu.co/*/*.js
@@ -29293,6 +29295,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://*.*yetianlian.so/*/*.js
 ://*.*yetianlian.tw/*/*.js
 ://*.*yetianlian.us/*/*.js
+://*.27txt.La/*/*.js$~third-party
+://*.27txt.La/xi.js$~third-party
 ://*.a-akamaihd.com^
 ://*.biqu*.cc/*/*.js
 ://*.biqu*.cn/*/*.js
@@ -67574,6 +67578,7 @@ zzzyk.com###Tinfo
 ||dpd9yiocsyy6p.cloudfront.net^
 ||dpdnav.com^
 ||dpfchqsiksjuyjc.xyz^
+||dpic.wxddid.cn^$third-party
 ||dpipel.com^
 ||dpirwgljl6cjp.cloudfront.net^
 ||dpjlvaveq1byu.cloudfront.net^
