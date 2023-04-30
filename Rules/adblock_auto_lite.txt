@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SeR/WPzFGfRVKH61NtimoA
+! Checksum: pg8yNvwOvLpHvGPQ5m5pRw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230430160702
+! Version: 20230430225531
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-04-30 16:07:02
-! Total Count: 19691
+! Last modified: 2023-04-30 22:55:31
+! Total Count: 19713
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1477,6 +1477,7 @@
 ##a[href*=".snmlyshj.com/"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".supernfp.com/"]
+##a[href*=".tdchat.in"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
 ##a[href*=".tholikiranam.com/"]
@@ -1826,6 +1827,7 @@
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
+##div[class*="ad_banner_group"]
 ##div[class*="clearfix-ads"]
 ##div[class*="col"] > a[rel="nofollow noopener noreferrer"][href][target="_blank"]
 ##div[class*="col"][clearfix] > a[target="_blank"][onclick][href]
@@ -1903,6 +1905,7 @@
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##dl#listwoBox
+##embed[src^="https:////"]
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
@@ -1956,6 +1959,7 @@
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
+##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -2363,6 +2367,7 @@
 .blog/ads/
 .bt*.com/imgs.js?t=
 .cam/ads/
+.cc/?channelCode=$~third-party
 .cc/ad/
 .cc/ads/
 .cc/api/getPos?jspath=/$~third-party
@@ -2400,6 +2405,7 @@
 .com/0gg/gg*.js
 .com/?Intr=$popup,third-party
 .com/?aff=$popup,third-party
+.com/?channelCode=$~third-party
 .com/Public/js/duileft.js
 .com/Public/js/duiright.js
 .com/Runtime/js/psCreat.js
@@ -2577,6 +2583,7 @@
 .swf?clicktag=
 .test15./
 .top/?channelCode=$document
+.top/?channelCode=$~third-party
 .top/ad-
 .top/ads/
 .top/j/*$script,third-party
@@ -2603,6 +2610,7 @@
 .xyz/?ch=ssmh
 .xyz/?channelCode=$csp=script-src
 .xyz/?channelCode=$document
+.xyz/?channelCode=$~third-party
 .xyz/Uxxt*zt.js
 .xyz/ack?s=
 .xyz/ad/
@@ -4589,6 +4597,11 @@ missav.com,missav888.com,missav123.com##[class^="root--"]
 missav.com,missav888.com,missav123.com##[href*="//bit.ly/"]
 missav.com,missav888.com,missav123.com##div[class^="flex justify-center"]
 missav.com,missav888.com,missav123.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
+missav.com,missav888.com,missav123.com,thisav.com##.under_player
+missav.com,missav888.com,missav123.com,thisav.com##[class^="root--"]
+missav.com,missav888.com,missav123.com,thisav.com##[href*="//bit.ly/"]
+missav.com,missav888.com,missav123.com,thisav.com##div[class^="flex justify-center"]
+missav.com,missav888.com,missav123.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 monacomatin.mc,nicematin.com,varmatin.com##.RhooBg
 monacomatin.mc,nicematin.com,varmatin.com##.modalRhoo
@@ -4995,6 +5008,9 @@ yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##embed[src]
 ykt.ru##.n-banner--adblocked
 yocast.tv###ra9e
 yz.m.sm.cn##[id^="ad_"]
@@ -5828,6 +5844,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||49468220.com^
 ||4bds.xyz^
 ||4btbtt.com/slade.js
+||4cjh.xyz^
 ||4excel.cn^
 ||4gamers.com.tw/ads-
 ||4gamers.com.tw/site/iframe-aols/
@@ -9132,6 +9149,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||crispadvertising.com^
 ||criteo.com^
 ||criteo.net^
+||crjpgate.com^$document
 ||crleii.xyz^
 ||crobotb.com^
 ||crossboardmobile.com^
@@ -17102,6 +17120,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||thisav.com/js/bioep.
 ||thisav.com/nb/
 ||thisav.com/player/video-js-banner/
+||thisav.com/pop?url=
 ||thisav.video/v3/nb/
 ||thishare.com^
 ||thlnbzi.cn^
@@ -19361,6 +19380,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zdama.xyz^$third-party
 ||zdambl.*$third-party
 ||zdambl.xyz^$third-party
+||zdbnt.*$third-party
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdhfff.xyz^
@@ -19369,6 +19389,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zdkjr.xyz^$third-party
 ||zdktgps.cn^
 ||zdlnhv.xyz^
+||zdma.*$third-party
+||zdmbl.*$third-party
 ||zdo-bdg.xyz^
 ||zdqx.com/statics/v1/images/gif/
 ||zdreo.cyou^
