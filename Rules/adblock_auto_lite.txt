@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0qTao3rFmGtWsVJcA6KWfw
+! Checksum: nxwhyGHui7QFOnjHuDtn7Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230501000631
+! Version: 20230501010909
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-01 00:06:31
-! Total Count: 19713
+! Last modified: 2023-05-01 01:09:09
+! Total Count: 19727
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4284,6 +4284,20 @@ boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##img[src^="//boyloves"][src*="/static_pc/nb/"][src*=".php?"]
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc##video
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc#?#:-abp-has(>.adsbyexoclick)
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi###fake_avivid_waterfall_webpush
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##.reader-home-swiper
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##.swiper-wrapper
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##[class^="swiper-slide"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##[data-group]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##[style*="min-height:"][style*="border-bottom: solid"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##[style^="bottom:"][style*="position: absolute;"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##a[href][target="_blank"] > img[alt][src$=".gif"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##div > div > a[href="https://"][target="_blank"][rel="nofollow"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##div[class$="_"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##div[style="display: block"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##img[src^="//boyloves"][src*="/static_pc/nb/"][src*=".php?"]
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##video
+boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi#?#:-abp-has(>.adsbyexoclick)
 bqg33.com##a[href][target="_blank"],font[color="red"]
 brazzers-hdx.club##.adblck
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
