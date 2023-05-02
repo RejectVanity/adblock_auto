@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: T8XatVWtJrUmAOEaex429A
+! Checksum: 4CO7icBojexFpjTn3zBgdQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230502160756
+! Version: 20230502224131
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-02 16:07:56
-! Total Count: 20280
+! Last modified: 2023-05-02 22:41:31
+! Total Count: 20283
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -765,6 +765,7 @@
 ##.article_ad
 ##.article_ad_top
 ##.articleads
+##.artplayer-plugin-ads
 ##.asb-index
 ##.asb-post
 ##.assort-ad
@@ -3433,6 +3434,7 @@
 ://mobixc.*.cyou$third-party
 ://mobixc.*.fun$third-party
 ://p.qlogo.cn/qqmail_head/*
+://pic.*.cn/*/*.js$third-party,script
 ://rou*/_next/static/chunks/pages/home-
 ://s.htkk*.top:$script,third-party
 ://seai*/ads/float.js
@@ -18273,6 +18275,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||uu1.3gu.com^
 ||uu2e.com^
 ||uu5731uu.com^
+||uu6921uu.com^
 ||uu7819uu.com^
 ||uu9735uu.com^
 ||uu99k.com^
