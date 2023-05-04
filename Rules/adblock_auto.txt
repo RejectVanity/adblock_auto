@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: yDemmKBK0PZDxy1CtcoxzA
+! Checksum: UnbuSjkxf/MtPK3jrQ69Qw
 ! Title: 混合规则(自动更新)
-! Version: 20230504000712
+! Version: 20230504083153
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-04 00:07:12
-! Total Count: 109543
+! Last modified: 2023-05-04 08:31:53
+! Total Count: 109576
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19524,6 +19524,7 @@ $websocket,domain=5nj.com|cechi8.com
 -top-ad.
 -top-ads.
 -tower-ad-
+-tracker.biliapi.net^
 -us/ads/
 -video-ads/
 -web-ad-
@@ -33064,7 +33065,7 @@ abovethelaw.com##.single-post__sponsored-post--desktop
 abovetopsecret.com,thelibertydaily.com##[href^="https://mypatriotsupply.com/"]
 abpclub.co.uk##img[width="118"]
 absolutelyrics.com,cdrlabs.com,exiledonline.com,findtheword.info,realitywanted.com,revizoronline.com,snapfiles.com###topbanner
-abysscdn.com,hqq.ac,hqq.to,hqq.tv,linris.xyz,megaplay.cc,netuplayer.top,oceanplay.xyz,playertoast.uno,plushd.bio,waaw.to,watchonlinehd123.sbs,wiztube.xyz##a[title="Free money easy"]
+abysscdn.com,hqq.ac,hqq.to,hqq.tv,linris.xyz,megaplay.cc,meucdn.vip,netuplayer.top,oceanplay.xyz,playertoast.uno,plushd.bio,waaw.to,watchonlinehd123.sbs,wiztube.xyz##a[title="Free money easy"]
 abysscdn.com,hqq.to,hqq.tv,linris.xyz,megaplay.cc,netuplayer.top,playertoast.uno,plushd.bio,waaw.to,watchonlinehd123.sbs,wiztube.xyz##a[title="Free money easy"]
 ac-room.cc##.ad.v-card
 ac-room.cc#?#.waterfall > div.waterfall-box > div.waterfall-item:-abp-has(> div.ad)
@@ -35172,6 +35173,7 @@ carmag.co.za###sidebar-primary
 carmag.co.za##.homepage-300x250-banner
 carmag.co.za,thegazette.com###top-leaderboard
 carousell.com#@#.fb-b
+carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div.D_agu[style^="width"]:has(a[aria-label*="Dettol_Carousell_Banner_Campaign"]) { remove: true }
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
 carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
@@ -49349,6 +49351,7 @@ zzzyk.com###Tinfo
 ||123hala.com^
 ||123movies.to^
 ||123stat.com^
+||12573ddd51.com^
 ||1258999.com^
 ||126.com/get.do?*=themeHandler.
 ||126.net/2022/0315/c82ed9e0g00r8seoy015pd00104003cp.gif
@@ -54371,6 +54374,7 @@ zzzyk.com###Tinfo
 ||adtrace.org^
 ||adtrack.appcpi.net^
 ||adtrack.king.com^
+||adtrack.xiaojukeji.com^
 ||adtracker.jpchd.veraxen.com^
 ||adtracker.mkjigsaw.com^
 ||adtracker.oilpainting.colorbynumber.veraxen.com^
@@ -56754,6 +56758,7 @@ zzzyk.com###Tinfo
 ||anonymousdemographics.com^
 ||anonymouswrangle.com^
 ||anopportuni.lol^
+||anopportunitytost.info^
 ||anormal-tracker.de^
 ||anorrecenturybr.com^
 ||anpjcoapgd.com^
@@ -59376,6 +59381,7 @@ zzzyk.com###Tinfo
 ||bdwmhz.120askimages.com^
 ||bdx.playnext.cn^
 ||bdxiguaimg.com^$domain=biquav.com|feisucn.net
+||bdxiguaimg.com^$domain=feisucn.net
 ||bdzkrl.cn^
 ||be-mine.ru^
 ||be47f5d7a4.com^
@@ -63185,6 +63191,7 @@ zzzyk.com###Tinfo
 ||ciwhacheho.pro^
 ||cixaxuyu.xyz^
 ||cixldfrkayl.com^
+||cizare.xyz^
 ||cizion.com^
 ||cj-cy.com^
 ||cj-sys.club^
@@ -64526,6 +64533,7 @@ zzzyk.com###Tinfo
 ||conyak.com^
 ||coodawei.cn^
 ||coofumberty.digital^
+||coogoocy.com^
 ||coojaiku.com^
 ||cookchalk.com^
 ||cookie-guard-erdee.ey.r.appspot.com^
@@ -65437,6 +65445,7 @@ zzzyk.com###Tinfo
 ||cwpbohx.cn^
 ||cwphgqu.cn^
 ||cwqljsecvr.com^
+||cws-hulu.conviva.com^
 ||cws.conviva.com^
 ||cwt.citywire.info^
 ||cww.net.cn/include/show.asp?boardID=
@@ -66163,6 +66172,7 @@ zzzyk.com###Tinfo
 ||d3b4u8mwtkp9dd.cloudfront.net^
 ||d3bbyfw7v2aifi.cloudfront.net^
 ||d3beefy8kd1pr7.cloudfront.net^
+||d3bfricg2zhkdf.cloudfront.net^
 ||d3bj8nkfly20uo.cloudfront.net^
 ||d3bo67muzbfgtl.cloudfront.net^
 ||d3c3cq33003psk.cloudfront.net^
@@ -67012,6 +67022,7 @@ zzzyk.com###Tinfo
 ||definedchampion.com^
 ||definedlaunching.com^
 ||definitial.com^
+||defiye.xyz^
 ||defogsstuff.com^
 ||deformconversionorthodox.com^
 ||defpush.com^
@@ -68452,6 +68463,7 @@ zzzyk.com###Tinfo
 ||driddleurease.com^
 ||drifor.com^
 ||drift.com^
+||driftfranchise.com^
 ||driftstupidityopponent.com^
 ||driftt.com^
 ||drillcompensate.com^
@@ -69256,6 +69268,7 @@ zzzyk.com###Tinfo
 ||echo.biasdo.com^
 ||echo.scund.com^
 ||echoizepheeal.uno^
+||eciea.xyz^
 ||ecimg.tw/img/xdsys/*/layout/*/sign/channel*/ad_*.jpg
 ||ecityalittl.buzz^
 ||eclassified.my/cp_featured
@@ -72350,6 +72363,7 @@ zzzyk.com###Tinfo
 ||ftd2q1g8id1z.ru^
 ||ftdmfxq.cn^
 ||ftfnewu.cn^
+||ftfssuhryrcmip.com^
 ||ftheownounci.com^
 ||fthkmwrkqg.com^
 ||fthqzxq.cn^
@@ -73958,6 +73972,7 @@ zzzyk.com###Tinfo
 ||gorkt.com^
 ||gorod.tunt.lv^
 ||gororn.com^
+||gorpgeu.xyz^
 ||gorselcdn.com^
 ||gorselpanel.com^
 ||gorskprof2it8og09.com^
@@ -74108,6 +74123,7 @@ zzzyk.com###Tinfo
 ||grandioseguide.com^
 ||grandlay.pro^
 ||grandmotherunit.com^
+||grandnerve.pro^
 ||grandsonreverendlawn.com^
 ||grandsupple.com^
 ||grangilo.net^
@@ -80934,6 +80950,7 @@ zzzyk.com###Tinfo
 ||lcentntel.com^
 ||lcfooiqhro.com^
 ||lciapi.ninthdecimal.com^
+||lcjyll.xyz^
 ||lcloc.com^
 ||lcmnyfk.cn^
 ||lcmqyl.cn^
@@ -81817,6 +81834,7 @@ zzzyk.com###Tinfo
 ||lockerstagger.com^
 ||locketthose.com^
 ||lockfireshimself.com^
+||lockiancrab.com^
 ||lockingadmitted.com^
 ||lockramnombles.life^
 ||lockview.cn^
@@ -82612,6 +82630,7 @@ zzzyk.com###Tinfo
 ||lxting.com^
 ||lxtrack.com^
 ||lxudshpck.com^
+||lxyl66.cn^
 ||ly6080.com.cn/gg/
 ||lyabjy.cn^
 ||lyadu.com^
@@ -84509,6 +84528,7 @@ zzzyk.com###Tinfo
 ||moaihkbrogywwiw.xyz^
 ||moakaumo.com^
 ||moanrustle.com^
+||moapevuwtv.com^
 ||moapuwhe.com^
 ||moatads.com.edgekey.net^
 ||moatads.com^
@@ -90266,6 +90286,7 @@ zzzyk.com###Tinfo
 ||popnc.com^
 ||popnet.xyz^
 ||poponclick.com^
+||poppy.fit^
 ||poppysol.com^
 ||popruexo.com^
 ||popsads.com^
@@ -94138,6 +94159,7 @@ zzzyk.com###Tinfo
 ||rta2.metro.co.uk^
 ||rta2.newzit.com^
 ||rtactivate.com^
+||rtag.farmers.com^
 ||rtapi.abbi.io^
 ||rtb-media.me^
 ||rtb-media.ru^
@@ -94484,6 +94506,7 @@ zzzyk.com###Tinfo
 ||s.news.naver.com^
 ||s.newsportalssl1.top^
 ||s.ntv.io^
+||s.pixsrvcs.com^
 ||s.remonti.org^
 ||s.sdx.ru^
 ||s.so.360.cn^
@@ -96102,6 +96125,7 @@ zzzyk.com###Tinfo
 ||sihbb.com/yang/
 ||sihokpfbv.com^
 ||sikai.ink^
+||sikaza.com^
 ||sikelypleaste.site^
 ||sikqcwz.cn^
 ||sikr.chimeratool.com^
@@ -97579,6 +97603,7 @@ zzzyk.com###Tinfo
 ||sqate.io^
 ||sqfg002.xyz^
 ||sqfh001.xyz^
+||sqjqmfdoeonmf.com^
 ||sqlick.com^
 ||sqnggnsb.fun^
 ||sqpgncbm.com^
@@ -100284,6 +100309,7 @@ zzzyk.com###Tinfo
 ||thinktot.com^
 ||thinneddarns.digital^
 ||thinnerconcha.com^
+||thirab.com^
 ||third-tracking.com^
 ||thirdrespect.com^
 ||thirstylettuce.com^
@@ -100585,6 +100611,7 @@ zzzyk.com###Tinfo
 ||tinystat.ir^
 ||tinytendency.com^
 ||tioew.cyou^
+||tionininanceena.info^
 ||tip-ads.de^
 ||tipcartoleron.com^
 ||tipcatscarola.com^
@@ -102232,6 +102259,7 @@ zzzyk.com###Tinfo
 ||trqpfc.cn^
 ||trqs.vip^
 ||trribbup.xyz^
+||trryirbekdrofw.com^
 ||trstplse.com^
 ||trtjigpsscmv9epe10.com^
 ||trtl.ws^
@@ -102591,6 +102619,7 @@ zzzyk.com###Tinfo
 ||twodrive.su^
 ||twogldi.top^
 ||twokidjay.com^
+||twomughakmpi.com^
 ||twpasol.com^
 ||twpfa.cn^
 ||twrailpolice.appspot.com/campaign.xml
@@ -103483,6 +103512,7 @@ zzzyk.com###Tinfo
 ||urmilan.info^
 ||urogramredfins.com^
 ||uroztdorg.com^
+||urryjgwqjo.com^
 ||urstats.de^
 ||urswellsgrp.xyz^
 ||urtirepor.com^
@@ -104023,6 +104053,7 @@ zzzyk.com###Tinfo
 ||veduy.com^
 ||vedvvik.cn^
 ||vedxxjumf.xyz^
+||veecheew.xyz^
 ||veechirrup.com^
 ||veemaish.xyz^
 ||veemauhe.xyz^
@@ -106814,6 +106845,7 @@ zzzyk.com###Tinfo
 ||x40u1vj75ks9.com^
 ||x4300tiz.com^
 ||x4c43.com^
+||x4csq.top^
 ||x4pollyxxpush.com^
 ||x5.jougennotuki.com^
 ||x6img.com^$domain=picturedata.org
@@ -108557,6 +108589,7 @@ zzzyk.com###Tinfo
 ||yy9s51b2u05z.com^
 ||yyacgmwfjyvfv.com^
 ||yybx.oss-cn-hangzhou.aliyuncs.com^
+||yycdihdvx.xyz^
 ||yycjho.com^
 ||yydtbpms8tf4.com^
 ||yydwkkxhjb.com^
