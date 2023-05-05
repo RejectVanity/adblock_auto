@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lu6wngeZ2g0ElE0hi6EK/A
+! Checksum: PYdchm/QXIClJAfrNjsYAw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230505221734
+! Version: 20230506000719
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-05 22:17:34
+! Last modified: 2023-05-06 00:07:19
 ! Total Count: 19478
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -706,6 +706,7 @@
 ##.adlist
 ##.adlistcss
 ##.adp-popup
+##.adpc > .module
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
 ##.ads-2
@@ -6180,7 +6181,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||51.com/up/bdfmt/
 ||51.la^$third-party
 ||510mall.com//image/
-||511.la^*.gif$domain=meiju11.com
 ||5118.com/g/
 ||512ms.com/webggwhtml/
 ||513575528.com^
@@ -15520,7 +15520,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qintingapp.com^
 ||qisafniy.space^
 ||qisaoba.com^
-||qishenga.com^*.gif$domain=meiju11.com
 ||qishula.com/css/wap.
 ||qist.me^
 ||qitou20230204.live^
@@ -17880,6 +17879,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||w4jz.top^
 ||w51t.com^$subdocument
 ||w80n.fun^
+||w94.1qlgi.top^
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wadqfaj.cn^

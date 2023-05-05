@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jeht4WEKJMuf2i3stxr5iA
+! Checksum: OHHm0QerY/otA3Oqi6oPFA
 ! Title: 混合规则(自动更新)
-! Version: 20230505221731
+! Version: 20230506000717
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-05 22:17:31
-! Total Count: 109614
+! Last modified: 2023-05-06 00:07:17
+! Total Count: 109622
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8880,6 +8880,7 @@
 ##.adpadding
 ##.adpane
 ##.adparent
+##.adpc > .module
 ##.adpic
 ##.adplace
 ##.adplace_center
@@ -19084,6 +19085,7 @@ $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanhua.com
 $script,third-party,domain=dybee.tv
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,websocket,domain=52codes.net
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $websocket,domain=5nj.com|cechi8.com
 &AdType=
@@ -28189,6 +28191,7 @@ $websocket,domain=5nj.com|cechi8.com
 18av.mm-cg.com##.ut_ad_box
 18av.pro##.video-server > .inplayer
 18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,ting56.com,txzqw.me,youxi.baidu.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,txzqw.me,youxi.baidu.com###banner
 18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,ting56.com,txzqw.me,youxi.baidu.com###banner
 18avhub.com,18avtube.com,avmimi.com,mm-cg.com###friendLink
 18avhub.com,18avtube.com,mm-cg.com###partner
@@ -28651,6 +28654,7 @@ $websocket,domain=5nj.com|cechi8.com
 3gsc.com.cn##.tipsA
 3h3.com###gaosu_down_bt
 3h3.com##.gaosu_div
+3h3.com,downxia.com##.bendown
 3h3.com,downxia.com##.gaosu_down_div
 3h3.com,downxia.com,rsdown.cn##.bendown
 3h3.com,downxia.com,rsdown.cn,veryhuo.com##.bendown
@@ -29061,6 +29065,7 @@ $websocket,domain=5nj.com|cechi8.com
 789ys.com,calmlab.com,ruanyifeng.com##div[style*="important"]
 789ys.com,domp4.cc##h1[style]
 789ys.com,fffdm.com##ul[style]
+789ys.com,ruanyifeng.com##div[style*="important"]
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -39233,6 +39238,7 @@ htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.hlol_ad
 htcui.com##.carousel
 htcui.com##.qqanimate
 htcui.com##.yanshibtn
+htmanga4.top##+js(abort-on-property-read, tips)
 html-js.com##.ad-blank
 html-js.com##.module[style="padding:0;"]
 html-js.com##a[style^="margin-top:20px;"]
@@ -43077,6 +43083,7 @@ pc0359.cn,pc6.com##.ad-download
 pc6.com###param + a
 pc6.com##.Advbox
 pc841.com##.w1050
+pc841.com##.w300
 pc841.com,ting56.com##.w300
 pc841.com,zol.com.cn##.today-hot-layer
 pcauto.com.cn###PcPoPmarket
@@ -105050,6 +105057,7 @@ zzzyk.com###Tinfo
 ||w80n.fun^
 ||w88.espn.com^
 ||w88.go.com^
+||w94.1qlgi.top^
 ||w982.middletownpress.com^
 ||w99megeneral.com^
 ||wa.and.co.uk^
