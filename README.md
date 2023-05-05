@@ -1,5 +1,5 @@
 # 混合规则
-### 自动更新(2023-05-05 08:29:51)
+### 自动更新(2023-05-05 16:08:05)
 
 ## 统计
 ### 访问量 : ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.adblock_auto&left_color=green&right_color=red)
