@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: CMf8POJluUT0vvSSgfwwIw
+! Checksum: FfzQ9VLfB+PQZeYY45QxtQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230506082844
+! Version: 20230506133914
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-06 08:28:44
-! Total Count: 19487
+! Last modified: 2023-05-06 13:39:14
+! Total Count: 19494
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2820,6 +2820,10 @@
 11fzw.com##a[href*="go.php?url="][target="_blank"] > img[src]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"] > img[alt][src$=".gif"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class$="_b"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class^="bot-"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_blank"] > img[alt][src$=".gif"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_self"] > img[alt][src]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"] > img[alt][src]
 1snau.ru,bychico.net,dyrik.ru,ecosounds.net,in-drive.ru,inforpost.com,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,turbominer.ru##body > div[style*="z-index"][style*="9999"]
@@ -8493,6 +8497,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bjads.bejbej.ca^
 ||bjbrsfh.cn^
 ||bjcathay.com/s?z=
+||bjcpjab.cn^
 ||bjdqxt.com^
 ||bjfc.xyz^
 ||bjhockey.org/public/pc/video/test.mp4
@@ -11230,6 +11235,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||gwaaz.cn^
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwf0.icu^
+||gwide.xyz^
 ||gwmeinq.cn^
 ||gwrtdp-tn690BFAdt.tclclouds.com^
 ||gwvzgjb.cn^
@@ -13654,6 +13660,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lwcsytn.cn^
 ||lwddrhp.cn^
 ||lwfcipd.cn^
+||lwh147.xyz^
 ||lwhqa.xyz^
 ||lwlwlw.com/ggzx/
 ||lwlwlw.com/js/FVgg.js

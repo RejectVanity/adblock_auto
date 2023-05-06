@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ewNrDmj+R/L/1TAo0eqs7Q
+! Checksum: XY8izaW/98tjvndgacZ05g
 ! Title: 混合规则(自动更新)
-! Version: 20230506082842
+! Version: 20230506133912
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-06 08:28:42
-! Total Count: 109739
+! Last modified: 2023-05-06 13:39:12
+! Total Count: 109746
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -28232,6 +28232,10 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"] > img[alt][src$=".gif"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class$="_b"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class^="bot-"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_blank"] > img[alt][src$=".gif"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_self"] > img[alt][src]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"] > img[alt][src]
 18comic.vip##div[data-group^="skyscraper_"]
@@ -60170,6 +60174,7 @@ zzzyk.com###Tinfo
 ||bjbrsfh.cn^
 ||bjcathay.com/s?z=
 ||bjcathay.com^
+||bjcpjab.cn^
 ||bjcwwsc.xyz^
 ||bjdqxt.com^
 ||bjeai.com^
@@ -74540,6 +74545,7 @@ zzzyk.com###Tinfo
 ||gwekzilagfux.com^
 ||gwen.insertcoin.se^
 ||gwf0.icu^
+||gwide.xyz^
 ||gwmeinq.cn^
 ||gwmtracking.com^
 ||gwrtdp-tn690BFAdt.tclclouds.com^
@@ -82618,6 +82624,7 @@ zzzyk.com###Tinfo
 ||lwddrhp.cn^
 ||lwfcipd.cn^
 ||lwgadm.com^
+||lwh147.xyz^
 ||lwhqa.xyz^
 ||lwjvyd.com^
 ||lwlscy.com^
