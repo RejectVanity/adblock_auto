@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: PYdchm/QXIClJAfrNjsYAw
+! Checksum: CMf8POJluUT0vvSSgfwwIw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230506000719
+! Version: 20230506082844
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-06 00:07:19
-! Total Count: 19478
+! Last modified: 2023-05-06 08:28:44
+! Total Count: 19487
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1278,6 +1278,7 @@
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="footer-ad"]
 ##[class^="naicon btn btn-raised"]
+##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
 ##[class^="stsxxgtv_"]
@@ -1718,9 +1719,11 @@
 ##a[href="極樂夜王"][target="_blank"]
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
+##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
+##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
 ##a[href][target="_blank"][onclick*="广告"]
@@ -4652,6 +4655,7 @@ daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com
 darkteam.net##.pls_rmv
 daz3d.ru,portfel.info##body > div[id][style="display: block;"]
 dbz-fantasy.com#@##adTeaser
+dc.fsecity.com#@#[onclick*="app"]
 ddys.art##div > a[href][target="_blank"] > img
 ddys.art##div > span > a > img
 dealerdunet.fr#@#.text_ads
@@ -15432,6 +15436,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qeptzff.cn^
 ||qerbert78.xyz^
 ||qf1d.top^
+||qfblqq.com^
 ||qfdtqq.com^
 ||qfgall.cn^
 ||qfgfpi.cn^
@@ -16089,6 +16094,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||same.eastmoney.com^
 ||sange20221226.xyz^
 ||sangoo.top^$third-party
+||sanguine.ren^
 ||sanlida.asia^
 ||sanme2.taisantech.com^
 ||sanqian.pro^
@@ -16627,6 +16633,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||squirrelhands.com^$third-party
 ||srcaunu.cn^
 ||srgwxvm.cn^
+||srkl.pw^
 ||srnov.top^
 ||srootshare.com/otmyjs/
 ||srurzn.cn^
@@ -17128,6 +17135,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tkportal.aotter.net^
 ||tl86tv.com/52
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
+||tlhlpcb.xyz^
 ||tlsynmli.fun^
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
@@ -17322,6 +17330,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||twinrdsrv.com$xmlhttprequest,third-party
 ||twlcyc.cn^
 ||twn2e.cn^
+||twnafj.xyz^
 ||two.fsylr.com^
 ||twogldi.top^
 ||twpfa.cn^
