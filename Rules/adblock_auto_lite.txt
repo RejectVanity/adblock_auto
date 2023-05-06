@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: rtFqJsEfsAJUNPl5u5FyWw
+! Checksum: 7cN1MSd9nv2jUZ99NM9suQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230506160653
+! Version: 20230506213749
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-06 16:06:53
-! Total Count: 19487
+! Last modified: 2023-05-06 21:37:49
+! Total Count: 19493
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1820,6 +1820,7 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
+##center[style="display: none;"] > span[style][onclick]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
@@ -1966,6 +1967,7 @@
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
+##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -5340,7 +5342,9 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yarik-sat.com##.noadb
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##embed[src]
 ykt.ru##.n-banner--adblocked
@@ -6149,6 +6153,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||470kk.com/js/config.js
 ||470kk.com/js/indextop.js
 ||476bu131.cn^
+||47zoz.xyz^
 ||480img.com^
 ||484r.com/images/flash/gallery_
 ||48dreams.com/player/adstype/advmaker.php
@@ -7136,6 +7141,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||adbxb.com^$third-party
 ||adcamp.ru^
 ||adccoo.cn^
+||adcd7.com^
 ||adcel.co^
 ||adcel.vrvm.com^
 ||adcolony.com^

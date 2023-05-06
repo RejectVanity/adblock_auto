@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: tHTHdu0cok5tMXIKQAIFcw
+! Checksum: mpm3AepjdzH80lyipVWY4Q
 ! Title: 混合规则(自动更新)
-! Version: 20230506160651
+! Version: 20230506213747
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-06 16:06:51
-! Total Count: 109745
+! Last modified: 2023-05-06 21:37:47
+! Total Count: 109772
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18467,6 +18467,7 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
+##center[style="display: none;"] > span[style][onclick]
 ##citrus-ad-wrapper
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##display-ad-component
@@ -18684,6 +18685,7 @@
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
+##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -34218,6 +34220,7 @@ belgie.fm,danmark.fm,deutschland.fm,espana.fm,india.fm,italia.fm,nederland.fm###
 bella.tw##.hide-mobile[style]
 bellesa.co##.Display__RatioOuter-hkc90m-0
 bellinghamherald.com##.zone-el
+bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,newsobserver.com##.zone
 bendibao.com###wxbox
@@ -34803,6 +34806,8 @@ business2community.com##div[id^="busin-"]
 businessday.ng##.uiazojl
 businessday.ng##.vc_custom_1627979893469
 businessesview.com.au,holidayview.com.au,realestateview.com.au,ruralview.com.au##.add-item
+businessgreen.com###rdm-below-header
+businessgreen.com,computing.co.uk##.notice-slot-full-below-header
 businessinsider.com,insider.com##.commerce-coupons-module
 businessinsider.com,insider.com##.in-post-sticky
 businessinsider.com.au##.content-section-banner
@@ -35376,6 +35381,7 @@ cliniqueregain.com##.footer-promo
 cliniqueregain.com##.player-promo
 cliniqueregain.com,tallermaintenancar.com##.girl
 cliniqueregain.com,tallermaintenancar.com##.thumbs
+clintonherald.com,ottumwacourier.com,thetimestribune.com###floorboard_block
 clocktab.com###fv_left-side
 closermag.fr##div[id^="detection-block"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
@@ -36053,6 +36059,10 @@ dailynews.sina.com##.TopNav + table
 dailynewsegypt.com##.banner-250
 dailynewsegypt.com##.skyscraper-banner
 dailynewsegypt.com##.widget_rotatingbanners
+dailyo.in##.adWrapp
+dailyo.in##.adsWrp
+dailyo.in##.lhsAdvertisement300
+dailyo.in##.rhsAdvertisement300
 dailyporn.club###fixedban
 dailyporn.club##.bottom-blocks
 dailyporn.club,risextube.com##.bottom-blocks
@@ -38830,6 +38840,7 @@ hardwaretimes.com###tie-block_2144
 hardwaretimes.com###tie-block_3197
 hardwaretimes.com##.stream-item-widget
 hardwaretimes.com,oneindia.com###parentDiv0
+hardwaretimes.com,oneindia.com,wionews.com###parentDiv0
 hatenacorp.jp#@#.ads-link
 hatenacorp.jp,milf300.com#@#.ads-link
 haveibeenpwned.com#?#.actionsBar:-abp-has(.why1Password)
@@ -42481,6 +42492,7 @@ news.99k.tw##.entry-content > table[align="left"][style="width:360px"]
 news.99k.tw##iframe[src^="http://news.99k.tw/open/open"][src$=".php"]
 news.am##.banner_click
 news.am,nexter.org,viva.co.nz##.side-banner
+news.artnet.com##.artnet-ads-ad
 news.artnet.com,powernationtv.com,worldsurfleague.com#@#div[data-ad-targeting]
 news.baidu.com###detail-HotScrollNews-wrapper
 news.baidu.com###favoriteTips
@@ -47375,6 +47387,10 @@ winx-club-hentai.com##.shr34
 winzoro.net##.isadNotif
 wionews.com###block-adv
 wionews.com##.ad-height
+wionews.com##.ads-box-300x250
+wionews.com##.ads-box-300x300
+wionews.com##.ads-box-970x90
+wionews.com##.ads-box-d90-m300
 wired.com#@#.advertisement__leaderboard
 wired.com#@#.box-radvert
 wireshark.org##.banner-img-downloads
@@ -48096,7 +48112,9 @@ yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhgou.cc##.ch1
 yhgou.cc##.col-lg-12 + .row
 yhgou.cc##.col-lg-12 > a
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##embed[src]
 yibian.hopto.org###no-adblock-box
@@ -50323,6 +50341,7 @@ zzzyk.com###Tinfo
 ||47daeb1eac.com^
 ||47e0aaed8a.com^
 ||47f9b1fbc5.com^
+||47zoz.xyz^
 ||480a70b554.com^
 ||480img.com^
 ||484r.com/images/flash/gallery_
@@ -52934,6 +52953,7 @@ zzzyk.com###Tinfo
 ||adcastplus.net^
 ||adcater.com^
 ||adccoo.cn^
+||adcd7.com^
 ||adcde.com^
 ||adcdn.goo.ne.jp^
 ||adcdnx.com^
@@ -101422,6 +101442,7 @@ zzzyk.com###Tinfo
 ||track.bizjournals.com^
 ||track.briskfile.com^
 ||track.buybox.click^
+||track.buzzerilla.com^
 ||track.byzon.swelen.net^
 ||track.capitaloneshopping.com^
 ||track.catalogs.com^
@@ -101456,13 +101477,16 @@ zzzyk.com###Tinfo
 ||track.ft.com^
 ||track.fxstreet.com^
 ||track.gawker.com^
+||track.historictalk.com^
 ||track.hk01.com^
 ||track.hubspot.com^
 ||track.hujiang.com^
 ||track.icheck.com.vn^
 ||track.ilonofficial.com^
 ||track.juno.com^
+||track.juststarz.com^
 ||track.kinetiksoft.com^
+||track.kueez.com^
 ||track.kyna.vn^
 ||track.kyoads.com^
 ||track.lapa.pub^
@@ -101488,6 +101512,7 @@ zzzyk.com###Tinfo
 ||track.nzz.ch^
 ||track.oasis.magictavern.com^
 ||track.omgpl.com^
+||track.parentmood.com^
 ||track.peavoidud.com^
 ||track.pingstart.com^
 ||track.pnicnik.live^
@@ -101508,6 +101533,7 @@ zzzyk.com###Tinfo
 ||track.segmentstream.com^
 ||track.sendo.vn^
 ||track.shop2market.com^
+||track.shrinkplus.com^
 ||track.slideshare.net^
 ||track.social.com^
 ||track.sohu.com^
@@ -101522,6 +101548,7 @@ zzzyk.com###Tinfo
 ||track.tenjin.com^
 ||track.tenjin.io^
 ||track.thebase.in^
+||track.thefunpost.com^
 ||track.thesaurus.com^
 ||track.tiara.
 ||track.tomwx.net^
