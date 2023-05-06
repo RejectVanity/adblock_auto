@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: XY8izaW/98tjvndgacZ05g
+! Checksum: oVUa2ueShpdFXrlpaeqerQ
 ! Title: 混合规则(自动更新)
-! Version: 20230506133912
+! Version: 20230506154034
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-06 13:39:12
-! Total Count: 109746
+! Last modified: 2023-05-06 15:40:34
+! Total Count: 109745
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -28230,14 +28230,10 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"] > img[alt][src$=".gif"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class$="_b"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class^="bot-"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_blank"] > img[alt][src$=".gif"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_self"] > img[alt][src]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"] > img[alt][src]
 18comic.vip##div[data-group^="skyscraper_"]
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:-abp-has(> a[target="_blank"] > img)
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
@@ -59375,7 +59371,6 @@ zzzyk.com###Tinfo
 ||bebi.com^
 ||bebj.com^
 ||bebloommulvel.com^
-||beboo.ru^
 ||bebreloomr.com^
 ||becameaimcap.com^
 ||becamechorist.com^
@@ -79479,6 +79474,7 @@ zzzyk.com###Tinfo
 ||jxlida.ink^
 ||jxlqgs.com^
 ||jxmzyg.com^
+||jxncs1.com^
 ||jxnews.com.cn/assets/js/dspshow.js
 ||jxnews.com.cn/first/js/home/index_ad
 ||jxnews.com.cn^*_ad_
@@ -92936,6 +92932,7 @@ zzzyk.com###Tinfo
 ||recesslikeness.com^
 ||recesssignary.com^
 ||rechampouinerai.website^
+||recheatputs.com^
 ||recipe.rakuten.co.jp/webinfo/sp/ads/
 ||recipesunny.com^
 ||reciprocaldandy.com^
@@ -94499,6 +94496,7 @@ zzzyk.com###Tinfo
 ||rvt2687sqo9o.ru^
 ||rvwtpwmtnfj.com^
 ||rvyjbwr.cn^
+||rw.marchex.io^
 ||rwadakesz.cyou^
 ||rwefsw55.com^
 ||rwfnpayyn.xyz^
@@ -97434,6 +97432,7 @@ zzzyk.com###Tinfo
 ||spacenine.biz^
 ||spacepools.org^
 ||spaceshipads.com^
+||spacetraveldin.com^
 ||spaciouslanentablelanentablepigs.com^
 ||spade.twitch.tv^
 ||spadeballroom.com^

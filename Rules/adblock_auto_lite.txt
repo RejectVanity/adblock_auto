@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: FfzQ9VLfB+PQZeYY45QxtQ
+! Checksum: 5j9s0SVAseTA1pxM0RjDog
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230506133914
+! Version: 20230506154036
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-06 13:39:14
-! Total Count: 19494
+! Last modified: 2023-05-06 15:40:36
+! Total Count: 19487
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2818,14 +2818,10 @@
 101.ru##.showMessageAdBlock
 11fzw.com##.index-top-ad
 11fzw.com##a[href*="go.php?url="][target="_blank"] > img[src]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[class^="bot-"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##a[target="_blank"] > img[alt][src$=".gif"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class$="_b"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##[class^="bot-"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_blank"] > img[alt][src$=".gif"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jm-comic1.cc,jm-comic2.cc##a[target="_self"] > img[alt][src]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##[class$="_b"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group,jmcomic1.group##a[target="_self"] > img[alt][src]
 1snau.ru,bychico.net,dyrik.ru,ecosounds.net,in-drive.ru,inforpost.com,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,turbominer.ru##body > div[style*="z-index"][style*="9999"]
 24video.xxx##.adt
 2cycomic.com,yemancomic.com##[href*=".xacg.info/"]
@@ -9656,8 +9652,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ddtx.fun^
 ||dduu.buzz^
 ||ddxs.xyz^
-||ddyueshu.com/js/dj
-||ddyueshu.com/js/pfad
 ||de.as.pptv.com^
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
@@ -12879,6 +12873,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jxlida.ink^
 ||jxlqgs.com^
 ||jxmzyg.com^
+||jxncs1.com^
 ||jxnews.com.cn/assets/js/dspshow.js
 ||jxnews.com.cn/first/js/home/index_ad
 ||jxnews.com.cn^*_ad_
@@ -15967,7 +15962,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rryy99.com/statics/js/stat.js
 ||rsbepv.xyz^
 ||rsdkk26.xyz^
-||rsdown.cn/statics/images/rs-banner.jpg
 ||rsmdlk.cn^
 ||rsnignsz.xyz^
 ||rsnoownmz.fun^
@@ -17097,7 +17091,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||timecn.cn/image/alipay.jpg
 ||timesofindia.indiatimes.com/affiliate_new.cms?$domain=gadgetsnow.com
 ||timothy.wang^
-||ting56.com/xiezhewan/
 ||tingchina.com/images/aibaoliang.gif
 ||tingchina.com/js/*220-
 ||tingchina.com/js/760
