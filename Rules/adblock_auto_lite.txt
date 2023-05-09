@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: P9d4/gqxdkmN3aG9Mw5QQg
+! Checksum: yL+p2qj5WkYNpLi4nK2pQg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230509083203
+! Version: 20230509132242
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-09 08:32:03
-! Total Count: 19527
+! Last modified: 2023-05-09 13:22:42
+! Total Count: 19538
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2382,6 +2382,7 @@
 .cc/js/ads/
 .cilipa*/js/os.js
 .cloud/ads/
+.club/*_*.js?*16$third-party
 .club/?token=*&screen_*=*&ref=$third-party
 .club/ads/
 .club/adv/
@@ -2413,6 +2414,7 @@
 .com/*/ddd3.js
 .com/*/ddd4.js
 .com/*/ffff.js
+.com/*_*.js?*16$third-party
 .com/0gg/gg*.js
 .com/?Intr=$popup,third-party
 .com/?aff=$popup,third-party
@@ -2517,12 +2519,14 @@
 .com:2516/code/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
+.cyou/*_*.js?*16$third-party
 .cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
 .cyou/?token=*&screen_*=*&ref=$third-party
 .cyou/gyxx_*_aubi.js$third-party
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
 .eu/ads/
+.fun/*_*.js?*16$third-party
 .fun/*_*_rony.js
 .fun/?token=*&screen_*=*&ref=$third-party
 .fun/ad/
@@ -2552,6 +2556,7 @@
 .la/8WaadBLH/*.js
 .la/style/vue.js?v=
 .life/ads/
+.live/*_*.js?*16$third-party
 .live/?token=*&screen_*=*&ref=$third-party
 .live/gyxx_*_aubi.js$third-party
 .live/j/*/*?$third-party
@@ -2575,6 +2580,7 @@
 .me/gg.js
 .me/scripts/my_33.js
 .men/ads/
+.mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
 .mobi/gyxx_*_aubi.js$third-party
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
@@ -2604,6 +2610,7 @@
 .qidian.com/floatOpBox.
 .qidian.com/gameBox.
 .qidian.com/pageOps.
+.shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
 .shop/gyxx_*_aubi.js$third-party
 .shop/r/*$xmlhttprequest
@@ -2613,6 +2620,7 @@
 .site:20443/*.js^$script,third-party
 .swf?clicktag=
 .test15./
+.top/*_*.js?*16$third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
 .top/?token=*&screen_*=*&ref=$third-party
@@ -2640,6 +2648,7 @@
 .xn--fiqs8s:7385/
 .xyz/*.sdk?$script,third-party
 .xyz/*?16$third-party
+.xyz/*_*.js?*16$third-party
 .xyz/99x/
 .xyz/?ch=ssmh
 .xyz/?channelCode=$csp=script-src
@@ -9405,6 +9414,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||csekct.xyz^
 ||csfphpn.cn^
 ||csgw.xyz^
+||csh253.cn^
 ||csi.gstatic.com^
 ||cspb1.5w5w.com^
 ||csqiulong.com^
@@ -13058,6 +13068,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||khrtac.xiangha.com^
 ||khufaw2.com^
 ||khuokpj.cn^
+||kianakaslana.club^
 ||kidisland.cn^
 ||kiees.cn/img/
 ||kiees.cn/jm.png
