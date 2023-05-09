@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: NYJZ2GHuCj/yFvJ3k0aQ5Q
+! Checksum: XDdT5Yir82HWtDLwXfRbVg
 ! Title: 混合规则(自动更新)
-! Version: 20230509160811
+! Version: 20230510000712
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-09 16:08:11
-! Total Count: 109992
+! Last modified: 2023-05-10 00:07:12
+! Total Count: 110004
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -33291,6 +33291,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
 amazon.com,cancam.jp,faceyourmanga.com,isc2.org,liverc.com,mit.edu,muscatdaily.com,olx.pl,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
 amazon.com,faceyourmanga.com,isc2.org,liverc.com,liverpoolfc.com,mit.edu,muscatdaily.com,olx.pl,payback.pl,pccomponentes.com,ripley.com.pe,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
+amazonadviser.com,apptrigger.com,fansided.com,hiddenremote.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
 amctheatres.com##.flt-ad-strut
 americafirstreport.com##.ameri-before-content
 americanindependent.com##.td-banner-bg
@@ -34251,7 +34252,7 @@ belgie.fm,danmark.fm,deutschland.fm,espana.fm,india.fm,italia.fm,nederland.fm###
 bella.tw##.hide-mobile[style]
 bellesa.co##.Display__RatioOuter-hkc90m-0
 bellinghamherald.com##.zone-el
-bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
+bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,sunherald.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,newsobserver.com##.zone
 bendibao.com###wxbox
@@ -36240,6 +36241,7 @@ ddrk.me##a[onclick^="ClickobayST();"]
 ddrk.me,ddys.tv##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddxsku.com##.adhtml
+ddys.*##+js(set-constant, Object.prototype.canobpreroll_, true)
 ddys.*##+js(set-constant, Object.prototype.cnobpreroll_, true)
 ddys.art##div > a[href][target="_blank"] > img
 ddys.art##div > span > a > img
@@ -36806,6 +36808,9 @@ duplichecker.com##a[href^="https://www.duplichecker.com/"][target*="blank"][rel*
 duplichecker.com##img[src*="data:image"]
 dutchnews.nl##.small-add-block
 dvdfile.com,ecnmag.com,thefashionspot.com###roadblock
+dvdsreleasedates.com###ad-movie
+dvdsreleasedates.com###sticky
+dvdsreleasedates.com##[style="padding:15px 0 15px 0;width:728px;height:90px;text-align:center;"]
 dvdtalk.com##a[href^="http://dvdtalk.pricegrabber.com/"]
 dwnews.com##.adbox-top
 dxqck.com##.myadswiper
@@ -41759,6 +41764,7 @@ mdisk.me##.liveBox
 mdisk.me##.robot
 mdisk.me##.spdownloader-ad
 mdisk.me##.taka-gif-con
+mdpi.com###adBannerContent
 me-gay.com##.b-uvb-spot
 me360.com##.footer-booking-open
 meaww.com##[style^="text-align: center;"]
@@ -46790,6 +46796,10 @@ urbandictionary.com##[aria-label*="Advertise"]
 urgayporn.com##.block-banvert
 url56.ctfile.com#?##main-content > .container > .card > .card-body:-abp-has(> div[id="760ad"])
 url56.ctfile.com#?##main-content > .container > .card > .card-body:has(> div[id="760ad"])
+usasexguide.nl###uiISGAdFooter
+usasexguide.nl##.isg_background_border_banner
+usasexguide.nl##.isg_banner
+usasexguide.nl##[href^="https://instable-easher.com/"]
 usatoday.com##.gnt_tb
 usatoday.com##.gnt_tbr
 usatoday.com##.gnt_x__lbl
@@ -67461,6 +67471,7 @@ zzzyk.com###Tinfo
 ||dharkyu.cn^
 ||dharmaashman.com^
 ||dhawtqebxbgk.xyz^
+||dhaxhsa325.com^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhhpm.cn^
 ||dhifmejtw.com^
@@ -88667,6 +88678,7 @@ zzzyk.com###Tinfo
 ||p123p.com^
 ||p23jac.top^
 ||p24.hu^
+||p2oh1.xyz^
 ||p2p.$xhr,websocket,ping,domain=~huya.com|~binance.com
 ||p2p.bz^
 ||p2p.v.yyclouds.com/crossdomain.xml
