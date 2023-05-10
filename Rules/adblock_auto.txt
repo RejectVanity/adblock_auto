@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6riqgZ75107WEPHP3FEjZg
+! Checksum: zU5DcAqqZh7l6iQXLuMrAw
 ! Title: 混合规则(自动更新)
-! Version: 20230510160748
+! Version: 20230511000746
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-10 16:07:48
-! Total Count: 110068
+! Last modified: 2023-05-11 00:07:46
+! Total Count: 110081
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8881,6 +8881,7 @@
 ##.adpane
 ##.adparent
 ##.adpc > .module
+##.adpc > .promote-link
 ##.adpic
 ##.adplace
 ##.adplace_center
@@ -23688,6 +23689,7 @@ $websocket,domain=5nj.com|cechi8.com
 /app/ads/*
 /app/pcBanner/getBannerConfig/v2
 /app_ad/slade.js
+/appnei-huodong.oss-
 /apps/misc.php?action=advert&
 /aptads/*
 /apu.php?*&zoneid=
@@ -38508,6 +38510,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div.sbsb_c:-abp-has(span.jHLihd)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div.sh-sr__shop-result-group[data-hveid]:-abp-has(g-scrolling-carousel)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[data-section-id]:-abp-has(a[href^="/aclk?sa="][href$="&adurl=&placesheetAdFix=1"])
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:"]:-abp-has(a[href^="/aclk?sa="][href$="&adurl="])
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:"]:-abp-has(span.irmCpc)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(div[class*="-haAclf-"] > div.UzWqLb)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-badge-haAclf"] > span[class$="-badge"])
@@ -43190,7 +43193,9 @@ pcbaby.com.cn###jpopWinBottom
 pcbeta.com##+js(abort-on-stack-trace, document.createElement, make_rand_div)
 pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
 pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
+pcbeta.com#?#:matches-path(/^((?!forum.php).)*$/)#toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
 pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
+pcbeta.com#@?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 pcccp.cn##DIV[id^="xydl"]
 pccomponentes.com#@#.dfp-banner
 pcdown.net##.bzxz
@@ -44364,6 +44369,7 @@ ria.ru##.antiblock
 ria.ru##.c_banners
 riaway.com##.info_message_container
 richardvigilantebooks.com##a[href^="https://rebrand.ly/"]
+right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##a[href^="https://jd.dangbei.com/"]
 rijutv.co###JU
 rijutv.co##.container > div[style="height: 128px;"]
@@ -56466,6 +56472,7 @@ zzzyk.com###Tinfo
 ||analytics.query.yahoo.com^
 ||analytics.radiatemedia.com^
 ||analytics.ratopanda.com^
+||analytics.ravanallc.com^
 ||analytics.rayjump.com^
 ||analytics.rechtslupe.org^
 ||analytics.redbubble.com^
@@ -59753,6 +59760,7 @@ zzzyk.com###Tinfo
 ||beparaspr.com^
 ||bephb.in^
 ||bepolite.eu^
+||bepqevudfoha.com^
 ||bepunenchant.store^
 ||beqawu.xyz^
 ||beqokg.xyz^
@@ -66497,6 +66505,7 @@ zzzyk.com###Tinfo
 ||da3uf5ucdz00u.cloudfront.net^
 ||da5h676k6d22w.cloudfront.net^
 ||daast.digitalbox.ru^
+||dab.rus-km.ru^
 ||dabai28.com/img/*.gif
 ||dabaicai.ink^
 ||dabao.run^
@@ -86763,6 +86772,7 @@ zzzyk.com###Tinfo
 ||noerwe5gianfor19e4st.com^
 ||noeyeon.com^
 ||noflake-aggregator-http.narvar.com^
+||nogff.top^
 ||nogqyqhpoybm.xyz^
 ||nohezu.xyz^
 ||noibu.com^
@@ -87310,6 +87320,7 @@ zzzyk.com###Tinfo
 ||oazoorse.com^
 ||ob.leap.app^
 ||ob3o3r7.cn^
+||oba.rus-km.ru^
 ||obazhaheik.top^
 ||obb.domohoziaka.ru^
 ||obbdarhmos.com^
@@ -94016,6 +94027,7 @@ zzzyk.com###Tinfo
 ||rigelink.com^
 ||rigengjihua.cn/banner/
 ||rigfoxcup.site^
+||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png
@@ -94646,6 +94658,7 @@ zzzyk.com###Tinfo
 ||rulwph.xyz^
 ||rum*.a.trbcdn.net^
 ||rum*.cdnvideo.ru^
+||rum-metrics.bunny.net^
 ||rum.azion.com^
 ||rum.azioncdn.net^
 ||rum.conde.io^

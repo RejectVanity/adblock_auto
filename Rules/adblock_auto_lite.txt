@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: iM/FIoJHYPb7MWX3QoRbGQ
+! Checksum: ZyV0gzONubfH/Etttd5nog
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230510160750
+! Version: 20230511000748
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-10 16:07:50
-! Total Count: 19549
+! Last modified: 2023-05-11 00:07:48
+! Total Count: 19552
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -707,6 +707,7 @@
 ##.adlistcss
 ##.adp-popup
 ##.adpc > .module
+##.adpc > .promote-link
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
 ##.ads-2
@@ -14639,6 +14640,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nnm-club.ws/forum/docs/requests.js
 ||nnocsin.cn^
 ||no1.168abc.net/upload/
+||nogff.top^
 ||noiea.xyz^
 ||nomalleadzuaff.com^
 ||nonabh.xyz^
@@ -15926,6 +15928,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||richh.cn^
 ||richpays.com^
 ||rigengjihua.cn/banner/
+||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png
