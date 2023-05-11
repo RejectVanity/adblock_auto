@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ya9MDS2aX8PeMkY9Xf8Wqg
+! Checksum: tWMOV8DuoK16Y7NMsMFqtA
 ! Title: 自用去广告Adblock规则
-! Version: 20230510012806
-! Last modified: 2023-05-10 01:28:06
-! Total Count: 1314
+! Version: 20230511181453
+! Last modified: 2023-05-11 18:14:53
+! Total Count: 1318
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -289,6 +289,7 @@
 .la/8WaadBLH/*.js
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
+.live/kallss?$third-party
 .live/r/*/*?$third-party
 .pw/blxn_*.js?
 .shop/r/*$xmlhttprequest
@@ -315,6 +316,7 @@
 .xyz/ember?$third-party
 .xyz/hm.js?
 .xyz/jque*.js?
+.xyz/kallss?$third-party
 .xyz/mithril?$third-party
 .xyz/o.js
 .xyz/polymer?$third-party
@@ -457,6 +459,8 @@ Banner-Adv
 _728x90_
 _ads_banner
 adultdeepfakes.com##[class^="root--"]
+aiqicha.baidu.com#@#[class*="ad"][class*="recommend" i]
+aiqicha.baidu.com#@#[class*="ad"][class*="recommend"]
 autohome.com.cn###float_bottom_button
 autohome.com.cn###float_new_button
 autohome.com.cn###recommand-article
