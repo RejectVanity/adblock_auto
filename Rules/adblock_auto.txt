@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: EVmFNxlbkw3EB6YhfF8VjA
+! Checksum: kGMERRqNfOlT6GS0O0twYQ
 ! Title: 混合规则(自动更新)
-! Version: 20230511181623
+! Version: 20230511215628
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-11 18:16:23
-! Total Count: 110148
+! Last modified: 2023-05-11 21:56:28
+! Total Count: 110161
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19981,6 +19981,7 @@ $websocket,domain=5nj.com|cechi8.com
 .html?ad=
 .html?ad_
 .html?android=hx*&_$csp=script-src
+.html?channelCode=$third-party
 .html?clicktag=
 .html|$domain=www.gamer.com.tw
 .htmm?$domain=m.69shu.io|m.piaotianzw.com
@@ -22050,6 +22051,7 @@ $websocket,domain=5nj.com|cechi8.com
 /admaniacustom.
 /admanproxy.
 /admarker.
+/admarker.$domain=~admarker.co.il
 /admarker_
 /admarket/*
 /admarubanners.
@@ -28032,7 +28034,7 @@ $websocket,domain=5nj.com|cechi8.com
 123cha.com##.n_ads_box
 123cha.com##.n_ads_box + .box > .tbl > tbody > tr:last-child > td[bgcolor="#eeeeee"][width="350"]:last-child
 123cha.com##div[style^="float:left;margin:8px 0;width:790px;border:1px dashed #ccc;"]
-123movies.net,1stream.link,4anime.biz,4anime.gg,9anime.tube,actvid.com,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,beetoon.net,bollyflix.baby,bravoporn.com,cineb.net,coloredmanga.com,dembed1.com,downloadlagu321.site,dragontranslation.com,dramacool.pk,dramacool.sr,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,harimanga.com,hdjerjer2.com,hds-streaming-hd.com,herogayab.net,hhdmovies.cam,himovies.to,hindilinks4u.cam,hindilinks4u.pm,hothit.me,hurawatch.cc,iflixmovies.com,instamod.co,jujutsukaisen-manga.online,jujutsukaisenonline.net,leercapitulo.com,linksly.co,manga1st.com,mangadna.com,mangahere.today,manganatos.com,mangas-raw.com,mangatigre.net,mangceh.cc,manhuafast.com,manhwadesu.org,manhwalist.com,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,movies.ninja,moviesmod.com,mp3fromyou.tube,mreader.co,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.bz,prmovies.cam,prmovies.fyi,prmovies.gay,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sflix.se,shortylinks.info,sockshare.ac,ssoap2day.to,sukidesuost.info,tamilyogi.best,uwatchfree.be,vanime.co,waploaded.com,wat32.tv,watchofree.com,watchomovies.cam,watchomovies.net,watchseries.cyou,watchseries.ninja,wcostream.cc,webtoonshare.com,y-2mate.com,yomovies.bz,yomovies.gay,yomovies.pl,yomovies.pm,yomovies.ws,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
+123movies.net,1stream.link,4anime.biz,4anime.gg,9anime.tube,actvid.com,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,beetoon.net,bollyflix.baby,bravoporn.com,cineb.net,coloredmanga.com,dembed1.com,downloadlagu321.site,dragontranslation.com,dramacool.pk,dramacool.sr,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,harimanga.com,hdjerjer2.com,hds-streaming-hd.com,herogayab.net,hhdmovies.cam,himovies.to,hindilinks4u.cam,hindilinks4u.pm,hothit.me,hurawatch.cc,iflixmovies.com,instamod.co,jujutsukaisen-manga.online,jujutsukaisenonline.net,leercapitulo.com,linksly.co,manga1st.com,mangadna.com,mangahere.today,manganatos.com,mangas-raw.com,mangatigre.net,mangceh.cc,manhuafast.com,manhwadesu.org,manhwalist.com,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,movies.ninja,moviesmod.com,mp3fromyou.tube,mreader.co,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.bz,prmovies.cam,prmovies.fyi,prmovies.gay,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sflix.se,shortylinks.info,sockshare.ac,ssoap2day.to,streamingcommunity.life,sukidesuost.info,tamilyogi.best,uwatchfree.be,vanime.co,waploaded.com,wat32.tv,watchofree.com,watchomovies.cam,watchomovies.net,watchseries.cyou,watchseries.ninja,wcostream.cc,webtoonshare.com,y-2mate.com,yomovies.bz,yomovies.gay,yomovies.pl,yomovies.pm,yomovies.ws,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 123movies.net,1stream.link,4anime.biz,4anime.gg,9anime.tube,actvid.com,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,beetoon.net,bollyflix.baby,bravoporn.com,cineb.net,coloredmanga.com,dembed1.com,downloadlagu321.site,dragontranslation.com,dramacool.pk,dramacool.sr,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,harimanga.com,hdjerjer2.com,hds-streaming-hd.com,herogayab.net,hhdmovies.cam,himovies.to,hindilinks4u.cam,hindilinks4u.pm,hothit.me,hurawatch.cc,iflixmovies.com,jujutsukaisen-manga.online,jujutsukaisenonline.net,leercapitulo.com,linksly.co,manga1st.com,mangadna.com,mangahere.today,manganatos.com,mangas-raw.com,mangatigre.net,mangceh.cc,manhuafast.com,manhwadesu.org,manhwalist.com,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,movies.ninja,moviesmod.com,mp3fromyou.tube,mreader.co,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.bz,prmovies.cam,prmovies.fyi,prmovies.gay,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sflix.se,shortylinks.info,sockshare.ac,ssoap2day.to,sukidesuost.info,tamilyogi.best,uwatchfree.be,vanime.co,waploaded.com,wat32.tv,watchofree.com,watchomovies.cam,watchomovies.net,watchseries.cyou,watchseries.ninja,wcostream.cc,webtoonshare.com,y-2mate.com,yomovies.bz,yomovies.gay,yomovies.pl,yomovies.pm,yomovies.ws,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 123proxy.biz###cookieConsentUR99472
 123putlocker.io##[href^="https://moneynow.one/"]
@@ -34617,6 +34619,7 @@ boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com,oneindia.com##.cmscontent-right1
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##.oiad-txt
 boldsky.com,gizbot.com,nativeplanet.com,oneindia.com##.oiad-txt
+bollyflix.baby,downloadlagu321.site,dramacool.sr,streamingcommunity.life,uwatchfree.be##iframe[style*="z-index: 2147483646"]
 bollyflix.baby,downloadlagu321.site,dramacool.sr,uwatchfree.be##iframe[style*="z-index: 2147483646"]
 bollywoodlife.com##.combinedslots
 bolnews.com##.adsheading
@@ -35998,6 +36001,7 @@ cumlouder.com,flyingjizz.com,gotporn.com,japan-whores.com,porntube.com##.adverti
 cumlouder.com,pornjam.com##.related-sites
 cuntest.net###banners
 cupfox.app###page-wrap > div:nth-child(3)
+cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
 cupfox.app##.t-img-box > a[target="_blank"] > img
 cupfox.app#?##outer-container > .model:-abp-has(> .model-content > a[href*=".jd.com"])
@@ -40907,6 +40911,7 @@ kollelbudget.com###text-82
 kollelbudget.com###text-83
 kollelbudget.com##a[href^="https://www.oorahauction.org/"][target="_blank"] > img
 kollywoodtoday.net##.header-top-right
+komikcast.site###bannerhomefooter
 komplett.dk,komplett.no,komplett.se,komplettbedrift.no,komplettforetag.se#@#.product-ad
 kompoz2.com##.brs-block
 kompoz2.com,pornvideos4k.com##.brs-block
@@ -43110,6 +43115,7 @@ outlook.live.com##.N3k7EN5vRGTrONWBPg250
 outlook.live.com##._BAY1XlyQSIe6kyKPlYP
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 outlook.live.com#?#div.customScrollBar > div > div.full:-abp-has(img[src$="/images/ads-olk-icon.png"])
+outlook.live.com#?#div.customScrollBar > div > div[id][class]:-abp-has(img[src$="/images/ads-olk-icon.png"])
 outlook.live.com#?#div:-abp-has(> div > div.fbAdLink)
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 outlookindia.com##.ad_unit_728x90
@@ -67957,6 +67963,7 @@ zzzyk.com###Tinfo
 ||dj930.cn^$third-party
 ||dj97.com/api.php?mod=ad&
 ||djadoc.com^
+||djahkee.xyz^
 ||djchfgacdfaaadfdc.ru^
 ||djeissyivlbc.com^
 ||djers.com^
@@ -79836,6 +79843,7 @@ zzzyk.com###Tinfo
 ||kaiguangdou.com^
 ||kailsfrot.com^
 ||kaipuyun.cn/count/
+||kairuxinxi.xyz^$third-party
 ||kaisaimy.net^
 ||kaiseki-website.com^
 ||kaiu-marketing.com^
@@ -94080,6 +94088,7 @@ zzzyk.com###Tinfo
 ||rigfoxcup.site^
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
+||right.com.cn/forum/static/image/common/logo1.
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png
 ||rightenedetu.site^
@@ -104497,6 +104506,7 @@ zzzyk.com###Tinfo
 ||vast.bazonserver.site^
 ||vast.doublemax.net/adserver/vast.xml$script,xmlhttprequest,other,redirect=noopvast-2.0
 ||vast.holmesmind.com^
+||vast.playmatic.video^
 ||vast.videocdn.tv^
 ||vast4.kinogo.by^
 ||vast4.kinogo.la^
@@ -107268,6 +107278,8 @@ zzzyk.com###Tinfo
 ||www.p.de^
 ||www.pcbeta.com//data/cache/ggk.js
 ||www.stadiumstage.com^
+||www.tjjd*.live^$third-party
+||www.tjjd*.xyz^$third-party
 ||www.trading24.io^
 ||www.xihufe.com^
 ||www.yatu.tv:2082/image/*.gif^$image
@@ -108511,6 +108523,7 @@ zzzyk.com###Tinfo
 ||yhdichan.com^$third-party
 ||yhdm.io/bar/
 ||yhdm.so/bar/
+||yhdm44.com/123.html
 ||yheyg94gjv2o.ru^
 ||yhgameofmu.xyz^
 ||yhhbtavgpuo.com^

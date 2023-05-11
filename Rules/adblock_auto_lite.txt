@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ZDT1Y9oRQ1R4IievdofG/w
+! Checksum: fSdjXmlqk+LzbR4r03T6lQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230511181625
+! Version: 20230511215630
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-11 18:16:25
-! Total Count: 19564
+! Last modified: 2023-05-11 21:56:30
+! Total Count: 19570
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2539,6 +2539,7 @@
 .hk/groupon/ads/
 .html?ad_
 .html?android=hx*&_$csp=script-src
+.html?channelCode=$third-party
 .icu/*_*_rony.js
 .icu/ads/
 .in/js/ads/
@@ -12967,6 +12968,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kaffnet.com^
 ||kagdf.com^
 ||kaiguangdou.com^
+||kairuxinxi.xyz^$third-party
 ||kaixin001.com.cn/js/cpm-
 ||kaixinjiehun.com^$third-party
 ||kaiyiluye.com^
@@ -15940,6 +15942,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rigengjihua.cn/banner/
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
+||right.com.cn/forum/static/image/common/logo1.
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
@@ -18324,6 +18327,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||www.china.com.cn/node_$domain=news.china.com.cn
 ||www.dmhy.org^*.*?$image
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
+||www.tjjd*.live^$third-party
+||www.tjjd*.xyz^$third-party
 ||www.xihufe.com^
 ||www.ztolm.com^
 ||www1.wxnmh.com^
@@ -18885,6 +18890,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yhdichan.com^$third-party
 ||yhdm.io/bar/
 ||yhdm.so/bar/
+||yhdm44.com/123.html
 ||yhilnc.cn^
 ||yhjccj.cn^
 ||yhjh04.com^
