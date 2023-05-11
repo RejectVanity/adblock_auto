@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tWMOV8DuoK16Y7NMsMFqtA
+! Checksum: Z5uDlHC6ZFkq+DF4Scihtw
 ! Title: 自用去广告Adblock规则
-! Version: 20230511181453
-! Last modified: 2023-05-11 18:14:53
-! Total Count: 1318
+! Version: 20230511214945
+! Last modified: 2023-05-11 21:49:45
+! Total Count: 1322
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -286,6 +286,7 @@
 .com/vj2/1$third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.html?channelCode=$third-party
 .la/8WaadBLH/*.js
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
@@ -1163,6 +1164,7 @@ zle.com$script
 ||js.users.51.la^
 ||js.xgmeitu.com/*/*.js
 ||juicyads.com^
+||kairuxinxi.xyz^$third-party
 ||kcieo.xyz^$third-party
 ||kme.zygehty.cn^
 ||kmr.rsvqlz.cn^
@@ -1282,6 +1284,8 @@ zle.com$script
 ||wpadmngr.com^
 ||wsacjdg.cn^
 ||wushangzeichuan.xin^
+||www.tjjd*.live^$third-party
+||www.tjjd*.xyz^$third-party
 ||www.xihufe.com^
 ||www.ztolm.com^
 ||wyhifdpatl.com^
