@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7qiFS39rCMSD7+le9+zppA
+! Checksum: shkPo0RwA6R4xEwSlWL2CQ
 ! Title: 混合规则(自动更新)
-! Version: 20230512000719
+! Version: 20230512083225
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-12 00:07:19
-! Total Count: 110162
+! Last modified: 2023-05-12 08:32:25
+! Total Count: 110185
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -33294,6 +33294,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-loom-desktop-top-slot_hsa-id-CARDS-"]
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
+amazon.com#?#div.s-inner-result-item > div.sg-col-inner:-abp-has(a.puis-sponsored-label-text)
 amazon.com,cancam.jp,faceyourmanga.com,isc2.org,liverc.com,mit.edu,muscatdaily.com,olx.pl,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
 amazon.com,faceyourmanga.com,isc2.org,liverc.com,liverpoolfc.com,mit.edu,muscatdaily.com,olx.pl,payback.pl,pccomponentes.com,ripley.com.pe,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
 amazonadviser.com,apptrigger.com,fansided.com,hiddenremote.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
@@ -42182,6 +42183,7 @@ msn.com###partners
 msn.com###promotions
 msn.com###taboola-above-homepage-thumbnails
 msn.com##.ad
+msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##.articlePage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.bannerAdContainer-DS-EntryPoint1-1
 msn.com##.bing-native-ad
@@ -42191,10 +42193,12 @@ msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.intra-article-ad
 msn.com##.intra-article-ad-full
 msn.com##.intra-article-ad-half
+msn.com##.intra-article-module
 msn.com##.medianetintraarticlenativead
 msn.com##.modernRightRail_stickyTopBannerAd-DS-EntryPoint1-1
 msn.com##.nativeadserversidecontentmodule
 msn.com##.outeradcontainer
+msn.com##.qohvco-DS-EntryPoint1-1
 msn.com##.sameoab_ad_container
 msn.com##.serversidenativead.secondary
 msn.com##.windowsBannerAdContainer-DS-EntryPoint1-1
@@ -52471,6 +52475,7 @@ zzzyk.com###Tinfo
 ||accesstrade.net^
 ||accidentalinfringementfat.com^
 ||accidentallyrussian.com^
+||accids.com^
 ||accio.ai^
 ||acclaimcraftsman.com^
 ||acclog001.shop-pro.jp^
@@ -60951,6 +60956,7 @@ zzzyk.com###Tinfo
 ||bowpinfrow.com^
 ||box.rus.porn^
 ||box.zap.com.br^
+||boxlikepavers.com^
 ||boxofficeliterally.com^
 ||boxofwhisper.com^
 ||boxpr.aiservice.vn^
@@ -61176,6 +61182,7 @@ zzzyk.com###Tinfo
 ||broworker4s.com^
 ||broworker7.com^
 ||browser-http-intake.logs.datadoghq.com^
+||browser-intake-*-datadoghq.com^
 ||browser-intake-datadoghq.com^
 ||browser-intake-datadoghq.eu^
 ||browser-onlytv.ru^
@@ -65857,6 +65864,7 @@ zzzyk.com###Tinfo
 ||d1l6p2sc9645hc.cloudfront.net^
 ||d1lihuem8ojqxz.cloudfront.net^
 ||d1lm7kd3bd3yo9.cloudfront.net^
+||d1lnjzqqshwcwg.cloudfront.net^
 ||d1lxhc4jvstzrp.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
 ||d1mar6i7bkj1lr.cloudfront.net^
@@ -71670,6 +71678,7 @@ zzzyk.com###Tinfo
 ||fieldofbachus.com^
 ||fiendrhythm.com^
 ||fiercedental.com^
+||fiercequips.com^
 ||fierysolemncow.com^
 ||fifishlbs.com^
 ||fifteenthfeeding.com^
@@ -74175,6 +74184,7 @@ zzzyk.com###Tinfo
 ||goplayhere.com^
 ||goprediction.com^
 ||goproxy.cc/api.php
+||goralogplumach.com^
 ||goralogsizers.store^
 ||goraps.com^
 ||goredi.com^
@@ -75468,6 +75478,7 @@ zzzyk.com###Tinfo
 ||hekowutus.com^
 ||heleric.com^
 ||helesandoral.com^
+||heliangjun2.cn^
 ||helic3oniusrcharithonia.com^
 ||helid.xyz^
 ||heligh.com^
@@ -82878,6 +82889,7 @@ zzzyk.com###Tinfo
 ||luxupcdnb.com^
 ||luxupcdnc.com^
 ||luxuryexercisemiddleaged.com^
+||luxusbowboy.com^
 ||luxyad.com^
 ||luyfrk.com^
 ||luyongkang.top^
@@ -85518,6 +85530,7 @@ zzzyk.com###Tinfo
 ||muddyjustify.com^
 ||mudezs.com^
 ||mudperipherd.club^
+||mueid.xyz^
 ||muer.cdn-baidu.fs-sywh.com^
 ||mufflealiases.com^
 ||mufflercypress.com^
@@ -85664,6 +85677,7 @@ zzzyk.com###Tinfo
 ||mxhbkj.cn^
 ||mxiumroqnv.xyz^
 ||mxj.cx^
+||mxknqq.com^
 ||mxlidx.ink^
 ||mxlwmp.cn^
 ||mxmkhyrmup.com^
@@ -86166,6 +86180,7 @@ zzzyk.com###Tinfo
 ||ndingcouncer.xyz^
 ||ndjelsefd.com^
 ||ndkes.com^
+||ndqzqmb.xyz^
 ||ndroip.com^
 ||ndthensome.com^
 ||ndweandthe.xyz^
@@ -94537,6 +94552,7 @@ zzzyk.com###Tinfo
 ||rrvwvcgnsu.xyz^
 ||rrysogsiz.uno^
 ||rryy99.com/statics/js/stat.js
+||rrzxlt.xyz^
 ||rs-context.ru^
 ||rs-stripe.com^
 ||rs.sinajs.cn^
@@ -96143,6 +96159,7 @@ zzzyk.com###Tinfo
 ||shakysurprise.com^$third-party
 ||shakytaste.com^
 ||shakywinningcarnival.com^
+||shaledpaidle.com^
 ||shallotuncord.com^
 ||shallowblade.com^
 ||shallowsmile.com^
@@ -98702,6 +98719,7 @@ zzzyk.com###Tinfo
 ||stats.slashgear.com^
 ||stats.slideshare.net^
 ||stats.someecards.com^
+||stats.sprocketrocket.co^
 ||stats.stg.zaloapp.com^
 ||stats.storify.com^
 ||stats.streamhub.io^
@@ -100918,6 +100936,7 @@ zzzyk.com###Tinfo
 ||ti.tradetracker.net^
 ||ti583.com^
 ||tian-ting.ink^
+||tian0.ltd^
 ||tianhong.mobi^
 ||tianhuafund.cn^
 ||tianii.top^
@@ -103641,6 +103660,7 @@ zzzyk.com###Tinfo
 ||unbriefnothous.com^
 ||unbroidsubtend.com^
 ||unbuiltteuchit.com^
+||unburstballist.com^
 ||unbuttondeferinstalment.com^
 ||unbuttontumorbaloney.com^
 ||uncavefertile.website^
@@ -106186,6 +106206,7 @@ zzzyk.com###Tinfo
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy?
 ||weizjzg.com^$third-party
 ||wel-wel-fie.com^
+||welchdecrier.com^
 ||welcome.indihome.co.id^
 ||weldsystem.online^
 ||welfarefit.com^
@@ -109326,6 +109347,7 @@ zzzyk.com###Tinfo
 ||zatnoh.com^
 ||zaubanel.com^
 ||zauglomo.net^
+||zaumaico.com^
 ||zausosti.net^
 ||zauthaus.net^
 ||zauthuvy.com^
@@ -110050,6 +110072,7 @@ zzzyk.com###Tinfo
 ||zxcdn.com^
 ||zxcvbnmasdfghjklqwertyuiop.work^
 ||zxfas56.com^
+||zxgko.cn^
 ||zxhstudy.online^
 ||zxiaochun.site^
 ||zxjjzx.com^
