@@ -49,6 +49,7 @@ cp -rf "${Base_Rules_Folder}/adblock" "${Combine_Folder}/adblock.txt"
 cp -rf "${Base_Rules_Folder}/其他.prop" "${Combine_Folder}/其他.txt"
 cp -rf "${Base_Rules_Folder}/去除小说广告.prop" "${Combine_Folder}/去除小说广告.txt"
 cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Combine_Folder}/antiadblockfilters.txt"
+cp -rf "${Base_Rules_Folder}/常用广告的顶级域名.prop" "${Combine_Folder}/常用广告的顶级域名.txt"
 
 #合并预处理规则
 Combine_adblock_original_file "${Rules_Folder}/adblock_auto.txt" "${Combine_Folder}"
@@ -73,6 +74,7 @@ cp -rf "${Base_Rules_Folder}/adblock_lite" "${Combine_Folder}/lite/adblock_lite.
 cp -rf "${Base_Rules_Folder}/其他.prop" "${Combine_Folder}/lite/其他.txt"
 cp -rf "${Base_Rules_Folder}/去除小说广告.prop" "${Combine_Folder}/lite/去除小说广告.txt"
 cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Combine_Folder}/lite/antiadblockfilters.txt"
+cp -rf "${Base_Rules_Folder}/常用广告的顶级域名.prop" "${Combine_Folder}/lite/常用广告的顶级域名.txt"
 
 #合并预处理规则
 Combine_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt" "${Combine_Folder}/lite"
