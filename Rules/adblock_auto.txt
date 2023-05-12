@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Y+JtwKqo2OnGHpIHIoMAIg
+! Checksum: 1WwdMYt2jefVK9hSw+C9Iw
 ! Title: 混合规则(自动更新)
-! Version: 20230512160754
+! Version: 20230512184223
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-12 16:07:54
-! Total Count: 110202
+! Last modified: 2023-05-12 18:42:23
+! Total Count: 110225
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19702,6 +19702,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cilipa*/js/os.js
 .clkads.
 .cloud/ads/
+.club/$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .club/*_*.js?*16$third-party
 .club/?token=*&screen_*=*&ref=$third-party
 .club/ads.
@@ -19711,6 +19712,7 @@ $websocket,domain=5nj.com|cechi8.com
 .club/js/popunder.js
 .club/r/*$xmlhttprequest
 .club/ttdlyqbff/*/*.gif?$third-party,image
+.club:$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .cn/*-*-*.xc$script,third-party
 .cn/?ss=
 .cn/?ss=$script,third-party
@@ -19922,12 +19924,14 @@ $websocket,domain=5nj.com|cechi8.com
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cpa1.ru^
+.cyou/$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .cyou/*_*.js?*16$third-party
 .cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
 .cyou/?token=*&screen_*=*&ref=$third-party
 .cyou/gyxx_*_aubi.js$third-party
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
+.cyou:$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .cz/adv/
 .cz/affil/
 .cz/bannery/
@@ -19945,6 +19949,7 @@ $websocket,domain=5nj.com|cechi8.com
 .exp_ad-
 .fi/ads/
 .fm/ads/
+.fun/$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .fun/*_*.js?*16$third-party
 .fun/*_*_rony.js
 .fun/?token=*&screen_*=*&ref=$third-party
@@ -19952,6 +19957,7 @@ $websocket,domain=5nj.com|cechi8.com
 .fun/gyxx_*_aubi.js$third-party
 .fun/scripts/my_33.js
 .fun/ttdlyqbff/*/*.gif?$third-party,image
+.fun:$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .fuse-cloud.com/
 .fuse-cloud.com/$popup
 .ga/ads.
@@ -20026,6 +20032,7 @@ $websocket,domain=5nj.com|cechi8.com
 .lazyload-ad.
 .life/ads/
 .link/ads/
+.live/$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .live/*_*.js?*16$third-party
 .live/?token=*&screen_*=*&ref=$third-party
 .live/gyxx_*_aubi.js$third-party
@@ -20035,6 +20042,7 @@ $websocket,domain=5nj.com|cechi8.com
 .live/o.js
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
+.live:$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .lk/ads/
 .lu/ads/
 .lu/js/wap_billing.js
@@ -20056,10 +20064,12 @@ $websocket,domain=5nj.com|cechi8.com
 .me/s.php?id=$script,third-party
 .me/scripts/my_33.js
 .men/ads/
+.mobi/$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
 .mobi/gyxx_*_aubi.js$third-party
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
+.mobi:$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .mobileads.
 .mp4?*sdtfrom=&$domain=m.v.qq.com
 .mv/ads/
@@ -20172,12 +20182,14 @@ $websocket,domain=5nj.com|cechi8.com
 .se/ads/
 .sexplaycam.com^
 .sh/ads/
+.shop/$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
 .shop/gyxx_*_aubi.js$third-party
 .shop/r/*$xmlhttprequest
 .shop/ttdlyqbff/*/*.gif?$third-party,image
 .shop/xling_*_*.js?
+.shop:$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .show_ad_
 .site:*/*/*.js
 .site:20443/*.js^$script,third-party
@@ -20191,6 +20203,7 @@ $websocket,domain=5nj.com|cechi8.com
 .th/ads/
 .theadtech.
 .to/ads/
+.top/$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .top/*_*.js?*16$third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
@@ -20204,6 +20217,7 @@ $websocket,domain=5nj.com|cechi8.com
 .top/ttdlyqbff/*/*.gif?$third-party,image
 .top/upload/ad.js
 .top/xling_*_*.js?
+.top:$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .topad.
 .tor*/js/jquery.bpopup.
 .tovarro.com^
@@ -20248,6 +20262,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xin/blxn_*.js?
 .xn--fiqs8s:7385/
 .xxx/ads/
+.xyz/$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .xyz/*.sdk?$script,third-party
 .xyz/*?16$third-party
 .xyz/*_*.js?*16$third-party
@@ -20293,6 +20308,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/vs.php?id=$script,third-party
 .xyz/vue?$third-party
 .xyz/xling_*_*.js?
+.xyz:$third-party,$domain=btmovi.kim,dm99.me,tangsanshu.info,yinghuacd.com,tangsanshu.la
 .xyz^$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.mx|soap2day.sh|soap2day.to
 .xyz^$~media,third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 .za/ads.
@@ -40721,6 +40737,9 @@ jxdbg.com##.adindex
 jxdbg.com##.indexmv
 jxedt.com###footer
 jxnews.com.cn##.ad120050
+jxnlz.xyz##a[target="_blank"] > img
+jxnlz.xyz##ul.clearfix > li > a.video-pic:not([href^="/"], [href*="jxnlz.xyz"])
+jxnlz.xyz#?#ul.clearfix > li:has(> a.video-pic:not([href^="/"], [href*="jxnlz.xyz"]))
 jyacht.com###playergg
 jyacht.com###zy_topgg2
 jyacht.com###zyc1r_03
@@ -43044,6 +43063,7 @@ onlydudes.tv##.b-footer-place
 onlydudes.tv##.b-side-col
 onlyfungames.com##.preview3bannerspot
 onlytik.com##.temporary-real-extra-block
+onmsft.com###pwDeskSkyBtf1
 onmsft.com##.enhanced-text-widget
 onmsft.com##.pw-gtr-box
 onworks.net###adonworksbot
@@ -59219,6 +59239,7 @@ zzzyk.com###Tinfo
 ||bayno.cn^
 ||baynote.net^
 ||baysexthy.com^
+||baytfede.xyz^
 ||baywednesday.com^
 ||baywoodkbps.space^
 ||bazamodov.ru^
@@ -103473,6 +103494,7 @@ zzzyk.com###Tinfo
 ||ueuodgnrhb.com^
 ||uezbshzpdcbb.info^
 ||ufaexpert.com^
+||ufgg55.xyz^
 ||ufile.cc/crod.js
 ||ufinkln.com^
 ||ufnetttvsnv.com^
@@ -110176,6 +110198,7 @@ zzzyk.com###Tinfo
 ~88liu.com,~briian.com##.a_pt
 ~95504.net##.ggbox
 ~Prebid.js
+~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~bilet.yandex.com.tr,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~flights.yandex.com,~mail.yandex.by,~mail.yandex.com,~mail.yandex.com.tr,~mail.yandex.kz,~mail.yandex.ru,~music.yandex.by,~music.yandex.kz,~music.yandex.ru,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~yadi.sk,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru##.advert_type_news.yw-news
 ~afisha.yandex.by,~afisha.yandex.kz,~afisha.yandex.ru,~avia.yandex.by,~avia.yandex.kz,~travel.yandex.ru,~bilet.yandex.com.tr,~disk.yandex.by,~disk.yandex.com,~disk.yandex.com.tr,~disk.yandex.fr,~disk.yandex.kz,~disk.yandex.ru,~docviewer.yandex.by,~docviewer.yandex.com,~docviewer.yandex.com.tr,~docviewer.yandex.fr,~docviewer.yandex.kz,~docviewer.yandex.ru,~flights.yandex.com,~mail.yandex.by,~mail.yandex.com,~mail.yandex.com.tr,~mail.yandex.kz,~mail.yandex.ru,~music.yandex.by,~music.yandex.kz,~music.yandex.ru,~rabota.yandex.by,~rabota.yandex.kz,~rabota.yandex.ru,~radio.yandex.by,~radio.yandex.kz,~radio.yandex.ru,~rasp.yandex.by,~rasp.yandex.kz,~rasp.yandex.ru,~realty.yandex.by,~realty.yandex.kz,~realty.yandex.ru,~tv.yandex.by,~tv.yandex.kz,~tv.yandex.ru,~yadi.sk,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,~zen.yandex.by,~zen.yandex.com,~zen.yandex.kz,~zen.yandex.ru##.advert_type_news.yw-news
 ~aircn.org,~steamcn.com##.wp.a_t
 ~aircn.org,~steamcn.com,~x3cn.com##.wp.a_t
