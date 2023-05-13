@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 2Bpj0YkYNzJ7njB4YSM3dA
+! Checksum: lV0Gtn0QJuIwqTGb00N9ow
 ! Title: 混合规则(精简版)
-! Version: 20230510023131
+! Version: 20230514012751
 ! Expires: 1145141919810
-! Last modified: 2023-05-10 02:31:37
-! Total Count: 19203
+! Last modified: 2023-05-14 01:27:56
+! Total Count: 19266
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -709,6 +709,7 @@
 ##.adlistcss
 ##.adp-popup
 ##.adpc > .module
+##.adpc > .promote-link
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
 ##.ads-2
@@ -2539,6 +2540,7 @@
 .hk/groupon/ads/
 .html?ad_
 .html?android=hx*&_$csp=script-src
+.html?channelCode=$third-party
 .icu/*_*_rony.js
 .icu/ads/
 .in/js/ads/
@@ -2562,6 +2564,7 @@
 .live/gyxx_*_aubi.js$third-party
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
+.live/kallss?$third-party
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .lu/ads/
@@ -2670,6 +2673,7 @@
 .xyz/hm.js?
 .xyz/jque*.js?
 .xyz/js/ads/
+.xyz/kallss?$third-party
 .xyz/mithril?$third-party
 .xyz/o.js
 .xyz/polymer?$third-party
@@ -2717,23 +2721,24 @@
 /\/v2\/a\/pop\/\d{6}\?subid=https?:\/\//$popup,important
 /\/vki\/[0-9]{7}\/[a-z0-9]{8}\.js$/$important,script,third-party,match-case
 /\/xvideo(\-js)?\.js/$important,script,~third-party
-/^https?:\/\/(([0-9a-z]{8,10}|www)\.)?([0-9a-f]{10}|[a-z0-9]{5,40})\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?\??/$script,xmlhttprequest,important,third-party,match-case
-/^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[0-9a-zA-Z]{3,27}\/\d{4,5}\??/$third-party,important,script,xmlhttprequest,subdocument,match-case
-/^https?:\/\/.*(\/[A-Z]{1,2}\/)?[-0-9a-z]{5,}\.com\/(([0-9a-f]{2}\/){3}|magic\/)[0-9a-f]{32}\.js$/$script,~third-party,match-case,important
+/^https?:\/\/(([0-9a-z]{7,10}|www)\.)?([0-9a-f]{10}|[a-z0-9]{5,40})\.com\/(([a-z0-9]{2}\/){2,3})?[0-9a-f]{32}\.js(on)?$/$script,xmlhttprequest,important,third-party,match-case
+/^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[0-9a-zA-Z]{3,27}\/\d{4,5}$/$third-party,important,script,xmlhttprequest,subdocument,match-case
+/^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/1clkn\/\d{4,5}$/$third-party,important,script
+/^https?:\/\/([a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[45](0[01])?\/\d{7}(/(.*[$=0-9]))?$/$third-party,important,script,subdocument,xmlhttprequest,match-case
+/^https?:\/\/.*(\/[A-Z]{1,3}\/)?[-0-9a-z]{5,}\.com\/(([0-9a-f]{2}\/){3}|magic\/)[0-9a-f]{32}\.js$/$script,~third-party,match-case,important
 /^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/[^\s]{300,}$/$script,third-party,important
 /^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xmlhttprequest,third-party,important
 /^https?:\/\/[^\s]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
 /^https?:\/\/[^\s]+\/1\?z=\d{7}$/$third-party,important,script
-/^https?:\/\/[^\s]+\/1clkn\/\d{4,5}$/$third-party,important,script
 /^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}/$important,popup
-/^https?:\/\/[^\s]+\/[45](0[01])?\/\d{7}[/?]?/$third-party,important,script,subdocument,xmlhttprequest
 /^https?:\/\/[a-z0-9]{5,25}\.[a-z]{2,3}\/v2[a-zA-Z0-9-_]{54,71}$/$script,match-case,third-party
 /^https?:\/\/[a-z0-9]{7,40}\.com\/([^\s]{350,400}|[a-z0-9]{8,10}(\?[a-z]{3,5}=.*)?|[a-z?]{13,}=[^\s]+)[?&]key=[a-f0-9]{32}/$important,popup
-/^https?:\/\/[a-z]{20}\.com\/advertisers\.js$/$xmlhttprequest,script,third-party,important
+/^https?:\/\/[a-z]{20}\.com\/advertisers\.js$/$xmlhttprequest,script,third-party,important,match-case
 /^https?:\/\/[a-z]{6,15}\.[a-z]{3}(\/(?:\d{1,5}|0NaN|articles?|browse|wiki|pages?|index|news|web|static|view|movie)){1,4}(\/|\.html)$/$subdocument,third-party,match-case
 /^https?:\/\/[a-z]{6,15}\.[a-z]{3}\/[-a-z]{4,}\.(css|png)\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$stylesheet,image,third-party,match-case
 /^https?:\/\/[a-z]{6,15}\.[a-z]{3}\/[a-z]{4,30}\.json$/$third-party,xmlhttprequest,match-case
 /^https?:\/\/[a-z]{7,15}\.top\/[a-zA-Z0-9]{12}$/$important,popup
+/^https?:\/\/[a-z]{8,15}\.(com|net)\/tag\.min\.js$/$script,third-party,important
 /^https?:\/\/\w{30,}\.me\/\w{30,}\.js$/$script,third-party,important
 /^https?:\/\/syndication\.[a-z]{4,8}srv\.com\/splash\.php\?/$important,popup
 /^https?:\/\/www[1-3]\.doubleclick\.net\/$/$xmlhttprequest,redirect-rule=nooptext
@@ -4490,6 +4495,8 @@ abc-people.com##div[style*="background-color"][style*="position"][style*="z-inde
 acomics.ru##div[style*="/design/common/pic/please"]
 admin.rainbow-online.ru,fastpic.ru,gitjournal.tech,logist.uxxo.ru,maxpark.com,meteoservice.ru,newsland.com,pawno-info.ru,smolensk-auto.ru,smolensk-auto.site##body > div[id]:not([class])[style="display: block;"]
 adultdeepfakes.com##[class^="root--"]
+aiqicha.baidu.com#@#[class*="ad"][class*="recommend" i]
+aiqicha.baidu.com#@#[class*="ad"][class*="recommend"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 alexfilm.cc##.panel-primary
 andevice.ru,dietdo.ru##.adb-def
@@ -4895,16 +4902,15 @@ madou.club##a[href][target="_blank"][rel="nofollow noopener"]
 maigoo.com##[class*="ads"]
 mail.rambler.ru##.notification-warning
 malekal.com##.topad
-manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz##.index-banner > [class*="swiper-container"]
-manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz##[class^="swiper-slide"] > a[target="blank"][rel="nofollow noopenner"]
-manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz##[data-group="ad_common_tool_bar_top"]
-manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz##[data-group^="ad_chapter_top"]
-manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz##div[style*="margin: 10px;"][style*="border-radius: 20px;"]
-manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
-manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz##input[alt][src^="/static/custom/files/"][type="image"]
-manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz#@#.ad-area
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz,mwcomic1.co,mwcomic2.co,mwcomic3.co,mwcomic4.co,mwcomic5.co,mwcomic6.co,mwcomic7.co,mwcomic8.co,mwcomic9.co,mwcomic10.co,mwcomic.co##.index-banner > [class*="swiper-container"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz,mwcomic1.co,mwcomic2.co,mwcomic3.co,mwcomic4.co,mwcomic5.co,mwcomic6.co,mwcomic7.co,mwcomic8.co,mwcomic9.co,mwcomic10.co,mwcomic.co##[class^="swiper-slide"] > a[target="blank"][rel="nofollow noopenner"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz,mwcomic1.co,mwcomic2.co,mwcomic3.co,mwcomic4.co,mwcomic5.co,mwcomic6.co,mwcomic7.co,mwcomic8.co,mwcomic9.co,mwcomic10.co,mwcomic.co##[data-group="ad_common_tool_bar_top"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz,mwcomic1.co,mwcomic2.co,mwcomic3.co,mwcomic4.co,mwcomic5.co,mwcomic6.co,mwcomic7.co,mwcomic8.co,mwcomic9.co,mwcomic10.co,mwcomic.co##[data-group^="ad_chapter_top"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz,mwcomic1.co,mwcomic2.co,mwcomic3.co,mwcomic4.co,mwcomic5.co,mwcomic6.co,mwcomic7.co,mwcomic8.co,mwcomic9.co,mwcomic10.co,mwcomic.co##div[style*="margin: 10px;"][style*="border-radius: 20px;"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz,mwcomic1.co,mwcomic2.co,mwcomic3.co,mwcomic4.co,mwcomic5.co,mwcomic6.co,mwcomic7.co,mwcomic8.co,mwcomic9.co,mwcomic10.co,mwcomic.co##input[alt][src*="/static/custom/files/300x"][src$=".gif"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz,mwcomic1.co,mwcomic2.co,mwcomic3.co,mwcomic4.co,mwcomic5.co,mwcomic6.co,mwcomic7.co,mwcomic8.co,mwcomic9.co,mwcomic10.co,mwcomic.co##input[alt][src^="/static/custom/files/"][type="image"]
+manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,manwa8.vip,manwa9.vip,manwa10.vip,manwa.vip,manwa1.site,manwa2.site,manwa3.site,manwa4.site,manwa5.site,manwa6.site,manwa7.site,manwa8.site,manwa9.site,manwa10.site,manwa.site,manwa1.me,manwa2.me,manwa3.me,manwa4.me,manwa5.me,manwa6.me,manwa7.me,manwa8.me,manwa9.me,manwa10.me,manwa.me,mwcomic1.cc,mwcomic2.cc,mwcomic3.cc,mwcomic4.cc,mwcomic5.cc,mwcomic6.cc,mwcomic7.cc,mwcomic8.cc,mwcomic9.cc,mwcomic10.cc,mwcomic.cc,mwcomic1.biz,mwcomic2.biz,mwcomic3.biz,mwcomic4.biz,mwcomic5.biz,mwcomic6.biz,mwcomic7.biz,mwcomic8.biz,mwcomic9.biz,mwcomic10.biz,mwcomic.biz,mwcomic1.xyz,mwcomic2.xyz,mwcomic3.xyz,mwcomic4.xyz,mwcomic5.xyz,mwcomic6.xyz,mwcomic7.xyz,mwcomic8.xyz,mwcomic9.xyz,mwcomic10.xyz,mwcomic.xyz,mwcomic1.top,mwcomic2.top,mwcomic3.top,mwcomic4.top,mwcomic5.top,mwcomic6.top,mwcomic7.top,mwcomic8.top,mwcomic9.top,mwcomic10.top,mwcomic.top,manwa1.xyz,manwa2.xyz,manwa3.xyz,manwa4.xyz,manwa5.xyz,manwa6.xyz,manwa7.xyz,manwa8.xyz,manwa9.xyz,manwa10.xyz,manwa.xyz,mwcomic1.co,mwcomic2.co,mwcomic3.co,mwcomic4.co,mwcomic5.co,mwcomic6.co,mwcomic7.co,mwcomic8.co,mwcomic9.co,mwcomic10.co,mwcomic.co#@#.ad-area
 math-prosto.ru###requestShutOfBlocker
-mbd.baidu.com##.drag-bottom
 md4u.ru###pagecontent > div[style*="background-color"]
 mediafire.com###abnotify
 medical-club.net##.blocker-notice,.blocker-overlay
@@ -5472,7 +5478,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||1.ajiyuming.com^
 ||1.arpun.com^
 ||1.bh5.com.cn^
-||1.cjcp.cn^
 ||1.codesdq.com^
 ||1.codezh.com^
 ||1.doudouditu.com^
@@ -5938,6 +5943,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||2zzt.com/images/
 ||3-2g38cfo0l.cn^
 ||3.5646.cn^
+||3.cjcp.cn^
 ||3.guidaye.com^
 ||3.ssqzj.com^
 ||301848.com^
@@ -5954,6 +5960,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||321.jintang114.org^
 ||321mh.com/v1/getadvertise?
 ||321tui.com^$third-party
+||32fi.com^
 ||32xp.com/upimg/
 ||33.autohome.com.cn^
 ||331qka.cn^
@@ -6009,6 +6016,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||360.cn/index/showjokes?callback=
 ||360.cn/int/getadurls?
 ||360.cn/popup/popinfo/
+||36060.xyz^
 ||360600.xyz^
 ||360640.com^
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
@@ -7091,6 +7099,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ad999.biz^$third-party
 ||adactioner.com^$third-party
 ||adadmin.house365.com^
+||adadu.cn^
 ||adadvisor.net^
 ||adback.tango.me^
 ||adbd.liuxue86.com^
@@ -7359,6 +7368,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||afjk001.xyz^
 ||afjlb.com^
 ||afk3rs.xyz^
+||afndhou.xyz^
 ||afocus.com.cn/s?
 ||afp.chinanews.com^
 ||afraidlanguage.com^$third-party
@@ -7426,6 +7436,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||aibing.cc/vip/img/gou.gif
 ||aichuangfu.cn/jquery/
 ||aiclicash.com^$third-party
+||aicpa.club^
 ||aiedduop.cyou^
 ||aiedwhb.cn^
 ||aifei0755.net/123/
@@ -8072,6 +8083,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||baidu1.codejie.net^
 ||baiduada.babihu.com^
 ||baiducom.bj.bcebos.com^
+||baidudbvjksbvs.com^
 ||baidufkjnvbdsn.com^
 ||baidujavascript.com^
 ||baidujs.cnys.com^
@@ -8147,6 +8159,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bavxxf.xyz^
 ||bawdybalance.com^$third-party
 ||bayctrk.com^
+||baytfede.xyz^
 ||bb-bbjsyuming.cc^
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
@@ -8872,6 +8885,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ceseasons.com^
 ||ceshi*.ink/s/*?_=$third-party
 ||ceu5.icu^
+||cex8jw.cn^
 ||cf-ads.pinger.com^
 ||cfaxidtm.site^
 ||cfff.net^$third-party
@@ -8923,6 +8937,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||chengtu.com/api.php?mod=ad&adid=
 ||chenhao.name^
 ||chenjiayu.cn/gg.js
+||chenyt.club^
+||chenyuhuan.icu^
 ||chenyuzhou1.cn^
 ||chenze1.cn^
 ||cheon2buy.xyz^
@@ -9588,6 +9604,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dev.appboy.com^
 ||developpez.com/template/*.jpg$xmlhttprequest
 ||developpez.net/template/*.jpg$xmlhttprequest
+||devofei.xyz^
 ||dewalt-sales.com^
 ||dewapa.top^
 ||dexinyi.cn^
@@ -9629,6 +9646,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dgozp.com^
 ||dgtauto.com^
 ||dharkyu.cn^
+||dhaxhsa325.com^
 ||dhl.135320.com^
 ||dhl4.xyz^
 ||dhlmy.com^
@@ -9696,6 +9714,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dj930.cn^
 ||dj930.cn^$third-party
 ||dj97.com/api.php?mod=ad&
+||djahkee.xyz^
 ||djicdn.com/uploads/ad_image_file/
 ||djiybut.cn^
 ||djs.baomihua.com^
@@ -10649,6 +10668,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||g2qb.top^
 ||g3f3.com/love/
 ||g3user.com^$third-party
+||g77ds2.xyz^
 ||g8ld.fun^
 ||g9o.cn^
 ||ga-ads.com^
@@ -11122,6 +11142,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||gwzqbnh.cn^
 ||gx2f.top^
 ||gx4g.top^
+||gx521.xyz^
 ||gxemtes.xyz^
 ||gxjajt.com^
 ||gxkfmjk.cn^
@@ -11278,6 +11299,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hazmolive.stream/hazmoLive.js$script
 ||hb.rayjump.com^
 ||hb8a.top^
+||hbbxwan.cn^
 ||hbcl.ltd^
 ||hbhnwy.com^
 ||hbmcfcd.cn^
@@ -11338,6 +11360,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||heiye.cc/js/xuanfu.js
 ||hejing.cloud^
 ||hekcctie.cyou^
+||heliangjun2.cn^
 ||helid.xyz^
 ||helilong.xyz^
 ||hellay.net^
@@ -12374,6 +12397,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jhlxfw.cn^
 ||jhrtgt.site^
 ||jhuvybt.cn^
+||jhxcld.xyz^
 ||jia-huan.cn^
 ||jia.com/js/common/article_home_adv.js
 ||jiadunkeji.com^
@@ -12731,6 +12755,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jxnews.com.cn^*_ad_
 ||jxtest.bolecdn.com/player/*.gif
 ||jxuu.online^
+||jxvyrv.xyz^
 ||jy.zhongxues.com^
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
@@ -12753,6 +12778,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||k0lksy.xyz^
 ||k1.dancihu.com^
 ||k1.wanwenwan.cn^
+||k1.wendahu.com^
 ||k1815.com^
 ||k2215.cn^
 ||k2n0f.cn^$third-party
@@ -12768,6 +12794,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kaffnet.com^
 ||kagdf.com^
 ||kaiguangdou.com^
+||kairuxinxi.xyz^$third-party
 ||kaixin001.com.cn/js/cpm-
 ||kaixinjiehun.com^$third-party
 ||kaiyiluye.com^
@@ -12822,6 +12849,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kccdk.com/Content/img/*.gif
 ||kcedmk.xyz^
 ||kcfuzhj.cn^
+||kcieo.xyz^
 ||kcieo.xyz^$third-party
 ||kcmomkn.cn^
 ||kd1c.top^
@@ -12885,6 +12913,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||khrtac.xiangha.com^
 ||khufaw2.com^
 ||khuokpj.cn^
+||kianakaslana.club^
 ||kidisland.cn^
 ||kiees.cn/img/
 ||kiees.cn/jm.png
@@ -12962,6 +12991,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||knmwrkw.xyz^
 ||knowmore.cc/style/head.js
 ||knr1.xyz^
+||knxvwxe.cn^
 ||knyjes.xyz^
 ||koatkm.xyz^
 ||kochava.com^
@@ -13471,6 +13501,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lucasyyy.ltd^
 ||luckydino.ren^
 ||luckyforworlds.com^
+||ludie.xyz^
 ||lunhua5.com/images/more.gif
 ||lunivr.xyz^
 ||lunt.cx^
@@ -14126,6 +14157,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||mucinyak.com^
 ||mudcxq.cn^
 ||mudezs.com^
+||mueid.xyz^
 ||muer.cdn-baidu.fs-sywh.com^
 ||mukjozy.cn^
 ||muliglsn.space^
@@ -14163,6 +14195,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||mxdqfoo.cn^
 ||mxhbkj.cn^
 ||mxj.cx^
+||mxknqq.com^
 ||mxlidx.ink^
 ||mxlwmp.cn^
 ||mxnr.xyz^
@@ -14288,6 +14321,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ncyx.ltd^
 ||nczsks.com/SCWB/WebResource.axd
 ||ndfqoqo.cn^
+||ndqzqmb.xyz^
 ||neaqi.top^
 ||nearbyad.com^
 ||necmdow.cn^
@@ -14422,6 +14456,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nnm-club.ws/forum/docs/requests.js
 ||nnocsin.cn^
 ||no1.168abc.net/upload/
+||nogff.top^
 ||noiea.xyz^
 ||nomalleadzuaff.com^
 ||nonabh.xyz^
@@ -14488,6 +14523,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nvzffl.cn^
 ||nwadakesc.cyou^
 ||nwdjlx.xyz^
+||nwecd.xyz^
+||nwecd.xyz^$third-party
 ||nweon.com/wp-content/repo/ad/
 ||nwhvceb.cn^
 ||nwogldc.top^
@@ -14770,6 +14807,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||p1.qxzsw.com^
 ||p1.zhongyoo.com^
 ||p23jac.top^
+||p2oh1.xyz^
 ||p2peye.com/ajax.php?mod=ad&
 ||p2peye.com/ajax.php?mod=advertisement&
 ||p3tt.com^
@@ -15210,6 +15248,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qbd3.site^
 ||qbd4.site^
 ||qbjsymmi0w.cn^
+||qbox.me/FlnVIdUeIo_LrXyGiOL0OFw0Gpa7
 ||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
 ||qbtd.xyz^
 ||qc1.cheshipin.com^
@@ -15398,6 +15437,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qnfvojfkw.xyz^
 ||qnieo.fun^
 ||qnipkk.xyz^$third-party
+||qnmtqq.com^
 ||qnmvqdl.cn^
 ||qnsb.com/news/index.php?m=poster&
 ||qnvod.net/qna/
@@ -15600,6 +15640,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rdoybkd.cn^
 ||rdsmod.cc^
 ||rdsvsh.com^
+||rdtjkwy.cn^
 ||rdx.autohome.com.cn^
 ||re.taotaosou.com^
 ||readme.red^
@@ -15662,15 +15703,19 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rglctlo.cn^
 ||rglvbpi.cn^
 ||rgnlaigz.fun^
+||rgyfqq.com^
 ||rhcknl.xyz^
 ||rhetoricalloss.com^$third-party
 ||rhxshop.com^
+||rhxwnd.xyz^
 ||riaway.com/statics/idea.jpg
 ||ribffmg.cn^
 ||richh.cn^
 ||richpays.com^
 ||rigengjihua.cn/banner/
+||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
+||right.com.cn/forum/static/image/common/logo1.
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png
 ||rikqo.cc^
@@ -15754,6 +15799,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rrr.plus^
 ||rrysogsiz.uno^
 ||rryy99.com/statics/js/stat.js
+||rrzxlt.xyz^
 ||rsbepv.xyz^
 ||rsdkk26.xyz^
 ||rsmdlk.cn^
@@ -16010,6 +16056,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||setbbts.cyou^
 ||setn.com/js/advertisement?
 ||setting.rayjump.com^
+||seumouxuezha.xyz^
 ||sevenmax.cn^
 ||sex141.com/img/banner/
 ||sex8.cc/plugin-e6-rebate.html
@@ -16798,6 +16845,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||thsrh.xyz^
 ||thztv.*/tool/
 ||tian-ting.ink^
+||tian0.ltd^
 ||tianhuafund.cn^
 ||tianii.top^
 ||tianji520.cn^$third-party
@@ -17198,6 +17246,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||uc9.suinidai.com.cn^
 ||uchks.com/2018/%
 ||uckmee.xyz^
+||ucqihfh.cn^
 ||uctrac.com^$third-party
 ||ucv3kq.com^
 ||uczfl.com/data/content
@@ -17226,6 +17275,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||uekjbr.cn^
 ||uekqdec.cn^
 ||uengbalc.fun^
+||ufgg55.xyz^
 ||ufile.cc/crod.js
 ||ufz.doesxyz.com^
 ||ufzwoiu.cn^
@@ -17621,6 +17671,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||w51t.com^$subdocument
 ||w80n.fun^
 ||w94.1qlgi.top^
+||w9f1r.top^
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wadqfaj.cn^
@@ -17752,6 +17803,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||weio6nkoe.cyou^
 ||weipapa.top^
 ||weiqu.cyou^
+||weixinnft.com^
 ||weixisiwang.com^
 ||weiyuedu.cc/skin/v3/js/dibu.js
 ||weizjzg.com^$third-party
@@ -17786,6 +17838,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||wgnlaige.fun^
 ||wgpsfdg.cn^
 ||wgttjk.cn^
+||wgzgzmu.cn^
 ||whafwl.com^
 ||whbhsoft.cn^
 ||whbn.xyz^
@@ -17978,6 +18031,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||www.auditude.com^
 ||www.dmhy.org^*.*?$image
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
+||www.tjjd*.live^$third-party
+||www.tjjd*.xyz^$third-party
 ||www.xihufe.com^
 ||www.ztolm.com^
 ||www1.wxnmh.com^
@@ -18047,6 +18102,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xbiqugela.com/js/basisc.
 ||xbiqugexx.com/js/jamq.
 ||xbiqugexx.com/static/js/wap.js
+||xbldocp.xyz^
 ||xbptvaq.cn^
 ||xbtw.com^
 ||xbvmrx.xyz^
@@ -18292,6 +18348,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xni.ink^
 ||xniexnz.cn^
 ||xnjvn1.com^
+||xnmqqq.com^
 ||xnnews.com.cn/adgl/
 ||xnnews.com.cn/tpl/material/
 ||xnrcnz.xyz^
@@ -18338,6 +18395,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xtxa.net^
 ||xtzx.xyz^
 ||xuaihua.work^
+||xuanqi.ltd^
 ||xuchangmuying.com^
 ||xue.zbyw.cn^
 ||xueaaai.cn^
@@ -18532,6 +18590,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yhdichan.com^$third-party
 ||yhdm.io/bar/
 ||yhdm.so/bar/
+||yhdm44.com/123.html
 ||yhilnc.cn^
 ||yhjccj.cn^
 ||yhjh04.com^
@@ -18724,6 +18783,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ytelc.com^$third-party
 ||ytpae.xyz^
 ||ytse*.top/Static/Home/GongGao/img/
+||yttc.ren^
 ||ytyug.com^
 ||yu.dlxxjsh.top^
 ||yuailairuci.com^
@@ -18863,6 +18923,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zaytung.com/images/radore
 ||zb.mtwie.com^
 ||zb7b.top^
+||zbbvhj.xyz^
 ||zbc6hyepls.xyz^
 ||zbjimg.com/static/union/
 ||zbpx.xyz^
@@ -18916,6 +18977,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zdy1.xyz^
 ||zdyuoae.xyz^
 ||ze5.com^$third-party
+||zebjlt.buzz^
 ||zedo.com^
 ||zefmsbu.cn^
 ||zeipw.xyz^
@@ -19167,6 +19229,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zwogldq.top^
 ||zx.docin.com^
 ||zxfas56.com^
+||zxgko.cn^
 ||zxiaochun.site^
 ||zxopen.tech^
 ||zxptw.cn^
@@ -19214,4 +19277,4 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zzz4.com/JS_AD/
 ||zzzhuoxiaqu.online^
 ||zzzyk.com/js/
-~manwa1.vip,~manwa2.vip,~manwa3.vip,~manwa4.vip,~manwa5.vip,~manwa6.vip,~manwa7.vip,~manwa8.vip,~manwa9.vip,~manwa10.vip,~manwa.vip,~manwa1.site,~manwa2.site,~manwa3.site,~manwa4.site,~manwa5.site,~manwa6.site,~manwa7.site,~manwa8.site,~manwa9.site,~manwa10.site,~manwa.site,~manwa1.me,~manwa2.me,~manwa3.me,~manwa4.me,~manwa5.me,~manwa6.me,~manwa7.me,~manwa8.me,~manwa9.me,~manwa10.me,~manwa.me,~mwcomic1.cc,~mwcomic2.cc,~mwcomic3.cc,~mwcomic4.cc,~mwcomic5.cc,~mwcomic6.cc,~mwcomic7.cc,~mwcomic8.cc,~mwcomic9.cc,~mwcomic10.cc,~mwcomic.cc,~mwcomic1.biz,~mwcomic2.biz,~mwcomic3.biz,~mwcomic4.biz,~mwcomic5.biz,~mwcomic6.biz,~mwcomic7.biz,~mwcomic8.biz,~mwcomic9.biz,~mwcomic10.biz,~mwcomic.biz,~mwcomic1.xyz,~mwcomic2.xyz,~mwcomic3.xyz,~mwcomic4.xyz,~mwcomic5.xyz,~mwcomic6.xyz,~mwcomic7.xyz,~mwcomic8.xyz,~mwcomic9.xyz,~mwcomic10.xyz,~mwcomic.xyz,~mwcomic1.top,~mwcomic2.top,~mwcomic3.top,~mwcomic4.top,~mwcomic5.top,~mwcomic6.top,~mwcomic7.top,~mwcomic8.top,~mwcomic9.top,~mwcomic10.top,~mwcomic.top,~manwa1.xyz,~manwa2.xyz,~manwa3.xyz,~manwa4.xyz,~manwa5.xyz,~manwa6.xyz,~manwa7.xyz,~manwa8.xyz,~manwa9.xyz,~manwa10.xyz,~manwa.xyz##.ad-area
+~manwa1.vip,~manwa2.vip,~manwa3.vip,~manwa4.vip,~manwa5.vip,~manwa6.vip,~manwa7.vip,~manwa8.vip,~manwa9.vip,~manwa10.vip,~manwa.vip,~manwa1.site,~manwa2.site,~manwa3.site,~manwa4.site,~manwa5.site,~manwa6.site,~manwa7.site,~manwa8.site,~manwa9.site,~manwa10.site,~manwa.site,~manwa1.me,~manwa2.me,~manwa3.me,~manwa4.me,~manwa5.me,~manwa6.me,~manwa7.me,~manwa8.me,~manwa9.me,~manwa10.me,~manwa.me,~mwcomic1.cc,~mwcomic2.cc,~mwcomic3.cc,~mwcomic4.cc,~mwcomic5.cc,~mwcomic6.cc,~mwcomic7.cc,~mwcomic8.cc,~mwcomic9.cc,~mwcomic10.cc,~mwcomic.cc,~mwcomic1.biz,~mwcomic2.biz,~mwcomic3.biz,~mwcomic4.biz,~mwcomic5.biz,~mwcomic6.biz,~mwcomic7.biz,~mwcomic8.biz,~mwcomic9.biz,~mwcomic10.biz,~mwcomic.biz,~mwcomic1.xyz,~mwcomic2.xyz,~mwcomic3.xyz,~mwcomic4.xyz,~mwcomic5.xyz,~mwcomic6.xyz,~mwcomic7.xyz,~mwcomic8.xyz,~mwcomic9.xyz,~mwcomic10.xyz,~mwcomic.xyz,~mwcomic1.top,~mwcomic2.top,~mwcomic3.top,~mwcomic4.top,~mwcomic5.top,~mwcomic6.top,~mwcomic7.top,~mwcomic8.top,~mwcomic9.top,~mwcomic10.top,~mwcomic.top,~manwa1.xyz,~manwa2.xyz,~manwa3.xyz,~manwa4.xyz,~manwa5.xyz,~manwa6.xyz,~manwa7.xyz,~manwa8.xyz,~manwa9.xyz,~manwa10.xyz,~manwa.xyz,~mwcomic1.co,~mwcomic2.co,~mwcomic3.co,~mwcomic4.co,~mwcomic5.co,~mwcomic6.co,~mwcomic7.co,~mwcomic8.co,~mwcomic9.co,~mwcomic10.co,~mwcomic.co##.ad-area
