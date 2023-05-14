@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8zPMayNDnhpR6ZZdqfZGcw
+! Checksum: WtiNZzbUdIzVoeggnNy0/A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230514170846
+! Version: 20230515000636
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-14 17:08:46
-! Total Count: 19673
+! Last modified: 2023-05-15 00:06:36
+! Total Count: 19679
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -941,6 +941,7 @@
 ##.google_adsense2
 ##.gpost-below
 ##.gpt_ads_box
+##.gpt_ads_title
 ##.guanggaoBox
 ##.guruin-ads
 ##.hao123-unionad-pic
@@ -10261,6 +10262,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ed2000k.com/ad/
 ||eda.ru/_next/static/images/banner_adv
 ||edison.love^
+||edlzedu.cn^$document
+||edlzedu.cn^$~third-party
 ||edmontonchina.*/pic/
 ||edu-30130.sz.gfp.tencent-cloud.com^*.gif
 ||edu.jiukang.org^
@@ -16877,6 +16880,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||stats.autohome.com.cn^
 ||stats.chinaz.com/tool/
 ||stats.chinaz.com/tool_img/
+||stbdepjb.xyz^
 ||stdst.cn^
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||stern.de/vergleich/wp-content/themes/stern/*/iframe-startseite
@@ -19160,6 +19164,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yrqwnc.cn^
 ||yrr56.com/mp4/pt_720.
 ||yrrcc.top^
+||yrtedzb.cn^$document
+||yrtedzb.cn^$~third-party
 ||yruvnmn.cn^
 ||ys.muhoujiemi.com^
 ||ys2000.cdn.bcebos.com^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 2vQOyxfcuNXn4m69L0owaA
+! Checksum: XqnJa7yEcjJ1a8AV7Cz0Bg
 ! Title: 混合规则(自动更新)
-! Version: 20230514170844
+! Version: 20230515000634
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-14 17:08:44
-! Total Count: 110358
+! Last modified: 2023-05-15 00:06:34
+! Total Count: 110372
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -13147,6 +13147,7 @@
 ##.gptSlot-outerContainer
 ##.gptSlot__sticky-footer
 ##.gpt_ads_box
+##.gpt_ads_title
 ##.gptslot
 ##.gradientAd
 ##.graphic_ad
@@ -18202,6 +18203,7 @@
 ##a[href^="https://azpresearch.club/"]
 ##a[href^="https://banners.livepartners.com/"]
 ##a[href^="https://batheunits.com/"]
+##a[href^="https://bc.game/"]
 ##a[href^="https://billing.purevpn.com/aff.php"] > img
 ##a[href^="https://black77854.com/"]
 ##a[href^="https://bluedelivery.pro/"]
@@ -22382,6 +22384,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ads.release/*
 /ads.txt
 /ads.w3c.
+/ads/!rotator/*
 /ads/125l.
 /ads/125r.
 /ads/160.
@@ -33856,6 +33859,7 @@ bab.la##.info-panel
 babesandstars.com##.banner-right
 babesandstars.com##.traders
 babesandstars.com##a[href^="http://rabbits.webcam/"]
+babesandstars.com,cam-video.xxx,crazyporn.xxx,cumlouder.com,gosexy.mobi,hoes.tube,hog.tv,javseen.tv,love4porn.com,marawaresearch.com,mobilepornmovies.com,mypornstarbook.net,pichunter.com,thisav.com##.ads
 babesandstars.com,cam-video.xxx,crazyporn.xxx,cumlouder.com,gosexy.mobi,hoes.tube,hog.tv,javseen.tv,love4porn.com,mobilepornmovies.com,mypornstarbook.net,pichunter.com,thisav.com##.ads
 babesandstars.com,cam-video.xxx,cumlouder.com,gosexy.mobi,hog.tv,javseen.tv,mobilepornmovies.com,mypornstarbook.net,pichunter.com,thisav.com##.ads
 babesandstars.com,gosexy.mobi,javseen.tv,mobilepornmovies.com,mypornstarbook.net,pichunter.com,thisav.com##.ads
@@ -37153,6 +37157,7 @@ elnacional.cat##.c-banner
 elnacional.cat##.row-top-banner
 emalm.com##a[href^="https://offer.alibaba.com/"]
 emalm.com##a[href^="https://s.click.aliexpress.com/"]
+embed.listcorp.com##a[href^="https://j.moomoo.com/"]
 emergencyemail.org,out.com##.footer
 emome.net##.source_advertising
 emoneyspace.com##.t_a_c
@@ -41351,6 +41356,8 @@ livemint.com##.eclt-rsttble
 livemint.com##.trendingSimilarHeight
 liverpoolecho.co.uk##.fixed-slots
 liverpoolecho.co.uk,manchestereveningnews.co.uk##.teaser[data-tmdatatrack-source="SHOP_WINDOW"]
+liverpoolfc.com###lfc_ads_article_pos_one
+liverpoolfc.com###lfc_ads_home_pos_one
 liverpoolway.co.uk##div[align="center"] > a[href]
 livescore.com###ad-holder-gad-news-article-item
 livescore.com##div[class^="HeaderAdsHolder_"]
@@ -42715,6 +42722,7 @@ news18.com##div[style="margin-bottom:15px;background:#e6e6e6;height:300px"]
 news18.com##div[style^="min-height:1170px"]
 news18a.com##.ina_ad_left
 news18a.com,tom.com##.ina_ad_class
+news24.com##.featured-category
 news24.jp#@#.adText
 news9live.com###left_before_story
 newsbusters.org###intranet_mid
@@ -44520,6 +44528,7 @@ roosterteeth.com##.vjs-marker
 roseindia.net##.col-md-4
 roseindia.net##.tutorialsstaticdata
 rottentomatoes.com##.leaderboard_wrapper
+rottentomatoes.com##.ordered-layout__scores-wrap
 rottentomatoes.com#@#.page_ad
 rouman5.com##.fixed-bottom
 rouman5.com##a[href*=".tapdb.net"]
@@ -69617,6 +69626,8 @@ zzzyk.com###Tinfo
 ||edjadcscca.com^
 ||edjnkones.com^
 ||edlilu.com^
+||edlzedu.cn^$document
+||edlzedu.cn^$~third-party
 ||edmalvkiahrhmu.xyz^
 ||edmanalytics.pandahall.com^
 ||edmontonchina.*/pic/
@@ -98981,6 +98992,7 @@ zzzyk.com###Tinfo
 ||stayfaxachievement.com^
 ||staygg.com^
 ||stazumik.net^
+||stbdepjb.xyz^
 ||stbt.coupons.com^
 ||stbvip.co^
 ||stbvip.net^
@@ -109180,6 +109192,8 @@ zzzyk.com###Tinfo
 ||yrrcc.top^
 ||yrsfs.com^
 ||yrstwbyl.xyz^
+||yrtedzb.cn^$document
+||yrtedzb.cn^$~third-party
 ||yruvnmn.cn^
 ||yrvzqabfxe.com^
 ||ys.muhoujiemi.com^
