@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2JTNj0mJmc+wre3EynbMfQ
+! Checksum: fkil4iH/11u43qKkjMhvRw
 ! Title: 自用去广告Adblock规则
-! Version: 20230514140937
-! Last modified: 2023-05-14 14:09:37
-! Total Count: 1326
+! Version: 20230514170529
+! Last modified: 2023-05-14 17:05:29
+! Total Count: 1327
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1001,10 +1001,10 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##canvas
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##embed[src]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##embed[src]
 yz.m.sm.cn##[id^="ad_"]
 yz.m.sm.cn##[id^="dl-banner-"]
 yz.m.sm.cn##a[href*="sm.cn/adclick?"]
@@ -1114,7 +1114,7 @@ zle.com$script
 ||exe*.spankbang.com^$xmlhttprequest
 ||exoclick.com^$third-party
 ||ffmehcg.cn^$third-party
-||fg.knlk2md.cn/sc/*?n=$third-party
+||fg.knlk2md.cn^$third-party
 ||fourier.alibaba.com^
 ||g.aidinghz.com^
 ||ga-ads.com^
@@ -1254,7 +1254,8 @@ zle.com$script
 ||td.easysavemore.com^
 ||td.sxwqhotel.com^
 ||tg.s4te24u.com^
-||tg.xkcxh.com/sc/*?n=$third-party
+||tg.wmqfey.com^$third-party
+||tg.xkcxh.com^$third-party
 ||tgcfmh.com^
 ||thisav.com/pop?url=
 ||tongji.click^

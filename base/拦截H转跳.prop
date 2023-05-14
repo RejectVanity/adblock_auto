@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3SsZnnefsvpEPR3a3ojN7A
+! Checksum: oh5NFClXQQYomqVMdSo5cg
 ! Title: 拦截黄色网站转跳
-! Version: 20230514090841
-! Last modified: 2023-05-14 09:08:41
-! Total Count: 32
+! Version: 20230514165816
+! Last modified: 2023-05-14 16:58:16
+! Total Count: 38
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
 .com:*/*/*?*=&*=$document
@@ -24,6 +24,8 @@
 .xyz:*/waga*.html$~third-party
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
+/dayu*.html?channelCode=$document
+/dayu*.html?channelCode=$~third-party
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*:*/chunyu.html?k=$document
@@ -36,3 +38,7 @@
 ://boeg*.xyz/*.html$~third-party
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+||smgzyi.com^$document
+||smgzyi.com^$~third-party
+||szptlkj.com^$document
+||szptlkj.com^$~third-party
