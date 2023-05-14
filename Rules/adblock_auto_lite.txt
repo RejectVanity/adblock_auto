@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ZdkhJAhTBX1ptGVyTYV4IA
+! Checksum: LnacLXgsjKM8WNjEORs5bg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230514083336
+! Version: 20230514085128
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-14 08:33:36
-! Total Count: 19619
+! Last modified: 2023-05-14 08:51:28
+! Total Count: 19644
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2518,6 +2518,10 @@
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
+.com:*/*/*?*=&*=$document
+.com:*/*/*?*=&*=$~third-party
+.com:*/*/m.html?shareName=$document
+.com:*/*/m.html?shareName=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:12289/$script,third-party
@@ -2547,7 +2551,9 @@
 .hk/groupon/ads/
 .html?ad_
 .html?android=hx*&_$csp=script-src
+.html?channelCode=$document
 .html?channelCode=$third-party
+.html?channelCode=$~third-party
 .icu/*_*_rony.js
 .icu/ads/
 .in/js/ads/
@@ -2563,6 +2569,8 @@
 .js?ssid=_$script,third-party
 .k618.cn/sytab/
 .k618.cn/zbggw/
+.kkilivf.cn/*.html$document
+.kkilivf.cn/*.html$~third-party
 .la/8WaadBLH/*.js
 .la/style/vue.js?v=
 .life/ads/
@@ -2710,10 +2718,13 @@
 .xyz/vue?$third-party
 .xyz/xling_*_*.js?
 .xyz:$third-party,domain=btmovi.kim|colamanhua.com|d53px.com|dm99.me|heshang123.com|ledlmw.com|mobidushu.com|peakread.com|tangsanshu.info|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
+.xyz:*/*.html?uid=$document
+.xyz:*/*.html?uid=$~third-party
 .zone/ads/
 /*_*_/bigREDdog.$third-party
 /300x250.$image,domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc|~mwcomic1.biz|~mwcomic2.biz|~mwcomic3.biz|~mwcomic4.biz|~mwcomic5.biz|~mwcomic6.biz|~mwcomic7.biz|~mwcomic8.biz|~mwcomic9.biz|~mwcomic10.biz|~mwcomic.biz|~mwcomic1.xyz|~mwcomic2.xyz|~mwcomic3.xyz|~mwcomic4.xyz|~mwcomic5.xyz|~mwcomic6.xyz|~mwcomic7.xyz|~mwcomic8.xyz|~mwcomic9.xyz|~mwcomic10.xyz|~mwcomic.xyz|~mwcomic1.top|~mwcomic2.top|~mwcomic3.top|~mwcomic4.top|~mwcomic5.top|~mwcomic6.top|~mwcomic7.top|~mwcomic8.top|~mwcomic9.top|~mwcomic10.top|~mwcomic.top|~manwa1.xyz|~manwa2.xyz|~manwa3.xyz|~manwa4.xyz|~manwa5.xyz|~manwa6.xyz|~manwa7.xyz|~manwa8.xyz|~manwa9.xyz|~manwa10.xyz|~manwa.xyz|~mwcomic1.co|~mwcomic2.co|~mwcomic3.co|~mwcomic4.co|~mwcomic5.co|~mwcomic6.co|~mwcomic7.co|~mwcomic8.co|~mwcomic9.co|~mwcomic10.co|~mwcomic.co
 /?channelCode=bfy$document
+/?channelCode=bfy$~third-party
 /AdblockMessage.
 /SvgAdblockDetected/*
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
@@ -2896,11 +2907,14 @@
 ://*.zd*.xyz/*x*x*x*x*=$third-party
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/chunyu.html?k=$document
+://*:*/chunyu.html?k=$~third-party
 ://*:*/dayu*.html?channelCode=$csp=script-src
 ://*:*/dayu*.html?channelCode=$document
+://*:*/dayu*.html?channelCode=$~third-party
 ://*:*/oklist/vars.js
 ://*:*/yeyue.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$document
+://*:*/yeyue.html?k=$~third-party
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
 ://a.ads.
@@ -2912,7 +2926,11 @@
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
 ://banner.$third-party
+://boeg*.xyz/*.html$document
+://boeg*.xyz/*.html$~third-party
 ://btt*/Runtime/js/psData.
+://chio*.xyz/*.html$document
+://chio*.xyz/*.html$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
@@ -7011,6 +7029,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||aabook.cc/images/apps/
 ||aafuck.xyz^$third-party
 ||aag.yahooapis.jp^
+||aagomsi.xyz^
 ||aamv.vip^
 ||aaread.space/images/*0.gif
 ||aassy4.com/dm/
@@ -7580,6 +7599,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
 ||aksfrxd.cn^
 ||akuziti.com/tu/*.js
+||akyei.xyz^
 ||al.autohome.com.cn^
 ||al.newxue.com^
 ||albertabelen.com^
@@ -11631,6 +11651,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hkosgxn.cn^
 ||hktvmall.com/api/preroll/getList?
 ||hladalliance.com^
+||hldwdz.xyz^
 ||hlggimg.com^
 ||hlgglm.com^
 ||hlryy.top^
@@ -12030,6 +12051,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||iemwbu.cn^
 ||iepda.xyz^
 ||ifautzg.cn^
+||ifbqves.cn^
 ||ifc-edu.cn^$third-party
 ||ifeng.com/a_if/
 ||ifeng.com/iframe/quickbet
@@ -12805,6 +12827,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jrnrpma.cn^
 ||jrtwi.xyz^
 ||jrysogsia.uno^
+||jrzaht.xyz^
 ||jrzj.com/images/bgright_ad.jpg
 ||jrzj.com/img_index/*adv
 ||jrzj.com/img_index/guanggao
@@ -18012,6 +18035,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||waikuai.vip^
 ||waipian*.com/statics/recommend/
 ||waituo.ren^
+||waixinren.ren^
 ||wake-up-neo.com/bnet/
 ||waking.pro^
 ||walibao.com^$third-party
@@ -18712,6 +18736,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xplme.xyz^
 ||xpqy.xyz^
+||xpynqq.com^
 ||xpysozb.cn^
 ||xqcjfcb.cn^
 ||xqoekp.cn^

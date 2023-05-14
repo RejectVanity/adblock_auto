@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jUwqs5HUQGpWMFR6RhyRHQ
+! Checksum: ZfyxvnSSNOIPkuYrktsYSQ
 ! Title: 混合规则(自动更新)
-! Version: 20230514083334
+! Version: 20230514085126
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-14 08:33:34
-! Total Count: 110307
+! Last modified: 2023-05-14 08:51:26
+! Total Count: 110325
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19920,6 +19920,10 @@ $websocket,domain=5nj.com|cechi8.com
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
+.com:*/*/*?*=&*=$document
+.com:*/*/*?*=&*=$~third-party
+.com:*/*/m.html?shareName=$document
+.com:*/*/m.html?shareName=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:12289/$script,third-party
@@ -19990,7 +19994,9 @@ $websocket,domain=5nj.com|cechi8.com
 .html?ad=
 .html?ad_
 .html?android=hx*&_$csp=script-src
+.html?channelCode=$document
 .html?channelCode=$third-party
+.html?channelCode=$~third-party
 .html?clicktag=
 .html|$domain=www.gamer.com.tw
 .htmm?$domain=m.69shu.io|m.piaotianzw.com
@@ -20028,6 +20034,8 @@ $websocket,domain=5nj.com|cechi8.com
 .k618.cn/sytab/
 .k618.cn/zbggw/
 .ke/ads/
+.kkilivf.cn/*.html$document
+.kkilivf.cn/*.html$~third-party
 .la/8WaadBLH/*.js
 .la/style/vue.js?v=
 .lazyad-
@@ -20312,6 +20320,8 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/vue?$third-party
 .xyz/xling_*_*.js?
 .xyz:$third-party,domain=btmovi.kim|colamanhua.com|d53px.com|dm99.me|heshang123.com|ledlmw.com|mobidushu.com|peakread.com|tangsanshu.info|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
+.xyz:*/*.html?uid=$document
+.xyz:*/*.html?uid=$~third-party
 .xyz^$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.mx|soap2day.sh|soap2day.to
 .xyz^$~media,third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 .za/ads.
@@ -20514,6 +20524,7 @@ $websocket,domain=5nj.com|cechi8.com
 /:\/\/[A-Za-z0-9]+.ru\/[A-Za-z0-9]{20,25}.js/$domain=music-radio.ru
 /?affiliateId=*&realDomain=
 /?channelCode=bfy$document
+/?channelCode=bfy$~third-party
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
 /?placement=*&redirect$popup
 /?redirect&placement=$popup
@@ -29327,13 +29338,16 @@ $websocket,domain=5nj.com|cechi8.com
 ://*:*/api/v4/g?kyurl=$script,third-party
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/chunyu.html?k=$document
+://*:*/chunyu.html?k=$~third-party
 ://*:*/dayu*.html?channelCode=$csp=script-src
 ://*:*/dayu*.html?channelCode=$document
+://*:*/dayu*.html?channelCode=$~third-party
 ://*:*/jscode/*.js$script,third-party
 ://*:*/oklist/vars.js
 ://*:*/s.php?id=$script,third-party
 ://*:*/yeyue.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$document
+://*:*/yeyue.html?k=$~third-party
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
@@ -29363,7 +29377,11 @@ $websocket,domain=5nj.com|cechi8.com
 ://api.*.com/sh/to/$third-party,xmlhttprequest
 ://banner.$third-party
 ://banners.$third-party
+://boeg*.xyz/*.html$document
+://boeg*.xyz/*.html$~third-party
 ://btt*/Runtime/js/psData.
+://chio*.xyz/*.html$document
+://chio*.xyz/*.html$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
