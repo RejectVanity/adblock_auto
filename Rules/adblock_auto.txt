@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: UYHaQeGrBVQG/ecmovTl+w
+! Checksum: 2vQOyxfcuNXn4m69L0owaA
 ! Title: 混合规则(自动更新)
-! Version: 20230514160651
+! Version: 20230514170844
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-14 16:06:51
-! Total Count: 110344
+! Last modified: 2023-05-14 17:08:44
+! Total Count: 110358
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -24361,6 +24361,8 @@ $websocket,domain=5nj.com|cechi8.com
 /dateads.
 /datomata.widget.js
 /davad_ad_
+/dayu*.html?channelCode=$document
+/dayu*.html?channelCode=$~third-party
 /dayu2.html?channelCode=$csp=script-src
 /db.js?_dc=
 /dbhf.js$script,third-party
@@ -48325,6 +48327,9 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##embed[src]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##embed[src]
 yibian.hopto.org###no-adblock-box
 yicai.com##.dfb-ad
 yicai.com##.gg_loadpage
@@ -66590,6 +66595,7 @@ zzzyk.com###Tinfo
 ||d7d38597d6.com^
 ||d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com^
 ||d7dza8s7j2am6.cloudfront.net^
+||d7dzf.xyz^
 ||d7gse3go4026a.cloudfront.net^
 ||d7i.cn^
 ||d7po8h5dek3wm.cloudfront.net^
@@ -71733,6 +71739,7 @@ zzzyk.com###Tinfo
 ||ffyabcmahqiz.com^
 ||fg-z.com^
 ||fg.knlk2md.cn/sc/*?n=$third-party
+||fg.knlk2md.cn^$third-party
 ||fgcash.com.br^
 ||fgceajcbjihgiacceade.ru^
 ||fgddrrr.com^
@@ -86580,6 +86587,7 @@ zzzyk.com###Tinfo
 ||news.nest.msk.ru^
 ||news.newinform.com^
 ||news.pustgovorjat.ru^
+||news.qcyz.cn^
 ||news.rk345dno.ru^
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
@@ -97316,6 +97324,8 @@ zzzyk.com###Tinfo
 ||smg8oo4njst45oene.com^
 ||smgbka.xyz^
 ||smgjupy.cn^
+||smgzyi.com^$document
+||smgzyi.com^$~third-party
 ||smhossi.cn^
 ||smi.today^
 ||smi01.ru^
@@ -99835,6 +99845,8 @@ zzzyk.com###Tinfo
 ||szonline.net/static/js/ads.js
 ||szpgzn.com^
 ||szpl0.com^
+||szptlkj.com^$document
+||szptlkj.com^$~third-party
 ||szqifu.com^
 ||szqxvo.com^
 ||szsbiw.xyz^
@@ -100733,7 +100745,9 @@ zzzyk.com###Tinfo
 ||tfzznclztl.com^
 ||tg.mybb.ru^
 ||tg.s4te24u.com^
+||tg.wmqfey.com^$third-party
 ||tg.xkcxh.com/sc/*?n=$third-party
+||tg.xkcxh.com^$third-party
 ||tg0qu.top^
 ||tgadv.it^
 ||tgadvcdn.it^

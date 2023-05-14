@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 5RdCo0vEBPJdiye2A8NQkw
+! Checksum: 8zPMayNDnhpR6ZZdqfZGcw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230514160653
+! Version: 20230514170846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-14 16:06:53
-! Total Count: 19659
+! Last modified: 2023-05-14 17:08:46
+! Total Count: 19673
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2825,6 +2825,8 @@
 /blsx_*_*js?
 /blxn_*.js?
 /cookie_check.min.js$domain=acetv.me
+/dayu*.html?channelCode=$document
+/dayu*.html?channelCode=$~third-party
 /deadblocker/*
 /dh-anti-adblocker/*
 /disable-adblock.
@@ -5408,6 +5410,9 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##embed[src]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##embed[src]
 ykt.ru##.n-banner--adblocked
 yocast.tv###ra9e
 yz.m.sm.cn##[id^="ad_"]
@@ -9608,6 +9613,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||d6262.com^$popup
 ||d67p.com/love/
 ||d768p7cn.cn^
+||d7dzf.xyz^
 ||d7i.cn^
 ||d7y5grtl.site^
 ||d830x8j3o1b2k.cloudfront.net^
@@ -10619,6 +10625,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ffpp.xyz^
 ||fg-z.com^
 ||fg.knlk2md.cn/sc/*?n=$third-party
+||fg.knlk2md.cn^$third-party
 ||fgdtln.xyz^
 ||fgo22.info^$third-party
 ||fgopr.top^
@@ -14621,6 +14628,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||news.fangdaijisuanqi.com^
 ||news.imgsina.com^
 ||news.jiukang.org^
+||news.qcyz.cn^
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
 ||news.sina.com.tw/js/ti.js
@@ -16640,6 +16648,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||smartfarming.cn^
 ||smarttds.ru^
 ||smgbka.xyz^
+||smgzyi.com^$document
+||smgzyi.com^$~third-party
 ||smilered.com^
 ||smlmupi.cn^
 ||smmmqq.com^
@@ -17006,6 +17016,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sznj91.com^
 ||szonline.net/static/js/ads.js
 ||szpgzn.com^
+||szptlkj.com^$document
+||szptlkj.com^$~third-party
 ||szsbiw.xyz^
 ||szwjzl.cn^$third-party
 ||szxljdsb.com/tl
@@ -17150,7 +17162,9 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tfptlgrw.live^
 ||tfzozf.xyz^
 ||tg.s4te24u.com^
+||tg.wmqfey.com^$third-party
 ||tg.xkcxh.com/sc/*?n=$third-party
+||tg.xkcxh.com^$third-party
 ||tg0qu.top^
 ||tgcfmh.com^
 ||tgktw.xyz^
