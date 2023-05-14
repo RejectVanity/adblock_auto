@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Uxn1P0xVhenRd8ES8aZJ3Q
+! Checksum: +0jkOjVCwUGR7gA8A0FXAg
 ! Title: 混合规则(自动更新)
-! Version: 20230514085734
+! Version: 20230514090247
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-14 08:57:34
+! Last modified: 2023-05-14 09:02:47
 ! Total Count: 110329
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -29327,6 +29327,8 @@ $websocket,domain=5nj.com|cechi8.com
 9uu.com##.gao-bg
 9uu.com##.gao-wrapper
 9uu.com##.relate-container
+://*.*.com/asdzx.html$document
+://*.*.com/asdzx.html$~third-party
 ://*.*27txt.com/*/*.js$~third-party
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
@@ -29397,8 +29399,6 @@ $websocket,domain=5nj.com|cechi8.com
 ://ln.*.cyou$third-party
 ://ln.*.fun$third-party
 ://ln.*.mobi$third-party
-://luult.coupling-cn.com/*.html$document
-://luult.coupling-cn.com/*.html$~third-party
 ://m.*.cn/*.xmtl?$third-party
 ://m.*.cn/*/*.js?ssid=_
 ://m.*.pw/*.js?ssid=_

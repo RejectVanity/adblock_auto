@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9KflFOmGB99MQGd6Sa2q2g
+! Checksum: pa3nCvREJZmJHwSTB20/tw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230514085737
+! Version: 20230514090251
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-14 08:57:37
+! Last modified: 2023-05-14 09:02:51
 ! Total Count: 19648
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -2900,6 +2900,8 @@
 7mmtv.sx##[class^="root--"]
 7sim.net##html > body ~ div
 99re.com##a[href][target="_blank"] > img[src]
+://*.*.com/asdzx.html$document
+://*.*.com/asdzx.html$~third-party
 ://*.*27txt.com/*/*.js$~third-party
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
@@ -2943,8 +2945,6 @@
 ://ln.*.cyou$third-party
 ://ln.*.fun$third-party
 ://ln.*.mobi$third-party
-://luult.coupling-cn.com/*.html$document
-://luult.coupling-cn.com/*.html$~third-party
 ://m.*81zw.cc/*/*.js
 ://m.*81zw.cn/*/*.js
 ://m.*81zw.co/*/*.js
