@@ -1,0 +1,32 @@
+[Adblock Plus 2.0]
+! Checksum: lkmUs5TA6/zhXH55nFDbxA
+! Title: 拦截黄色网站转跳
+! Version: 20230514084244
+! Last modified: 2023-05-14 08:42:44
+! Total Count: 26
+.com:*/*/*?*=&*=$document
+.com:*/*/*?*=&*=$~third-party
+.com:*/*/m.html?shareName=$document
+.com:*/*/m.html?shareName=$~third-party
+.html?channelCode=$document
+.html?channelCode=$~third-party
+.kkilivf.cn/*.html$document
+.kkilivf.cn/*.html$~third-party
+.top/?channelCode=$document
+.top/?channelCode=$~third-party
+.xyz/?channelCode=$document
+.xyz/?channelCode=$~third-party
+.xyz:*/*.html?uid=$document
+.xyz:*/*.html?uid=$~third-party
+/?channelCode=bfy$document
+/?channelCode=bfy$~third-party
+://*:*/chunyu.html?k=$document
+://*:*/chunyu.html?k=$~third-party
+://*:*/dayu*.html?channelCode=$document
+://*:*/dayu*.html?channelCode=$~third-party
+://*:*/yeyue.html?k=$document
+://*:*/yeyue.html?k=$~third-party
+://boeg*.xyz/*.html$document
+://boeg*.xyz/*.html$~third-party
+://chio*.xyz/*.html$document
+://chio*.xyz/*.html$~third-party
