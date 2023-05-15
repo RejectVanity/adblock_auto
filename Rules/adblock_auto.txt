@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: uV3FDD835iEsLpDqKh0BXQ
+! Checksum: HAlKXYMsbUzM1knd3J8klg
 ! Title: 混合规则(自动更新)
-! Version: 20230515160819
+! Version: 20230515172515
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-15 16:08:19
-! Total Count: 110395
+! Last modified: 2023-05-15 17:25:15
+! Total Count: 110408
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19879,6 +19879,10 @@ $websocket,domain=5nj.com|cechi8.com
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
 .com/myjs/mys_alljs.js
+.com/new/5*.html$document
+.com/new/5*.html$~third-party
+.com/new/8*.html$document
+.com/new/8*.html$~third-party
 .com/pc/ad/$domain=~yoogame.com
 .com/piaozi/*.js
 .com/pm/ad-
@@ -22404,6 +22408,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ads/adp4.
 /ads/adrime/*
 /ads/ads.
+/ads/ads.js$script
 /ads/ads/*
 /ads/adv/*
 /ads/adx/*
@@ -29316,6 +29321,7 @@ $websocket,domain=5nj.com|cechi8.com
 9ht.com,cesafe.com,downcc.com,downyi.com,paopaoche.net,pc0359.cn,pc6.com,xfdown.com###gaosuxiazai
 9ht.com,pc0359.cn,pc6.com##.downnow
 9ht.com,pc0359.cn,pc6.com,ucbug.com##.downnow
+9jaflaver.com,alaskapublic.org,allkeyshop.com,analyticsinsight.net,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,bitcoinworld.co.in,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,fresherslive.com,gizmochina.com,glitched.online,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,kaas.am,katfile.com,khmertimeskh.com,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,newsfirst.lk,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,railcolornews.com,resultuniraj.co.in,retail.org.nz,ripplesnigeria.com,rtvonline.com,thinknews.com.ng,timesuganda.com,totemtattoo.com,trancentral.tv,vumafm.co.za,yugatech.com,zmescience.com##[href*="bit.ly/"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,analyticsinsight.net,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,bitcoinworld.co.in,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,kaas.am,katfile.com,khmertimeskh.com,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,newsfirst.lk,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,railcolornews.com,resultuniraj.co.in,retail.org.nz,ripplesnigeria.com,rtvonline.com,thinknews.com.ng,timesuganda.com,totemtattoo.com,trancentral.tv,vumafm.co.za,yugatech.com,zmescience.com##[href*="bit.ly/"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,analyticsinsight.net,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,katfile.com,khmertimeskh.com,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,newsfirst.lk,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,railcolornews.com,resultuniraj.co.in,retail.org.nz,ripplesnigeria.com,rtvonline.com,thinknews.com.ng,timesuganda.com,totemtattoo.com,trancentral.tv,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
@@ -37945,6 +37951,8 @@ ftv-news.com##[href^="https://www.outsourcingall.com/"]
 ftvlive.com###sidebar-one-wrapper
 ftvlive.com##.sqs-block-image-link
 ftvnews.com.tw##div[id^="div_gpt_"]
+ftw.usatoday.com,mmajunkie.usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium
+ftw.usatoday.com,mmajunkie.usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share
 fububu.com###wendibu
 fujieace.com##.single-goods
 fuli.us###callboard
@@ -46920,6 +46928,7 @@ usasexguide.nl###uiISGAdFooter
 usasexguide.nl##.isg_background_border_banner
 usasexguide.nl##.isg_banner
 usasexguide.nl##[href^="https://instable-easher.com/"]
+usatoday.com##.affiliate-widget-wrapper
 usatoday.com##.gnt_tb
 usatoday.com##.gnt_tbr
 usatoday.com##.gnt_x__lbl
@@ -48337,9 +48346,9 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##embed[src]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##[class$="_b"]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##canvas
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##embed[src]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##embed[src]
 yibian.hopto.org###no-adblock-box
 yicai.com##.dfb-ad
 yicai.com##.gg_loadpage
@@ -71063,6 +71072,7 @@ zzzyk.com###Tinfo
 ||exwotics6heomrthaoi4r.com^
 ||exwxrfz.cn^
 ||exwytd7.com^
+||exz1t.top^
 ||eyaldw.cn^
 ||eyd77s.com^
 ||eye.rd.services^
@@ -79528,6 +79538,7 @@ zzzyk.com###Tinfo
 ||jquery-cdn.cc^
 ||jquery.envi-met.com.cn^
 ||jqueryboots.com^
+||jqueryboots.net^
 ||jquerycdn.host^
 ||jqueryoi.com^
 ||jqueryserve.org^
@@ -95722,6 +95733,8 @@ zzzyk.com###Tinfo
 ||scythealready.com^
 ||scythesandwiches.com^
 ||sd-tagging.azurefd.net^
+||sd.s*dad.com^$document
+||sd.s*dad.com^$~third-party
 ||sd124.com/statics/mystyle/js/1699.js
 ||sd173.com/images/
 ||sd1f.top^

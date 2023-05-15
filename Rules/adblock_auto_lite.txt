@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sWHahVqrMy8/YoZdWU7/QQ
+! Checksum: NvDJnObZ52U/3cSh5N3cUQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230515160821
+! Version: 20230515172517
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-15 16:08:21
-! Total Count: 19688
+! Last modified: 2023-05-15 17:25:17
+! Total Count: 19695
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2489,6 +2489,10 @@
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
 .com/myjs/mys_alljs.js
+.com/new/5*.html$document
+.com/new/5*.html$~third-party
+.com/new/8*.html$document
+.com/new/8*.html$~third-party
 .com/piaozi/*.js
 .com/pv.gif?
 .com/qxads/
@@ -2810,6 +2814,7 @@
 /adblocker/modal.
 /adblocker_message_
 /ads.dp.js?
+/ads/ads.js$script
 /ads?zone_id=
 /ads_iframe
 /adsmatcher-anti-adblock/*
@@ -5411,9 +5416,9 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##embed[src]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##[class$="_b"]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##canvas
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com##embed[src]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##[class$="_b"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##canvas
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##embed[src]
 ykt.ru##.n-banner--adblocked
 yocast.tv###ra9e
 yz.m.sm.cn##[id^="ad_"]
@@ -16316,6 +16321,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||scw0.com^
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
+||sd.s*dad.com^$document
+||sd.s*dad.com^$~third-party
 ||sd124.com/statics/mystyle/js/1699.js
 ||sd173.com/images/
 ||sd1f.top^
