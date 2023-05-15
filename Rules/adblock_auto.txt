@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 3xDwUKq8mNoOzt2xw9RJeA
+! Checksum: uV3FDD835iEsLpDqKh0BXQ
 ! Title: 混合规则(自动更新)
-! Version: 20230515083221
+! Version: 20230515160819
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-15 08:32:21
-! Total Count: 110390
+! Last modified: 2023-05-15 16:08:19
+! Total Count: 110395
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -35079,6 +35079,7 @@ carmag.co.za##.homepage-300x250-banner
 carmag.co.za,thegazette.com###top-leaderboard
 carousell.com#@#.fb-b
 carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div.D_agu[style^="width"]:has(a[aria-label*="Dettol_Carousell_Banner_Campaign"]) { remove: true }
+carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:has(a[aria-label^="licksang"]) { remove: true }
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
 carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
@@ -61078,6 +61079,7 @@ zzzyk.com###Tinfo
 ||boyughaye.com^
 ||bozhihua.com^$third-party
 ||bozhixiang.top^
+||bozumi.xyz^
 ||bp.blogspot.com^$domain=avmimi.com
 ||bp.blogspot.com^*/s1600/dealer
 ||bp01.net^
@@ -74808,6 +74810,7 @@ zzzyk.com###Tinfo
 ||guarantee-cdn.com^
 ||guaranteelamp.com^
 ||guarda4k.online^
+||guardeddirection.com^
 ||guardedschool.com^
 ||guardianamazedwireless.com^
 ||guardiandigitalcomparison.co.uk^
@@ -95851,6 +95854,7 @@ zzzyk.com###Tinfo
 ||secrecysatisfy.com^
 ||secrefurther.com^
 ||secretivecub.com^
+||secretivesheep.com^
 ||secretspiders.com^
 ||secretturtle.com^
 ||secruz.com^
@@ -109354,6 +109358,7 @@ zzzyk.com###Tinfo
 ||ywhnh.top^
 ||ywinterspace.ltd^
 ||ywqpgy.com^
+||ywsiqlg.cn^
 ||ywsywh.cn^
 ||ywxi.net^
 ||ywyeetvrjx.xyz^
