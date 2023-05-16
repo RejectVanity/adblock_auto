@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 5eMRZm7vMLXsTXoo/LkJyg
+! Checksum: W52CyXD5CMOUNRQZfRUk0Q
 ! Title: 混合规则(自动更新)
-! Version: 20230516160807
+! Version: 20230517000758
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-16 16:08:07
-! Total Count: 110569
+! Last modified: 2023-05-17 00:07:58
+! Total Count: 110604
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19098,6 +19098,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|0794.o
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.biqukun.la|m.biqusa.org|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|m.wujixsw.com|wodexiaoshuoh.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
+$script,third-party,denyallow=bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com,domain=m.91zww.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|xiaoheimi.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanhua.com
@@ -29072,6 +29073,7 @@ $websocket,domain=5nj.com|cechi8.com
 591hx.com##.banner_w
 5dm.app##.top1
 5dm.app#@#.tm-share-this
+5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##img[width="1240"]
 5eplay.com##img[width="290"][height="360"]
 5ewin.com##.erweima
@@ -34970,6 +34972,7 @@ buzz.ie,irishpost.com,theweekendsun.co.nz##.add-block
 buzzfeed.com##.ad-awareness
 buzzfeed.com##.card--article-ad
 buzzfeed.com##.js-bfa-impression
+buzzfeed.com##.subbuzz-bfp--connatix_video
 buzzfeed.com,buzzfeednews.com##.desktop-sticky-ad_desktopStickyAdWrapper__a_tyF
 buzzfeednews.com##div[id^="BF_ADX_"]
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
@@ -35753,6 +35756,7 @@ coingape.com##.desktopds
 coingape.com##.dfd
 coingape.com##.diplay-m-ad
 coingape.com##.stcikyright
+coingape.com,dailyboulder.com,townflex.com##.quads-location
 coingape.com,townflex.com##.quads-location
 coingecko.com###top-announcement-header
 coingecko.com##.selected
@@ -36168,6 +36172,8 @@ daijiworld.com##.hidden-xs > [href]
 daijiworld.com##[href="http://www.expertclasses.org/"]
 dailiantong.com##.appDwn
 daily-choices.com##[id^="sticky_"]
+dailyboulder.com###mvp-post-bot-ad
+dailyboulder.com,lostintechnology.com,ripplecoinnews.com,webkinznewz.ganzworld.com##.widget_text
 dailycaller.com###dailycaller_top
 dailycaller.com##.dc-sticky
 dailycoffeenews.com##.banner-box
@@ -39107,6 +39113,8 @@ healthylives.tw##div[id^="gad"]
 hearthhead.com,thottbot.com,wowhead.com##.sidebar-bg
 hearthhead.com,wowhead.com##.block-bg
 heartinkstone.pixnet.net###spotlight
+heatmap.news##.infinite-container
+heatmap.news##.middle_leaderboard
 heatware.com#@#.ads-image
 hebdenbridge.co.uk#@#.smallads
 hefei.cc##.bbs_app_fk > a:first-child
@@ -41516,6 +41524,7 @@ m.07073.com##.new_heads
 m.07073.com##.new_heads_bg
 m.56.com##a[data-statkey="newad_banner"]
 m.86kl.com##+js(abort-on-property-read, akumtagcc)
+m.91zww.com##+js(abort-on-property-write, delCookie)
 m.autohome.com.cn###s2205
 m.autohome.com.cn##.wrapper > section[class^="box_"]
 m.babytree.com##.recommend-brand
@@ -44223,6 +44232,7 @@ qq.com#@#.adside
 qq.com#@#.side_ad
 qq.com,sogou.com##.banner-vda
 qq.com,sogou.com##.cs_dropbox[pbflag="xialaresou"]
+qq.com,sogou.com##.daohang-gamecenter
 qq.com,sogou.com##.m[pbflag="bt_mai"]
 qq.com,sogou.com##div[class^="page-bottom-banner"]
 qq.com,sogou.com##div[class^="page-top-banner"]
@@ -46085,6 +46095,8 @@ thedirect.com##.pw-ph-sky
 thedrinknation.com###fcBanner
 thedrive.com##.ad-slot-wrapper
 thedrive.com##.ad__slot
+thedrive.com##.mtc-header__desktop__article-prefill-container
+thedrive.com##.mtc-prefill-container-injected
 thedriven.io###solarchoice_banner_1
 theeastafrican.co.ke##.c15r
 theepochtimes.com##.ai_recommendation
@@ -49541,6 +49553,7 @@ zzzyk.com###Tinfo
 ||136dd8678f.com^
 ||137.175.69.92^
 ||137kfj65k.de^
+||1385a.xyz^
 ||138txt.net/js/ssgdd.
 ||138vps.com/fa/
 ||139file.com/jsa/
@@ -54637,6 +54650,7 @@ zzzyk.com###Tinfo
 ||adv.sec.intl.miui.com^
 ||adv.sec.miui.com^
 ||adv.thuvienphapluat.vn^
+||adv.topvideo.tj^
 ||adv.vnnshop.vn^
 ||adv.vz.ru^
 ||adv0*.msa.cdn.mediaset.net^
@@ -56439,6 +56453,7 @@ zzzyk.com###Tinfo
 ||analytics.adfreetime.com^
 ||analytics.admon.com.vn^
 ||analytics.adoffice.11st.co.kr^
+||analytics.adultempire.com^
 ||analytics.afirstsoft.cn^
 ||analytics.agoda.com^
 ||analytics.aita.gov.vn^
@@ -64430,6 +64445,7 @@ zzzyk.com###Tinfo
 ||collector.appconsent.io^
 ||collector.automote.co.nz^
 ||collector.brandify.com^
+||collector.cakeresume.com^
 ||collector.cdp.cnn.com^
 ||collector.cint.com^
 ||collector.clareity.net^
@@ -66584,6 +66600,7 @@ zzzyk.com###Tinfo
 ||d3oep4gb91kpuv.cloudfront.net^
 ||d3ohee25hhsn8j.cloudfront.net^
 ||d3ojzyhbolvoi5.cloudfront.net^
+||d3oodlxb1rw3kg.cloudfront.net^
 ||d3op2vgjk53ps1.cloudfront.net^
 ||d3ou4areduq72f.cloudfront.net^
 ||d3oy68whu51rnt.cloudfront.net^
@@ -66593,6 +66610,7 @@ zzzyk.com###Tinfo
 ||d3pel2vlstnlu9.cloudfront.net^
 ||d3phbp7p78bdk9.cloudfront.net^
 ||d3phzb7fk3uhin.cloudfront.net^
+||d3pi0tys5sdysl.cloudfront.net^
 ||d3pk579obpqv7b.cloudfront.net^
 ||d3pkntwtp2ukl5.cloudfront.net^
 ||d3plfjw9uod7ab.cloudfront.net^
@@ -68655,6 +68673,7 @@ zzzyk.com###Tinfo
 ||doufoacu.net^
 ||doug1izaerwt3.cloudfront.net^
 ||dougale.com^
+||dougle.one/wp-content/uploads/*/baner
 ||douguo.net/upload/post/d/
 ||douhooke.net^
 ||doujinnomori.com/ad/
@@ -68901,6 +68920,7 @@ zzzyk.com###Tinfo
 ||dsie7h4lo9wxu.cloudfront.net^
 ||dskrt.net^
 ||dsmmadvantage.com^
+||dsmstats.com^
 ||dsn-fishki.ru^
 ||dsn-kuban.krasnodar.su^
 ||dsn-vgtrk.ru^
@@ -72812,6 +72832,7 @@ zzzyk.com###Tinfo
 ||ftimg.net/s?z=
 ||ftjcfx.com^
 ||ftklr.com^
+||ftm.fluencyinc.co^
 ||ftnthzv.cn^
 ||ftrack.ru^
 ||ftrtnr.xyz^
@@ -73489,6 +73510,7 @@ zzzyk.com###Tinfo
 ||geniusbanners.com^
 ||geniusdexchange.com^
 ||geniusdisplay.com^
+||geniuslinkcdn.com^
 ||geniusonclick.com^
 ||genmonet.com^
 ||genomicincises.digital^
@@ -77175,6 +77197,7 @@ zzzyk.com###Tinfo
 ||icoawhou.com^
 ||icon.zol-img.com.cn/mainpage/js/click.js
 ||iconcnd.net^
+||iconnode.com^
 ||iconosquare.com^
 ||iconstadper.com^
 ||icorp.ro^
@@ -79610,6 +79633,7 @@ zzzyk.com###Tinfo
 ||joyoussurprise.com^
 ||joyrodethyme.digital^
 ||joyvowdig.com^
+||jp.twww.sbs^
 ||jp1357.com/addon/
 ||jp2468.com/addon/
 ||jp2468.com/api/vip/vipshow.php
@@ -80737,6 +80761,7 @@ zzzyk.com###Tinfo
 ||knowcohow.com^
 ||knowctr.com^
 ||knowd.com^
+||knowens.com^
 ||knowfloor.com^
 ||knowhowhuddler.tech^
 ||knowhowlobe.com^
@@ -81784,6 +81809,7 @@ zzzyk.com###Tinfo
 ||letmelook.net^
 ||letong.xyz^
 ||letqejcjo.xyz^
+||letreach.com^
 ||letro.jp^
 ||letsread.club^
 ||letssex.
@@ -81977,6 +82003,7 @@ zzzyk.com###Tinfo
 ||lifoll.com^
 ||lift.acquia.com^
 ||liftdna.com^
+||lifterpopup.com^
 ||liftoff-creatives.io^
 ||liftoff.io^
 ||lifu11.com^
@@ -82706,6 +82733,7 @@ zzzyk.com###Tinfo
 ||login-megafon.ru^
 ||loginbox.ru^
 ||loginhood.io^
+||loginside.co.kr^
 ||logitxaequk.com^
 ||logkm.dantocmiennui.vn^
 ||loglabitrufly.top^
@@ -85397,6 +85425,7 @@ zzzyk.com###Tinfo
 ||mongoosejs.net/docs/images/lagoujika.jpeg
 ||mongoosemetrics.com^
 ||mongsonv.uno^
+||monicaatron.com^
 ||moniliabarkeep.digital^
 ||monismartlink.com^
 ||monitis.com^
@@ -89698,6 +89727,7 @@ zzzyk.com###Tinfo
 ||pdfihxjrtjkccse.xyz^
 ||pdfsearchhq.com^
 ||pdiyluhfttb.xyz^
+||pdmntn.com^
 ||pdmp.jp^
 ||pdmtmribgaqctz.com^
 ||pdn-1.com^
@@ -94954,6 +94984,7 @@ zzzyk.com###Tinfo
 ||rtbxnmhub.com^
 ||rtc-logger-va.tiktokv.com^
 ||rtc.dymatrix.cloud^
+||rtc.multiscreensite.com^
 ||rtcegcp.cn^
 ||rtclx.com^
 ||rtdxqq.com^
@@ -97430,6 +97461,7 @@ zzzyk.com###Tinfo
 ||smart-flash.jp/yahoo_ad.html
 ||smart-ip.net^
 ||smart-name.pro^
+||smart-pixl.com^
 ||smart-placements-sdk.ex.co^
 ||smart-redirecting.com^
 ||smart-widget-assets.ekomiapps.de^
@@ -100230,6 +100262,7 @@ zzzyk.com###Tinfo
 ||tag.cribnotes.jp^
 ||tag.datariver.ru^
 ||tag.dec-connect.decsuite.com^
+||tag.digops.sincro.io^
 ||tag.elevaate.io^
 ||tag.flagship.io^
 ||tag.getdrip.com^
@@ -107116,6 +107149,7 @@ zzzyk.com###Tinfo
 ||wljj56.com^
 ||wllraaeogjud.xyz^
 ||wlmarketing.com^
+||wlog.ifdo.co.kr^
 ||wlog.tmon.co.kr^
 ||wlovey.asia^
 ||wlr8yw8.cn^
@@ -109633,6 +109667,7 @@ zzzyk.com###Tinfo
 ||z1.cyla.cn^
 ||z1.o8h7d.cn^
 ||z1.pclady.com.cn^
+||z11011.com^
 ||z1hihu.xmcimg.com^
 ||z211.yourconroenews.com^
 ||z2x5c8.com^$image,domain=hihbt.com
