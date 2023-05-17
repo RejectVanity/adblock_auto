@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: OHvQQdbb4y6njTfNnvLwcQ
+! Checksum: t06CNTXxXJSZ6XeDAwDgGA
 ! Title: 混合规则(自动更新)
-! Version: 20230517160807
+! Version: 20230518000707
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-17 16:08:07
-! Total Count: 110658
+! Last modified: 2023-05-18 00:07:07
+! Total Count: 110674
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8006,6 +8006,7 @@
 ##.ad_970x250_300x250
 ##.ad_970x250_container
 ##.ad_970x90_prog
+##.ad_Bumper
 ##.ad_CustomAd
 ##.ad_Flex
 ##.ad_Flexi_LowerRight
@@ -13789,6 +13790,7 @@
 ##.itopbar + .container
 ##.its_all_for_ads
 ##.its_for_ads
+##.itsanad
 ##.j-ad
 ##.jLinkSponsored
 ##.jannah_ad
@@ -17354,6 +17356,7 @@
 ##.widget_wp-bannerize-widget
 ##.widget_wp_ads_gpt_widget
 ##.widget_wp_insert_ad_widget
+##.widget_wpex_advertisement
 ##.widget_wpstealthads_widget
 ##.widgetads
 ##.width-ad-slug
@@ -17381,6 +17384,7 @@
 ##.wpadvert
 ##.wpcom_ad_wrap
 ##.wpd-advertisement
+##.wpex-ads-widget
 ##.wppaszone
 ##.wps-player-wrap
 ##.wpvqgr-a-d-s
@@ -17404,6 +17408,7 @@
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
 ##.ww_ads_banner_wrapper
+##.wwads
 ##.wwads-cn
 ##.wzad
 ##.xeiro-ads
@@ -33249,6 +33254,7 @@ alibabacloud.com##.hmod-alicloud-contact-sales-support
 alicocsouth.inter.71edge.com/videos/other/*.f4v
 aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
 alipay.com###J-cooperant-banner
+alist.nn.ci##.ss
 alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
 aliyun.com###yq-a-r-bottom
 aliyun.com##.aliyun-delivery-view-container
@@ -44651,6 +44657,7 @@ ruten.com.tw##.act-promo
 ruten.com.tw##.side-advertise
 ruten.com.tw#@#.adslot
 ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
+ruyo.net##.textwidget a > img
 ruyo.net##.widget_custom_html
 rvguide.com##.wp-image-3611
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
@@ -44939,6 +44946,9 @@ shaaditimes.com##div[style="padding: 5 0 0 0px; height: 138px; text-align:center
 shacknews.com##.takeover-skin
 shadbase.com##img[alt="adblock"]
 shahid4u.club#@#.adsBox
+shangyexinzhi.com##.advert
+shangyexinzhi.com##.hang-baidu_adv
+shangyexinzhi.com##.img2text-adv_wrapper
 shanxivideo.com##.ad_panelAR
 shanxivideo.com##.ads-container
 shanxivideo.com##.banner
@@ -50912,6 +50922,7 @@ zzzyk.com###Tinfo
 ||54admin.net/images/ad_
 ||54askjdklm.xyz^
 ||54ec30c53d.com^
+||54ha.cn^
 ||54kefu.net^
 ||54kefu.net^$third-party
 ||54new.com*/da/
@@ -60186,6 +60197,7 @@ zzzyk.com###Tinfo
 ||beyanmaan.com^
 ||beyedortostr.info^
 ||beyondsecurity.com^
+||beyourxfriend.com^
 ||bezettescanner.com^
 ||bf-ad.net^
 ||bf-tools.net^
@@ -62653,6 +62665,7 @@ zzzyk.com###Tinfo
 ||cdn.sgmntfy.com^
 ||cdn.shareaholic.net^
 ||cdn.shdsp.net/ad
+||cdn.sinam.top^
 ||cdn.smartclick.io^
 ||cdn.smlog.co.kr^
 ||cdn.sportlabs.online^
@@ -74812,6 +74825,7 @@ zzzyk.com###Tinfo
 ||growngame.life^
 ||growthrx.in^
 ||grozeesh.com^
+||grs.dbankcloud.
 ||grs.hicloud.com^
 ||grsea.cn^
 ||grsm.io^
@@ -82122,6 +82136,7 @@ zzzyk.com###Tinfo
 ||link.informer.com^
 ||link.ru^
 ||link114.cn/template/js/showpics_
+||linkads.me^
 ||linkbox.to/temp/popunder.js$script,important
 ||linkbuddies.com^
 ||linkchangesnow.com^
@@ -83519,6 +83534,7 @@ zzzyk.com###Tinfo
 ||m3oxem1nip48.ru^
 ||m45assachucsh9w7etts.com^
 ||m4clicks.com^
+||m5.66077.cn^
 ||m62rtkpf.de^
 ||m6ku1.cn^
 ||m6pz5h8qi18jq1s7hjkytxn7sjc0zpxw5gks3vyk8dcxs2cstjgdxkp7t1eb.me^
