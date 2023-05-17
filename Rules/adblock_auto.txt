@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: gwvpTh0/RHzZIhfJ/nuCzA
+! Checksum: OHvQQdbb4y6njTfNnvLwcQ
 ! Title: 混合规则(自动更新)
-! Version: 20230517083448
+! Version: 20230517160807
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-17 08:34:48
-! Total Count: 110644
+! Last modified: 2023-05-17 16:08:07
+! Total Count: 110658
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11930,6 +11930,7 @@
 ##.container + .container > .warp > .cate
 ##.container > .index-ad
 ##.container > .slide-baidu
+##.container > .t-img-box:first-child
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
 ##.container > iframe[src*="123.html"][width][height]
@@ -41307,6 +41308,7 @@ libhunt.com##.sidebar-promo-boxed
 libhunt.com##.sponsors-list-content
 libhunt.com##.track-event
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
+libvio.cc,libvio.me##.t-img-box
 libvio.cc,libvio.me,smdyy.cc##.t-img-box
 libvio.com##.hidden-log
 libvio.com##.inner-advertise
@@ -49820,6 +49822,8 @@ zzzyk.com###Tinfo
 ||1kmb.cn^
 ||1knhg4mmq.de^
 ||1l-hit.mail.ru^
+||1l-hit.vkplay.ru^
+||1l-view.my.games^
 ||1l1.cc^
 ||1lj11b2ii.de^
 ||1lo0.net^
@@ -52648,6 +52652,7 @@ zzzyk.com###Tinfo
 ||accessorydistantdepths.com^
 ||accesstrade.co.id^
 ||accesstrade.net^
+||accid.xyz^
 ||accidentalinfringementfat.com^
 ||accidentallyrussian.com^
 ||accids.com^
@@ -64279,6 +64284,7 @@ zzzyk.com###Tinfo
 ||code.kinofactor.ru^
 ||code.lockbot.net^
 ||code.piano.io/api/tinypass.min.js$domain=delfi.lv
+||code.r5hsid.ru^
 ||code.usergram.info^
 ||code.vh45130.eurodir.ru^
 ||code668.com^
@@ -67199,6 +67205,7 @@ zzzyk.com###Tinfo
 ||dcmn.com^
 ||dcmn.io^
 ||dcnjc4.com^
+||dcnytdpke.xyz^
 ||dcovesaysh.xyz^
 ||dcqs4.com^
 ||dcs.conac.cn/js/
@@ -76777,6 +76784,7 @@ zzzyk.com###Tinfo
 ||huimg.cn/e/hd.e.wap.
 ||huineihan.com^
 ||huishangjituan.cn^
+||huishengqihang.xyz^
 ||huishij.net^
 ||huisifa.com^
 ||huissl.com^
@@ -84652,6 +84660,7 @@ zzzyk.com###Tinfo
 ||metrics.mzstatic.com^
 ||metrics.n-tv.de^
 ||metrics.news.com.au^
+||metrics.onewegg.com^
 ||metrics.onshape.com^
 ||metrics.pacsun.com^
 ||metrics.pico.tools^
@@ -87570,6 +87579,7 @@ zzzyk.com###Tinfo
 ||nvyrgsqdqh.com^
 ||nvzffl.cn^
 ||nwadakesc.cyou^
+||nwandlc.top^
 ||nwave.de^
 ||nwdjlx.xyz^
 ||nwecd.xyz^
@@ -98740,6 +98750,7 @@ zzzyk.com###Tinfo
 ||stat.eagleplatform.com^
 ||stat.enter-system.com^
 ||stat.game.yy.com^
+||stat.gc.my.games^
 ||stat.glaze.ai^
 ||stat.gspaceteam.com^
 ||stat.headlines.pw^
@@ -107155,6 +107166,7 @@ zzzyk.com###Tinfo
 ||wjlzs.cn^
 ||wjr9.cn^
 ||wjslw.mobi^
+||wjtij.top^
 ||wjylfla.cn^
 ||wk4y.cn^
 ||wka4jursurf6.com^
@@ -108075,6 +108087,7 @@ zzzyk.com###Tinfo
 ||xiald.com^
 ||xiamp4.com/tj.js
 ||xiandafood.cn^
+||xiangfenyabu.xyz^
 ||xianggou.club^
 ||xianglong360.cn^
 ||xianguangergaozhi.com^
@@ -108459,6 +108472,7 @@ zzzyk.com###Tinfo
 ||xs8.cn/qreport?
 ||xsa2zq7q2l.ru^
 ||xsafdsv.cn^
+||xsbdj6.com^
 ||xsbiqugew.com^*.php
 ||xsdizch.cn^
 ||xsell.6waves.com^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: /7gDYth9WkeYxOZeXT6gCw
+! Checksum: HXbTVbwRrHrXAbHX/PHjBQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230517083451
+! Version: 20230517160809
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-17 08:34:51
-! Total Count: 19726
+! Last modified: 2023-05-17 16:08:09
+! Total Count: 19731
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -850,6 +850,7 @@
 ##.container + .container > .warp > .cate
 ##.container > .index-ad
 ##.container > .slide-baidu
+##.container > .t-img-box:first-child
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
 ##.container > iframe[src*="123.html"][width][height]
@@ -7108,6 +7109,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||ac1.pingpingw.com^
 ||acbe.club^
+||accid.xyz^
 ||accommodatingremindauntie.com^
 ||aceik.xyz^
 ||acfun.cn/appSpreadContents/danmuad/
@@ -11889,6 +11891,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||huimg.cn/e/hd.e.wap.
 ||huineihan.com^
 ||huishangjituan.cn^
+||huishengqihang.xyz^
 ||huishij.net^
 ||huisifa.com^
 ||huissl.com^
@@ -14824,6 +14827,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nvwanyyds.com^
 ||nvzffl.cn^
 ||nwadakesc.cyou^
+||nwandlc.top^
 ||nwdjlx.xyz^
 ||nwecd.xyz^
 ||nwecd.xyz^$third-party
@@ -18615,6 +18619,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xhymsq.com/data/attachment/portal/
 ||xiacaidd.com/xiacai/ad/
 ||xiakedy.org/js/jquery.
+||xiangfenyabu.xyz^
 ||xianglong360.cn^
 ||xianguangergaozhi.com^
 ||xiangwangdesh.com^
