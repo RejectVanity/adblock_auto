@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: PATxecZw5t4JBZLBW0zcVw
+! Checksum: WK0bGG68Skw87lnVyb6Lcg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230518000709
+! Version: 20230518083112
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-18 00:07:09
-! Total Count: 19737
+! Last modified: 2023-05-18 08:31:12
+! Total Count: 19748
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1234,6 +1234,7 @@
 ##.wrapper > a[target="_blank"] > .ads
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
+##.wwads
 ##.wwads-cn
 ##.wzad
 ##.xstui-content__acc
@@ -6119,6 +6120,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||360640.com^
 ||360buyimg.com$domain=73thz.com
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
+||360buyimg.com/ddimg/jfs/t1/27218/8/19964/31194/636a1930E1de2ae78/e3ff134116579b95.jpg
 ||360buyimg.com/jzt/temp/js/
 ||360buyimg.com^$domain=1024pz.com|chdbits.co|gw54.com|qianggou5.com|xgw5.com
 ||360doc.com^*.html?t=
@@ -8603,6 +8605,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bjmama.net/a/spc_
 ||bjqwllp.cn^
 ||bjs.faxingzhan.com^
+||bjtel.cn^
 ||bjwh8.xyz^
 ||bjws.xyz^
 ||bjytdqwx.com^
@@ -8658,6 +8661,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bob5379.com^
 ||bobdz.com^
 ||boce.com/statics/img/img27b.png
+||bockd.xyz^
 ||bocvb.xyz^
 ||bodu365.co/t/
 ||boilingcredit.com^$third-party
@@ -10611,6 +10615,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fdtrjz.xyz^
 ||fdveqpc.cn^
 ||fdxpfeb.cn^
+||fdytdc.xyz^
 ||fearlessfaucet.com^$third-party
 ||featured.perfectionholic.com^
 ||fedlugk.cn^
@@ -11634,6 +11639,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hf365.com/0/14/60/93/14609355_921128.jpg
 ||hf365.com/0/15/64/87/15648725_922274.jpg
 ||hffxc.com^
+||hfhytx.xyz^
 ||hfjsbf.xyz^
 ||hflssy.com^
 ||hfwzbp.cn^
@@ -11762,6 +11768,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hongyingbbs.com/jj/
 ||honorableland.com^$third-party
 ||honqdyg.cn^
+||hontont.com^
 ||hoodrunner.kiloo.com/newonlinesettings.php?platform=android
 ||hoopchina.com.cn/common/lazyLoadAd.js
 ||hoopchina.com.cn/gamecenter/side-stg.js
@@ -11909,6 +11916,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||huizeyoupin.com^
 ||huizu100.com/data/attachment/portal/
 ||huluxia.com^$third-party
+||humgrww.xyz^
 ||hunlimd.cn^
 ||huntmad.com^
 ||huo720.com/back/ad_
@@ -13310,6 +13318,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||krurkex.com^
 ||krutilka.net^
 ||krvpsegjeukhoqk.su^
+||kryjqq.com^
 ||kryptografie.de/js/wb_dead.js$script
 ||krysogsid.uno^
 ||ks2g.top^
@@ -15571,6 +15580,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||q7tl.icu^
 ||q88j2.top^
 ||qanduan.com^
+||qange.com^
 ||qaolyke.cn^
 ||qaops.jgwsmqx.com^$third-party
 ||qaou.top^
@@ -18921,6 +18931,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xyyejhm.cn^
 ||xyzyqq.com^
 ||xzji.com/data/block_js/softShow_
+||xzlurd.xyz^
 ||xznrtl.xyz^
 ||xzvfd.xyz^
 ||xzwk.hk^
