@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b06D+0uL1D+Ft0acjy/kRA
+! Checksum: LEkM85iFoCItaJzJ8NPdYw
 ! Title: 自用去广告Adblock规则
-! Version: 20230520073118
-! Last modified: 2023-05-20 07:31:18
-! Total Count: 1333
+! Version: 20230520075837
+! Last modified: 2023-05-20 07:58:37
+! Total Count: 1335
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1005,7 +1005,9 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img [src^="/js/a_d"][src$=".png"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##embed[src]
