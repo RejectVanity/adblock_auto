@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Feqk5W+oIO/kVKqx+KBkyg
+! Checksum: MZqwKg59QJIgDXQOJYfRMw
 ! Title: 自用去广告Adblock规则
-! Version: 20230516001119
-! Last modified: 2023-05-16 00:11:19
-! Total Count: 1329
+! Version: 20230519203208
+! Last modified: 2023-05-19 20:32:08
+! Total Count: 1332
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -430,6 +430,7 @@
 ://mobixc.*.cyou$third-party
 ://mobixc.*.fun$third-party
 ://mobixc.*.top$third-party
+://mpic.*.cn/*.txt$third-party
 ://p.qlogo.cn/qqmail_head/*
 ://pic.*.cn/*/*.js$third-party,script
 ://shiold*.zhaosw.com$script
@@ -576,10 +577,11 @@ ddys.art##div > span > a > img
 diantaiwang.com##a[href^="https://s.click.taobao.com/"][target="_blank"]
 diantaiwang.com##img[src^="/js/imgs"]
 dm590.com##.external
-dmh8.me,dm88.me##.padding-0 > ul[style]
-dmh8.me,dm88.me##div[id^="test"]
+dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
+dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
-dmh8.me,dm88.me,bccn.net##img[src*="data:"]
+dmh8.me,dm88.me,bccn.net,dm99.me##img[src*="data:"]
+dmh8.me,dm88.me,dm99.me##div[id^="test"]
 dnaav.com##div[id^="dnaav_b"]
 dyjihe8.com##div[style*="text-indent: -10000px !important; line-height: 0px !important;"]
 efukt.com##[data-ad-type]
@@ -1191,6 +1193,7 @@ zle.com$script
 ||mc.webvisor.org^
 ||mc.yandex.ru^
 ||mc2n.xyz^
+||merwds.qwuidbn.com^$third-party
 ||missav.com/pop?url=
 ||missav123.com/pop?url=
 ||mklou.yuvdqnpo.com^
