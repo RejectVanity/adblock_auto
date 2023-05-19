@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SeSfU3LPlvRd+3snkUUbdA
+! Checksum: BUF4gmr+/sp1Lf8EYeIcKA
 ! Title: 拦截黄色网站转跳
-! Version: 20230519203023
-! Last modified: 2023-05-19 20:30:23
-! Total Count: 54
+! Version: 20230519205854
+! Last modified: 2023-05-19 20:58:54
+! Total Count: 68
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
 .com/new/5*.html$document
@@ -14,12 +14,18 @@
 .com:*/*/*?*=&*=$~third-party
 .com:*/*/m.html?shareName=$document
 .com:*/*/m.html?shareName=$~third-party
+.com:*/waga*.html$document
+.com:*/waga*.html$~third-party
 .html?channelCode=$document
 .html?channelCode=$~third-party
 .kkilivf.cn/*.html$document
 .kkilivf.cn/*.html$~third-party
+.live:*/waga*.html$document
+.live:*/waga*.html$~third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
+.top:*/waga*.html$document
+.top:*/waga*.html$~third-party
 .xyz/?channelCode=$document
 .xyz/?channelCode=$~third-party
 .xyz:*/*.html?uid=$document
@@ -28,6 +34,8 @@
 .xyz:*/waga*.html$~third-party
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
+/?channelCode=ywy$document
+/?channelCode=ywy$~third-party
 /dayu*.html?channelCode=$document
 /dayu*.html?channelCode=$~third-party
 ://*.*.com/asdzx.html$document
@@ -42,8 +50,14 @@
 ://boeg*.xyz/*.html$~third-party
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+zhaotianbao1.cn/*/ywy*.apk$document
+zhaotianbao1.cn/*/ywy*.apk$~third-party
+||chadnli.cn^$document
+||chadnli.cn^$~third-party
 ||edlzedu.cn^$document
 ||edlzedu.cn^$~third-party
+||iqbecde.cn^$document
+||iqbecde.cn^$~third-party
 ||jfiacyg.cn^$document
 ||jfiacyg.cn^$~third-party
 ||jugaohr.cn^$document
