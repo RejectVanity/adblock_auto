@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Up3S7txsYpBxOD9gxct/ew
+! Checksum: FrCXw4YNvaYmLSaZsoACKA
 ! Title: 混合规则(自动更新)
-! Version: 20230519204512
+! Version: 20230519210033
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-19 20:45:12
-! Total Count: 110874
+! Last modified: 2023-05-19 21:00:33
+! Total Count: 110889
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19947,6 +19947,8 @@ $websocket,domain=5nj.com|cechi8.com
 .com:*/*/m.html?shareName=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/waga*.html$document
+.com:*/waga*.html$~third-party
 .com:12289/$script,third-party
 .com:2516/code/
 .com:91/Runtime/js/psCreat.js
@@ -20075,6 +20077,8 @@ $websocket,domain=5nj.com|cechi8.com
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live:$third-party,domain=btmovi.kim|colamanhua.com|d53px.com|dm99.me|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
+.live:*/waga*.html$document
+.live:*/waga*.html$~third-party
 .lk/ads/
 .lu/ads/
 .lu/js/wap_billing.js
@@ -20250,6 +20254,8 @@ $websocket,domain=5nj.com|cechi8.com
 .top/upload/ad.js
 .top/xling_*_*.js?
 .top:$third-party,domain=btmovi.kim|colamanhua.com|d53px.com|dm99.me|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
+.top:*/waga*.html$document
+.top:*/waga*.html$~third-party
 .topad.
 .tor*/js/jquery.bpopup.
 .tovarro.com^
@@ -20549,6 +20555,8 @@ $websocket,domain=5nj.com|cechi8.com
 /?affiliateId=*&realDomain=
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
+/?channelCode=ywy$document
+/?channelCode=ywy$~third-party
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
 /?placement=*&redirect$popup
 /?redirect&placement=$popup
@@ -48766,6 +48774,8 @@ zhaohuangpian.net##a[href="https://galaxymedia.xyz/app/"]
 zhaolianmeng.com###wzgg
 zhaolianmeng.com##.buttonBar
 zhaosw.com##div.recommend
+zhaotianbao1.cn/*/ywy*.apk$document
+zhaotianbao1.cn/*/ywy*.apk$~third-party
 zhaozhaoqu.com##a[href*="czvv.com"]
 zhazhijiav.com##a[class^="propa_bottom"],img[style="width:100%;height:auto;margin-bottom:2px;max-height:100px"],img[style="width:100%;height:auto;margin-bottom:2px;"]
 zhcw.com##.hzg60
@@ -63008,6 +63018,8 @@ zzzyk.com###Tinfo
 ||chachophigy.pro^
 ||chachors.net^
 ||chaco.com.se^
+||chadnli.cn^$document
+||chadnli.cn^$~third-party
 ||chadseer.xyz^
 ||chaeffulace.com^
 ||chaerel.com^
@@ -78645,6 +78657,8 @@ zzzyk.com###Tinfo
 ||ipxjps.cn^
 ||ipyud.cn^
 ||iq.sixaxisllc.com^
+||iqbecde.cn^$document
+||iqbecde.cn^$~third-party
 ||iqcontentplatform.de^
 ||iqdata.ai^
 ||iqfp1.com^
@@ -104934,6 +104948,7 @@ zzzyk.com###Tinfo
 ||uyydww.xyz^
 ||uyzdcun.cn^
 ||uz-analysis.akamaized.net^
+||uz44x.xyz^
 ||uz4cb.cn^
 ||uzelruth.com^
 ||uzerly.net^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: IiTrWULIVz+j4VpkOgS50A
+! Checksum: kOCSewFJqU2zwpYhIQ9qsg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230519204516
+! Version: 20230519210035
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-19 20:45:16
-! Total Count: 19784
+! Last modified: 2023-05-19 21:00:35
+! Total Count: 19798
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2535,6 +2535,8 @@
 .com:*/*/m.html?shareName=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/waga*.html$document
+.com:*/waga*.html$~third-party
 .com:12289/$script,third-party
 .com:2516/code/
 .com:91/Runtime/js/psCreat.js
@@ -2595,6 +2597,8 @@
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live:$third-party,domain=btmovi.kim|colamanhua.com|d53px.com|dm99.me|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
+.live:*/waga*.html$document
+.live:*/waga*.html$~third-party
 .lu/ads/
 .lu/js/wap_billing.js
 .m.boluoxs.com^
@@ -2670,6 +2674,8 @@
 .top/upload/ad.js
 .top/xling_*_*.js?
 .top:$third-party,domain=btmovi.kim|colamanhua.com|d53px.com|dm99.me|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
+.top:*/waga*.html$document
+.top:*/waga*.html$~third-party
 .tor*/js/jquery.bpopup.
 .tv/ads/
 .tv/js/ads/
@@ -2739,6 +2745,8 @@
 /300x250.$image,domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc|~mwcomic1.biz|~mwcomic2.biz|~mwcomic3.biz|~mwcomic4.biz|~mwcomic5.biz|~mwcomic6.biz|~mwcomic7.biz|~mwcomic8.biz|~mwcomic9.biz|~mwcomic10.biz|~mwcomic.biz|~mwcomic1.xyz|~mwcomic2.xyz|~mwcomic3.xyz|~mwcomic4.xyz|~mwcomic5.xyz|~mwcomic6.xyz|~mwcomic7.xyz|~mwcomic8.xyz|~mwcomic9.xyz|~mwcomic10.xyz|~mwcomic.xyz|~mwcomic1.top|~mwcomic2.top|~mwcomic3.top|~mwcomic4.top|~mwcomic5.top|~mwcomic6.top|~mwcomic7.top|~mwcomic8.top|~mwcomic9.top|~mwcomic10.top|~mwcomic.top|~manwa1.xyz|~manwa2.xyz|~manwa3.xyz|~manwa4.xyz|~manwa5.xyz|~manwa6.xyz|~manwa7.xyz|~manwa8.xyz|~manwa9.xyz|~manwa10.xyz|~manwa.xyz|~mwcomic1.co|~mwcomic2.co|~mwcomic3.co|~mwcomic4.co|~mwcomic5.co|~mwcomic6.co|~mwcomic7.co|~mwcomic8.co|~mwcomic9.co|~mwcomic10.co|~mwcomic.co
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
+/?channelCode=ywy$document
+/?channelCode=ywy$~third-party
 /AdblockMessage.
 /SvgAdblockDetected/*
 /[0-9]{7}\?zoneid=[0-9]{7}/$important,script,third-party
@@ -5432,6 +5440,8 @@ yz.m.sm.cn##div[id*="_Shopping_Etao_"]
 zakon.kz##.adblock_alert
 zgpingshu.com##a[href^="http://cy.aiboxs.cn/"][target="__blank"]
 zhaosw.com##div.recommend
+zhaotianbao1.cn/*/ywy*.apk$document
+zhaotianbao1.cn/*/ywy*.apk$~third-party
 zhazhijiav.com##a[class^="propa_bottom"],img[style="width:100%;height:auto;margin-bottom:2px;max-height:100px"],img[style="width:100%;height:auto;margin-bottom:2px;"]
 zhidao.baidu.com##.contextual-earches
 zhidao.baidu.com##.ec-ad.wgt-recommend-answer-container
@@ -9087,6 +9097,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cgskqg.com^
 ||cgvhtvj.cn^
 ||ch6g.top^
+||chadnli.cn^$document
+||chadnli.cn^$~third-party
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
 ||changchunyitian.online^
@@ -12429,6 +12441,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||iptv444.com/ad-
 ||ipxjps.cn^
 ||ipyud.cn^
+||iqbecde.cn^$document
+||iqbecde.cn^$~third-party
 ||iqilu.com/getZone.php
 ||iqilu.com/static_files/multiads/
 ||iqilu.com/static_files/richmedia/
