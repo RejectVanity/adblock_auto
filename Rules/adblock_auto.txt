@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: g5Sx0BLwo/8ozSj+60TcmQ
+! Checksum: h20qsoy/qsEUgkU2hIOFTw
 ! Title: 混合规则(自动更新)
-! Version: 20230520112614
+! Version: 20230520121136
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-20 11:26:14
-! Total Count: 110969
+! Last modified: 2023-05-20 12:11:36
+! Total Count: 110979
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19763,6 +19763,8 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/v/*.xmtl?$third-party
 .cn/vs.php?id=$script,third-party
 .cn/z.gif?
+.cn:*/?channelCode=$document
+.cn:*/?channelCode=$~third-party
 .co/ads/
 .co/ads/$popup
 .co/ads?
@@ -19950,6 +19952,8 @@ $websocket,domain=5nj.com|cechi8.com
 .com:*/*/*?*=&*=$~third-party
 .com:*/*/m.html?shareName=$document
 .com:*/*/m.html?shareName=$~third-party
+.com:*/?channelCode=$document
+.com:*/?channelCode=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/waga*.html$document
@@ -20381,6 +20385,8 @@ $websocket,domain=5nj.com|cechi8.com
 .zone/ads/
 .zw/ads/
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
+/(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
+/(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -20390,8 +20396,8 @@ $websocket,domain=5nj.com|cechi8.com
 /(https?:\/\/)216\.21\..{100,}/
 /(https?:\/\/)217\.182\.11\..{100,}/
 /(https?:\/\/)51\.195\.31\..{100,}/
-/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$document
-/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$~third-party
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html/$document
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html/$~third-party
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
 /*_*_/bigREDdog.$third-party
 /*xmtl$domain=xhxswz.com|biqubao.com
@@ -96739,6 +96745,8 @@ zzzyk.com###Tinfo
 ||sf14g.com^
 ||sf2.net/a/index.
 ||sffsdvc.com^
+||sfgprze.cn^$document
+||sfgprze.cn^$~third-party
 ||sfinwoyxjx.xyz^
 ||sfixretarum.com^
 ||sfjmj.com^
@@ -100380,6 +100388,8 @@ zzzyk.com###Tinfo
 ||szonline.net/static/js/ads.js
 ||szpgzn.com^
 ||szpl0.com^
+||szpsys.com^$document
+||szpsys.com^$~third-party
 ||szptlkj.com^$document
 ||szptlkj.com^$~third-party
 ||szqifu.com^

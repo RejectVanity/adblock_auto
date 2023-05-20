@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: bghSWY0ekpgROsQf/GEuwg
+! Checksum: NdQbWYawWz65jYc4g11xEw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230520112616
+! Version: 20230520121139
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-20 11:26:16
-! Total Count: 19828
+! Last modified: 2023-05-20 12:11:39
+! Total Count: 19838
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2418,6 +2418,8 @@
 .cn/sc/*?x=$script,third-party
 .cn/sc/*?x=$third-party
 .cn/z.gif?
+.cn:*/?channelCode=$document
+.cn:*/?channelCode=$~third-party
 .co/ads/
 .co/js/ads/
 .com*/ps/psCreat.js
@@ -2533,6 +2535,8 @@
 .com:*/*/*?*=&*=$~third-party
 .com:*/*/m.html?shareName=$document
 .com:*/*/m.html?shareName=$~third-party
+.com:*/?channelCode=$document
+.com:*/?channelCode=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/waga*.html$document
@@ -2743,8 +2747,10 @@
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
 .zone/ads/
-/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$document
-/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$~third-party
+/(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
+/(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html/$document
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html/$~third-party
 /*_*_/bigREDdog.$third-party
 /300x250.$image,domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc|~mwcomic1.biz|~mwcomic2.biz|~mwcomic3.biz|~mwcomic4.biz|~mwcomic5.biz|~mwcomic6.biz|~mwcomic7.biz|~mwcomic8.biz|~mwcomic9.biz|~mwcomic10.biz|~mwcomic.biz|~mwcomic1.xyz|~mwcomic2.xyz|~mwcomic3.xyz|~mwcomic4.xyz|~mwcomic5.xyz|~mwcomic6.xyz|~mwcomic7.xyz|~mwcomic8.xyz|~mwcomic9.xyz|~mwcomic10.xyz|~mwcomic.xyz|~mwcomic1.top|~mwcomic2.top|~mwcomic3.top|~mwcomic4.top|~mwcomic5.top|~mwcomic6.top|~mwcomic7.top|~mwcomic8.top|~mwcomic9.top|~mwcomic10.top|~mwcomic.top|~manwa1.xyz|~manwa2.xyz|~manwa3.xyz|~manwa4.xyz|~manwa5.xyz|~manwa6.xyz|~manwa7.xyz|~manwa8.xyz|~manwa9.xyz|~manwa10.xyz|~manwa.xyz|~mwcomic1.co|~mwcomic2.co|~mwcomic3.co|~mwcomic4.co|~mwcomic5.co|~mwcomic6.co|~mwcomic7.co|~mwcomic8.co|~mwcomic9.co|~mwcomic10.co|~mwcomic.co
 /?channelCode=bfy$document
@@ -16508,6 +16514,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sexyno1.com/mk-banner/
 ||sezuleg.cn^
 ||sf2.net/a/index.
+||sfgprze.cn^$document
+||sfgprze.cn^$~third-party
 ||sfjmj.com^
 ||sfnmt.com/dq/
 ||sfsft.com/ckplayer/1config.js
@@ -17143,6 +17151,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sznj91.com^
 ||szonline.net/static/js/ads.js
 ||szpgzn.com^
+||szpsys.com^$document
+||szpsys.com^$~third-party
 ||szptlkj.com^$document
 ||szptlkj.com^$~third-party
 ||szsbiw.xyz^
