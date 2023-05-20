@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jmwXpoBKGT83xRddsh6j2A
+! Checksum: fiID5CUVtBsJE/x+k4GfNg
 ! Title: 混合规则(自动更新)
-! Version: 20230520081333
+! Version: 20230520082703
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-20 08:13:33
-! Total Count: 110943
+! Last modified: 2023-05-20 08:27:03
+! Total Count: 110947
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20372,6 +20372,8 @@ $websocket,domain=5nj.com|cechi8.com
 /(https?:\/\/)216\.21\..{100,}/
 /(https?:\/\/)217\.182\.11\..{100,}/
 /(https?:\/\/)51\.195\.31\..{100,}/
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$document
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$~third-party
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
 /*_*_/bigREDdog.$third-party
 /*xmtl$domain=xhxswz.com|biqubao.com
@@ -106192,6 +106194,8 @@ zzzyk.com###Tinfo
 ||vumnxwvf.ink^
 ||vungle.com^
 ||vungqwclop.xyz^
+||vuntbnc.cnu^$document
+||vuntbnc.cnu^$~third-party
 ||vupload.duowan.com^
 ||vupulse.com^
 ||vuryua.ru^
