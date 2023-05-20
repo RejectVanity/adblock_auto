@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: NdQbWYawWz65jYc4g11xEw
+! Checksum: KH2fw7vSTbimdkfXheuMhA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230520121139
+! Version: 20230520152635
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-20 12:11:39
-! Total Count: 19838
+! Last modified: 2023-05-20 15:26:35
+! Total Count: 19843
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4737,6 +4737,8 @@ closermag.fr##div[id^="detection-block"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
 cofp.ru##.admitad-checker-popup
 colamanhua.com##[class$="i"][style*="bottom:"],[class$="h"][style*="bottom:"]
+colamanhua.com#@#.gg_950
+colamanhua.com#@#.mlad
 comptoir-info.com#@#.textad
 cowcotland.com,wamiz.com###adblocker
 cs-amba.ru##.banka
@@ -5440,7 +5442,7 @@ yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img [src^="/js/a_d"][src$=".png"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com##embed[src]
@@ -7162,6 +7164,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||acqc9.com^
 ||acs86.com^$third-party
 ||acsc10.com^
+||acsydez.cn^
 ||act.chinatimes.com/aimg/
 ||act.cmcmcdn.com/*/liondance/dist/js/bundle.js$domain=duba.com
 ||activity.browser.intl.miui.com^
@@ -17942,6 +17945,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||uxxux.com/js/zd.js
 ||uygckiy.cn^
 ||uyjhbawd.xyz^
+||uysdxmo.com^
 ||uyueread.com^
 ||uyydww.xyz^
 ||uz44x.xyz^
@@ -19542,6 +19546,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zdy1.xyz^
 ||zdyuoae.xyz^
 ||ze5.com^$third-party
+||zeatse.buzz^
 ||zeatse.buzz^$third-party
 ||zebjlt.buzz^
 ||zedo.com^
