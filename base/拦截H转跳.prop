@@ -1,11 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: R7bv8sqWHgkctgeD7PPBVA
+! Checksum: F2crEjsig8n5Sa45/clTyg
 ! Title: 拦截黄色网站转跳
-! Version: 20230520112411
-! Last modified: 2023-05-20 11:24:11
-! Total Count: 74
+! Version: 20230520120904
+! Last modified: 2023-05-20 12:09:04
+! Total Count: 84
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
+.cn:*/?channelCode=$document
+.cn:*/?channelCode=$~third-party
 .com/new/5*.html$document
 .com/new/5*.html$~third-party
 .com/new/8*.html$document
@@ -14,6 +16,8 @@
 .com:*/*/*?*=&*=$~third-party
 .com:*/*/m.html?shareName=$document
 .com:*/*/m.html?shareName=$~third-party
+.com:*/?channelCode=$document
+.com:*/?channelCode=$~third-party
 .com:*/waga*.html$document
 .com:*/waga*.html$~third-party
 .html?channelCode=$document
@@ -34,8 +38,10 @@
 .xyz:*/*.html?uid=$~third-party
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
-/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$document
-/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html$~third-party
+/(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
+/(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html/$document
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html/$~third-party
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
 /?channelCode=ywy$document
@@ -70,8 +76,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ofgsqic.cn^$~third-party
 ||sd.s*dad.com^$document
 ||sd.s*dad.com^$~third-party
+||sfgprze.cn^$document
+||sfgprze.cn^$~third-party
 ||smgzyi.com^$document
 ||smgzyi.com^$~third-party
+||szpsys.com^$document
+||szpsys.com^$~third-party
 ||szptlkj.com^$document
 ||szptlkj.com^$~third-party
 ||vuntbnc.cn^$document
