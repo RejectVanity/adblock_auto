@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jPFzmwfr2A4Gx+Sgkz2Ibg
+! Checksum: szWuZStlsa8fq5eoRZB4fA
 ! Title: 混合规则(自动更新)
-! Version: 20230521204159
+! Version: 20230521205705
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-21 20:41:59
-! Total Count: 111005
+! Last modified: 2023-05-21 20:57:05
+! Total Count: 111012
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -16113,6 +16113,7 @@
 ##.sl-header-ad
 ##.slate-ad
 ##.slide-ad
+##.slide-hd > ul > li > a
 ##.slideAd
 ##.slide_ad
 ##.slidead
@@ -17431,6 +17432,8 @@
 ##.yayoi_ad_box2
 ##.yb-floorad
 ##.yobee-adv
+##.yuepa-list
+##.yuepa-warp
 ##.z-ad-mypillow-inline
 ##.zc-grid-ad
 ##.zc-grid-position-ad
@@ -18504,7 +18507,7 @@
 ##div#slide_ad
 ##div#xinxi
 ##div.ad-nav-box
-##div.down-list > ul > li
+##div.down-list > ul > [href]
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div.h5-ext-layer
@@ -20384,6 +20387,8 @@ $websocket,domain=5nj.com|cechi8.com
 /(https?:\/\/)216\.21\..{100,}/
 /(https?:\/\/)217\.182\.11\..{100,}/
 /(https?:\/\/)51\.195\.31\..{100,}/
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$document
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/[0-9]{2}.html/$~third-party
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
@@ -92732,6 +92737,8 @@ zzzyk.com###Tinfo
 ||qaops.jgwsmqx.com^$third-party
 ||qaou.top^
 ||qapsmny.cyou^
+||qapuote.cn^$document
+||qapuote.cn^$~third-party
 ||qarewien.com^
 ||qarsza.cn^
 ||qarsza.cn^$third-party
