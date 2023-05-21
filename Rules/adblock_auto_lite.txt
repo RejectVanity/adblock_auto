@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6Y/Da+xZWucwisYiULOeuQ
+! Checksum: bcAmmiFYhXFUaZrCXjCxRw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230521171700
+! Version: 20230521204202
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-21 17:17:00
-! Total Count: 19865
+! Last modified: 2023-05-21 20:42:02
+! Total Count: 19878
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1262,6 +1262,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="bottommob"][id="bottommob"]
 ##[class="phone-ads ads-bg"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
@@ -1292,6 +1293,7 @@
 ##[class^="xqad"]
 ##[data-group^="ad_chapter_top"]
 ##[data-revive-zoneid]
+##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
 ##[href*="https://go.xlviiirdr.com"]
@@ -1317,6 +1319,7 @@
 ##[onclick^="playAd"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[src*="//ad.a-ads.com/"]
+##[src*="://sejieboxapi.yingyangdj.com"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
@@ -1831,6 +1834,9 @@
 ##div#ad_id
 ##div#xinxi
 ##div.ad-nav-box
+##div.down-list > ul > li
+##div.g-list > ul > li
+##div.g-slide > div[class^="swiper-"]
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
@@ -12851,6 +12857,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jiutou20230210.live^
 ||jiuyuntian3.cn/vs.php?id=
 ||jiwekawe.top^
+||jixiangxianbao.cn^$document
+||jixiangxianbao.cn^$~third-party
 ||jixing8.com^$third-party
 ||jiyan.net^
 ||jiyingdm.com/js/loadingshow.html
@@ -16502,6 +16510,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||seesaa.net/common/under.html$domain=news4wide.net
 ||sefu8j.com/index.php?m=poster&
 ||segmentfault.com/sponsor/
+||sejieboxapi.yingyangdj.com^
 ||sejlfe.cn^
 ||selenaroberta.com^
 ||selfishsnake.com^$third-party
@@ -19058,6 +19067,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||y2ax5.y0tf2wp.online^$third-party
 ||y3600.cz/2
 ||y66xvgo5i.chuimg.com^
+||y6lkc.vip^$document
+||y6lkc.vip^$~third-party
 ||y88m2.top^
 ||y8ht.xyz^
 ||ya*.dwstatic.com^
@@ -19218,6 +19229,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yingnanyyds.com^
 ||yingshidaquan.cc^$third-party
 ||yingshizxw.com/js/tc/
+||yingyangdj.com^$document
+||yingyangdj.com^$~third-party
 ||yingyeping.com^
 ||yinming.online^
 ||yinmofun.com^

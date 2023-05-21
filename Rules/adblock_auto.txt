@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: VILtHbQzHNZq6bEmaPGdrg
+! Checksum: jPFzmwfr2A4Gx+Sgkz2Ibg
 ! Title: 混合规则(自动更新)
-! Version: 20230521171656
+! Version: 20230521204159
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-21 17:16:56
-! Total Count: 110972
+! Last modified: 2023-05-21 20:41:59
+! Total Count: 111005
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17489,6 +17489,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="bottommob"][id="bottommob"]
 ##[class="phone-ads ads-bg"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
@@ -17544,6 +17545,7 @@
 ##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
+##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
 ##[href*="https://go.xlviiirdr.com"]
@@ -17659,6 +17661,7 @@
 ##[onclick^="playAd"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[src*="//ad.a-ads.com/"]
+##[src*="://sejieboxapi.yingyangdj.com"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
@@ -18501,6 +18504,9 @@
 ##div#slide_ad
 ##div#xinxi
 ##div.ad-nav-box
+##div.down-list > ul > li
+##div.g-list > ul > li
+##div.g-slide > div[class^="swiper-"]
 ##div.h5-ext-layer
 ##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -42107,6 +42113,7 @@ miloserdov.org###custom_html-11
 miloserdov.org###custom_html-16
 miloserdov.org,reneweconomy.com.au,wpneon.com###custom_html-10
 miloserdov.org,wpneon.com###custom_html-10
+mindbodygreen.com##.sc-10p0iao-0
 minecraft-schematics.com##a[href^="https://www.pingperfect.com/aff.php?"]
 minecraftlist.org##.stickywrapper
 minecraftservers.org##.second-banner
@@ -50322,6 +50329,7 @@ zzzyk.com###Tinfo
 ||2rr7y7gd2qrm.com^
 ||2sfygwfxvsxv.info^
 ||2smt6mfgo.de^
+||2spdo6g9h.de^
 ||2track.info^
 ||2trafficcmpny.com^
 ||2ujj.com/js/bo.js
@@ -57629,6 +57637,7 @@ zzzyk.com###Tinfo
 ||aqdy.net/js/banner.js
 ||aqdy.net/js/tj.js
 ||aqfwigotem.xyz^
+||aqgrcyacgan.com^
 ||aqhfqaaq.xyz^
 ||aqhnmof.cn^
 ||aqi.wd.amberweather.com^
@@ -70176,6 +70185,7 @@ zzzyk.com###Tinfo
 ||ejmovec.ru^
 ||ejnjapw.cn^
 ||ejotdqfjazg.com^
+||ejpzqnqwcszfsz.com^
 ||ejunshi.com^
 ||ejvxpadplvdci.com^
 ||ejxvdjnd.xyz^
@@ -70736,6 +70746,7 @@ zzzyk.com###Tinfo
 ||esa-reg-eup.myoppo.com^
 ||esajfsd.cn^
 ||esandalargere.com^
+||esathyasesume.info^
 ||esathyaspsu.xyz^
 ||esc-team.com^
 ||escaatwite.com^
@@ -77947,6 +77958,7 @@ zzzyk.com###Tinfo
 ||imiqhrv.cn^
 ||imitrk.com^
 ||imks.cn^
+||immaculaterepair.pro^
 ||immaculatewars.com^
 ||immanalytics.com^
 ||immediatesignal.pro^
@@ -77955,6 +77967,7 @@ zzzyk.com###Tinfo
 ||immenseflakespyramid.com^
 ||immensehoney.com^
 ||immenselyloot.com^
+||immenseprivilegelibel.com^
 ||immersepingcompromise.com^
 ||immigrantpavement.com^
 ||immisurns.com^
@@ -79660,6 +79673,8 @@ zzzyk.com###Tinfo
 ||jiwekawe.top^
 ||jiwire.com^
 ||jixbzapmuli.com^
+||jixiangxianbao.cn^$document
+||jixiangxianbao.cn^$~third-party
 ||jixie.io^
 ||jixing8.com^$third-party
 ||jiyan.net^
@@ -81353,6 +81368,7 @@ zzzyk.com###Tinfo
 ||kwivb.cn^
 ||kwjfoeq.cn^
 ||kwmwva.com^
+||kwnmhplnqnfxh.xyz^
 ||kwogldd.top^
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
 ||kwtnhdrmbx.com^
@@ -87144,6 +87160,7 @@ zzzyk.com###Tinfo
 ||nglmedia.com^
 ||ngmco.net^
 ||ngmnhc.xyz^
+||ngnhdkjnspb.com^
 ||ngnlaigc.fun^
 ||ngolstonora.xyz^
 ||nguad.com^
@@ -87173,6 +87190,7 @@ zzzyk.com###Tinfo
 ||nibvtxyofd.com^
 ||nibzitgas.com^
 ||nice-mw.com^
+||nicebigheartedgargle.com^
 ||niceelitdating.top^
 ||nicelinks.site/ad-block-
 ||nicelocaldates.com^
@@ -89242,6 +89260,7 @@ zzzyk.com###Tinfo
 ||owadakesk.cyou^
 ||owap.su^
 ||owap.su^$third-party
+||owascryingforthem.info^
 ||owbroinothiermol.xyz^
 ||owbroinothiermon.com.ua^
 ||owdfxgc.cn^
@@ -89569,6 +89588,7 @@ zzzyk.com###Tinfo
 ||palama2.com^
 ||palandan.com^
 ||palasidesdoor.com^
+||palatesovarium.digital^
 ||palaverpageboy.com^
 ||paleleaf.com^
 ||palemanpathlet.com^
@@ -93008,6 +93028,7 @@ zzzyk.com###Tinfo
 ||qizhihaotian.com^*.js
 ||qizjkwx9klim.com^
 ||qj86.cn^
+||qjidxgzfrpehem.com^
 ||qjing39.top^
 ||qjkfqcmxzxhg.ink^
 ||qjoqos.xyz^
@@ -94431,6 +94452,7 @@ zzzyk.com###Tinfo
 ||residenceseeingstanding.com^
 ||residentshove.com^
 ||resigndictationhorns.com^
+||resignedsauna.com^
 ||resistcorrectly.com^
 ||resistsarcasm.com^
 ||resnaulum.com^
@@ -95345,6 +95367,7 @@ zzzyk.com###Tinfo
 ||rubird.ru^
 ||rubstove.com^
 ||rubyblu.com^
+||rubyforcedprovidence.com^
 ||rubylife.go2cloud.org^
 ||rubymillsnpro.com^
 ||ruckletawpy.com^
@@ -95446,6 +95469,7 @@ zzzyk.com###Tinfo
 ||ruperparverew.xyz^
 ||ruralrobin.com^
 ||rurate.com^
+||rurbie.com^
 ||ruscams.com
 ||ruschopi.ru^
 ||ruscontext.com^
@@ -96338,6 +96362,7 @@ zzzyk.com###Tinfo
 ||secondboy.pro^
 ||secondcommander.com^
 ||secondhandfall.com^
+||secondlytorch.com^
 ||secondstreetmedia.com^
 ||secondunderminecalm.com^
 ||secrecysatisfy.com^
@@ -96449,6 +96474,7 @@ zzzyk.com###Tinfo
 ||seizecrashsophia.com^
 ||seizedorientationenrich.com^
 ||seizedpenholdercranny.com^
+||sejieboxapi.yingyangdj.com^
 ||sejlfe.cn^
 ||sekaneemits.com^
 ||sekindo.com^
@@ -104418,6 +104444,7 @@ zzzyk.com###Tinfo
 ||uncrownarmenic.com^
 ||unctic.com^
 ||uncuredbotts.guru^
+||undams.com^
 ||undedfracted.club^
 ||undeenardoo.com^
 ||undefined^$important,script,redirect=noopjs
@@ -107137,6 +107164,7 @@ zzzyk.com###Tinfo
 ||whertinu.com^
 ||whethermondos.digital^
 ||whfpbc.99.com.cn^
+||whfqxcbdidb.com^
 ||whfyhouse.com^
 ||whhrux.com^
 ||whhxnz.com^
@@ -107235,6 +107263,7 @@ zzzyk.com###Tinfo
 ||whrgsmi.cn^
 ||whs82908.com^
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
+||whuckaip.xyz^
 ||whudursus.com^
 ||whugesto.net^
 ||whukroal.net^
@@ -109035,6 +109064,8 @@ zzzyk.com###Tinfo
 ||y41my.com^
 ||y653.theridgefieldpress.com^
 ||y66xvgo5i.chuimg.com^
+||y6lkc.vip^$document
+||y6lkc.vip^$~third-party
 ||y738.nhregister.com^
 ||y752.milfordmirror.com^
 ||y820.darientimes.com^
@@ -109417,6 +109448,8 @@ zzzyk.com###Tinfo
 ||yingnanyyds.com^
 ||yingshidaquan.cc^$third-party
 ||yingshizxw.com/js/tc/
+||yingyangdj.com^$document
+||yingyangdj.com^$~third-party
 ||yingyeping.com^
 ||yinhana.com^
 ||yiniyiwo.org^
