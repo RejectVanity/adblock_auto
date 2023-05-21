@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AAR+qBeVeHo/11twi3gqqA
+! Checksum: XRAtzoDSlcfysDx/+E77BQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230521122940
-! Last modified: 2023-05-21 12:29:40
-! Total Count: 1344
+! Version: 20230521203727
+! Last modified: 2023-05-21 20:37:27
+! Total Count: 1351
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -75,6 +75,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="bottommob"][id="bottommob"]
 ##[class="phone-ads ads-bg"]
 ##[class="rmadb-info"]
 ##[class][onclick="goAppHtml();"]
@@ -96,6 +97,7 @@
 ##[class^="xqad"]
 ##[data-group^="ad_chapter_top"]
 ##[data-revive-zoneid]
+##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
 ##[href*="https://go.xlviiirdr.com"]
@@ -121,6 +123,7 @@
 ##[onclick^="playAd"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[src*="//ad.a-ads.com/"]
+##[src*="://sejieboxapi.yingyangdj.com"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
 ##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
@@ -185,6 +188,9 @@
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div.ad-nav-box
+##div.down-list > ul > li
+##div.g-list > ul > li
+##div.g-slide > div[class^="swiper-"]
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
@@ -1251,6 +1257,7 @@ zle.com$script
 ||sc-gov-cn.website^
 ||scjpqut.cn^
 ||sdk.51.la^
+||sejieboxapi.yingyangdj.com^
 ||siduohua.top^
 ||sjdfuvz.cn^
 ||skluff.com^$third-party
