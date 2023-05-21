@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XRAtzoDSlcfysDx/+E77BQ
+! Checksum: wO/qqTmi+RZGUoqAxGsEMA
 ! Title: 自用去广告Adblock规则
-! Version: 20230521203727
-! Last modified: 2023-05-21 20:37:27
-! Total Count: 1351
+! Version: 20230521205454
+! Last modified: 2023-05-21 20:54:54
+! Total Count: 1354
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -57,10 +57,13 @@
 ##.nonepc.mad
 ##.play_list_adbox
 ##.player-rm > a[target="_blank"]
+##.slide-hd > ul > li > a
 ##.synopsisAd
 ##.tads
 ##.textadv
 ##.topads
+##.yuepa-list
+##.yuepa-warp
 ##[class$="ad-box"]
 ##[class$="video-ads"]
 ##[class*="ads-block"]
@@ -188,7 +191,7 @@
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div.ad-nav-box
-##div.down-list > ul > li
+##div.down-list > ul > [href]
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
