@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: B5SMF5AtG6lnEAe9OCaKCg
+! Checksum: Ll6ThBc5DKdEIhpA8XUILg
 ! Title: 混合规则(精简版)
-! Version: 20230521123041
+! Version: 20230521171223
 ! Expires: 1145141919810
-! Last modified: 2023-05-21 12:30:45
-! Total Count: 19503
+! Last modified: 2023-05-21 17:12:27
+! Total Count: 19506
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -4564,6 +4564,9 @@ anime-bit.ru##.layer_box > #header
 animedub.ru##.poverh
 animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jeanzzz.ru##.no-adb
 anticollector.biz.ua,cnc3018.ru,factorio.su##body > div[class][style*="background"][style*="display: block"]
+apkpure.com#@#.ad-box
+apkpure.com#@#.ad-box-auto
+apkpure.com#@#[class$="ad-box"]
 aratta-ukraine.com,drawnstories.ru,gisclub.tv,kinda.media,teremok.org.ua,webos-forums.ru###mdl_adb
 artfile.me###jadb
 asn.in.ua,beadeath.dclans.ru###mdl_ctnr
