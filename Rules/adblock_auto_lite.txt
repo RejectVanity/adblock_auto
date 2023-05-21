@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6eEgkZDCb6N/uQp2ApiCCA
+! Checksum: zvmcpam0HEKzBKyCXBEtEA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230521083439
+! Version: 20230521123258
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-21 08:34:39
-! Total Count: 19855
+! Last modified: 2023-05-21 12:32:58
+! Total Count: 19857
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2809,6 +2809,7 @@
 /_xa/ads_
 /abb-msg.js
 /ad-blocking-advisor/*
+/ad-tetris-site/file
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
 /adManager.js$script,third-party
 /adb-watch.
@@ -2865,6 +2866,7 @@
 /inc/antiblock.
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/GDHF.js
+/js/ad_jyshe.js$third-party,script
 /js/advertiser.js
 /js/dj1ll*.js
 /js/dj2ll*.js
@@ -4889,7 +4891,6 @@ hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hearthhead.com,thottbot.com,wowhead.com##.sidebar-bg
 hearthhead.com,wowhead.com##.block-bg
 helpsetup.ru##.veramoy
-hitline.org.ua##.bantop
 homerun.re,strikeout.co,vipbox.sx,vipleague.ch,vipleague.co,vipleague.is,vipleague.me##span[id][style] > div[id]:first-child:last-child
 hypebeast.com,hypebeast.kr#@#.ad-blocked
 i.factor.ua###adb-info
@@ -8521,6 +8522,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||beifz.com^
 ||beijing-air.com/images/a/j
 ||beijing.buzhi5.com^
+||beijing163.aliyunapi.org^$third-party,script
 ||beijingbang.top/scholar/xljsci
 ||beiod.xyz^
 ||beisb.com^
@@ -10220,7 +10222,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dytt8.net/js3/
 ||dytt8.net/jsd
 ||dyuadask.com^
-||dyxs11.com/statics/recommend/$image
 ||dyxsmj.net^
 ||dyxymat.cn^
 ||dyzyhj.com/Jk/
@@ -17509,6 +17510,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||touimg.com^$domain=dyzd1.com
 ||toutao.pro^
 ||toutiaoimg.com^$domain=1024pz.com
+||toutiaoimg.com^$image,domain=350xs.com
 ||toutiaoyule.com/n/dspshow.
 ||touwengyyds.com^
 ||tp.sgcn.com^
