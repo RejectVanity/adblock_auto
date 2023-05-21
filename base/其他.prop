@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uQHSBTegtYhia/Mz1TzxCA
+! Checksum: AAR+qBeVeHo/11twi3gqqA
 ! Title: 自用去广告Adblock规则
-! Version: 20230520152514
-! Last modified: 2023-05-20 15:25:14
-! Total Count: 1340
+! Version: 20230521122940
+! Last modified: 2023-05-21 12:29:40
+! Total Count: 1344
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -340,6 +340,7 @@
 /\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$important,script,~third-party,domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|upornia.*|voyeurhit.com|vxxx.com|txxxporn.tube|vjav.com|vjav.tube
 /^https?:\/\/.*\.(club|news|live|online|store|tech|guru|cloud|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|photos|re|casa|top|today|space|network|live|work|systems|ml|world|life)\/.*/$domain=1vag.com|4tube.com|asianpornmovies.com|getsex.xxx|glam0ur.com|hclips.com|hdzog.com|homemadevids.org|hotmovs.com|milfzr.com|porn555.com|pornforrelax.com|pornj.com|pornl.com|puporn.com|see.xxx|shemalez.com|sss.xxx|streanplay.cc|thegay.com|thegay.porn|tits-guru.com|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|upornia.com|vjav.com|voyeurhit.com|xozilla.com
 /_xa/ads_
+/ad-tetris-site/file
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
 /adManager.js$script,third-party
 /ads.dp.js?
@@ -353,6 +354,7 @@
 /blsx_*_*js?
 /blxn_*.js?
 /js/GDHF.js
+/js/ad_jyshe.js$third-party,script
 /js/advertiser.js
 /js/dj1ll*.js
 /js/dj2ll*.js
@@ -1079,6 +1081,7 @@ zle.com$script
 ||asa.com^
 ||baby.thinkmore.top^
 ||bbangads.*.net^$third-party
+||beijing163.aliyunapi.org^$third-party,script
 ||bisonads.com^
 ||bj-gov-cn.website^
 ||bnsdk.top^
@@ -1270,6 +1273,7 @@ zle.com$script
 ||tgcfmh.com^
 ||thisav.com/pop?url=
 ||tongji.click^
+||toutiaoimg.com^$image,domain=350xs.com
 ||tpic.mhslbqk.cn^
 ||trafficjunky.com^
 ||trafficjunky.net^
