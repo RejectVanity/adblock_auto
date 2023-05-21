@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: VOgwz5kLuS4DQ21oqeVBUw
+! Checksum: VILtHbQzHNZq6bEmaPGdrg
 ! Title: 混合规则(自动更新)
-! Version: 20230521160712
+! Version: 20230521171656
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-21 16:07:12
-! Total Count: 110967
+! Last modified: 2023-05-21 17:16:56
+! Total Count: 110972
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20078,6 +20078,7 @@ $websocket,domain=5nj.com|cechi8.com
 .live/k/*/*?$third-party
 .live/kallss?$third-party
 .live/o.js
+.live/o.js$script,third-party
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
@@ -33594,6 +33595,9 @@ apkonline.net###adzz
 apkonline.net##div[id^="adxx"]
 apkonline.net##div[id^="adzz"]
 apkonline.net,kisshentai.net,onworks.net##div[id^="ad"]
+apkpure.com#@#.ad-box
+apkpure.com#@#.ad-box-auto
+apkpure.com#@#[class$="ad-box"]
 apkwhale.com###download > div
 apnaohio.com,miradiorumba.com#@##ad-header
 apnews.com##.Leaderboard
@@ -50598,6 +50602,7 @@ zzzyk.com###Tinfo
 ||3ek9.cn^
 ||3enm.com^
 ||3ez1ja1uq3.ru^
+||3fa20230512.live^
 ||3fab5e7874.com^
 ||3fdcd25c24.com^
 ||3fddkj.com^

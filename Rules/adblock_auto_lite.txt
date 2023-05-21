@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: hX3aQ68S3So6XsJp43oW2g
+! Checksum: 6Y/Da+xZWucwisYiULOeuQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230521160714
+! Version: 20230521171700
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-21 16:07:14
-! Total Count: 19861
+! Last modified: 2023-05-21 17:17:00
+! Total Count: 19865
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4608,6 +4608,9 @@ anime-bit.ru##.layer_box > #header
 animedub.ru##.poverh
 animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jeanzzz.ru##.no-adb
 anticollector.biz.ua,cnc3018.ru,factorio.su##body > div[class][style*="background"][style*="display: block"]
+apkpure.com#@#.ad-box
+apkpure.com#@#.ad-box-auto
+apkpure.com#@#[class$="ad-box"]
 aratta-ukraine.com,drawnstories.ru,gisclub.tv,kinda.media,teremok.org.ua,webos-forums.ru###mdl_adb
 artfile.me###jadb
 asn.in.ua,beadeath.dclans.ru###mdl_ctnr
@@ -6208,6 +6211,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||3dmgame.com/tools/gamead?
 ||3dwwwgame.com^$third-party
 ||3ek9.cn^
+||3fa20230512.live^
 ||3fddkj.com^
 ||3g.cn/baidualading/
 ||3g.cn/index.php?s=Index/adv&
