@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 80Bi9Ucnq/3PyrpgFBDINA
+! Checksum: kJ6w0hQP2ynEV5cGGX5WJg
 ! Title: 混合规则(自动更新)
-! Version: 20230522160830
+! Version: 20230523000709
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-22 16:08:30
-! Total Count: 111117
+! Last modified: 2023-05-23 00:07:09
+! Total Count: 111127
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20582,6 +20582,7 @@ $websocket,domain=5nj.com|cechi8.com
 /?channelCode=ywy$~third-party
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
 /?placement=*&redirect$popup
+/?placementName=$script,redirect=noop.js,domain=vpslog.net
 /?redirect&placement=$popup
 /?ref=$popup,domain=hltv.org
 /?view=ad
@@ -40339,6 +40340,7 @@ itavcn.com##.hot_dealerxin
 itavcn.com##.mb_right > .mt8:nth-child(3)
 itavcn.com##.topadvzone
 itavcn.com##img[width="722"]
+itbaoku.cn##+js(set-constant, killads, true)
 itboth.com,itkeyword.com##.ad_pop_left
 itboth.com,itkeyword.com##.ad_pop_left_txy
 itboth.com,itkeyword.com##a[href*=".aliyun."]
@@ -41936,6 +41938,7 @@ maxthon.cn##.feast-gift-search
 maxthon.cn##.tmall-nav-v2
 maxthon.cn##.top-right-pop-wrapper
 mayi.com###floatingLayer
+mayoclinic.org##.mayoad
 mazterize.com##.dl-g
 mb.com.ph##.code-block
 mbauniverse.com###block-views-home-page-banner-block
@@ -45876,6 +45879,7 @@ t.qq.com###talkList > li[ispopula="1"][tv="2"]
 t3.com##.leaderboard__container
 t3.com#@#.ads-inline
 t66y.com##+js(abort-current-script, $, adhtml)
+t66y.com##+js(no-setTimeout-if, tpcHtml)
 t66y.com##.sptable_do_not_remove
 t66y.com##.tips
 t66y.com##.tpc_content.do_not_catch > a[target="_blank"]
@@ -87444,6 +87448,7 @@ zzzyk.com###Tinfo
 ||nnnfqegwes.xyz^
 ||nnocsin.cn^
 ||nnoxzo.rfskbylbsf.xyz^
+||nntsdp.xyz^
 ||nnvkh.com^
 ||no1.168abc.net/upload/
 ||no2veeamggaseber.com^
@@ -93337,6 +93342,7 @@ zzzyk.com###Tinfo
 ||qualitydestructionhouse.com^
 ||quallyrimers.com^
 ||quanbailing.com^$third-party
+||quancuncq.xyz^
 ||quangcao-thanhnien.epicdn.me^
 ||quangcao.24h.com.vn^
 ||quangcao.baovannghe.com.vn^
@@ -98085,6 +98091,7 @@ zzzyk.com###Tinfo
 ||snobdomobeyeo.com^
 ||snodlycaccias.com^
 ||snoobi.com^
+||snoop.minecraft.net^
 ||snoopundesirable.com^
 ||snoreempire.com^
 ||snorefamiliarsiege.com^
@@ -98920,6 +98927,7 @@ zzzyk.com###Tinfo
 ||srkhbdjgxyys.xyz^
 ||srkl.pw^
 ||srmdata-eur.com^
+||srmdata-us.com^
 ||srmdata.com^
 ||srnov.top^
 ||srodicham.com^
@@ -109138,6 +109146,7 @@ zzzyk.com###Tinfo
 ||xymhdmqrjxwl.com^
 ||xyonbib.cn^
 ||xypksuk.cn^
+||xyqmy.xyz^
 ||xytom.com^
 ||xywy.com/gk?a=
 ||xywy.com/zhixing/
@@ -109173,6 +109182,7 @@ zzzyk.com###Tinfo
 ||y2ax5.y0tf2wp.online^$third-party
 ||y3600.cc/20
 ||y3600.cz/2
+||y3cdp.top^
 ||y41my.com^
 ||y653.theridgefieldpress.com^
 ||y66xvgo5i.chuimg.com^
