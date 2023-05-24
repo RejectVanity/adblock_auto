@@ -1,8 +1,8 @@
 # 混合规则
-### 自动更新(2023-05-24 08:32:08)
+### 自动更新(2023-05-24 15:29:24)
 
 ## 统计
-### 访问量 : ![visitors](https://visitor-badge.glitch.me/badge?page_id=lingeringsound.adblock_auto&left_color=green&right_color=red)
+### 访问量 : ![visitors](http://006.freecounters.co.uk/count-133.pl?count=qe1milbo7p68gg219fmj&type=links&prog=unique)
 
 
 | 名称 | GIthub订阅链接 | Github加速订阅链接 | GitCode订阅链接 | 
