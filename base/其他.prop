@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wO/qqTmi+RZGUoqAxGsEMA
+! Checksum: xZgQa8whVY1Ck4LAfGwHFg
 ! Title: 自用去广告Adblock规则
-! Version: 20230521205454
-! Last modified: 2023-05-21 20:54:54
-! Total Count: 1354
+! Version: 20230526203637
+! Last modified: 2023-05-26 20:36:37
+! Total Count: 1364
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -411,9 +411,14 @@
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
 ://*.27txt.La/xi.js$~third-party
+://*.zd*.buzz/*x*x*x*x*=$third-party
 ://*.zd*.fyi/*x*x*x*x*=$third-party
 ://*.zd*.live/*x*x*x*x*=$third-party
 ://*.zd*.xyz/*x*x*x*x*=$third-party
+://*.ze*.buzz/*x*x*x*x*=$third-party
+://*.ze*.fyi/*x*x*x*x*=$third-party
+://*.ze*.live/*x*x*x*x*=$third-party
+://*.ze*.xyz/*x*x*x*x*=$third-party
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/chunyu.html?k=$document
 ://*:*/dayu*.html?channelCode=$csp=script-src
@@ -764,9 +769,13 @@ mydrivers.com#@#a[href*="/bp.ashx"]
 nxnba.com##.bootom-fixed
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
 pan.baidu.com##.share-error-ad
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##.container-fluid > .links
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##.no-gutters
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##[id^="bottom-ads"]
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.links.row
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div.row.links
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##div[class^="col-"][style] > a[target="_blank"] > img[alt]
+pornfind.org,pornbest.org,ptt.sex,pornlulu.com##img[src*="/images/friend"]
 pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,youporn.com###pb_template
 pornhub.com###singleFeedSection > .emptyBlockSpace
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
@@ -1356,5 +1365,6 @@ zle.com$script
 ||zdmbl.*$third-party
 ||zdwbkt.live^$third-party
 ||zeatse.buzz^$third-party
+||zewfbw.buzz^$third-party
 ||zz.bdstatic.com^
 ~manwa1.vip,~manwa2.vip,~manwa3.vip,~manwa4.vip,~manwa5.vip,~manwa6.vip,~manwa7.vip,~manwa8.vip,~manwa9.vip,~manwa10.vip,~manwa.vip,~manwa1.site,~manwa2.site,~manwa3.site,~manwa4.site,~manwa5.site,~manwa6.site,~manwa7.site,~manwa8.site,~manwa9.site,~manwa10.site,~manwa.site,~manwa1.me,~manwa2.me,~manwa3.me,~manwa4.me,~manwa5.me,~manwa6.me,~manwa7.me,~manwa8.me,~manwa9.me,~manwa10.me,~manwa.me,~mwcomic1.cc,~mwcomic2.cc,~mwcomic3.cc,~mwcomic4.cc,~mwcomic5.cc,~mwcomic6.cc,~mwcomic7.cc,~mwcomic8.cc,~mwcomic9.cc,~mwcomic10.cc,~mwcomic.cc,~mwcomic1.biz,~mwcomic2.biz,~mwcomic3.biz,~mwcomic4.biz,~mwcomic5.biz,~mwcomic6.biz,~mwcomic7.biz,~mwcomic8.biz,~mwcomic9.biz,~mwcomic10.biz,~mwcomic.biz,~mwcomic1.xyz,~mwcomic2.xyz,~mwcomic3.xyz,~mwcomic4.xyz,~mwcomic5.xyz,~mwcomic6.xyz,~mwcomic7.xyz,~mwcomic8.xyz,~mwcomic9.xyz,~mwcomic10.xyz,~mwcomic.xyz,~mwcomic1.top,~mwcomic2.top,~mwcomic3.top,~mwcomic4.top,~mwcomic5.top,~mwcomic6.top,~mwcomic7.top,~mwcomic8.top,~mwcomic9.top,~mwcomic10.top,~mwcomic.top,~manwa1.xyz,~manwa2.xyz,~manwa3.xyz,~manwa4.xyz,~manwa5.xyz,~manwa6.xyz,~manwa7.xyz,~manwa8.xyz,~manwa9.xyz,~manwa10.xyz,~manwa.xyz,~mwcomic1.co,~mwcomic2.co,~mwcomic3.co,~mwcomic4.co,~mwcomic5.co,~mwcomic6.co,~mwcomic7.co,~mwcomic8.co,~mwcomic9.co,~mwcomic10.co,~mwcomic.co##.ad-area
