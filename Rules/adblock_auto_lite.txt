@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9aMWsyhCKb71FEf0W8TDDA
+! Checksum: Ujll1qXtXA4jxzo8fqgBtQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230528000641
+! Version: 20230528070444
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-28 00:06:41
-! Total Count: 20003
+! Last modified: 2023-05-28 07:04:44
+! Total Count: 20010
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5075,6 +5075,13 @@ mobile.baidu.com##div[class^="detail-banner-"]
 monacomatin.mc,nicematin.com,varmatin.com##.RhooBg
 monacomatin.mc,nicematin.com,varmatin.com##.modalRhoo
 mover.uz###oframeplayer > [class][style^="display: block"]
+mparticle.uc.cn##[class^="index__block"]
+mparticle.uc.cn##[class^="index__card"]
+mparticle.uc.cn##[class^="index__loading"]
+mparticle.uc.cn##[class^="index__news"]
+mparticle.uc.cn##[class^="index__push"]
+mparticle.uc.cn##[class^="index__shortCard"]
+mparticle.uc.cn##[id*="_open_uc_id"]
 msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify
