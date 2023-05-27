@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MatzPsl0dj2kbbQ0+McODw
+! Checksum: N5ooshj+e1zpc0cVmdqbtA
 ! Title: 自用去广告Adblock规则
-! Version: 20230528070133
-! Last modified: 2023-05-28 07:01:33
-! Total Count: 1389
+! Version: 20230528073622
+! Last modified: 2023-05-28 07:36:22
+! Total Count: 1397
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -361,7 +361,13 @@
 /_xa/ads_
 /ad-tetris-site/file
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
+/adBanner?
+/adBlockDetector/*
+/adBlockerTrack_
+/adClick/*$popup
+/adClick?$popup
 /adManager.js$script,third-party
+/adclick?
 /ads.dp.js?
 /ads/ads.js$script
 /ads?zone_id=
@@ -851,7 +857,7 @@ sm.cn##.wl-dot-container
 sm.cn##.wolong-container
 sm.cn##a[href*="sm.cn/adclick?"]
 sm.cn##div[id*="_Shopping_Etao_"]
-sm.cn##div[id^="ad_"]
+sm.cn##div[id^="ad_ele_"]
 sm.cn##div[id^="dl-banner-"]
 so.com###bnbtm-banner
 so.com###bqPromote
@@ -1021,6 +1027,7 @@ xchina.co,xchina.fun,xchina.tv##a[href*="/redirect/ad-"]
 xchina.co,xchina.fun,xchina.tv##div[class*="jquery-modal"]
 xchina.co,xchina.fun,xchina.tv##div[class*="modalAd"]
 xchina.co,xchina.fun,xchina.tv##div[style*="width: 300px;"][style*="height: 455px;"]
+xdf.cn##[class^="bottom_ad"]
 xgroovy.com##.adsbyexoclick
 xgroovy.com##.fluid_ad_cta
 xgroovy.com##[class^="fluid-b"]
@@ -1056,10 +1063,10 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$="
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##embed[src]
-yz.m.sm.cn##[id^="ad_"]
 yz.m.sm.cn##[id^="dl-banner-"]
 yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 yz.m.sm.cn##div[id*="_Shopping_Etao_"]
+yz.m.sm.cn##div[id^="ad_ele_"]
 zgpingshu.com##a[href^="http://cy.aiboxs.cn/"][target="__blank"]
 zhaosw.com##div.recommend
 zhazhijiav.com##a[class^="propa_bottom"],img[style="width:100%;height:auto;margin-bottom:2px;max-height:100px"],img[style="width:100%;height:auto;margin-bottom:2px;"]
@@ -1159,6 +1166,7 @@ zle.com$script
 ||dpic.wxddid.cn^$third-party
 ||drfvtgbyk.xyz^$third-party
 ||dspmnt.autohome.com.cn^
+||effirst.com^$third-party
 ||elsynmlw.fun^
 ||eporner.com/adblock
 ||ercnrxa.cn^
