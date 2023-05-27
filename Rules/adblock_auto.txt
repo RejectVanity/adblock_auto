@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: et919qGtrQkWUcUB+QJsCg
+! Checksum: R3OIvPzV8sc1URG/DmQiZA
 ! Title: 混合规则(自动更新)
-! Version: 20230528070442
+! Version: 20230528073751
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-28 07:04:42
-! Total Count: 111513
+! Last modified: 2023-05-28 07:37:51
+! Total Count: 111525
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -21849,6 +21849,7 @@ $websocket,domain=5nj.com|cechi8.com
 /adclick.
 /adclick.$popup
 /adclick/*
+/adclick?
 /adclient-
 /adclient.
 /adclient/*
@@ -48158,6 +48159,7 @@ xda-developers.com##.spon_banner
 xdf.cn##.footadv
 xdf.cn##.middleadv
 xdf.cn##.popup-wrap
+xdf.cn##[class^="bottom_ad"]
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
 xdowns.com###part_1
 xdpedia.com#@#div[id^="ezoic-pub-ad-"]
@@ -48873,6 +48875,7 @@ yz.m.sm.cn##[id^="ad_"]
 yz.m.sm.cn##[id^="dl-banner-"]
 yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 yz.m.sm.cn##div[id*="_Shopping_Etao_"]
+yz.m.sm.cn##div[id^="ad_ele_"]
 yzl333.com##a[href^="https://jump.9118ads.com/"]
 yzl333.com#?#.row > div.col-sm-6:-abp-has(> div.well > a[href^="https://jump.9118ads.com/"])
 yzl333.com#?#.row > div.col-sm-6:has(> div.well > a[href^="https://jump.9118ads.com/"])
@@ -61733,6 +61736,7 @@ zzzyk.com###Tinfo
 ||brutalconfer.com^
 ||brygella.com^
 ||brysogsiv.uno^
+||brzfqq.com^
 ||brznetwork.com^
 ||bs-dante.ru^
 ||bs.baidu.com/app-ads%
@@ -68285,6 +68289,7 @@ zzzyk.com###Tinfo
 ||dikeletwhelk.cam^
 ||diken.xyz^
 ||dikkoplida.cam^
+||dikmnhyxz.xyz^
 ||diktatslopseed.com^
 ||dilacteorma.info^
 ||dilatesdubbers.com^
@@ -68835,6 +68840,7 @@ zzzyk.com###Tinfo
 ||dobnor.com^
 ||doboacki.net^
 ||dobolsslyfvymm.com^
+||dobwll.xyz^
 ||doc88.com^*/count.js
 ||doccd.xyz^
 ||docer.org/static/utils/jquery.min.js
@@ -70307,6 +70313,7 @@ zzzyk.com###Tinfo
 ||efficaciouscactus.com^
 ||effide.com^
 ||effirst.com^
+||effirst.com^$third-party
 ||effixtile-inceive.com^
 ||effortfranzbloodless.com^
 ||effusedprankle.com^
@@ -77799,6 +77806,7 @@ zzzyk.com###Tinfo
 ||ifaeqvt.cn^
 ||ifaupsoo.com^
 ||ifautzg.cn^
+||ifbfksf.xyz^
 ||ifbqves.cn^
 ||ifc-edu.cn^
 ||ifc-edu.cn^$third-party
@@ -83675,6 +83683,7 @@ zzzyk.com###Tinfo
 ||ludie.xyz^
 ||ludied.com^
 ||ludocsbho.com^
+||ludpa.xyz^
 ||ludwigreseise.tech^
 ||lufbogazixz.com^
 ||luffic.com^
@@ -93455,6 +93464,7 @@ zzzyk.com###Tinfo
 ||qlspx.com^
 ||qlsynmly.fun^
 ||qlvlaqcd.com^
+||qlwoglp.cn^
 ||qlyunjqcyvx.xyz^
 ||qlzjwgb.cn^
 ||qm.qq.com^$domain=se8u.cc
@@ -102209,6 +102219,7 @@ zzzyk.com###Tinfo
 ||tiffingsubband.com^
 ||tiffybetween.website^
 ||tifkxxoqpuuvd.xyz^
+||tifpjz.xyz^
 ||tifstudiousyo.info^
 ||tifybecausingp.com^
 ||tigely.com^
@@ -108939,6 +108950,7 @@ zzzyk.com###Tinfo
 ||xiaobixiaobi.com^
 ||xiaochen1.cn^
 ||xiaodongrui.com^
+||xiaodouding.club^
 ||xiaodutv.com/xda?
 ||xiaohui.ink^
 ||xiaohui668.club^

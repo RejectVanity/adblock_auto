@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Ujll1qXtXA4jxzo8fqgBtQ
+! Checksum: ifdsGVPE92d4ZIJ6EqBdlQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230528070444
+! Version: 20230528073754
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-28 07:04:44
-! Total Count: 20010
+! Last modified: 2023-05-28 07:37:54
+! Total Count: 20020
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2833,6 +2833,11 @@
 /ad-blocking-advisor/*
 /ad-tetris-site/file
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
+/adBanner?
+/adBlockDetector/*
+/adBlockerTrack_
+/adClick/*$popup
+/adClick?$popup
 /adManager.js$script,third-party
 /adb-watch.
 /adbDetect.
@@ -2859,6 +2864,7 @@
 /adblocker-feature?
 /adblocker/modal.
 /adblocker_message_
+/adclick?
 /ads.dp.js?
 /ads/ads.js$script
 /ads?zone_id=
@@ -5228,6 +5234,7 @@ sm.cn##.wolong-container
 sm.cn##a[href*="sm.cn/adclick?"]
 sm.cn##div[id*="_Shopping_Etao_"]
 sm.cn##div[id^="ad_"]
+sm.cn##div[id^="ad_ele_"]
 sm.cn##div[id^="dl-banner-"]
 smotrisport.tv##.dont-add-our-site-pls
 so.com###bnbtm-banner
@@ -5456,6 +5463,7 @@ xchina.co,xchina.fun,xchina.tv##a[href*="/redirect/ad-"]
 xchina.co,xchina.fun,xchina.tv##div[class*="jquery-modal"]
 xchina.co,xchina.fun,xchina.tv##div[class*="modalAd"]
 xchina.co,xchina.fun,xchina.tv##div[style*="width: 300px;"][style*="height: 455px;"]
+xdf.cn##[class^="bottom_ad"]
 xgroovy.com##.adsbyexoclick
 xgroovy.com##.fluid_ad_cta
 xgroovy.com##[class^="fluid-b"]
@@ -5499,6 +5507,7 @@ yz.m.sm.cn##[id^="ad_"]
 yz.m.sm.cn##[id^="dl-banner-"]
 yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 yz.m.sm.cn##div[id*="_Shopping_Etao_"]
+yz.m.sm.cn##div[id^="ad_ele_"]
 zakon.kz##.adblock_alert
 zgpingshu.com##a[href^="http://cy.aiboxs.cn/"][target="__blank"]
 zhaosw.com##div.recommend
@@ -10430,6 +10439,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||efdcw.cyou^
 ||efdlfh.cn^
 ||effetspositifs.com^
+||effirst.com^$third-party
 ||efgh.5lu.com^
 ||efilgvz.cn^
 ||efizobj.cn^
