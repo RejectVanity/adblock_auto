@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QHqGiTCFeh42ML2XxP3K3w
+! Checksum: DSDoZ3gDeAEDFGNSUEFYyA
 ! Title: 自用去广告Adblock规则
-! Version: 20230527160925
-! Last modified: 2023-05-27 16:09:25
-! Total Count: 1379
+! Version: 20230527171556
+! Last modified: 2023-05-27 17:15:56
+! Total Count: 1382
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -53,6 +53,7 @@
 ##.leftd2 + .rightd2
 ##.leftd3 + .rightd3
 ##.moboad
+##.module-adslist
 ##.myplayer_ima-ad-container
 ##.nonepc.mad
 ##.play_list_adbox
@@ -775,6 +776,8 @@ missav.com,missav888.com,missav123.com,thisav.com##[class^="root--"]
 missav.com,missav888.com,missav123.com,thisav.com##[href*="//bit.ly/"]
 missav.com,missav888.com,missav123.com,thisav.com##div[class^="flex justify-center"]
 missav.com,missav888.com,missav123.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
+mobile.baidu.com##div[class*="card-recommend"]
+mobile.baidu.com##div[class^="detail-banner-"]
 msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
 mydrivers.com#@#a[href*="/bp.ashx"]
