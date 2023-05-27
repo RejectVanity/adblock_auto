@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: UZVIXOJVukDGfvLt28X2wA
+! Checksum: Yduqu/GrKzfIIDRMxKQ2XQ
 ! Title: 混合规则(自动更新)
-! Version: 20230527170215
+! Version: 20230527204252
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-27 17:02:15
-! Total Count: 111493
+! Last modified: 2023-05-27 20:42:52
+! Total Count: 111502
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -16483,6 +16483,7 @@
 ##.static_mpu_wrap
 ##.staticad
 ##.sterra-ad
+##.stick-ad-container
 ##.stickad
 ##.sticky-ad
 ##.sticky-ad-bottom
@@ -33797,6 +33798,7 @@ atptour.com##.iab-wrapper
 atyun.com###r_banner > ul > li > a[href^="http"]:not([href*="atyun."])
 atyun.com##.coupletbox
 auctionzip.com##.az-header-ads-container
+audi-sport.net,beermoneyforum.com,forums.sailinganarchy.com,geekdoing.com,sportfishingbc.com,studentdoctor.net##.samBannerUnit
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 audiobacon.net##.audio-widget.et_pb_widget
 audiobacon.net,bhamnow.com,mondoweiss.net,ottverse.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
@@ -40162,6 +40164,9 @@ instrument.com.cn##.swiper-container
 instrument.com.cn,tool.lu##.swiper-container
 insurancejournal.com##.bzn
 integral-calculator.com,live365.com,passiveaggressivenotes.com,twcenter.net##div[style^="width: 728px;"]
+interest.co.nz###banner-ad-wrapper
+interest.co.nz##.homepage-billboard
+interest.co.nz##.story-tag-wrapper
 interest.co.nz,metasrc.com###sidebar-wrapper
 interestingengineering.com##.Anyclip_conBody__jtq8a
 interestingengineering.com##.BigAdBorder_isPremium__RXPuj
@@ -42281,6 +42286,8 @@ mobanwang.com##.teagg
 mobiforge.com##a > img[alt="Ad"]
 mobiili.fi#@#.header_ad
 mobile.baidu.com##.p_fixed_lb
+mobile.baidu.com##div[class*="card-recommend"]
+mobile.baidu.com##div[class^="detail-banner-"]
 mobile01.com###_popIn_recommend_side
 mobile01.com###ad-control
 mobile01.com###show-play-ad
@@ -43314,6 +43321,7 @@ onepagerules.com#?#strong:-abp-contains(PAID CONTENT)
 onetransistor.eu##a[onclick][target="_blank"]
 online-image-editor.com,thehindu.com##.add
 online-xxxmovies.com##.middle-spots
+online.pubhtml5.com##.ph5---banner---container
 onlinecourse24.com##.tl-topromote
 onlinedown.net###xzbtn1:first-child
 onlinedown.net##.down-box > iframe
@@ -79633,6 +79641,7 @@ zzzyk.com###Tinfo
 ||jd5c.top^
 ||jd6pq31f.site^
 ||jdaa22.top^
+||jdamc.top^
 ||jddaw.com^
 ||jdexcgb.cn^
 ||jdgsgl.com^

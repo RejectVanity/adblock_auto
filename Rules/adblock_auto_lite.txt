@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: yFf1oYNPMmGQRoWKeyNcDg
+! Checksum: zeddpJ68Ri9NYCy4NxzLGg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230527170217
+! Version: 20230527204254
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-27 17:02:17
-! Total Count: 20000
+! Last modified: 2023-05-27 20:42:54
+! Total Count: 20002
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5070,6 +5070,8 @@ missav.com,missav888.com,missav123.com,thisav.com##[href*="//bit.ly/"]
 missav.com,missav888.com,missav123.com,thisav.com##div[class^="flex justify-center"]
 missav.com,missav888.com,missav123.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
+mobile.baidu.com##div[class*="card-recommend"]
+mobile.baidu.com##div[class^="detail-banner-"]
 monacomatin.mc,nicematin.com,varmatin.com##.RhooBg
 monacomatin.mc,nicematin.com,varmatin.com##.modalRhoo
 mover.uz###oframeplayer > [class][style^="display: block"]
