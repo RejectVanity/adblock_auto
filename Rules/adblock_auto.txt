@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1EtxUmtIzZD1vuEmWnDFQA
+! Checksum: G70LAPDZ9BHw7os92rRbeg
 ! Title: 混合规则(自动更新)
-! Version: 20230527000653
+! Version: 20230527083354
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-27 00:06:53
-! Total Count: 111412
+! Last modified: 2023-05-27 08:33:54
+! Total Count: 111439
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17083,6 +17083,7 @@
 ##.video-archive-ad
 ##.video-boxad
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
+##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
 ##.video-page__adv
 ##.video-right-ad
@@ -33292,6 +33293,7 @@ alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alicocsouth.inter.71edge.com/videos/other/*.f4v
 aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
+aliexpress.com,aliexpress.us##a[href*="&p4p_pvid="]
 alipay.com###J-cooperant-banner
 alist.nn.ci##.ss
 alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
@@ -56310,6 +56312,7 @@ zzzyk.com###Tinfo
 ||alrr.club^
 ||als-svc.nytimes.com^
 ||als.baidu.com^
+||alsatiapolynia.com^
 ||alsedu.tech^
 ||alsfor.com^
 ||alsindustrateb.info^
@@ -58114,6 +58117,7 @@ zzzyk.com###Tinfo
 ||assignedmilitantcommit.com^
 ||assignmentcursor.com^
 ||assimilateentrails.com^
+||assistads.net^
 ||assistancespectacles.com^
 ||assistantelizabethraw.com^
 ||assistantrok.club^
@@ -60038,6 +60042,7 @@ zzzyk.com###Tinfo
 ||beewakiy.com^
 ||bef62233f1.com^
 ||befirstcdn.com^
+||befloutsneaks.com^
 ||befly.me^
 ||beforehanddonkeyannouncement.com^
 ||beforehandeccentricinhospitable.com^
@@ -61935,6 +61940,7 @@ zzzyk.com###Tinfo
 ||busyprice.ru^
 ||butaeit.cn^
 ||butalksuw9dj10.com^
+||butanesscag.com^
 ||butanoldatives.com^
 ||butashasp.site^
 ||butsenox.net^
@@ -63057,6 +63063,7 @@ zzzyk.com###Tinfo
 ||celept.com^
 ||celeritascdn.com^
 ||celeryisolatedproject.com^
+||celeste.work^
 ||cell.zhybzp.cn^
 ||cell.zhybzp.cn^$third-party
 ||cellaraudacityslack.com^
@@ -63236,6 +63243,7 @@ zzzyk.com###Tinfo
 ||chameleostudios.com^
 ||chametzunbelt.com^
 ||chamib.com^
+||chamiteame.com^
 ||champagne.futurecdn.net^
 ||championwin.ru^
 ||chanalytics.merchantadvantage.com^
@@ -68476,6 +68484,7 @@ zzzyk.com###Tinfo
 ||dit.whatsapp.net^
 ||dita6jhhqwoiz.cloudfront.net^
 ||ditaow.cn^
+||ditchesteenish.com^
 ||ditdotsol.com^
 ||ditiezu.com/banner/badatu.png
 ||ditwrite.com^
@@ -70694,6 +70703,7 @@ zzzyk.com###Tinfo
 ||entry.baidu.com/rp/home?
 ||entsconsesi.top^
 ||entualkenti.buzz^
+||enuresdairi.com^
 ||envato.market^
 ||envbsnnbyglvea.com^
 ||enviou.com.br^
@@ -72720,6 +72730,7 @@ zzzyk.com###Tinfo
 ||foggytube.com^
 ||fogl1onf.com^
 ||fogpurply.website^
+||fogramokayed.com^
 ||fogsham.com^
 ||fogtrack.net^
 ||fogvnoq.com^
@@ -75836,6 +75847,7 @@ zzzyk.com###Tinfo
 ||happypasteheat.com^
 ||happyunicorns.gutefrage.net^
 ||haprjb.com^
+||haptenspopean.com^
 ||hapticswasher.com^
 ||hapyak.com^
 ||haraads.com^
@@ -81542,6 +81554,7 @@ zzzyk.com###Tinfo
 ||kutjilsi.com^
 ||kuttarmufti.com^
 ||kuuad.com^
+||kuuda.xyz^
 ||kuuhv.cn^
 ||kuunmzg.cn^
 ||kuveres.com^
@@ -81985,6 +81998,7 @@ zzzyk.com###Tinfo
 ||laxnlqn.cn^
 ||laydcilck.com^
 ||layer-ad.org^
+||layeredseether.com^
 ||layerloop.com^
 ||layingprocuregather.com^
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
@@ -83763,6 +83777,7 @@ zzzyk.com###Tinfo
 ||lycoty.com^
 ||lyd.com.cn^*950-90.
 ||lydiz.com^
+||lydrnj.xyz^
 ||lyemiatteffulrf.xyz^
 ||lyewe.xyz^
 ||lyfwpt.com.cn^
@@ -84106,6 +84121,7 @@ zzzyk.com###Tinfo
 ||mahao.xyz^
 ||mahao1.cn^
 ||mahaphanin.ru^
+||mahaplinths.com^
 ||maharbandi.tech^
 ||mahdicrofter.com^
 ||mahidevrat.com^
@@ -84206,6 +84222,7 @@ zzzyk.com###Tinfo
 ||mamka.aviasales.ru^
 ||mamluksburion.com^
 ||mammalbuy.com^
+||mammeysterrae.com^
 ||mammocksambos.com^
 ||mammoseoxanic.com^
 ||mamparagallnut.com^
@@ -94649,6 +94666,7 @@ zzzyk.com###Tinfo
 ||repentancematernity.com^
 ||repentbits.com^
 ||repercussionspoonsbuiltin.com^
+||rephaseeg.com^
 ||repian.com/a/
 ||repixel.co^
 ||replacebarhandkerchief.com^
@@ -95037,6 +95055,7 @@ zzzyk.com###Tinfo
 ||riaway.com/statics/idea.jpg
 ||ribffmg.cn^
 ||ribsaiji.com^
+||ribumpin.com^
 ||ribunews.com^
 ||ribworkstylus.com^
 ||ric-ric-rum.com^
@@ -95403,6 +95422,7 @@ zzzyk.com###Tinfo
 ||rorlsblm.cyou^
 ||rorserdy.com^
 ||rosafun.com^
+||roscoehanafi.com^
 ||rosebrandy.com^
 ||rosebudspeaks.com^
 ||roselip-fetish.com^
@@ -100472,6 +100492,7 @@ zzzyk.com###Tinfo
 ||surfcuegirlfriend.com^
 ||surfe.pro^
 ||surfearner.com^
+||surfedlattins.com^
 ||surfertracker.com^
 ||surfierunreel.com^
 ||surfmdia.com^
@@ -101715,6 +101736,7 @@ zzzyk.com###Tinfo
 ||thaidapps.com^
 ||thaidrix.xyz^
 ||thaidsir.xyz^
+||thaighee.xyz^
 ||thaignax.net^
 ||thaiguxu.com^
 ||thaistiboa.com^
@@ -105904,6 +105926,7 @@ zzzyk.com###Tinfo
 ||vextjoexig.com^
 ||veyjdaswregbj.com^
 ||vezetmne.ru^
+||vezvpd.xyz^
 ||vfbvcshnc.com^
 ||vfcwij.cn^
 ||vfghc.com^
@@ -106949,6 +106972,7 @@ zzzyk.com###Tinfo
 ||washabeach.com^
 ||washdaycalmly.com^
 ||washedinmate.com^
+||washergnome.com^
 ||washpiggyabdomen.com^
 ||wasm.stream
 ||wasoffspring.com^
@@ -109749,6 +109773,7 @@ zzzyk.com###Tinfo
 ||yhdm44.com/123.html
 ||yheyg94gjv2o.ru^
 ||yhgameofmu.xyz^
+||yhgumcr.xyz^
 ||yhhbtavgpuo.com^
 ||yhhthemostb.xyz^
 ||yhilnc.cn^
@@ -109901,6 +109926,7 @@ zzzyk.com###Tinfo
 ||yjcf360.com/ad.
 ||yjegf.com^
 ||yjgkcbvmnqnicep.xyz^
+||yjgqpfj.cn^
 ||yjiaj.com^
 ||yjrjmy.com^
 ||yjtag.jp^
@@ -110772,6 +110798,7 @@ zzzyk.com###Tinfo
 ||zh.tiredduck.com^
 ||zhainanba.org/ac/
 ||zhaishanghui.shop^
+||zhalinylqq.com^
 ||zhalinyyds.com^
 ||zhan.com^*/middle_ad_modal.js
 ||zhangbaochang.top^
