@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xZgQa8whVY1Ck4LAfGwHFg
+! Checksum: CEXF3DjFnTkEuHUKdUxHyw
 ! Title: 自用去广告Adblock规则
-! Version: 20230526203637
-! Last modified: 2023-05-26 20:36:37
-! Total Count: 1364
+! Version: 20230527092208
+! Last modified: 2023-05-27 09:22:08
+! Total Count: 1368
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -186,6 +186,7 @@
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
 ##bkveng
+##body > div[id^="allpng"] > div
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##center[style="display: none;"] > span[style][onclick]
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
@@ -446,6 +447,7 @@
 ://mobixc.*.cyou$third-party
 ://mobixc.*.fun$third-party
 ://mobixc.*.top$third-party
+://mpic.*.cn/*.js$third-party
 ://mpic.*.cn/*.txt$third-party
 ://p.qlogo.cn/qqmail_head/*
 ://pic.*.cn/*/*.js$third-party,script
@@ -1097,6 +1099,7 @@ zle.com$script
 ||aqhfqaaq.xyz^
 ||aqhnmof.cn^
 ||asa.com^
+||ashooqapp.top^$~third-party
 ||baby.thinkmore.top^
 ||bbangads.*.net^$third-party
 ||beijing163.aliyunapi.org^$third-party,script
@@ -1230,6 +1233,7 @@ zle.com$script
 ||mobixc.wqnggnse.fun^
 ||mopak.ionksfefe.xyz^
 ||mopinion.com^
+||mpic.kszvmqo.cn^$third-party
 ||mrkthei.cn^$third-party
 ||mtu.hlkcowp.cn^
 ||netapd.gdxinya.com^
