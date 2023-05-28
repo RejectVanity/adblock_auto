@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6N4e5LUsCyXsLg18cbx63A
+! Checksum: 4oJCVpb8+pPC87FtWsoNwQ
 ! Title: 混合规则(自动更新)
-! Version: 20230528083502
+! Version: 20230528141031
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-28 08:35:02
-! Total Count: 111525
+! Last modified: 2023-05-28 14:10:31
+! Total Count: 111528
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -28721,6 +28721,7 @@ $websocket,domain=5nj.com|cechi8.com
 3boys2girls.com###hotbar
 3boys2girls.com###overture_ads_long
 3boys2girls.com##.float320
+3czol.com##[class^="ban_"]
 3czol.com##div[class^="ban_"]
 3d66.com###botfocus-soft
 3d66.com##.King_Chance_LayerCont
@@ -35313,6 +35314,7 @@ chanpindashi.com##.personal-information > a[href^="http"]:not([href*="chanpindas
 chaomi.cc##.cm-ads
 chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,ttzmz.vip,wendu.cn,y1118.com##.duilian
 chapaofan.com##a[href^="http"]:not([href*=".chapaofan."]) > img[src*=".sinaimg."]
+chargedretail.co.uk,foodstuffsa.co.za,thinkcomputers.org##.apPluginContainer
 chargedretail.co.uk,thinkcomputers.org##.apPluginContainer
 charismanews.com##.FpFeaturedBoxWrap
 charismanews.com##.skinTrackClicks
@@ -50729,6 +50731,7 @@ zzzyk.com###Tinfo
 ||3cb004e947.com^
 ||3cbdc47b91.com^
 ||3cf639cf20.com^
+||3czol.com/ad/
 ||3d406f3a14.com^
 ||3daed168ad.com^
 ||3dcn.me^
