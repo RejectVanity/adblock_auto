@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Wafbb55A3tjvFos4F4RmPQ
+! Checksum: oEI03aM8G5nTIRX5RRsmTw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230528160657
+! Version: 20230529000614
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-28 16:06:57
-! Total Count: 20029
+! Last modified: 2023-05-29 00:06:14
+! Total Count: 20039
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1416,6 +1416,7 @@
 ##a[href*=".demobbe.com/"]
 ##a[href*=".downok.com"]
 ##a[href*=".dpcpfw.com/"]
+##a[href*=".ds001qd3.cc"]
 ##a[href*=".dztjy.com/"]
 ##a[href*=".eampakt.com/"]
 ##a[href*=".etechedge.com/"]
@@ -8337,6 +8338,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||baiducdnimages.com^$domain=chichiav1.xyz
 ||baiducom.bj.bcebos.com^
 ||baidudbvjksbvs.com^
+||baidudsvbshj.com^
 ||baidufkjnvbdsn.com^
 ||baidujavascript.com^
 ||baidujs.cnys.com^
@@ -13359,6 +13361,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kfnvrt.xyz^
 ||kfocoq.xyz^
 ||kgacp.cyou^
+||kgcyvd.com^
 ||kgnlaigd.fun^
 ||kgnpwdf.cn^$third-party
 ||kgsrr.top^
@@ -13612,6 +13615,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||l45.xyz^
 ||l60.xyz^
 ||l6ssx.cn^
+||l74co.xyz^
 ||l7kuyg.site^
 ||l90.xyz^
 ||labadena.com^$third-party
@@ -13946,6 +13950,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lqnggnsl.fun^
 ||lqrvkxk.cn^
 ||lr6e.top^
+||lrah0.top^
 ||lrkporm.cn^
 ||lrysogsil.uno^
 ||lrzsksw.cn^
@@ -15212,6 +15217,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||oodcd.cn/pan/config/ad.json
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
+||ooegpip.cn^
 ||ooeogk.xyz^
 ||ooexkqj.cn^
 ||oofyjik.xyz^
@@ -16604,6 +16610,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sdfjtwp.com^
 ||sdfqs2.com^
 ||sdfv66.com^
+||sdfxcv.com^
 ||sdfxv57.com^
 ||sdhjqz.com^
 ||sdhongjia.com^
@@ -17787,9 +17794,12 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tw.jav321.com^$popup,domain=ucptt.com
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||twadakesi.cyou^
+||twandli.top^
 ||twavtv.com/js/jquery.colorbox
 ||twbqqq.com^
 ||twinrdsrv.com$xmlhttprequest,third-party
+||twinrdsrv.com^$document
+||twinrdsrv.com^$~third-party
 ||twlcyc.cn^
 ||twn2e.cn^
 ||twnafj.xyz^

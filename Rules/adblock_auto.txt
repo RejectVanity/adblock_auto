@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 2Lk27L0kXDMNqLrT5uVwMQ
+! Checksum: oAEZMuUoucCOKb2hZWfKIg
 ! Title: 混合规则(自动更新)
-! Version: 20230528160655
+! Version: 20230529000612
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-28 16:06:55
-! Total Count: 111531
+! Last modified: 2023-05-29 00:06:12
+! Total Count: 111544
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -7031,6 +7031,7 @@
 ##.ad-sense
 ##.ad-sense-ad
 ##.ad-sep
+##.ad-separator
 ##.ad-sharethrough-top
 ##.ad-shifted
 ##.ad-shine-panel
@@ -12493,6 +12494,7 @@
 ##.exo_wrapper
 ##.external-ad
 ##.external-add
+##.ez-sidebar-wall-ad
 ##.ez-video-wrap
 ##.ezAdsWidget
 ##.ezmob-footer
@@ -17774,6 +17776,7 @@
 ##a[href*=".dongtaisteel.com/"]
 ##a[href*=".downok.com"]
 ##a[href*=".dpcpfw.com/"]
+##a[href*=".ds001qd3.cc"]
 ##a[href*=".dztjy.com/"]
 ##a[href*=".eampakt.com/"]
 ##a[href*=".engine.adglare.net/"]
@@ -42749,6 +42752,7 @@ nanoreview.net###the-app > .mb
 nanrenwo.net##div[id^="content"]
 napuzba.com##div[style^="width:336px"]
 narcity.com###leaderboard-wrapper
+narkive.com##a[href^="https://rfnm.io/?"]
 narutofan.com###right-spon
 nascar.com##.nascar-ad-container
 nasdaq.com##.video-placeholder
@@ -59291,6 +59295,7 @@ zzzyk.com###Tinfo
 ||baiducdnimages.com^$domain=chichiav1.xyz
 ||baiducom.bj.bcebos.com^
 ||baidudbvjksbvs.com^
+||baidudsvbshj.com^
 ||baidufkjnvbdsn.com^
 ||baiduhaoba.com^
 ||baidujavascript.com^
@@ -81011,6 +81016,7 @@ zzzyk.com###Tinfo
 ||kfocoq.xyz^
 ||kgacp.cyou^
 ||kgagck6.com^
+||kgcyvd.com^
 ||kgdvs9ov3l2aasw4nuts.com^
 ||kgho.info^
 ||kgimg.com/public/root//images/hardware.jpg
@@ -81800,6 +81806,7 @@ zzzyk.com###Tinfo
 ||l5games2fan.com^
 ||l60.xyz^
 ||l6ssx.cn^
+||l74co.xyz^
 ||l7kuyg.site^
 ||l90.xyz^
 ||l936.expressnews.com^
@@ -83604,6 +83611,7 @@ zzzyk.com###Tinfo
 ||lr-ingest.io^
 ||lr6e.top^
 ||lraa.xiaoniutui.com^
+||lrah0.top^
 ||lrcs.info^
 ||lrepampipa.com^
 ||lrkporm.cn^
@@ -89056,6 +89064,7 @@ zzzyk.com###Tinfo
 ||oodroglu.net^
 ||oodsauns.net^
 ||oodsotso.com^
+||ooegpip.cn^
 ||ooeogk.xyz^
 ||ooexkqj.cn^
 ||ooftauph.com^
@@ -96685,6 +96694,7 @@ zzzyk.com###Tinfo
 ||sdfqs2.com^
 ||sdfsdvc.com^
 ||sdfv66.com^
+||sdfxcv.com^
 ||sdfxv57.com^
 ||sdgmyj.cn^
 ||sdhfbvd.com^
@@ -104338,6 +104348,7 @@ zzzyk.com###Tinfo
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||tw.rd.yahoo.com^$image
 ||twadakesi.cyou^
+||twandli.top^
 ||twangedcored.com^
 ||twavtv.com/js/jquery.colorbox
 ||twazzyoidwlfe.com^
@@ -104357,6 +104368,8 @@ zzzyk.com###Tinfo
 ||twinrdack.com^
 ||twinrdsrv.com$xmlhttprequest,third-party
 ||twinrdsrv.com^
+||twinrdsrv.com^$document
+||twinrdsrv.com^$~third-party
 ||twinrdsyn.com^
 ||twinsoflave.com^
 ||twinstanglebroken.com^
