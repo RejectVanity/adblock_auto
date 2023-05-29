@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: rSdNWJGFib5hUHtw8RXOiw
+! Checksum: Zz/+VXPDL/mDef+zU2dXDQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230529160833
+! Version: 20230530000712
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-29 16:08:33
-! Total Count: 20050
+! Last modified: 2023-05-30 00:07:12
+! Total Count: 20059
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -708,6 +708,7 @@
 ##.adp-popup
 ##.adpc > .module
 ##.adpc > .promote-link
+##.adpc > .promote-link-
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
 ##.ads-2
@@ -6112,6 +6113,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||2kxs.org/6ADyQNkC/
 ||2lian.com^$third-party
 ||2m2n.com^
+||2medo.top^
 ||2mfx.cn^
 ||2nd.clublucifer.net/regular/$subdocument
 ||2pmob.com^
@@ -7346,6 +7348,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||adextent.com^
 ||adf.dahe.cn^
 ||adf.ly/js/display.js$script,important
+||adfec3.com^
 ||adfeifan.com^$third-party
 ||adfiles.auditude.com^
 ||adflake.com^
@@ -13418,6 +13421,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kkggy.top^
 ||kkgytur.cn^
 ||kkizyys.cn^
+||kkkjpg-522.cc^$third-party
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
 ||kkqeqk.cn^
@@ -14934,6 +14938,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nijj990.xyz^
 ||nijnqwem.xyz^
 ||nikopik.com/wp-content/themes/*/js/nikopik.js
+||nilzq.xyz^
 ||nimajl.top^
 ||nimazhale.top^
 ||ningdebus.club^
@@ -15155,6 +15160,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||oicchina.com^$third-party
 ||oicode.com^
 ||oicvvnm.cn^
+||oiewpw.com^
 ||oiljomy.xyz^
 ||oimzak.xyz^
 ||oiqdjksgpo.com^
@@ -16205,6 +16211,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||railwayreason.com^$third-party
 ||rainpat.com/Content/1360x55/
 ||rainpat.com/Scripts/jquery.SuperSlide.
+||rakuten-sec.co.jp/web/images/banners/ads_mobile_un-limit/
 ||rakuten-static.com^$domain=cwyuni.tw
 ||rakuya.com.tw/position?task=
 ||randolph.love^
@@ -18548,6 +18555,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||west.cn/vcp/getJScode/
 ||westca.com/server/
 ||weste.net/js/showpagead.js
+||westover.cn^
 ||wew.dushiwenxue.net^
 ||wf321.com^
 ||wffengtai.com.cn^
@@ -19672,6 +19680,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||z4a.net^$domain=aotu43.com
 ||z4a.net^*/960x
 ||z66ggsh.top^
+||z74lb.com^
 ||z82v0.icu^
 ||zahl4tf5z.world^
 ||zahl4tf5z.xyz^
