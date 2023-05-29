@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: M6FjuZLsOOnKVoz10E/eYw
+! Checksum: aWvo7ZktQgH/Fbnw2s5RCw
 ! Title: 混合规则(自动更新)
-! Version: 20230529010828
+! Version: 20230529083244
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-29 01:08:28
-! Total Count: 111544
+! Last modified: 2023-05-29 08:32:44
+! Total Count: 111562
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17023,6 +17023,7 @@
 ##.uk-width-1-1.adbox
 ##.ult_vp_videoPlayerAD
 ##.under-header-ad
+##.under-player-ad
 ##.under-player-ads
 ##.under_ads
 ##.underplayerAd
@@ -27669,6 +27670,7 @@ $websocket,domain=5nj.com|cechi8.com
 /wp-content/plugins/fasterim-optin/*
 /wp-content/plugins/m-wp-popup/*$~stylesheet
 /wp-content/plugins/platinumpopup/*
+/wp-content/plugins/popad/*
 /wp-content/plugins/the-moneytizer/*
 /wp-content/plugins/upprev/*
 /wp-content/plugins/useful-banner-manager/*
@@ -27917,6 +27919,7 @@ $websocket,domain=5nj.com|cechi8.com
 1010jiajiao.com##.xiti_content + .xiti
 1010jiajiao.com##div[style*="position:fixed;"][style*="bottom:1px;"]
 101cargames.com##.custom-siteskin
+101soundboards.com##.adsense_matched_content
 101thefox.net,957thevibe.com##a[href^="https://parisicoffee.com/"]
 1024pz.com###header > center
 1024pz.com##.leftd
@@ -31837,6 +31840,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||jd.com/setCookie?
 @@||jd.com^*&refer=http$script
 @@||jeux-geographiques.com/js/adblock_detector.js
+@@||jeux.meteocity.com^$generichide
 @@||jeuxvideo-live.com/js/ads.js
 @@||jianshu.com/asimov/ab_test/info
 @@||jiav000.com^$generichide
@@ -39510,6 +39514,7 @@ hot933hits.com###simpleimage-5
 hotcelebshome.com##.bcpsttl_name_listing
 hotcelebshome.com##.widget_custom_html
 hotcelebshome.com,javcrave.com##.widget_custom_html
+hotcelebshome.com,javcrave.com,pussycatxx.com##.widget_custom_html
 hotcelebshome.com,javcrave.com,vrhotporn.top##.widget_custom_html
 hoteastday.com###detail_mask_ad
 hoteastday.com##.detail_top_mask_ad
@@ -44163,6 +44168,8 @@ priceline.com#?#div[data-testid^="HTL_NEW_LISTING_CARD_"]:-abp-has(div:-abp-cont
 priceonomics.com###book-island
 primcloud.careers##.title-set
 primedia.co.za##.branding-sponsor
+primewire.link##.banner-wrapper
+primewire.link##a[href^="https://url.rw/"]
 privacytools.io#?#.container:-abp-has(.tag .fa-adversal)
 privateinternetaccess.com#@#a[href^="https://www.privateinternetaccess.com/"]
 privateproperty.co.za##.listingResultPremiumCampaign
@@ -44247,6 +44254,7 @@ pushsquare.com##div[data-dfp-id]
 pussy.org###footZones
 pussy.org##.zone
 pussy.org,xxx-videosex.porn###footZones
+pussycatxx.com###tracking-url
 pussyspace.com###bhcr
 putlockers.do##.mobile-btn
 putlockers.do##.textb
@@ -61085,6 +61093,7 @@ zzzyk.com###Tinfo
 ||blueknow.com^
 ||bluelinknow.com^
 ||blueomatic.com^
+||blueoyster.click^
 ||blueparrot.media^
 ||bluepartner.pl^
 ||blueseed.tv^
@@ -69659,6 +69668,7 @@ zzzyk.com###Tinfo
 ||dyckwtcmyb.xyz^
 ||dycxkj.cn^
 ||dydab.com^
+||dydujb.xyz^
 ||dyeingjaun.com^
 ||dyfpilivhdq.xyz^
 ||dyguo.com/pc/*0.js
@@ -71363,6 +71373,7 @@ zzzyk.com###Tinfo
 ||eventucker.com^
 ||eventwisparwil.ru^
 ||evenuewasadi.xyz^
+||evenyw.xyz^
 ||everestjs.net^
 ||everestop.io^
 ||everesttech.net^
@@ -75404,6 +75415,7 @@ zzzyk.com###Tinfo
 ||gtm.beiersdorf.com^
 ||gtm.eduki.com^
 ||gtm.findroommate.dk^
+||gtm.saostar.vn^
 ||gtm.tipranks.com^
 ||gtm.udemy.com^
 ||gtm.vanmoof.com^
@@ -82422,6 +82434,7 @@ zzzyk.com###Tinfo
 ||levulicbenday.digital^
 ||levulicdiamins.com^
 ||levulinmoble.space^
+||lewqiiy.xyz^
 ||lexicoggeegaw.website^
 ||lexip.4pcdn.de^
 ||lexip.4players.de^
@@ -84989,6 +85002,7 @@ zzzyk.com###Tinfo
 ||mehebborc.com^
 ||meibiisheng.com^
 ||meidd.cyou^
+||meidd.xyz^
 ||meiguixsw.com/images/*.js
 ||meihaoxiangwang.com^
 ||meiju22.com/new/Public/gg.js
@@ -86832,6 +86846,7 @@ zzzyk.com###Tinfo
 ||mzokqm.cn^
 ||mzol7lbm.com^
 ||mzpbvvxv.com^
+||mzqf1.com^
 ||mzstatic.com^$image,domain=rocketnews24.com|youpouch.com|soranews24.com
 ||mztzba.cn^
 ||mzunuvof.com^
@@ -101276,6 +101291,7 @@ zzzyk.com###Tinfo
 ||taoguba.com.cn/res/js/tgbgg/
 ||taoguohe.com^
 ||taoguohe.com^$third-party
+||taoli.name^
 ||taonforhavinga.info^
 ||taosq.net/public/250x250.jpg
 ||taotaogeren.xyz^
@@ -108303,6 +108319,7 @@ zzzyk.com###Tinfo
 ||woryuc.com^
 ||wos.lv^
 ||woshiyunying.com^
+||wosidnlkxq.com^
 ||wossaung.net^
 ||wotmvdc.cn^
 ||wotto.cn^
@@ -110006,6 +110023,7 @@ zzzyk.com###Tinfo
 ||yiqiv.com^$third-party
 ||yiren34.com/js/
 ||yirtaycyytr.xyz^
+||yisangyhqq.com^
 ||yisangyyds.com^
 ||yisd.press^
 ||yishengad.com^
