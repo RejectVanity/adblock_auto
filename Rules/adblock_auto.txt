@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: A673zOKNJIqb6jBbFsIWYg
+! Checksum: OkIm4zNv3rgQChWwBgvwDQ
 ! Title: 混合规则(自动更新)
-! Version: 20230531083627
+! Version: 20230531160750
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-05-31 08:36:27
-! Total Count: 111681
+! Last modified: 2023-05-31 16:07:50
+! Total Count: 111690
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -16504,6 +16504,7 @@
 ##.sticky-advert-widget
 ##.sticky-bottom-ad
 ##.sticky-footer-ad
+##.sticky-footer-ad-container
 ##.sticky-rail-ad-container
 ##.sticky-side-ad
 ##.sticky-sidebar-ad
@@ -33201,6 +33202,7 @@ agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,bal
 agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,boardgamegeek.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,chemistryworld.com,comingsoon.net,crn.com.au,diyfail.com,dogtime.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thestar.com.my,titantv.com,where.ca,yoimaletyoufinish.com##.leaderboard
 age.tv,agemys.net##+js(noeval-if, devtoolsDetector)
+agedbeauty.net,data18.com,pornpics.com,pornpics.de,vipergirls.to##a[href*="/go/"]
 agedbeauty.net,data18.com,pornpics.com,vipergirls.to##a[href*="/go/"]
 aggeliestanea.gr,infotel.ca#@#.adResult
 agirls.aotter.net##.row > div.col.hidden a[href^="https://supr.one/"]
@@ -43291,6 +43293,8 @@ o8tv.com#?#.container > .row > .myui-panel-bg:-abp-has(> .myui-panel-box > .myui
 o8tv.com#?#.container > .row > .myui-panel-bg:has(> .myui-panel-box > .myui-panel_bd > .col-xs-1 > a[target="_blank"] > img)
 o8tv.com#?#.container > .row > .myui-panel-bg:has(> .myui-panel-box > .myui-panel_bd > .myui-vodlist > .col-lg-8 > .myui-vodlist__box > a[target="_blank"])
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
+oann.com##.ad-slot__ad-label
+oann.com##.sidebar-ad-slot__ad-label
 oaoa.com###leaderboard-top
 objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
 ocado.com##.fops-item--advert
@@ -44097,6 +44101,9 @@ pornone.com##.video-add
 pornoreino.com##.bottom-bang
 pornoreino.com##.right-side
 pornpapa.com##.js-mob-popup
+pornpics.com,pornpics.de##.adss-rel
+pornpics.com,pornpics.de##.sponsor-type-4
+pornpics.com,pornpics.de##.stamp-bn-1
 pornpics.network###hidden
 pornpics.network##div[style^="height: 250px;"]
 pornpics.vip,xxxporn.pics##.cam
@@ -47277,6 +47284,8 @@ uuu9.com##div[class^="ad_140"]
 uuvps.com##img[width="1000"][height="50"]
 uwants.com###foruminfo + div[align="center"]
 uwants.com##.showpx1
+uwufufu.com##.min-h-\[253px\]
+uwufufu.com##.min-h-\[300px\]
 uxmatters.com##.promo_block
 uzshare.com###left-panel
 uzzf.com##.boxl
@@ -59716,6 +59725,7 @@ zzzyk.com###Tinfo
 ||battlehope.com^
 ||batwaxwok.site^
 ||baubogla.com^
+||baucdngb.xyz^
 ||bauchleredries.com^
 ||bauernative.com^
 ||baunaurou.com^
@@ -77615,7 +77625,6 @@ zzzyk.com###Tinfo
 ||i.bigin.io^
 ||i.compendium.com^
 ||i.hao61.net^
-||i.hizliresim.com^
 ||i.imedia.cz^
 ||i.imgur.com^$domain=av.movie
 ||i.isnssdk.com^
