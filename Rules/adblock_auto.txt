@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: C/GOsND1wO1y9bI3NJ9tDg
+! Checksum: h/0lYH3MhcFpscOYb7tCOA
 ! Title: 混合规则(自动更新)
-! Version: 20230602083635
+! Version: 20230602160911
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-02 08:36:35
-! Total Count: 111884
+! Last modified: 2023-06-02 16:09:11
+! Total Count: 111891
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9858,6 +9858,7 @@
 ##.adthrive-content
 ##.adthrive-header
 ##.adthrive-header-container
+##.adthrive-placeholder-content
 ##.adthrive-video-player
 ##.adthrive_custom_ad
 ##.adthx
@@ -39989,6 +39990,7 @@ igg-games.com,pcgamestorrents.com##a[href^="https://stARtgAming.net/"]
 ign.com##.deals-block
 ign.com##.wiki-bobble
 ign.com##.zad
+ign.com,pcmag.com##.zad
 igo.cn###NewigoBox
 igo.cn##.adBG
 igo.cn##DIV[class^="leyuBg"]
@@ -46148,7 +46150,9 @@ tech-latest.com##.lates-art-top
 tech-latest.com##.tdi_102_e06
 tech-latest.com##[href="https://tech-latest.com/go/nordvpn"]
 tech.hindustantimes.com##.ProductAffilateWrapper
+tech.hindustantimes.com##.adsHeight720x90
 tech.hindustantimes.com##.m-to-add
+tech.hindustantimes.com##.sponsoredBox
 tech.hindustantimes.com##.topGadgetsAppend
 tech.qq.com##.kjad2
 techadvisor.com###TNrsRmAx
@@ -52219,6 +52223,7 @@ zzzyk.com###Tinfo
 ||949949.com/2013/end/hot_news.js
 ||94ab.com^$third-party
 ||94as.com/cxlnb.php
+||94evd.xyz^
 ||94itv.app/casino/
 ||94itv.net/f/
 ||94pr.cn^
@@ -72759,6 +72764,7 @@ zzzyk.com###Tinfo
 ||fjxiicojaciiqap.xyz^
 ||fjyc.pw^
 ||fjzimaoqu.cn^$third-party
+||fka06.site^
 ||fkading38.xyz^
 ||fkbwtoopwg.com^
 ||fkehg.com^
@@ -81416,6 +81422,7 @@ zzzyk.com###Tinfo
 ||kjsqbbjhrfn.com^
 ||kjsvvnzcto.com^
 ||kju369.cn^
+||kjugr.xyz^
 ||kjvnfhdgb.com^
 ||kjwx8.com^
 ||kjwysxs.cn^
