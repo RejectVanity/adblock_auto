@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N5ooshj+e1zpc0cVmdqbtA
+! Checksum: B1FPaWJm4gWQQFfH9zlLEw
 ! Title: 自用去广告Adblock规则
-! Version: 20230528073622
-! Last modified: 2023-05-28 07:36:22
-! Total Count: 1397
+! Version: 20230602172330
+! Last modified: 2023-06-02 17:23:30
+! Total Count: 1399
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -605,7 +605,6 @@ chejiahao.m.autohome.com.cn##.pgc-details-recommend-list
 chinasex.com.es##[class^="footer-ad"]
 colamanhua.com##[class$="i"][style*="bottom:"],[class$="h"][style*="bottom:"]
 colamanhua.com#@#.gg_950
-colamanhua.com#@#.mlad
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 d1bzw.com##[id="appurl"],[id="bbsurl"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
@@ -1150,11 +1149,13 @@ zle.com$script
 ||ceshi*.ink/s/*?_=$third-party
 ||chiluyingxiao.com^$third-party,script
 ||clickx.autohome.com.cn^
+||cloudfront.net^/?clzed=$third-party
 ||cmx.autohome.com.cn^
 ||comm.app.autohome.com.cn^
 ||cos.ap-*.myqcloud.com^$third-party
 ||cpro.baidustatic.com^
 ||crjpgate.com^$document
+||d1ezlc9vy4yc7g.cloudfront.net^$third-party
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||da-ads.com^
 ||daraz.com^
@@ -1344,6 +1345,7 @@ zle.com$script
 ||usjbwvtqwv.com^$third-party
 ||v*.qudou100.com^$script
 ||vipwm.cc^
+||vivaclix.com^$third-party
 ||vlets.kyzx.xyz^
 ||vlets.qkobbgs.cyou^
 ||vlets.qosbbzw.cyou^
