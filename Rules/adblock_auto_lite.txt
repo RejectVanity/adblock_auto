@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: zerfvThfS/1Nxd0L5YtNKA
+! Checksum: nslddM+LsGuuPdg/If24kw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230602192608
+! Version: 20230602195514
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-02 19:26:08
-! Total Count: 20132
+! Last modified: 2023-06-02 19:55:14
+! Total Count: 20127
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4546,7 +4546,6 @@
 @@||anidub.com/ads.js|$script,domain=anidub.com
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
 @@||ausujet.com/skins/common/ads.js
-@@||avgle.com/embed/$genericblock,generichide
 @@||c-ctrip.com/images/*.jpg
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
@@ -4783,7 +4782,6 @@ closermag.fr,grazia.fr,topsante.com##.dfp-slot
 cofp.ru##.admitad-checker-popup
 colamanhua.com##[class$="i"][style*="bottom:"],[class$="h"][style*="bottom:"]
 colamanhua.com#@#.gg_950
-colamanhua.com#@#.mlad
 comptoir-info.com#@#.textad
 cowcotland.com,wamiz.com###adblocker
 cs-amba.ru##.banka
@@ -5238,7 +5236,6 @@ sm.cn##.wl-dot-container
 sm.cn##.wolong-container
 sm.cn##a[href*="sm.cn/adclick?"]
 sm.cn##div[id*="_Shopping_Etao_"]
-sm.cn##div[id^="ad_"]
 sm.cn##div[id^="ad_ele_"]
 sm.cn##div[id^="dl-banner-"]
 smotrisport.tv##.dont-add-our-site-pls
@@ -5393,7 +5390,6 @@ topcraft.ru##.ad-info
 torrnado.win##body > div > .a-overlay
 tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
 trackr.fr##.alert-dashed
-tsn.ua##.c-aside__port
 tuchkatv.ru##.adb_m
 tut.by##body > div[style*="position: fixed;"][style*="right: 0;"]
 tvcook.ru##.cat
@@ -5508,7 +5504,6 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##embed[src]
 ykt.ru##.n-banner--adblocked
 yocast.tv###ra9e
-yz.m.sm.cn##[id^="ad_"]
 yz.m.sm.cn##[id^="dl-banner-"]
 yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 yz.m.sm.cn##div[id*="_Shopping_Etao_"]
