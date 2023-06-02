@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: h/0lYH3MhcFpscOYb7tCOA
+! Checksum: z7deUL1oDLTbH1342DeFVw
 ! Title: 混合规则(自动更新)
-! Version: 20230602160911
+! Version: 20230602192606
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-02 16:09:11
-! Total Count: 111891
+! Last modified: 2023-06-02 19:26:06
+! Total Count: 111901
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -37634,6 +37634,7 @@ fandom.com###featured-video__player-container
 fandom.com##.aff-unit__wrapper
 fandom.com##.featured-video__wrapper
 fandom.com##.marketplace
+fandomwire.com##.customad
 fandomwire.com##[style^="min-height: 320px"]
 fanfics.me##.red.nodata
 fang.com###xmlAd
@@ -45954,6 +45955,8 @@ stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
 stuff.co.nz##.sics-component__widget--neighbourlyShowcasePlus
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 stuff.tv##.block-hcm-external-blocks
+stuff.tv##.c-ad--mpu-bottom
+stuff.tv##.c-ad--mpu-top
 stuff.tv#@#.c-ad
 stylist.co.uk##.css-17xu4dw
 stylist.co.uk##.css-1fz837r
@@ -64456,6 +64459,7 @@ zzzyk.com###Tinfo
 ||cloudfrale.com^
 ||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront-labs.amazonaws.com^
+||cloudfront.net^/?clzed=$third-party
 ||cloudiiv.com^
 ||cloudimagesa.com^
 ||cloudimagesb.com^
@@ -66573,6 +66577,7 @@ zzzyk.com###Tinfo
 ||d1esebcdm6wx7j.cloudfront.net^
 ||d1ev866ubw90c6.cloudfront.net^
 ||d1ezlc9vy4yc7g.cloudfront.net^
+||d1ezlc9vy4yc7g.cloudfront.net^$third-party
 ||d1f05vr3sjsuy7.cloudfront.net^
 ||d1f5rbi95y1icu.cloudfront.net^
 ||d1fc8wv8zag5ca.cloudfront.net^
@@ -73742,6 +73747,7 @@ zzzyk.com###Tinfo
 ||g.shommaipl.com^$third-party
 ||g.yccdn.com^
 ||g.youyou234.com^
+||g0cu3.top^
 ||g1.pptair.com^
 ||g1.tagtic.cn^
 ||g1.taijuba.com^
@@ -75051,6 +75057,7 @@ zzzyk.com###Tinfo
 ||gongshe99.com/d/js/gongshe/gsw
 ||gongwuyuan.name^
 ||gongxifc.com^
+||gongyuxinxi.xyz^
 ||goniforas.com^
 ||gonpc.com^
 ||goo-access-analytics.appspot.com^
@@ -90568,6 +90575,7 @@ zzzyk.com###Tinfo
 ||payslipsscowl.com^
 ||paywoman.ru^
 ||pazashevy.com^
+||pazz.xyz^
 ||pazzfun.com^
 ||pb.i.sogou.com^
 ||pb.plat.services^
@@ -98305,6 +98313,7 @@ zzzyk.com###Tinfo
 ||sjpoxe6.com^
 ||sjsmartcontent.org^
 ||sjtactic.com^
+||sjzls.top^
 ||sk1n.fr^
 ||sk8t.fr^
 ||skadnetwork.singular.net^
@@ -106753,6 +106762,7 @@ zzzyk.com###Tinfo
 ||viva.api.xiaoying.co^
 ||vivachina.co^
 ||vivaciousveil.com^
+||vivaclix.com^$third-party
 ||vivapays.com^
 ||vividly.site^
 ||vivistats.com^
