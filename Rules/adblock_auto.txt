@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sO6T7x2qY6TmOOtCiHSG2A
+! Checksum: C/GOsND1wO1y9bI3NJ9tDg
 ! Title: 混合规则(自动更新)
-! Version: 20230602000702
+! Version: 20230602083635
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-02 00:07:02
-! Total Count: 111866
+! Last modified: 2023-06-02 08:36:35
+! Total Count: 111884
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3647,6 +3647,7 @@
 ###in-article-ad
 ###in-article-mpu
 ###in-content-ad
+###inArticleAdv
 ###inarticlead
 ###inc-ads-bigbox
 ###incontent-ad-2
@@ -9644,6 +9645,7 @@
 ##.adsenseformat
 ##.adsenseframe
 ##.adsenseleaderboard
+##.adsensemobile
 ##.adsep
 ##.adserve_728
 ##.adserverBox
@@ -11050,6 +11052,7 @@
 ##.banner-adsense
 ##.banner-adv
 ##.banner-advert
+##.banner-advert-wrapper
 ##.banner-advertisement
 ##.banner-advertising
 ##.banner-adverts
@@ -17483,7 +17486,9 @@
 ##AD-TRIPLE-BOX
 ##ADS-RIGHT
 ##AMP-AD
+##A[href*=".bright.cn/?utm_"]
 ##A[href*=".com/?Agent="]
+##A[href*="/nb66nb.cc"]
 ##A[href*="/st66st.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
@@ -20536,6 +20541,7 @@ $websocket,domain=5nj.com|cechi8.com
 /496_98_
 /500ad/*
 /527ldy.oss-
+/5555vipqipai.oss-
 /555hsdsj/*
 /555hsdsjTT/*
 /58pic/index.php?m=adManageSystem&
@@ -59893,6 +59899,7 @@ zzzyk.com###Tinfo
 ||bcvc.mobi^
 ||bcvcrdr.xyz^
 ||bcvideod.com^
+||bcvxfgy.xyz^
 ||bcwxcwvwmcsplf.xyz^
 ||bcykbhb.cn^
 ||bd*-ys.km.com^
@@ -63591,6 +63598,7 @@ zzzyk.com###Tinfo
 ||chengoassa.com^
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
+||chenhaishan.info^
 ||chenhao.name^
 ||chenjiayu.cn/gg.js
 ||chenmujiang.com.cn^
@@ -63911,6 +63919,7 @@ zzzyk.com###Tinfo
 ||ciksolre.net^
 ||cilimao.*/amaod/
 ||ciljbnktyre.com^
+||cilsammwcblcv.com^
 ||cima-club.club^
 ||cimage.adobe.com^
 ||cimcpbxsntrvj.xyz^
@@ -77209,6 +77218,7 @@ zzzyk.com###Tinfo
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
 ||hotrank.com.tw^
 ||hotsexmeet.ru^
+||hottercensorbeaker.com^
 ||hotterenvisage.com^
 ||hottopnow.com^
 ||hottraffic.nl^
@@ -80604,6 +80614,7 @@ zzzyk.com###Tinfo
 ||jstucdn.com/g3/
 ||jsuboyp.cn^
 ||jswz8.com/images/
+||jsx.luyouwang.com^
 ||jsyd139.com^$third-party
 ||jsyefc.com^
 ||jsyfqeynrvg.com^
@@ -84365,6 +84376,7 @@ zzzyk.com###Tinfo
 ||maddenbusy.com^
 ||maddeningpowder.com^
 ||madehimn.xyz^
+||madeupadoption.com^
 ||madkudu.com^
 ||madnessindians.com^
 ||madnet.ru^
@@ -85771,6 +85783,7 @@ zzzyk.com###Tinfo
 ||mirtrailer.ru^
 ||misafnix.space^
 ||misaglam.com^
+||misarea.com^
 ||misbornsubitem.space^
 ||misc.api.snaptube.app^
 ||miscellaneousdietary.com^
@@ -94412,6 +94425,7 @@ zzzyk.com###Tinfo
 ||razasot.cn^
 ||razdvabm.com^
 ||razingvexable.store^
+||razrzh.xyz^
 ||razzedlabras.com^
 ||razzedwhimsic.website^
 ||rb*.design.ru^
@@ -107705,6 +107719,7 @@ zzzyk.com###Tinfo
 ||webtrack.biz^
 ||webtracker.apicasystem.com^
 ||webtracker.jp^
+||webtracking.fe.union-investment.de^
 ||webtrackingservices.com^
 ||webtradehub.com^
 ||webtraffic.se^
@@ -109772,6 +109787,7 @@ zzzyk.com###Tinfo
 ||xvliqsa.cn^
 ||xvmvvh.zcrqsfq.biz^
 ||xvnitu.com^
+||xvpqmcgf.com^
 ||xvqdfwy.cn^
 ||xvrvgod.xyz^
 ||xvuslink.com^
@@ -110658,6 +110674,7 @@ zzzyk.com###Tinfo
 ||yrrcc.top^
 ||yrsfs.com^
 ||yrstwbyl.xyz^
+||yrszy.com.cn^
 ||yrtedzb.cn^$document
 ||yrtedzb.cn^$~third-party
 ||yruvnmn.cn^
@@ -111317,6 +111334,7 @@ zzzyk.com###Tinfo
 ||zhoubo01.cn^
 ||zhoudm.love^
 ||zhouduanyyds.com^
+||zhouduayqq.com^
 ||zhouxingyu.xyz^
 ||zhpfl.cn^
 ||zhrrrec.cn^
