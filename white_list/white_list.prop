@@ -52,7 +52,8 @@ baidu.com.*#results[[:space:]]>[[:space:]]div\[class\]:not(.result):not(.result-
 ^\|\|cibntv.net\/youku\/\$media,mp4$
 ^\/upload\/ads\/\*$
 ! 修复Via 规则读取错误的问题
-^##div\[class\*=\"ad\"[[:space:]]i\]
+^##div\[class\*=\"ad\"[[:space:]]i\].*\!important\;)$
+
 
 
 
