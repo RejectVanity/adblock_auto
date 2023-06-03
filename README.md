@@ -1,5 +1,5 @@
 # 混合规则
-### 自动更新(2023-06-03 22:44:13)
+### 自动更新(2023-06-03 22:51:58)
 
 ## 统计
 ### 访问量 : ![visitors](http://006.freecounters.co.uk/count-133.pl?count=qe1milbo7p68gg219fmj&type=links&prog=unique)
@@ -7,8 +7,8 @@
 
 | 名称 | GIthub订阅链接 | Github加速订阅链接 | GitCode订阅链接 | 
 | :-- | :-- | :-- | :-- |
-| 混合规则(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅]([E]2023-06-03 22:44:29 错误！无法连接网络！) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto.txt) |
-| 混合规则精简版(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅]([E]2023-06-03 22:44:45 错误！无法连接网络！) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt) |
+| 混合规则(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅]([E]2023-06-03 22:52:15 错误！无法连接网络！) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto.txt) |
+| 混合规则精简版(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅]([E]2023-06-03 22:52:31 错误！无法连接网络！) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt) |
 
 ### 上游规则
 #### 感谢各位大佬❤ (ɔˆз(ˆ⌣ˆc)
