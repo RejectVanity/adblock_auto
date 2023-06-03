@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: CCXOATX6DzkWcyje7YY6ag
+! Checksum: IsV+J8CwkfwNY+yo9NhKcw
 ! Title: 混合规则(自动更新)
-! Version: 20230603225824
+! Version: 20230604000721
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-03 22:58:24
-! Total Count: 111947
+! Last modified: 2023-06-04 00:07:21
+! Total Count: 111949
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -40906,6 +40906,8 @@ jrj.com.cn##.piboxtwo
 jrj.com.cn##.wbyy
 jrlt.cc###hd + .wp
 jrlt.cc##a[href^="ad."]
+jrlt.vip###hd + .wp
+jrlt.vip##a[href^="ad."]
 jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
 js0573.com###adv1
 js0573.com###adv2
