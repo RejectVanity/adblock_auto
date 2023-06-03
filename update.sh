@@ -51,6 +51,7 @@ cp -rf "${Base_Rules_Folder}/去除小说广告.prop" "${Combine_Folder}/去除�
 cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Combine_Folder}/antiadblockfilters.txt"
 cp -rf "${Base_Rules_Folder}/常用广告的顶级域名.prop" "${Combine_Folder}/常用广告的顶级域名.txt"
 cp -rf "${Base_Rules_Folder}/拦截H转跳.prop" "${Combine_Folder}/拦截H转跳.txt"
+cp -rf "${Base_Rules_Folder}/网址批量规则.prop" "${Combine_Folder}/网址批量规则.txt"
 
 
 #合并预处理规则
@@ -80,6 +81,7 @@ cp -rf "${Base_Rules_Folder}/去除小说广告.prop" "${Combine_Folder}/lite/�
 cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Combine_Folder}/lite/antiadblockfilters.txt"
 cp -rf "${Base_Rules_Folder}/常用广告的顶级域名.prop" "${Combine_Folder}/lite/常用广告的顶级域名.txt"
 cp -rf "${Base_Rules_Folder}/拦截H转跳.prop" "${Combine_Folder}/lite/拦截H转跳.txt"
+cp -rf "${Base_Rules_Folder}/网址批量规则.prop" "${Combine_Folder}/lite/网址批量规则.txt"
 
 
 
