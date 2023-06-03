@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: da7LflXVazU+iOec3cajDg
+! Checksum: JmPqMS5izU1yYPpGU/wCLw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230603101214
+! Version: 20230603105236
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-03 10:12:14
-! Total Count: 20161
+! Last modified: 2023-06-03 10:52:36
+! Total Count: 20163
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2905,6 +2905,7 @@
 /js/dj1ll*.js
 /js/dj2ll*.js
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
+/js/jads.js$script
 /js/pfadll*.js
 /levelmaxblock.js
 /lv/esnk/*$script,third-party
@@ -12804,6 +12805,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jable.tv/assets/images/wejo/$image
 ||jacquelinelaura.com^
 ||jads.co^$domain=avgle.com
+||jads.co^$third-party
 ||jads.co^$third-party,important
 ||jamierace.com^
 ||jandan.net/static/sos/recreate-games.gif
