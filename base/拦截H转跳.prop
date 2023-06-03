@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yH+qjIqvUwaS9eBSEQfPvQ
+! Checksum: kzQ7rS7+SuYQvBK/4iWX7g
 ! Title: 拦截黄色网站转跳
-! Version: 20230603100626
-! Last modified: 2023-06-03 10:06:26
-! Total Count: 110
+! Version: 20230603195828
+! Last modified: 2023-06-03 19:58:28
+! Total Count: 118
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
 .cn:*/?channelCode=$document
@@ -48,8 +48,12 @@
 /?channelCode=bfy$~third-party
 /?channelCode=ywy$document
 /?channelCode=ywy$~third-party
+/chunyu*.html?channelCode=$document
+/chunyu*.html?channelCode=$~third-party
 /dayu*.html?channelCode=$document
 /dayu*.html?channelCode=$~third-party
+/yeyue*.html?channelCode=$document
+/yeyue*.html?channelCode=$~third-party
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*:*/chunyu.html?k=$document
@@ -84,10 +88,14 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||jixiangxianbao.cn^$~third-party
 ||jugaohr.cn^$document
 ||jugaohr.cn^$~third-party
+||lu.lindhf4.com^$document
+||lu.lindhf4.com^$~third-party
 ||luochong2.cn^$document
 ||luochong2.cn^$~third-party
 ||ofgsqic.cn^$document
 ||ofgsqic.cn^$~third-party
+||pf.lalalalalals.com^$document
+||pf.lalalalalals.com^$~third-party
 ||qapuote.cn^$document
 ||qapuote.cn^$~third-party
 ||qgfzb.com^$document
