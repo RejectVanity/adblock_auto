@@ -18,6 +18,7 @@ jobs:
         sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
         sudo apt-get install -y dos2unix
         sudo apt-get install -y perl
+        sudo apt-get install -y ping
         bash update.sh
     - name: Commit files
       run: |
