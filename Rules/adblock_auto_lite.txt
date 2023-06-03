@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: OK66veX0OdhqQDTPBJMt6A
+! Checksum: 519PQXH9LXV4zane7ch/ig
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230603160707
+! Version: 20230603194245
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-03 16:07:07
-! Total Count: 20164
+! Last modified: 2023-06-03 19:42:45
+! Total Count: 20165
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1248,9 +1248,7 @@
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
-##A[href*=".bright.cn/?utm_"]
 ##A[href*=".com/?Agent="]
-##A[href*="/nb66nb.cc"]
 ##A[href*="/st66st.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
@@ -2791,6 +2789,7 @@
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\.net\/js\/popup\.js\?v(er)?=1\./$important,script,~third-party
+/\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 /\/[a-z0-9]{8,10}\?.*?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,~third-party,important
@@ -5979,6 +5978,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||19qiqi.com/mid/
 ||19vcd.com/mid/
 ||1buu1.penyouw.com^
+||1cdhf.top^
 ||1d1a.com^
 ||1dfsdfg.com^
 ||1e4y54ve.cn^
@@ -17525,6 +17525,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tcmap.com.cn/js/b_
 ||tcmsp.cn^
 ||tcnnnzt.cn^
+||tctltb.com^
 ||td.easysavemore.com^
 ||td.sxwqhotel.com^
 ||tdayi.com^
