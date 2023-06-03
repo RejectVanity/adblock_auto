@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: wDE78HY3S3uUHUftVpjKEA
+! Checksum: 5F50E2xxqVE8Mh6dV/04hA
 ! Title: 混合规则(自动更新)
-! Version: 20230603194243
+! Version: 20230603200024
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-03 19:42:43
-! Total Count: 111935
+! Last modified: 2023-06-03 20:00:24
+! Total Count: 111943
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -24246,6 +24246,8 @@ $websocket,domain=5nj.com|cechi8.com
 /chocolate.cgi?
 /chorus_ads.
 /chrome-ad.
+/chunyu*.html?channelCode=$document
+/chunyu*.html?channelCode=$~third-party
 /ciaad.
 /circads.
 /cjadsprite.
@@ -27794,6 +27796,8 @@ $websocket,domain=5nj.com|cechi8.com
 /yaoqi/static/js/*
 /yellowpagesads/*
 /yesky/js/counter/*
+/yeyue*.html?channelCode=$document
+/yeyue*.html?channelCode=$~third-party
 /yhs/ads?
 /yieldads.
 /yieldlab.$domain=~yieldlab.com|~yieldlab.science
@@ -83933,6 +83937,8 @@ zzzyk.com###Tinfo
 ||ltwfd.xyz^
 ||ltyabkihjsecl.xyz^
 ||ltyscmtia.xyz^
+||lu.lindhf4.com^$document
+||lu.lindhf4.com^$~third-party
 ||lu.sogou.com^
 ||lu.sogoucdn.com^
 ||lu228.com/ajs/
@@ -90997,6 +91003,8 @@ zzzyk.com###Tinfo
 ||peyzamo.ru^
 ||pezrphjl.com^
 ||pf.intuit.com^
+||pf.lalalalalals.com^$document
+||pf.lalalalalals.com^$~third-party
 ||pf.newegg.com^
 ||pf34zdjoeycr.com^
 ||pfewuzbtkr.com^
