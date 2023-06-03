@@ -188,5 +188,3 @@ key
 }
 
 
-update_README_info
-
