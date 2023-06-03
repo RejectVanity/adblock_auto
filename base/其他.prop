@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5DYYb2AcUjMawq3OZzBp3w
+! Checksum: 4TsfXKLs4olWUuWf9ysrqQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230603094443
-! Last modified: 2023-06-03 09:44:43
-! Total Count: 1380
+! Version: 20230603105011
+! Last modified: 2023-06-03 10:50:11
+! Total Count: 1382
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -382,6 +382,7 @@
 /js/advertiser.js
 /js/dj1ll*.js
 /js/dj2ll*.js
+/js/jads.js$script
 /js/pfadll*.js
 /lv/esnk/*$script,third-party
 /mdzzxttss.php?s=
@@ -1198,6 +1199,7 @@ zle.com$script
 ||imprintmake.com^
 ||itrww.xyz^
 ||ixsw.org/*/*.js
+||jads.co^$third-party
 ||jcylrv.iask.com.cn^
 ||jianpian.vip^
 ||jievf.cn^
