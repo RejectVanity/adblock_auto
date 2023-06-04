@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KBCXFVXzExSEvQEB4U/Tkw
+! Checksum: w6rhyKXEE8eZd+cGqUtezw
 ! Title: 自用去广告Adblock规则
-! Version: 20230604221256
-! Last modified: 2023-06-04 22:12:56
-! Total Count: 1386
+! Version: 20230604232259
+! Last modified: 2023-06-04 23:22:59
+! Total Count: 1388
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -573,6 +573,8 @@ bing.com##.tile_grp
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[h$=",Ads"]
 bing.com##a[href*="/aclick?ld="]
+bing.com##li[class="sa_hd"][role="option"]
+bing.com##li[class^="sa_sg"][stype="PN"]
 blog.sina.cn###pl-ad-after-comments
 blog.sina.cn###pl-adtop-bar
 blog.sina.cn###pl-blog-artad
