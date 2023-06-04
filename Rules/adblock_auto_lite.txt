@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: RiWS0vXAkHwLQR9aFr6l+A
+! Checksum: 50hEvuw2mbMtFpmo/uRFHw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230604165355
+! Version: 20230604221517
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-04 16:53:55
-! Total Count: 20205
+! Last modified: 2023-06-04 22:15:17
+! Total Count: 20208
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4608,6 +4608,7 @@
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@||static.koreus.com/js/advert.js
 @@||static.tieba.baidu.com/tb/editor/images/client/image_emoticon*.png
+@@||tyue.me^$image
 @@||universfreebox.com/js/advertisement.js
 @@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
 @@||wamiz.com/css/ads.css
@@ -15170,6 +15171,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nwecd.xyz^$third-party
 ||nweon.com/wp-content/repo/ad/
 ||nwhvceb.cn^
+||nwmol.top^
 ||nwogldc.top^
 ||nwrazu.cn^
 ||nwuidsbjak.com^
@@ -16362,6 +16364,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rdtjkwy.cn^
 ||rdx.autohome.com.cn^
 ||re.taotaosou.com^
+||read*.me/app/*.js$script
 ||readme.red^
 ||readysugerfree.top^
 ||realsrv.com^$third-party
