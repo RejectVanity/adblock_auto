@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: p3FIWkfs3qDFQ2fr0pfqng
+! Checksum: /RNAcxnD2SqK2L4c7bW2dA
 ! Title: 混合规则(自动更新)
-! Version: 20230604084147
+! Version: 20230604135338
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-04 08:41:47
-! Total Count: 111966
+! Last modified: 2023-06-04 13:53:38
+! Total Count: 111975
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -35227,6 +35227,7 @@ cardu.com.tw##.gold-big-ad
 cardu.com.tw##img[src*="/ad_images/"]
 careerindia.com##.cmscontent-top
 careerindia.com##.inhouse-content
+careerindia.com,oneindia.com##.inhouse-content
 careonline.com.tw##.wrapper > script + a[href][onclick]
 cargurus.co.uk##.leaderboardWrapper
 cargurus.com##.Gi1Z6i
@@ -42535,6 +42536,7 @@ msn.cn##[class^="articlePage_eoabContent"]
 msn.cn##cs-native-ad-card
 msn.cn##div[class^="nativeAd-DS-card"]
 msn.com###displayAdCard
+msn.com###div[id^="mrr-topad-"]
 msn.com###partners
 msn.com###promotions
 msn.com###taboola-above-homepage-thumbnails
@@ -42553,6 +42555,7 @@ msn.com##.intra-article-ad-half
 msn.com##.intra-article-module
 msn.com##.medianetintraarticlenativead
 msn.com##.modernRightRail_stickyTopBannerAd-DS-EntryPoint1-1
+msn.com##.modernRightRail_topAd_container_2col_newRR-DS-EntryPoint1-1
 msn.com##.nativeadserversidecontentmodule
 msn.com##.outeradcontainer
 msn.com##.qohvco-DS-EntryPoint1-1
@@ -42587,6 +42590,7 @@ msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##div[data--adqjyluqt]
 msn.com##div[data-section-id="sponsored.stripe.shopping"]
+msn.com##div[id^="nativeAd"]
 msn.com##li[data-m*="NativeAdItem"] > a > *
 msn.com##li[data-provider="gemini"]
 msn.com##li[data-provider="outbrain"]
@@ -42943,6 +42947,7 @@ newindianexpress.com##.scc
 newkaliningrad.ru##body > .soclinks + script + div[class]:not([id])
 newmobilelife.com###ATS_sticky
 newnavitel.blogspot.com##.post-body > div[dir] > div[dir] > h1#result
+news-daily.com,outlookindia.com,stripes.com###_snup-rtdx-ldgr1
 news-daily.com,stripes.com###_snup-rtdx-ldgr1
 news.163.com##.mod_netes_origina
 news.163.com##.mod_pageh5
@@ -43384,6 +43389,7 @@ omniglot.com##.flex-container
 on.cc#@##CONTENTAD
 one.com.mt###header-sidebar
 oneesports.gg##.pr-sm-4
+oneindia.com###closePopupDiv
 oneindia.com###taboola-mid-article-thumbnails
 oneindia.com##.oi-add-block
 oneindia.com##.oi-spons-ad
@@ -49563,6 +49569,7 @@ zzzyk.com###Tinfo
 ||0fmm.com^
 ||0ftyz.top^
 ||0gw7e6s3wrao9y3q.pro^
+||0hlc8.top^
 ||0i0i0i0.com^
 ||0i0i0i0.com^$third-party,important
 ||0iqiehoa35.ru^
@@ -76274,6 +76281,7 @@ zzzyk.com###Tinfo
 ||hawkyeye5ssnd.com^
 ||hawsuffer.com^
 ||haxbyq.com^
+||haxd7.top^
 ||hay-borsa.ru^
 ||hayfatduh.com^
 ||haymarketstat.de^
@@ -77344,6 +77352,7 @@ zzzyk.com###Tinfo
 ||hpyue.com^
 ||hpzosbx.cn^
 ||hq1.appsflyer.com^
+||hq390.xyz^
 ||hq3x.com^
 ||hqae.cn^
 ||hqawqssuvqyl.xyz^
