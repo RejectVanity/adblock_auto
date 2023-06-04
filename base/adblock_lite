@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6DTAZ1UR+umm0zuNbfFq6Q
+! Checksum: eBqDyyYgytpO9+U35hx/+Q
 ! Title: 混合规则(精简版)
-! Version: 20230603221517
+! Version: 20230604221218
 ! Expires: 1145141919810
-! Last modified: 2023-06-03 22:15:22
-! Total Count: 19820
+! Last modified: 2023-06-04 22:12:23
+! Total Count: 19854
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -2556,6 +2556,10 @@
 .com:*/?channelCode=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/entry/register/?i_code=$document
+.com:*/entry/register/?i_code=$~third-party
+.com:*/m/#/home?register=1&agent=$document
+.com:*/m/#/home?register=1&agent=$~third-party
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/waga*.html$document
@@ -2646,6 +2650,8 @@
 .net/js/ads/
 .net/vh1/$script,third-party
 .net/vj1/$script,third-party
+.net:*/index.html?shareName=$document
+.net:*/index.html?shareName=$~third-party
 .niusnews.com/upload/banners/
 .nyaa.fun/static/img/*_refesh.
 .nyaa.fun/static/img/host/*.gif
@@ -2758,6 +2764,8 @@
 /(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
+/(https?:\/\/)[0-9]{8}.(xyz|top|live|com|cn|net)/[0-9]{4}.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$document
+/(https?:\/\/)[0-9]{8}.(xyz|top|live|com|cn|net)/[0-9]{4}.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$~third-party
 /(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$document
@@ -2982,6 +2990,8 @@
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
+://app-mctnge.*.com/page/mctnge/install/c/$document
+://app-mctnge.*.com/page/mctnge/install/c/$~third-party
 ://at.umtrack.com/*?cid=$document
 ://at.umtrack.com/*?cid=$~third-party
 ://banner.$third-party
@@ -4558,6 +4568,7 @@
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||static.koreus.com/js/advert.js
 @@||static.tieba.baidu.com/tb/editor/images/client/image_emoticon*.png
+@@||tyue.me^$image
 @@||universfreebox.com/js/advertisement.js
 @@||wamiz.com/css/ads.css
 @@||www.ifon.ca^$generichide
@@ -5602,6 +5613,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||096iokj.com^
 ||0f4l.xyz^
 ||0ftyz.top^
+||0hlc8.top^
 ||0i0i0i0.com^$third-party,important
 ||0kkbb.com/js/i.js
 ||0l9x.cn^
@@ -5880,6 +5892,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||172.121.4.252^
 ||1722t.com/js/jquery.js
 ||173app.com/hot/666/alipay-
+||173e.cn^
 ||174.123.15.43:8080
 ||174.139.53.195^
 ||17500.cn/Public/Mobile/img/enjoyswiss.jpg
@@ -5935,6 +5948,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||19qiqi.com/mid/
 ||19vcd.com/mid/
 ||1buu1.penyouw.com^
+||1cdhf.top^
 ||1d1a.com^
 ||1dfsdfg.com^
 ||1e4y54ve.cn^
@@ -6467,6 +6481,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||58.com/ds/tgbrand/*.js
 ||58.com/show/ads?
 ||580bk.com/ceshi/
+||58455540.com^$document
+||58455540.com^$~third-party
 ||5851a.com^
 ||585227ybn.com^
 ||587tuchuang.com^
@@ -6812,6 +6828,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||8jkx.com^
 ||8jrc564wtf.cn^
 ||8jrc564wtf.cn^$third-party
+||8jxxai.com^
 ||8le8le.com^$third-party
 ||8maple.ru/comic.jpg
 ||8o9m.cn^
@@ -7297,6 +7314,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||adcd7.com^
 ||adcel.co^
 ||adcel.vrvm.com^
+||adcenter-api.cashwalk.co^
 ||adcolony.com^
 ||adconfer.com^$third-party
 ||adcs-*.myappsget.com^
@@ -7956,6 +7974,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||apjiangte.com^
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
+||apk.zizhukekong.org^$document
+||apk.zizhukekong.org^$~third-party
 ||app-g.39.net/NNN/
 ||app-liv.jp/js/sp/detect_adblock.js
 ||app-trackings.com^
@@ -10118,6 +10138,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||drmcmm.baidu.com^
 ||drmfslx.cn^
 ||drrzzl.cn^
+||drtyujgsg.xyz^
 ||drvsky.com/js/jolimark.gif
 ||ds9e.top^
 ||dsctnsn.xyz^
@@ -11581,6 +11602,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||harahero.top^
 ||haruepy.cn^
 ||hasmobi.net^
+||haxd7.top^
 ||hazmo.stream/hazmo.js$script
 ||hazmolive.stream/hazmoLive.js$script
 ||hb.rayjump.com^
@@ -11859,6 +11881,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hppmy.cn^
 ||hpygame.com^
 ||hpzosbx.cn^
+||hq390.xyz^
 ||hqae.cn^
 ||hqcqz2.cn^
 ||hqcx.net/images/baidu.jpg
@@ -11938,6 +11961,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hubpd.com/hubpd/images/dingtong
 ||hucang.cloud^
 ||hudong.com/11/85/26100000005581147339859649123.jpg
+||hudqrn.xyz^
 ||hufkzv.xyz^
 ||hugo3c.tw^$csp=script-src 'self' * 'unsafe-inline'
 ||huhai.cdwz8.cn^
@@ -13195,6 +13219,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kdou.com/ad_js.php?adid=
 ||kdpic.pchome.com.tw^
 ||kdqika.xyz^
+||kdslife.com/kds_2023/kafu.
 ||kdslife.com/ui/ad/
 ||kdsnw.today^
 ||kdw*.com/layer/layer.js
@@ -14922,6 +14947,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nwecd.xyz^$third-party
 ||nweon.com/wp-content/repo/ad/
 ||nwhvceb.cn^
+||nwmol.top^
 ||nwogldc.top^
 ||nwrazu.cn^
 ||nwuidsbjak.com^
@@ -14965,6 +14991,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||oaepnba.cn^
 ||oaftaijo.net^$third-party
 ||oajxkah.cn^
+||oalmbmf.xyz^
 ||oanlisgk.fun^
 ||oapsmnk.cyou^
 ||ob.leap.app^
@@ -15629,6 +15656,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pxerw.xyz^
 ||pxrs6.cn^
 ||pxx.tnklrs.cn^$third-party
+||pxzkqq.com^
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
 ||pyblogs.xyz^
@@ -16077,6 +16105,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rdtjkwy.cn^
 ||rdx.autohome.com.cn^
 ||re.taotaosou.com^
+||read*.me/app/*.js$script
 ||readme.red^
 ||readysugerfree.top^
 ||realsrv.com^$third-party
@@ -17943,6 +17972,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||v2zn.xyz^
 ||v34ffs.site^
 ||v4dwkcv.com/html/click/
+||v59833.com:^$document
+||v59833.com:^$~third-party
 ||vads-api.daumkakao.com/xylophone/adrequest/json
 ||vadypb.cn^
 ||vagvedi.cn^
@@ -18535,6 +18566,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||www-dnwx-com.anquanbao.cn/pic
 ||www.adbert.com.tw^
 ||www.auditude.com^
+||www.baty306.com:^$document
+||www.baty306.com:^$~third-party
 ||www.dmhy.org^*.*?$image
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
 ||www.tjjd*.live^$third-party
@@ -18712,6 +18745,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xiaopinwo.com^
 ||xiaosaguniang.xyz^
 ||xiaoshuoyun.cn^
+||xiaosss.ren^
 ||xiaoxiangmovie.com^
 ||xiaoxiaozhijia.shop^
 ||xiaoyida.com^$third-party
