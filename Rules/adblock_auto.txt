@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: LUb9EccfwkGU8yiYmpAThg
+! Checksum: yCkH1StKA9VVvsTXLPhBeQ
 ! Title: 混合规则(自动更新)
-! Version: 20230604160710
+! Version: 20230604165352
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-04 16:07:10
-! Total Count: 111977
+! Last modified: 2023-06-04 16:53:52
+! Total Count: 111995
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19984,6 +19984,10 @@ $websocket,domain=5nj.com|cechi8.com
 .com:*/?channelCode=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/entry/register/?i_code=$document
+.com:*/entry/register/?i_code=$~third-party
+.com:*/m/#/home?register=1&agent=$document
+.com:*/m/#/home?register=1&agent=$~third-party
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/waga*.html$document
@@ -20182,6 +20186,8 @@ $websocket,domain=5nj.com|cechi8.com
 .net/vh1/$script,third-party
 .net/vj1/$script,third-party
 .net/vs.php?id=$script,third-party
+.net:*/index.html?shareName=$document
+.net:*/index.html?shareName=$~third-party
 .ng/ads/
 .niusnews.com/upload/banners/
 .nl/ad2/
@@ -20420,6 +20426,8 @@ $websocket,domain=5nj.com|cechi8.com
 /(https?:\/\/)216\.21\..{100,}/
 /(https?:\/\/)217\.182\.11\..{100,}/
 /(https?:\/\/)51\.195\.31\..{100,}/
+/(https?:\/\/)[0-9]{8}.(xyz|top|live|com|cn|net)/[0-9]{4}.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$document
+/(https?:\/\/)[0-9]{8}.(xyz|top|live|com|cn|net)/[0-9]{4}.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$~third-party
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
@@ -29503,6 +29511,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
+://app-mctnge.*.com/page/mctnge/install/c/$document
+://app-mctnge.*.com/page/mctnge/install/c/$~third-party
 ://at.umtrack.com/*?cid=$document
 ://at.umtrack.com/*?cid=$~third-party
 ://banner.$third-party
@@ -51324,6 +51334,8 @@ zzzyk.com###Tinfo
 ||58.com/ds/tgbrand/*.js
 ||58.com/show/ads?
 ||580bk.com/ceshi/
+||58455540.com^$document
+||58455540.com^$~third-party
 ||5851a.com^
 ||585227ybn.com^
 ||587tuchuang.com^
@@ -57736,6 +57748,8 @@ zzzyk.com###Tinfo
 ||apjiangte.com^
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
+||apk.zizhukekong.org^$document
+||apk.zizhukekong.org^$~third-party
 ||apkonline.ru^
 ||apl.headlines.pw^
 ||apleasantsit.xyz^
@@ -106048,6 +106062,8 @@ zzzyk.com###Tinfo
 ||v4dwkcv.com/html/click/
 ||v4dwkcv.com^
 ||v4yleins27hv.com^
+||v59833.com:^$document
+||v59833.com:^$~third-party
 ||v6rxv5coo5.com^
 ||v6t39t.ru^
 ||v96-surf.com^
@@ -109006,6 +109022,8 @@ zzzyk.com###Tinfo
 ||www.adsnet.se^
 ||www.air-max.se^
 ||www.auditude.com^
+||www.baty306.com:^$document
+||www.baty306.com:^$~third-party
 ||www.blnovel.com/cmjs/$script
 ||www.blnovel.com/e/$script
 ||www.blnovel.com/qrcode.php

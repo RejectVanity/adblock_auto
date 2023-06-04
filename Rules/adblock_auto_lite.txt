@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: tOGvlFKu8Wx3AnVCaBuKCA
+! Checksum: RiWS0vXAkHwLQR9aFr6l+A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230604160712
+! Version: 20230604165355
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-04 16:07:12
-! Total Count: 20187
+! Last modified: 2023-06-04 16:53:55
+! Total Count: 20205
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2557,6 +2557,10 @@
 .com:*/?channelCode=$~third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/entry/register/?i_code=$document
+.com:*/entry/register/?i_code=$~third-party
+.com:*/m/#/home?register=1&agent=$document
+.com:*/m/#/home?register=1&agent=$~third-party
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/waga*.html$document
@@ -2655,6 +2659,8 @@
 .net/js/ads/
 .net/vh1/$script,third-party
 .net/vj1/$script,third-party
+.net:*/index.html?shareName=$document
+.net:*/index.html?shareName=$~third-party
 .niusnews.com/upload/banners/
 .nyaa.fun/static/img/*_refesh.
 .nyaa.fun/static/img/host/*.gif
@@ -2773,6 +2779,8 @@
 /(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
+/(https?:\/\/)[0-9]{8}.(xyz|top|live|com|cn|net)/[0-9]{4}.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$document
+/(https?:\/\/)[0-9]{8}.(xyz|top|live|com|cn|net)/[0-9]{4}.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$~third-party
 /(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$document
@@ -3007,6 +3015,8 @@
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
+://app-mctnge.*.com/page/mctnge/install/c/$document
+://app-mctnge.*.com/page/mctnge/install/c/$~third-party
 ://at.umtrack.com/*?cid=$document
 ://at.umtrack.com/*?cid=$~third-party
 ://banner.$third-party
@@ -6526,6 +6536,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||58.com/ds/tgbrand/*.js
 ||58.com/show/ads?
 ||580bk.com/ceshi/
+||58455540.com^$document
+||58455540.com^$~third-party
 ||5851a.com^
 ||585227ybn.com^
 ||587tuchuang.com^
@@ -8052,6 +8064,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||apjiangte.com^
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
+||apk.zizhukekong.org^$document
+||apk.zizhukekong.org^$~third-party
 ||app-g.39.net/NNN/
 ||app-liv.jp/js/sp/detect_adblock.js
 ||app-trackings.com^
@@ -18282,6 +18296,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||v2zn.xyz^
 ||v34ffs.site^
 ||v4dwkcv.com/html/click/
+||v59833.com:^$document
+||v59833.com:^$~third-party
 ||vads-api.daumkakao.com/xylophone/adrequest/json
 ||vadypb.cn^
 ||vagvedi.cn^
@@ -18884,6 +18900,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||www-dnwx-com.anquanbao.cn/pic
 ||www.adbert.com.tw^
 ||www.auditude.com^
+||www.baty306.com:^$document
+||www.baty306.com:^$~third-party
 ||www.china.com.cn/node_$domain=news.china.com.cn
 ||www.dmhy.org^*.*?$image
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
