@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 50hEvuw2mbMtFpmo/uRFHw
+! Checksum: BxpBQFhRWjZHO7PiaCA1sw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230604221517
+! Version: 20230604232457
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-04 22:15:17
-! Total Count: 20208
+! Last modified: 2023-06-04 23:24:57
+! Total Count: 20211
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4771,6 +4771,8 @@ bing.com##.tile_grp
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[h$=",Ads"]
 bing.com##a[href*="/aclick?ld="]
+bing.com##li[class="sa_hd"][role="option"]
+bing.com##li[class^="sa_sg"][stype="PN"]
 blackdesert-info.ru##div[class][style*="z-index"][style*="999999;"][style*="background"][style*="rgb"]
 blog.sina.cn###pl-ad-after-comments
 blog.sina.cn###pl-adtop-bar
@@ -8821,6 +8823,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bnqlgdj.cn^
 ||bnsdk.top^
 ||bny3.cn^
+||bny6.cn^
 ||bnz9.cn^
 ||boardx.huanqiu.com^
 ||bob4885.com^

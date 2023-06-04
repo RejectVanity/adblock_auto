@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: eq2vrEZDzl7rtEGf6rG1gg
+! Checksum: RSFD+QsuXJD3ujJfXm9R1w
 ! Title: 混合规则(自动更新)
-! Version: 20230604221515
+! Version: 20230604232455
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-04 22:15:15
-! Total Count: 111999
+! Last modified: 2023-06-04 23:24:55
+! Total Count: 112001
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -34643,6 +34643,8 @@ bing.com##.tile_grp
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[h$=",Ads"]
 bing.com##a[href*="/aclick?ld="]
+bing.com##li[class="sa_hd"][role="option"]
+bing.com##li[class^="sa_sg"][stype="PN"]
 bing.com#?#.b_ans.b_top.b_topborder:-abp-has(.bte_join)
 bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 bingdou.com.cn,hoteastday.com##.float_ad
