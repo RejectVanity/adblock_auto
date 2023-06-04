@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kzQ7rS7+SuYQvBK/4iWX7g
+! Checksum: aJVcQW29pt/WWh6rGkfdTA
 ! Title: 拦截黄色网站转跳
-! Version: 20230603195828
-! Last modified: 2023-06-03 19:58:28
-! Total Count: 118
+! Version: 20230604164958
+! Last modified: 2023-06-04 16:49:58
+! Total Count: 136
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
 .cn:*/?channelCode=$document
@@ -18,6 +18,10 @@
 .com:*/*/m.html?shareName=$~third-party
 .com:*/?channelCode=$document
 .com:*/?channelCode=$~third-party
+.com:*/entry/register/?i_code=$document
+.com:*/entry/register/?i_code=$~third-party
+.com:*/m/#/home?register=1&agent=$document
+.com:*/m/#/home?register=1&agent=$~third-party
 .com:*/waga*.html$document
 .com:*/waga*.html$~third-party
 .html?channelCode=$document
@@ -26,6 +30,8 @@
 .kkilivf.cn/*.html$~third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
+.net:*/index.html?shareName=$document
+.net:*/index.html?shareName=$~third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
 .top:*/waga*.html$document
@@ -40,6 +46,8 @@
 .xyz:*/waga*.html$~third-party
 /(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
 /(https?:\/\/).*.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
+/(https?:\/\/)[0-9]{8}.(xyz|top|live|com|cn|net)/[0-9]{4}.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$document
+/(https?:\/\/)[0-9]{8}.(xyz|top|live|com|cn|net)/[0-9]{4}.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*.cn\/.*[0-9]{2}.html/$~third-party
 /(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$document
@@ -62,6 +70,8 @@
 ://*:*/dayu*.html?channelCode=$~third-party
 ://*:*/yeyue.html?k=$document
 ://*:*/yeyue.html?k=$~third-party
+://app-mctnge.*.com/page/mctnge/install/c/$document
+://app-mctnge.*.com/page/mctnge/install/c/$~third-party
 ://at.umtrack.com/*?cid=$document
 ://at.umtrack.com/*?cid=$~third-party
 ://boeg*.xyz/*.html$document
@@ -70,6 +80,10 @@
 ://chio*.xyz/*.html$~third-party
 zhaotianbao1.cn/*/ywy*.apk$document
 zhaotianbao1.cn/*/ywy*.apk$~third-party
+||58455540.com^$document
+||58455540.com^$~third-party
+||apk.zizhukekong.org^$document
+||apk.zizhukekong.org^$~third-party
 ||ashooqapp.top^$document
 ||ashooqapp.top^$~third-party
 ||at.umtrack.com^/*?cid=$document
@@ -112,8 +126,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||szptlkj.com^$~third-party
 ||twinrdsrv.com^$document
 ||twinrdsrv.com^$~third-party
+||v59833.com:^$document
+||v59833.com:^$~third-party
 ||vuntbnc.cn^$document
 ||vuntbnc.cn^$~third-party
+||www.baty306.com:^$document
+||www.baty306.com:^$~third-party
 ||y6lkc.vip^$document
 ||y6lkc.vip^$~third-party
 ||yingyangdj.com^$document
