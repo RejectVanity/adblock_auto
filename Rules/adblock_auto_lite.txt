@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: cw485rfbHgp5sGcop6lREw
+! Checksum: kGDLuo+BXcamGu6c0ukgxg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230605214900
+! Version: 20230605220639
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-05 21:49:00
-! Total Count: 20233
+! Last modified: 2023-06-05 22:06:39
+! Total Count: 20246
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2629,6 +2629,8 @@
 .live/kallss?$third-party
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
+.live/ty/*-*.alpha$third-party
+.live/ty/*-*.blpha$third-party
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -4846,6 +4848,7 @@ diantaiwang.com##img[src^="/js/imgs"]
 dm590.com##.external
 dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
 dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
+dm88.me,dmh8.me,dm99.me,yhdm86.com##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmh8.me,dm88.me,bccn.net,dm99.me##img[src*="data:"]
 dmh8.me,dm88.me,dm99.me##div[id^="test"]
@@ -8973,6 +8976,14 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||buydee.org^
 ||buyihao.com^
 ||buysellads.com^
+||buyu*9.com^$document
+||buyu*9.com^$~third-party
+||buyu0000.com^$document
+||buyu0000.com^$~third-party
+||buyu1234.com^$document
+||buyu1234.com^$~third-party
+||buyu9*.com^$document
+||buyu9*.com^$~third-party
 ||buzzad.io^
 ||buzzcity.net^
 ||buzzhand.com/images/$subdocument
@@ -19868,6 +19879,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zax01.com^
 ||zaytung.com/images/radore
 ||zb.mtwie.com^
+||zb273.site^$document
+||zb273.site^$~third-party
 ||zb7b.top^
 ||zbbvhj.xyz^
 ||zbc6hyepls.xyz^

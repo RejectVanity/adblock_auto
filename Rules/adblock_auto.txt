@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: hTcJocvu/ptAsnsCVX2PUA
+! Checksum: lTOKDoJxsQZOjZW41eNGww
 ! Title: 混合规则(自动更新)
-! Version: 20230605214856
+! Version: 20230605220636
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-05 21:48:56
-! Total Count: 112067
+! Last modified: 2023-06-05 22:06:36
+! Total Count: 112080
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20129,6 +20129,8 @@ $websocket,domain=5nj.com|cechi8.com
 .live/o.js$script,third-party
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
+.live/ty/*-*.alpha$third-party
+.live/ty/*-*.blpha$third-party
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -36779,6 +36781,7 @@ dm530.net,hdshare.cn,it168.com###adv
 dm590.com##.external
 dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
 dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
+dm88.me,dmh8.me,dm99.me,yhdm86.com##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmh8.me,dm88.me,bccn.net,dm99.me##img[src*="data:"]
 dmh8.me,dm88.me,dm99.me##div[id^="test"]
@@ -62284,6 +62287,14 @@ zzzyk.com###Tinfo
 ||buyt.in^
 ||buytieposer.com^
 ||buytraf.ru^
+||buyu*9.com^$document
+||buyu*9.com^$~third-party
+||buyu0000.com^$document
+||buyu0000.com^$~third-party
+||buyu1234.com^$document
+||buyu1234.com^$~third-party
+||buyu9*.com^$document
+||buyu9*.com^$~third-party
 ||buywords.de^
 ||buzzad.io^
 ||buzzadexchange.com^
@@ -111216,6 +111227,8 @@ zzzyk.com###Tinfo
 ||zazerygu.pro^
 ||zazufi.com^
 ||zb.mtwie.com^
+||zb273.site^$document
+||zb273.site^$~third-party
 ||zb7b.top^
 ||zbbvhj.xyz^
 ||zbc6hyepls.xyz^
