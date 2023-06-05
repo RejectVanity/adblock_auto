@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: vLUud6Vtg16FT01OPAIkmQ
+! Checksum: cw485rfbHgp5sGcop6lREw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230605160826
+! Version: 20230605214900
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-05 16:08:26
-! Total Count: 20221
+! Last modified: 2023-06-05 21:49:00
+! Total Count: 20233
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1988,7 +1988,10 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
+##img[src*="://mpic"][src*=".cn"][src$=".js"]
+##img[src*="://mpic"][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
+##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -6124,6 +6127,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||27ang.buzz/us/
 ||27gh.cc^$popup,third-party
 ||27niao20230506.live^
+||27w8f.com^
 ||283.laobanfa.com^
 ||2898.com/index/flowexchange/getGoods?
 ||28hse.com/adsman/www/images/
@@ -7190,6 +7194,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||a907907.com^
 ||aa.gushiwen.org^
 ||aa.xiangxiangmf.com^
+||aa665588aa.com^
+||aa993388aa.com^
 ||aaa.tumanyi.com^
 ||aaaa8.top^
 ||aaaaa288.com^
@@ -8770,6 +8776,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bjfc.xyz^
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjhuhangjy.com^
+||bjiohva.cn^
 ||bjjabc.com^$third-party
 ||bjmama.net/a/spc_
 ||bjqwllp.cn^
@@ -9784,6 +9791,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||d.ab126.com^
 ||d.bodu365.co^*.js
 ||d.dgzj.com^
+||d.line-scdn.net/*/torimochi.js/*/torimochi.js$script,redirect=googletagservices_gpt.js,domain=line.me
 ||d.win10com.com^
 ||d.ziyuanm.com^
 ||d0.xcar.com.cn^
@@ -12497,6 +12505,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||imageshh.com^
 ||imagespublic.tk/clothes/comeliness.php
 ||imapi-sg.isnssdk.com^
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=line.me,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 ||imasdk.googleapis.com^
 ||imasdk.googleapis.com^$xmlhttprequest,redirect-rule=noop.txt
@@ -16783,6 +16792,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sec-cloud.cn^
 ||sectn.xyz^
 ||securepubads.g.doubleclick.net/pagead/$image,redirect-rule=1x1.gif
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=line.me,important
 ||seectech.cn/scm/ad/list
 ||seeingcare.com^
 ||seek68.cn/img/*.gif
@@ -17690,6 +17700,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tianyaui.com/global/broadcast/js/router.jsonp
 ||tianyaui.com/global/m/v3/static/js/list_
 ||tianyuexing.run^
+||tiao1.cc/static/default/js/loadLM.js
 ||tiaotiao.store^
 ||ticketaunt.com^$third-party
 ||tieba.baidu.com/f/urlcheck?
@@ -19959,6 +19970,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zhemu.xyz^
 ||zhenben.cc/2000/
 ||zhengjie.com/a_d?
+||zhengliyqq.com^
 ||zhengtong.link^
 ||zhenjiang365.cn/*/ad_
 ||zhenxingkuangchanpin.com^
