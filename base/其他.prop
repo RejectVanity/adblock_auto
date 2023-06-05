@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F30C5+j4DEGf8prumw920Q
+! Checksum: H1WbDz3KHx644CbJtPdGBQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230605214709
-! Last modified: 2023-06-05 21:47:09
-! Total Count: 1391
+! Version: 20230605215757
+! Last modified: 2023-06-05 21:57:57
+! Total Count: 1393
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -313,6 +313,8 @@
 .live/k/*/*?$third-party
 .live/kallss?$third-party
 .live/r/*/*?$third-party
+.live/ty/*-*.alpha$third-party
+.live/ty/*-*.blpha$third-party
 .pw/blxn_*.js?
 .shop/r/*$xmlhttprequest
 .shop/xling_*_*.js?
@@ -618,7 +620,7 @@ diantaiwang.com##a[href^="https://s.click.taobao.com/"][target="_blank"]
 diantaiwang.com##img[src^="/js/imgs"]
 dm590.com##.external
 dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
-dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
+dm88.me,dmh8.me,dm99.me,yhdm86.com##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmh8.me,dm88.me,bccn.net,dm99.me##img[src*="data:"]
 dmh8.me,dm88.me,dm99.me##div[id^="test"]
