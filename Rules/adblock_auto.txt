@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: lTOKDoJxsQZOjZW41eNGww
+! Checksum: coemN58t839IAOaQdeEjuQ
 ! Title: 混合规则(自动更新)
-! Version: 20230605220636
+! Version: 20230606000711
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-05 22:06:36
-! Total Count: 112080
+! Last modified: 2023-06-06 00:07:11
+! Total Count: 112087
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -7236,6 +7236,7 @@
 ##.ad-tower-container
 ##.ad-towers
 ##.ad-transition
+##.ad-trck
 ##.ad-two
 ##.ad-twos
 ##.ad-txt
@@ -17768,6 +17769,7 @@
 ##a[href*=".caohang.com.cn/"]
 ##a[href*=".cc:"] > img[src]
 ##a[href*=".celadonstyle.com/"]
+##a[href*=".cfm?fp="][href*="&maxads="]
 ##a[href*=".cgn8j9f4j3g.com:"]
 ##a[href*=".chicagospy.com/"]
 ##a[href*=".club:"] > img[src]
@@ -20630,6 +20632,7 @@ $websocket,domain=5nj.com|cechi8.com
 /?channelCode=bfy$~third-party
 /?channelCode=ywy$document
 /?channelCode=ywy$~third-party
+/?fp=*&poru=$subdocument
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
 /?placement=*&redirect$popup
 /?placementName=$script,redirect=noop.js,domain=vpslog.net
@@ -38741,6 +38744,9 @@ globalwaterintel.com###sidebar-banner
 globalwaterintel.com###top-banner-image
 globalwaterintel.com##.partner-content-carousel
 globalwaterintel.com,mavin.io##.partner-content
+globimmo.net###adConH
+globimmo.net###adplus-anchor
+globimmo.net##.fAdW
 globsads.com#@#[href^="http://globsads.com/"]
 glory985.com##a[href^="https://sweetbidsflo.irauctions.com/listing/0"]
 glosbe.com###rightSidebarFirstBanner
@@ -75405,6 +75411,7 @@ zzzyk.com###Tinfo
 ||gqqdlckj8y.com^
 ||gqubkbuinx.com^
 ||gqvdcek.cn^
+||gr0z6.xyz^
 ||gr8y7z1xaq30.com^
 ||grabmyads.com^
 ||gracaiko.net^
