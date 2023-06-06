@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: R3YK4gI/FSP6QkYUUwz5Uw
+! Checksum: yMpSPpx6Vgrwb6t3ANesIg
 ! Title: 混合规则(自动更新)
-! Version: 20230606160758
+! Version: 20230607000713
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-06 16:07:58
-! Total Count: 112111
+! Last modified: 2023-06-07 00:07:13
+! Total Count: 112134
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17514,6 +17514,7 @@
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
 ##[class="bottommob"][id="bottommob"]
+##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
@@ -17527,6 +17528,7 @@
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class^="ad none"]
+##[class^="ad-layer"]
 ##[class^="adDisplay-module"]
 ##[class^="amp-ad-"]
 ##[class^="appdownload_ad"]
@@ -18750,6 +18752,7 @@
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
+##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://images.purevpnaffiliates.com"]
 ##img[src^="https://pic.lsddkd.com:"]
@@ -34034,6 +34037,8 @@ azcentral.com,detroitnews.com,freep.com##div[id^="ad-slot-"]
 azernews.az##.banner-block
 azofreeware.com###HTML7
 azofreeware.com,pttjoke.com###HTML3
+azuremagazine.com##.hero__metadata-left-rail
+azuremagazine.com##div[class$="azoa"]
 bab.la##.info-panel
 babesandstars.com##.banner-right
 babesandstars.com##.traders
@@ -36927,6 +36932,7 @@ douyu.com##.video-info-download
 douyu.com##a[href*=".miaozhen.com"]
 douyu.com##a[href*=".youzan.com"]
 douyu.com##a[href^="http://tracking.ad-survey.com/"]
+douyu.com##div[class^="ChargeTask"]
 douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
@@ -42803,6 +42809,7 @@ myexception.cn##.m_a
 myfigurecollection.net,prolificnotion.co.uk##.partner
 myfitnesspal.com##[title*="Ad"]
 myflixer.to##.news-iframe
+myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
 mygaming.co.za##.dw_focus_videos
 myhack58.com##.adv32
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
@@ -44465,6 +44472,8 @@ qiushibaike.com##.shopwindow
 qiuw.com##.con > a:nth-child(n+2)
 qiuziti.com##.popularize
 qiuziti.com##.search_wordimg
+qiuziti.com##a[href^="https://www.hellofont.cn/"] > img
+qiuziti.com#@#.banner
 qixin.com##.web-diversion-container
 qixingquan.com##.zdm
 qixingquan.com##div[style="float:right;margin-bottom:6px;"]
@@ -69633,6 +69642,7 @@ zzzyk.com###Tinfo
 ||dsb.yahoo.co.jp^
 ||dsb6jelx4yhln.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
+||dsbt7.com^
 ||dscex7u1h4a9a.cloudfront.net^
 ||dsctnsn.xyz^
 ||dsfd67.com^
@@ -73929,6 +73939,7 @@ zzzyk.com###Tinfo
 ||g792337343.co^
 ||g8715710740.co^
 ||g8913795075.co^
+||g89zum.zaiceyjjqq.com^$domain=5yydstxt178.com
 ||g8ld.fun^
 ||g9111879410.co^
 ||g91games.com^
@@ -76701,6 +76712,7 @@ zzzyk.com###Tinfo
 ||herefoortowa.cc^
 ||hereincigarettesdean.com^
 ||heresanothernicemess.com^
+||heretrail.com^
 ||herheads.xyz^
 ||herhomeou.xyz^
 ||heritorclysmic.com^
@@ -79517,6 +79529,7 @@ zzzyk.com###Tinfo
 ||is0v39c.cn^
 ||is686.com^$third-party
 ||isaishad.com^
+||isancio.top^
 ||isanikcieontak.xyz^
 ||isanikcieontap.com.ua^
 ||isawthenews.com^
@@ -80651,6 +80664,7 @@ zzzyk.com###Tinfo
 ||js.fhxiaoshuo.com^
 ||js.gdsln.ru^
 ||js.gg-baidu.xyz^
+||js.glitnoraffiliates.com^
 ||js.glossom.jp^
 ||js.go2sdk.com^
 ||js.goods.redtram.com
@@ -84379,6 +84393,8 @@ zzzyk.com###Tinfo
 ||m.czjiamei.com/js/*/play.js
 ||m.czjiamei.com/js/*/tj.js
 ||m.danmeixsw.com/js/mwap.js
+||m.daomutxt.cc/dist/common.js
+||m.daomutxt.cc/js/
 ||m.dglscm.cn^
 ||m.dglscm.cn^$third-party
 ||m.dubcm.com^
@@ -88512,6 +88528,7 @@ zzzyk.com###Tinfo
 ||ntppyc.cn^
 ||ntqpmafds.com^
 ||ntracker-collector.naver.com^
+||ntrfr.expekt.se^
 ||ntsibo.com^
 ||nttogetherefwukou.xyz^
 ||nttrr.top^
@@ -90317,6 +90334,7 @@ zzzyk.com###Tinfo
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication.com/adsbygoogle.js,domain=youneed.win,xmlhttprequest,script
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=wuyong.fun,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=xiebruce.top
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=nazology.net|nijimen.net
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=wuyong.fun,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=xiebruce.top
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=linovelib.com,important
@@ -96950,6 +96968,7 @@ zzzyk.com###Tinfo
 ||sbfsdvc.com^
 ||sbgsodufuosmmvsdf.info^
 ||sbinx.com^
+||sbkuuzozlm.com^
 ||sblftg.com^
 ||sbo8.com/static/theme/js/bottom.
 ||sbpb1.chuiyue.com^
@@ -100341,6 +100360,7 @@ zzzyk.com###Tinfo
 ||stats.nymag.com^
 ||stats.oilpainting.colorbynumber.veraxen.com^
 ||stats.olark.com^
+||stats.online-convert.com^
 ||stats.opoloo.de^
 ||stats.otempo.com.br^
 ||stats.ozwebsites.biz^
@@ -103816,6 +103836,7 @@ zzzyk.com###Tinfo
 ||trackicollect.ibase.fr^
 ||trackimpression.com^
 ||tracking*.euroads.fi^
+||tracking-*.trnox.com^
 ||tracking-amp.vnexpress.net^
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.hotmart.com^
@@ -105592,6 +105613,7 @@ zzzyk.com###Tinfo
 ||unmanedstele.com^
 ||unmasksxyloma.uno^
 ||unmetalised.com^
+||unmightboxen.com^
 ||unmnkkq.cn^
 ||unmovedfollycomb.com^
 ||unnatural-situation.pro^
@@ -108826,6 +108848,7 @@ zzzyk.com###Tinfo
 ||worriesteapotairborne.com^
 ||worrycrevicewholly.com^
 ||worseobscureplastic.com^
+||worshipstubborn.com^
 ||worstnumidae.com^
 ||worthathousandwords.com^
 ||worthconesquadron.com^

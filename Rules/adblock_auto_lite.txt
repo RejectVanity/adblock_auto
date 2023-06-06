@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: txKboeY06qzrmx7Iz0K/EA
+! Checksum: lYotcMUeG+CDkUfoVaoyiQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230606160801
+! Version: 20230607000715
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-06 16:08:01
-! Total Count: 20251
+! Last modified: 2023-06-07 00:07:15
+! Total Count: 20261
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1268,6 +1268,7 @@
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
 ##[class="bottommob"][id="bottommob"]
+##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
@@ -1281,6 +1282,7 @@
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class^="ad none"]
+##[class^="ad-layer"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
@@ -1995,6 +1997,7 @@
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
+##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
@@ -10305,6 +10308,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||drtyujgsg.xyz^
 ||drvsky.com/js/jolimark.gif
 ||ds9e.top^
+||dsbt7.com^
 ||dsctnsn.xyz^
 ||dsfd67.com^
 ||dsfhr.xyz^
@@ -11140,6 +11144,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||g3f3.com/love/
 ||g3user.com^$third-party
 ||g77ds2.xyz^
+||g89zum.zaiceyjjqq.com^$domain=5yydstxt178.com
 ||g8ld.fun^
 ||g9o.cn^
 ||ga-ads.com^
@@ -11890,6 +11895,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hepburn.net.cn^
 ||heqinyyds.com^
 ||heqishengcai1006.xyz^
+||heretrail.com^
 ||herky.com.cn^
 ||herogame.com^$subdocument,domain=gamer.com.tw
 ||hertzbeat.cn^
@@ -12715,6 +12721,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||irygym.xyz^
 ||irzwlux.cn^
 ||is686.com^$third-party
+||isancio.top^
 ||isdfbvkvsc.xyz^
 ||isgow.com^
 ||ishanggao.com^
@@ -14228,6 +14235,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||m.czjiamei.com/js/*/play.js
 ||m.czjiamei.com/js/*/tj.js
 ||m.danmeixsw.com/js/mwap.js
+||m.daomutxt.cc/dist/common.js
+||m.daomutxt.cc/js/
 ||m.dglscm.cn^$third-party
 ||m.eisamay.com/detector.cms
 ||m.ercos.cn^$third-party
@@ -15516,6 +15525,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pacix.xyz^
 ||pafcpd.xyz^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication.com/adsbygoogle.js,domain=youneed.win,xmlhttprequest,script
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=nazology.net|nijimen.net
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=wuyong.fun,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=xiebruce.top
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=linovelib.com,important
