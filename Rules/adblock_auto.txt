@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xNA/DXm7iaPFz6iRE63NRA
+! Checksum: R3YK4gI/FSP6QkYUUwz5Uw
 ! Title: 混合规则(自动更新)
-! Version: 20230606083727
+! Version: 20230606160758
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-06 08:37:27
-! Total Count: 112105
+! Last modified: 2023-06-06 16:07:58
+! Total Count: 112111
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -15141,6 +15141,7 @@
 ##.pmg-sponsoredlinks
 ##.polar-ad
 ##.polaris-ad--wrapper-desktop
+##.polarisMarketing
 ##.polaris__ad
 ##.polaris__teads
 ##.pop-out-eplayer-container
@@ -41646,6 +41647,7 @@ lionsrugby.co.za###rotator2
 lite105.com##a[href^="https://www.pellabranch.com/"]
 litecoin-faucet.com##.sticky-top1
 literotica.com###b-top
+lithub.com##.Custom_Ads
 litix.io
 litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
@@ -45266,6 +45268,7 @@ sexygirlspics.com##.custom-spot
 sexygirlspics.com##.live-spot
 seznam.cz#@#.adMiddle
 sfchronicle.com##div[class^="ad-module-"]
+sfgate.com##.inline-iframe
 sfgate.com##.stickyWrapper
 sg169.com###coupleft
 sg169.com###couprigth
@@ -47247,6 +47250,7 @@ udn.com###simplemodal-container
 udn.com###simplemodal-overlay
 udn.com###udn_scupio_responsive_wrapper
 udn.com##.ad_mask
+udn.com##.bg-banner--link
 udn.com##.mag_topic > a[href][target="_blank"] > img[src^="https://p.udn.com.tw/upf/"][src*="_banners/Special/"]
 udn.com##.mag_topic > a[href^="https://goo.gl/"][target="_blank"] > img[src*="_banners/BD/"]
 udn.com##.more_ad
@@ -47257,6 +47261,7 @@ udn.com##.udn-ads
 udn.com##div[class*="edn-ads"]
 udn.com##iframe[src*="udn.com/mall/cus/cat/OutWebAd.do"]
 udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
+udn.com#$#.main-content { background-image: none !important; }
 uefa.com##.geoTargetSponsor
 uestc.edu.cn###bar
 ufanw.com###banne
@@ -105188,6 +105193,7 @@ zzzyk.com###Tinfo
 ||udn.com/common/iframe/
 ||udn.com/common2/iframe/
 ||udn.com/mall/cus/cat/OutWebAd.do
+||udn.com/upf/2014_sales/testpage/Bannerimage/*x*_*.jpg
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
 ||udookrou.com^
