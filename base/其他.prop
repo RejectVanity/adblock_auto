@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IAwiQNdAfzOHnaMQaME7ww
+! Checksum: flq+kNqBnSDb9lN14kbTCw
 ! Title: 自用去广告Adblock规则
-! Version: 20230606070721
-! Last modified: 2023-06-06 07:07:21
-! Total Count: 1393
+! Version: 20230606220400
+! Last modified: 2023-06-06 22:04:00
+! Total Count: 1396
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -80,10 +80,12 @@
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
 ##[class="bottommob"][id="bottommob"]
+##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
 ##[class="rmadb-info"]
 ##[class][onclick="goAppHtml();"]
 ##[class^="ad none"]
+##[class^="ad-layer"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
@@ -253,6 +255,7 @@
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
+##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
