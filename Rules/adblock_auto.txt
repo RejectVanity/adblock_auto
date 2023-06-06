@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: coemN58t839IAOaQdeEjuQ
+! Checksum: xNA/DXm7iaPFz6iRE63NRA
 ! Title: 混合规则(自动更新)
-! Version: 20230606000711
+! Version: 20230606083727
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-06 00:07:11
-! Total Count: 112087
+! Last modified: 2023-06-06 08:37:27
+! Total Count: 112105
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -36784,7 +36784,6 @@ dm530.net,hdshare.cn,it168.com###adv
 dm590.com##.external
 dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
 dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
-dm88.me,dmh8.me,dm99.me,yhdm86.com##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmh8.me,dm88.me,bccn.net,dm99.me##img[src*="data:"]
 dmh8.me,dm88.me,dm99.me##div[id^="test"]
@@ -37638,6 +37637,9 @@ eyy5.cn##.wzgg
 eyy5.cn,fzd3.com##.area1
 ez3c.tw##.ypa-custom2
 ezgif.com##div[style$="min-height:90px;display:block"]
+ezneering.com###media_image-2
+ezneering.com#$#.pum-overlay { display: none !important; }
+ezneering.com#$#html { overflow: auto !important; }
 ezprice.com.tw##.col-md-3
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 eztv.tf,eztv.yt,123unblock.bar#?#tbody:-abp-contains(WARNING! Use a)
@@ -43258,6 +43260,7 @@ nolotiro.org#@#.ad-hero
 nomadlist.com##.dynamic-fill
 nonameno.com,rusrek.com##.alert
 nongjitong.com##.ad_sms
+noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
 noqreport.com###custom_html-7 > .custom-html-widget
 noqreport.com###rumble_vj59vh
 noqreport.com##.custom-html-widget [href] > [src]
@@ -49962,6 +49965,7 @@ zzzyk.com###Tinfo
 ||14fa20230523.live^
 ||14i8trbbx4.com^
 ||150075.com^
+||1502649226.rsc.cdn77.org^
 ||1503.net/code/
 ||1512a.com^
 ||1527ego.com^
@@ -56681,6 +56685,7 @@ zzzyk.com###Tinfo
 ||amazonaws.com/xxx/buhidoh/$script,domain=buhidoh.net
 ||amazonaws.com^*/abb-msg.js$domain=hardocp.com
 ||amazonclix.com^
+||amazonlogistics.jp^
 ||amazononline.xyz/mp4/*.mp4$redirect=noop-0.1s.mp3,domain=iyingshi7.tv|localmv1.com,media
 ||amazononline.xyz/mp4/*.mp4$redirect=noopmp3-0.1s,domain=iyingshi7.tv|localmv1.com
 ||amazononline.xyz/mp4/*.mp4$rewrite=abp-resource:blank-mp3,domain=iyingshi7.tv|localmv1.com
@@ -59977,6 +59982,7 @@ zzzyk.com###Tinfo
 ||bcajjtbzmdrl.com^
 ||bcb3da3ac8.com^
 ||bcb5.com/gg/
+||bcb9.cn^
 ||bcc.com.tw/imgs/adv/
 ||bcc878.com/js/abc/
 ||bccda4ab57.com^
@@ -62366,6 +62372,7 @@ zzzyk.com###Tinfo
 ||bxlidv.ink^
 ||bxly.xyz^
 ||bxnoflryajxn.com^
+||bxoiksm.xyz^
 ||bxpjlheddfqhifu.com^
 ||bxqeagaef.xyz^
 ||bxscdyybtuxbfda.xyz^
@@ -71082,6 +71089,7 @@ zzzyk.com###Tinfo
 ||entigatenturge.pro^
 ||entirelysacrament.com^
 ||entitledbalcony.com^
+||entjgcr.com^
 ||entravision.com^
 ||entrecard.s3.amazonaws.com^
 ||entreeselegist.com^
@@ -76976,6 +76984,7 @@ zzzyk.com###Tinfo
 ||hit2map.com^
 ||hitadsmedia.com^
 ||hitapi.pulpoar.com^
+||hitbip.com^
 ||hitbox.com^
 ||hitchrational.com^
 ||hitcount.dk^
@@ -84674,6 +84683,7 @@ zzzyk.com###Tinfo
 ||makemyvids.com^
 ||makesboundlessvirtue.com^
 ||makeshiftmine.com^
+||makingdevil.com^
 ||makingnude.com^
 ||makoglassen.website^
 ||makotruong.live^
@@ -89905,6 +89915,7 @@ zzzyk.com###Tinfo
 ||ouncillorswhow.info^
 ||oungimuk.net^
 ||ouno.site^
+||ounojushyxb.xyz^
 ||ounsoopt.xyz^
 ||ouo3ophlpm.ru^
 ||oupaumul.net^
@@ -91975,6 +91986,7 @@ zzzyk.com###Tinfo
 ||pogothere.xyz^
 ||poh.uoydhco.cn^
 ||pohlbe.com^
+||pohpll.xyz^
 ||poiful.com/sdk/vrizeadsdk.
 ||poined.com^
 ||poinsk.com^
@@ -94632,6 +94644,7 @@ zzzyk.com###Tinfo
 ||rcp.evolok.net^
 ||rcpttankert.com^
 ||rcsadv.it^
+||rcsden.top^
 ||rcswbr.cn^
 ||rcuacroossonek.xyz^
 ||rcurn.com^
@@ -97228,6 +97241,7 @@ zzzyk.com###Tinfo
 ||sealine-pfuoxcbgd.netdna-ssl.com^
 ||sealine.youku.com/yk/*callback=adpagesdk$script
 ||seallife.club^
+||sealthatleak.com^
 ||seamankidding.com^
 ||seamloring.life^
 ||seaofads.com^
@@ -99781,6 +99795,7 @@ zzzyk.com###Tinfo
 ||srvtrck.com^
 ||srxy.xyz^
 ||srysogsib.uno^
+||ss.azuremagazine.com^
 ||ss.ting55.com^
 ||ss.webdock.io^
 ||ss.zuixinyiqi.com^
@@ -102376,6 +102391,7 @@ zzzyk.com###Tinfo
 ||thecoolposts.com^
 ||thecred.info^
 ||thecurtainied.xyz^
+||theedrem.xyz^
 ||theelrou.net^
 ||theensos.xyz^
 ||theerdax.com^
@@ -106161,6 +106177,7 @@ zzzyk.com###Tinfo
 ||vaccinationwear.com^
 ||vaccinegrownparliamentary.com^
 ||vacuolewhilter.com^
+||vacuomedogeys.com^
 ||vacuomehautain.tech^
 ||vacuts.com^
 ||vacwrite.com^
@@ -109198,6 +109215,7 @@ zzzyk.com###Tinfo
 ||wysistat.com^
 ||wysmmq.com^
 ||wysyshypti.pro^
+||wytxjmow.com^
 ||wyuxy.com^
 ||wywsdx.com^
 ||wywy.com^
