@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: F9R6EdTnSlRtoSA/5qYJyg
+! Checksum: 2s1Kyq3WSHP5F81f1Tx9og
 ! Title: 混合规则(自动更新)
-! Version: 20230608160849
+! Version: 20230609000735
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-08 16:08:49
-! Total Count: 112247
+! Last modified: 2023-06-09 00:07:35
+! Total Count: 112271
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -39586,6 +39586,7 @@ hmitalk.com##div[data-adid]
 hmoe.one#?#.widget_text > .inn-sidebar__widget:-abp-has(> .poi-panel__header > .poi-panel__header__title:contains(赞助商))
 hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-panel__header__title:contains(赞助商))
 hmoe.one,hmoe.moe##a[href^="https://item.taobao.com"]
+hmoe12.com##.poi-container > div > a[href^="https://www.hmoe12.com/wp-admin/admin-ajax.php?action="][target="_blank"]
 hmog.me##.ml_ad_widget
 hmog.me##.side_widget:last-child
 hmog.me##a[href^="http://www.masadora.net/"]
@@ -43908,6 +43909,7 @@ pinshan.com##.b_adv
 pinshan.com##.b_adv2
 pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title^="Promoted"])
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Anzeige von)
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Gesponsord door)
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Promocionado por)
@@ -49417,6 +49419,7 @@ zztt24.com##.no-mask
 zzzyk.com###Tinfo
 |.gif$domain=fashangji.com
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|chenhuixsd.com|cyxse.com|hfxiaoshuo.com|hlxiaoshuo.net|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.31wxw8.com|m.360118.com|m.37zw.net|m.3dllc.cc|m.3kw.cc|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.555zw.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.6mao.com|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.99shumeng.net|m.aiquxs.com|m.amu520.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.cm|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqugezw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.bxwx9.org|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.fhxsw.org|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.haxwx2.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kewaishu.info|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.ldw.la|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.mpzw.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shengyan.org|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.snwx8.com|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tmetb.net|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.wodexiaoshuo1.cc|m.x81zw.com|m.xbxwx.net|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zbzw.la|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zhxiaoshuoa.com|zwdu.com
+|http*://$script,third-party,xmlhttprequest,domain=23wxx.com|chenhuixsd.com|cyxse.com|hfxiaoshuo.com|hlxiaoshuo.net|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.31wxw8.com|m.360118.com|m.37zw.net|m.3dllc.cc|m.3kw.cc|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.555zw.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.6mao.com|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.99shumeng.net|m.aiquxs.com|m.amu520.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.cm|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.bxwx9.org|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.fhxsw.org|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.haxwx2.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kewaishu.info|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.ldw.la|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.mpzw.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shengyan.org|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.snwx8.com|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tmetb.net|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.wodexiaoshuo1.cc|m.x81zw.com|m.xbxwx.net|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zbzw.la|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zhxiaoshuoa.com|zwdu.com
 |http:$popup,domain=openload.co|oload.tv
 |http:$script,domain=imagebam.com|imagevenue.com|playvid.com|4horlover.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -55773,6 +55776,7 @@ zzzyk.com###Tinfo
 ||agapaezeal.com^
 ||agaso.de^
 ||agatarainpro.com^
+||agathacd.com^
 ||agathazanna.com^
 ||agatogepir.com^
 ||agatystuffs.com^
@@ -58153,6 +58157,7 @@ zzzyk.com###Tinfo
 ||areelbagwyn.com^
 ||areelektrosstor.com^
 ||arehen.com^
+||areiccastano.com^
 ||arejoysew.com^
 ||arejug.xyz^
 ||areliux.cc^
@@ -58342,6 +58347,7 @@ zzzyk.com###Tinfo
 ||asfofpfmu.com^
 ||asforsalesr.one^
 ||asg.faperoni.com^
+||asgardrecatch.com^
 ||asgclickkl.com^
 ||asgclickpop.com^
 ||asgclickpp.com^
@@ -61057,6 +61063,7 @@ zzzyk.com###Tinfo
 ||birthsenseal.uno^
 ||birtuwhaim.com^
 ||birung.club^
+||bis8j.com^
 ||bisafniv.space^
 ||bisetsoliped.com^
 ||biskerando.com^
@@ -61750,6 +61757,7 @@ zzzyk.com###Tinfo
 ||bournemouthecho-gb.bournemouthecho.co.uk^
 ||bourranuncurbs.com^
 ||boustahe.com^
+||bousyshock.com^
 ||bovhzz.xyz^
 ||bowed-common.pro^
 ||boweddemand.com^
@@ -63529,6 +63537,7 @@ zzzyk.com###Tinfo
 ||ceshi2.ink^
 ||ceshi5.ink^
 ||cesiumsemboite.com^
+||cestibegster.com^
 ||cesurasfratchy.com^
 ||ceteembathe.com^
 ||cetichin.com^
@@ -69368,6 +69377,7 @@ zzzyk.com###Tinfo
 ||dopor.info^
 ||doppler-beacons.cbsivideo.com^
 ||doppler-reporting.cbsivideo.com^
+||doprodavec.ru^
 ||doptik.ru^
 ||doracms.cn^
 ||dorangesource.alicdn.com^
@@ -71260,6 +71270,7 @@ zzzyk.com###Tinfo
 ||epom.com^
 ||eporner.com/adblock
 ||epotaidhdbg.com^
+||epoun.top^
 ||eppmedia.si^
 ||epresententifi.com^
 ||eprice.com.tw/img/tw_m/ad/
@@ -76185,6 +76196,7 @@ zzzyk.com###Tinfo
 ||haijosho.net^
 ||haikcarlage.com^
 ||hailerroloway.com^
+||haili-spitzer.com^
 ||hailstonenerve.com^
 ||hainancaishui.online^
 ||hairoak.com^
@@ -76443,6 +76455,7 @@ zzzyk.com###Tinfo
 ||hauntlist.com^
 ||hauphuchaum.com^
 ||hausic.com^
+||hauthoun.xyz^
 ||hauufhgezl.com^
 ||havamedia.net^
 ||havan3eab9row2n.com^
@@ -77791,6 +77804,7 @@ zzzyk.com###Tinfo
 ||huoche.net/public/huoche/ad/
 ||huodiyun.cn^
 ||huodong.press^
+||huohuo1.huamuwo.com^$domain=knowbaike.com
 ||huojua.com^
 ||huojua1.com^
 ||huojub.com^
@@ -83187,6 +83201,7 @@ zzzyk.com###Tinfo
 ||linkgrand.com^
 ||linkhelper.cn/mmshow
 ||linkjingkeji.com^
+||linkmanglazers.com^
 ||linkmepu.com^
 ||linkmyc.com^
 ||linkoffers.net^
@@ -85554,6 +85569,7 @@ zzzyk.com###Tinfo
 ||melodicminute.com^
 ||melongetplume.com^
 ||melredirnxt.top^
+||meltaigh.net^
 ||meltedacrid.com^
 ||meltmilk.com^
 ||meltpiratehamlet.com^
@@ -97197,6 +97213,7 @@ zzzyk.com###Tinfo
 ||scratchy-deep.pro^
 ||scratchy-kind.pro^
 ||scrawnystart.com^
+||scrazeunwaged.com^
 ||screechadulthood.com^
 ||screechingfurniture.com^
 ||screechingslip.com^
@@ -98710,6 +98727,7 @@ zzzyk.com###Tinfo
 ||slantedsecno.com^
 ||slapclergymoth.com^
 ||slaqandsan.xyz^
+||slaresolidi.com^
 ||slartwomans.com^
 ||slashlook.com/_resource/html/_bloggerAdsBottom.html
 ||slashlook.com/_resource/html/_bloggerAdsInline1.html
@@ -102748,6 +102766,7 @@ zzzyk.com###Tinfo
 ||thuanmimamsa.com^
 ||thuliagum.com^
 ||thulrlidos.com^
+||thumbor.prod.vidiocdn.com/*/uploads/section/background_image/*/rejoice-vidio-drakor-gratis-*.jpg
 ||thumeezy.xyz^
 ||thump-night-stand.com^
 ||thumpssleys.com^
@@ -103231,6 +103250,7 @@ zzzyk.com###Tinfo
 ||tomawilea.com^
 ||tomboy.lol^
 ||tomekas.com^
+||tomeleafs.com^
 ||tomentaabac.com^
 ||tomladvert.com^
 ||tommiesuntewed.com^
@@ -105511,6 +105531,7 @@ zzzyk.com###Tinfo
 ||umengjmacs.m.taobao.com^
 ||umentrandings.xyz^
 ||umhfrtu.cn^
+||umiackscursors.com^
 ||umkezbh.cn^
 ||ummerciseha.com^
 ||ummihaqhu.xyz^
@@ -105846,6 +105867,7 @@ zzzyk.com###Tinfo
 ||updatemobilee.com^
 ||updatepro.pro^
 ||updaterecomended.pro^
+||updiveufos.com^
 ||uperizeunoiled.com^
 ||upeyganpell.website^
 ||upffxs6.com^
@@ -106826,6 +106848,7 @@ zzzyk.com###Tinfo
 ||videoplaza.com^
 ||videoplus.vo.llnwd.net^
 ||videopotok.pro^
+||videoprodavec.ru^
 ||videoroll.net^
 ||videortb.ru^
 ||videos.oms.eu^
@@ -107077,6 +107100,7 @@ zzzyk.com###Tinfo
 ||vitalads.net^
 ||vitaminalcove.com^
 ||vitiumcranker.com^
+||vitrealmandola.com^
 ||vitrine.sup.com^
 ||vitrinler3.com^
 ||viuspbkmn.bar^
