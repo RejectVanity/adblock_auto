@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2J/aab7osi50Nrv0AZpzzQ
+! Checksum: x5kt0yIdbtXi6KuOgnAwPA
 ! Title: 拦截黄色网站转跳
-! Version: 20230605220431
-! Last modified: 2023-06-05 22:04:31
-! Total Count: 146
+! Version: 20230610072334
+! Last modified: 2023-06-10 07:23:34
+! Total Count: 152
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
 .cn:*/?channelCode=$document
@@ -88,6 +88,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ashooqapp.top^$~third-party
 ||at.umtrack.com^/*?cid=$document
 ||at.umtrack.com^/*?cid=$~third-party
+||atala-apw.com/domredirect?$document
+||atala-apw.com/domredirect?$~third-party
 ||buyu*9.com^$document
 ||buyu*9.com^$~third-party
 ||buyu0000.com^$document
@@ -140,6 +142,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||vuntbnc.cn^$~third-party
 ||www.baty306.com:^$document
 ||www.baty306.com:^$~third-party
+||www.zb272.help^$document
+||www.zb272.help^$~third-party
+||xz.ytaelxf.cn/qd/*/*.apk?$document
+||xz.ytaelxf.cn/qd/*/*.apk?$~third-party
 ||y6lkc.vip^$document
 ||y6lkc.vip^$~third-party
 ||yingyangdj.com^$document
