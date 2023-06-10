@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rLgBDWknLKrNn19BZFYkBw
+! Checksum: yHkc0XLIfiSdCT2HHwLDDw
 ! Title: 拦截黄色网站转跳
-! Version: 20230610082825
-! Last modified: 2023-06-10 08:28:25
+! Version: 20230610235502
+! Last modified: 2023-06-10 23:55:02
 ! Total Count: 158
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
@@ -76,8 +76,8 @@
 ://als1007.xz.*.cn/qd/*/*ml168.apk?$~third-party
 ://als1007.xz.*.cn/qd/*/*xf168.apk?$document
 ://als1007.xz.*.cn/qd/*/*xf168.apk?$~third-party
-://app-mctnge.*.com/page/mctnge/install/c/$document
-://app-mctnge.*.com/page/mctnge/install/c/$~third-party
+://app-*.com/page/*/install/c/*=$document
+://app-*.com/page/*/install/c/*=$~third-party
 ://at.umtrack.com/*?cid=$document
 ://at.umtrack.com/*?cid=$~third-party
 ://boeg*.xyz/*.html$document
