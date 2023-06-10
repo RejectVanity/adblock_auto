@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xr476ou+bYu+DOTKPoP3HA
+! Checksum: NfCFj0Jzq4KR1rAmP6Oq+Q
 ! Title: 混合规则(自动更新)
-! Version: 20230610160712
+! Version: 20230611000631
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-10 16:07:12
-! Total Count: 112351
+! Last modified: 2023-06-11 00:06:31
+! Total Count: 112358
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -28215,6 +28215,7 @@ $websocket,domain=5nj.com|cechi8.com
 123proxy.biz###cookieConsentUR99472
 123putlocker.io##[href^="https://moneynow.one/"]
 123unblock.bar###lbxVPN666
+125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
 1280wnam.com##a[href^="http://www.milwaukeezoo.org/visit/animals/"]
 1280wnam.com##a[href^="https://wistatefair.com/fair/tickets/"]
@@ -37705,6 +37706,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##art
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 factorio.su##body > div[id][class][style*="background"][style*="visible"]
+failory.com##.blog-column-ad
 fairwaymarket.com,thefreshgrocer.com#?#div[class^="ProductCard"]:-abp-has(div[data-testid^="Sponsored"])
 fairytailmx.com#@##sponsored-ad
 faithpot.com##.inarticle-ad
@@ -44751,6 +44753,7 @@ randalls.com#?#.product-card-col:-abp-has(.product-title__right-text)
 randomarchive.com##.desktop[style="text-align:center"]
 rankedboost.com##.Article-A-Align
 rankedboost.com##.above-article-section
+ranker.com###BLOG_AD_SLOT_1
 ranker.com##.relatedInline_container__Ux4lS
 rapid-cloud.ru,streamrapid.ru###overlay-container
 rappler.com##.rappler-ad-container
@@ -45260,6 +45263,8 @@ serverhunter.com##div[class*="why"]
 sese733.info##.fp-player > div[style^="position: absolute;"][style*="overflow: hidden; z-index:"]:not([class])
 seseda90.com###clone_ad
 seselah.com###video-ads
+setapp.com##.side-scrolling__banner
+setapp.com,thesaturdaypaper.com.au##.promo-banner
 setdartwatches.com##[class^="boxzilla-"]
 setlist.fm##.prmtnTop
 setn.com###FBAnchor
@@ -80210,6 +80215,7 @@ zzzyk.com###Tinfo
 ||jdmodr.com^
 ||jdnlynb.cn^
 ||jdoqocy.com^
+||jdpm.net.cn^
 ||jdwx.info/api.php?mod=ad&
 ||jdyz3.cn^
 ||je8fn.com^
@@ -112091,6 +112097,7 @@ zzzyk.com###Tinfo
 ||zqtk.net^
 ||zqwlkj.cn^
 ||zqzq*.com:*/da.aspx
+||zrakpxsf.com^
 ||zrav2wkbrs.com^
 ||zrbabog.cn^
 ||zrblog.net/gg/
