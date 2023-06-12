@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uW6PtX37SqYAnaKSwfAMBg
+! Checksum: xrjyF2z9MR6/C3IhP55F5g
 ! Title: 自用去广告Adblock规则
-! Version: 20230612225335
-! Last modified: 2023-06-12 22:53:35
+! Version: 20230612232343
+! Last modified: 2023-06-12 23:23:43
 ! Total Count: 1400
 ###ChapterView > .slide-baidu
 ###__ads_dp
@@ -248,8 +248,8 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
-##img[src*="://mpic"][src*=".cn"][src$=".js"]
-##img[src*="://mpic"][src*=".cn"][src$=".txt"]
+##img[src*="://mpic."][src*=".cn"][src$=".js"]
+##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="_advertising_"]
