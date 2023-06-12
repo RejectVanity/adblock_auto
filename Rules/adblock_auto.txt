@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: foLAK1q+4i3PsWb3qEJoWw
+! Checksum: Ib/oiYtg3pzZHcOs89h8xQ
 ! Title: 混合规则(自动更新)
-! Version: 20230612225911
+! Version: 20230613000459
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-12 22:59:11
+! Last modified: 2023-06-13 00:04:59
 ! Total Count: 112511
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -18747,8 +18747,8 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
-##img[src*="://mpic"][src*=".cn"][src$=".js"]
-##img[src*="://mpic"][src*=".cn"][src$=".txt"]
+##img[src*="://mpic."][src*=".cn"][src$=".js"]
+##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="_advertising_"]
