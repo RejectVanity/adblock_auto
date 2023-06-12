@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: U8sHn1GrX3rJjmqTS3y6sA
+! Checksum: xD04nM4PW1JKMP6yecmG8Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230612160816
+! Version: 20230612225446
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-12 16:08:16
-! Total Count: 19184
+! Last modified: 2023-06-12 22:54:46
+! Total Count: 19190
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2575,6 +2575,8 @@
 .com:2516/code/
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
+.com:8010/cc/*?is_not=1&target=1$document
+.com:8010/cc/*?is_not=1&target=1$~third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cyou/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
@@ -5551,6 +5553,7 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yarik-sat.com##.noadb
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
+yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
@@ -7327,6 +7330,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||adadmin.house365.com^
 ||adadu.cn^
 ||adadvisor.net^
+||adb.*.online/slot?$third-party
 ||adback.tango.me^
 ||adballoon.afreecatv.com^
 ||adbd.liuxue86.com^
@@ -10201,7 +10205,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||e.changyan.sohu.com/dataService/getData?
 ||e.hnr.cn/choose/view/
 ||e.qq.com^
-||e.z091u.cn^$domain=shenpinwu.com
 ||e0514.com/do/js.
 ||e0514.com/gglist/
 ||e0575.cn/js/corea/jquery.popup.js
@@ -10859,7 +10862,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||g2qb.top^
 ||g3f3.com/love/
 ||g77ds2.xyz^
-||g89zum.zaiceyjjqq.com^$domain=5yydstxt178.com
 ||g8ld.fun^
 ||g9o.cn^
 ||ga-ads.com^
@@ -11395,6 +11397,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||haiyunx.com^$third-party
 ||haizirv.cn^
 ||handanxinkai.com^
+||handerfix.com^
 ||handjob.tw/ad/
 ||handsomelyhealth.com^$third-party
 ||handukeji.top^
@@ -13346,6 +13349,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lfsenmei.com^
 ||lfzk2cp.icu^
 ||lgecqrb.com^
+||lgecqrb.com^$document
+||lgecqrb.com^$~third-party
 ||lgh2.fun^
 ||lgjxw.xyz^
 ||lgjygg.com^
@@ -13709,7 +13714,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||m.qiushuzw.com/9CB0D8A5/2dfc69b0d8a5.js
 ||m.realgfporn.com/th^
 ||m.salihlisektorgazetesi.com/mobil-reklam-
-||m.sdxlglm.cn^$domain=shenpinwu.com
 ||m.shazi8.com/mg^
 ||m.shushu8.com/js/1*.js
 ||m.shushu8.com/js/tongji.js?
@@ -15148,6 +15152,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ppjttn.xyz^
 ||pplnjoow.com^
 ||ppltxv.xyz^
+||ppluoli.xyz^*.gif
 ||ppshk.com^*banner/
 ||ppshop.club^
 ||ppsj.com.cn/images/ppsj300.gif
@@ -15780,6 +15785,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rmt.plus^
 ||rnajhyd.xyz^
 ||rngfavm.cn^
+||rnhqxh.com^
 ||rnzqde.xyz^
 ||robberyinscription.com^
 ||rockradio.com^*/blockadblock-$script,domain=rockradio.com
