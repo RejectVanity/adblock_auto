@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xD04nM4PW1JKMP6yecmG8Q
+! Checksum: CzwLn+jb55i0GjfCWp4DxA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230612225446
+! Version: 20230612225914
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-12 22:54:46
-! Total Count: 19190
+! Last modified: 2023-06-12 22:59:14
+! Total Count: 19175
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5555,7 +5555,6 @@ yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##[class$="_b"]
@@ -7303,7 +7302,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ad.mail.ru^$script,redirect-rule=empty
 ||ad.mobiuspace.net^
 ||ad.muyang888.top^
-||ad.myinstashot.com^
 ||ad.nvdvr.cn^
 ||ad.ohmyad.co^
 ||ad.particlenews.com^
@@ -7331,7 +7329,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||adadu.cn^
 ||adadvisor.net^
 ||adb.*.online/slot?$third-party
-||adback.tango.me^
 ||adballoon.afreecatv.com^
 ||adbd.liuxue86.com^
 ||adblade.com^
@@ -7463,20 +7460,15 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ads.facebook.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads.feelingtouch.com^
 ||ads.fotoable.com^
-||ads.glispa.com^
-||ads.go2reach.com^
 ||ads.imbc.com^
 ||ads.imovideo.ru^
 ||ads.iosappsworld.com^
 ||ads.jianchiapp.com^
 ||ads.kiktu.com^$xmlhttprequest,redirect-rule=noop.txt
-||ads.marvel.com^
-||ads.matomymobile.com^
 ||ads.mobilefuse.net^
 ||ads.mobilityware.com^
 ||ads.mobvertising.net^
 ||ads.mopub.com^
-||ads.n-ws.org^
 ||ads.ookla.com^
 ||ads.oppomobile.com^
 ||ads.pdbarea.com^
@@ -9048,7 +9040,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cdn-ketchapp.akamaized.net^
 ||cdn-xinghuatupian-cdn.com^
 ||cdn.88-f.net^
-||cdn.ads.fotoable.net^
 ||cdn.ampproject.org/v*/amp-ima-video-*.js$domain=cumhuriyet.com.tr
 ||cdn.appnext.com^
 ||cdn.auditude.com^
@@ -9108,7 +9099,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ceisip.com/static/js/plugin.js
 ||celcxjb.cn^
 ||celeste.work^
-||cell.zhybzp.cn^$third-party
 ||celtra.com^
 ||cengbalx.fun^
 ||cennv.cn^
@@ -10497,7 +10487,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||exoav.com/nb/nt.js
 ||exoclick.com^$third-party
 ||exosrv.com^$third-party,important
-||exp.glispa.com^
 ||expansioneggnog.com^$third-party
 ||expertvaz.ru/wp-content/plugins/helper/inc/jquery.mobileInterestial
 ||exponential.com^
@@ -15836,8 +15825,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||rt.api.glispa.com/native/v1/ad
 ||rtapi.abbi.io^
 ||rtb.appbid.com^
-||rtb.kds.media^
-||rtb.nexage.com^
 ||rtb.platform.glispa.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||rtbrennab.com^$third-party
@@ -15964,7 +15951,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||saohu*.com/config/json/cctv.json?
 ||sapsmnb.cyou^
 ||sas.com^
-||sas816.ujikdd041o.cn^$third-party
 ||sasadown.cn/ad/
 ||sasadown.cn/source/plugin/drk_ledadv/
 ||sasisa.ru/images/*banners
@@ -17056,7 +17042,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||traktalent.com^
 ||traktum.com^
 ||travescorylus.com^
-||trax-ad.jp^
 ||trc.taboola.com^
 ||trebleperfect.com^$third-party
 ||trendmicro.com.tw/wp-content/uploads/*Banner
