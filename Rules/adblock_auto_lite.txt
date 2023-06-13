@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: yHoPyliMa9q8m2RbRh7V5A
+! Checksum: bgY6WpRtngYiAyiXjSx4pA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230613160828
+! Version: 20230614000728
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-13 16:08:28
-! Total Count: 19185
+! Last modified: 2023-06-14 00:07:28
+! Total Count: 19197
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -156,6 +156,7 @@
 ###adx_cggp
 ###ai-adb-message
 ###ai-adb-overlay
+###allpng
 ###antiAdBlock
 ###antiBlock
 ###anti_adblock
@@ -1338,6 +1339,7 @@
 ##a.hengfu > img.hengfu
 ##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
+##a[data-track-content][data-content-name][target="_blank"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$=".cc:8443"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
@@ -1867,12 +1869,15 @@
 ##div[class*="video-item--adv"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
+##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
 ##div[class][id][style] > .pic_container
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
+##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
+##div[class^="main-content"]:has(a[data-content-name][data-track-content])
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="ps_"][value="20"]
@@ -6724,6 +6729,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||77777.org^$third-party
 ||7791.com.cn^
 ||7794.com^$third-party
+||77aiav.me^
 ||77ds.*/js/77ad.js
 ||77ds.vip/js/shichuang.js
 ||77tum.top^
@@ -9489,6 +9495,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cpt.9136.com/img/b_special/
 ||cqfygc.xyz^
 ||cqjjlsy.com^
+||cqpczsu.cn^
 ||cqqwe2pea.xyz^
 ||cqsng.com/mm.js
 ||cqvip.com/viewserver/ViewAD
@@ -11483,6 +11490,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hdherpc.cn^
 ||hdminfeng.com^
 ||hdmoli.com/static/js/pop_promotion.js
+||hdozp.jciwztfj.com^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
 ||hdslb.com/js/core-v5/picment.
@@ -14384,6 +14392,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nedes.xyz^
 ||neets.cc/assets/js/dup.js
 ||neg.hk^
+||neg2zos.icu^
 ||neipa.xyz^
 ||nekomasu.ltd^
 ||nen.com.cn/eap/
@@ -15923,6 +15932,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||s3sng.cn^
 ||s4ls9.top^
 ||s65m.win^
+||s6in.cc^
 ||s7tu.com/images/*.gif
 ||s7w53.icu^
 ||s8bbs.com/ad/
@@ -16091,6 +16101,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sfsft.com/ckplayer/1config.js
 ||sganilglb.cyou^
 ||sgdgh15.com^
+||sgend.net:^$document
+||sgend.net:^$~third-party
 ||sgg.southcn.com^
 ||sgk.xyz/static/js/pc.js
 ||sgnlaigb.fun^
