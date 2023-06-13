@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4JwH0kJO2CLF76MQD6xpig
+! Checksum: hmIa0au55zCXesLBxQ0VAg
 ! Title: 自用去广告Adblock规则
-! Version: 20230613230638
-! Last modified: 2023-06-13 23:06:38
-! Total Count: 1400
+! Version: 20230613232451
+! Last modified: 2023-06-13 23:24:51
+! Total Count: 1404
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -137,6 +137,7 @@
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
 ##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
+##a[data-track-content][data-content-name][target="_blank"]
 ##a[href*="&Ad_ID="]
 ##a[href*=".biquge"][href*="app"]
 ##a[href*=".cc:"] > img[src]
@@ -212,10 +213,13 @@
 ##div[class*="video-item--adv"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
+##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
+##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
+##div[class^="main-content"]:has(a[data-content-name][data-track-content])
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="shortcuts-"][class$="-overlay"]
