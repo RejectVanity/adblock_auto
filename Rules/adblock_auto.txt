@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: AV61yj6/lanlYUBO+N8Yhw
+! Checksum: KIRkFFZwnuYaHf02qmacaA
 ! Title: 混合规则(自动更新)
-! Version: 20230614083514
+! Version: 20230614133652
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-14 08:35:14
-! Total Count: 112671
+! Last modified: 2023-06-14 13:36:52
+! Total Count: 112685
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18757,6 +18757,8 @@
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
+##img[src*="://tpic."][src*=".cn"][src$=".js"]
+##img[src*="://tpic."][src*=".cn"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -29937,6 +29939,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://shiold*.zhaosw.com$script
 ://sportframe*.co^
 ://sportframe*.org^
+://tpic.*.cn/*.js$third-party
+://tpic.*.cn/*.txt$third-party
 ://tru.am^
 ://vlets.*.club$third-party
 ://vlets.*.cyou$third-party
@@ -62516,6 +62520,7 @@ zzzyk.com###Tinfo
 ||bvpaovs.cn^
 ||bvr.ast.snva.jp^
 ||bvr.snva.jp^
+||bvvb9.com^
 ||bvvisctpywbqqo.xyz^
 ||bvwxfok.cn^
 ||bw66.cn/template/default_pc/bbs/
@@ -68141,6 +68146,7 @@ zzzyk.com###Tinfo
 ||ddwant.cn^
 ||ddxfhpuhfroier.com^
 ||ddxmgy.com^
+||ddxolb.xyz^
 ||ddxs.xyz^
 ||ddxvdderokaxhw.com^
 ||ddyipu.com^
@@ -82257,6 +82263,7 @@ zzzyk.com###Tinfo
 ||ksxb.ltd^
 ||ksyrium0014.com^
 ||kszc.j1evtmx.xyz^
+||kszvmqo.cn^$third-party
 ||kszxqq.com^$third-party
 ||kt51.com/bjl666.gif
 ||kt51.com/images/kt51.gif
@@ -87692,6 +87699,7 @@ zzzyk.com###Tinfo
 ||naivescorries.com^
 ||naiyoz.lol^
 ||naj.sk^
+||najnus.com^
 ||najva.com^
 ||nakamasweb.com^
 ||nakanohito.jp^
@@ -92232,6 +92240,7 @@ zzzyk.com###Tinfo
 ||plkatdmeje.com^
 ||plkjia.top^
 ||plkmd.com^
+||plnshao.xyz^
 ||plocap.com^
 ||plokr.com^
 ||plosaztduojwbe.com^
@@ -105434,6 +105443,7 @@ zzzyk.com###Tinfo
 ||tx99y.net^
 ||tx9ff.top^
 ||txahz.com/static/image/tp/
+||txbhhh.xyz^
 ||txcmjo.com^
 ||txfhfdd.cn^
 ||txgg2022bisheng.com^
@@ -106452,6 +106462,7 @@ zzzyk.com###Tinfo
 ||usertrack.appcpi.net^
 ||userzoom.com^
 ||usesfathom.com^
+||usfw2eu.icu^
 ||usherintermediatedisturbing.com^
 ||ushistoari.com^
 ||ushoofop.com^
@@ -106604,6 +106615,7 @@ zzzyk.com###Tinfo
 ||uymjbn.com^
 ||uyojnhqeipyb.xyz^
 ||uysdxmo.com^
+||uyt79.top^
 ||uyueread.com^
 ||uyydww.xyz^
 ||uyzdcun.cn^
@@ -107405,6 +107417,7 @@ zzzyk.com###Tinfo
 ||virgoplato.com^
 ||virgul.com^
 ||virnews.club^
+||viroffyy.com^
 ||virool.com^
 ||virt0n.news^
 ||virtonnews.com^
@@ -112292,6 +112305,7 @@ zzzyk.com###Tinfo
 ||znaptag.com^
 ||znbdr.com^
 ||zndsssp.dangbei.net^
+||znegiu.top^
 ||znews.su^
 ||znfg6677.top^
 ||znktkt.cn^

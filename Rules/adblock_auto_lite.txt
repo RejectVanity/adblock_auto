@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: vW6CVDI93c2YcS2bV7appQ
+! Checksum: OWruCcmjyULZKi1Roq0fjA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230614083518
+! Version: 20230614133656
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-14 08:35:18
-! Total Count: 19196
+! Last modified: 2023-06-14 13:36:56
+! Total Count: 19201
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1999,6 +1999,8 @@
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
+##img[src*="://tpic."][src*=".cn"][src$=".js"]
+##img[src*="://tpic."][src*=".cn"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -3399,6 +3401,8 @@
 ://s.htkk*.top:$script,third-party
 ://seai*/ads/float.js
 ://shiold*.zhaosw.com$script
+://tpic.*.cn/*.js$third-party
+://tpic.*.cn/*.txt$third-party
 ://vlets.*.club$third-party
 ://vlets.*.cyou$third-party
 ://vlets.*.shop$third-party
@@ -13135,6 +13139,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ksnignsd.xyz^
 ||ksnoownmd.fun^
 ||kszc.j1evtmx.xyz^
+||kszvmqo.cn^$third-party
 ||kszxqq.com^$third-party
 ||kt51.com/bjl666.gif
 ||kt51.com/images/kt51.gif
