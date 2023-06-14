@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: LagxlkKt8B6V4PZ8EJ7mRw
+! Checksum: Og3864gEMYvfEVbhozYs7Q
 ! Title: 混合规则(自动更新)
-! Version: 20230614160743
+! Version: 20230614185009
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-14 16:07:43
-! Total Count: 112736
+! Last modified: 2023-06-14 18:50:09
+! Total Count: 112752
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11934,6 +11934,7 @@
 ##.conch-ads-box
 ##.connatix
 ##.connatix-container
+##.connatix-hodler
 ##.connatix-holder
 ##.connatix-wrapper
 ##.consoleAd
@@ -13273,6 +13274,7 @@
 ##.header-ad-desktop
 ##.header-ad-frame
 ##.header-ad-holder
+##.header-ad-mobile
 ##.header-ad-new-wrap
 ##.header-ad-region
 ##.header-ad-row
@@ -15202,6 +15204,7 @@
 ##.premium-ads
 ##.premium-adv
 ##.premium-mpu-container
+##.premium_PremiumPlacement__2dEp0
 ##.premiumad
 ##.preroll-blocker
 ##.priad
@@ -17040,6 +17043,7 @@
 ##.ult_vp_videoPlayerAD
 ##.under-header-ad
 ##.under-player-ad
+##.under-player-ad-mobile
 ##.under-player-ads
 ##.under_ads
 ##.underplayerAd
@@ -19206,6 +19210,7 @@ $websocket,domain=5nj.com|cechi8.com
 &displayads=
 &popunder=$popup
 &popundersPerIP=$popup
+&sadbl=1&chu=
 &xhtml?$script,third-party
 &zoneid=*&ad_$popup
 &zoneid=*&direct=$popup
@@ -26806,6 +26811,7 @@ $websocket,domain=5nj.com|cechi8.com
 /satnetgoogleads.
 /savvyads.
 /sb-relevance.js
+/sbar.json?key=
 /sbhf.js$script,third-party
 /sbnr.ads?
 /sc-tagmanager/*
@@ -29580,6 +29586,8 @@ $websocket,domain=5nj.com|cechi8.com
 ://ln.*.cyou$third-party
 ://ln.*.fun$third-party
 ://ln.*.mobi$third-party
+://ly*.guixiangyuan.xyz$document
+://ly*.guixiangyuan.xyz$~third-party
 ://m.*.cn/*.xmtl?$third-party
 ://m.*.cn/*/*.js?ssid=_
 ://m.*.pw/*.js?ssid=_
@@ -30734,6 +30742,7 @@ $websocket,domain=5nj.com|cechi8.com
 ?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
 ?ZoneID=*&PageID=*&SiteID=$~image
 ?ZoneID=*&SiteID=*&PageID=$~image
+?ab=1&zoneid=
 ?action=ads&
 ?ad.vid=
 ?adCount=$~xmlhttprequest
@@ -30802,6 +30811,7 @@ $websocket,domain=5nj.com|cechi8.com
 ?wpproads-
 ?wpproadszoneid=
 ?wpstealthadsjs=
+?zoneid=*&ab=1
 ?zoneid=*&ab=1$script
 ?zoneid=*&ext=$script
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -39481,6 +39491,7 @@ hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 hentaihaven.icu,hentaihaven.xxx,hentaistream.tv,nhentai.io##.script_manager_video_master
 hentaihaven.xxx##.vrav_a_pc
 hentaimama.io###overlay
+hentaimama.io##div[class^="in-between-ad"]
 hentaiprn.com###block-27
 hentaiprn.com###custom_html-19
 hentaiprn.com###l_340
@@ -43962,6 +43973,7 @@ pinshan.com##.b_adv
 pinshan.com##.b_adv2
 pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
+pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##a[href*="&epik="]
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title^="Promoted"])
 pipeflare.io##.section-promo-banner
 pipi.cn#@#.ad-root
@@ -46490,6 +46502,7 @@ theav.xyz,69xx.one,theporn.cc#$##alert_windows { display: none !important; }
 theav.xyz,69xx.one,theporn.cc#$#.q-body--prevent-scroll { position: static !important; }
 thebadandugly.com##.sidebar30
 thebarentsobserver.com##.pane-title
+thebay.com#?#div.product:-abp-has(div.citrus-sponsored)
 thebeet.com##.affiliate-disclaimer
 thebeet.com##.widget-promotion
 thebestcakerecipes.com##.slick-film-strip
@@ -78394,6 +78407,7 @@ zzzyk.com###Tinfo
 ||iciba.com/www/img/activity/common/active-11-11.js
 ||icicleapplicationinvestigator.com^
 ||icicleriskfence.com^
+||iciclle.com^
 ||icilfj.com^
 ||icilyassertiveindoors.com^
 ||icilytired.com^
@@ -87230,6 +87244,7 @@ zzzyk.com###Tinfo
 ||mtur.xkmnbt.xyz^
 ||mtvekq.com^
 ||mtzenhigqg.com^
+||mu6m1.com^
 ||mu722.com^
 ||muchhetont.ru^
 ||muchorindownlo.xyz^
@@ -102042,6 +102057,7 @@ zzzyk.com###Tinfo
 ||t22g.icu^
 ||t2lgo.com^
 ||t2zc6vo8zj2ch6sh6kvu5vq8cjz4iv8v2aj1ckjy8zktaj8vm6visk6als8l.me^
+||t33ng.com^
 ||t34kk9.top^
 ||t3nlink.com^$third-party
 ||t3p58.com^
