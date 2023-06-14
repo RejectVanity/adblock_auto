@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hmIa0au55zCXesLBxQ0VAg
+! Checksum: h0T8CLHhtEaNZDPv1pblgA
 ! Title: 自用去广告Adblock规则
-! Version: 20230613232451
-! Last modified: 2023-06-13 23:24:51
-! Total Count: 1404
+! Version: 20230614132712
+! Last modified: 2023-06-14 13:27:12
+! Total Count: 1408
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -256,6 +256,8 @@
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
+##img[src*="://tpic."][src*=".cn"][src$=".js"]
+##img[src*="://tpic."][src*=".cn"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -480,6 +482,8 @@
 ://p.qlogo.cn/qqmail_head/*
 ://pic.*.cn/*/*.js$third-party,script
 ://shiold*.zhaosw.com$script
+://tpic.*.cn/*.js$third-party
+://tpic.*.cn/*.txt$third-party
 ://vlets.*.club$third-party
 ://vlets.*.cyou$third-party
 ://vlets.*.shop$third-party
@@ -1244,6 +1248,7 @@ zle.com$script
 ||kmr.wdjptto.cn^
 ||kmy.qhwifeq.cn^
 ||kszc.j1evtmx.xyz^
+||kszvmqo.cn^$third-party
 ||kszxqq.com^$third-party
 ||labadena.com^$third-party
 ||lanmeifeel.xyz^
@@ -1268,7 +1273,6 @@ zle.com$script
 ||mobixc.wqnggnse.fun^
 ||mopak.ionksfefe.xyz^
 ||mopinion.com^
-||mpic.kszvmqo.cn^$third-party
 ||mrkthei.cn^$third-party
 ||mtu.hlkcowp.cn^
 ||netapd.gdxinya.com^
