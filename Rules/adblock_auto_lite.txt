@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: NGO35KCuDOylGHtnmsp1+w
+! Checksum: ln/xc/8gR0AnKabttNRSmw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230615100832
+! Version: 20230615114115
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-15 10:08:32
-! Total Count: 19218
+! Last modified: 2023-06-15 11:41:15
+! Total Count: 19234
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4860,6 +4860,7 @@ d3.ru##.b-promo__placeholder
 d3.ru##section[data-uid="ad"]
 d3.ru##section[data-uid="extraAd"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
+daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
 darkteam.net##.pls_rmv
 daz3d.ru,portfel.info##body > div[id][style="display: block;"]
 dbz-fantasy.com#@##adTeaser
@@ -5227,6 +5228,13 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##div[onclick*="bp1.com"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[href*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[href*="data:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[src^="bLob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[style*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[style*="blob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##a[href^="http://ads.trafficjunky.net/"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##div[onclick*="bp1.com"]
 poznamka.ru##body > [id]:not([class])[style^="z-index"]
 ppc.world##.detected-block-modal
 ppc.world##.js-detected-block
@@ -5405,6 +5413,13 @@ spankbang.com##[class*="_ad"]
 spankbang.com##[class="thumb is_live"]
 spankbang.com##[class^="lv_cm_int_"]
 spankbang.com##div[class*="top"] > img[src][class*="cls"]
+spankbang.com,spankbang.party###interstitial_div_v2
+spankbang.com,spankbang.party###interstitial_div_v3
+spankbang.com,spankbang.party##.ptgncdn_holder
+spankbang.com,spankbang.party##[class*="_ad"]
+spankbang.com,spankbang.party##[class="thumb is_live"]
+spankbang.com,spankbang.party##[class^="lv_cm_int_"]
+spankbang.com,spankbang.party##div[class*="top"] > img[src][class*="cls"]
 spele.nl##.adblocker
 sport-express.ru##.se-adv-notice
 sprashivalka.com##.ad
@@ -10497,6 +10512,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||excfig.xyz^
 ||exdynsrv.com^$third-party,important
 ||exe*.spankbang.com^$xmlhttprequest
+||exe*.spankbang.party^$xmlhttprequest
 ||exe.bid^
 ||exelbid.com^
 ||exgzyg.cn^

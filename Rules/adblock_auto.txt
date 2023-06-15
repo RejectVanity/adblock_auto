@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: h+ye8I8aJC7KflKuogZ+UQ
+! Checksum: TRWoR2cBYlIZwTXK2Cj0Mg
 ! Title: 混合规则(自动更新)
-! Version: 20230615100830
+! Version: 20230615114113
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-15 10:08:30
-! Total Count: 112189
+! Last modified: 2023-06-15 11:41:13
+! Total Count: 112207
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -27257,6 +27257,7 @@ $websocket,domain=5nj.com|cechi8.com
 /svnad/*
 /svr/*.aspx?placeid=$third-party
 /svr/popwin.aspx?$third-party
+/sw.js$script,domain=filechan.org|hotfile.io|lolabits.se|megaupload.nz|openload.cc|rapidshare.nu|share-online.is
 /switchadbanner.
 /sxgg/12.js
 /sxgg/13
@@ -36413,6 +36414,7 @@ dacota.tw#?#section[class*="widget_text"] > .widget-wrap > .textwidget > div[cla
 dafont.com###sky
 dafontfree.io##[href="https://1.envato.market/c/"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
+daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
 dahe.cn###adArea1
 dahe.cn###adsg
 daijiworld.com##.hidden-xs > [href]
@@ -44252,6 +44254,13 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##div[onclick*="bp1.com"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[href*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[href*="data:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[src^="bLob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[style*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[style*="blob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##a[href^="http://ads.trafficjunky.net/"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##div[onclick*="bp1.com"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr##[src^="bLob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
@@ -45912,6 +45921,13 @@ spankbang.com##[class^="lv_cm_int_"]
 spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
 spankbang.com##a[href^="https://www.iyalc.com/"]
 spankbang.com##div[class*="top"] > img[src][class*="cls"]
+spankbang.com,spankbang.party###interstitial_div_v2
+spankbang.com,spankbang.party###interstitial_div_v3
+spankbang.com,spankbang.party##.ptgncdn_holder
+spankbang.com,spankbang.party##[class*="_ad"]
+spankbang.com,spankbang.party##[class="thumb is_live"]
+spankbang.com,spankbang.party##[class^="lv_cm_int_"]
+spankbang.com,spankbang.party##div[class*="top"] > img[src][class*="cls"]
 spankingtube.com##.well3
 spbo1.com##td[width="100%"][height="18"][bgcolor="#ffffff"][align="center"][colspan="13"]
 speakerdeck.com##.carbon-container
@@ -71864,6 +71880,7 @@ zzzyk.com###Tinfo
 ||exdynsrv.com^
 ||exdynsrv.com^$third-party,important
 ||exe*.spankbang.com^$xmlhttprequest
+||exe*.spankbang.party^$xmlhttprequest
 ||exe.bid^
 ||exe1fil3ready.com^
 ||exebid.ru^
@@ -89826,6 +89843,7 @@ zzzyk.com###Tinfo
 ||os-data.com^
 ||os.scmpacdn.com^
 ||osalwqv.cn^
+||osancik.top^
 ||osaud.com^
 ||osaunsot.net^
 ||oscaranimation.in^
