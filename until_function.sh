@@ -162,14 +162,17 @@ cat << key > "${file}"
 # 混合规则
 ### 自动更新(`date +'%F %T'`)
 
-## 统计
-### 访问量 : ![visitors](http://006.freecounters.co.uk/count-133.pl?count=qe1milbo7p68gg219fmj&type=links&prog=unique)
-
 
 | 名称 | GIthub订阅链接 | Github加速订阅链接 | GitCode订阅链接 | 
 | :-- | :-- | :-- | :-- |
 | 混合规则(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅](https://raw.fgit.ml/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto.txt) |
 | 混合规则精简版(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅](https://raw.fgit.ml/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt) |
+
+### 拦截器说明
+> #### [混合规则(自动更新)](https://lingeringsound.github.io/adblock_auto/Rules/adblock_auto.txt) 适用于 \`Adguard\` / \`Ublock Origin\` / \`Adblock Plus\`(用Adblock Plus源码编译的软件也支持，例如[嗅觉浏览器](https://www.coolapk.com/apk/com.hiker.youtoo) ) 支持复杂语法的过滤器，或者能兼容大规则的浏览器例如 [X浏览器](https://www.coolapk.com/apk/com.mmbox.xbrowser)
+
+> #### [混合规则精简版(自动更新)](https://lingeringsound.github.io/adblock_auto/Rules/adblock_auto_lite.txt) 适用于轻量的浏览器，例如  [VIA](https://www.coolapk.com/apk/mark.via)  / [Rian](https://www.coolapk.com/apk/com.rainsee.create) / [B仔浏览器](https://www.coolapk.com/apk/com.huicunjun.bbrowser)
+
 
 ### 上游规则
 #### 感谢各位大佬❤ (ɔˆз(ˆ⌣ˆc)
