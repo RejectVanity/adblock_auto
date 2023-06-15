@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EcSk6rFpLhywyguR5bTnVQ
+! Checksum: VATGKf8uYMRx2Cmuc2PvQQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230614185912
-! Last modified: 2023-06-14 18:59:12
-! Total Count: 1409
+! Version: 20230615095753
+! Last modified: 2023-06-15 09:57:53
+! Total Count: 1410
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -557,6 +557,7 @@ baidu.com##[class^="fc-"]
 baidu.com##[id*="ec-"][id*="ad"]
 baidu.com##[id*="ec_"][id*="ad"]
 baidu.com##[srcid*="_ad"]
+baidu.com##div[class^="sfc-video-page-list"],[class^="c-loading"]
 baidu.com#@#.ad-wrapper
 baidu.com,bdimg.com###aside-ad
 baijiahao.baidu.com##.infinite-scroll-component__outerdiv
