@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0tMelIQqW6zo+hU54DneGQ
+! Checksum: FEb1pvoUw2Ivhs88OI9JyA
 ! Title: 混合规则(自动更新)
-! Version: 20230615000825
+! Version: 20230615083608
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-15 00:08:25
-! Total Count: 112813
+! Last modified: 2023-06-15 08:36:08
+! Total Count: 112844
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5805,6 +5805,7 @@
 ##.MiddleRightRadvertisement
 ##.NA_ad
 ##.NR-Ads
+##.NativeAdContainerRegion
 ##.NavBarAd
 ##.Normal-add
 ##.OAS_wrap
@@ -33131,6 +33132,7 @@ abbreviations.com,definitions.net,grammar.com,kamus.net,lyrics.com,rhymes.net,sc
 abc-fonts.me###galepro-core-adb-enabled
 abc-people.com##div[style*="background-color"][style*="position"][style*="z-index"]
 abcnews.go.com##[data-testid="prism-static-embed"]
+abcnews.go.com##[data-testid="prism-sticky-ad"]
 abcnews.go.com##div[style^="min-height: 90px"]
 abcnews.go.com,edarabia.com##.leaderboard-970
 abcya.com##.a-leader
@@ -33426,6 +33428,7 @@ alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alicocsouth.inter.71edge.com/videos/other/*.f4v
 aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
+aliexpress.com,aliexpress.us##a[href*="&detail_p4p_id="]
 aliexpress.com,aliexpress.us##a[href*="&p4p_pvid="]
 alipay.com###J-cooperant-banner
 alist.nn.ci##.ss
@@ -49906,6 +49909,7 @@ zzzyk.com###Tinfo
 ||1080872514.rsc.cdn77.org^
 ||109218er.xyz^
 ||1095.mobi^
+||1099476806.rsc.cdn77.org^
 ||109c957fb6.com^
 ||10b883b3d61d.com^
 ||10c20aedf4.com^
@@ -62996,6 +63000,7 @@ zzzyk.com###Tinfo
 ||canoevaguely.com^
 ||canonch.pro^
 ||canopylabs.com^
+||canser8.top^
 ||canstrm.com^
 ||cantateremiss.com^
 ||cantdogblued.uno^
@@ -63445,6 +63450,7 @@ zzzyk.com###Tinfo
 ||cdn.nsimg.net/cache/landing/pr/*/yjmobile-*.xml$domain=youjizz.com
 ||cdn.optmn.cloud^
 ||cdn.outfit7.com/promo-nc
+||cdn.p.analitik.bik.gov.tr^
 ||cdn.pljs.ru^
 ||cdn.pranmcpkx.com^
 ||cdn.preciso.net^
@@ -63471,6 +63477,7 @@ zzzyk.com###Tinfo
 ||cdn.upthinking.cn^
 ||cdn.upthinking.cn^$third-party
 ||cdn.usefathom.com^
+||cdn.userleap.com^
 ||cdn.userreport.com^
 ||cdn.vidcrunch.com/integrations/*_Responsive_Floating_DFP_$domain=discuss.com.hk
 ||cdn.vip-hd-movies.xyz^
@@ -63566,7 +63573,9 @@ zzzyk.com###Tinfo
 ||cdsoso.me/static/image/760x60.jpg
 ||cdtbox.rocks^
 ||cdtxqgal.xyz^
+||cdu-offline.de^
 ||cduspenden.de^
+||cdwehdnnprdntse.com^
 ||cdweikebaba.xin^
 ||cdxyb.cn^
 ||cdxyb.cn^$third-party
@@ -64003,6 +64012,7 @@ zzzyk.com###Tinfo
 ||chichosebook.com^
 ||chickensstation.com^
 ||chicks4date.com^
+||chicmifi.com^
 ||chicoryapp.com^
 ||chicssnowman.com^
 ||chidir.com^
@@ -64666,6 +64676,7 @@ zzzyk.com###Tinfo
 ||clicksagent.com^
 ||clickscapture.com^
 ||clicksen.se^
+||clicksfordsm.com^
 ||clicksgate.com^
 ||clicksgear.com^
 ||clickshift.com^
@@ -67627,6 +67638,7 @@ zzzyk.com###Tinfo
 ||d65948f49b.com^
 ||d67p.com/love/
 ||d6b13de038.com^
+||d6cto2pyf2ks.cloudfront.net^
 ||d6deij4k3ikap.cloudfront.net^
 ||d6jfiirio372.com^
 ||d6jkenny8w8yo.cloudfront.net^
@@ -69385,6 +69397,7 @@ zzzyk.com###Tinfo
 ||dn3uy6cx65ujf.cloudfront.net^
 ||dn6rwwtxa647p.cloudfront.net^
 ||dn9uzzhcwc0ya.cloudfront.net^
+||dna8twue3dlxq.cloudfront.net^
 ||dnavexch.com^
 ||dnavtbt.com^
 ||dndd.ru^
@@ -69420,6 +69433,7 @@ zzzyk.com###Tinfo
 ||dnwx.com/pic_ad/
 ||dnxlgencstz4.cloudfront.net^
 ||dnyzbp.cn^
+||dnzmhr.xyz^
 ||do-not-tracker.org^
 ||do.aeoliancorojo.com^
 ||do09.net^
@@ -72019,6 +72033,7 @@ zzzyk.com###Tinfo
 ||evouxoup.com^
 ||evs.data.ciceksepeti.com^
 ||evs.proxy.analytics.shutterstock.com^
+||evs.sgmt.loom.com^
 ||evsembu.com^
 ||evt.houzz.com^
 ||evt.mxplay.com^
@@ -74628,6 +74643,7 @@ zzzyk.com###Tinfo
 ||geldantgrins.com^
 ||geldcounter.de^
 ||gelnhamfo.xyz^
+||gema-online.de^
 ||gemius.mgr.consensu.org^
 ||gemius.pl^
 ||gemlocomotivemid.com^
@@ -76773,6 +76789,7 @@ zzzyk.com###Tinfo
 ||hboav.com/guga/images/$xmlhttprequest,redirect=noop.txt
 ||hboav.com/guga/images/$xmlhttprequest,redirect=nooptext
 ||hbplatform.com^
+||hbrmickt.com^
 ||hbssjd.cn^
 ||hbtyk.top^
 ||hbwrapper.com^
@@ -77560,6 +77577,7 @@ zzzyk.com###Tinfo
 ||holm.ru^
 ||holond.com^
 ||holptimawa.com^
+||holyjesus.de^
 ||homebao.me^
 ||homeieped.cn^
 ||homelycrown.com^
@@ -81398,6 +81416,7 @@ zzzyk.com###Tinfo
 ||jyrd.com/statics/*/js/baizhu/
 ||jysbj.cn^
 ||jystea.com^
+||jyt58.top^
 ||jyuyjxx.cn^
 ||jywangluo.top^
 ||jyxfvp.xyz^
@@ -89552,6 +89571,7 @@ zzzyk.com###Tinfo
 ||ohndsplu.com^
 ||ohnkitviv.com^
 ||ohnooo.ru^
+||ohoyao.com^
 ||ohoycaline.com^
 ||ohpgamsojj.com^
 ||ohrdsplu.com^
@@ -90266,6 +90286,7 @@ zzzyk.com###Tinfo
 ||oskxpvmnalfb.com^
 ||oslixj.cn^
 ||osm-onead.cdn.hinet.net^
+||osmanlikaraite.com^
 ||osmoticchalah.com^
 ||osniffer.pro^
 ||osnignsk.xyz^
@@ -93631,6 +93652,7 @@ zzzyk.com###Tinfo
 ||public.adgger.jp^
 ||public.app.autohome.com.cn^
 ||public.porn.fr^
+||public.profitwell.com^
 ||publica.ir^
 ||publicgood.com^
 ||publicidad.net^
@@ -96212,6 +96234,7 @@ zzzyk.com###Tinfo
 ||riminghoggoofy.com^
 ||rimstipulatedeputy.com^
 ||rinc.ink^
+||rinceaskedase.com^
 ||rindingreb.ru^
 ||ringairs.xyz^
 ||ringedtusher.com^
@@ -99095,6 +99118,7 @@ zzzyk.com###Tinfo
 ||skfqxkk.cn^
 ||skiableethyls.com^
 ||skiddyteapots.com^
+||skidfqh.xyz^
 ||skidgleambrand.com^
 ||skidl.ru^
 ||skierseatmileage.com^
@@ -99864,6 +99888,7 @@ zzzyk.com###Tinfo
 ||sourne.com^
 ||sourtophulsean.space^
 ||sousefulhea.buzz^
+||sousefulhead.com^
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
 ||southmoney.com^*/Inc/
@@ -100060,6 +100085,7 @@ zzzyk.com###Tinfo
 ||spatterjointposition.com^
 ||spaung.cn^
 ||spcode.baidu.com^
+||spd-spenden.de^
 ||spdate.com^
 ||spdfkvk.pro^
 ||speakinghostile.com^
@@ -101686,6 +101712,7 @@ zzzyk.com###Tinfo
 ||surmal.com^
 ||surnamesubqueryaloft.com^
 ||surpassconstraintsrenewal.com^
+||surperverse.com^
 ||surprisingcordialtrust.com^
 ||surprisinglycouncil.com^
 ||surrogatelithe.com^
@@ -102319,6 +102346,7 @@ zzzyk.com###Tinfo
 ||talltouch.com^
 ||tallyhoquires.com^
 ||tallysaturatesnare.com^
+||talpa-analytics.
 ||talrahot.net^
 ||talsauve.com^
 ||talysu.info^
@@ -107977,6 +108005,7 @@ zzzyk.com###Tinfo
 ||vv8h9vyjgnst.com^
 ||vvbox.cz^
 ||vvfht.fun^
+||vvfrdcuxrergrjy.com^
 ||vvhatsappsohbetim.site^
 ||vvickycira.com^
 ||vviikig.cn^
@@ -108586,6 +108615,7 @@ zzzyk.com###Tinfo
 ||webstat.net^
 ||webstat.no^
 ||webstat.se^
+||webstat.ws.126.net^
 ||webstatistic.ml^
 ||webstatistik.odav.de^
 ||webstatistika.lv^
@@ -110708,6 +110738,7 @@ zzzyk.com###Tinfo
 ||xwktyiydn.com^
 ||xwlketvkzf.com^
 ||xwmxdrnl.com^
+||xwnqmrdi.com^
 ||xwqvytuiko.com^
 ||xww360.com^
 ||xwwj.ink^
