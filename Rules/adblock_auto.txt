@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UjcT9hdh4WySvftgtKtkrA
+! Checksum: bBCNXonMBNx8Aw+ezWbN0g
 ! Title: 混合规则(自动更新)
-! Version: 20230616160757
+! Version: 20230616163244
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-16 16:07:57
+! Last modified: 2023-06-16 16:32:44
 ! Total Count: 112342
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -18582,7 +18582,6 @@
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
-##div[class^="main-content"]:has(a[data-content-name][data-track-content])
 ##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
@@ -62735,6 +62734,7 @@ zzzyk.com###Tinfo
 ||ca622bc6eb.com^
 ||ca6ac9b0e5.com^
 ||ca72472d7aee.com^
+||caaie.xyz^
 ||caanalytics.com^
 ||caationafor.space^
 ||cabbingpolynya.cam^
