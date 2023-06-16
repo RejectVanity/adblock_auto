@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zbZQYZas6wOKM4hJRLp/Yw
+! Checksum: Yg97IcnY5ZzCQIHmv41QTQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230615114006
-! Last modified: 2023-06-15 11:40:06
-! Total Count: 1411
+! Version: 20230616162911
+! Last modified: 2023-06-16 16:29:11
+! Total Count: 1410
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -219,7 +219,6 @@
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
-##div[class^="main-content"]:has(a[data-content-name][data-track-content])
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="shortcuts-"][class$="-overlay"]
