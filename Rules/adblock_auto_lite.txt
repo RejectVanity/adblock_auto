@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: uUm1dr8BmG2FxCs3rfSkFw
+! Checksum: hTm7tu0jiaduuER/KKB1BA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230616083744
+! Version: 20230616110947
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-16 08:37:44
-! Total Count: 19346
+! Last modified: 2023-06-16 11:09:47
+! Total Count: 19337
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4873,7 +4873,6 @@ d1bzw.com##[id="appurl"],[id="bbsurl"]
 d3.ru##.b-promo__placeholder
 d3.ru##section[data-uid="ad"]
 d3.ru##section[data-uid="extraAd"]
-daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
 darkteam.net##.pls_rmv
 daz3d.ru,portfel.info##body > div[id][style="display: block;"]
@@ -5237,13 +5236,6 @@ pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,youporn.c
 pornhub.com###singleFeedSection > .emptyBlockSpace
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
 pornhub.com,pornhubthbh7ap3u.onion##figure > [id][style="display: block;"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[src^="bLob:"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##a[href^="http://ads.trafficjunky.net/"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##div[onclick*="bp1.com"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[href*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[href*="data:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[src^="bLob:"]
@@ -5422,13 +5414,6 @@ soonnight.com##.display_natural
 sostav.ru###rek_blocker
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 spanishdict.com##.whitelist
-spankbang.com###interstitial_div_v2
-spankbang.com###interstitial_div_v3
-spankbang.com##.ptgncdn_holder
-spankbang.com##[class*="_ad"]
-spankbang.com##[class="thumb is_live"]
-spankbang.com##[class^="lv_cm_int_"]
-spankbang.com##div[class*="top"] > img[src][class*="cls"]
 spankbang.com,spankbang.party###interstitial_div_v2
 spankbang.com,spankbang.party###interstitial_div_v3
 spankbang.com,spankbang.party##.ptgncdn_holder
@@ -5662,6 +5647,7 @@ youtube.com##.ytp-ad-player-overlay-flyout-cta
 youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##YTM-PROMOTED-VIDEO-RENDERER
+youtube.com##[aria-label*="广告"]
 youtube.com##[class^="ytd-display-ad-"]
 youtube.com##[layout*="display-ad-"]
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
@@ -7277,6 +7263,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||a666.one^
 ||a78wt.top^
 ||a907907.com^
+||a962m.xyz^
 ||aa.gushiwen.org^
 ||aa.xiangxiangmf.com^
 ||aa665588aa.com^
@@ -8703,6 +8690,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bfdaawe.top^
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bfsqtsn.cn^
+||bg04y.xyz^
 ||bgnlaigv.fun^
 ||bh2q.fun^
 ||bhaoea.cn^
@@ -13761,6 +13749,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lwz.hk^
 ||lxapk.com/wp-content/uploads/*.gif
 ||lxbbs.fun^
+||lxbndh.xyz^
 ||lxlidl.ink^
 ||lxqcgj.com^
 ||lxrhw.xyz^
@@ -14588,6 +14577,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||nhgds.xyz^
 ||nhjwh.com^
 ||nhtieoo.cn^
+||nhyvhmvw.com^
 ||ni87.com^
 ||nickhel.com^
 ||nihuwo.asia^
@@ -18765,6 +18755,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yitongkan.com/splash.xml$redirect=noop.js,domain=yitongkan.com,script
 ||yitongwl.cn^
 ||yiuspekmn.bar^
+||yiw2iei.icu^
 ||yiwad.com^$third-party
 ||yixiangzhan.cn^
 ||yjcf360.com/ad.
