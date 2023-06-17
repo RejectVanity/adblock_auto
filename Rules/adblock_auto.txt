@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: +FlHdySjPWn3IfTAMAYY5g
+! Checksum: Eejr0tl6l0ySOSIGl3dkGw
 ! Title: 混合规则(自动更新)
-! Version: 20230617160736
+! Version: 20230617195650
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-17 16:07:36
-! Total Count: 112494
+! Last modified: 2023-06-17 19:56:50
+! Total Count: 112498
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9650,6 +9650,7 @@
 ##.adsenseframe
 ##.adsenseleaderboard
 ##.adsensemobile
+##.adsenvelope
 ##.adsep
 ##.adserve_728
 ##.adserverBox
@@ -46385,6 +46386,7 @@ taoguba.com.cn##.wz_ad
 taohuayun.cn##img[width="150"][height="60"]
 taoziba.cc##.vddb2 + a
 tapahtumat.iijokiseutu.fi,tapahtumat.kaleva.fi,tapahtumat.koillissanomat.fi,tapahtumat.lapinkansa.fi,tapahtumat.pyhajokiseutu.fi,tapahtumat.raahenseutu.fi,tapahtumat.rantalakeus.fi,tapahtumat.siikajokilaakso.fi#@#.ad-popup
+tapatalk.com###relatedblogbar
 taptap.com###bottomBanner
 target.com##.h-position-fixed-bottom
 target.com##[data-test="featuredProducts"]
@@ -48582,7 +48584,9 @@ xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="yld-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
+xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
 xhtml?$domain=kanshu8.net
 xhtml?%22+$script,third-party

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Fznj1z6nYlGX4dPXmfrulg
+! Checksum: kdneLzg0nY9QyfkVqxfTQg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230617160740
+! Version: 20230617195652
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-17 16:07:40
-! Total Count: 19404
+! Last modified: 2023-06-17 19:56:52
+! Total Count: 19415
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5600,12 +5600,22 @@ xgroovy.com##.fluid_ad_cta
 xgroovy.com##[class^="fluid-b"]
 xgroovy.com##[class^="headA"],[class^="headC"]
 xgroovy.com##div[class^="in is_mobile"]
+xhamster.com##.bottom-widget-section
+xhamster.com##.clipstore-bottom
+xhamster.com##.player-add-overlay
+xhamster.com##.promo-message
+xhamster.com##.sponsorBottom
+xhamster.com##.video-view-ads
+xhamster.com##.xplayer-b
+xhamster.com##.xplayer-hover-menu
 xhofficial.com,xhamster.com,xhamster2.com##[class*="ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="yld-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
+xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
@@ -9550,6 +9560,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cnscg.com/template/default/style/t6/*x*1
 ||cnscg.com/template/default/style/t6/other/
 ||cnshiw2.com^
+||cnt.xhamster.com^
 ||cntronics.com/adsupload/
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
