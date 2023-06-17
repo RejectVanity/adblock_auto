@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: AL29GMmanOifuAuFArUSwQ
+! Checksum: +eL+VIhm998fMlT7IXBaQQ
 ! Title: 混合规则(自动更新)
-! Version: 20230617000712
+! Version: 20230617083420
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-17 00:07:12
-! Total Count: 112416
+! Last modified: 2023-06-17 08:34:20
+! Total Count: 112441
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18377,6 +18377,7 @@
 ##a[href^="https://reinstandpointdumbest.com/"]
 ##a[href^="https://s.optzsrv.com/"]
 ##a[href^="https://s.zlinkc.com/"]
+##a[href^="https://safesurfingtoday.com/"][href*="?skip="]
 ##a[href^="https://see.kmisln.com/"]
 ##a[href^="https://serve.awmdelivery.com/"]
 ##a[href^="https://spygasm.com/track?"]
@@ -25571,6 +25572,7 @@ $websocket,domain=5nj.com|cechi8.com
 /jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 /jquery.modal.$domain=1909.me|8se.me|litu100.xyz|xchina.co|xchina.fun|xchina.pro
 /jquery.peelback.
+/jquery.php/?uid=
 /jquery/ad.
 /jquery_FOR_AD/*
 /jqueryadvertising.
@@ -29548,6 +29550,7 @@ $websocket,domain=5nj.com|cechi8.com
 ://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.doordash.com|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lollipod.de|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads2.
 ://adv.$domain=adv.asahi.com|~adv.bet|~adv.blue|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://adv.$domain=~adv.ru|~forex-tv-online.com
 ://adv.$popup,domain=~adv.lack-girl.com
@@ -33490,6 +33493,7 @@ alphaporno.com,katestube.com,sleazyneasy.com,vikiporn.com##.bottom-banners
 alphaporno.com,sleazyneasy.com##.bottom-banners
 alphaporno.com,tubewolf.com##.block-banner
 alphr.com##.fs-pushdown-sticky
+alt-codes.net###copyModal .modal-body
 alternativeto.net##.atf2
 alternativeto.net##.divLeaderboardLove
 alternativeto.net##[class^="AdsenseAd"]
@@ -33692,6 +33696,7 @@ anjuke.com,sunofbeach.net##div[class$="-ad"]
 annistonstar.com##.custom_hot_deal_image
 anobii.com#@#.advertisment
 anoneko.com,dmhy.org,ye1213.com##div[id$="_ad"] > a:first-child > img
+anonfiles.com##[href^="https://www.encrouter.com/"]
 anonymouse.org###mouselayer
 anonymouse.org##.mouselayer
 anoopcnair.com,apkmirror.com,askpython.com,beckernews.com,bizpacreview.com,boxingnews24.com,browserhow.com,constructionreviewonline.com,crankers.com,hard-drive.net,journeybytes.com,net-load.com,planetanalog.com,roadaheadonline.co.za,theamericantribune.com,windowslatest.com,yugatech.com##.ai_widget
@@ -35499,9 +35504,11 @@ cheaptickets.com,expedia.com,ebookers.com,hotels.com,orbitz.com,travelocity.com,
 cheatcodes.com###ad_atf_970
 cheatcodes.com###game_details_ad
 cheatcodes.com##.ad_btf_728
+check-host.net###hostings
 check-host.net##.ard_z
 check-host.net##.thold10xr
 check-host.net##[title="DDOS-Guard"]
+check-host.net##img[style="width: 700px"]
 cheemsporn.com,nudeof.com,sexseeimage.com,yporn.tv##.happy-inside-player
 cheese.com,coingecko.com,foodlovers.co.nz,foodnetwork.ca,investorplace.com,kurocore.com,skift.com,thedailywtf.com,theportugalnews.com,warcraftlogs.com###top-banner
 cheese.com,datpiff.com,gtainside.com##.skyscraper
@@ -40820,6 +40827,7 @@ javlibrary.com##.bottombanner2
 javrank.com##.justify-content-around.d-flex.align-content-center
 javtiful.com###showerm
 javtiful.com##.p-0[style="margin-top: 0.45rem !important"]
+javtorrent.me##div[style^="width:728px; height: 90px;"]
 javvr.net##.jplayerbutton
 javynow.com##.videos-ad__ad
 javynow.com#@#.videos-ad
@@ -46724,6 +46732,7 @@ theroanoketribune.org##div[id^="thero-"]
 thesaturdaypaper.com.au##.promo-banner
 thesaurus.com##.e1wyd5nb0
 thesaurus.com##.otd-item__bottom
+thesaurus.com##section[data-type="ad-horizontal-module"]
 thescore.com##.Ad__container--2fhQb
 thescore1260.com##.block-content > a[href*="sweetdealscumulus.com"]
 thesearchenginelist.com##a[href^="http://www.kqzyfj.com/"]
@@ -54648,6 +54657,7 @@ zzzyk.com###Tinfo
 ||ads.568play.vn^
 ||ads.6svn.com^
 ||ads.ad2iction.com^
+||ads.adadapted.com^
 ||ads.adaptv.advertising.com/*roll&pageUrl=4gtv.tv$script,xmlhttprequest,other,redirect=noopvast-2.0
 ||ads.admatrix.vn^
 ||ads.adpv.com^
@@ -67581,6 +67591,7 @@ zzzyk.com###Tinfo
 ||dabizi.net/images/pcad.png
 ||dable.io^
 ||dabletoverdid.space^
+||daccp.cn^
 ||daccroi.com^
 ||dacfusm.cn^
 ||dackpartner-web.s3.amazonaws.com^
@@ -68004,6 +68015,7 @@ zzzyk.com###Tinfo
 ||dcfnihzg81pa.com^
 ||dchoseitfromt.com.ua^
 ||dchxxvk.cn^
+||dciep.xyz^
 ||dcinfos-cache.abtasty.com^
 ||dcjfoei.cn^
 ||dcjg1gv1px1h.cloudfront.net^
@@ -70512,6 +70524,7 @@ zzzyk.com###Tinfo
 ||ec-concier.com^
 ||ec-optimizer.com^
 ||ec-track.com^
+||ec.adadapted.com^
 ||ec.walkme.com^
 ||ec2-44-233-143-239.us-west-2.compute.amazonaws.com^
 ||ec5e727d37.com^
@@ -75624,6 +75637,7 @@ zzzyk.com###Tinfo
 ||grawhoonrdr.com^
 ||grayreceipt.com^
 ||grayrecruitbrainwash.com^
+||grduswfx.com^
 ||greasegarden.com^
 ||greasemotion.com^
 ||greasysquare.com^
@@ -76191,6 +76205,7 @@ zzzyk.com###Tinfo
 ||habtcng.cn^
 ||habusima.uno^
 ||habyc.com^
+||hacde6.icu^
 ||hackeraa.xyz^
 ||hackhome.com/js/*top.js
 ||hackhome.com/js/bhref.js
@@ -80143,6 +80158,7 @@ zzzyk.com###Tinfo
 ||jb9vtov.xyz^
 ||jbalrqvennerw.top^
 ||jbazhaheia.top^
+||jbhhxd.xyz^
 ||jbkmskjeaevkne.xyz^
 ||jbkwrkmdug.com^
 ||jbm6c54upkui.com^
@@ -83031,6 +83047,7 @@ zzzyk.com###Tinfo
 ||lh168.net^*/attachment/portal/
 ||lh54.top^
 ||lhare.xyz^
+||lhdlbp.xyz^
 ||lhiarfocjo.com^
 ||lhinsights.com^
 ||lhippac.cn^
@@ -84199,6 +84216,7 @@ zzzyk.com###Tinfo
 ||lrzsksw.cn^
 ||ls.srvcs.tumblr.com^
 ||lsaeb.com^
+||lsancil.top^
 ||lsbebm.xyz^
 ||lscckgm.cn^
 ||lsdm.co^
@@ -85928,6 +85946,7 @@ zzzyk.com###Tinfo
 ||mhsksgj.cn^
 ||mhub.work^
 ||mhvllvgrefplg.com^
+||mhysbwo.xyz^
 ||mi-de-ner-nis3.info^
 ||mi.gdt.qq.com^
 ||mi82ltk3veb7.com^
@@ -90919,6 +90938,7 @@ zzzyk.com###Tinfo
 ||payfery.ru^
 ||payingbeswim.com^
 ||payingnoodlescam.com^
+||payload.adadapted.com^
 ||payments4u.org^
 ||paymentsweb.org^
 ||paymonsters.biz^
@@ -104319,6 +104339,7 @@ zzzyk.com###Tinfo
 ||tracking.vht.com.vn^
 ||tracking.vid4u.org^
 ||tracking.vietbao.vn^
+||tracking.viewlift.com^
 ||tracking.viewster.com^
 ||tracking.visitorsvoice.com^
 ||tracking.vitringez.com^
@@ -108556,6 +108577,7 @@ zzzyk.com###Tinfo
 ||whnews.cn/wh_public/xuxu/
 ||whnoxcmxgbqrq.xyz^
 ||whoachoh.com^
+||whoajeex.xyz^
 ||whoalsos.com^
 ||whoapsoo.com^
 ||whoaremyfriends.com^
@@ -109921,6 +109943,7 @@ zzzyk.com###Tinfo
 ||xiongyin.com^$third-party
 ||xiongzhangad.com^
 ||xip.io^
+||xipaaqgnrehpdns.com^
 ||xiqqq.com^
 ||xiryrnrz.com^
 ||xissidearm.com^
@@ -110215,6 +110238,7 @@ zzzyk.com###Tinfo
 ||xttaff.com^
 ||xtube.com/js/ht.js
 ||xtube.com/theme/v2/vendor/js-popunder/
+||xtvhkbqmhqu.xyz^
 ||xtxa.net^
 ||xtygfksar.xyz^
 ||xtyovvojltfo.com^
@@ -111540,6 +111564,7 @@ zzzyk.com###Tinfo
 ||zatnoh.com^
 ||zaubanel.com^
 ||zauglomo.net^
+||zauglust.net^
 ||zaumaico.com^
 ||zausosti.net^
 ||zauthuvy.com^
