@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: /GnnslstHHnpg/McMBExMg
+! Checksum: fqyfHfk29BlWUPJrgCIiMg
 ! Title: 混合规则(自动更新)
-! Version: 20230617100504
+! Version: 20230617114530
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-17 10:05:04
-! Total Count: 112490
+! Last modified: 2023-06-17 11:45:30
+! Total Count: 112492
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18509,6 +18509,7 @@
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
+##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"]
 ##ad-shield-ads
@@ -54857,6 +54858,7 @@ zzzyk.com###Tinfo
 ||ads.tiki.vn^
 ||ads.timesjobsandcareers.com^
 ||ads.topsex.cc^
+||ads.traffichaus.com^
 ||ads.tvb.com^
 ||ads.twitter.com/favicon.ico$image,third-party,redirect-rule=32x32.png
 ||ads.ungdomar.se^

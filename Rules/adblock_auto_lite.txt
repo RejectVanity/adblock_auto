@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: hMTCPiRYAzTVwUXPEkQNEA
+! Checksum: 4l2h4SfJIkFRHWhjpK4Slg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230617100507
+! Version: 20230617114532
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-17 10:05:07
-! Total Count: 19397
+! Last modified: 2023-06-17 11:45:32
+! Total Count: 19402
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1831,6 +1831,7 @@
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
+##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##adblock-detect
 ##adblock-modal-component
@@ -6014,6 +6015,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||136.0.56.196^
 ||1368999.com^
 ||137.175.69.92^
+||1381a.xyz^
 ||1383a.xyz^
 ||1385a.xyz^
 ||138txt.net/js/ssgdd.
@@ -7623,6 +7625,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ads.reddit.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads.sohu.com^
 ||ads.taptapnetworks.com^
+||ads.traffichaus.com^
 ||ads.tvb.com^
 ||ads.twitter.com/favicon.ico$image,third-party,redirect-rule=32x32.png
 ||ads.viber.com^
@@ -11084,6 +11087,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||gccode.gongchang.com^
 ||gcejdac.cn^
 ||gcihkyd.cn^
+||gcqciiqk.com^
 ||gctd.xyz^
 ||gcw*.2liang.cn^
 ||gcxa.cn/a/gb.gif
@@ -11743,6 +11747,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hh.jiankang.com^
 ||hh010.com/static/image/fff/
 ||hhaobcj.cn^
+||hhff111222.com^
 ||hhgxbxk.cn^
 ||hhppy.top^
 ||hhrnxr.xyz^
