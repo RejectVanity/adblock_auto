@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6rynzbTZsdTtvCovOZcQqg
+! Checksum: 6xYaeRaps74d/vu5vsFT3g
 ! Title: 自用去广告Adblock规则
-! Version: 20230617100023
-! Last modified: 2023-06-17 10:00:23
-! Total Count: 1446
+! Version: 20230617111342
+! Last modified: 2023-06-17 11:13:42
+! Total Count: 1448
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -207,6 +207,7 @@
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
+##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##bkveng
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##center[style="display: none;"] > span[style][onclick]
@@ -1152,6 +1153,7 @@ zle.com$script
 ||addthis.com^
 ||adnewnc.app.autohome.com.cn^
 ||adproxy.autohome.com.cn^
+||ads.traffichaus.com^
 ||adsco.re^
 ||adsessionserv.com^$third-party
 ||adtrue.com^
