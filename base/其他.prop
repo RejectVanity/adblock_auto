@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Yg97IcnY5ZzCQIHmv41QTQ
+! Checksum: 6rynzbTZsdTtvCovOZcQqg
 ! Title: 自用去广告Adblock规则
-! Version: 20230616162911
-! Last modified: 2023-06-16 16:29:11
-! Total Count: 1410
+! Version: 20230617100023
+! Last modified: 2023-06-17 10:00:23
+! Total Count: 1446
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -135,6 +135,23 @@
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
 ##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
+##a[alt="545新葡京"][target="_blank"]
+##a[alt="91Pro"][target="_blank"]
+##a[alt="91视频"][target="_blank"]
+##a[alt="JQK棋牌"][target="_blank"]
+##a[alt="p站破解"][target="_blank"]
+##a[alt="加拿大彩票"][target="_blank"]
+##a[alt="同城上门"][target="_blank"]
+##a[alt="开元棋牌"][target="_blank"]
+##a[alt="新月直播"][target="_blank"]
+##a[alt="暗网TV"][target="_blank"]
+##a[alt="樱桃视频"][target="_blank"]
+##a[alt="水仙直播"][target="_blank"]
+##a[alt="澳门博彩"][target="_blank"]
+##a[alt="爱爱直播"][target="_blank"]
+##a[alt="美高梅"][target="_blank"]
+##a[alt="逼哩逼哩"][target="_blank"]
+##a[alt="领882元"][target="_blank"]
 ##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[data-track-content][data-content-name][target="_blank"]
@@ -197,6 +214,7 @@
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div.ad-nav-box
 ##div.down-list > ul > [href]
+##div.down-list > ul > li > dt
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
@@ -215,6 +233,14 @@
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="直播"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="约炮"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="同城"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
@@ -222,6 +248,14 @@
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="shortcuts-"][class$="-overlay"]
+##div[class^="swiper-"] > a[href][alt$="博彩"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="新葡京"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="棋牌"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="直播"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="约炮"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="同城"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="澳门"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id="videoMask"]
 ##div[id^="rfads"]
@@ -245,6 +279,8 @@
 ##img[alt="極樂夜王"]
 ##img[alt="櫻境物語"]
 ##img[alt="賢者同盟"]
+##img[alt][src$=".mp3"]
+##img[class][src$=".mp3"]
 ##img[id^="GGADIMG"][src][class="loading"]
 ##img[src$=".add"]
 ##img[src*="/gg/"][src$=".gif"]
