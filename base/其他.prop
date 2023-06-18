@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qvOFsD6Inh9VgUZFY534fw
+! Checksum: TZeyL5CkWPvu40rUtVGrhw
 ! Title: 自用去广告Adblock规则
-! Version: 20230617195547
-! Last modified: 2023-06-17 19:55:47
-! Total Count: 1459
+! Version: 20230618092852
+! Last modified: 2023-06-18 09:28:52
+! Total Count: 1462
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -496,6 +496,7 @@
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://im.ifengsong888.com/*.gif
 ://im.ifengsong888.com/*.jpg
 ://im.yfled888.com/*.gif
@@ -772,6 +773,7 @@ m.bilibili.com##.m-nav-openapp.launch-app-btn
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-fullscreen-call-app
 m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##[class*="-openapp"]
 m.douban.com##.app-link
 m.douban.com##.green.btn
 m.douban.com##.subject-banner
@@ -1217,6 +1219,7 @@ zle.com$script
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||da-ads.com^
 ||daraz.com^
+||data.bilibili.com/log
 ||dbwmpqd.cn^
 ||dcba.zle.com^
 ||deliver.ptgncdn.com^
