@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: W55kDBTcFoqyxUPfDTNQCg
+! Checksum: hXnKy0RE/4hhrnOYWVaelA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230618093245
+! Version: 20230618143637
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-18 09:32:45
-! Total Count: 19427
+! Last modified: 2023-06-18 14:36:37
+! Total Count: 19442
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1270,6 +1270,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
@@ -1903,6 +1904,9 @@
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
+##div[class^="img"][title$="棋牌"]
+##div[class^="img"][title*="新葡京"]
+##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
@@ -2947,6 +2951,10 @@
 /adsmatcher-anti-adblock/*
 /advertisement/*
 /antiadblockmsg.
+/antv/*/antv-v*_asqt*.apk$document
+/antv/*/antv-v*_asqt*.apk$~third-party
+/antv/antv_v*.*.apk$document
+/antv/antv_v*.*.apk$~third-party
 /arlinablock.js
 /bar/yfgg.js
 /bid?url=http
@@ -2957,6 +2965,8 @@
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
 /blxn_*.js?
+/channel/downApk*&appName=antv$document
+/channel/downApk*&appName=antv$~third-party
 /chunyu*.html?channelCode=$document
 /chunyu*.html?channelCode=$~third-party
 /cookie_check.min.js$domain=acetv.me
@@ -10509,6 +10519,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||egrnmic.cn^
 ||egsxdp.cn^
 ||ehprnuo.cn^
+||eiadf.xyz^
 ||eidccepu.cyou^
 ||eidphap.cn^
 ||eignky.xyz^
@@ -14955,6 +14966,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||optef.xyz^
 ||opticsky.cn/images/2015/gy-px201
 ||opxnwz.shop^
+||opzksyy.cn^
 ||oqeohuc.cn^
 ||oqnggnsk.fun^
 ||oqshoyd.cn^
@@ -17845,6 +17857,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||vq7736.com^
 ||vqdjcy.com^
 ||vqhifd.xyz^
+||vreephay.com^
 ||vrffwbf.cn^
 ||vrizead.com^
 ||vrmgwvz.cn^
@@ -18163,6 +18176,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||wooledswards.com^
 ||woozooo.com/img/*.js
 ||wordego.com^
+||worjeklmq.com^
 ||worldcup1.com/imgs/*.gif$domain=avcao.cc
 ||worlsbld.cyou^
 ||woshiyunying.com^
@@ -19051,6 +19065,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yzaosite.com^
 ||yzdh44.com/js/
 ||yzgid.cn^
+||yziwoidi.icu^
 ||yzjihang.cn^
 ||yzpsb.net/1.js
 ||yzpsb.net/js/jquery.

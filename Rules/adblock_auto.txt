@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1fZGhxK4fMvgZVJGPG576w
+! Checksum: Phol+4aPJsAUXLHAESVoPQ
 ! Title: 混合规则(自动更新)
-! Version: 20230618093243
+! Version: 20230618143634
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-18 09:32:43
-! Total Count: 112550
+! Last modified: 2023-06-18 14:36:34
+! Total Count: 112567
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17523,6 +17523,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
@@ -18608,6 +18609,9 @@
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
+##div[class^="img"][title$="棋牌"]
+##div[class^="img"][title*="新葡京"]
+##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
@@ -23884,6 +23888,10 @@ $websocket,domain=5nj.com|cechi8.com
 /anti_ab.
 /antiadblockmsg.
 /antiblock_script/*
+/antv/*/antv-v*_asqt*.apk$document
+/antv/*/antv-v*_asqt*.apk$~third-party
+/antv/antv_v*.*.apk$document
+/antv/antv_v*.*.apk$~third-party
 /aoyou372down300_
 /ape-ad-
 /api-ads.
@@ -24329,6 +24337,8 @@ $websocket,domain=5nj.com|cechi8.com
 /cgi-bin/ads_
 /cgi-exe/ad.
 /cgi/ad_
+/channel/downApk*&appName=antv$document
+/channel/downApk*&appName=antv$~third-party
 /chaturbatebest.js
 /china-ad.
 /chinaadclient.
@@ -30691,6 +30701,7 @@ $websocket,domain=5nj.com|cechi8.com
 :8888/zhu/wap_
 :8898/ads_
 :9001/code/
+:9875/vh2/
 :9875/vj2/
 :99/js/ads/
 =120x600,
@@ -34609,6 +34620,7 @@ belgie.fm,danmark.fm,deutschland.fm,espana.fm,india.fm,italia.fm,nederland.fm###
 bella.tw##.hide-mobile[style]
 bellesa.co##.Display__RatioOuter-hkc90m-0
 bellinghamherald.com##.zone-el
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,sunherald.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com,charlotteobserver.com,fresnobee.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,newsobserver.com##.zone
 bendibao.com###wxbox
@@ -70916,6 +70928,7 @@ zzzyk.com###Tinfo
 ||ehntqzv1apeizca.ru^
 ||ehprnuo.cn^
 ||ehxqelwtthwyo.com^
+||eiadf.xyz^
 ||eic.org.cn/api/Popup?
 ||eic.org.cn^*/analytics
 ||eicecixkxuq.com^
@@ -89981,6 +89994,7 @@ zzzyk.com###Tinfo
 ||opxapvdpqnbbhl.xyz^
 ||opxnwz.shop^
 ||opymgaj.cn^
+||opzksyy.cn^
 ||oq68.com^
 ||oqeohuc.cn^
 ||oqfdan.cn^
@@ -107623,6 +107637,7 @@ zzzyk.com###Tinfo
 ||vqjxlie.cn^
 ||vra.outbrain.com^
 ||vraatdwugla.com^
+||vreephay.com^
 ||vrewpywootyu.com^
 ||vrffwbf.cn^
 ||vrhorus.com^
@@ -109202,6 +109217,7 @@ zzzyk.com###Tinfo
 ||worersie.com^
 ||worimu.uno^
 ||worimu.xyz^
+||worjeklmq.com^
 ||workableachiever.com^
 ||workback.net^
 ||workerdisadvantageunrest.com^
@@ -111546,6 +111562,7 @@ zzzyk.com###Tinfo
 ||yzc35326.top^
 ||yzdh44.com/js/
 ||yzgid.cn^
+||yziwoidi.icu^
 ||yzjihang.cn^
 ||yzjy.pro^
 ||yznwyng.cn^
