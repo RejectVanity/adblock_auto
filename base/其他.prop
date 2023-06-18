@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TOabag49raL8M+IQMcOQZg
+! Checksum: WtZViuHi8RvkfpKR9FAi9A
 ! Title: 自用去广告Adblock规则
-! Version: 20230618161713
-! Last modified: 2023-06-18 16:17:13
-! Total Count: 1469
+! Version: 20230618205833
+! Last modified: 2023-06-18 20:58:33
+! Total Count: 1477
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -47,6 +47,7 @@
 ##.fed-play-advs
 ##.feed-ad
 ##.footads
+##.g-slide
 ##.gg_pc
 ##.gg_sj
 ##.ima-ad-container
@@ -213,6 +214,7 @@
 ##bkveng
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##center[style="display: none;"] > span[style][onclick]
+##dd > a[data-uuid]
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div.ad-nav-box
@@ -236,6 +238,7 @@
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class="v-banner"][style]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
@@ -269,6 +272,7 @@
 ##div[onclick*="window.location.href"][onclick*=".biqu"][onclick*="app"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*="apps.apple.com/cn/"]
+##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##embed[src^="https:////"]
 ##iframe[src*="//a.adtng.com"]
@@ -286,7 +290,9 @@
 ##img[alt="櫻境物語"]
 ##img[alt="賢者同盟"]
 ##img[alt][src$=".mp3"]
+##img[alt][src$=".txt"]
 ##img[class][src$=".mp3"]
+##img[class][src$=".txt"]
 ##img[id^="GGADIMG"][src][class="loading"]
 ##img[src$=".add"]
 ##img[src*="/gg/"][src$=".gif"]
@@ -299,6 +305,7 @@
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="://tpic."][src*=".cn"][src$=".js"]
 ##img[src*="://tpic."][src*=".cn"][src$=".txt"]
+##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -310,6 +317,7 @@
 ##img[src^="https://www.static04.top/data/images/"][src$=".gif"]
 ##img[style][alt][src*="/data/ds3/"][src$=".php"]
 ##img[style][alt][src*="/data/game/"][src$=".gif"]
+##li > a[data-uuid]
 ##li[class="dataic"] > a[href*="/?channelCode="][target]
 ##li[class="dataic"] > div > a[href][name="点击播放"]
 ##li[id^="dataic"] > div > a[href][name="点击播放"]

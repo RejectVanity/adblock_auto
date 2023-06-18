@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ma0cBU9zn/O+9AyXYVlldA
+! Checksum: SOlz/TU1qa7oCwyy3bM5kQ
 ! Title: 拦截黄色网站转跳
-! Version: 20230618143208
-! Last modified: 2023-06-18 14:32:08
-! Total Count: 180
+! Version: 20230618205828
+! Last modified: 2023-06-18 20:58:28
+! Total Count: 190
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .cc:*/index.html?shareName=$document
@@ -60,10 +60,14 @@
 /(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$~third-party
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$document
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$~third-party
+/51/?channelCode=$document
+/51/?channelCode=$~third-party
 /?channelCode=bfy$document
 /?channelCode=bfy$~third-party
 /?channelCode=ywy$document
 /?channelCode=ywy$~third-party
+/?linkid=*&pop=1$document
+/?linkid=*&pop=1$~third-party
 /antv/*/antv-v*_asqt*.apk$document
 /antv/*/antv-v*_asqt*.apk$~third-party
 /antv/antv_v*.*.apk$document
@@ -76,6 +80,8 @@
 /dayu*.html?channelCode=$~third-party
 /yeyue*.html?channelCode=$document
 /yeyue*.html?channelCode=$~third-party
+139.196.80.247$document
+139.196.80.247$~third-party
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*:*/chunyu.html?k=$document
@@ -130,6 +136,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||fbtntwevnfq.com/*/android.apk?$~third-party
 ||h.*tad.cn/?$document
 ||h.*tad.cn/?$~third-party
+||h5.sdahh.com^$document
+||h5.sdahh.com^$~third-party
+||hh*.huojiabeijing.org^$document
+||hh*.huojiabeijing.org^$~third-party
 ||iqbecde.cn^$document
 ||iqbecde.cn^$~third-party
 ||jfiacyg.cn^$document
