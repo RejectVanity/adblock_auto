@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: eaLPseHuRtfOeBAEU5FhTQ
+! Checksum: 0K8ND0cnlAbMIrXAto8O8A
 ! Title: 混合规则(自动更新)
-! Version: 20230618210158
+! Version: 20230619000652
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-18 21:01:58
-! Total Count: 112612
+! Last modified: 2023-06-19 00:06:52
+! Total Count: 112614
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18220,6 +18220,7 @@
 ##a[href^="http://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
 ##a[href^="http://intent.bingads.com/"]
+##a[href^="http://li.blogtrottr.com/click?"]
 ##a[href^="http://partners.etoro.com/"]
 ##a[href^="http://pic.gunqiu.com/"]
 ##a[href^="http://s.73xx.icu/xgmn"]
@@ -25871,6 +25872,7 @@ $websocket,domain=5nj.com|cechi8.com
 /letv-gug/*
 /levelmaxblock.js
 /lg.php?adid=
+/li.blogtrottr.com/imp?
 /lib/ad.js
 /lib/ads.
 /libc/ads/*
