@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WtZViuHi8RvkfpKR9FAi9A
+! Checksum: UIReNXokR5J5tZo/D8Q6JA
 ! Title: 自用去广告Adblock规则
-! Version: 20230618205833
-! Last modified: 2023-06-18 20:58:33
-! Total Count: 1477
+! Version: 20230619005507
+! Last modified: 2023-06-19 00:55:07
+! Total Count: 1479
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -621,6 +621,8 @@ baike.baidu.com##[class^="relative-shop-"]
 baike.baidu.com##[class^="yitiao-"]
 baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
 baike.so.com##[id^="business-flow"]
+bilibili.com##.float-btn
+bilibili.com##.read-recommend-info
 bing.com###BottomAppPro
 bing.com###b_results > li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
 bing.com###banner
