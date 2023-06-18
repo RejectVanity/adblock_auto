@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: EOHGjcy7/RWWIzNlCvzfsA
+! Checksum: 1fZGhxK4fMvgZVJGPG576w
 ! Title: 混合规则(自动更新)
-! Version: 20230618093001
+! Version: 20230618093243
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-18 09:30:01
-! Total Count: 112549
+! Last modified: 2023-06-18 09:32:43
+! Total Count: 112550
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -29618,6 +29618,7 @@ $websocket,domain=5nj.com|cechi8.com
 ://btt*/Runtime/js/psData.
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
