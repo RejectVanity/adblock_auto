@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 47FhcliIavLlW1uL7CprJg
+! Checksum: fPxPWHv1qr9RnKtjUYN65A
 ! Title: 混合规则(精简版)
-! Version: 20230616163012
+! Version: 20230618143307
 ! Expires: 1145141919810
-! Last modified: 2023-06-16 16:30:15
-! Total Count: 18975
+! Last modified: 2023-06-18 14:33:11
+! Total Count: 19042
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -1274,6 +1274,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
@@ -1343,6 +1344,23 @@
 ##a#wrapper_right_bg[target="_blank"]
 ##a.ad_links
 ##a.hengfu > img.hengfu
+##a[alt="545新葡京"][target="_blank"]
+##a[alt="91Pro"][target="_blank"]
+##a[alt="91视频"][target="_blank"]
+##a[alt="JQK棋牌"][target="_blank"]
+##a[alt="p站破解"][target="_blank"]
+##a[alt="加拿大彩票"][target="_blank"]
+##a[alt="同城上门"][target="_blank"]
+##a[alt="开元棋牌"][target="_blank"]
+##a[alt="新月直播"][target="_blank"]
+##a[alt="暗网TV"][target="_blank"]
+##a[alt="樱桃视频"][target="_blank"]
+##a[alt="水仙直播"][target="_blank"]
+##a[alt="澳门博彩"][target="_blank"]
+##a[alt="爱爱直播"][target="_blank"]
+##a[alt="美高梅"][target="_blank"]
+##a[alt="逼哩逼哩"][target="_blank"]
+##a[alt="领882元"][target="_blank"]
 ##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[data-track-content][data-content-name][target="_blank"]
@@ -1818,6 +1836,7 @@
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
+##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##adblock-detect
 ##adblock-modal-component
@@ -1854,6 +1873,7 @@
 ##div#xinxi
 ##div.ad-nav-box
 ##div.down-list > ul > [href]
+##div.down-list > ul > li > dt
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -1876,15 +1896,34 @@
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="直播"][target="_blank"]
+##div[class] > ul > li > a[href][alt$="约炮"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="同城"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
+##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class][id][style] > .pic_container
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
+##div[class^="img"][title$="棋牌"]
+##div[class^="img"][title*="新葡京"]
+##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="ps_"][value="20"]
 ##div[class^="shortcuts-"][class$="-overlay"]
+##div[class^="swiper-"] > a[href][alt$="博彩"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="新葡京"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="棋牌"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="直播"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt$="约炮"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="同城"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="澳门"][target="_blank"]
+##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id="videoMask"]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
@@ -1964,6 +2003,8 @@
 ##img[alt="極樂夜王"]
 ##img[alt="櫻境物語"]
 ##img[alt="賢者同盟"]
+##img[alt][src$=".mp3"]
+##img[class][src$=".mp3"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[id^="GGADIMG"][src][class="loading"]
@@ -2630,6 +2671,8 @@
 .la/style/vue.js?v=
 .life/ads/
 .live/*_*.js?*16$third-party
+.live/?channelCode=$document
+.live/?channelCode=$~third-party
 .live/?token=*&screen_*=*&ref=$third-party
 .live/gyxx_*_aubi.js$third-party
 .live/j/*/*?$third-party
@@ -2888,6 +2931,10 @@
 /adsmatcher-anti-adblock/*
 /advertisement/*
 /antiadblockmsg.
+/antv/*/antv-v*_asqt*.apk$document
+/antv/*/antv-v*_asqt*.apk$~third-party
+/antv/antv_v*.*.apk$document
+/antv/antv_v*.*.apk$~third-party
 /arlinablock.js
 /bar/yfgg.js
 /bid?url=http
@@ -2898,6 +2945,8 @@
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
 /blxn_*.js?
+/channel/downApk*&appName=antv$document
+/channel/downApk*&appName=antv$~third-party
 /chunyu*.html?channelCode=$document
 /chunyu*.html?channelCode=$~third-party
 /dayu*.html?channelCode=$document
@@ -3013,6 +3062,8 @@
 ://als1007.xz.*.cn/qd/*/*ml168.apk?$~third-party
 ://als1007.xz.*.cn/qd/*/*xf168.apk?$document
 ://als1007.xz.*.cn/qd/*/*xf168.apk?$~third-party
+://apftv*.xn--*.com/*.html$document
+://apftv*.xn--*.com/*.html$~third-party
 ://api.*.com/s/c?_=$third-party
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
@@ -3027,6 +3078,8 @@
 ://btt*/Runtime/js/psData.
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
@@ -5034,6 +5087,7 @@ m.bilibili.com##.m-nav-openapp.launch-app-btn
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-fullscreen-call-app
 m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##[class*="-openapp"]
 m.douban.com##.app-link
 m.douban.com##.green.btn
 m.douban.com##.subject-banner
@@ -5509,12 +5563,22 @@ xgroovy.com##.fluid_ad_cta
 xgroovy.com##[class^="fluid-b"]
 xgroovy.com##[class^="headA"],[class^="headC"]
 xgroovy.com##div[class^="in is_mobile"]
+xhamster.com##.bottom-widget-section
+xhamster.com##.clipstore-bottom
+xhamster.com##.player-add-overlay
+xhamster.com##.promo-message
+xhamster.com##.sponsorBottom
+xhamster.com##.video-view-ads
+xhamster.com##.xplayer-b
+xhamster.com##.xplayer-hover-menu
 xhofficial.com,xhamster.com,xhamster2.com##[class*="ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
+xhofficial.com,xhamster.com,xhamster2.com##[class*="yld-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
+xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
@@ -7508,6 +7572,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ads.reddit.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads.sohu.com^
 ||ads.taptapnetworks.com^
+||ads.traffichaus.com^
 ||ads.tvb.com^
 ||ads.twitter.com/favicon.ico$image,third-party,redirect-rule=32x32.png
 ||ads.viber.com^
@@ -9368,6 +9433,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||cnscg.com/template/default/style/t6/*x*1
 ||cnscg.com/template/default/style/t6/other/
 ||cnshiw2.com^
+||cnt.xhamster.com^
 ||cntronics.com/adsupload/
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
@@ -9709,6 +9775,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dastelefonbuch.de/banner^
 ||dat1.jzjxmj.com^$third-party
 ||data-optout-service.uca.cloud.unity3d.com^
+||data.bilibili.com/log
 ||data.waptime.cn^
 ||data2.doodlemobile.com^
 ||dataguru.cn/site_
