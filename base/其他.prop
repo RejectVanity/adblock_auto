@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yArg2jzDp5JxJkETxGte8g
+! Checksum: HN9vipdPPBAk55nik3XXkA
 ! Title: 自用去广告Adblock规则
-! Version: 20230618093129
-! Last modified: 2023-06-18 09:31:29
-! Total Count: 1463
+! Version: 20230618133245
+! Last modified: 2023-06-18 13:32:45
+! Total Count: 1467
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -80,6 +80,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
@@ -245,6 +246,9 @@
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
+##div[class^="img"][title$="棋牌"]
+##div[class^="img"][title*="新葡京"]
+##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
