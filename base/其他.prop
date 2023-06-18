@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cz5txk6pdMyvTfKAe0VOlA
+! Checksum: TOabag49raL8M+IQMcOQZg
 ! Title: 自用去广告Adblock规则
-! Version: 20230618143203
-! Last modified: 2023-06-18 14:32:03
-! Total Count: 1468
+! Version: 20230618161713
+! Last modified: 2023-06-18 16:17:13
+! Total Count: 1469
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -39,7 +39,7 @@
 ##.bing-ads-wrapper
 ##.bing-native-ad
 ##.bottom_fixed > a > img[src$=".gif"]
-##.bottom_fixed > a[rel='nofollow'][target='_blank']
+##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottomads
 ##.commentads
 ##.container > iframe[src*="123.html"][width][height]
@@ -445,6 +445,7 @@
 /mdzzxttss.php?s=
 /npc/sdk/wp-banners.js$script,third-party
 /pagead2.
+/sdk/push_web/?zid=
 /template/blank/yk/sdo.js
 /vs.php?id=$third-party,xmlhttprequest
 /www/delivery/*
