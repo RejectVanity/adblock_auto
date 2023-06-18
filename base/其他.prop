@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TZeyL5CkWPvu40rUtVGrhw
+! Checksum: yArg2jzDp5JxJkETxGte8g
 ! Title: 自用去广告Adblock规则
-! Version: 20230618092852
-! Last modified: 2023-06-18 09:28:52
-! Total Count: 1462
+! Version: 20230618093129
+! Last modified: 2023-06-18 09:31:29
+! Total Count: 1463
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -496,6 +496,7 @@
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://im.ifengsong888.com/*.gif
 ://im.ifengsong888.com/*.jpg
