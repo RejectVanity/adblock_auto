@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0K8ND0cnlAbMIrXAto8O8A
+! Checksum: fE8nhVVyi9/2KcA+j5P8Cg
 ! Title: 混合规则(自动更新)
-! Version: 20230619000652
+! Version: 20230619005623
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-19 00:06:52
-! Total Count: 112614
+! Last modified: 2023-06-19 00:56:23
+! Total Count: 112616
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -34756,12 +34756,14 @@ bilibili.com##.bili-dyn-ads
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
+bilibili.com##.float-btn
 bilibili.com##.gg-floor-module
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 bilibili.com##.index-promote
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
+bilibili.com##.read-recommend-info
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.video-page-game-card
