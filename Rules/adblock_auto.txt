@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: UgEIJQCipzLnLZgkWD28yg
+! Checksum: EOHGjcy7/RWWIzNlCvzfsA
 ! Title: 混合规则(自动更新)
-! Version: 20230618084033
+! Version: 20230618093001
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-18 08:40:33
-! Total Count: 112546
+! Last modified: 2023-06-18 09:30:01
+! Total Count: 112549
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -29618,6 +29618,7 @@ $websocket,domain=5nj.com|cechi8.com
 ://btt*/Runtime/js/psData.
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
@@ -41973,6 +41974,7 @@ m.bilibili.com##.m-nav-openapp.launch-app-btn
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-fullscreen-call-app
 m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##[class*="-openapp"]
 m.biqiugege8.com##+js(set-constant, lists, undefined)
 m.chouti.com##.m_download_box
 m.cnbeta.com##.article-hd + div[style="text-align:center"]
@@ -67887,6 +67889,7 @@ zzzyk.com###Tinfo
 ||data-px.services^
 ||data.adobedc.net^
 ||data.adwombat.com^
+||data.bilibili.com/log
 ||data.circulate.com^
 ||data.digitalks.az^
 ||data.econa.com^

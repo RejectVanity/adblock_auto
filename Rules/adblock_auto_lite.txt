@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: lKQYvzkt7TPDQa5VrWRXIw
+! Checksum: exbbNyRo9HO6H0qko4cvcg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230618084035
+! Version: 20230618093003
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-18 08:40:35
-! Total Count: 19421
+! Last modified: 2023-06-18 09:30:03
+! Total Count: 19426
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3094,6 +3094,7 @@
 ://btt*/Runtime/js/psData.
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://dreemdmbabys.oss-cn-
@@ -5125,6 +5126,7 @@ m.bilibili.com##.m-nav-openapp.launch-app-btn
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-fullscreen-call-app
 m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##[class*="-openapp"]
 m.douban.com##.app-link
 m.douban.com##.green.btn
 m.douban.com##.subject-banner
@@ -9910,6 +9912,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dastelefonbuch.de/banner^
 ||dat1.jzjxmj.com^$third-party
 ||data-optout-service.uca.cloud.unity3d.com^
+||data.bilibili.com/log
 ||data.waptime.cn^
 ||data2.doodlemobile.com^
 ||dataguru.cn/site_
@@ -12814,6 +12817,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jkxty.mobi^
 ||jkxvvv.xyz^
 ||jlhygy.com^
+||jljftl.xyz^
 ||jllfxt.xyz^
 ||jlmhk.com/images/data/
 ||jlpcn.net/img/300p-
@@ -17265,6 +17269,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||trendmicro.com.tw/wp-content/uploads/*Banner
 ||trenhdg.com^
 ||trenhdg.com^$third-party
+||trfmxf.xyz^
 ||tristoshink.online/libs/check.js
 ||tritoshi.com/libs/check.js
 ||trk.glispa.com^
