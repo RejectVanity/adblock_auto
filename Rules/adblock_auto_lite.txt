@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qVsA/nsiHIZzQKrOiOcakA
+! Checksum: pV8NN9MVV2CeYJSAHkoKbQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230619230057
+! Version: 20230619230457
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-19 23:00:57
-! Total Count: 19521
+! Last modified: 2023-06-19 23:04:57
+! Total Count: 19539
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2466,6 +2466,12 @@
 #@#.vw-header-ads-leader-board
 #@#.ws_contentAd660
 #@#ins.adsbygoogle
+$image,third-party,domain=
+$script,subdocument,third-party,domain=
+$script,subdocument,third-party,websocket,xmlhttprequest,domain=
+$script,subdocument,~third-party,websocket,xmlhttprequest,domain=
+$script,third-party,domain=
+$script,third-party,websocket,domain=
 &adZones$xmlhttprequest
 &ad_type=
 &adsrc=
@@ -2694,6 +2700,8 @@
 .fun/ttdlyqbff/*/*.gif?$third-party,image
 .fun/xtub_*_rony.js$third-party
 .fun:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
+.gif$third-party,domain=
+.gif^$domain=
 .hk/ad2/
 .hk/ads/
 .hk/groupon/ads/
@@ -3005,11 +3013,14 @@
 /adblocker_message_
 /adclick?
 /adclickcv.php
+/adcore.$domain=
 /ads.dp.js?
 /ads/ads.js$script
 /ads?zone_id=
 /ads_iframe
 /adsmatcher-anti-adblock/*
+/advert-$domain=
+/advert.$~script,domain=
 /advertisement/*
 /antiadblockmsg.
 /antv/*/antv-v*_asqt*.apk$document
@@ -3146,7 +3157,9 @@
 ://*btbtt.*/view/image/QT_
 ://a.ads.
 ://ads.
+://ads.$~image,domain=
 ://ads2.
+://adv.$domain=
 ://affiliate.$third-party
 ://als1007.xz.*.cn/qd/*/*ml168.apk?$document
 ://als1007.xz.*.cn/qd/*/*ml168.apk?$~third-party
@@ -4227,6 +4240,7 @@
 =loginExtAD.
 =mumumoniqi-piaochuang-
 =window.awall.adblockwalltemplatefetchdef&
+?*=*=*=$subdocument,domain=
 ?ad_ids=
 ?ad_type=
 ?adunit_id=
@@ -15141,15 +15155,21 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||p8u.hinet.net^
 ||pacix.xyz^
 ||pafcpd.xyz^
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication.com/adsbygoogle.js,domain=youneed.win,xmlhttprequest,script
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=nazology.net|nijimen.net
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=wuyong.fun,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=xiebruce.top
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=linovelib.com,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=m.twfanti.com,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=yodu.org
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication.com/adsbygoogle.js,important,domain=haoweichi.com
 ||pagead2.googlesyndication.com^
+||pagead2.googlesyndication.com^$important,script,redirect=googlesyndication-adsbygoogle,domain=
+||pagead2.googlesyndication.com^$important,script,redirect=googlesyndication_adsbygoogle.js,domain=
+||pagead2.googlesyndication.com^$important,script,redirect=noopjs,domain=
 ||pagead46.l.doubleclick.net^$third-party
 ||pagechoice.net^$third-party
 ||pagefair.net^
@@ -17041,9 +17061,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tanx.com^$third-party,domain=~1688.com|~alimama.com|~tmall.com|~www.taobao.com
 ||tanyp.xyz^
 ||taobao.com/go/$third-party,domain=~alimama.com|~alitrip.com|~tanx.com|~tmall.com
-||taobao.com^$popup,domain=52movieba.com|btee.net|ck180.net|friok.com|iqiyi.com|ktkkt.com
-||taobao.com^$popup,domain=dlkoo.cc
-||taobao.com^$popup,domain=dlkoo.com
+||taobao.com^$popup,domain=52movieba.com|btee.net|ck180.net|dlkoo.cc|dlkoo.com|friok.com|iqiyi.com|ktkkt.com
 ||taobaocdn.com^$image,domain=cnblogs.com
 ||taobc.com^
 ||taoguba.com.cn/res/js/tgbgg/
