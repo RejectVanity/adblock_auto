@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 3mktvE9+E48yBetkSzeHqw
+! Checksum: ccnHyEiiGAYFXa4YohuFkA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230619083615
+! Version: 20230619132821
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-19 08:36:15
-! Total Count: 19491
+! Last modified: 2023-06-19 13:28:21
+! Total Count: 19521
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1330,6 +1330,7 @@
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
 ##[onclick^="playAd"]
+##[onclick^="toinfo('"][onclick$=")"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[src*="//ad.a-ads.com/"]
 ##[src*="://sejieboxapi.yingyangdj.com"]
@@ -1768,6 +1769,7 @@
 ##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
+##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##a[href][target="_blank"][onclick*="广告"]
 ##a[href][target="_blank"][onclick*="横幅"][onclick*="'value': 500"]
 ##a[href][target="_blank"][onclick*="点击"][onclick*="'value': 500"]
@@ -1925,6 +1927,7 @@
 ##div[class^="swiper-"] > a[href][alt^="同城"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="澳门"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id="videoMask"]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
@@ -1995,18 +1998,44 @@
 ##iframe[src^="//ads."]
 ##iframe[width="320"][height="50"]
 ##img#adv1
+##img[alt$="抖阴"]
+##img[alt$="约炮"]
+##img[alt*="呦女"]
+##img[alt*="成人"][alt*="抖阴"]
+##img[alt*="成人"][alt*="抖音"]
+##img[alt*="美女"][alt*="直播"][alt*="秀"]
+##img[alt="91抖阴"]
+##img[alt="91茄子视频"]
+##img[alt="Bet365"]
 ##img[alt="亚星体育"]
+##img[alt="免费AV动漫"]
+##img[alt="免费VPN"]
+##img[alt="免费插入的快感"]
+##img[alt="全国同城约炮"]
 ##img[alt="同城约炮"]
+##img[alt="啪哩啪哩"]
 ##img[alt="墮落姬甲"]
 ##img[alt="天下布魔"]
+##img[alt="太陽城集團"]
 ##img[alt="官方APP"]
+##img[alt="小孩小呦女"]
+##img[alt="开云体育"]
+##img[alt="成人二次元"]
+##img[alt="成人抖音破解"]
+##img[alt="撸兔视频"]
 ##img[alt="新太阳城"]
 ##img[alt="时光约炮"]
 ##img[alt="極樂夜王"]
 ##img[alt="櫻境物語"]
+##img[alt="欲漫涩"]
+##img[alt="海角乱伦社区"]
+##img[alt="美女直播大秀"]
 ##img[alt="賢者同盟"]
+##img[alt="重口味视频"]
 ##img[alt][src$=".mp3"]
 ##img[alt][src$=".txt"]
+##img[alt^="免费AV"]
+##img[alt^="知阴"]
 ##img[class][src$=".mp3"]
 ##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -2088,6 +2117,7 @@
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
+##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 ##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
 #@##Ad300x145

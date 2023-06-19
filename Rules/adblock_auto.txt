@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 4EKnhVWNw5VrUEh01gHYMg
+! Checksum: EfkHutI5Mm5J9NOTWqwIZA
 ! Title: 混合规则(自动更新)
-! Version: 20230619083613
+! Version: 20230619132818
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-19 08:36:13
-! Total Count: 112627
+! Last modified: 2023-06-19 13:28:18
+! Total Count: 112668
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17698,6 +17698,7 @@
 ##[onclick="window.open(this.url)"][src]
 ##[onclick^="location.href='http://www.reimageplus.com"]
 ##[onclick^="playAd"]
+##[onclick^="toinfo('"][onclick$=")"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[src*="//ad.a-ads.com/"]
 ##[src*="://sejieboxapi.yingyangdj.com"]
@@ -18179,6 +18180,7 @@
 ##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
+##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##a[href][target="_blank"][onclick*="广告"]
 ##a[href][target="_blank"][onclick*="横幅"][onclick*="'value': 500"]
 ##a[href][target="_blank"][onclick*="点击"][onclick*="'value': 500"]
@@ -18633,6 +18635,7 @@
 ##div[class^="swiper-"] > a[href][alt^="同城"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="澳门"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[data-ad-placeholder]
 ##div[data-ad-targeting]
 ##div[data-ad-wrapper]
@@ -18759,18 +18762,44 @@
 ##iframe[src^="//ads."]
 ##iframe[width="320"][height="50"]
 ##img#adv1
+##img[alt$="抖阴"]
+##img[alt$="约炮"]
+##img[alt*="呦女"]
+##img[alt*="成人"][alt*="抖阴"]
+##img[alt*="成人"][alt*="抖音"]
+##img[alt*="美女"][alt*="直播"][alt*="秀"]
+##img[alt="91抖阴"]
+##img[alt="91茄子视频"]
+##img[alt="Bet365"]
 ##img[alt="亚星体育"]
+##img[alt="免费AV动漫"]
+##img[alt="免费VPN"]
+##img[alt="免费插入的快感"]
+##img[alt="全国同城约炮"]
 ##img[alt="同城约炮"]
+##img[alt="啪哩啪哩"]
 ##img[alt="墮落姬甲"]
 ##img[alt="天下布魔"]
+##img[alt="太陽城集團"]
 ##img[alt="官方APP"]
+##img[alt="小孩小呦女"]
+##img[alt="开云体育"]
+##img[alt="成人二次元"]
+##img[alt="成人抖音破解"]
+##img[alt="撸兔视频"]
 ##img[alt="新太阳城"]
 ##img[alt="时光约炮"]
 ##img[alt="極樂夜王"]
 ##img[alt="櫻境物語"]
+##img[alt="欲漫涩"]
+##img[alt="海角乱伦社区"]
+##img[alt="美女直播大秀"]
 ##img[alt="賢者同盟"]
+##img[alt="重口味视频"]
 ##img[alt][src$=".mp3"]
 ##img[alt][src$=".txt"]
+##img[alt^="免费AV"]
+##img[alt^="知阴"]
 ##img[class][src$=".mp3"]
 ##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -18859,6 +18888,7 @@
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##topadblock
 ##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
+##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 ##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
 ##zeus-ad
@@ -28488,6 +28518,7 @@ $websocket,domain=5nj.com|cechi8.com
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
+180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hdmovies4u.live,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hdmovies4u.live,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 180gadgets.com,academicful.com,americansongwriter.com,androidsage.com,anoopcnair.com,askpython.com,bigleaguepolitics.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,greekreporter.com,hard-drive.net,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,journeybytes.com,lithub.com,nationalfile.com,notalwaysright.com,patriotfetch.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,superwatchman.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,welovetrump.com,wepc.com,wisden.com,zerohanger.com##.code-block
 18183.com###gsBtn
@@ -33382,6 +33413,7 @@ afkgaming.com##.o-yqC
 afkgaming.com##.ozw5N
 afl.com.au##.c-accordion__item-officialpartners
 afr.com###stickyLeaderboard
+aframnews.com,afro.com,aurn.com,aviacionline.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,chimpreports.com,coinweek.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,draxe.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,jacksonvillefreepress.com,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,talkers.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
 aframnews.com,afro.com,aurn.com,aviacionline.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,chimpreports.com,coinweek.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,draxe.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,jacksonvillefreepress.com,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
 aframnews.com,afro.com,aurn.com,aviacionline.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,chimpreports.com,coinweek.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,jacksonvillefreepress.com,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
 africanadvice.com,pspad.com,sudantribune.com##.google
@@ -37374,6 +37406,7 @@ eagle1065.com##.featureRotator
 earlygame.com##a[rel*="sponsored"]
 earlygame.com,i711.com##a[rel*="sponsored"]
 earnmoneyhub.com###div-outer-4398
+earth.com##.AdZone_adZone__2w4TC
 easou.com###ec-results-c
 easou.com##.ad-charge
 easou.com##.easou_banner
@@ -44940,6 +44973,7 @@ rateyourmusic.com##.column_filler
 rateyourmusic.com##.page_creative_frame
 rawstory.com###rawstory_front_2_container
 rawstory.com###story-top-ad
+rawstory.com##.connatix-hodler
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 reachmax.cn
 reactiongifs.com##div[style="width:499px; background:#ffffff; margin:00px 0px 35px 180px; padding:20px 0px 20px 20px; "]
@@ -45140,6 +45174,7 @@ rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
 rok.guide##.desktop-promo-banner
 roleplayers.co##.adv-wrap
+romania-insider.com###block-nodepagebelowfromourpartners
 romania-insider.com###block-nodepagebelowlatespress
 romania-insider.com###block-nodepagebelowtrendingcontent
 romania-insider.com##.job-item
@@ -45379,6 +45414,9 @@ searchenginejournal.com##.top_leaderboard
 searchenginejournal.com##[id^="SEJ_300x250_"]
 searchenginereports.net###bio_ep
 searchenginereports.net###bio_ep_bg
+searchenginereports.net###imagess1
+searchenginereports.net###imagess2
+searchenginereports.net###imagess3
 searchenginereports.net##a[title="Ad"]
 searchfiles.de###nextuse
 seattlepi.com##.b-gray300
@@ -48393,6 +48431,7 @@ writerscafe.org##.pay
 wsj.com###coupon-links
 wsj.com###in_ad_col_b
 wsj.com###saving-united-coupon-list
+wsj.com##.w27771
 wsj.com##.wsj-ad-label
 wsj.com##[aria-label="Sponsored Offers"]
 wsj.com##div[class*="WSJTheme--adWrapper"]
@@ -74964,6 +75003,7 @@ zzzyk.com###Tinfo
 ||ghostnewz.com^
 ||ghostsinstance.com^
 ||ghrain.com^
+||ghsnhjk.cn^
 ||ghttohimhedra.cc^
 ||ghwsuoe.cn^
 ||ghxadv.com^
@@ -101779,6 +101819,7 @@ zzzyk.com###Tinfo
 ||syzzhd.cn^
 ||sz7g.top^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
+||szafvjdd.icu^
 ||szasm8.com^
 ||szcmcs.com^
 ||szdzbx.com^
