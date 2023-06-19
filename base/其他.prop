@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 02dghkHeY2E1eYk/3xzIlw
+! Checksum: yjLpJUg0ZYaMtDXOfnlrkA
 ! Title: 自用去广告Adblock规则
-! Version: 20230619165259
-! Last modified: 2023-06-19 16:52:59
-! Total Count: 1511
+! Version: 20230619233613
+! Last modified: 2023-06-19 23:36:13
+! Total Count: 1519
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -328,6 +328,10 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
+##img[src*="://dpic."][src*=".cn"][src$=".js"]
+##img[src*="://dpic."][src*=".cn"][src$=".txt"]
+##img[src*="://kpic."][src*=".cn"][src$=".js"]
+##img[src*="://kpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://mpic."][src*=".cn"][src$=".js"]
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
@@ -542,10 +546,14 @@
 ://api.*.com/sh/to/$third-party,xmlhttprequest
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
+://dpic.*.cn/*.js$third-party
+://dpic.*.cn/*.txt$third-party
 ://im.ifengsong888.com/*.gif
 ://im.ifengsong888.com/*.jpg
 ://im.yfled888.com/*.gif
 ://im.yfled888.com/*.jpg
+://kpic.*.cn/*.js$third-party
+://kpic.*.cn/*.txt$third-party
 ://ln.*.cyou$third-party
 ://ln.*.fun$third-party
 ://ln.*.mobi$third-party
