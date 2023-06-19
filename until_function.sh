@@ -175,19 +175,23 @@ elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E
 	local before_tmp=$(cat "${target_file_tmp}" | tr '|' '\n' | sort -u | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
 	sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
-	grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
-	echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" && rm "${target_file_tmp}"
-	mv -f "${target_output_file}" "${target_file}"
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
+		grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
+		echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" && rm "${target_file_tmp}"
+		mv -f "${target_output_file}" "${target_file}"
+	fi
 else
 	sed -i 's|.*domain=||g' "${target_file_tmp}"
 	local before_tmp=$(cat "${target_file_tmp}" | sort -u | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
-	if test "$(cat "${target_file_tmp}" | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
 		sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
 	fi
-	grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
-	echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" && rm "${target_file_tmp}"
-	mv -f "${target_output_file}" "${target_file}"
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
+		grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
+		echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" && rm "${target_file_tmp}"
+		mv -f "${target_output_file}" "${target_file}"
+	fi
 fi
 }
 
