@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Zas0Emd87TfWlPgTSb83Eg
+! Checksum: 02dghkHeY2E1eYk/3xzIlw
 ! Title: 自用去广告Adblock规则
-! Version: 20230619132532
-! Last modified: 2023-06-19 13:25:32
-! Total Count: 1509
+! Version: 20230619165259
+! Last modified: 2023-06-19 16:52:59
+! Total Count: 1511
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1126,14 +1126,15 @@ xgroovy.com##.fluid_ad_cta
 xgroovy.com##[class^="fluid-b"]
 xgroovy.com##[class^="headA"],[class^="headC"]
 xgroovy.com##div[class^="in is_mobile"]
-xhamster.com##.bottom-widget-section
-xhamster.com##.clipstore-bottom
-xhamster.com##.player-add-overlay
-xhamster.com##.promo-message
-xhamster.com##.sponsorBottom
-xhamster.com##.video-view-ads
-xhamster.com##.xplayer-b
-xhamster.com##.xplayer-hover-menu
+xhofficial.com,xhamster.com,xhamster2.com##.bottom-widget-section
+xhofficial.com,xhamster.com,xhamster2.com##.clipstore-bottom
+xhofficial.com,xhamster.com,xhamster2.com##.player-add-overlay
+xhofficial.com,xhamster.com,xhamster2.com##.promo-message
+xhofficial.com,xhamster.com,xhamster2.com##.sponsorBottom
+xhofficial.com,xhamster.com,xhamster2.com##.video-view-ads
+xhofficial.com,xhamster.com,xhamster2.com##.xplayer-b
+xhofficial.com,xhamster.com,xhamster2.com##.xplayer-hover-menu
+xhofficial.com,xhamster.com,xhamster2.com##[class$="-pause"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
@@ -1141,6 +1142,7 @@ xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yld-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
+xhofficial.com,xhamster.com,xhamster2.com##[class^="xp-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]

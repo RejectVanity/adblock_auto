@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9/FLETmdFW0mt6COfbk8Pg
+! Checksum: AQGi1BMBOCaQ5fhZqOBRGg
 ! Title: 混合规则
-! Version: 20230618143220
+! Version: 20230619165336
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-18 14:32:33
-! Total Count: 112389
+! Last modified: 2023-06-19 16:53:49
+! Total Count: 112469
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -11460,6 +11460,7 @@
 ##.bottom_bar_ads
 ##.bottom_fixed > #imgs_link4
 ##.bottom_fixed > a > img[src$=".gif"]
+##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottom_fixed > a[rel='nofollow'][target='_blank']
 ##.bottom_left_advert
 ##.bottom_mengcheng_ad_wrap
@@ -12793,6 +12794,7 @@
 ##.g-adblock3
 ##.g-adver
 ##.g-advertisement-block
+##.g-slide
 ##.g1-ads
 ##.g1-advertisement
 ##.g1_wz > .g1_tp
@@ -17699,6 +17701,7 @@
 ##[onclick="window.open(this.url)"][src]
 ##[onclick^="location.href='http://www.reimageplus.com"]
 ##[onclick^="playAd"]
+##[onclick^="toinfo('"][onclick$=")"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[src*="//ad.a-ads.com/"]
 ##[src*="://sejieboxapi.yingyangdj.com"]
@@ -18180,6 +18183,7 @@
 ##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
+##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##a[href][target="_blank"][onclick*="广告"]
 ##a[href][target="_blank"][onclick*="横幅"][onclick*="'value': 500"]
 ##a[href][target="_blank"][onclick*="点击"][onclick*="'value': 500"]
@@ -18558,6 +18562,7 @@
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##center[style="display: none;"] > span[style][onclick]
 ##citrus-ad-wrapper
+##dd > a[data-uuid]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##display-ad-component
 ##display-ads
@@ -18597,6 +18602,7 @@
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class="v-banner"][style]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
@@ -18629,6 +18635,7 @@
 ##div[class^="swiper-"] > a[href][alt^="同城"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="澳门"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[data-ad-placeholder]
 ##div[data-ad-targeting]
 ##div[data-ad-wrapper]
@@ -18720,6 +18727,7 @@
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
 ##div[style^="position"][onclick^="window.open"]
@@ -18754,18 +18762,46 @@
 ##iframe[src^="//ads."]
 ##iframe[width="320"][height="50"]
 ##img#adv1
+##img[alt$="抖阴"]
+##img[alt$="约炮"]
+##img[alt*="呦女"]
+##img[alt*="成人"][alt*="抖阴"]
+##img[alt*="成人"][alt*="抖音"]
+##img[alt*="美女"][alt*="直播"][alt*="秀"]
+##img[alt="91抖阴"]
+##img[alt="91茄子视频"]
+##img[alt="Bet365"]
 ##img[alt="亚星体育"]
+##img[alt="免费AV动漫"]
+##img[alt="免费VPN"]
+##img[alt="免费插入的快感"]
+##img[alt="全国同城约炮"]
 ##img[alt="同城约炮"]
+##img[alt="啪哩啪哩"]
 ##img[alt="墮落姬甲"]
 ##img[alt="天下布魔"]
+##img[alt="太陽城集團"]
 ##img[alt="官方APP"]
+##img[alt="小孩小呦女"]
+##img[alt="开云体育"]
+##img[alt="成人二次元"]
+##img[alt="成人抖音破解"]
+##img[alt="撸兔视频"]
 ##img[alt="新太阳城"]
 ##img[alt="时光约炮"]
 ##img[alt="極樂夜王"]
 ##img[alt="櫻境物語"]
+##img[alt="欲漫涩"]
+##img[alt="海角乱伦社区"]
+##img[alt="美女直播大秀"]
 ##img[alt="賢者同盟"]
+##img[alt="重口味视频"]
 ##img[alt][src$=".mp3"]
+##img[alt][src$=".txt"]
+##img[alt^="免费AV"]
+##img[alt^="知阴"]
 ##img[class][src$=".mp3"]
+##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[id^="GGADIMG"][src][class="loading"]
@@ -18807,6 +18843,7 @@
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="://tpic."][src*=".cn"][src$=".js"]
 ##img[src*="://tpic."][src*=".cn"][src$=".txt"]
+##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
@@ -18821,6 +18858,7 @@
 ##img[style][alt][src*="/data/game/"][src$=".gif"]
 ##img[width="320"][height="50"]
 ##ins.adsbygoogle
+##li > a[data-uuid]
 ##li[class="dataic"] > a[href*="/?channelCode="][target]
 ##li[class="dataic"] > div > a[href][name="点击播放"]
 ##li[id^="dataic"] > div > a[href][name="点击播放"]
@@ -18850,6 +18888,7 @@
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##topadblock
 ##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
+##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 ##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
 ##zeus-ad
@@ -19834,10 +19873,12 @@ $websocket,domain=5nj.com|cechi8.com
 .club/ads.
 .club/ads/
 .club/adv/
+.club/appinstall.js$third-party,script
 .club/gyxx_*_aubi.js$third-party
 .club/js/popunder.js
 .club/r/*$xmlhttprequest
 .club/ttdlyqbff/*/*.gif?$third-party,image
+.club/xtub_*_rony.js$third-party
 .club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .cn/*-*-*.xc$script,third-party
 .cn/?ss=
@@ -19939,6 +19980,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/adx_
 .com/adz/
 .com/api/getPos?jspath=/$~third-party
+.com/appinstall.js$third-party,script
 .com/bads/
 .com/banner_list.js
 .com/c.gif?
@@ -20047,6 +20089,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/vj2/1$third-party
 .com/vodad.js
 .com/vs.php?id=$script,third-party
+.com/xtub_*_rony.js$third-party
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
@@ -20080,8 +20123,10 @@ $websocket,domain=5nj.com|cechi8.com
 .cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
 .cyou/?token=*&screen_*=*&ref=$third-party
+.cyou/appinstall.js$third-party,script
 .cyou/gyxx_*_aubi.js$third-party
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
+.cyou/xtub_*_rony.js$third-party
 .cyou:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .cz/adv/
 .cz/affil/
@@ -20105,9 +20150,11 @@ $websocket,domain=5nj.com|cechi8.com
 .fun/*_*_rony.js
 .fun/?token=*&screen_*=*&ref=$third-party
 .fun/ad/
+.fun/appinstall.js$third-party,script
 .fun/gyxx_*_aubi.js$third-party
 .fun/scripts/my_33.js
 .fun/ttdlyqbff/*/*.gif?$third-party,image
+.fun/xtub_*_rony.js$third-party
 .fun:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .fuse-cloud.com/
 .fuse-cloud.com/$popup
@@ -20192,6 +20239,7 @@ $websocket,domain=5nj.com|cechi8.com
 .live/?channelCode=$document
 .live/?channelCode=$~third-party
 .live/?token=*&screen_*=*&ref=$third-party
+.live/appinstall.js$third-party,script
 .live/gyxx_*_aubi.js$third-party
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
@@ -20202,6 +20250,7 @@ $websocket,domain=5nj.com|cechi8.com
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
+.live/xtub_*_rony.js$third-party
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -20229,8 +20278,10 @@ $websocket,domain=5nj.com|cechi8.com
 .mobi/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
+.mobi/appinstall.js$third-party,script
 .mobi/gyxx_*_aubi.js$third-party
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
+.mobi/xtub_*_rony.js$third-party
 .mobi:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .mobileads.
 .mp4?*sdtfrom=&$domain=m.v.qq.com
@@ -20349,10 +20400,12 @@ $websocket,domain=5nj.com|cechi8.com
 .shop/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
+.shop/appinstall.js$third-party,script
 .shop/gyxx_*_aubi.js$third-party
 .shop/r/*$xmlhttprequest
 .shop/ttdlyqbff/*/*.gif?$third-party,image
 .shop/xling_*_*.js?
+.shop/xtub_*_rony.js$third-party
 .shop:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .show_ad_
 .site:*/*/*.js
@@ -20374,6 +20427,7 @@ $websocket,domain=5nj.com|cechi8.com
 .top/?token=*&screen_*=*&ref=$third-party
 .top/ad-
 .top/ads/
+.top/appinstall.js$third-party,script
 .top/gyxx_*_aubi.js$third-party
 .top/j/*$script,third-party
 .top/k/*$script,third-party
@@ -20381,6 +20435,7 @@ $websocket,domain=5nj.com|cechi8.com
 .top/ttdlyqbff/*/*.gif?$third-party,image
 .top/upload/ad.js
 .top/xling_*_*.js?
+.top/xtub_*_rony.js$third-party
 .top:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
@@ -20450,6 +20505,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/alpine?$third-party
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
+.xyz/appinstall.js$third-party,script
 .xyz/base*.js?
 .xyz/c.php?s=
 .xyz/effect.php?
@@ -20480,6 +20536,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/vs.php?id=$script,third-party
 .xyz/vue?$third-party
 .xyz/xling_*_*.js?
+.xyz/xtub_*_rony.js$third-party
 .xyz:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .xyz:*/*.html?uid=$document
 .xyz:*/*.html?uid=$~third-party
@@ -20632,6 +20689,8 @@ $websocket,domain=5nj.com|cechi8.com
 /486x60_
 /496_98_
 /500ad/*
+/51/?channelCode=$document
+/51/?channelCode=$~third-party
 /527ldy.oss-
 /5555vipqipai.oss-
 /555hsdsj/*
@@ -20704,6 +20763,8 @@ $websocket,domain=5nj.com|cechi8.com
 /?channelCode=ywy$~third-party
 /?fp=*&poru=$subdocument
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
+/?linkid=*&pop=1$document
+/?linkid=*&pop=1$~third-party
 /?placement=*&redirect$popup
 /?placementName=$script,redirect=noop.js,domain=vpslog.net
 /?redirect&placement=$popup
@@ -28295,6 +28356,8 @@ $websocket,domain=5nj.com|cechi8.com
 131458.com##.divGuanggao
 131458.com##.ulfooter_top
 1337x.to,duplichecker.com##img[src*="data:image"]
+139.196.80.247$document
+139.196.80.247$~third-party
 13mv.com##.aggd
 13mv.com##li[id^="media_image-"]
 13mv.com,csai.cn##.keifu
@@ -34711,12 +34774,14 @@ bilibili.com##.bili-dyn-ads
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
+bilibili.com##.float-btn
 bilibili.com##.gg-floor-module
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 bilibili.com##.index-promote
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
+bilibili.com##.read-recommend-info
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.video-page-game-card
@@ -48568,6 +48633,15 @@ xhamster.com,xhamster2.com##.wio-xbanner
 xhamster18.desi##.xplayer-banner
 xhamster2.com##.wio-xspa
 xhd.cn##.xinad
+xhofficial.com,xhamster.com,xhamster2.com##.bottom-widget-section
+xhofficial.com,xhamster.com,xhamster2.com##.clipstore-bottom
+xhofficial.com,xhamster.com,xhamster2.com##.player-add-overlay
+xhofficial.com,xhamster.com,xhamster2.com##.promo-message
+xhofficial.com,xhamster.com,xhamster2.com##.sponsorBottom
+xhofficial.com,xhamster.com,xhamster2.com##.video-view-ads
+xhofficial.com,xhamster.com,xhamster2.com##.xplayer-b
+xhofficial.com,xhamster.com,xhamster2.com##.xplayer-hover-menu
+xhofficial.com,xhamster.com,xhamster2.com##[class$="-pause"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
@@ -48575,6 +48649,7 @@ xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yld-"]
 xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
+xhofficial.com,xhamster.com,xhamster2.com##[class^="xp-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
 xhtml?$domain=kanshu8.net
@@ -76175,6 +76250,8 @@ zzzyk.com###Tinfo
 ||h45pmx1.cn^
 ||h5.eagllwin.com^
 ||h5.isnssdk.com^
+||h5.sdahh.com^$document
+||h5.sdahh.com^$~third-party
 ||h5.wannaplay.cn^
 ||h52ek3i.de^
 ||h559.stamfordadvocate.com^
@@ -76961,6 +77038,8 @@ zzzyk.com###Tinfo
 ||hgub2polye.com^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/source/plugin/hgyouxiad/
+||hh*.huojiabeijing.org^$document
+||hh*.huojiabeijing.org^$~third-party
 ||hh.jiankang.com^
 ||hh010.com/static/image/fff/
 ||hhaobcj.cn^
@@ -110716,6 +110795,7 @@ zzzyk.com###Tinfo
 ||yi.ximizi.com^
 ||yibivacaji.com^
 ||yicha.jp^
+||yichengjiajupt.com^$third-party
 ||yidbyhersle.xyz^
 ||yiddiquitejuk.com^
 ||yidengfe.com/launches/01/yd.png
