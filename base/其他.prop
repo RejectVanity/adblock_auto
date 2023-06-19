@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yjLpJUg0ZYaMtDXOfnlrkA
+! Checksum: czXSd7rx8+iuqdSqKagdhA
 ! Title: 自用去广告Adblock规则
-! Version: 20230619233613
-! Last modified: 2023-06-19 23:36:13
-! Total Count: 1519
+! Version: 20230619235228
+! Last modified: 2023-06-19 23:52:28
+! Total Count: 1522
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1242,6 +1242,7 @@ zle.com$script
 ||aqhnmof.cn^
 ||asa.com^
 ||ashooqapp.top^$~third-party
+||ato.tooopen.com^$third-party
 ||baby.thinkmore.top^
 ||bbangads.*.net^$third-party
 ||beijing163.aliyunapi.org^$third-party,script
@@ -1250,6 +1251,7 @@ zle.com$script
 ||bnsdk.top^
 ||browser.sentry-cdn.com^
 ||btds.zog.link^$third-party
+||bto.tooopen.com^$third-party
 ||buondua.com/temp*_/?
 ||buondua.com/temp*_/temp*_.js$script
 ||buondua.us/temp*_/?
@@ -1451,6 +1453,7 @@ zle.com$script
 ||tpic.mhslbqk.cn^
 ||trafficjunky.com^
 ||trafficjunky.net^
+||tryoe.com^$third-party
 ||ts.grmnmwv.cn^
 ||tsyndicate.com^
 ||twinrdsrv.com$xmlhttprequest,third-party
