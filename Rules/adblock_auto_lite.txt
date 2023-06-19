@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1uFX5v41CwBluoEF5ssYqg
+! Checksum: w0rKBfcKyWkL6Lmrse+qNQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230620000739
+! Version: 20230620005046
 ! Expires: 12 小时之前 (update frequency)
-! Last modified: 2023-06-20 00:07:39
-! Total Count: 19531
+! Last modified: 2023-06-20 00:50:46
+! Total Count: 19533
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3047,6 +3047,7 @@
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/GDHF.js
 /js/ad_jyshe.js$third-party,script
+/js/adb.js$third-party
 /js/advertiser.js
 /js/dj1ll*.js
 /js/dj2ll*.js
@@ -7805,6 +7806,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||adx-dre.op.hicloud.com^
 ||adx-tk.rayjump.com^
+||adxadserv.com^$third-party
 ||adxcorp.kr^
 ||adxiaozi.com^$third-party
 ||adxxx.com^$third-party
