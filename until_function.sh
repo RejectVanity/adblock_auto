@@ -153,6 +153,74 @@ fi
 	echo "${target}"
 }
 
+#shell 特殊字符转义
+function escape_special_chars(){
+	local input=${1}
+	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=]/\\&/g')
+	echo ${output}
+}
+
+#去除重复作用的域名
+function sort_domain_Combine(){
+local target_content="${2}"
+local target_file="${1}"
+local target_file_tmp="`pwd`/${target_file##*/}.tmp"
+local target_output_file="`pwd`/${target_file##*/}.temple"
+local transfer_content=$(escape_special_chars ${target_content})
+grep -E "^${transfer_content}" "${target_file}" > "${target_file_tmp}" 
+if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E ',')" != "" ;then
+	return
+elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E '\|')" != "" ;then
+	sed -i 's|.*domain=||g' "${target_file_tmp}"
+	local before_tmp=$(cat "${target_file_tmp}" | tr '|' '\n' | sort -u | uniq)
+	echo "${before_tmp}" > "${target_file_tmp}"
+	sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
+	grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
+	echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" && rm "${target_file_tmp}"
+	mv -f "${target_output_file}" "${target_file}"
+else
+	sed -i 's|.*domain=||g' "${target_file_tmp}"
+	local before_tmp=$(cat "${target_file_tmp}" | sort -u | uniq)
+	echo "${before_tmp}" > "${target_file_tmp}"
+	if test "$(cat "${target_file_tmp}" | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
+		sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
+	fi
+	grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
+	echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" && rm "${target_file_tmp}"
+	mv -f "${target_output_file}" "${target_file}"
+fi
+}
+
+#避免大量字符影响观看
+function Running_sort_domain_Combine(){
+local target_adblock_file="${1}"
+test -f "${target_adblock_file}" && echo "※`date +'%F %T'` 规则文件不存在！！！" && return
+sort_domain_Combine "${target_output_file}" '?*=*=*=$subdocument,domain='
+sort_domain_Combine "${target_output_file}" '$script,third-party,websocket,domain='
+sort_domain_Combine "${target_output_file}" '$script,third-party,domain='
+sort_domain_Combine "${target_output_file}" '$script,subdocument,~third-party,websocket,xmlhttprequest,domain='
+sort_domain_Combine "${target_output_file}" '$script,subdocument,third-party,websocket,xmlhttprequest,domain='
+sort_domain_Combine "${target_output_file}" '$script,subdocument,third-party,domain='
+sort_domain_Combine "${target_output_file}" '$image,third-party,domain='
+sort_domain_Combine "${target_output_file}" '.gif$third-party,domain='
+sort_domain_Combine "${target_output_file}" '.gif^$domain=' 
+sort_domain_Combine "${target_output_file}" '/advert-$domain='
+sort_domain_Combine "${target_output_file}" '/advert.$~script,domain='
+sort_domain_Combine "${target_output_file}" '/adcore.$domain='
+sort_domain_Combine "${target_output_file}" '||taobao.com^$popup,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com^$important,script,redirect=googlesyndication-adsbygoogle,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com^$important,script,redirect=googlesyndication_adsbygoogle.js,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com^$important,script,redirect=noopjs,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com^$important,script,redirect=googlesyndication-adsbygoogle,domain='
+sort_domain_Combine "${target_output_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain='
+sort_domain_Combine "${target_output_file}" '://ads.$~image,domain='
+sort_domain_Combine "${target_output_file}" '://adv.$domain='
+}
+
 
 #更新README信息
 function update_README_info(){

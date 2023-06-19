@@ -13,7 +13,6 @@ Base_Rules_Folder="`pwd`/base"
 #删除缓存?(也许)
 rm -rf "${Rules_Folder}" "`pwd`/temple" 2>/dev/null
 
-
 #创建目录
 mkdir -p "${Download_Folder}" "${Sort_Folder}/lite" "${Combine_Folder}/lite" "${Rules_Folder}" && echo "※`date +'%F %T'` 创建临时目录成功！"
 
@@ -70,6 +69,9 @@ fix_Rules "${Rules_Folder}/adblock_auto.txt" '\$third-party,script,_____,domain=
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto.txt"
 #读取白名单 剔除规则
 make_white_rules "${Rules_Folder}/adblock_auto.txt" "`pwd`/white_list/white_list.prop"
+#去除重复作用域名
+Running_sort_domain_Combine "${Rules_Folder}/adblock_auto.txt"
+modtify_adblock_original_file "${Rules_Folder}/adblock_auto.txt"
 #写入头信息
 write_head "${Rules_Folder}/adblock_auto.txt" "混合规则(自动更新)" && echo "※`date +'%F %T'` 混合规则合并完成！"
 
@@ -103,6 +105,9 @@ fix_Rules "${Rules_Folder}/adblock_auto_lite.txt" '\$third-party,script,_____,do
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt"
 #读取白名单 剔除规则
 make_white_rules "${Rules_Folder}/adblock_auto_lite.txt" "`pwd`/white_list/white_list.prop"
+#去除重复作用域名
+Running_sort_domain_Combine "${Rules_Folder}/adblock_auto_lite.txt"
+modtify_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt"
 #写入头信息
 write_head "${Rules_Folder}/adblock_auto_lite.txt" "混合规则精简版(自动更新)" && echo "※`date +'%F %T'` 混合规则精简版合并完成！"
 
