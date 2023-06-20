@@ -18,7 +18,7 @@ https://filters.adtidy.org/extension/ublock/filters/224.txt|Adguard_Chinese.txt
 https://filters.adtidy.org/extension/ublock/filters/11.txt|Adguard_mobile.txt
 '
 
-for i 在 ${list}
+for i in ${list}
 do
 test "$(echo "${i}" | grep -E '^#' )" && continue
 	name=`echo "${i}" | cut -d '|' -f2`
