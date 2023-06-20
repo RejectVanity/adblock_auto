@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: oWdVqiksX/pjb2F8BwSoGA
+! Checksum: sC5jD9e7gqQj6TrKx8Kdow
 ! Title: 混合规则(自动更新)
-! Version: 20230620160814
+! Version: 20230620161204
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-20 16:08:14
-! Total Count: 112884
+! Last modified: 2023-06-20 16:12:04
+! Total Count: 112888
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -15206,6 +15206,7 @@
 ##.ppr_priv_horizon_ad
 ##.pr_adslot_0
 ##.pr_adslot_1
+##.pre-play-adv
 ##.prebid-wrapper
 ##.preheader_advert
 ##.premium-ad
@@ -17514,6 +17515,7 @@
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
 ##[class$="ad-box"]
+##[class$="play-adv"]
 ##[class$="video-ads"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
@@ -17532,6 +17534,7 @@
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
+##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -17546,6 +17549,7 @@
 ##[class^="ad none"]
 ##[class^="ad-layer"]
 ##[class^="adDisplay-module"]
+##[class^="adv-banner-"]
 ##[class^="amp-ad-"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: iIeYk79/kBAmuhurI5yriA
+! Checksum: PcteIIBBWfeNIdNyd3mNGg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230620160816
+! Version: 20230620161207
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-20 16:08:16
-! Total Count: 19555
+! Last modified: 2023-06-20 16:12:07
+! Total Count: 19559
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1104,6 +1104,7 @@
 ##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
+##.pre-play-adv
 ##.preroll-blocker
 ##.privilege-promote
 ##.propa_bottom
@@ -1258,6 +1259,7 @@
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
+##[class$="play-adv"]
 ##[class$="video-ads"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
@@ -1276,6 +1278,7 @@
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
+##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -1289,6 +1292,7 @@
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class^="ad none"]
 ##[class^="ad-layer"]
+##[class^="adv-banner-"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
