@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WAdg5KctABZgD70H8GmRAg
+! Checksum: 8WkJUoWE4Nh6chPNfw2q7g
 ! Title: 自用去广告Adblock规则
-! Version: 20230620134422
-! Last modified: 2023-06-20 13:44:22
-! Total Count: 1528
+! Version: 20230620160918
+! Last modified: 2023-06-20 16:09:18
+! Total Count: 1532
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -61,6 +61,7 @@
 ##.nonepc.mad
 ##.play_list_adbox
 ##.player-rm > a[target="_blank"]
+##.pre-play-adv
 ##.slide-hd > ul > li > a
 ##.synopsisAd
 ##.tads
@@ -69,6 +70,7 @@
 ##.yuepa-list
 ##.yuepa-warp
 ##[class$="ad-box"]
+##[class$="play-adv"]
 ##[class$="video-ads"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
@@ -86,10 +88,12 @@
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
 ##[class="phone-ads ads-bg"]
+##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][onclick="goAppHtml();"]
 ##[class^="ad none"]
 ##[class^="ad-layer"]
+##[class^="adv-banner-"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
