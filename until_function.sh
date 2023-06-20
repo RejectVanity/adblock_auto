@@ -226,6 +226,9 @@ sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com^$i
 sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain='
 sort_domain_Combine "${target_adblock_file}" '://ads.$~image,domain='
 sort_domain_Combine "${target_adblock_file}" '://adv.$domain='
+sort_domain_Combine "${target_adblock_file}" '/adflow.$domain='
+
+
 }
 
 
