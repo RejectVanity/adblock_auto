@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0Vu3fCNag6nzFFFpgmqfFQ
+! Checksum: lvGOwHTlg91lzoYxj4P0wQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230620135259
-! Expires: 12 小时之前 (update frequency)
-! Last modified: 2023-06-20 13:52:59
-! Total Count: 19553
+! Version: 20230620152430
+! Expires: 12 hours (update frequency)
+! Last modified: 2023-06-20 15:24:30
+! Total Count: 19555
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3048,6 +3048,8 @@
 /deadblocker/*
 /dh-anti-adblocker/*
 /disable-adblock.
+/domredirect?visitid=$document
+/domredirect?visitid=$~third-party
 /forum/docs/requests.js$script,domain=nnm-club.lib|nnm-club.me|nnm-club.ws|nnmclub.ro|nnmclub.to|nontorclub.in.net
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 /google-adblock.

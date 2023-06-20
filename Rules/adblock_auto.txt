@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: iTGmltzVbbhx7/dBJOVljQ
+! Checksum: Fn3YuROPmjLXrunQQB0lSQ
 ! Title: 混合规则(自动更新)
-! Version: 20230620135256
-! Expires: 12 小时之前 (update frequency)
-! Last modified: 2023-06-20 13:52:56
-! Total Count: 112882
+! Version: 20230620152427
+! Expires: 12 hours (update frequency)
+! Last modified: 2023-06-20 15:24:27
+! Total Count: 112884
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -24760,6 +24760,8 @@ $websocket,domain=5nj.com|cechi8.com
 /dnsads.
 /domainads/*
 /domen_ads.
+/domredirect?visitid=$document
+/domredirect?visitid=$~third-party
 /dongaogg/*
 /door/ads/*
 /doors/ads/*
