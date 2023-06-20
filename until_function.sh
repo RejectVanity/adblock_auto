@@ -37,7 +37,7 @@ cat << key > "${file}"
 [Adblock Plus 2.0]
 ! Title: ${2}
 ! Version: `date +'%Y%m%d%H%M%S'`
-! Expires: 12 小时之前 (update frequency)
+! Expires: 12 hours (update frequency)
 ! Last modified: `date +'%F %T'`
 ! Total Count: ${count}
 ! Homepage: https://lingeringsound.github.io/adblock_auto
