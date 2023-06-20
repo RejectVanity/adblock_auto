@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XjrhspbDp0aIH1PqjYzhog
+! Checksum: WAdg5KctABZgD70H8GmRAg
 ! Title: 自用去广告Adblock规则
-! Version: 20230620004931
-! Last modified: 2023-06-20 00:49:31
-! Total Count: 1524
+! Version: 20230620134422
+! Last modified: 2023-06-20 13:44:22
+! Total Count: 1528
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -363,6 +363,7 @@
 .cc/?channelCode=$~third-party
 .cc/api/getPos?jspath=/$~third-party
 .club/r/*$xmlhttprequest
+.cn/20*/*/*.txt$third-party
 .cn/api/getPos?jspath=/$~third-party
 .cn/j/*$script,third-party
 .cn/k/*$script,third-party
@@ -378,6 +379,7 @@
 .com/*/ddd3.js
 .com/*/ddd4.js
 .com/*/ffff.js
+.com/20*/*/*.txt$third-party
 .com/?channelCode=$~third-party
 .com/api/getPos?jspath=/$~third-party
 .com/j/*$script,third-party
@@ -407,6 +409,7 @@
 .live/r/*/*?$third-party
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
+.net/20*/*/*.txt$third-party
 .pw/blxn_*.js?
 .shop/r/*$xmlhttprequest
 .shop/xling_*_*.js?
@@ -454,6 +457,7 @@
 /*_*_/bigREDdog.$third-party
 /?channelCode=bfy$document
 /\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$important,script,~third-party,domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|upornia.*|voyeurhit.com|vxxx.com|txxxporn.tube|vjav.com|vjav.tube
+/\/20[0-9]{2}\/[0-9]{2}\/[0-9]+\.txt/$third-party
 /^https?:\/\/.*\.(club|news|live|online|store|tech|guru|cloud|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|photos|re|casa|top|today|space|network|live|work|systems|ml|world|life)\/.*/$domain=1vag.com|4tube.com|asianpornmovies.com|getsex.xxx|glam0ur.com|hclips.com|hdzog.com|homemadevids.org|hotmovs.com|milfzr.com|porn555.com|pornforrelax.com|pornj.com|pornl.com|puporn.com|see.xxx|shemalez.com|sss.xxx|streanplay.cc|thegay.com|thegay.porn|tits-guru.com|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|upornia.com|vjav.com|voyeurhit.com|xozilla.com
 /_xa/ads_
 /ad-tetris-site/file
