@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: CMFpjIG2PgKBgdzlQNeypg
+! Checksum: iTGmltzVbbhx7/dBJOVljQ
 ! Title: 混合规则(自动更新)
-! Version: 20230620105717
+! Version: 20230620135256
 ! Expires: 12 小时之前 (update frequency)
-! Last modified: 2023-06-20 10:57:17
-! Total Count: 112871
+! Last modified: 2023-06-20 13:52:56
+! Total Count: 112882
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19822,6 +19822,8 @@ $websocket,domain=5nj.com|cechi8.com
 .ai/ads.
 .allalla.com^
 .am/adv/
+.app?c=ggcha$document
+.app?c=ggcha$~third-party
 .ar/ads/
 .ashx?AdID=
 .asp?wg&df=$script,third-party
@@ -19878,6 +19880,7 @@ $websocket,domain=5nj.com|cechi8.com
 .club/xtub_*_rony.js$third-party
 .club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .cn/*-*-*.xc$script,third-party
+.cn/20*/*/*.txt$third-party
 .cn/?ss=
 .cn/?ss=$script,third-party
 .cn/a.gif?
@@ -19921,6 +19924,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/*_*.js?*16$third-party
 .com/0gg/gg*.js
 .com/11nvnv/
+.com/20*/*/*.txt$third-party
 .com/?Intr=$popup,third-party
 .com/?ad=
 .com/?aff=$popup,third-party
@@ -20284,6 +20288,7 @@ $websocket,domain=5nj.com|cechi8.com
 .n.2.1.l60.js^
 .name/ads/
 .nativeads.
+.net/20*/*/*.txt$third-party
 .net/?ss=$script,third-party
 .net/_adv/
 .net/ad-
@@ -20539,6 +20544,8 @@ $websocket,domain=5nj.com|cechi8.com
 .zm/ads/
 .zone/ads/
 .zw/ads/
+/#/home?c=ggcha$document
+/#/home?c=ggcha$~third-party
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
@@ -20978,6 +20985,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\.[a-z]{3}\/js\/adultpc\.js/$script,~third-party,important
 /\.html?\?\w=[a-z]{3,10}&\w=\d{13}$/$important,subdocument,third-party
 /\.net\/js\/popup\.js\?v(er)?=1\./$important,script,~third-party
+/\/20[0-9]{2}\/[0-9]{2}\/[0-9]+\.txt/$third-party
 /\/[0-9a-f]{20}\/[0-9a-f]{10}\/\?placementName\=default$/$script,redirect-rule=noopjs
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 /\/[a-z0-9]{8,10}\?.*?key=[0-9a-f]{32}$/$important,document,subdocument,match-case
@@ -55789,6 +55797,7 @@ zzzyk.com###Tinfo
 ||afdads.com^
 ||afdashrafi.com^
 ||afdplay.xyz^
+||afdunaui.com^
 ||afearprevoid.com^
 ||aff*.kolektiva.net^
 ||aff-handler.com^
@@ -106380,6 +106389,7 @@ zzzyk.com###Tinfo
 ||unylgxxmrsbb.com^
 ||unypud.cn^
 ||unzpc.com^
+||uo12.com^
 ||uoarbhxfyygn.com^
 ||uod2quk646.com^
 ||uofmnbkm.com^
@@ -108084,6 +108094,7 @@ zzzyk.com###Tinfo
 ||vytans.com^
 ||vyule.com^
 ||vywoxptqyqgex.com^
+||vyye.cn^
 ||vz81m4.top^
 ||vzadtu.cn^
 ||vzeuvcdi.icu^
