@@ -18,7 +18,7 @@ https://filters.adtidy.org/extension/ublock/filters/224.txt|Adguard_Chinese.txt
 https://filters.adtidy.org/extension/ublock/filters/11.txt|Adguard_mobile.txt
 '
 
-for i in ${list}
+for i 在 ${list}
 do
 test "$(echo "${i}" | grep -E '^#' )" && continue
 	name=`echo "${i}" | cut -d '|' -f2`
@@ -156,7 +156,7 @@ fi
 #shell 特殊字符转义
 function escape_special_chars(){
 	local input=${1}
-	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=]/\\&/g')
+	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=\@\/]/\\&/g')
 	echo ${output}
 }
 
