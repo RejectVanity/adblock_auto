@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ymtSXaaAVvApJmJc49CRBw
+! Checksum: ju4fRychP7f8norwqeBtAA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230621160826
+! Version: 20230621182414
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-21 16:08:26
-! Total Count: 19586
+! Last modified: 2023-06-21 18:24:14
+! Total Count: 19600
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2531,6 +2531,8 @@
 .cn/api/getPos?jspath=/$~third-party
 .cn/b.gif?
 .cn/gg/$script,third-party
+.cn/h.html?id=$document
+.cn/h.html?id=$~third-party
 .cn/j/*$script,third-party
 .cn/js/ads/
 .cn/k/*$script,third-party
@@ -2593,6 +2595,8 @@
 .com/gg.js
 .com/gg/*?x=$script,third-party
 .com/gyxx_*_aubi.js$third-party
+.com/h.html?id=$document
+.com/h.html?id=$~third-party
 .com/images/102.js
 .com/inc/?s=$third-party
 .com/j/*$script,third-party
@@ -2741,6 +2745,8 @@
 .live/?token=*&screen_*=*&ref=$third-party
 .live/appinstall.js$third-party,script
 .live/gyxx_*_aubi.js$third-party
+.live/h.html?id=$document
+.live/h.html?id=$~third-party
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
 .live/kallss?$third-party
@@ -2829,6 +2835,8 @@
 .top/ads/
 .top/appinstall.js$third-party,script
 .top/gyxx_*_aubi.js$third-party
+.top/h.html?id=$document
+.top/h.html?id=$~third-party
 .top/j/*$script,third-party
 .top/k/*$script,third-party
 .top/ttdlyqbff/*/*.gif?$third-party,image
@@ -2877,6 +2885,8 @@
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
 .xyz/gyxx_*_aubi.js$third-party
+.xyz/h.html?id=$document
+.xyz/h.html?id=$~third-party
 .xyz/hm.js?
 .xyz/jque*.js?
 .xyz/js/ads/
@@ -2917,6 +2927,8 @@
 /(https?:\/\/)[0-9]{8}\.(xyz|top|live|com|cn|net)/[0-9]{4}\.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/.*[0-9]{2}.html/$document
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/.*[0-9]{2}.html/$~third-party
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/[0-9]_[0-9].html/$document
+/(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/[0-9]_[0-9].html/$~third-party
 /(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$document
 /(https?:\/\/)app-.*[A-Za-z].*\.com\/page\/.*[A-Za-z].*\/install\/[A-Za-z]/$~third-party
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$document
@@ -8950,6 +8962,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||black6adv.com^
 ||blackbar.cn^
 ||bljlrl.xyz^
+||blmlt.szjunda.cn^$document
+||blmlt.szjunda.cn^$~third-party
 ||blog-sokuhou.com^$domain=bakufu.jp
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogads.com^
