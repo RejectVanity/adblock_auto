@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZEJA5F920DhNQheXiyao0g
+! Checksum: ncpJwfWTaeJ8O1iQOoVChQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230622000740
+! Version: 20230622005529
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-22 00:07:40
+! Last modified: 2023-06-22 00:55:29
 ! Total Count: 19599
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -5740,7 +5740,7 @@ xvideos.com##[class$="-ad"]
 xvideos.com##[class$="-ads"]
 xvideos.com##[id^="ad-"]
 xvideos.com##[id^="ads-"]
-xxdm.in##.bottom_fixed
+xxdm.in,yhdmw.com##.bottom_fixed
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.ImagesTouchViewer-DirectSkeleton.SimpleSkeleton
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.i-bem.justifier__incut_fixed
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__behavioral-direct
@@ -5748,7 +5748,6 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yarik-sat.com##.noadb
-yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
@@ -9972,6 +9971,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||daddq.cn^
 ||dadwu.cn^
 ||dadzz.cn^
+||daede.cn^
 ||dagamemisdeed.com^
 ||dagft.cn^
 ||dagou2018.com/js/item
