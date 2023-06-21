@@ -215,7 +215,6 @@ if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*#||g' | grep -E ',')" !
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
 		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
-		rm "${target_file_tmp}"
 		echo "${css_common_record}" >> "${target_output_file}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
@@ -229,11 +228,11 @@ else
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
 		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}" 
-		rm "${target_file_tmp}"
 		echo "${css_common_record}" >> "${target_output_file}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 fi
+rm "${target_file_tmp}" 2>/dev/null
 }
 
 #避免大量字符影响观看
@@ -272,6 +271,7 @@ sort_domain_Combine "${target_adblock_file}" '/adflow.$domain='
 
 #避免大量字符影响观看
 function Running_sort_Css_Combine(){
+local IFS=$'\n'
 local target_adblock_file="${1}"
 test ! -f "${target_adblock_file}" && echo "※`date +'%F %T'` ${target_adblock_file} 规则文件不存在！！！" && return
 #记录通用的Css
@@ -300,6 +300,22 @@ sort_Css_Combine "${target_adblock_file}" '##div[id^="AD"]'
 sort_Css_Combine "${target_adblock_file}" '##div[class^="ad_"]'
 sort_Css_Combine "${target_adblock_file}" '##div[class^="adv"]'
 sort_Css_Combine "${target_adblock_file}" '##div[class^="ads-"]'
+sort_Css_Combine "${target_adblock_file}" '##body > a'
+sort_Css_Combine "${target_adblock_file}" '##[style*="blob:"]'
+sort_Css_Combine "${target_adblock_file}" '##[style*="base64"]'
+sort_Css_Combine "${target_adblock_file}" '##[href*="data:"]'
+sort_Css_Combine "${target_adblock_file}" '##a[href*="?ats="]'
+sort_Css_Combine "${target_adblock_file}" '##[src^="bLob:"]'
+sort_Css_Combine "${target_adblock_file}" '##[style*="blob:"]'
+sort_Css_Combine "${target_adblock_file}" '##[href*="base64"]'
+sort_Css_Combine "${target_adblock_file}" '##a[href^="http://ads.trafficjunky.net/"]'
+sort_Css_Combine "${target_adblock_file}" '##a[href^="https://ads.trafficjunky.net/"]'
+sort_Css_Combine "${target_adblock_file}" '##body > a[target="_blank"]'
+sort_Css_Combine "${target_adblock_file}" '##.d-lg-block'
+sort_Css_Combine "${target_adblock_file}" '##.bottom_fixed'
+sort_Css_Combine "${target_adblock_file}" '##div[onclick*="bp1.com"]'
+sort_Css_Combine "${target_adblock_file}" '##img[src*="data:"]'
+sort_Css_Combine "${target_adblock_file}" '##[srcdoc]'
 
 #写入通用的Css
 echo "${css_common_record}" >> "${target_adblock_file}"
