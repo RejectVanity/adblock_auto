@@ -1,17 +1,21 @@
 [Adblock Plus 2.0]
-! Checksum: Y4xK4d0evDLEg0OXaaM6Yg
+! Checksum: riOEt95LbL7cAkp00A8hcw
 ! Title: 拦截黄色网站转跳
-! Version: 20230620145613
-! Last modified: 2023-06-20 14:56:13
-! Total Count: 196
+! Version: 20230621180814
+! Last modified: 2023-06-21 18:08:14
+! Total Count: 208
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
 .app?c=ggcha$~third-party
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
+.cn/h.html?id=$document
+.cn/h.html?id=$~third-party
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
+.com/h.html?id=$document
+.com/h.html?id=$~third-party
 .com/new/5*.html$document
 .com/new/5*.html$~third-party
 .com/new/8*.html$document
@@ -36,18 +40,24 @@
 .kkilivf.cn/*.html$~third-party
 .live/?channelCode=$document
 .live/?channelCode=$~third-party
+.live/h.html?id=$document
+.live/h.html?id=$~third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
 .net:*/index.html?shareName=$document
 .net:*/index.html?shareName=$~third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
+.top/h.html?id=$document
+.top/h.html?id=$~third-party
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
 .xyz/*.html?uid=$document
 .xyz/*.html?uid=$~third-party
 .xyz/?channelCode=$document
 .xyz/?channelCode=$~third-party
+.xyz/h.html?id=$document
+.xyz/h.html?id=$~third-party
 .xyz:*/*.html?uid=$document
 .xyz:*/*.html?uid=$~third-party
 .xyz:*/waga*.html$document
@@ -124,6 +134,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||at.umtrack.com^/*?cid=$~third-party
 ||atala-apw.com/domredirect?$document
 ||atala-apw.com/domredirect?$~third-party
+||blmlt.szjunda.cn^$document
+||blmlt.szjunda.cn^$~third-party
 ||buyu*9.com^$document
 ||buyu*9.com^$~third-party
 ||buyu0000.com^$document
