@@ -156,7 +156,7 @@ fi
 #shell 特殊字符转义
 function escape_special_chars(){
 	local input=${1}
-	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=\@\/]/\\&/g')
+	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=\@\/\.\"]/\\&/g;s|\[|\\&|g;s|\]|\\&|g' )
 	echo ${output}
 }
 
@@ -198,6 +198,44 @@ fi
 rm "${target_file_tmp}" 2>/dev/null
 }
 
+#去除指定重复的Css
+function sort_Css_Combine(){
+local target_content="${2}"
+local target_file="${1}"
+local target_file_tmp="`pwd`/${target_file##*/}.tmp"
+local target_output_file="`pwd`/${target_file##*/}.temple"
+local transfer_content=$(escape_special_chars ${target_content})
+echo "${transfer_content}$"
+grep -E "${transfer_content}$" "${target_file}" > "${target_file_tmp}" 
+if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*#||g' | grep -E ',')" != "" ;then
+	sed -i 's|#.*||g' "${target_file_tmp}"
+	local before_tmp=$(cat "${target_file_tmp}" | tr ',' '\n' | sort -u | uniq)
+	echo "${before_tmp}" > "${target_file_tmp}"
+	sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
+		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
+		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
+		rm "${target_file_tmp}"
+		echo "${css_common_record}" >> "${target_output_file}"
+		mv -f "${target_output_file}" "${target_file}"
+	fi
+else
+	sed -i 's|#.*||g' "${target_file_tmp}"
+	local before_tmp=$(cat "${target_file_tmp}" | sort -u | uniq)
+	echo "${before_tmp}" > "${target_file_tmp}"
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
+		sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
+	fi
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
+		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
+		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}" 
+		rm "${target_file_tmp}"
+		echo "${css_common_record}" >> "${target_output_file}"
+		mv -f "${target_output_file}" "${target_file}"
+	fi
+fi
+}
+
 #避免大量字符影响观看
 function Running_sort_domain_Combine(){
 local target_adblock_file="${1}"
@@ -231,6 +269,41 @@ sort_domain_Combine "${target_adblock_file}" '/adflow.$domain='
 
 }
 
+
+#避免大量字符影响观看
+function Running_sort_Css_Combine(){
+local target_adblock_file="${1}"
+test ! -f "${target_adblock_file}" && echo "※`date +'%F %T'` ${target_adblock_file} 规则文件不存在！！！" && return
+#记录通用的Css
+local css_common_record="$(cat ${target_adblock_file} 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d;/^#/!d' )"
+sort_Css_Combine "${target_adblock_file}" '##.ad'
+sort_Css_Combine "${target_adblock_file}" '##.Ad'
+sort_Css_Combine "${target_adblock_file}" '##.AD'
+sort_Css_Combine "${target_adblock_file}" '##.ads'
+sort_Css_Combine "${target_adblock_file}" '##.Ads'
+sort_Css_Combine "${target_adblock_file}" '##.ADS'
+sort_Css_Combine "${target_adblock_file}" '##.adv'
+sort_Css_Combine "${target_adblock_file}" '##.advert'
+sort_Css_Combine "${target_adblock_file}" '##.advertising'
+sort_Css_Combine "${target_adblock_file}" '##.advertisement'
+sort_Css_Combine "${target_adblock_file}" '##.advertisment'
+sort_Css_Combine "${target_adblock_file}" '##.advertise'
+sort_Css_Combine "${target_adblock_file}" '##.sponsor'
+sort_Css_Combine "${target_adblock_file}" '###advertising'
+sort_Css_Combine "${target_adblock_file}" '#@##advertise'
+sort_Css_Combine "${target_adblock_file}" '##.banner'
+sort_Css_Combine "${target_adblock_file}" '###diynavtop'
+sort_Css_Combine "${target_adblock_file}" '##.mpu'
+sort_Css_Combine "${target_adblock_file}" '##.promoted-block'
+sort_Css_Combine "${target_adblock_file}" '##div[id^="ad"]'
+sort_Css_Combine "${target_adblock_file}" '##div[id^="AD"]'
+sort_Css_Combine "${target_adblock_file}" '##div[class^="ad_"]'
+sort_Css_Combine "${target_adblock_file}" '##div[class^="adv"]'
+sort_Css_Combine "${target_adblock_file}" '##div[class^="ads-"]'
+
+#写入通用的Css
+echo "${css_common_record}" >> "${target_adblock_file}"
+}
 
 #更新README信息
 function update_README_info(){

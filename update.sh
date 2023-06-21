@@ -71,6 +71,9 @@ modtify_adblock_original_file "${Rules_Folder}/adblock_auto.txt"
 make_white_rules "${Rules_Folder}/adblock_auto.txt" "`pwd`/white_list/white_list.prop"
 #去除重复作用域名
 Running_sort_domain_Combine "${Rules_Folder}/adblock_auto.txt"
+#去除指定重复的Css
+Running_sort_Css_Combine "${Rules_Folder}/adblock_auto.txt"
+#再次净化去重
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto.txt"
 #写入头信息
 write_head "${Rules_Folder}/adblock_auto.txt" "混合规则(自动更新)" && echo "※`date +'%F %T'` 混合规则合并完成！"
@@ -107,6 +110,9 @@ modtify_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt"
 make_white_rules "${Rules_Folder}/adblock_auto_lite.txt" "`pwd`/white_list/white_list.prop"
 #去除重复作用域名
 Running_sort_domain_Combine "${Rules_Folder}/adblock_auto_lite.txt"
+#去除指定重复的Css
+Running_sort_Css_Combine "${Rules_Folder}/adblock_auto_lite.txt"
+#再次净化去重
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt"
 #写入头信息
 write_head "${Rules_Folder}/adblock_auto_lite.txt" "混合规则精简版(自动更新)" && echo "※`date +'%F %T'` 混合规则精简版合并完成！"
