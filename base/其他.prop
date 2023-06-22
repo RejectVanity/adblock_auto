@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ja1tbBybt3xRU4ns8B7lpQ
+! Checksum: +ZpP/bFZ/H195lrX72Joeg
 ! Title: 自用去广告Adblock规则
-! Version: 20230623044241
-! Last modified: 2023-06-23 04:42:41
-! Total Count: 1539
+! Version: 20230623051751
+! Last modified: 2023-06-23 05:17:51
+! Total Count: 1553
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -35,6 +35,7 @@
 ##.appguide-wrap
 ##.articleads
 ##.bads
+##.banner-cctv-style-top
 ##.bdads
 ##.bing-ads-wrapper
 ##.bing-native-ad
@@ -78,6 +79,7 @@
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
+##[class*="banner-"][class*="cctv"]
 ##[class*="floating_ads"]
 ##[class*="juicyads"]
 ##[class*="skip-ad"]
@@ -172,6 +174,7 @@
 ##a[href*=".club:"] > img[src]
 ##a[href*=".com/av.html?"] > img[src]
 ##a[href*=".com:"] > img[src]
+##a[href*=".html?channelCode="]
 ##a[href*=".top"] > img[src]
 ##a[href*=".xyz:"] > img[src]
 ##a[href*=".xyz?ch=ssmh"]
@@ -215,6 +218,17 @@
 ##a[href^="https://adultfriendfinder.com"]
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://xxuudxdu.live?"]
+##a[onclick*="博彩"]
+##a[onclick*="同城"]
+##a[onclick*="外接'"]
+##a[onclick*="威尼斯"]
+##a[onclick*="新葡京"]
+##a[onclick*="棋牌"]
+##a[onclick*="澳门"]
+##a[onclick*="直播"]
+##a[onclick*="约炮"]
+##a[onclick*="领"][onclick*="元"]
+##a[onclick] > img[class^="index-center-tc"]
 ##a[onclick^="gtag"][onclick*="广告"]
 ##a[onclick^="visitReport("][target="_blank"]
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
@@ -333,7 +347,6 @@
 ##img[class][src$=".mp3"]
 ##img[class][src$=".txt"]
 ##img[id^="GGADIMG"][src][class="loading"]
-##img[id^="base64_img_id_"]
 ##img[src$=".add"]
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
@@ -369,6 +382,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script + #strl
+##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 &adZones$xmlhttprequest
 .cc/?channelCode=$~third-party
