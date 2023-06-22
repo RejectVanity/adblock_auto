@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /7+FYPLZvvi2GDr2qsiEzA
+! Checksum: ja1tbBybt3xRU4ns8B7lpQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230623041828
-! Last modified: 2023-06-23 04:18:28
-! Total Count: 1533
+! Version: 20230623044241
+! Last modified: 2023-06-23 04:42:41
+! Total Count: 1539
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -41,6 +41,7 @@
 ##.bottom_fixed > a > img[src$=".gif"]
 ##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottomads
+##.cctv_banner_dv
 ##.commentads
 ##.container > iframe[src*="123.html"][width][height]
 ##.dlad
@@ -51,6 +52,8 @@
 ##.gg_pc
 ##.gg_sj
 ##.ima-ad-container
+##.img-cctv.lazyLoad
+##.index-center-tc-index2.index-center-tc > a
 ##.leftd + .rightd
 ##.leftd1 + .rightd1
 ##.leftd2 + .rightd2
@@ -213,6 +216,7 @@
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://xxuudxdu.live?"]
 ##a[onclick^="gtag"][onclick*="广告"]
+##a[onclick^="visitReport("][target="_blank"]
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
@@ -325,9 +329,11 @@
 ##img[alt][src$=".txt"]
 ##img[alt^="免费AV"]
 ##img[alt^="知阴"]
+##img[class*="cctv"][alt="null"][src]
 ##img[class][src$=".mp3"]
 ##img[class][src$=".txt"]
 ##img[id^="GGADIMG"][src][class="loading"]
+##img[id^="base64_img_id_"]
 ##img[src$=".add"]
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
