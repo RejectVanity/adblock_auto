@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: KvnwnGktL9Mfr4J774HZJw
+! Checksum: pKC8L8+OsHxjL52eiWcBpQ
 ! Title: 混合规则
-! Version: 20230622073603
+! Version: 20230623041851
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-22 07:36:47
-! Total Count: 112985
+! Last modified: 2023-06-23 04:19:36
+! Total Count: 112984
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -18635,6 +18635,7 @@
 ##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="kiwi-ad-wrapper"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
+##div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"]
 ##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
@@ -31509,7 +31510,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
-@@pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
 @@tangsanshu.net/js/comm.js
 @@yetianlian.la/js/comm.js
 @@yetianlian.la/xxgg/common.js
@@ -32182,8 +32182,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ozabc.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4spaces.org|aboluowang.com|chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rockmods.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4spaces.org|aboluowang.com|chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|rockmods.net|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
