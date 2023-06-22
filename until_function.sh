@@ -264,6 +264,10 @@ sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com/pa
 sort_domain_Combine "${target_adblock_file}" '://ads.$~image,domain='
 sort_domain_Combine "${target_adblock_file}" '://adv.$domain='
 sort_domain_Combine "${target_adblock_file}" '/adflow.$domain='
+sort_domain_Combine "${target_adblock_file}" '@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain='
+sort_domain_Combine "${target_adblock_file}" '@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain='
+
+
 
 
 }
