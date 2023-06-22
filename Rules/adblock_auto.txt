@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: kGD6iwDoPGZ4Ip3P7e5Wvw
+! Checksum: BDIIsR8+nB4gMu+icVDk3w
 ! Title: 混合规则(自动更新)
-! Version: 20230622160810
+! Version: 20230623000729
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-22 16:08:10
-! Total Count: 113084
+! Last modified: 2023-06-23 00:07:29
+! Total Count: 113094
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20084,6 +20084,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/src/ppu/
 .com/ss/ad/
 .com/ssss.asp?u=$script,third-party
+.com/stat-qq.html?*&click_url_final=$all
 .com/static/js/ad.js
 .com/style/vue.js?v=
 .com/title/$script,third-party
@@ -54149,6 +54150,7 @@ zzzyk.com###Tinfo
 ||adethemos.one^
 ||adeumssp.com^
 ||adeventtracker.spotify.com^
+||adeventtrackermonitoring.spotify.com^
 ||adex.media^
 ||adexc.net^
 ||adexchange.io^
@@ -67767,6 +67769,7 @@ zzzyk.com###Tinfo
 ||da3uf5ucdz00u.cloudfront.net^
 ||da5h676k6d22w.cloudfront.net^
 ||daast.digitalbox.ru^
+||daawx.cn^
 ||dab.rus-km.ru^
 ||dabai28.com/img/*.gif
 ||dabaicai.ink^
@@ -69316,6 +69319,7 @@ zzzyk.com###Tinfo
 ||dl.crazyporn.xxx^
 ||dl.episerver.net^
 ||dl.qcash.ws
+||dl.reg.163.com^
 ||dl1d2m8ri9v3j.cloudfront.net^
 ||dl37p9e5e1vn0.cloudfront.net^
 ||dl520.fun^
@@ -74158,6 +74162,7 @@ zzzyk.com###Tinfo
 ||future-fie-assets.co.uk^
 ||future-hawk-content.co.uk^
 ||future-price.co.uk^
+||futureads.io^
 ||futurecdn.net/*/media/shared/js/*-gb.js|$important,script,redirect=noopjs
 ||futuredistracting.com^
 ||futurehybrid.tech^
@@ -79633,6 +79638,7 @@ zzzyk.com###Tinfo
 ||intentionsarson.com^
 ||intentionscommunity.com^
 ||intentionsplacingextraordinary.com^
+||intentiq.com^
 ||intentmedia.net^
 ||inter1ads.com^
 ||interact-analytics.com^
@@ -99667,6 +99673,7 @@ zzzyk.com###Tinfo
 ||snarlleadenpsychology.com^
 ||snat.goguardian.com^
 ||snbklas.cn^
+||sncop.uioozpxq.com^$all
 ||snd.tc^
 ||sndkorea.co.kr^
 ||sneakersisverige.com^
@@ -103104,6 +103111,8 @@ zzzyk.com###Tinfo
 ||tfaln.com^
 ||tfations.live^
 ||tfbulkidn.com^
+||tfcdn.jingmiuyyds.com^
+||tfcdn.jingmiuyyds.com^$all
 ||tfcoverss.live^
 ||tffindmarket.live^
 ||tffkroute.com^
@@ -108288,6 +108297,7 @@ zzzyk.com###Tinfo
 ||vzrufh.com^
 ||vztfc.com^
 ||vztkmhf.cn^
+||vzttq.brfvyrrp.com^$all
 ||w*statistics.info^
 ||w-m-w.net^
 ||w.anmeihe.cn^
