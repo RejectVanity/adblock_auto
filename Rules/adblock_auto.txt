@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: eFT3QrgmtD6nzuHw+Rwi+w
+! Checksum: 8f6dbK2EpiPklULZRtndPQ
 ! Title: 混合规则(自动更新)
-! Version: 20230623160912
+! Version: 20230623170517
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-23 16:09:12
-! Total Count: 113162
+! Last modified: 2023-06-23 17:05:17
+! Total Count: 113164
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -49051,6 +49051,7 @@ yesky.com##div[class^="ad9"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
 ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
+yhdm*.com/js/wap2-jm-ms.js$~third-party,script
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhgou.cc##.ch1
 yhgou.cc##.col-lg-12 + .row
@@ -59846,6 +59847,7 @@ zzzyk.com###Tinfo
 ||baidujavascript.com^
 ||baidujs.cnys.com^
 ||baidujsvbj.com^
+||baiduklglndklb.com^
 ||baidulao.com^
 ||baidunnd.top^
 ||baidutm999.xyz^
