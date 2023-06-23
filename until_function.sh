@@ -177,7 +177,6 @@ if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|#.*||g' | grep -E ',')" !
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
 		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
-		rm "${target_file_tmp}"
 		echo "${css_common_record}" >> "${target_output_file}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
@@ -191,10 +190,10 @@ else
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
 		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}" 
-		rm "${target_file_tmp}"
 		echo "${css_common_record}" >> "${target_output_file}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
+		rm "${target_file_tmp}" 2>/dev/null
 fi
 }
 
@@ -216,7 +215,6 @@ elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
 		echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" 
-		rm "${target_file_tmp}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 else
@@ -229,9 +227,9 @@ else
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
 		echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" 
-		rm "${target_file_tmp}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
+	rm "${target_file_tmp}" 2>/dev/null
 fi
 }
 
