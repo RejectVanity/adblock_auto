@@ -160,6 +160,44 @@ function escape_special_chars(){
 	echo ${output}
 }
 
+#去除指定重复的Css
+function sort_Css_Combine(){
+local target_content="${2}"
+local target_file="${1}"
+local target_file_tmp="`pwd`/${target_file##*/}.tmp"
+local target_output_file="`pwd`/${target_file##*/}.temple"
+local transfer_content=$(escape_special_chars ${target_content})
+#echo "${transfer_content}$"
+grep -E "${transfer_content}$" "${target_file}" > "${target_file_tmp}" 
+if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|#.*||g' | grep -E ',')" != "" ;then
+	sed -i 's|#.*||g' "${target_file_tmp}"
+	local before_tmp=$(cat "${target_file_tmp}" | tr ',' '\n' | sed '/^[[:space:]]*$/d' | sort -u | uniq )
+	echo "${before_tmp}" > "${target_file_tmp}"
+	sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
+		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
+		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
+		rm "${target_file_tmp}"
+		echo "${css_common_record}" >> "${target_output_file}"
+		mv -f "${target_output_file}" "${target_file}"
+	fi
+else
+	sed -i 's|#.*||g' "${target_file_tmp}"
+	local before_tmp=$(cat "${target_file_tmp}" | sed '/^[[:space:]]*$/d' | sort -u | uniq)
+	echo "${before_tmp}" > "${target_file_tmp}"
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
+		sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
+	fi
+	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
+		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
+		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}" 
+		rm "${target_file_tmp}"
+		echo "${css_common_record}" >> "${target_output_file}"
+		mv -f "${target_output_file}" "${target_file}"
+	fi
+fi
+}
+
 #去除重复作用的域名
 function sort_domain_Combine(){
 local target_content="${2}"
@@ -172,7 +210,7 @@ if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E '
 	return
 elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E '\|')" != "" ;then
 	sed -i 's|.*domain=||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | tr '|' '\n' | sort -u | uniq)
+	local before_tmp=$(cat "${target_file_tmp}" | tr '|' '\n' | sed '/^[[:space:]]*$/d' | sort -u | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
 	sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
@@ -183,7 +221,7 @@ elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E
 	fi
 else
 	sed -i 's|.*domain=||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | sort -u | uniq)
+	local before_tmp=$(cat "${target_file_tmp}" | sed '/^[[:space:]]*$/d' | sort -u | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
 		sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
@@ -195,48 +233,11 @@ else
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 fi
-rm "${target_file_tmp}" 2>/dev/null
-}
-
-#去除指定重复的Css
-function sort_Css_Combine(){
-local target_content="${2}"
-local target_file="${1}"
-local target_file_tmp="`pwd`/${target_file##*/}.tmp"
-local target_output_file="`pwd`/${target_file##*/}.temple"
-local transfer_content=$(escape_special_chars ${target_content})
-echo "${transfer_content}$"
-grep -E "${transfer_content}$" "${target_file}" > "${target_file_tmp}" 
-if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|#.*||g' | grep -E ',')" != "" ;then
-	sed -i 's|#.*||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | tr ',' '\n' | sort -u | uniq)
-	echo "${before_tmp}" > "${target_file_tmp}"
-	sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
-	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
-		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
-		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
-		echo "${css_common_record}" >> "${target_output_file}"
-		mv -f "${target_output_file}" "${target_file}"
-	fi
-else
-	sed -i 's|#.*||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | sort -u | uniq)
-	echo "${before_tmp}" > "${target_file_tmp}"
-	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
-		sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
-	fi
-	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
-		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
-		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}" 
-		echo "${css_common_record}" >> "${target_output_file}"
-		mv -f "${target_output_file}" "${target_file}"
-	fi
-fi
-rm "${target_file_tmp}" 2>/dev/null
 }
 
 #避免大量字符影响观看
 function Running_sort_domain_Combine(){
+local IFS=$'\n'
 local target_adblock_file="${1}"
 test ! -f "${target_adblock_file}" && echo "※`date +'%F %T'` ${target_adblock_file} 规则文件不存在！！！" && return
 sort_domain_Combine "${target_adblock_file}" '?*=*=*=$subdocument,domain='
@@ -266,8 +267,7 @@ sort_domain_Combine "${target_adblock_file}" '://adv.$domain='
 sort_domain_Combine "${target_adblock_file}" '/adflow.$domain='
 sort_domain_Combine "${target_adblock_file}" '@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain='
 sort_domain_Combine "${target_adblock_file}" '@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain='
-
-
+sort_domain_Combine "${target_adblock_file}" '?advertiserid=$domain='
 
 
 }
@@ -275,7 +275,6 @@ sort_domain_Combine "${target_adblock_file}" '@@||pagead2.googlesyndication.com/
 
 #避免大量字符影响观看
 function Running_sort_Css_Combine(){
-local IFS=$'\n'
 local target_adblock_file="${1}"
 test ! -f "${target_adblock_file}" && echo "※`date +'%F %T'` ${target_adblock_file} 规则文件不存在！！！" && return
 #记录通用的Css
@@ -320,6 +319,34 @@ sort_Css_Combine "${target_adblock_file}" '##.bottom_fixed'
 sort_Css_Combine "${target_adblock_file}" '##div[onclick*="bp1.com"]'
 sort_Css_Combine "${target_adblock_file}" '##img[src*="data:"]'
 sort_Css_Combine "${target_adblock_file}" '##[srcdoc]'
+sort_Css_Combine "${target_adblock_file}" '##HTML'
+sort_Css_Combine "${target_adblock_file}" '##canvas'
+sort_Css_Combine "${target_adblock_file}" '##.sticky-container'
+sort_Css_Combine "${target_adblock_file}" '##.top-banner'
+sort_Css_Combine "${target_adblock_file}" '#@#.adsbygoogle'
+sort_Css_Combine "${target_adblock_file}" '##.bottom-banners'
+sort_Css_Combine "${target_adblock_file}" '##.happy-under-player'
+sort_Css_Combine "${target_adblock_file}" '##.ai_widget'
+sort_Css_Combine "${target_adblock_file}" '##.header-billboard'
+sort_Css_Combine "${target_adblock_file}" '##.td-a-rec'
+sort_Css_Combine "${target_adblock_file}" '##canvas'
+sort_Css_Combine "${target_adblock_file}" '###banner'
+sort_Css_Combine "${target_adblock_file}" '##.ad2'
+sort_Css_Combine "${target_adblock_file}" '##.spot'
+sort_Css_Combine "${target_adblock_file}" '##img[height="90"]'
+sort_Css_Combine "${target_adblock_file}" '##img[width="300"]'
+sort_Css_Combine "${target_adblock_file}" '##.leaderboard'
+sort_Css_Combine "${target_adblock_file}" '##.google'
+sort_Css_Combine "${target_adblock_file}" '##.slot'
+sort_Css_Combine "${target_adblock_file}" '##a[href*="theporndude.com"]'
+sort_Css_Combine "${target_adblock_file}" '#@#ins.adsbygoogle'
+sort_Css_Combine "${target_adblock_file}" '#@#.advertiser'
+sort_Css_Combine "${target_adblock_file}" '#@#.video-ads'
+sort_Css_Combine "${target_adblock_file}" '##.header-banner'
+sort_Css_Combine "${target_adblock_file}" '##a[href^="http://t.cn/"]'
+sort_Css_Combine "${target_adblock_file}" '##a[href*=".tmall.com"]'
+sort_Css_Combine "${target_adblock_file}" '##.widget_media_image'
+
 
 #写入通用的Css
 echo "${css_common_record}" >> "${target_adblock_file}"
