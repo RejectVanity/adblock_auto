@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 65tOw5UdXsLM0wDw80PVKQ
+! Checksum: 3qnQBDM8gCNlsYzHoyPezw
 ! Title: 混合规则
-! Version: 20230623124510
+! Version: 20230623170935
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-23 12:46:00
-! Total Count: 113154
+! Last modified: 2023-06-23 17:10:19
+! Total Count: 113155
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -49049,6 +49049,7 @@ yesky.com##div[class^="ad9"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
 ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
+yhdm*.com/js/wap2-jm-ms.js$~third-party,script
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhgou.cc##.ch1
 yhgou.cc##.col-lg-12 + .row
