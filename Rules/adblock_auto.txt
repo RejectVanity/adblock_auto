@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8f6dbK2EpiPklULZRtndPQ
+! Checksum: 0bBkXKubwvc91Wa0KQ/oEw
 ! Title: 混合规则(自动更新)
-! Version: 20230623170517
+! Version: 20230623171848
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-23 17:05:17
-! Total Count: 113164
+! Last modified: 2023-06-23 17:18:48
+! Total Count: 113180
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19883,6 +19883,8 @@ $websocket,domain=5nj.com|cechi8.com
 .ca/ads-
 .ca/ads/
 .cam/ads/
+.cc/?c=axza$document
+.cc/?c=axza$~third-party
 .cc/?channelCode=$~third-party
 .cc/ad/
 .cc/ads/
@@ -19912,6 +19914,8 @@ $websocket,domain=5nj.com|cechi8.com
 .club/xtub_*_rony.js$third-party
 .club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhpdm.com|yinghuacd.com|ziyungong.org|tangsanshu.la
 .cn/*-*-*.xc$script,third-party
+.cn/*.html?c=dyyu$document
+.cn/*.html?c=dyyu$~third-party
 .cn/20*/*/*.txt$third-party
 .cn/?ss=
 .cn/?ss=$script,third-party
@@ -87392,6 +87396,8 @@ zzzyk.com###Tinfo
 ||msdn.hk/templets/msdn/css/index.js
 ||msdn.hk/templets/msdn/css/msdng.js
 ||msecure108.com^
+||msfd8mty4nzux.fua*.cc^$document
+||msfd8mty4nzux.fua*.cc^$~third-party
 ||msg-intl.qy.net^
 ||msg.71.am^
 ||msg.ettoday.net^
@@ -87868,6 +87874,8 @@ zzzyk.com###Tinfo
 ||myzwqwe12.com^$third-party
 ||mzamin.com/advert/
 ||mzcd.xyz^
+||mzgcst.mbibioe.cn^$document
+||mzgcst.mbibioe.cn^$~third-party
 ||mzhhdn.com/hongbao.jpg
 ||mzhw.xyz^
 ||mziwkyr.cn^
@@ -93675,6 +93683,8 @@ zzzyk.com###Tinfo
 ||pseepsoo.com^
 ||psensuds.net^
 ||psewhaur.net^
+||psf805.xyz^$document
+||psf805.xyz^$~third-party
 ||psfgobbet.com^
 ||psh.one^
 ||pshmetrk.com^
@@ -100659,6 +100669,8 @@ zzzyk.com###Tinfo
 ||ssac.suning.com^
 ||ssancib.top^
 ||ssb.ah499.com^
+||ssb717.xyz^$document
+||ssb717.xyz^$~third-party
 ||sscefsol.com^
 ||ssdbkv4qtq.xyz^
 ||ssdp.xyz^
@@ -108177,6 +108189,8 @@ zzzyk.com###Tinfo
 ||vptadv.com^
 ||vptbn.com^
 ||vptjabo.cn^
+||vptz1*.xyz/1*.html$document
+||vptz1*.xyz/1*.html$~third-party
 ||vpvsy.com^
 ||vq1qi.pw^
 ||vq7736.com^
@@ -110235,6 +110249,8 @@ zzzyk.com###Tinfo
 ||wyzq.rehuwang.com^
 ||wz-adserver.de^
 ||wz-werbewelt.de^
+||wz3rvc.cn/*.html$document
+||wz3rvc.cn/*.html$~third-party
 ||wz8g.top^
 ||wzbaohe.com/imgadnew/midad.js
 ||wzdy.xyz^
