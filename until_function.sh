@@ -193,8 +193,8 @@ else
 		echo "${css_common_record}" >> "${target_output_file}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
-		rm "${target_file_tmp}" 2>/dev/null
 fi
+rm -rf "${target_file_tmp}" 2>/dev/null
 }
 
 #去除重复作用的域名
@@ -229,8 +229,8 @@ else
 		echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" 
 		mv -f "${target_output_file}" "${target_file}"
 	fi
-	rm "${target_file_tmp}" 2>/dev/null
 fi
+rm -rf "${target_file_tmp}" 2>/dev/null
 }
 
 #避免大量字符影响观看
