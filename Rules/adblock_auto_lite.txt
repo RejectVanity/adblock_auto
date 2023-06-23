@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: YfD26N9JjoosmTqGfyO1Fw
+! Checksum: rcO2rQJxd/8jXp2iUltDcQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230623183019
+! Version: 20230623224239
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-23 18:30:19
-! Total Count: 19692
+! Last modified: 2023-06-23 22:42:39
+! Total Count: 19691
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2690,8 +2690,6 @@
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
-.com:*/*/*?*=&*=$document
-.com:*/*/*?*=&*=$~third-party
 .com:*/*/m.html?shareName=$document
 .com:*/*/m.html?shareName=$~third-party
 .com:*/?channelCode=$document
@@ -4903,6 +4901,7 @@ abc-people.com##div[style*="background-color"][style*="position"][style*="z-inde
 acomics.ru##div[style*="/design/common/pic/please"]
 admin.rainbow-online.ru,fastpic.ru,gitjournal.tech,logist.uxxo.ru,maxpark.com,meteoservice.ru,newsland.com,pawno-info.ru,smolensk-auto.ru,smolensk-auto.site##body > div[id]:not([class])[style="display: block;"]
 adultdeepfakes.com##[class^="root--"]
+advancedrenamer.com,alotof.software,android-doc.com,androidrepublic.org,anonymousemail.me,apk.tw,apkmirror.com,blog.reh.tw,chaojizhibo.net,chtoen.com,demos.krajee.com,dizhishengcheng.com,doitwell.tw,epicbundle.com,epinv.com,ff14angler.com,fxpan.com,gamaniak.com,haoweichi.com,hs-exp.jp,kadinlarkulubu.com,korail.pe.kr,logi.im,lspdfrcn.com,moa.tw,moe123.net,numberempire.com,phcorner.net,pixiz.com,playok.com,reh.tw,rockmods.net,shenfendaquan.com,slashview.com,sockscap64.com,spoilertv.com,vaptcha.com,willyoupressthebutton.com,yabook.org#@#ins.adsbygoogle
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend" i]
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
@@ -5056,6 +5055,7 @@ cofp.ru##.admitad-checker-popup
 colamanhua.com##[class$="i"][style*="bottom:"],[class$="h"][style*="bottom:"]
 colamanhua.com#@#.gg_950
 colamanhua.com#@#[style*="bottom:"]
+colamanhua.com,d53px.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com,yhdmp.net,yhpdm.com##canvas
 comptoir-info.com#@#.textad
 cowcotland.com,wamiz.com###adblocker
 cs-amba.ru##.banka
@@ -5135,7 +5135,7 @@ fotoshop-online.org##section > .col-full + script + center[class]
 freelogovectors.net##div[class^="popup"]
 frkp.lol###film > #content > span[style="color:#ff6a00;"]
 fstore.biz#@##adblockinfo
-gamaniak.com#@#.adsbygoogle
+gamaniak.com,rockmods.net#@#.adsbygoogle
 gamcore.com##[class*="adn-"]
 game2.baifumeiba.com###gotoPlay
 game2day.ru##div[class^="adblock_"]
@@ -5455,7 +5455,6 @@ reshuct.by,reshuolymp.ru,sdamgia.ru#@#.googlead
 reshuct.by,sdamgia.ru##div[class$="-BlockDetect"]
 retinaboys.com###screen_block
 ria.ru##.antiblock
-rockmods.net#@#.adsbygoogle
 rtlxl.nl##.adblock
 rusnext.ru###detectAdblock
 rusopen.com##.classblsi.addshr
@@ -5794,7 +5793,6 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##[class$="_b"]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##embed[src]
 ykt.ru##.n-banner--adblocked
 yocast.tv###ra9e
@@ -18904,6 +18902,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xznrtl.xyz^
 ||xzvfd.xyz^
 ||xzwk.hk^
+||xzxhpcdz.icu^
 ||xzyituo.com^
 ||y.21haodianmt.com^$third-party
 ||y.photoint.net^
