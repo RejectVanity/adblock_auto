@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8enbYis9a5FqE7i0ISP+XA
+! Checksum: y/FNqqJpjb1co1bWDxNpnw
 ! Title: 混合规则(精简版)
-! Version: 20230623223559
+! Version: 20230624000740
 ! Expires: 1145141919810
-! Last modified: 2023-06-23 22:36:20
-! Total Count: 19313
+! Last modified: 2023-06-24 00:07:57
+! Total Count: 19318
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -2096,6 +2096,7 @@
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
+##img[src*="/Ayi-GG"]
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
@@ -3058,6 +3059,7 @@
 /antv/antv_v*.*.apk$~third-party
 /arlinablock.js
 /bar/yfgg.js
+/bar/yfggb.js
 /bid?url=http
 /bloackdas.js
 /blockAndInf.js
@@ -3091,6 +3093,7 @@
 /lv/esnk/*$script,third-party
 /mdzzxttss.php?s=
 /mod_ablockdetector/*
+/new/yinghuacd*/bottom.js$third-party,script
 /nonAdBlock/*
 /npc/sdk/wp-banners.js$script,third-party
 /npsblocker/js/ads.
@@ -18698,7 +18701,9 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yin1.zgpingshu.com^
 ||yingav.net/images/content/spot01.jpg
 ||yingce.asia^
+||yinghua*.com/bar/yfgg*.js
 ||yinghuacd.com/bar/
+||yinghuavideo.com/bar/
 ||yingjiawm.com^
 ||yingnanyqq.com^
 ||yingnanyyds.com^
