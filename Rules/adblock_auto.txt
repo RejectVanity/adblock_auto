@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: A4EHiC6cQKYlQ8PPIkHXtg
+! Checksum: 9LIEOBcoUWdJ3PQa4De8vQ
 ! Title: 混合规则(自动更新)
-! Version: 20230623083924
+! Version: 20230623124920
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-23 08:39:24
-! Total Count: 113157
+! Last modified: 2023-06-23 12:49:20
+! Total Count: 113160
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -12519,6 +12519,7 @@
 ##.ezo_ad
 ##.ezoic-ad
 ##.ezoic-ad-adaptive
+##.ezoic-adpicker-ad
 ##.ezoic-floating-bottom
 ##.f-ad
 ##.f-item-ad
@@ -18739,6 +18740,7 @@
 ##div[onclick*="?i_code="]
 ##div[onclick*="bdtz5.com"]
 ##div[onclick*="kiropa.com"]
+##div[onclick*="ky01003.com"]
 ##div[onclick*="ky0222.cn"]
 ##div[onclick*="ky165.cn"]
 ##div[onclick*="ky55003.com"]
@@ -24044,7 +24046,7 @@ $websocket,domain=5nj.com|cechi8.com
 /asset/ad/*
 /asset/adv/*
 /asset/js/gglms.
-/assets/ad-
+/assets/ad-$domain=~flowus.cn
 /assets/ad/*
 /assets/ads-
 /assets/ads/*$domain=~outlook.live.com
@@ -31535,6 +31537,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
+@@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
 @@tangsanshu.net/js/comm.js
@@ -36168,6 +36171,7 @@ colamanhua.com##+js(no-setTimeout-if, loadErrorTip)
 colamanhua.com##[class$="i"][style*="bottom:"],[class$="h"][style*="bottom:"]
 colamanhua.com##iframe[style*="important"]
 colamanhua.com#@#.gg_950
+colamanhua.com#@#[style*="bottom:"]
 coles.com.au##[data-testid="ad"]
 coles.com.au##[data-testid="banner-container-desktop"]
 collinsdictionary.com##.topslot_container
@@ -38907,6 +38911,7 @@ gigazine.net#@#.adtag
 gimy.app##.box-video-text-list + a
 gimy.tv##.playadbox
 ginx.tv###ginx-floatingvod-containerspacer
+ginx.tv##[data-ez-ph-id]
 ginx.tv##[data-ref]
 ginx.tv,op.gg##.vm-placement
 girlonthenet.com##aside[data-adrotic]
@@ -47234,6 +47239,7 @@ troyhunt.com#?#.sidebar-featured:-abp-has(a[href^="https://pluralsight.pxf.io/"]
 troypoint.com##.mysticky-welcomebar-fixed-wrap
 troypoint.com##.su-box
 truck1.eu##.c-banners
+truckinginfo.com##.incontent02Ad
 trucknetuk.com###sidebarright
 trueachievements.com##.ad-wrap
 trueachievements.com##.vr-auction
@@ -49049,7 +49055,7 @@ yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhgou.cc##.ch1
 yhgou.cc##.col-lg-12 + .row
 yhgou.cc##.col-lg-12 > a
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[style*="bottom:"]
+yhpdm.com,yhdmp.net,d53px.com##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
@@ -85832,7 +85838,6 @@ zzzyk.com###Tinfo
 ||media-general.com^
 ||media-guides.de^
 ||media-imdb.com/images/*/imdbads/js/collections/admobileweb-*._*_.js
-||media-platform.com^
 ||media-rep.com^
 ||media-sapiens.com^
 ||media-servers.net^
@@ -88980,7 +88985,6 @@ zzzyk.com###Tinfo
 ||noticebroughtcloud.com^
 ||notifadz.com^
 ||notification-list.com^
-||notification.tubecup.net^
 ||notificationallow.com^
 ||notifications.website^
 ||notifpush.com^
@@ -108782,7 +108786,6 @@ zzzyk.com###Tinfo
 ||web0513.com^
 ||web1.51.la^
 ||web100kz.com^
-||web1s.com^
 ||web20-traffic-system.de^
 ||web3ads.net^
 ||web4023.top^
