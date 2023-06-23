@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0oC6+e39+6jo/a78FIWz6A
+! Checksum: YfD26N9JjoosmTqGfyO1Fw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230623171853
+! Version: 20230623183019
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-23 17:18:53
-! Total Count: 19689
+! Last modified: 2023-06-23 18:30:19
+! Total Count: 19692
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2708,6 +2708,8 @@
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
 .com:2516/code/
+.com:80*/cc/*?is_not=0&$document
+.com:80*/cc/*?is_not=0&$~third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
@@ -19017,6 +19019,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ygwdai.cn^
 ||yhbdrnr.cn^
 ||yhdd1.com^$third-party
+||yhdm*.com/js/wap2-jm-ms.js$script
 ||yhdm.io/bar/
 ||yhdm.so/bar/
 ||yhdm44.com/123.html
