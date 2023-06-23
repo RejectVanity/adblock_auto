@@ -1,15 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: tt6V7A2TM1WaX5MXrEwzwA
+! Checksum: nhHauQKYHgqvP4Gy4lnrGg
 ! Title: 拦截黄色网站转跳
-! Version: 20230623052021
-! Last modified: 2023-06-23 05:20:21
-! Total Count: 230
+! Version: 20230623171719
+! Last modified: 2023-06-23 17:17:19
+! Total Count: 246
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
 .app?c=ggcha$~third-party
+.cc/?c=axza$document
+.cc/?c=axza$~third-party
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
+.cn/*.html?c=dyyu$document
+.cn/*.html?c=dyyu$~third-party
 .cn/h.html?id=$document
 .cn/h.html?id=$~third-party
 .cn:*/?channelCode=$document
@@ -194,10 +198,16 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||lu.lindhf4.com^$~third-party
 ||luochong2.cn^$document
 ||luochong2.cn^$~third-party
+||msfd8mty4nzux.fua*.cc^$document
+||msfd8mty4nzux.fua*.cc^$~third-party
+||mzgcst.mbibioe.cn^$document
+||mzgcst.mbibioe.cn^$~third-party
 ||ofgsqic.cn^$document
 ||ofgsqic.cn^$~third-party
 ||pf.lalalalalals.com^$document
 ||pf.lalalalalals.com^$~third-party
+||psf805.xyz^$document
+||psf805.xyz^$~third-party
 ||qapuote.cn^$document
 ||qapuote.cn^$~third-party
 ||qgfzb.com^$document
@@ -210,6 +220,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||sgend.net:^$~third-party
 ||smgzyi.com^$document
 ||smgzyi.com^$~third-party
+||ssb717.xyz^$document
+||ssb717.xyz^$~third-party
 ||szpsys.com^$document
 ||szpsys.com^$~third-party
 ||szptlkj.com^$document
@@ -218,12 +230,16 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||twinrdsrv.com^$~third-party
 ||v59833.com:^$document
 ||v59833.com:^$~third-party
+||vptz1*.xyz/1*.html$document
+||vptz1*.xyz/1*.html$~third-party
 ||vuntbnc.cn^$document
 ||vuntbnc.cn^$~third-party
 ||www.baty306.com:^$document
 ||www.baty306.com:^$~third-party
 ||www.zb272.help^$document
 ||www.zb272.help^$~third-party
+||wz3rvc.cn/*.html$document
+||wz3rvc.cn/*.html$~third-party
 ||y6lkc.vip^$document
 ||y6lkc.vip^$~third-party
 ||yingyangdj.com^$document
