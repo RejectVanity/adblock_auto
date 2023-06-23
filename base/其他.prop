@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Xc0ud/8oC2+4fpwtTyC5jA
+! Checksum: ngBnvVC2XQDm5Bm8BFpQHA
 ! Title: 自用去广告Adblock规则
-! Version: 20230623232614
-! Last modified: 2023-06-23 23:26:14
-! Total Count: 1560
+! Version: 20230623235145
+! Last modified: 2023-06-23 23:51:45
+! Total Count: 1564
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -503,6 +503,7 @@
 /advertisement/*
 /assets/ad-$domain=~flowus.cn
 /bar/yfgg.js
+/bar/yfggb.js
 /bid?url=http
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
@@ -1546,6 +1547,9 @@ zle.com$script
 ||yetianlian.la/*/*.js
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yijfdsu.cn^
+||yinghua*.com/bar/yfgg*.js
+||yinghuacd.com/bar/
+||yinghuavideo.com/bar/
 ||youradexchange.com^$third-party
 ||zawqwpajq.live^
 ||zb.mtwie.com^
