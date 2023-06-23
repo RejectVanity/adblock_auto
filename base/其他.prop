@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +ZpP/bFZ/H195lrX72Joeg
+! Checksum: 2NZQc25D5HO69OqhMeQ5mw
 ! Title: 自用去广告Adblock规则
-! Version: 20230623051751
-! Last modified: 2023-06-23 05:17:51
-! Total Count: 1553
+! Version: 20230623124403
+! Last modified: 2023-06-23 12:44:03
+! Total Count: 1556
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -500,6 +500,7 @@
 /ads?zone_id=
 /ads_iframe
 /advertisement/*
+/assets/ad-$domain=~flowus.cn
 /bar/yfgg.js
 /bid?url=http
 /blsx_*_*_*.$third-party
@@ -614,6 +615,7 @@
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
 @@://img.souche.com/*.jpg
+@@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
 @@tangsanshu.net/js/comm.js
@@ -746,6 +748,7 @@ chejiahao.m.autohome.com.cn##.pgc-details-recommend-list
 chinasex.com.es##[class^="footer-ad"]
 colamanhua.com##[class$="i"][style*="bottom:"],[class$="h"][style*="bottom:"]
 colamanhua.com#@#.gg_950
+colamanhua.com#@#[style*="bottom:"]
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 d1bzw.com##[id="appurl"],[id="bbsurl"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
@@ -1199,7 +1202,7 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com##[style*="bottom:"]
+yhpdm.com,yhdmp.net,d53px.com##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
