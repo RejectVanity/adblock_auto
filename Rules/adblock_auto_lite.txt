@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1omF6zTt9WRomaATCHBY8w
+! Checksum: WWQherL2MIN3csivAGkhjQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230624091420
+! Version: 20230624120813
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-24 09:14:20
-! Total Count: 19813
+! Last modified: 2023-06-24 12:08:13
+! Total Count: 19822
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1136,6 +1136,7 @@
 ##.row > .gao-bg
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
+##.samBannerUnit
 ##.scupioadslot
 ##.search + #midBox
 ##.self-gg
@@ -2709,10 +2710,12 @@
 .com:2516/code/
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
+.com:80*/d/*0?c=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
+.com:9*/yc/c/*/GEBEF$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cyou/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|tangsanshu.la
@@ -2952,6 +2955,10 @@
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.jump\.mobileprovision$/$document
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.jump\.mobileprovision$/$~third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.mobileconfig$/$document
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.mobileconfig$/$~third-party
 /(https?:\/\/)[0-9]{8}\.(xyz|top|live|com|cn|net)/[0-9]{4}\.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$document
 /(https?:\/\/)[0-9]{8}\.(xyz|top|live|com|cn|net)/[0-9]{4}\.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$~third-party
 /(https?:\/\/)[A-Za-z].*[0-9]{10}.*\.cn\/.*[0-9]{2}.html/$document
@@ -2972,6 +2979,8 @@
 /?channelCode=bfy$~third-party
 /?channelCode=ywy$document
 /?channelCode=ywy$~third-party
+/?channelNo=*#/home$document
+/?channelNo=*#/home$~third-party
 /?linkid=*&pop=1$document
 /?linkid=*&pop=1$~third-party
 /AdblockMessage.

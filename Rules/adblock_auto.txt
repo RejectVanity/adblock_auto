@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Y4C9sqCUrknIjK1MFhXwng
+! Checksum: 1ylVDuqvOzE/5i+uubhfJA
 ! Title: 混合规则(自动更新)
-! Version: 20230624091416
+! Version: 20230624120808
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-24 09:14:16
-! Total Count: 113381
+! Last modified: 2023-06-24 12:08:08
+! Total Count: 113393
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -15726,6 +15726,7 @@
 ##.sagreklam
 ##.sal-adv-gpt
 ##.salty-bottom-ad
+##.samBannerUnit
 ##.sam_ad
 ##.savvyad_unit
 ##.say-center-contentad
@@ -20158,10 +20159,12 @@ $websocket,domain=5nj.com|cechi8.com
 .com:2516/code/
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
+.com:80*/d/*0?c=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
+.com:9*/yc/c/*/GEBEF$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cpa1.ru^
@@ -20619,6 +20622,10 @@ $websocket,domain=5nj.com|cechi8.com
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.jump\.mobileprovision$/$document
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.jump\.mobileprovision$/$~third-party
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.mobileconfig$/$document
+/(https?:\/\/).*\.(xyz|top|live|com|cn|net)\.mobileconfig$/$~third-party
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -20831,6 +20838,8 @@ $websocket,domain=5nj.com|cechi8.com
 /?channelCode=bfy$~third-party
 /?channelCode=ywy$document
 /?channelCode=ywy$~third-party
+/?channelNo=*#/home$document
+/?channelNo=*#/home$~third-party
 /?fp=*&poru=$subdocument
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
 /?linkid=*&pop=1$document
@@ -42955,6 +42964,7 @@ myanimelist.net##._unit
 myanimelist.net##.mal-kkk-unit
 myanimelist.net##.side-koukoku
 myanimelist.net##img[height="250"]
+mybanktracker.com###article-content > .lazyloaded
 mybroadband.co.za##.box-sponsored
 mycq.qq.com##div[style^="width:960px;"]
 mydailyfreedom.com##.code-block-16
@@ -48046,6 +48056,7 @@ weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
 weather.us##.dkpw-billboard-margin
+weatherbug.com##display-ad-widget
 weatheronline.co.uk##.banner_oben
 weatherpro.com##.billboard-wrapper
 weatherpro.com##.large-leaderboard
@@ -67840,6 +67851,7 @@ zzzyk.com###Tinfo
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
 ||da3uf5ucdz00u.cloudfront.net^
 ||da5h676k6d22w.cloudfront.net^
+||daadr.cn^
 ||daast.digitalbox.ru^
 ||daawx.cn^
 ||dab.rus-km.ru^
