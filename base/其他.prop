@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +mzOq8CGpYwOk8hkYp7mfw
+! Checksum: pWcoCUC6ayHyhajnld7aUA
 ! Title: 自用去广告Adblock规则
-! Version: 20230624022237
-! Last modified: 2023-06-24 02:22:37
-! Total Count: 1566
+! Version: 20230624091204
+! Last modified: 2023-06-24 09:12:04
+! Total Count: 1572
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1411,6 +1411,7 @@ zle.com$script
 ||log.m.sm.cn^
 ||lqglqq.com^$third-party
 ||lskjwica.cn^
+||lwksxs.com^$third-party
 ||lwonclbench.com^$third-party
 ||mail.kguapp.com^
 ||mc.webvisor.org^
@@ -1431,6 +1432,7 @@ zle.com$script
 ||netapd.gdxinya.com^
 ||nmm9i.xyz^
 ||nsclick.baidu.com^
+||nscxbr.com^$third-party
 ||nwecd.xyz^$third-party
 ||oronwg.xyz^$third-party
 ||pagead2.googlesyndication.com^
@@ -1451,6 +1453,8 @@ zle.com$script
 ||qisaoba.com^
 ||qlogo1.store.qq.com^
 ||qlspx.com:$third-party
+||qpolkmbbf.com$third-party
+||qwfbiujsknjk.com^
 ||rd.autohome.com.cn^
 ||rdx.autohome.com.cn^
 ||read*.me/app/*.js$script
@@ -1549,10 +1553,12 @@ zle.com$script
 ||yetianlian.la/*/*.js
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yijfdsu.cn^
+||yinghua*.*/bar/yfgg*.js
 ||yinghua*.com/bar/yfgg*.js
 ||yinghuacd.com/bar/
 ||yinghuavideo.com/bar/
 ||youradexchange.com^$third-party
+||yutew.cc^$third-party
 ||zawqwpajq.live^
 ||zb.mtwie.com^
 ||zdabnt.*$third-party

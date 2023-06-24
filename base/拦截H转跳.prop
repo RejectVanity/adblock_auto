@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: crJb9QhmU9ZTL2zBAY3IZQ
+! Checksum: qYurJrmkgTEazXEMN35eYg
 ! Title: 拦截黄色网站转跳
-! Version: 20230623174243
-! Last modified: 2023-06-23 17:42:43
-! Total Count: 246
+! Version: 20230624090114
+! Last modified: 2023-06-24 09:01:14
+! Total Count: 250
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -68,6 +68,8 @@
 .xyz:*/waga*.html$~third-party
 /#/home?c=ggcha$document
 /#/home?c=ggcha$~third-party
+/#/pages/video/video/?shareName=$document
+/#/pages/video/video/?shareName=$~third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$~third-party
 /(https?:\/\/)[0-9]{8}\.(xyz|top|live|com|cn|net)/[0-9]{4}\.html?shareName=[0-9]{8}.(xyz|top|live|com|cn|net)$/$document
@@ -248,5 +250,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||yrtedzb.cn^$~third-party
 ||zb273.site^$document
 ||zb273.site^$~third-party
+||zhenxinbuhaoba.com^$document
+||zhenxinbuhaoba.com^$~third-party
 ||zzyl.mobi^$document
 ||zzyl.mobi^$~third-party
