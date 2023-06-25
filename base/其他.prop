@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +TBkiiNoZXPPQji+kFFUsQ
+! Checksum: ocDCu//rPlIuM0ji4WoVHg
 ! Title: 自用去广告Adblock规则
-! Version: 20230625112117
-! Last modified: 2023-06-25 11:21:17
+! Version: 20230625113412
+! Last modified: 2023-06-25 11:34:12
 ! Total Count: 1575
 ###ChapterView > .slide-baidu
 ###__ads_dp
@@ -770,6 +770,10 @@ dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmh8.me,dm88.me,bccn.net,dm99.me##img[src*="data:"]
 dmh8.me,dm88.me,dm99.me##div[id^="test"]
+dmzj.com,idmzj.com##.Introduct > div > div > div
+dmzj.com,idmzj.com##.bottomDown
+dmzj.com,idmzj.com##[class$="close"][href="javascript:;"]
+dmzj.com,idmzj.com#@#[onclick*="app"]
 dnaav.com##div[id^="dnaav_b"]
 dyjihe8.com##div[style*="text-indent: -10000px !important; line-height: 0px !important;"]
 efukt.com##[data-ad-type]
@@ -834,10 +838,6 @@ google.com##.nH.MC
 hanyu.baidu.com###download-wrapper
 hanyu.baidu.com##[id^="fengchao_els"]
 hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
-idmzj.com##.Introduct > div > div > div
-idmzj.com##.bottomDown
-idmzj.com##[class$="close"][href="javascript:;"]
-idmzj.com#@#[onclick*="app"]
 ifeng.com##[class^="ad_box"]
 ifeng.com##[class^="appRecommend"]
 ifeng.com##[class^="bottom_box"]
