@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xNrGXgNYrj4P12AyH4nyVg
+! Checksum: +TBkiiNoZXPPQji+kFFUsQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230624120200
-! Last modified: 2023-06-24 12:02:00
-! Total Count: 1574
+! Version: 20230625112117
+! Last modified: 2023-06-25 11:21:17
+! Total Count: 1575
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -755,6 +755,7 @@ chinasex.com.es##[class^="footer-ad"]
 colamanhua.com##[class$="i"][style*="bottom:"],[class$="h"][style*="bottom:"]
 colamanhua.com#@#.gg_950
 colamanhua.com#@#[style*="bottom:"]
+colamanhua.com#@#img[src^="/js/a_d"][src$=".png"]
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 d1bzw.com##[id="appurl"],[id="bbsurl"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
@@ -1213,10 +1214,10 @@ yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##[style^="background: url("]
-yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##[class$="_b"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##embed[src]
+yhpdm.com,yhdmp.net,d53px.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
 yz.m.sm.cn##[id^="dl-banner-"]
 yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 yz.m.sm.cn##div[id*="_Shopping_Etao_"]
