@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: JQhwblUvR+45Sb9JVQOi8A
+! Checksum: NnvnaNDXzq91c4/AO8T1eQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230625160843
+! Version: 20230625220003
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-25 16:08:43
-! Total Count: 19845
+! Last modified: 2023-06-25 22:00:03
+! Total Count: 19852
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2683,9 +2683,11 @@
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
 .com/vh1/1$third-party
+.com/vh2/$script,third-party
 .com/vh2/1$third-party
 .com/vj1/$script,third-party
 .com/vj1/1$third-party
+.com/vj2/$script,third-party
 .com/vj2/1$third-party
 .com/vodad.js
 .com/xtub_*_rony.js$third-party
@@ -2780,6 +2782,7 @@
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
 .live/kallss?$third-party
+.live/o.js$script,third-party
 .live/r/*/*?$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live/ty/*-*.alpha$third-party
@@ -2884,6 +2887,9 @@
 .us/js/ads/
 .vip/ads/
 .vip/gg/
+.vip/html/ddx.js
+.vip/html/hfv.js
+.vip/html/zbxx.js
 .vip/js/ads/
 .vip/style/vue.js?v=
 .wap.x4399.com^
@@ -3225,6 +3231,8 @@
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
 ://a.ads.
+://abb.*.js?adv=
+://abc.*.js?adv=
 ://ads.
 ://ads2.
 ://affiliate.$third-party
@@ -4299,6 +4307,8 @@
 :8888/zhu/wap_
 :8898/ads_
 :9001/code/
+:9875/vh2/
+:9875/vj2/
 :99/js/ads/
 =AdCode_$script,third-party
 =AdCode_$third-party
@@ -4899,6 +4909,7 @@ _bannerad.
 _billboard_320x100.iframe.
 _box_ad_
 _btbttme/fox/img/QT_
+_dasiqq315.
 _fioiwhfo_
 _float_fuo.js
 _naimabdd_
@@ -5232,10 +5243,6 @@ hypebeast.com,hypebeast.kr#@#.ad-blocked
 i.factor.ua###adb-info
 i.factor.ua##[data-place-block]
 ideya-biznesa.ru##.admania_adblock_detector
-idmzj.com##.Introduct > div > div > div
-idmzj.com##.bottomDown
-idmzj.com##[class$="close"][href="javascript:;"]
-idmzj.com#@#[onclick*="app"]
 ifeng.com##[class^="ad_box"]
 ifeng.com##[class^="appRecommend"]
 ifeng.com##[class^="bottom_box"]
