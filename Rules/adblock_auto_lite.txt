@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1ZgovNwed5eEOT4OY8jM6w
+! Checksum: ZYi7t/inzDpbMDWDi6Qabw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230625113254
+! Version: 20230625113637
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-25 11:32:54
-! Total Count: 19841
+! Last modified: 2023-06-25 11:36:37
+! Total Count: 19845
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5101,6 +5101,10 @@ dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
 dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 dmh8.me,dm88.me,dm99.me##div[id^="test"]
+dmzj.com,idmzj.com##.Introduct > div > div > div
+dmzj.com,idmzj.com##.bottomDown
+dmzj.com,idmzj.com##[class$="close"][href="javascript:;"]
+dmzj.com,idmzj.com#@#[onclick*="app"]
 dnaav.com##div[id^="dnaav_b"]
 doctorrouter.ru##.jgcabd-container
 dominus.kiev.ua##body > #myModal

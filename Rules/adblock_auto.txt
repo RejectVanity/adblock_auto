@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: e0XS2b4jIyToKnupHBI1lw
+! Checksum: XrBv9euFRSQEonUzkVkypQ
 ! Title: 混合规则(自动更新)
-! Version: 20230625113240
+! Version: 20230625113620
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-25 11:32:40
-! Total Count: 113502
+! Last modified: 2023-06-25 11:36:20
+! Total Count: 113506
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -36977,6 +36977,10 @@ dmzj.com###khdDown
 dmzj.com###show_tip_bg
 dmzj.com##.ad_th
 dmzj.com##a[href*="qunhei.com"]
+dmzj.com,idmzj.com##.Introduct > div > div > div
+dmzj.com,idmzj.com##.bottomDown
+dmzj.com,idmzj.com##[class$="close"][href="javascript:;"]
+dmzj.com,idmzj.com#@#[onclick*="app"]
 dnaav.com##div[id^="dnaav_b"]
 dnaindia.com##.topadd
 dngz.net##.listright > a[target="_blank"] > img
