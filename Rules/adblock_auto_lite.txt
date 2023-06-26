@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BV5b+aIHhTFBzChuNTjT0Q
+! Checksum: bR5w02SqHIHAOvjgbs48Ig
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230626180843
+! Version: 20230626185445
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-26 18:08:43
-! Total Count: 19723
+! Last modified: 2023-06-26 18:54:45
+! Total Count: 19724
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3023,6 +3023,7 @@
 /channel/downApk*&appName=antv$~third-party
 /chunyu*.html?channelCode=$document
 /chunyu*.html?channelCode=$~third-party
+/config/json/cctv.json?v=1$~third-party
 /cookie_check.min.js$domain=acetv.me
 /dayu*.html?channelCode=$document
 /dayu*.html?channelCode=$~third-party
