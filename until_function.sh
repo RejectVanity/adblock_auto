@@ -54,9 +54,11 @@ perl "`pwd`/addchecksum.pl" "${file}"
 function modtify_adblock_original_file() {
 local file="${1}"
 if test "${2}" = "" ;then
+	local IFS=$'\n'
 	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | sed 's|^[[:space:]]@@|@@|g;s|“|"|g;s|”|"|g' | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
 		echo "$new" > "${file}"
 else
+	local IFS=$'\n'
 	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | grep -Ev "${2}" | sed 's|^[[:space:]]@@|@@|g;s|“|"|g;s|”|"|g' | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
 		echo "$new" > "${file}"
 fi
@@ -68,7 +70,7 @@ local IFS=$'\n'
 local white_list_file="${2}"
 for o in `cat "${white_list_file}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' `
 do
-`pwd`/busybox sed -i "/${o}/d" "${file}"
+busybox sed -i "/${o}/d" "${file}"
 done
 }
 
@@ -77,7 +79,7 @@ local file="${1}"
 local target_content="${2}"
 local fix_content="${3}"
 test ! -f "${file}" -o "${fix_content}" = "" && return 
-`pwd`/busybox sed -i "s|${target_content}|${fix_content}|g" "${file}"
+busybox sed -i "s|${target_content}|${fix_content}|g" "${file}"
 }
 
 function Combine_adblock_original_file(){
@@ -96,6 +98,7 @@ function wipe_white_list() {
 	local file="${2}"
 	local output_folder="${1}"
 	if test -f "${file}" ;then
+	local IFS=$'\n'
 	local new=$(cat "${file}" | grep -Ev "${3}" | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d' )
 		mkdir -p "${output_folder}"
 		echo "$new" > "${output_folder}/${file##*/}"
@@ -106,6 +109,7 @@ function sort_web_rules() {
 	local file="${2}"
 	local output_folder="${1}"
 	if test -f "${file}" ;then
+	local IFS=$'\n'
 	local new=$(cat "${file}" | grep -Ev '^\@\@|^[[:space:]]\@\@\|\||^<<|<<1023<<|^\@\@\|\||^\|\||^##|^###|^\/|\/ad\/|^:\/\/|^_|^\?|^\.|^-|^=|^:|^~|^,|^&|^#\$#|#\@#|^\$|^\||^\*|^#\%#' | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d' )
 		mkdir -p "${output_folder}"
 		echo "$new" >> "${output_folder}/${file##*/}"
@@ -116,6 +120,7 @@ function sort_adblock_Rules() {
 	local file="${2}"
 	local output_folder="${1}"
 	if test -f "${file}" ;then
+		local IFS=$'\n'
 		local new=$(cat "${file}" | grep -E "${3}" | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d' )
 			mkdir -p "${output_folder}"
 		echo "$new" > "${output_folder}/${file##*/}"
@@ -125,6 +130,7 @@ function sort_adblock_Rules() {
 function add_rules_file() {
 	local file="${2}"
 	local output_folder="${1}"
+	local IFS=$'\n'
 	local new=$(cat "${file}" | grep -E "${3}" | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d' )
 	if test -f "${output_folder}/${file##*/}" ;then
 		mkdir -p "${output_folder}"
@@ -156,7 +162,7 @@ fi
 #shell 特殊字符转义
 function escape_special_chars(){
 	local input=${1}
-	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=\@\/\.\"\+\;\(\)]/\\&/g;s|\[|\\&|g;s|\]|\\&|g' )
+	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=\@\/\.\"\+\;\(\)\{\}]/\\&/g;s|\[|\\&|g;s|\]|\\&|g' )
 	echo ${output}
 }
 
@@ -166,24 +172,26 @@ local IFS=$'\n'
 local target_file="${1}"
 local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
-local count_Rules_all=`cat "${target_file}" | grep '#'  | busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d | wc -l`
+local count_Rules_all=`cat "${target_file}" | grep '#'  | busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | busybox sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d | wc -l`
 local a=0
 local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
-for target_content in `cat "${target_file}" | grep '#'  | busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d `
+for target_content in `cat "${target_file}" | grep '#'  | busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | busybox sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d `
 do
 a=$(($a + 1))
 target_content="#${target_content}"
 transfer_content=$(escape_special_chars ${target_content})
 grep -E "${transfer_content}$" "${target_file}" > "${target_file_tmp}" && echo "※处理重复Css规则( $count_Rules_all → $(($count_Rules_all - ${a})) ): ${transfer_content}$"
-if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|#.*||g' | grep -E ',')" != "" ;then
+if test "$(cat "${target_file_tmp}" 2>/dev/null | sed 's|#.*||g' | grep -E ',')" != "" ;then
 	sed -i 's|#.*||g' "${target_file_tmp}"
 	local before_tmp=$(cat "${target_file_tmp}" | tr ',' '\n' | busybox sed '/^[[:space:]]*$/d' | sort  | uniq )
 	echo "${before_tmp}" > "${target_file_tmp}"
 	sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
-		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
+cat << key >> "${target_output_file}" 
+`cat "${target_file_tmp}"`${target_content}
+key
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 else
@@ -195,7 +203,9 @@ else
 	fi
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
-		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
+cat << key >> "${target_output_file}" 
+`cat "${target_file_tmp}"`${target_content}
+key
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 fi
@@ -209,7 +219,7 @@ local IFS=$'\n'
 local target_file="${1}"
 local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
-local count_Rules_all=`cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d  | sed 's|.*domain=||g' | grep -Ev ',' | sed '/^[[:space:]]*$/d' | wc -l `
+local count_Rules_all=`cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d | sed '/^[[:space:]]*$/d' | wc -l `
 local a=0
 local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
@@ -219,17 +229,24 @@ a=$(($a + 1))
 target_content="${target_content}domain="
 transfer_content=$(escape_special_chars ${target_content} )
 grep -E "^${transfer_content}" "${target_file}" > "${target_file_tmp}" && echo "※处理重复作用域名规则( $count_Rules_all → $(($count_Rules_all - ${a} )) ): ^${transfer_content}"
-if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E ',')" != "" ;then
-	echo "※规则无法处理 ${target_content} 因为包含其他限定器！"
-	continue
-elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E '\|')" != "" ;then
+if test "$(cat "${target_file_tmp}" 2>/dev/null | sed 's|.*domain=||g' | grep -E ',' )" != "" ;then
+	echo "※规则 ${target_content} 包含其他限定器！"
+	local fixed_tmp=$(cat "${target_file_tmp}" | sed 's/[[:space:]]$//g' | grep -Ev ',(important|third-party|script|media|subdocument|document|xmlhttprequest|other|stealth|image|stylesheet|content|match-case|font|sitekey|~important|~third-party|~script|~media|~subdocument|~document|~xmlhttprequest|~other|~stealth|~image|~stylesheet|~content|~match-case|~font|~sitekey)$' | sed '/^[[:space:]]*$/d' | sort | uniq)
+	echo "${fixed_tmp}" > "${target_file_tmp}"
+	echo "※尝试修复中……"
+	local Rules_juggle=`cat "${target_file_tmp}" | sort | uniq | sed '/^[[:space:]]*$/d' | wc -l`
+	test "${Rules_juggle}" -le "1" && echo "※无法合并，已跳过！" && continue
+fi
+if test "$(cat "${target_file_tmp}" 2>/dev/null | sed 's|.*domain=||g' | grep -E '\|')" != "" ;then
 	sed -i 's|.*domain=||g' "${target_file_tmp}"
 	local before_tmp=$(cat "${target_file_tmp}" | tr '|' '\n' | sed '/^[[:space:]]*$/d' | sort  | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
 	sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
-		echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" 
+cat << key >> "${target_output_file}" 
+${target_content}`cat "${target_file_tmp}"`
+key
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 else
@@ -240,8 +257,10 @@ else
 		sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
 	fi
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
-		grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}" 
-		echo "${target_content}`cat "${target_file_tmp}"`" >> "${target_output_file}" 
+		grep -Ev "^${transfer_content}" "${target_file}" >> "${target_output_file}"
+cat << key >> "${target_output_file}" 
+${target_content}`cat "${target_file_tmp}"`
+key
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 fi
