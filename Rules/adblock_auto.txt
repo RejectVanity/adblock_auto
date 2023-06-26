@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 4r7+bMOc2i40Pey3DmhxRA
+! Checksum: 9ZXsGdtoymy+5DoLqQU/WA
 ! Title: 混合规则(自动更新)
-! Version: 20230626185442
+! Version: 20230626231511
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-26 18:54:42
-! Total Count: 111864
+! Last modified: 2023-06-26 23:15:11
+! Total Count: 111879
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -40880,6 +40880,7 @@ linkhub.icu##a[href^="/linknow.php?"]
 linksly.co###imgAddDirectLink
 linkvertise.com##lv-taboola-ctr-ad-dummy
 linovelib.com##+js(abort-current-script, document.createElement, b.onerror)
+linovelib.com##+js(set-constant, adblock, 0)
 linovelib.com,yodu.org#$##byspider { display: none !important; }
 linovelib.com,yodu.org#$#body[style] { overflow: auto !important; }
 linustechtips.com##div[data-role="sidebarAd"]
@@ -44681,6 +44682,7 @@ sohu.com##a[href^="https://m.sohu.com/promotion?"]
 sohu.com##div[data-spm-content="promotion"]
 sohu.com##div[id^="COUPLET"]
 sohu.com##div[id^="beans"]
+sohu.com#?#.news-wrapper > div.news-box.clear:has(> [data-ad-format])
 sohu.com#?#.sidebar.right:-abp-has(> div.extend-mod:first-child)
 sohu.com#?#.sidebar.right:has(> div.extend-mod:first-child)
 sohu.com#@#.label-ad
@@ -44917,6 +44919,8 @@ stockstar.com##.much_ad
 stockstar.com##.siteAd_l
 stockstar.com##.siteAd_r
 stockstar.com##.ss-ad-icon2
+stocktwits.com##.Primis_container__KwtjV
+stocktwits.com##[data-pos]
 stokesentinel.co.uk##.shop-window[data-impr-tracking="true"]
 storm.mg###dablewidget_KoEeAWoB
 storm.mg###floating_btns_wrapper
@@ -46572,6 +46576,11 @@ wdzj.com##.left-gg-box > div.sl-ggao > div.gg
 wdzj.com##.logo-banner
 wdzj.com##.opentb
 wdzj.com##div[class$="-ad-top"]
+wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> button path[d^="M16 4c6.627 0 12 5.373"])
+wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> div[class]:matches-css(height: 250px))
+wealth.com.tw#?##root div[class]:matches-css(padding-left: 70px) > div[class]:matches-css(column-gap: 30px):has(> div[class]:matches-css(align-items: center))
+wealth.com.tw#?##root div[class]:matches-css(position: relative) > div[class]:matches-css(justify-content: center):has(> div[class]:matches-css(width: 300px))
+wealth.com.tw#?##root div[class]:matches-css(row-gap: 13px) > div[class]:matches-css(row-gap: 6px):has(> div[class]:matches-css(width: 300px))
 wealth.com.tw#?#div[class]:-abp-has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
 wealth.com.tw#?#div[class]:-abp-has(>div[class]>div[class*="-ad-manager-"])
 wealth.com.tw#?#div[class]:has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
@@ -48088,6 +48097,7 @@ zzzyk.com###Tinfo
 ||01jud3v55z.com^
 ||01tn.cn^
 ||01u.net/js/tj.js
+||01v62.xyz^
 ||021jf.com^
 ||021jf.com^*.gif
 ||023hysj.com^
@@ -57175,6 +57185,7 @@ zzzyk.com###Tinfo
 ||atax.gamestats.com^
 ||atax.ign.com^
 ||atax.teamxbox.com^
+||atbdkmt.xyz^
 ||atcelebitor.com^
 ||atchshipsmotor.com^
 ||atcoordinate.com^
@@ -58171,6 +58182,7 @@ zzzyk.com###Tinfo
 ||baidu1.codejie.net^
 ||baiduada.babihu.com^
 ||baiduajbcjkabcav.com^
+||baidubdvjssv.com^
 ||baidubvjsbvv.com^
 ||baiduccdn1.com^
 ||baiducdnimages.com^$domain=chichiav1.xyz
@@ -70535,6 +70547,7 @@ zzzyk.com###Tinfo
 ||events.sk.ht^
 ||events.splash-screen.net^
 ||events.split.io^
+||events.swishapps.ai^
 ||events.textme-app.com^
 ||events.tubecup.org^
 ||events.turbosquid.com^
@@ -74317,6 +74330,7 @@ zzzyk.com###Tinfo
 ||gowhutho.com^
 ||gowinxp.com^$third-party
 ||gowoman.ru^
+||goxob6wo.icu^
 ||goyetteconnelly.bid^
 ||gp.jstv.com^
 ||gp.zaiyunli.cn^
@@ -89557,9 +89571,7 @@ zzzyk.com###Tinfo
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication.com/adsbygoogle.js,domain=youneed.win,xmlhttprequest,script
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=wuyong.fun,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=xiebruce.top
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=nazology.net|nijimen.net
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=wuyong.fun,important
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=xiebruce.top
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=nazology.net|nijimen.net|xiebruce.top
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=linovelib.com,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=m.twfanti.com,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=yodu.org
@@ -90461,6 +90473,7 @@ zzzyk.com###Tinfo
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
 ||phartemt.xyz^
+||phasecrance.com^
 ||phastoag.com^
 ||phatchoa.net^
 ||phaucmoa.net^
@@ -98182,6 +98195,7 @@ zzzyk.com###Tinfo
 ||smallfunnybears.com^
 ||smallstrengthen.com^
 ||smalltiberbridge.com^
+||smarketer.de^
 ||smart-c.jp^
 ||smart-counter.net^
 ||smart-data-systems.com^
@@ -110747,6 +110761,7 @@ zzzyk.com###Tinfo
 ||yupei.love^
 ||yupfiles.net^
 ||yupoo.com/dapenti/5cfa8673/c6045c69.jpeg
+||yupov6ks.icu^
 ||yuppads.com^
 ||yupphsl.cn^
 ||yuppyads.com^
