@@ -156,60 +156,74 @@ fi
 #shell 特殊字符转义
 function escape_special_chars(){
 	local input=${1}
-	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=\@\/\.\"]/\\&/g;s|\[|\\&|g;s|\]|\\&|g' )
+	local output=$(echo ${input} | sed 's/[\^\|\*\?\$\=\@\/\.\"\+\;\(\)]/\\&/g;s|\[|\\&|g;s|\]|\\&|g' )
 	echo ${output}
 }
 
 #去除指定重复的Css
 function sort_Css_Combine(){
-local target_content="${2}"
+local IFS=$'\n'
 local target_file="${1}"
 local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
-local transfer_content=$(escape_special_chars ${target_content})
-#echo "${transfer_content}$"
-grep -E "${transfer_content}$" "${target_file}" > "${target_file_tmp}" 
+local count_Rules_all=`cat "${target_file}" | grep '#'  | sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d | wc -l`
+local a=0
+local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
+echo "${new_file}" > "${target_file}"
+for target_content in `cat "${target_file}" | grep '#'  | sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d `
+do
+a=$(($a + 1))
+target_content="#${target_content}"
+transfer_content=$(escape_special_chars ${target_content})
+grep -E "${transfer_content}$" "${target_file}" > "${target_file_tmp}" && echo "※处理重复Css规则( $count_Rules_all → $(($count_Rules_all - ${a})) ): ${transfer_content}$"
 if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|#.*||g' | grep -E ',')" != "" ;then
 	sed -i 's|#.*||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | tr ',' '\n' | sed '/^[[:space:]]*$/d' | sort -u | uniq )
+	local before_tmp=$(cat "${target_file_tmp}" | tr ',' '\n' | sed '/^[[:space:]]*$/d' | sort  | uniq )
 	echo "${before_tmp}" > "${target_file_tmp}"
 	sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
 		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
-		echo "${css_common_record}" >> "${target_output_file}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 else
 	sed -i 's|#.*||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | sed '/^[[:space:]]*$/d' | sort -u | uniq)
+	local before_tmp=$(cat "${target_file_tmp}" | sed '/^[[:space:]]*$/d' | sort | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
 		sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
 	fi
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
 		grep -Ev "${transfer_content}$" "${target_file}" >> "${target_output_file}" 
-		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}" 
-		echo "${css_common_record}" >> "${target_output_file}"
+		echo "`cat "${target_file_tmp}"`${target_content}" >> "${target_output_file}"
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 fi
+done
 rm -rf "${target_file_tmp}" 2>/dev/null
 }
 
 #去除重复作用的域名
 function sort_domain_Combine(){
-local target_content="${2}"
+local IFS=$'\n'
 local target_file="${1}"
 local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
-local transfer_content=$(escape_special_chars ${target_content})
-grep -E "^${transfer_content}" "${target_file}" > "${target_file_tmp}" 
+local count_Rules_all=`cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d  | sed 's|.*domain=||g' | grep -Ev ',' | sed '/^[[:space:]]*$/d' | wc -l `
+local a=0
+local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
+echo "${new_file}" > "${target_file}"
+for target_content in `cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d | sed '/^[[:space:]]*$/d' `
+do
+a=$(($a + 1))
+target_content="${target_content}domain="
+transfer_content=$(escape_special_chars ${target_content} )
+grep -E "^${transfer_content}" "${target_file}" > "${target_file_tmp}" && echo "※处理重复作用域名规则( $count_Rules_all → $(($count_Rules_all - ${a} )) ): ^${transfer_content}"
 if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E ',')" != "" ;then
 	return
 elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E '\|')" != "" ;then
 	sed -i 's|.*domain=||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | tr '|' '\n' | sed '/^[[:space:]]*$/d' | sort -u | uniq)
+	local before_tmp=$(cat "${target_file_tmp}" | tr '|' '\n' | sed '/^[[:space:]]*$/d' | sort  | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
 	sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
@@ -219,7 +233,7 @@ elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E
 	fi
 else
 	sed -i 's|.*domain=||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | sed '/^[[:space:]]*$/d' | sort -u | uniq)
+	local before_tmp=$(cat "${target_file_tmp}" | sed '/^[[:space:]]*$/d' | sort  | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
 		sed -i ":a;N;\$!ba;s#\n#\|#g" "${target_file_tmp}"
@@ -230,6 +244,7 @@ else
 		mv -f "${target_output_file}" "${target_file}"
 	fi
 fi
+done
 rm -rf "${target_file_tmp}" 2>/dev/null
 }
 
@@ -238,291 +253,7 @@ function Running_sort_domain_Combine(){
 local IFS=$'\n'
 local target_adblock_file="${1}"
 test ! -f "${target_adblock_file}" && echo "※`date +'%F %T'` ${target_adblock_file} 规则文件不存在！！！" && return
-sort_domain_Combine "${target_adblock_file}" '$domain='
-sort_domain_Combine "${target_adblock_file}" '$image,third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '$script,subdocument,third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '$script,subdocument,third-party,websocket,xmlhttprequest,domain='
-sort_domain_Combine "${target_adblock_file}" '$script,subdocument,~third-party,websocket,xmlhttprequest,domain='
-sort_domain_Combine "${target_adblock_file}" '$script,third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '$script,third-party,websocket,domain='
-sort_domain_Combine "${target_adblock_file}" '$third-party,script,domain='
-sort_domain_Combine "${target_adblock_file}" '.gif$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '.gif^$domain=' 
-sort_domain_Combine "${target_adblock_file}" '/adcore.$domain='
-sort_domain_Combine "${target_adblock_file}" '/adflow.$domain='
-sort_domain_Combine "${target_adblock_file}" '/advert-$domain='
-sort_domain_Combine "${target_adblock_file}" '/advert.$~script,domain='
-sort_domain_Combine "${target_adblock_file}" '/images/*.gif$domain='
-sort_domain_Combine "${target_adblock_file}" '://ads.$~image,domain='
-sort_domain_Combine "${target_adblock_file}" '://adv.$domain='
-sort_domain_Combine "${target_adblock_file}" '?*=*=*=$subdocument,domain='
-sort_domain_Combine "${target_adblock_file}" '?advertiserid=$domain='
-sort_domain_Combine "${target_adblock_file}" '@@/sensorsdata-$domain='
-sort_domain_Combine "${target_adblock_file}" '@@_cpa_cpm_$domain='
-sort_domain_Combine "${target_adblock_file}" '@@||alicdn.com^*/tanxssp.js$domain='
-sort_domain_Combine "${target_adblock_file}" '@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain='
-sort_domain_Combine "${target_adblock_file}" '@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain='
-sort_domain_Combine "${target_adblock_file}" '@@||tanx.com/ex?i=$script,domain='
-sort_domain_Combine "${target_adblock_file}" 'hm.baidu.com/hm.js$domain='
-sort_domain_Combine "${target_adblock_file}" '||*.*/gg/*.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.*/gg/jsp.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.aliyuncs.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.buzz/hengf.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.cn/m-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.cn/s/*-*-*-*-*.*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com*/c.aspx^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com*/v*/1*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com*/wap_*_*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/*/27*.*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/bid^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/gg/jsp.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/js/*blv*.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/js/dom.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/m-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/new/*fix.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/o.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/site/mov*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/slot*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/slot^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/v*/1*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/vh*/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.com/z-*-*-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.fourlaile.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.gif$domain='
-sort_domain_Combine "${target_adblock_file}" '||*.picfourlai.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.top/a.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.top/d.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.top^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz/*?*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz/base*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz/ember*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz/o.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz/react*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz/solid*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz/vendors*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz/vue*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*.xyz^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/*-*-*-*-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/*-*-*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/*.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/bigRED*.*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/bigRED*.css^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/bigREDdog.*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/bigREDdog.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*/static/js/_init.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*_*.ios^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*_*_*_*.css^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*_*_*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/*_*_aubi.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/1/83897.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/Kfc_*.ios^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/Pb*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/TU*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/U*t*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/Uh*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/app/mo*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/app/mod*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/bi*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/bigREDdog.css^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/bl*_*_*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/bl*_*_*_*js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/blsx_*_lig*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/blsx_*_ligs*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/blsx_*_ligs*js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/cg/*-*-*-*-*.*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/cg/*-*-*-*-*.cg^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/gyxx_*_aubi.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/js/1.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/js/orsxg5a.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/k/*-*-*-*-*.tj^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/m-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/newdingpiao.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/newguding.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/o.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/qby_*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/s/*-*-*-*-*.*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/s/*-*-*-*-*.xc^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/s/*-*-*-*-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/s/*.xc^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/sc/*?*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/sh/*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/sh/*js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/sh/to/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/site/mov*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/slot*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/slot^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/static/*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/td.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/tftf_*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/tftf_*_*js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/ts/cc@*^'
-sort_domain_Combine "${target_adblock_file}" '||*/vgtg_*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/vh2/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/wap_*_*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/wb/*-*-*-*-*.*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/wb/*-*-*-*-*.yb^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/xling_*_*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/xtub_*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*/xtub_*_rony.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*_*_*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*com/*/*.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*com/js/*.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*g*.*.*/sc/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||*xyz^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||5252shop.com/*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||5252shop.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||aaa.fsukulele.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||abb.*.com/o.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||adservice.google.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||ae01.alicdn.com$domain='
-sort_domain_Combine "${target_adblock_file}" '||ae01.alicdn.com/kf$domain='
-sort_domain_Combine "${target_adblock_file}" '||aliyuncs.com/read*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||aliyuncs.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||api.*.com/sh/*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||api.*.com/sh/*/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||api.*.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||api.*/s*/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||api.*/s/c*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||app.*.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||app.809hy.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||buzz/hengf.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||byteacctimg.com/origin/33a*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||cdn.daogoubei.cn$domain='
-sort_domain_Combine "${target_adblock_file}" '||chaojijs.xyz/cdn*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||chaojijs.xyz/cdndibu.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||chaojijs.xyz/cdnhf.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||cn*/qy/cc-*-25.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||cn*/ts/cc@*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||cn/show/bot.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||cn/site/*o*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||cn/static/*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||cn/static/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com*/o.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com*/wap_*_*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/*/*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/*/*_*7*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/*/28*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/*_*.js?*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/*_*_dsf.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/*_t.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/1/226.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/app/mod*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/biqu04_t.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/bl*_*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/c.aspx^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/d.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/e.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/img/rtbp^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/o.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/sh/*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/xz/*7*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/xz/289^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||com/xz/7*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||csdped.cn/cdnfiles$domain='
-sort_domain_Combine "${target_adblock_file}" '||cyou/*_*_*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||dbstatic.wenyinsz.cn/material$domain='
-sort_domain_Combine "${target_adblock_file}" '||dcarimg.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||dg.*.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||fg.*.cn^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||hhdus.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||img.alicdn.com/imgextra$domain='
-sort_domain_Combine "${target_adblock_file}" '||img.gxhxmy88.com/oone$domain='
-sort_domain_Combine "${target_adblock_file}" '||img.jiaoqu.cc^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||jd.btmeifeng.cn$domain='
-sort_domain_Combine "${target_adblock_file}" '||jd.btmeifeng.cn/material$domain='
-sort_domain_Combine "${target_adblock_file}" '||jp.twww.sbs^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||jrds.net.cn^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||kg.*.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||la.shenluyu.com/box/main.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||lm22.top^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||m.tyjryuk.cn$domain='
-sort_domain_Combine "${target_adblock_file}" '||mbcide.cn/cdnfiles$domain='
-sort_domain_Combine "${target_adblock_file}" '||meitian.pro/cdn*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||mg.*.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||p.pstatp.com/origin$domain='
-sort_domain_Combine "${target_adblock_file}" '||p3.pstatp.com$domain='
-sort_domain_Combine "${target_adblock_file}" '||p3.pstatp.com/large$domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com^$important,script,redirect=googlesyndication-adsbygoogle,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com^$important,script,redirect=googlesyndication_adsbygoogle.js,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com^$important,script,redirect=noopjs,domain='
-sort_domain_Combine "${target_adblock_file}" '||pagead2.googlesyndication.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||q.jjdk33.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||qq.*.top^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||qqpublic.qpic.cn/qq_public$domain='
-sort_domain_Combine "${target_adblock_file}" '||qqwx.zhangguangzong.com/jpg$domain='
-sort_domain_Combine "${target_adblock_file}" '||r.lzumg.xyz$domain='
-sort_domain_Combine "${target_adblock_file}" '||s.*.*/*/*-*-*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||sc6.plshgw.cn/uploads$domain='
-sort_domain_Combine "${target_adblock_file}" '||sd.*.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||sdk.jmmhz.cn/material$domain='
-sort_domain_Combine "${target_adblock_file}" '||sdk.wenkans.xyz^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||sf3-ttcdn-tos.pstatp.com/img$domain='
-sort_domain_Combine "${target_adblock_file}" '||ss.*.com/d.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||ss.zuixinyiqi.com/*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||ss.zuixinyiqi.com/d.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||ss.zuixinyiqi.com/h.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||ss.zuixinyiqi.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||static.hhdus.com/cc.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||static.hhdus.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||taobao.com^$popup,domain='
-sort_domain_Combine "${target_adblock_file}" '||tg.*.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||tongji.eu^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||top*/*/c-*-*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||top/*_*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||top/1/83897.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||top/d.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||tp.zzyanhushi.com/images$domain='
-sort_domain_Combine "${target_adblock_file}" '||tpc.googlesyndication.com$domain='
-sort_domain_Combine "${target_adblock_file}" '||tqdpqq.com/1/289.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||ty/*-*-*-*-*.*lpha^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||u.zoulj.xyz$domain='
-sort_domain_Combine "${target_adblock_file}" '||v3.js.fuquantb.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||ww.hefei64.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.*.com*/slot^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.*.com/jsp/jsp.script^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.51findshop.com/sc/*/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.51findshop.com/sc^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.51findshop.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.98765.pw/common.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.98765.pw^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.ceseasons.com/c.aspx^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.ceseasons.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.dadatuo.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.dxyy.app^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||www.myads.cc/dp.js^$domain='
-sort_domain_Combine "${target_adblock_file}" '||www.myads.cc^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xg.monsteredward.com^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xxl.*.cn/z-1999-5-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xxl.*.com/z-28*-5-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xxl.*/z-1999-5-*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/*^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/*_*_*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/Kfc_*.ios^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/alpine^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/angular.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/backbone^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/base*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/config.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/ember^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/qby_*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/react^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/solid^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/svelte^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/vendors^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/vue^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||xyz/xling_*_*_*.js^$third-party,domain='
-sort_domain_Combine "${target_adblock_file}" '||zuixinyiqi.com^$third-party,domain='
-
-
+sort_domain_Combine "${target_adblock_file}"
 }
 
 
@@ -532,81 +263,11 @@ local target_adblock_file="${1}"
 test ! -f "${target_adblock_file}" && echo "※`date +'%F %T'` ${target_adblock_file} 规则文件不存在！！！" && return
 #记录通用的Css
 local css_common_record="$(cat ${target_adblock_file} 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d;/^#/!d' )"
-
-sort_Css_Combine "${target_adblock_file}" '###advertising'
-sort_Css_Combine "${target_adblock_file}" '###banner'
-sort_Css_Combine "${target_adblock_file}" '###billboard'
-sort_Css_Combine "${target_adblock_file}" '###diynavtop'
-sort_Css_Combine "${target_adblock_file}" '##.AD'
-sort_Css_Combine "${target_adblock_file}" '##.ADS'
-sort_Css_Combine "${target_adblock_file}" '##.Ad'
-sort_Css_Combine "${target_adblock_file}" '##.Ads'
-sort_Css_Combine "${target_adblock_file}" '##.ad'
-sort_Css_Combine "${target_adblock_file}" '##.ad2'
-sort_Css_Combine "${target_adblock_file}" '##.ads'
-sort_Css_Combine "${target_adblock_file}" '##.adv'
-sort_Css_Combine "${target_adblock_file}" '##.advert'
-sort_Css_Combine "${target_adblock_file}" '##.advertise'
-sort_Css_Combine "${target_adblock_file}" '##.advertisement'
-sort_Css_Combine "${target_adblock_file}" '##.advertising'
-sort_Css_Combine "${target_adblock_file}" '##.advertisment'
-sort_Css_Combine "${target_adblock_file}" '##.ai_widget'
-sort_Css_Combine "${target_adblock_file}" '##.banner'
-sort_Css_Combine "${target_adblock_file}" '##.bottom-banners'
-sort_Css_Combine "${target_adblock_file}" '##.bottom_fixed'
-sort_Css_Combine "${target_adblock_file}" '##.d-lg-block'
-sort_Css_Combine "${target_adblock_file}" '##.google'
-sort_Css_Combine "${target_adblock_file}" '##.happy-under-player'
-sort_Css_Combine "${target_adblock_file}" '##.header-banner'
-sort_Css_Combine "${target_adblock_file}" '##.header-billboard'
-sort_Css_Combine "${target_adblock_file}" '##.leaderboard'
-sort_Css_Combine "${target_adblock_file}" '##.mpu'
-sort_Css_Combine "${target_adblock_file}" '##.promoted-block'
-sort_Css_Combine "${target_adblock_file}" '##.slot'
-sort_Css_Combine "${target_adblock_file}" '##.sponsor'
-sort_Css_Combine "${target_adblock_file}" '##.spot'
-sort_Css_Combine "${target_adblock_file}" '##.sticky-container'
-sort_Css_Combine "${target_adblock_file}" '##.td-a-rec'
-sort_Css_Combine "${target_adblock_file}" '##.top-banner'
-sort_Css_Combine "${target_adblock_file}" '##.widget_block'
-sort_Css_Combine "${target_adblock_file}" '##.widget_media_image'
-sort_Css_Combine "${target_adblock_file}" '##HTML'
-sort_Css_Combine "${target_adblock_file}" '##[href*="base64"]'
-sort_Css_Combine "${target_adblock_file}" '##[href*="data:"]'
-sort_Css_Combine "${target_adblock_file}" '##[src^="bLob:"]'
-sort_Css_Combine "${target_adblock_file}" '##[srcdoc]'
-sort_Css_Combine "${target_adblock_file}" '##[style*="base64"]'
-sort_Css_Combine "${target_adblock_file}" '##[style*="blob:"]'
-sort_Css_Combine "${target_adblock_file}" '##a[href*=".tmall.com"]'
-sort_Css_Combine "${target_adblock_file}" '##a[href*="?ats="]'
-sort_Css_Combine "${target_adblock_file}" '##a[href*="theporndude.com"]'
-sort_Css_Combine "${target_adblock_file}" '##a[href^="http://ads.trafficjunky.net/"]'
-sort_Css_Combine "${target_adblock_file}" '##a[href^="http://t.cn/"]'
-sort_Css_Combine "${target_adblock_file}" '##a[href^="https://ads.trafficjunky.net/"]'
-sort_Css_Combine "${target_adblock_file}" '##body > a'
-sort_Css_Combine "${target_adblock_file}" '##body > a[target="_blank"]'
-sort_Css_Combine "${target_adblock_file}" '##canvas'
-sort_Css_Combine "${target_adblock_file}" '##div[class^="ad"]'
-sort_Css_Combine "${target_adblock_file}" '##div[class^="ad_"]'
-sort_Css_Combine "${target_adblock_file}" '##div[class^="ads-"]'
-sort_Css_Combine "${target_adblock_file}" '##div[class^="adv"]'
-sort_Css_Combine "${target_adblock_file}" '##div[id^="AD"]'
-sort_Css_Combine "${target_adblock_file}" '##div[id^="ad"]'
-sort_Css_Combine "${target_adblock_file}" '##div[onclick*="bp1.com"]'
-sort_Css_Combine "${target_adblock_file}" '##img[height="90"]'
-sort_Css_Combine "${target_adblock_file}" '##img[src*="data:"]'
-sort_Css_Combine "${target_adblock_file}" '##img[width="300"]'
-sort_Css_Combine "${target_adblock_file}" '#@##advertise'
-sort_Css_Combine "${target_adblock_file}" '#@#.adsbygoogle'
-sort_Css_Combine "${target_adblock_file}" '#@#.advertiser'
-sort_Css_Combine "${target_adblock_file}" '#@#.content_ads'
-sort_Css_Combine "${target_adblock_file}" '#@#.video-ads'
-sort_Css_Combine "${target_adblock_file}" '#@#ins.adsbygoogle'
-
-
+sort_Css_Combine "${target_adblock_file}"
 #写入通用的Css
 echo "${css_common_record}" >> "${target_adblock_file}"
 }
+
 
 #更新README信息
 function update_README_info(){
