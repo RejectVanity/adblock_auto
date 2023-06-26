@@ -166,11 +166,11 @@ local IFS=$'\n'
 local target_file="${1}"
 local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
-local count_Rules_all=`cat "${target_file}" | grep '#'  | sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d | wc -l`
+local count_Rules_all=`cat "${target_file}" | grep '#'  | `pwd`/busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | `pwd`/busybox sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d | wc -l`
 local a=0
-local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
+local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | `pwd`/busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
-for target_content in `cat "${target_file}" | grep '#'  | sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d `
+for target_content in `cat "${target_file}" | grep '#'  | `pwd`/busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | `pwd`/busybox sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d `
 do
 a=$(($a + 1))
 target_content="#${target_content}"
@@ -211,7 +211,7 @@ local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
 local count_Rules_all=`cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d  | sed 's|.*domain=||g' | grep -Ev ',' | sed '/^[[:space:]]*$/d' | wc -l `
 local a=0
-local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
+local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | `pwd`/busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
 for target_content in `cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d | sed '/^[[:space:]]*$/d' `
 do
