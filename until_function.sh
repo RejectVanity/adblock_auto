@@ -1,5 +1,5 @@
 #!/bin/sh
-
+export PATH="`pwd`:${PATH}"
 
 #下载Adblock规则
 function download_link(){
@@ -166,11 +166,11 @@ local IFS=$'\n'
 local target_file="${1}"
 local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
-local count_Rules_all=`cat "${target_file}" | grep '#'  | `pwd`/busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d | wc -l`
+local count_Rules_all=`cat "${target_file}" | grep '#'  | busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d | wc -l`
 local a=0
-local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | `pwd`/busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
+local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
-for target_content in `cat "${target_file}" | grep '#'  | `pwd`/busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d `
+for target_content in `cat "${target_file}" | grep '#'  | busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | sed 's/.*\..*[A-Za-z]#//g' | sort | uniq -d `
 do
 a=$(($a + 1))
 target_content="#${target_content}"
@@ -178,7 +178,7 @@ transfer_content=$(escape_special_chars ${target_content})
 grep -E "${transfer_content}$" "${target_file}" > "${target_file_tmp}" && echo "※处理重复Css规则( $count_Rules_all → $(($count_Rules_all - ${a})) ): ${transfer_content}$"
 if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|#.*||g' | grep -E ',')" != "" ;then
 	sed -i 's|#.*||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | tr ',' '\n' | `pwd`/busybox sed '/^[[:space:]]*$/d' | sort  | uniq )
+	local before_tmp=$(cat "${target_file_tmp}" | tr ',' '\n' | busybox sed '/^[[:space:]]*$/d' | sort  | uniq )
 	echo "${before_tmp}" > "${target_file_tmp}"
 	sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' )" != "" ;then 
@@ -188,7 +188,7 @@ if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|#.*||g' | grep -E ',')" !
 	fi
 else
 	sed -i 's|#.*||g' "${target_file_tmp}"
-	local before_tmp=$(cat "${target_file_tmp}" | `pwd`/busybox sed '/^[[:space:]]*$/d' | sort | uniq)
+	local before_tmp=$(cat "${target_file_tmp}" | busybox sed '/^[[:space:]]*$/d' | sort | uniq)
 	echo "${before_tmp}" > "${target_file_tmp}"
 	if test "$(cat "${target_file_tmp}" 2>/dev/null | sed '/^!/d;/^[[:space:]]*$/d' | wc -l)" -gt "1" ;then
 		sed -i ":a;N;\$!ba;s#\n#,#g" "${target_file_tmp}"
@@ -211,9 +211,9 @@ local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
 local count_Rules_all=`cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d  | sed 's|.*domain=||g' | grep -Ev ',' | sed '/^[[:space:]]*$/d' | wc -l `
 local a=0
-local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | `pwd`/busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
+local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
-for target_content in `cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d | `pwd`/busybox sed '/^[[:space:]]*$/d' `
+for target_content in `cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d | busybox sed '/^[[:space:]]*$/d' `
 do
 a=$(($a + 1))
 target_content="${target_content}domain="
