@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v+9w5kDM6IRpZok1fpUcZg
+! Checksum: n6QcKFpcVrdN0wG8dz7L7g
 ! Title: 自用去广告Adblock规则
-! Version: 20230626115336
-! Last modified: 2023-06-26 11:53:36
-! Total Count: 1577
+! Version: 20230626185218
+! Last modified: 2023-06-26 18:52:18
+! Total Count: 1578
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -510,6 +510,7 @@
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
 /blxn_*.js?
+/config/json/cctv.json?v=1$~third-party
 /js/GDHF.js
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
