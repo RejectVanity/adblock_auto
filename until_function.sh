@@ -213,14 +213,15 @@ local count_Rules_all=`cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq
 local a=0
 local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
-for target_content in `cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d | busybox sed '/^[[:space:]]*$/d' `
+for target_content in `cat "${target_file}" | grep 'domain=' | sed 's|domain=.*||g' | sort | uniq -d | busybox sed '/^[[:space:]]*$/d' `
 do
 a=$(($a + 1))
 target_content="${target_content}domain="
 transfer_content=$(escape_special_chars ${target_content} )
 grep -E "^${transfer_content}" "${target_file}" > "${target_file_tmp}" && echo "※处理重复作用域名规则( $count_Rules_all → $(($count_Rules_all - ${a} )) ): ^${transfer_content}"
 if test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E ',')" != "" ;then
-	return
+	echo "※规则无法处理 ${target_content} 因为包含其他限定器！"
+	continue
 elif test "$(cat ${target_file_tmp} 2>/dev/null | sed 's|.*domain=||g' | grep -E '\|')" != "" ;then
 	sed -i 's|.*domain=||g' "${target_file_tmp}"
 	local before_tmp=$(cat "${target_file_tmp}" | tr '|' '\n' | sed '/^[[:space:]]*$/d' | sort  | uniq)
