@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Wtn0QomWTrQJa23bJcI9JQ
+! Checksum: bnRAjpxLoX4E8ChR+YxDqw
 ! Title: 自用去广告Adblock规则
-! Version: 20230626221946
-! Last modified: 2023-06-26 22:19:46
-! Total Count: 1578
+! Version: 20230628073737
+! Last modified: 2023-06-28 07:37:37
+! Total Count: 1580
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -557,6 +557,7 @@
 6446.tv,lgyy.tv,lgyy.cc##[id^="syad"]
 69vj.com###vban
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
+7itv.com##*[style*="display"][style*="block"],*[style*="position"][style*="fixed"],*[style*="bottom:"],[class$="_b"]
 7mmtv.sx##[class^="root--"]
 99re.com##a[href][target="_blank"] > img[src]
 ://*.*27txt.com/*/*.js$~third-party
@@ -1378,6 +1379,7 @@ zle.com$script
 ||img.imimimi.top^
 ||img.jygdb.com^$script,third-party
 ||imgg.ksjuwqc.cn^
+||imgjs.gatherfind.com^$third-party
 ||immmg.owowqrf.cn^
 ||imprintmake.com^
 ||itrww.xyz^
