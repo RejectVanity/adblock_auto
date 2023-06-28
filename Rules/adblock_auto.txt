@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9//vvZfZfmuSkUfx32elEA
+! Checksum: lm9YWRa13PldYOdINGO69Q
 ! Title: 混合规则(自动更新)
-! Version: 20230628194422
+! Version: 20230628195812
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-28 19:44:22
-! Total Count: 111982
+! Last modified: 2023-06-28 19:58:12
+! Total Count: 111984
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -21067,6 +21067,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\/browser\/show\?i=[a-z0-9]{16}$/$important,popup
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
 /\/js\/(dola|baf|skrrt)\.js$/$script,domain=filemoon.*,important
+/\/js\/wap.*[0-9]{1}-jm-ms\.js\?ver=.*[0-9]$/$script,~third-party
 /\/local\_(p|ssu)\.js/$script,important
 /\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$popup,important
 /\/prebid[0-9.]{5,6}\.js/$redirect-rule=nooptext,xmlhttprequest
@@ -75154,6 +75155,7 @@ zzzyk.com###Tinfo
 ||halfwayoverreact.com^
 ||halibiuslicing.com^
 ||halidspilau.guru^
+||halihali*.com/js/wap2-jm-ms.js?$script
 ||halileo.com^
 ||hallalifondish.space^
 ||halldata.com^

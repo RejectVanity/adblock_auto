@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: iYbQtMuP2pUR4hmdEyMGnQ
+! Checksum: NpSGRjNhXoENt830f/k+3g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230628194427
+! Version: 20230628195817
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-28 19:44:27
-! Total Count: 19799
+! Last modified: 2023-06-28 19:58:17
+! Total Count: 19801
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2925,6 +2925,7 @@
 /\/assets?\/(jquery\/(jquery|slim)-\d\.\d\.(\d\.)?|angular\.)min\.js\?[a-zA-Z0-9=&_-]{10,19}$/$script,xmlhttprequest,match-case,~third-party
 /\/browser\/show\?i=[a-z0-9]{16}$/$important,popup
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
+/\/js\/wap.*[0-9]{1}-jm-ms\.js\?ver=.*[0-9]$/$script,~third-party
 /\/local\_(p|ssu)\.js/$script,important
 /\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$popup,important
 /\/prebid[0-9.]{5,6}\.js/$redirect-rule=nooptext,xmlhttprequest
@@ -11746,6 +11747,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||haiyunpush.com^
 ||haiyunx.com^$third-party
 ||haizirv.cn^
+||halihali*.com/js/wap2-jm-ms.js?$script
 ||handanxinkai.com^
 ||handerfix.com^
 ||handjob.tw/ad/
