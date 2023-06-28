@@ -47,6 +47,7 @@ cat << key > "${file}"
 ! Github Raw Link: https://lingeringsound.github.io/adblock_auto/Rules/${file##*/}
 key
 echo "${original_file}" >> "${file}"
+busybox sed -i 's/换行符正则表达式n/\\/g' "${file}"
 perl "`pwd`/addchecksum.pl" "${file}"
 }
 
@@ -54,14 +55,15 @@ perl "`pwd`/addchecksum.pl" "${file}"
 function modtify_adblock_original_file() {
 local file="${1}"
 if test "${2}" = "" ;then
-	local IFS=$'\n'
+	busybox sed -i 's/\\n/换行符正则表达式nn/g' "${file}"
 	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | sed 's|^[[:space:]]@@|@@|g;s|“|"|g;s|”|"|g' | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
-		echo "$new" > "${file}"
+	echo "$new" > "${file}"
 else
-	local IFS=$'\n'
+	busybox sed -i 's/\\n/换行符正则表达式nn/g' "${file}"
 	local new=`cat "${file}" | iconv -t 'utf8' | grep -Ev '^#\@\?#|^\$\@\$|^#\%#|^#\@\%#|^#\@\$\?#|^#\$\?#|^<<|<<1023<<' | grep -Ev "${2}" | sed 's|^[[:space:]]@@|@@|g;s|“|"|g;s|”|"|g' | sort | uniq | sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' `
-		echo "$new" > "${file}"
+	echo "$new" > "${file}"
 fi
+
 }
 
 function make_white_rules(){
@@ -174,6 +176,7 @@ local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
 local count_Rules_all=`cat "${target_file}" | grep '#'  | busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | busybox sed -E 's/.*\.[A-Za-z]{2,8}#{1,1}//g' | sort | uniq -d | wc -l`
 local a=0
+busybox sed -i 's/\\n/换行符正则表达式nn/g' "${target_file}"
 local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
 for target_content in `cat "${target_file}" | grep '#'  | busybox sed '/^#/d;/^!/d;/^\|\|/d;/^\//d' | busybox sed -E 's/.*\.[A-Za-z]{2,8}#{1,1}//g' | sort | uniq -d `
@@ -221,6 +224,7 @@ local target_file_tmp="`pwd`/${target_file##*/}.tmp"
 local target_output_file="`pwd`/${target_file##*/}.temple"
 local count_Rules_all=`cat "${target_file}" | sed 's|domain=.*||g' | sort | uniq -d | sed '/^[[:space:]]*$/d' | wc -l `
 local a=0
+busybox sed -i 's/\\n/换行符正则表达式nn/g' "${target_file}"
 local new_file=$(cat "${target_file}" | iconv -t 'utf-8' | sort -u | uniq | busybox sed '/^!/d;/^[[:space:]]*$/d;/^\[.*\]$/d' )
 echo "${new_file}" > "${target_file}"
 for target_content in `cat "${target_file}" | grep 'domain=' | sed 's|domain=.*||g' | sort | uniq -d | busybox sed '/^[[:space:]]*$/d' `
@@ -266,6 +270,7 @@ key
 fi
 done
 rm -rf "${target_file_tmp}" 2>/dev/null
+busybox sed -i 's/换行符正则表达式n/\\/g' "${target_file}"
 }
 
 #避免大量字符影响观看
@@ -286,6 +291,7 @@ local css_common_record="$(cat ${target_adblock_file} 2>/dev/null | sed '/^!/d;/
 sort_Css_Combine "${target_adblock_file}"
 #写入通用的Css
 echo "${css_common_record}" >> "${target_adblock_file}"
+busybox sed -i 's/换行符正则表达式n/\\/g' "${target_adblock_file}"
 }
 
 
