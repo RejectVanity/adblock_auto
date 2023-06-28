@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: m8zDm3/9eKxp+ErYDDYexA
+! Checksum: 2BU9zpYbViDAoJhB/EeZlw
 ! Title: 混合规则(自动更新)
-! Version: 20230628102731
+! Version: 20230628150607
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-28 10:27:31
-! Total Count: 111953
+! Last modified: 2023-06-28 15:06:07
+! Total Count: 111958
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17589,6 +17589,7 @@
 ##[data-ad-cls]
 ##[data-ad-manager-id]
 ##[data-ad-module]
+##[data-ad-name]
 ##[data-ad-width]
 ##[data-adblockkey]
 ##[data-adbridg-ad-class]
@@ -27984,6 +27985,7 @@ $websocket,domain=5nj.com|cechi8.com
 /zaz-admanager/*
 /zcool-analytics.js
 /zcredirect?
+/zcredirect?$popup
 /zcvisitor/*
 /zcvisitor/*$popup
 /zedo_
@@ -57759,6 +57761,7 @@ zzzyk.com###Tinfo
 ||ax.babe.today^
 ||ax.idg.se^
 ||ax.ifeng.com^
+||ax.mpcdn.top^
 ||ax.xrea.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|htcui.com|zzvips.com
@@ -72291,6 +72294,7 @@ zzzyk.com###Tinfo
 ||fovs.qkvipgloy.xyz^
 ||foxcdn.life^
 ||foxpush.com^
+||foxpush.io^
 ||foxpush.net^
 ||foxypp.com^
 ||fp-*it*.fengkongcloud.com^
@@ -89683,6 +89687,7 @@ zzzyk.com###Tinfo
 ||paht.tech^
 ||pahtag.tech^
 ||pahtef.tech^
+||pahtfi.tech^
 ||pahtgq.tech^
 ||pahthf.tech^
 ||pahtky.tech^
