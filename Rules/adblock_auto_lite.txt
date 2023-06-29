@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: vFvhq0splhwBU5UcmGIzKQ
+! Checksum: 6ZgLPqbRC13fLL12MEvf2A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230629161109
+! Version: 20230629234352
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-29 16:11:09
-! Total Count: 19818
+! Last modified: 2023-06-29 23:43:52
+! Total Count: 19823
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5643,6 +5643,7 @@ voflix.com##img[importance="low"][onclick*="window.open"][src][lazyload]
 vsadu.ru##.adb-block
 vsaduidoma.com##.ABD_display_wrapper
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##[href^="https://at.umtrack.com"]
+wandoujia.com##[class="infos download-rank"],[class^="brand-"],[class^="midbanner"],li[class="new-app"],[class*="relative"],[class="infos similar-app"]
 webofcomics.ru##.reklandvipinfo
 wen.baidu.com##.feed-recommend
 wenwen.sogou.com##.recommend-list
@@ -5881,6 +5882,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||0439.com/wtj/homepage/handler/guangg.ashx?ut=topslide
 ||0439.com/wtj/homepage/handler/guangg.ashx?ut=zhuangx
 ||045zxnm.com^
+||0460.com/images/ad/
 ||0460.com/images/banner/
 ||0460.com/js/txtrec.js
 ||046zxnm.com^
@@ -5907,6 +5909,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||0668gz.com/data/attachment/portal/
 ||06789.xyz^
 ||06fgej.com^
+||07073.com/api/getKfList?
+||07073.com/pc/js/right-ad.
 ||0722fc.com/index/index.php?/ajax/get_adv/
 ||0722fc.com/index/tools/js.php
 ||073img.com/*/|
@@ -13423,6 +13427,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kiees.cn/jm.png
 ||kiees.cn/k1.js
 ||kiees.com^$image,subdocument,third-party
+||kifyeldd.top^
 ||kikinote.net/iframe
 ||killcovid2021.com^*.mp4
 ||kingkongapp.com^*/web/adv/list?
