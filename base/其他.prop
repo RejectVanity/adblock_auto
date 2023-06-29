@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SPwnKSpBxaGsyYVPN8QlCg
+! Checksum: HGR2ckO8JT8wO0K6aBC1zw
 ! Title: 自用去广告Adblock规则
-! Version: 20230628195607
-! Last modified: 2023-06-28 19:56:07
-! Total Count: 1619
+! Version: 20230629231626
+! Last modified: 2023-06-29 23:16:26
+! Total Count: 1620
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1157,6 +1157,7 @@ view.inews.qq.com##[class*="downloader-"]
 view.inews.qq.com##[class^="style_floatingRight__"]
 voflix.com##[class*="module-adslist"]
 voflix.com##img[importance="low"][onclick*="window.open"][src][lazyload]
+wandoujia.com##[class="infos download-rank"],[class^="brand-"],[class^="midbanner"],li[class="new-app"],[class*="relative"],[class="infos similar-app"]
 wannianli8.com##.cesuankuang
 wannianli8.com##.csbox
 wen.baidu.com##.feed-recommend
