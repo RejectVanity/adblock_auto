@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: IDc99mqfnTZIxXJT2/potg
+! Checksum: lcFCakwv7evnjmwpVNxI2g
 ! Title: 混合规则(精简版)
-! Version: 20230628150334
+! Version: 20230630185025
 ! Expires: 1145141919810
-! Last modified: 2023-06-28 15:03:51
-! Total Count: 19414
+! Last modified: 2023-06-30 18:50:39
+! Total Count: 19437
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -2464,9 +2464,11 @@
 .club/ads/
 .club/adv/
 .club/appinstall.js$third-party,script
+.club/get?$third-party
 .club/gyxx_*_aubi.js$third-party
 .club/r/*$xmlhttprequest
 .club/ttdlyqbff/*/*.gif?$third-party,image
+.club/user?$third-party
 .club/xtub_*_rony.js$third-party
 .cn/*-*-*.xc$script,third-party
 .cn/*.html?c=dyyu$document
@@ -2538,6 +2540,7 @@
 .com/dm/dibu.js
 .com/dongcidaci/
 .com/ge/?s=$script,third-party
+.com/get?$third-party
 .com/gg.js
 .com/gg/*?x=$script,third-party
 .com/gyxx_*_aubi.js$third-party
@@ -2598,6 +2601,7 @@
 .com/topjs/
 .com/ttdlyqbff/*/*.gif?$third-party,image
 .com/uploads/*-860x250.gif
+.com/user?$third-party
 .com/vh1/$script,third-party
 .com/vh1/1$third-party
 .com/vh2/$script,third-party
@@ -2642,8 +2646,10 @@
 .cyou/*_*_u*js?$script,third-party
 .cyou/?token=*&screen_*=*&ref=$third-party
 .cyou/appinstall.js$third-party,script
+.cyou/get?$third-party
 .cyou/gyxx_*_aubi.js$third-party
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
+.cyou/user?$third-party
 .cyou/xtub_*_rony.js$third-party
 .eu/ads/
 .fun/*_*.js?*16$third-party
@@ -2651,8 +2657,10 @@
 .fun/?token=*&screen_*=*&ref=$third-party
 .fun/ad/
 .fun/appinstall.js$third-party,script
+.fun/get?$third-party
 .fun/gyxx_*_aubi.js$third-party
 .fun/ttdlyqbff/*/*.gif?$third-party,image
+.fun/user?$third-party
 .fun/xtub_*_rony.js$third-party
 .hk/ad2/
 .hk/ads/
@@ -2687,6 +2695,7 @@
 .live/?channelCode=$~third-party
 .live/?token=*&screen_*=*&ref=$third-party
 .live/appinstall.js$third-party,script
+.live/get?$third-party
 .live/gyxx_*_aubi.js$third-party
 .live/h.html?id=$document
 .live/h.html?id=$~third-party
@@ -2698,6 +2707,7 @@
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
+.live/user?$third-party
 .live/xtub_*_rony.js$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -2717,8 +2727,10 @@
 .mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
 .mobi/appinstall.js$third-party,script
+.mobi/get?$third-party
 .mobi/gyxx_*_aubi.js$third-party
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
+.mobi/user?$third-party
 .mobi/xtub_*_rony.js$third-party
 .net/20*/*/*.txt$third-party
 .net/ad-
@@ -2752,9 +2764,11 @@
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
 .shop/appinstall.js$third-party,script
+.shop/get?$third-party
 .shop/gyxx_*_aubi.js$third-party
 .shop/r/*$xmlhttprequest
 .shop/ttdlyqbff/*/*.gif?$third-party,image
+.shop/user?$third-party
 .shop/xling_*_*.js?
 .shop/xtub_*_rony.js$third-party
 .site:*/*/*.js
@@ -2768,6 +2782,7 @@
 .top/ad-
 .top/ads/
 .top/appinstall.js$third-party,script
+.top/get?$third-party
 .top/gyxx_*_aubi.js$third-party
 .top/h.html?id=$document
 .top/h.html?id=$~third-party
@@ -2775,6 +2790,7 @@
 .top/k/*$script,third-party
 .top/ttdlyqbff/*/*.gif?$third-party,image
 .top/upload/ad.js
+.top/user?$third-party
 .top/xling_*_*.js?
 .top/xtub_*_rony.js$third-party
 .top:*/waga*.html$document
@@ -2819,6 +2835,7 @@
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
+.xyz/get?$third-party
 .xyz/gyxx_*_aubi.js$third-party
 .xyz/h.html?id=$document
 .xyz/h.html?id=$~third-party
@@ -2836,6 +2853,7 @@
 .xyz/ty/*-*.alpha$third-party
 .xyz/ty/*-*.blpha$third-party
 .xyz/upload/ad/
+.xyz/user?$third-party
 .xyz/vd*.js?16$third-party
 .xyz/vendors?$third-party
 .xyz/vh1/$script,third-party
@@ -2906,6 +2924,7 @@
 /\/assets?\/(jquery\/(jquery|slim)-\d\.\d\.(\d\.)?|angular\.)min\.js\?[a-zA-Z0-9=&_-]{10,19}$/$script,xmlhttprequest,match-case,~third-party
 /\/browser\/show\?i=[a-z0-9]{16}$/$important,popup
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
+/\/js\/wap.*[0-9]{1}-jm-ms\.js\?ver=.*[0-9]$/$script,~third-party
 /\/local\_(p|ssu)\.js/$script,important
 /\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$popup,important
 /\/prebid[0-9.]{5,6}\.js/$redirect-rule=nooptext,xmlhttprequest
@@ -3029,6 +3048,7 @@
 /npc/sdk/wp-banners.js$script,third-party
 /npsblocker/js/ads.
 /page/?s=$third-party
+/pagead2.
 /pge/?s=$third-party
 /popup/adblocker
 /sdk/push_web/?zid=
@@ -5574,6 +5594,7 @@ voflix.com##img[importance="low"][onclick*="window.open"][src][lazyload]
 vsadu.ru##.adb-block
 vsaduidoma.com##.ABD_display_wrapper
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##[href^="https://at.umtrack.com"]
+wandoujia.com##[class="infos download-rank"],[class^="brand-"],[class^="midbanner"],li[class="new-app"],[class*="relative"],[class="infos similar-app"]
 webofcomics.ru##.reklandvipinfo
 wen.baidu.com##.feed-recommend
 wenwen.sogou.com##.recommend-list
@@ -10041,6 +10062,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||diggtp001.com^
 ||dikmnhyxz.xyz^
 ||dilidd.com^
+||dilidili*.com/js/wap2-jm-ms.js$script
 ||dingbu.bj.bcebos.com^
 ||dingdangsheji.com^*/%E5%9B%BE%E6%80%AA%E5%85%BD
 ||dingdangsheji.com^*/%E7%94%BB%E6%9D%BF-
@@ -11561,6 +11583,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||haiyunpush.com^
 ||haiyunx.com^$third-party
 ||haizirv.cn^
+||halihali*.com/js/wap2-jm-ms.js?$script
 ||handanxinkai.com^
 ||handerfix.com^
 ||handjob.tw/ad/

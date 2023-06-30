@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: oZoQA6i0OXEzGPFJTy5rug
+! Checksum: nrkCG0Dm/bCOevBe60L2kw
 ! Title: 混合规则
-! Version: 20230628145158
+! Version: 20230630184056
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-06-28 14:56:45
-! Total Count: 111917
+! Last modified: 2023-06-30 18:44:45
+! Total Count: 111940
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -19914,10 +19914,12 @@ $websocket,domain=5nj.com|cechi8.com
 .club/ads/
 .club/adv/
 .club/appinstall.js$third-party,script
+.club/get?$third-party
 .club/gyxx_*_aubi.js$third-party
 .club/js/popunder.js
 .club/r/*$xmlhttprequest
 .club/ttdlyqbff/*/*.gif?$third-party,image
+.club/user?$third-party
 .club/xtub_*_rony.js$third-party
 .club:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|tangsanshu.la
 .cn/*-*-*.xc$script,third-party
@@ -20047,6 +20049,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/exad/
 .com/gads/
 .com/ge/?s=$script,third-party
+.com/get?$third-party
 .com/gg.js
 .com/gg/*?x=$script,third-party
 .com/gyxx_*_aubi.js$third-party
@@ -20127,6 +20130,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/topjs/
 .com/ttdlyqbff/*/*.gif?$third-party,image
 .com/uploads/*-860x250.gif
+.com/user?$third-party
 .com/vh1/$script,third-party
 .com/vh1/1$third-party
 .com/vh2/$script,third-party
@@ -20174,8 +20178,10 @@ $websocket,domain=5nj.com|cechi8.com
 .cyou/*_*_u*js?$script,third-party
 .cyou/?token=*&screen_*=*&ref=$third-party
 .cyou/appinstall.js$third-party,script
+.cyou/get?$third-party
 .cyou/gyxx_*_aubi.js$third-party
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
+.cyou/user?$third-party
 .cyou/xtub_*_rony.js$third-party
 .cyou:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|tangsanshu.la
 .cz/adv/
@@ -20201,9 +20207,11 @@ $websocket,domain=5nj.com|cechi8.com
 .fun/?token=*&screen_*=*&ref=$third-party
 .fun/ad/
 .fun/appinstall.js$third-party,script
+.fun/get?$third-party
 .fun/gyxx_*_aubi.js$third-party
 .fun/scripts/my_33.js
 .fun/ttdlyqbff/*/*.gif?$third-party,image
+.fun/user?$third-party
 .fun/xtub_*_rony.js$third-party
 .fun:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|tangsanshu.la
 .fuse-cloud.com/
@@ -20281,6 +20289,7 @@ $websocket,domain=5nj.com|cechi8.com
 .live/?channelCode=$~third-party
 .live/?token=*&screen_*=*&ref=$third-party
 .live/appinstall.js$third-party,script
+.live/get?$third-party
 .live/gyxx_*_aubi.js$third-party
 .live/h.html?id=$document
 .live/h.html?id=$~third-party
@@ -20293,6 +20302,7 @@ $websocket,domain=5nj.com|cechi8.com
 .live/ttdlyqbff/*/*.gif?$third-party,image
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
+.live/user?$third-party
 .live/xtub_*_rony.js$third-party
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|tangsanshu.la
 .live:*/waga*.html$document
@@ -20322,8 +20332,10 @@ $websocket,domain=5nj.com|cechi8.com
 .mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
 .mobi/appinstall.js$third-party,script
+.mobi/get?$third-party
 .mobi/gyxx_*_aubi.js$third-party
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
+.mobi/user?$third-party
 .mobi/xtub_*_rony.js$third-party
 .mobi:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|tangsanshu.la
 .mobileads.
@@ -20445,9 +20457,11 @@ $websocket,domain=5nj.com|cechi8.com
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
 .shop/appinstall.js$third-party,script
+.shop/get?$third-party
 .shop/gyxx_*_aubi.js$third-party
 .shop/r/*$xmlhttprequest
 .shop/ttdlyqbff/*/*.gif?$third-party,image
+.shop/user?$third-party
 .shop/xling_*_*.js?
 .shop/xtub_*_rony.js$third-party
 .shop:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|tangsanshu.la
@@ -20472,6 +20486,7 @@ $websocket,domain=5nj.com|cechi8.com
 .top/ad-
 .top/ads/
 .top/appinstall.js$third-party,script
+.top/get?$third-party
 .top/gyxx_*_aubi.js$third-party
 .top/h.html?id=$document
 .top/h.html?id=$~third-party
@@ -20480,6 +20495,7 @@ $websocket,domain=5nj.com|cechi8.com
 .top/s.php?id=$script,third-party
 .top/ttdlyqbff/*/*.gif?$third-party,image
 .top/upload/ad.js
+.top/user?$third-party
 .top/xling_*_*.js?
 .top/xtub_*_rony.js$third-party
 .top:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|heshang123.com|ledlmw.com|lengmenbook.com|mobidushu.com|myhaitang.net|peakread.com|tangsanshu.info|toosadfun.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|tangsanshu.la
@@ -20557,6 +20573,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
+.xyz/get?$third-party
 .xyz/gyxx_*_aubi.js$third-party
 .xyz/h.html?id=$document
 .xyz/h.html?id=$~third-party
@@ -20574,6 +20591,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/ty/*-*.alpha$third-party
 .xyz/ty/*-*.blpha$third-party
 .xyz/upload/ad/
+.xyz/user?$third-party
 .xyz/vd*.js?16$third-party
 .xyz/vendors?$third-party
 .xyz/vh1/$script,third-party
@@ -21066,6 +21084,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\/browser\/show\?i=[a-z0-9]{16}$/$important,popup
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
 /\/js\/(dola|baf|skrrt)\.js$/$script,domain=filemoon.*,important
+/\/js\/wap.*[0-9]{1}-jm-ms\.js\?ver=.*[0-9]$/$script,~third-party
 /\/local\_(p|ssu)\.js/$script,important
 /\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$popup,important
 /\/prebid[0-9.]{5,6}\.js/$redirect-rule=nooptext,xmlhttprequest
@@ -26359,6 +26378,7 @@ $websocket,domain=5nj.com|cechi8.com
 /pagead/html/*
 /pagead/lvz?
 /pagead/osd.
+/pagead2.
 /pagead46.
 /pagead?
 /pageadimg/*
@@ -46506,6 +46526,7 @@ walterfootball.com###top_S
 walterfootball.com###wf_brow_box
 wanderlustcrew.com###fpub-popup
 wandhi.com##a[style="display: inline-block;position: relative"]
+wandoujia.com##[class="infos download-rank"],[class^="brand-"],[class^="midbanner"],li[class="new-app"],[class*="relative"],[class="infos similar-app"]
 wangfz.com##div[class^="my-ad-"]
 wanghualang.com###cx_tag_cloud-2 ~ aside[id^="php_text-"]
 wangqianfang.cn##a[href^="http://mai.qnfuli.com/"]
@@ -67460,6 +67481,7 @@ zzzyk.com###Tinfo
 ||dilatesdubbers.com^
 ||dilemmatryingless.com^
 ||dilidd.com^
+||dilidili*.com/js/wap2-jm-ms.js$script
 ||dilidili.wang/uploads/allimg/171227/1_1520203421.png
 ||dilliskunhome.com^
 ||dillsloppy.com^
@@ -75120,6 +75142,7 @@ zzzyk.com###Tinfo
 ||halfwayoverreact.com^
 ||halibiuslicing.com^
 ||halidspilau.guru^
+||halihali*.com/js/wap2-jm-ms.js?$script
 ||halileo.com^
 ||hallalifondish.space^
 ||halldata.com^
