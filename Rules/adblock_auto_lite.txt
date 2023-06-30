@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: OqCzYR4H3Y5A6sJyKgmnMw
+! Checksum: jIrFmxnJ2LzQ33cp6kiZew
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230630084031
+! Version: 20230630160929
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-06-30 08:40:31
-! Total Count: 19830
+! Last modified: 2023-06-30 16:09:29
+! Total Count: 19835
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -704,6 +704,7 @@
 ##.adpc > .module
 ##.adpc > .promote-link
 ##.adpc > .promote-link-
+##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
 ##.ads-2
@@ -5933,6 +5934,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||0hlc8.top^
 ||0i0i0i0.com^$third-party,important
 ||0kkbb.com/js/i.js
+||0krdn3.com^
 ||0l9x.cn^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0p7w.cn^
@@ -15566,6 +15568,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pliaoboer.top^
 ||plkmd.com^
 ||plnshao.xyz^
+||plof69.com^
 ||pluckypocket.com^$third-party
 ||plugin.mediavoice.com^$third-party
 ||plugin.mobopay.baidu.com^
@@ -18000,6 +18003,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||uxxux.com/js/zd.js
 ||uygckiy.cn^
 ||uyjhbawd.xyz^
+||uym11.xyz^
 ||uysdxmo.com^
 ||uyt79.top^
 ||uyueread.com^
@@ -19788,6 +19792,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zuowen.hydcd.com^
 ||zuqiuju.com^
 ||zuysfr.com^
+||zvdc9y.icu^
 ||zvfaxh.xyz^
 ||zvxwvny.cn^
 ||zw2b9.cn^
