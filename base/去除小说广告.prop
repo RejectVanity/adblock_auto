@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KyhhxJCPilTpd3g+JMeu8A
+! Checksum: jkdXYiqfoppnfgM/D09umg
 ! Title: 去除小说广告
-! Version: 20230618205826
-! Last modified: 2023-06-18 20:58:26
-! Total Count: 1535
+! Version: 20230630184045
+! Last modified: 2023-06-30 18:40:45
+! Total Count: 1553
 ###ChapterView > .slide-baidu
 ##.ReadAd
 ##.ReadAd2
@@ -28,59 +28,77 @@
 .club/*_*.js?*16$third-party
 .club/?token=*&screen_*=*&ref=$third-party
 .club/appinstall.js$third-party,script
+.club/get?$third-party
 .club/gyxx_*_aubi.js$third-party
 .club/ttdlyqbff/*/*.gif?$third-party,image
+.club/user?$third-party
 .club/xtub_*_rony.js$third-party
 .com/*_*.js?*16$third-party
 .com/?token=*&screen_*=*&ref=$third-party
 .com/appinstall.js$third-party,script
 .com/ge/?s=$script,third-party
+.com/get?$third-party
 .com/gg/*?x=$script,third-party
 .com/gyxx_*_aubi.js$third-party
 .com/inc/?s=$third-party
 .com/ttdlyqbff/*/*.gif?$third-party,image
+.com/user?$third-party
 .com/xtub_*_rony.js$third-party
 .cyou/*_*.js?*16$third-party
 .cyou/?token=*&screen_*=*&ref=$third-party
 .cyou/appinstall.js$third-party,script
+.cyou/get?$third-party
 .cyou/gyxx_*_aubi.js$third-party
 .cyou/ttdlyqbff/*/*.gif?$third-party,image
+.cyou/user?$third-party
 .cyou/xtub_*_rony.js$third-party
 .fun/*_*.js?*16$third-party
 .fun/?token=*&screen_*=*&ref=$third-party
 .fun/appinstall.js$third-party,script
+.fun/get?$third-party
 .fun/gyxx_*_aubi.js$third-party
 .fun/ttdlyqbff/*/*.gif?$third-party,image
+.fun/user?$third-party
 .fun/xtub_*_rony.js$third-party
 .live/*_*.js?*16$third-party
 .live/?token=*&screen_*=*&ref=$third-party
 .live/appinstall.js$third-party,script
+.live/get?$third-party
 .live/gyxx_*_aubi.js$third-party
 .live/ttdlyqbff/*/*.gif?$third-party,image
+.live/user?$third-party
 .live/xtub_*_rony.js$third-party
 .mobi/*_*.js?*16$third-party
 .mobi/?token=*&screen_*=*&ref=$third-party
 .mobi/appinstall.js$third-party,script
+.mobi/get?$third-party
 .mobi/gyxx_*_aubi.js$third-party
 .mobi/ttdlyqbff/*/*.gif?$third-party,image
+.mobi/user?$third-party
 .mobi/xtub_*_rony.js$third-party
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
 .shop/appinstall.js$third-party,script
+.shop/get?$third-party
 .shop/gyxx_*_aubi.js$third-party
 .shop/ttdlyqbff/*/*.gif?$third-party,image
+.shop/user?$third-party
 .shop/xtub_*_rony.js$third-party
 .top/*_*.js?*16$third-party
 .top/?token=*&screen_*=*&ref=$third-party
 .top/appinstall.js$third-party,script
+.top/get?$third-party
 .top/gyxx_*_aubi.js$third-party
 .top/ttdlyqbff/*/*.gif?$third-party,image
+.top/user?$third-party
 .top/xtub_*_rony.js$third-party
 .xyz/*_*.js?*16$third-party
 .xyz/?token=*&screen_*=*&ref=$third-party
 .xyz/appinstall.js$third-party,script
+.xyz/get?$third-party
 .xyz/gyxx_*_aubi.js$third-party
 .xyz/ttdlyqbff/*/*.gif?$third-party,image
+.xyz/user?$third-party
 .xyz/vd*.js?16$third-party
 .xyz/xtub_*_rony.js$third-party
 /*_*_/bigREDdog.$third-party
