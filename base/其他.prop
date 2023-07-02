@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EUItvt+eajWZ27Re5wBoHg
+! Checksum: 4sbEEBXAryzzXwXn4LUAfw
 ! Title: 自用去广告Adblock规则
-! Version: 20230701213832
-! Last modified: 2023-07-01 21:38:32
-! Total Count: 1621
+! Version: 20230702074216
+! Last modified: 2023-07-02 07:42:16
+! Total Count: 1666
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -114,8 +114,19 @@
 ##[class^="vertical_mobile_ad"]
 ##[class^="videoad"]
 ##[class^="xqad"]
+##[data-d-ad-id]
+##[data-desktop-ad-id]
+##[data-dynamic-ads]
+##[data-freestar-ad]
 ##[data-group^="ad_chapter_top"]
+##[data-id^="div-gpt-ad"]
+##[data-m-ad-id]
+##[data-mobile-ad-id]
+##[data-name="adaptiveConstructorAd"]
+##[data-rc-widget]
 ##[data-revive-zoneid]
+##[data-role="tile-ads-module"]
+##[data-template-type="nativead"]
 ##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
@@ -129,14 +140,22 @@
 ##[id*="theAd_slider"]
 ##[id] > .wrap > .clearfix.mod
 ##[id^="ad-index"]
+##[id^="ad-wrap-"]
 ##[id^="adDisabledBtn"][onclick][href]
+##[id^="ad_sky"]
+##[id^="ad_slider"]
 ##[id^="appss"][style]
 ##[id^="bfad"]
+##[id^="div-gpt-ad"]
+##[id^="google_ads_iframe"]
 ##[id^="mhbottom_ad"]
 ##[id^="player-advertising"]
+##[id^="section-ad-banner"]
 ##[id^="syad"]
 ##[id^="xqad"]
+##[name^="google_ads_iframe"]
 ##[onclick*="app"]
+##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
 ##[onclick^="playAd"]
@@ -212,6 +231,7 @@
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
 ##a[href][title*="sponsor"][target="_blank"] > img[src$=".gif"]
 ##a[href][title*="sponsor"][target="_blank"] > img[src$=".png"]
+##a[href^="http://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="http://intent.bingads.com/"]
 ##a[href^="http://s.73xx.icu/xgmn"]
 ##a[href^="http://www.lovetoytw.com/"][onclick]
@@ -238,7 +258,10 @@
 ##bkveng
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##center[style="display: none;"] > span[style][onclick]
+##citrus-ad-wrapper
 ##dd > a[data-uuid]
+##display-ad-component
+##display-ads
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div.ad-nav-box
@@ -279,6 +302,7 @@
 ##div[class^="img"][title*="澳门威尼斯人"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
 ##div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"]
+##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="shortcuts-"][class$="-overlay"]
@@ -302,6 +326,7 @@
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##embed[src^="https:////"]
 ##iframe[src*="//a.adtng.com"]
+##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//go.goaserv.com"]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ads."]
@@ -386,6 +411,22 @@
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 &adZones$xmlhttprequest
+-advertise/
+-advertisement_
+-advertising/assets/
+-advertising/vast/
+-advertisment-
+-side-ad-
+-side-ad.
+-sidebar-ad.
+-simple-ads.
+-sponsor-ad.
+-sprite-ad.
+-sticky-ad-
+-strip-ads-
+-takeover-ad-
+-template-ads/
+-text-ads.
 .cc/?channelCode=$~third-party
 .cc/api/getPos?jspath=/$~third-party
 .club/r/*$xmlhttprequest
@@ -496,6 +537,9 @@
 /^https?:\/\/.*\/[a-z]{4,}\/[a-z]{4,}\.js/$script,~third-party,domain=bdsmx.tube|bigdick.tube|desiporn.tube|hclips.com|hdzog.com|hdzog.tube|hotmovs.com|inporn.com|porn555.com|pornzog.com|shemalez.com|tporn.xxx|tubepornclassic.com|txxx.com|upornia.com|vjav.com|vxxx.com|youteenporn.net
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
 /_xa/ads_
+/ad-audit.
+/ad-blocking-advisor/*
+/ad-blocking-alert/*
 /ad-tetris-site/file
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
 /adBanner?
@@ -617,6 +661,7 @@
 ://ln.*.cyou$third-party
 ://ln.*.fun$third-party
 ://ln.*.mobi$third-party
+://m.91zww.com/0x*/0x*.js?v=$~third-party
 ://mobivx.*.cam$third-party
 ://mobivx.*.club$third-party
 ://mobivx.*.cyou$third-party
@@ -1241,7 +1286,6 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
-yhdm*.com/js/wap2-jm-ms.js$~third-party,script
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com##[style*="bottom:"]
@@ -1378,6 +1422,7 @@ zle.com$script
 ||ffmehcg.cn^$third-party
 ||fg.knlk2md.cn^$third-party
 ||fourier.alibaba.com^
+||ftiodfqk.com^$third-party
 ||g.aidinghz.com^
 ||g.shommaipl.com^$third-party
 ||ga-ads.com^
