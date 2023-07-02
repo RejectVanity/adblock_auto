@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: bdnccEEkNvJ/hi7I1LmzNQ
+! Checksum: 3uUl5l3ghy3+FyFFSQjH2g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230702000730
+! Version: 20230702081006
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-02 00:07:30
-! Total Count: 19868
+! Last modified: 2023-07-02 08:10:06
+! Total Count: 19907
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1305,8 +1305,19 @@
 ##[class^="vertical_mobile_ad"]
 ##[class^="videoad"]
 ##[class^="xqad"]
+##[data-d-ad-id]
+##[data-desktop-ad-id]
+##[data-dynamic-ads]
+##[data-freestar-ad]
 ##[data-group^="ad_chapter_top"]
+##[data-id^="div-gpt-ad"]
+##[data-m-ad-id]
+##[data-mobile-ad-id]
+##[data-name="adaptiveConstructorAd"]
+##[data-rc-widget]
 ##[data-revive-zoneid]
+##[data-role="tile-ads-module"]
+##[data-template-type="nativead"]
 ##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
@@ -1320,14 +1331,22 @@
 ##[id*="theAd_slider"]
 ##[id] > .wrap > .clearfix.mod
 ##[id^="ad-index"]
+##[id^="ad-wrap-"]
 ##[id^="adDisabledBtn"][onclick][href]
+##[id^="ad_sky"]
+##[id^="ad_slider"]
 ##[id^="appss"][style]
 ##[id^="bfad"]
+##[id^="div-gpt-ad"]
+##[id^="google_ads_iframe"]
 ##[id^="mhbottom_ad"]
 ##[id^="player-advertising"]
+##[id^="section-ad-banner"]
 ##[id^="syad"]
 ##[id^="xqad"]
+##[name^="google_ads_iframe"]
 ##[onclick*="app"]
+##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
 ##[onclick^="playAd"]
@@ -1746,6 +1765,7 @@
 ##a[href^="http://ad.moemoe."]
 ##a[href^="http://affiliate.godaddy.com/"]
 ##a[href^="http://go.gotourl.xyz/"]
+##a[href^="http://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="http://intent.bingads.com/"]
 ##a[href^="http://s.73xx.icu/xgmn"]
 ##a[href^="http://www.lovetoytw.com/"][onclick]
@@ -1820,7 +1840,10 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##center[style="display: none;"] > span[style][onclick]
+##citrus-ad-wrapper
 ##dd > a[data-uuid]
+##display-ad-component
+##display-ads
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div#ad_id
@@ -1869,6 +1892,7 @@
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
 ##div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"]
+##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
 ##div[class^="popup-t"][style^="display:"]
 ##div[class^="ps_"][value="20"]
@@ -1941,6 +1965,7 @@
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*="//a.adtng.com"]
+##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//go.goaserv.com"]
 ##iframe[src*="//syndication.exosrv.com/"]
 ##iframe[src="/ad.html"]
@@ -2430,7 +2455,23 @@
 -90mh-gg.
 -adblock-notice-
 -adblock-notice/*
+-advertise/
+-advertisement_
+-advertising/assets/
+-advertising/vast/
+-advertisment-
 -bobo_recommend_
+-side-ad-
+-side-ad.
+-sidebar-ad.
+-simple-ads.
+-sponsor-ad.
+-sprite-ad.
+-sticky-ad-
+-strip-ads-
+-takeover-ad-
+-template-ads/
+-text-ads.
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .189.gd^*.html?p=$popup,third-party
@@ -2987,7 +3028,9 @@
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
 /_xa/ads_
 /abb-msg.js
+/ad-audit.
 /ad-blocking-advisor/*
+/ad-blocking-alert/*
 /ad-tetris-site/file
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
 /adBanner?
@@ -3362,6 +3405,7 @@
 ://m.81zw.so/*/*.js
 ://m.81zw.tw/*/*.js
 ://m.81zw.us/*/*.js
+://m.91zww.com/0x*/0x*.js?v=$~third-party
 ://m.biqu*.cc/*/*.js
 ://m.biqu*.cn/*/*.js
 ://m.biqu*.co/*/*.js
@@ -5746,7 +5790,6 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
 yarik-sat.com##.noadb
-yhdm*.com/js/wap2-jm-ms.js$~third-party,script
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com##[style*="bottom:"]
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me##.fa-close
@@ -5897,9 +5940,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||0351dvd.cn^$third-party
 ||035caop.com^
 ||0439.com/javascript.php?part=advertisement&
-||0439.com/wtj/homepage/handler/guangg.ashx?ut=classify
-||0439.com/wtj/homepage/handler/guangg.ashx?ut=topslide
-||0439.com/wtj/homepage/handler/guangg.ashx?ut=zhuangx
 ||045zxnm.com^
 ||0460.com/images/ad/
 ||0460.com/images/banner/
@@ -5925,7 +5965,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||0606kk.com/js/index/index.js
 ||064ioio.com^
 ||065yuyu.com^
-||0668gz.com/data/attachment/portal/
 ||06789.xyz^
 ||06fgej.com^
 ||07073.com/api/getKfList?
@@ -5933,12 +5972,9 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||0722fc.com/index/index.php?/ajax/get_adv/
 ||0722fc.com/index/tools/js.php
 ||073img.com/*/|
-||073img.com^$subdocument
 ||0755rc.com^$third-party
-||0758net.com/data/attachment/portal/
 ||076lvo.xyz^
 ||0776.red^
-||07908.com/images/
 ||0798ls.com^
 ||07xm.fun^
 ||08088.top^
@@ -6114,7 +6150,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||122.228.200.55:8082/blr.gif
 ||123-bt.cn/Public/static/images/*-
 ||123.sogou.com/discover/?
-||12333sbt.com/inc/
 ||123456.asia^
 ||123hala.com^
 ||1258999.com^
@@ -7857,7 +7892,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||adzerk.net^
 ||adzmobi.com^
 ||adzp.cn^
-||ae-ap.com/template/web/images/
 ||aeg32y.top^
 ||aeletheacd.com^
 ||aengbalz.fun^
@@ -8269,7 +8303,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||apic.91bixin.net/api/thirdadv/
 ||apic.in/mmd.gif
 ||apiimg.com/huaer/xiahe.
-||apiimg.com^$badfilter
 ||apis.appnxt.net^
 ||apjiangte.com^
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
@@ -10200,6 +10233,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dgvkrt.xyz^
 ||dharkyu.cn^
 ||dhaxhsa325.com^
+||dheear.site^
 ||dherea.site^
 ||dhl.135320.com^
 ||dhl4.xyz^
@@ -10329,6 +10363,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dms.fx678.com^
 ||dms.vancss.com^
 ||dms.xuexxing.com^
+||dmxfdp.xyz^
 ||dmym.aixyy.com^
 ||dmzj.com/js/ad/
 ||dmzj.com/js/m_BtmApp.js
@@ -10410,6 +10445,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||downyi.com/tg/
 ||dpaic.xyz^
 ||dpic.wxddid.cn^$third-party
+||dpijohb.icu^
 ||dpjszs.com^
 ||dpqtdkf.cn^
 ||dpxynh.xyz^
@@ -11147,6 +11183,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ftfnewu.cn^
 ||fthqzxq.cn^
 ||ftimg.net/s?z=
+||ftiodfqk.com^
+||ftiodfqk.com^$third-party
 ||ftnthzv.cn^
 ||ftptjj.xyz^
 ||ftrtnr.xyz^
@@ -11967,6 +12005,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hffxc.com^
 ||hfhytx.xyz^
 ||hfjsbf.xyz^
+||hfk7j.top^
 ||hflssy.com^
 ||hfwzbp.cn^
 ||hggtt.top^
@@ -17287,7 +17326,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||t5wm.cc^
 ||t7z.cupid.iqiyi.com^
 ||t984kfjt37kjdh.wdach.com^$domain=pianba.net
-||tacool.com^$badfilter
 ||tad.suning.com^
 ||taidi.info^
 ||taiheian.top^
@@ -19175,6 +19213,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ygqrki.xyz^
 ||ygshu.com/js/h
 ||ygwdai.cn^
+||ygxgk.cn^
 ||yh20230625tu.com^
 ||yhbdrnr.cn^
 ||yhdd1.com^$third-party
