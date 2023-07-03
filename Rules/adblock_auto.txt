@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TDloxzdTQmxtWslJRUE9ng
+! Checksum: EhYhvbYXAZ6KxK2P93Zjmg
 ! Title: 混合规则(自动更新)
-! Version: 20230703204130
+! Version: 20230704000827
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-03 20:41:30
-! Total Count: 112253
+! Last modified: 2023-07-04 00:08:27
+! Total Count: 112264
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -10774,6 +10774,7 @@
 ##.am-bazaar-ad
 ##.amAdvert
 ##.am_ads
+##.amazon-auto-links
 ##.amazon_ad
 ##.amazonads
 ##.amis-advert
@@ -18181,6 +18182,7 @@
 ##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
+##a[href="/ht.html"]
 ##a[href="/lht.html"]
 ##a[href="/static/xzgg/index.html"]
 ##a[href="/vod/detail/id/118265.html"]
@@ -27851,6 +27853,7 @@ $websocket,domain=5nj.com|cechi8.com
 /wp-content/mbp-banner/*
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/adunblocker/*
+/wp-content/plugins/amazon-auto-links/*
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
 /wp-content/plugins/anti-block/*
 /wp-content/plugins/anti_ad_blocker/*
@@ -29350,7 +29353,7 @@ $websocket,domain=5nj.com|cechi8.com
 85tube.com##.player + .sponsor
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
 8684.cn,8684.com##div[id*="adid"]
-8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com,yxdmlove.com##div[class^="adv"]
+8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com,yxdmgo.com,yxdmlove.com##div[class^="adv"]
 86cg.me##[style^="width: 100%; height: auto; position: fixed; left: 0px; bottom: 0px;"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
@@ -34403,6 +34406,7 @@ bernama.com##a[class^="banner_photo_"]
 besplatka.ua##.adBl
 best-faucets.com,transfermarkt.co.uk,transfermarkt.com##.werbung
 bestbuy.ca##.pencilAd_EE9DV
+bestbuy.com##li.embedded-sponsored-listing
 bestbuy.com#?#[id^="atwb-ninja-carousel"]
 bestcclm.com##.wp.cl > a
 bestfriendsclub.ca###theme-bottom-section > .section-content
@@ -46080,6 +46084,7 @@ tvtropes.org##.atf_banner
 tvtv.us##.MuiPaper-root.jss12
 tvtv.us##div[style^="z-index: 1100; position: fixed;"]
 tvyb02.com##script + div[style="text-align:center;"]
+tvyb03.com##div[style^="position:fixed;"]
 tvzoneuk.com##.R38Z80
 tvzoneuk.com##._2JOHk
 tvzoneuk.com##[data-hook="HtmlComponent"]
@@ -66813,6 +66818,7 @@ zzzyk.com###Tinfo
 ||dd112233dd.com^
 ||dd6364.com/js/777/
 ||dd6zx4ibq538k.cloudfront.net^
+||dd778899dd.com^
 ||dd8af8726c.com^
 ||ddaqwhdlhor.com^
 ||ddcawywdbdjj.xyz^
@@ -67419,6 +67425,7 @@ zzzyk.com###Tinfo
 ||dherea.site^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhhpm.cn^
+||dhkipdsc.xyz^
 ||dhl.135320.com^
 ||dhl4.xyz^
 ||dhlmy.com^
@@ -68225,6 +68232,7 @@ zzzyk.com###Tinfo
 ||dompeterapp.com^
 ||domslc.com^
 ||domyroundel.guru^
+||donchen501.cn^
 ||donecooler.com^
 ||donecperficiam.net^
 ||doneeinvict.com^
@@ -96087,6 +96095,7 @@ zzzyk.com###Tinfo
 ||ruptionverst.space^
 ||ruralrobin.com^
 ||rurate.com^
+||rurber.com^
 ||rurbie.com^
 ||ruscams.com
 ||ruschopi.ru^
@@ -105645,6 +105654,7 @@ zzzyk.com###Tinfo
 ||untrk.xyz^
 ||untrol.com^
 ||untropiuson.com^
+||untroy.com^
 ||untruewring.com^
 ||unturfamini.store^
 ||untusthemailha.com.ua^
@@ -109151,6 +109161,7 @@ zzzyk.com###Tinfo
 ||wuxiann.top^
 ||wuxibus.com/Image/title
 ||wuxie419.xyz^
+||wuye3d.com^
 ||wuygmdi.cn^
 ||wuyicom.top^
 ||wuyulou.com^*.php
