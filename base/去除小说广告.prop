@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jkdXYiqfoppnfgM/D09umg
+! Checksum: RkNvuFfuLogq2HlkKlJiAw
 ! Title: 去除小说广告
-! Version: 20230630184045
-! Last modified: 2023-06-30 18:40:45
-! Total Count: 1553
+! Version: 20230705025352
+! Last modified: 2023-07-05 02:53:52
+! Total Count: 1555
 ###ChapterView > .slide-baidu
 ##.ReadAd
 ##.ReadAd2
@@ -95,6 +95,7 @@
 .xyz/*_*.js?*16$third-party
 .xyz/?token=*&screen_*=*&ref=$third-party
 .xyz/appinstall.js$third-party,script
+.xyz/chrdaf_*_*.js?$third-party
 .xyz/get?$third-party
 .xyz/gyxx_*_aubi.js$third-party
 .xyz/ttdlyqbff/*/*.gif?$third-party,image
@@ -1555,5 +1556,6 @@
 @@.us/xxgg/yuedu.js$~third-party
 ||51.la^$third-party
 ||6v6.work^$third-party
+||feiln.xyz^$third-party
 ||s.ssl.qhres2.com/ssl/$third-party
 ||yichengjiajupt.com^$third-party
