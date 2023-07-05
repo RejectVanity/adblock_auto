@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Hthn+Er3brruPP0x2GamfA
+! Checksum: 8cc6J4/3KTWaQJ/SR8Wiig
 ! Title: 混合规则(自动更新)
-! Version: 20230705031035
+! Version: 20230705084124
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-05 03:10:35
-! Total Count: 112367
+! Last modified: 2023-07-05 08:41:24
+! Total Count: 112386
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17535,6 +17535,7 @@
 ##ADS-RIGHT
 ##AMP-AD
 ##A[href*=".com/?Agent="]
+##A[href*="kdocs.cn"] > IMG[src*=".ax1x.com/"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
@@ -31620,6 +31621,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||bdstatic.com^$domain=17k.com|bxwx888.org
 @@||beanfun.com/ADClient/
 @@||beyondsoft.com/dataservice/img/ad_
+@@||bili96.co^$image
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bitauto.com/bglogpostlog.js
@@ -32254,6 +32256,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ttkdex.com^*ad$~third-party
 @@||tui.click/js/ads.js
 @@||tui.click^$generichide
+@@||tv.bili96.co^
 @@||tvb.com/social/share_
 @@||tvb.com^*/videojs.ads.
 @@||tyue.me^$image
@@ -33346,6 +33349,7 @@ alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.ne
 alastonsuomi.com##.jb
 albertsons.com##.abs-carousel-proxy > [aria-label="Promo or Ad Banner"]
 albertsons.com#?#.master-product-carousel:-abp-has([data-carousel-driven="sponsored-products"])
+albertsons.com,jewelosco.com#?#div.product-card-col:-abp-has(div[data-qa="prd-itm-spnsrd"])
 albertsons.com,jewelosco.com#?#product-item-v2[class$="product-card-col"]:-abp-has(div[data-qa="prd-itm-spnsrd"])
 alchetron.com###alchetronFreeStarVideoAdContainer
 alensat.org,forummikrotik.ru###phpbb-ads-ab
@@ -33752,6 +33756,7 @@ as.com##.slider-producto
 as.com,desdelinux.net,tutiempo.net,ubunlog.com##.publi
 as.com,gokunming.com##.prom
 ascii.jp#@#.adrect
+asda.com#?#.co-item:-abp-has(.co-item__sponsored-label)
 asiangaysex.net,blphoto.net,gaysex.tv,klmanga.com,klmanga.net,shareae.com##.float-ck
 asianjournal.com###fancybox-overlay
 asianjournal.com###fancybox-wrap
@@ -35112,6 +35117,7 @@ carousell.com#@#.fb-b
 carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:has(a[aria-label^="licksang"]) { remove: true }
 carpeludum.com##.widget_widget_catchevolution_adwidget
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
+cars.com##[id$="-sponsored"]
 cars.mitula.ae#@#.adsList
 carsales.com.au,technobuffalo.com##.page-header
 carscoops.com##.in-asd-content
@@ -35872,6 +35878,7 @@ corona.help##.adlg
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(>h4.block-title>span:-abp-contains(Visit Our Sponsors))
 cosmopolitan.com##.product-buy-button-wrapper
+costco.ca##[data-bi-placement="Criteo_Product_Display_Page_Espot"]
 cosxcos.cc##div[class*="yy"]
 cotton.pink,inmywordz.com,pixnet.net,sharonlife.tw##.adsbyfalcon
 coub.com##.timeline-banner
@@ -36079,6 +36086,8 @@ cupfox.app,dailycoffeenews.com,zuoyesou.com##.banner-box
 cupfox.app,hcomic.net##.swiper
 curbed.com##[data-concert="prelude"]
 curioustic.com##.grey
+currys.co.uk##.cretio-sponsored-product
+currys.co.uk##.criteoproducts-section
 curseforge.com###cdm-zone-03
 cutegurlz.com,maketecheasier.com##.header-widget
 cutepdf-editor.com#@#.adtable
@@ -37223,6 +37232,8 @@ esu.moe,esu.wiki##div[style*="position: relative; max-height: 400px;"]
 eteknix.com###wrapper > header
 etest8.com###gads1
 etest8.com##.subtop2right
+etherealgames.com###widgets-wrap-after-content
+etherealgames.com###widgets-wrap-before-content
 etherscan.io##.border-top
 etherscan.io##.dxddkdcp7wz
 etherscan.io##a[href^="https://goto.etherscan.com/"] > img
@@ -37380,6 +37391,7 @@ fakings.com,nigged.com###banners_footer
 familydoctor.com.cn##.adExtra
 familydoctor.com.cn##.global-top-links-wrap
 familyporn.tv,mywebcamsluts.com,transhero.com##.side_spot
+fanatics.com#?#.product-card:-abp-has(.sponsored-badge)
 fancentro.com#@#[href^="https://fancentro.com/"]
 fandom.com###featured-video__player
 fandom.com###featured-video__player-container
@@ -41787,6 +41799,7 @@ morningpost.com.cn##.gg-2
 morningpost.com.cn##.gg-stl
 morningpost.com.cn##div[style="margin:0;padding:0;width:648px;height:345px;overflow:hidden;background-color:#fff;"]
 morningstar.in##.add-container
+morrisons.com##.fops-item--featured
 mostlyblogging.com###media_image-5
 mostlyblogging.com,sonyalpharumors.com###custom_html-15
 motachashma.com,ordertracker.com##.partnerbanner
@@ -51808,6 +51821,7 @@ zzzyk.com###Tinfo
 ||abrasivematch.com^
 ||abridgeoverwhelmfireball.com^
 ||abrinchapper.com^
+||abrnfctkn.xyz^
 ||abroad-ad.kingsoft-office-service.com^
 ||abroniamarkup.com^
 ||abrts.pro^
@@ -75366,6 +75380,7 @@ zzzyk.com###Tinfo
 ||hansaisai.top^
 ||hansetwangy.com^
 ||hantana.org^
+||hanwdsii.com^
 ||hanxin.me^
 ||hanzhixin.cn^
 ||hanzify.*/Main/Template/Images/chinabank.gif
@@ -76687,6 +76702,7 @@ zzzyk.com###Tinfo
 ||hs.cnfol.com/Cm/Imgs/Load.gif
 ||hs640.com/js/jquery.js
 ||hs89.cn^
+||hsadeg.site^
 ||hsadspixel.net^
 ||hsbianma.com/Ad/
 ||hsbianma.com/content/images/*-ad-
@@ -91968,6 +91984,7 @@ zzzyk.com###Tinfo
 ||povoarge.com^
 ||powdermealfilth.com^
 ||powderprofit.com^
+||powedw.com^
 ||power.adhacker.online^
 ||power.adhacker.online^$third-party
 ||powerad.ai^
@@ -99623,6 +99640,7 @@ zzzyk.com###Tinfo
 ||spytrack.tic.ru^
 ||spywords.com^
 ||sq.requestads.com^
+||sq59.cn^
 ||sqate.io^
 ||sqfg002.xyz^
 ||sqfh001.xyz^
@@ -103468,6 +103486,7 @@ zzzyk.com###Tinfo
 ||tpyxplkcap.top^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
+||tqdctl.xyz^
 ||tqdpqq.com^
 ||tqkfrdcwht.xyz^
 ||tqlkg.com^
