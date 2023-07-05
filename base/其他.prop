@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NLa5uojb574zN17vzQqBHg
+! Checksum: irU1spliKLWZnEimxUX1JQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230705043810
-! Last modified: 2023-07-05 04:38:10
-! Total Count: 1715
+! Version: 20230705120458
+! Last modified: 2023-07-05 12:04:58
+! Total Count: 1724
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -472,6 +472,10 @@
 .com:*/d/*?t=
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
+.com:*/vh1/1$third-party
+.com:*/vh2/1$third-party
+.com:*/vj1/1$third-party
+.com:*/vj2/1$third-party
 .com:80*/d/*0?c=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
@@ -572,6 +576,7 @@
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
 /blxn_*.js?
+/clientapi/app/getinfo?appid=*&android=true$third-party
 /config/json/cctv.json?v=1$~third-party
 /js/GDHF.js
 /js/ad_jyshe.js$third-party,script
@@ -1335,6 +1340,7 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
+ydm.life##[onclick*="surnum"][style],img[style*="z-index:2147483647"][onclick*="javascript:"]
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com##[style*="bottom:"]
@@ -1396,6 +1402,7 @@ zle.com$script
 ||adtrue.com^
 ||adultfriendfinder.com^$third-party
 ||adxadserv.com^$third-party
+||afenjkopoqwm.com^$third-party
 ||agdcdf.live^
 ||agdcdf.shop^
 ||al.autohome.com.cn^
@@ -1674,6 +1681,7 @@ zle.com$script
 ||xchina.fun/redirect/ad-
 ||xchina.tv/upload/ad/
 ||xero.porn/videoAd
+||xiangzishop.com^$third-party
 ||xinyumingad.com^$third-party
 ||xlyzjs.com$third-party
 ||xmsflzmygw.com^
@@ -1718,4 +1726,5 @@ zle.com$script
 ||zdwbkt.live^$third-party
 ||zeatse.buzz^$third-party
 ||zewfbw.buzz^$third-party
+||zkappsart.com^$third-party,xmlhttprequest
 ||zz.bdstatic.com^
