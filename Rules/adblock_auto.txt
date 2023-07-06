@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TAPC+tPm90obH/6I7lc5oA
+! Checksum: nRpwi9Ci7nftjFXGlHlzKQ
 ! Title: 混合规则(自动更新)
-! Version: 20230706000924
+! Version: 20230706084233
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-06 00:09:24
-! Total Count: 112421
+! Last modified: 2023-07-06 08:42:33
+! Total Count: 112440
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17536,7 +17536,6 @@
 ##ADS-RIGHT
 ##AMP-AD
 ##A[href*=".com/?Agent="]
-##A[href*="kdocs.cn"] > IMG[src*=".ax1x.com/"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
@@ -18179,6 +18178,7 @@
 ##a[href*="?register="] > img[width="100%"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
+##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="nnqp.vip"]
 ##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
@@ -37484,6 +37484,7 @@ fastweb.com##.a_cls_s
 faxingw.cn##.detailadv
 faxingw.cn##.detailgc
 faxingw.cn##.indadv1
+fc2covid.com###sidebar > .widget_block
 fcbarcelona.dk#@##article_ad
 fctables.com##.box-width > .hidden-xs
 fctables.com##div[style^="background:#e3e3e3;position:fixed"]
@@ -41606,6 +41607,7 @@ mentalmars.com##.menta-target
 mercurynews.com,nssmag.com##.header-banners
 merriam-webster.com##.abl
 merriam-webster.com##.ad-base
+merriam-webster.com##.max-h-\[94px\].min-h-\[94px\].max-w-\[730px\]
 metabattle.com##div[style="display: flex; justify-content: center; align-items: center; margin-top: 60px; min-height: 250px;"]
 metager.org#?#.result:-abp-has(.mark:-abp-contains(Ad))
 metager.org#?#.result:-abp-has(span:-abp-contains(partnershop))
@@ -45077,6 +45079,7 @@ stjornartidindi.is#@#.adverttext
 stlmag.com##.buzzworthy
 stnn.cc###FloatDIV
 stnn.cc##div[style="width:960px;height:90px;float:left;"]
+sto520.com#?#.content > div.book > div[style^="text-align"]:has(> ins.adsbygoogle)
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
 stock87.com##div[id^="Javascript"]
 stock87.com##div[style^="position:relative;width:1000px;height:90px;"]
@@ -52156,6 +52159,7 @@ zzzyk.com###Tinfo
 ||ad-1258444056.cos.accelerate.myqcloud.com^
 ||ad-admin.vnay.vn^
 ||ad-analytics-bootstrap.metaps.com^
+||ad-api-log.colopl.jp^
 ||ad-api.cnblogs.com^
 ||ad-api.ehawk.com^
 ||ad-arata.com^
@@ -57733,6 +57737,7 @@ zzzyk.com###Tinfo
 ||avdego.net^
 ||avdpmeated.uno^
 ||avellingand.xyz^
+||avenaryconcent.com^
 ||avencio.de^
 ||avenseo.com^
 ||avenuescrupuloustheological.com^
@@ -63792,6 +63797,7 @@ zzzyk.com###Tinfo
 ||coandroid.ru/uploads/mobcoin.png
 ||coaphauk.net^
 ||coaraije.com^
+||coarooro.net^
 ||coastlineahead.com^
 ||coastlinebravediffers.com^
 ||coastpreachshrink.com^
@@ -70872,6 +70878,7 @@ zzzyk.com###Tinfo
 ||excellenceads.com^
 ||excellent-closet.pro^
 ||excellent-vids.online^
+||excellentvids.online^
 ||excellernod.xyz^
 ||exceph.com^
 ||excessivetighten.com^
@@ -72030,6 +72037,7 @@ zzzyk.com###Tinfo
 ||fjsen.com:81/mysql/count/
 ||fjshxzyyxgs.cn^
 ||fjsjsj.com^
+||fjsytjs.cn^
 ||fjttbkoxer.xyz^
 ||fjyc.pw^
 ||fjzimaoqu.cn^$third-party
@@ -72856,6 +72864,7 @@ zzzyk.com###Tinfo
 ||fungus.online^
 ||funkerpep.com^
 ||funklicks.com^
+||funkydeplane.com^
 ||funlife.info^
 ||funn.graphiq.com^
 ||funneld.com^
@@ -75246,6 +75255,7 @@ zzzyk.com###Tinfo
 ||habitofsticklik.com^
 ||habitualhumor.com^
 ||habitualhumor.com^$third-party
+||habitueflasque.com^
 ||habkjav.cn^
 ||habrasysteleii.xyz^
 ||habrox.xyz^
@@ -78887,6 +78897,7 @@ zzzyk.com###Tinfo
 ||itadapi.ithome.com.tw^
 ||itageli.ru^
 ||itahandkeight.xyz^
+||itaisabirs.com^
 ||italianadirectory.com^
 ||italianforesee.com^
 ||itavcn.com/images/2012/ad_
@@ -79876,6 +79887,7 @@ zzzyk.com###Tinfo
 ||jotocyxe.xyz^
 ||jotpoolwarren.com^
 ||jounaque.com^
+||joupteni.xyz^
 ||journalforum.org^
 ||journalismdived.com^
 ||journera.com^
@@ -80423,6 +80435,7 @@ zzzyk.com###Tinfo
 ||kagiti.club^
 ||kagortus.ru^
 ||kagrooxa.net^
+||kahgjjd.com^
 ||kaicaica.com^
 ||kaifiluk.com^
 ||kaiguangdou.com^
@@ -80761,6 +80774,7 @@ zzzyk.com###Tinfo
 ||kgagck6.com^
 ||kgcyvd.com^
 ||kgdvs9ov3l2aasw4nuts.com^
+||kgeesh.site^
 ||kgelugaz.com^
 ||kgeshe.site^
 ||kgfjrb711.com^
@@ -83027,6 +83041,7 @@ zzzyk.com###Tinfo
 ||log.quora.com^
 ||log.qvb.qcloud.com^
 ||log.radiko.jp^
+||log.recommend.nicovideo.jp^
 ||log.reformal.ru^
 ||log.rmp.rakuten.co.jp^
 ||log.rutube.ru^
@@ -84911,6 +84926,7 @@ zzzyk.com###Tinfo
 ||mellow-game.pro^
 ||mellowbike.com^
 ||mellowbike.com^$third-party
+||mellsrecta.com^
 ||meloads.com^
 ||melodicminute.com^
 ||melongetplume.com^
@@ -96645,6 +96661,7 @@ zzzyk.com###Tinfo
 ||sandcomemunicat.info^
 ||sandelf.com^
 ||sandensi.ru^
+||sandflyligules.com^
 ||sange20221226.xyz^
 ||sanggilregard.com^
 ||sanglah.com^
@@ -97887,6 +97904,7 @@ zzzyk.com###Tinfo
 ||shoogloonetwork.com^
 ||shooinghelibus.com^
 ||shookahi.xyz^
+||shookssuluan.com^
 ||shoop4.com^
 ||shoopusahealth.com^
 ||shooterconsultationcart.com^
@@ -102097,6 +102115,7 @@ zzzyk.com###Tinfo
 ||tedxffemqblmk.xyz^
 ||teefuthe.com^
 ||teeglimu.com^
+||teelconch.com^
 ||teemingaymoro.com^
 ||teemooge.net^
 ||teensexgfs.com^

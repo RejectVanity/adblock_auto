@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: chbPPBO6Y/0Gt2pwZPq7VA
+! Checksum: Db0BUo3vjoGAtqYh57Ih2w
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230706000929
+! Version: 20230706084238
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-06 00:09:29
-! Total Count: 19225
+! Last modified: 2023-07-06 08:42:38
+! Total Count: 19228
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1257,7 +1257,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
-##A[href*="kdocs.cn"] > IMG[src*=".ax1x.com/"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
@@ -1715,6 +1714,7 @@
 ##a[href*="?register="] > img[width="100%"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
+##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="nnqp.vip"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
@@ -10942,6 +10942,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fjlqqc.com/common/api/v1.0/slot-code/
 ||fjnsnt.xyz^
 ||fjrkn.com^
+||fjsytjs.cn^
 ||fjttbkoxer.xyz^
 ||fjzimaoqu.cn^$third-party
 ||fka06.site^
@@ -13085,6 +13086,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kaafu.cn^
 ||kaffnet.com^
 ||kagdf.com^
+||kahgjjd.com^
 ||kairuxinxi.xyz^$third-party
 ||kaixin001.com.cn/js/cpm-
 ||kaixinjiehun.com^$third-party
@@ -13184,6 +13186,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kfocoq.xyz^
 ||kgacp.cyou^
 ||kgcyvd.com^
+||kgeesh.site^
 ||kgelugaz.com^
 ||kgeshe.site^
 ||kgnlaigd.fun^
