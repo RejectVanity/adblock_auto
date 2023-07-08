@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jlcnHQ4V1jZA1QOV4pFHgQ
+! Checksum: 8Wkbg9DMONQSHYX0iRWa5A
 ! Title: 混合规则(自动更新)
-! Version: 20230708160848
+! Version: 20230708204507
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-08 16:08:48
-! Total Count: 112691
+! Last modified: 2023-07-08 20:45:07
+! Total Count: 112693
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -34189,6 +34189,7 @@ baidu.com##[class*="brand"][class*="Entry"]
 baidu.com##[class*="fc-"][class*="ad"]
 baidu.com##[class*="na-ec-"]
 baidu.com##[class^="ad-"]
+baidu.com##[class^="cu-video-player"]
 baidu.com##[class^="fc-"]
 baidu.com##[id*="ec-"][id*="ad"]
 baidu.com##[id*="ec_"][id*="ad"]
@@ -55597,6 +55598,7 @@ zzzyk.com###Tinfo
 ||amenityleisurelydays.com^
 ||amenityremorse.com^
 ||amensatisfactorybrook.com^
+||amerzbj.cn^
 ||amesacejagger.space^
 ||amesgraduatel.xyz^
 ||amexcadrillon.com^

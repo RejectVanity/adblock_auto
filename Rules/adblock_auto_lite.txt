@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qnwb7Z4BFvJKX9BunKU22Q
+! Checksum: HTzGyEY5bOg/kBd35HFZcg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230708160854
+! Version: 20230708204513
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-08 16:08:54
-! Total Count: 19252
+! Last modified: 2023-07-08 20:45:13
+! Total Count: 19254
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5005,6 +5005,7 @@ baidu.com##[class*="brand"][class*="Entry"]
 baidu.com##[class*="fc-"][class*="ad"]
 baidu.com##[class*="na-ec-"]
 baidu.com##[class^="ad-"]
+baidu.com##[class^="cu-video-player"]
 baidu.com##[class^="fc-"]
 baidu.com##[id*="ec-"][id*="ad"]
 baidu.com##[id*="ec_"][id*="ad"]
@@ -8187,6 +8188,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||amazonclix.com^
 ||amazononline.xyz/mp4/*.mp4$redirect=noop-0.1s.mp3,domain=iyingshi7.tv|localmv1.com,media
 ||ambitiousanimal.com^$third-party
+||amerzbj.cn^
 ||amillionads.com^
 ||ammcg.imgscloud.com/toy/
 ||amobee.com^
