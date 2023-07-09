@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: bYu1D3sno3GArR16/YmIgg
+! Checksum: FoYjTnq6FvNmwbb3gDsbyA
 ! Title: 混合规则(自动更新)
-! Version: 20230709160840
+! Version: 20230709225309
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-09 16:08:40
-! Total Count: 112835
+! Last modified: 2023-07-09 22:53:09
+! Total Count: 112874
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18949,6 +18949,7 @@
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
+##span > video[poster*="-1316632262.cos.ap-"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -29579,6 +29580,7 @@ $websocket,domain=5nj.com|cechi8.com
 ://app-*.com/page/*/install/c/*=$~third-party
 ://at.umtrack.com/*?cid=$document
 ://at.umtrack.com/*?cid=$~third-party
+://ayq*nsx.icu/*.js$third-party,script
 ://banner.$third-party
 ://banners.$third-party
 ://boeg*.xyz/*.html$document
@@ -33965,6 +33967,7 @@ axios-js.com###lagou-vip
 axios-js.com##.lessonlist
 axios-js.com##.recommand
 axios-js.com##.vultr-desc
+axios.com##.shortFormNativeAd
 axios.com##[data-vars-category="sidebar_promo"]
 axisbank.com##.topbandBg_New
 axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
@@ -48787,6 +48790,7 @@ zzzyk.com###Tinfo
 ||1385a.xyz^
 ||138txt.net/js/ssgdd.
 ||138vps.com/fa/
+||138vps.com/image/
 ||139file.com/jsa/
 ||13niao20230422.live^
 ||13owamwp6c.cn^
@@ -55614,6 +55618,7 @@ zzzyk.com###Tinfo
 ||amdjcmyqcg.com^
 ||amebanbiglot.uno^
 ||amedeosilvery.com^
+||ameedbezique.uno^
 ||amelatrina.com^
 ||amendablepartridge.com^
 ||amendablepredicamentvertical.com^
@@ -56508,6 +56513,7 @@ zzzyk.com###Tinfo
 ||aomngb.com^
 ||aomqejwubnlwou.xyz^
 ||aonefntecsp.com^
+||aonforhaving.info^
 ||aongsond.uno^
 ||aoouvdi.cn^
 ||aoparking.com^$third-party
@@ -57201,6 +57207,7 @@ zzzyk.com###Tinfo
 ||asdqweq.com^
 ||asdtiotyuknsy.xyz^
 ||asdx55.com^
+||asdxntvjpsyl.com^
 ||asecarenterhosi.xyz^
 ||asecv.xyz^
 ||asecw.xyz^
@@ -58034,6 +58041,7 @@ zzzyk.com###Tinfo
 ||aymtdcg.cn^
 ||ayorks.com^
 ||ayprokwbpc.com^
+||ayq3nsx.icu^$third-party
 ||ayqxx.com^
 ||ayqxx.com^$third-party
 ||ayrovalcontain.com^
@@ -60484,6 +60492,7 @@ zzzyk.com###Tinfo
 ||bolsek.ru^
 ||bolshoykush.ru^
 ||bolssc.com^
+||bolstersecours.digital^
 ||bolteffecteddanger.com^
 ||boltepse.com^
 ||boluoxs.com/js/digu.js
@@ -65970,6 +65979,7 @@ zzzyk.com###Tinfo
 ||d21o24qxwf7uku.cloudfront.net^
 ||d21rudljp9n1rr.cloudfront.net^
 ||d21y75miwcfqoq.cloudfront.net^
+||d223xrf0cqrzzz.cloudfront.net^
 ||d227cncaprzd7y.cloudfront.net^
 ||d22ffr6srkd9zx.cloudfront.net^
 ||d22lo5bcpq2fif.cloudfront.net^
@@ -69410,6 +69420,7 @@ zzzyk.com###Tinfo
 ||earlapspur.com^
 ||earlapssmalm.com^
 ||earlieraccelerateshoplifting.com^
+||earlinessone.xyz^
 ||earlishcoevals.com^
 ||early-birds.io^
 ||earnallgainsurvey.top^
@@ -76758,6 +76769,7 @@ zzzyk.com###Tinfo
 ||hostingcloud.racing
 ||hostingcloud.racing^
 ||hostip.info^
+||hostlyacus.digital^
 ||hostpush.info^
 ||hosupshunk.com^
 ||hot-clips.space^
@@ -78233,6 +78245,7 @@ zzzyk.com###Tinfo
 ||inancukan.xyz^
 ||inaneconstellationindistinct.com^
 ||inanepercyfinancially.com^
+||inanityacromia.life^
 ||inanitystorken.com^
 ||inappropriateoutdoorsconfiguration.com^
 ||inapps.appsflyer.com^
@@ -79527,6 +79540,7 @@ zzzyk.com###Tinfo
 ||jbnmuye.cn^
 ||jbplm.com^
 ||jbrlsr.com^
+||jbrnmlmvnayka.top^
 ||jbtfmis.xyz^
 ||jbugk.com^
 ||jbuzacg.cn^
@@ -80680,6 +80694,7 @@ zzzyk.com###Tinfo
 ||kalstats.kaltura.com^
 ||kalvin.cn/page/img/
 ||kamachilinins.com^
+||kamalafooner.space^
 ||kamassirangers.tech^
 ||kamehameha.click^
 ||kameleoon.com^
@@ -83107,6 +83122,7 @@ zzzyk.com###Tinfo
 ||loddingtoto.one^
 ||lodenbud.com^
 ||lodgedynamitebook.com^
+||lodroe.com^
 ||loewe.com.se^
 ||lofkxokqkf.com^
 ||lofter.com/blogPhotoAd?
@@ -83389,6 +83405,7 @@ zzzyk.com###Tinfo
 ||loggly.cheatsheet.com^
 ||logicalmodelvisible.com^
 ||logicanalytics.io^
+||logicdate.com^
 ||logicsfort.com^
 ||logilyavie.digital^
 ||login-megafon.ru^
@@ -84268,6 +84285,7 @@ zzzyk.com###Tinfo
 ||mafengwo.cn/uva/i.gif?
 ||mafrarc3e9h.com^
 ||maftirkolo.com^
+||maftirtagetol.website^
 ||magariusaqmuri.cf^
 ||magazinescontaining.com^
 ||magazinesfluentlymercury.com^
@@ -84407,6 +84425,7 @@ zzzyk.com###Tinfo
 ||malkgpottfolik.xyz^
 ||mall.xinkuaituan.com/zhuanti/
 ||mall0.qiyipic.com^
+||mallettraumatize.com^
 ||malong.plus^
 ||mals.shop^
 ||malthashematid.com^
@@ -85283,7 +85302,9 @@ zzzyk.com###Tinfo
 ||metapic.se^
 ||metaprofit.net^
 ||metarouter.io^
+||metasterisk.com^
 ||metatestruck.com^
+||metaversemolecule.com^
 ||metaversn.site^
 ||metavertising.com^
 ||metavertizer.com^
@@ -89226,6 +89247,7 @@ zzzyk.com###Tinfo
 ||one.lg.ua^
 ||one.toumppk.cn^
 ||one101.xyz/data/images/*.gif
+||one6u.xyz^
 ||oneadvupfordesign.com^
 ||oneclck.net^
 ||onecomedyservices.com^
@@ -89622,6 +89644,7 @@ zzzyk.com###Tinfo
 ||organsthud.com^
 ||orgaorg.com^
 ||orgassme.com^
+||orgerm.com^
 ||orgjzuasqjk.com^
 ||orgned.com^
 ||orgxts.com^
@@ -91716,6 +91739,7 @@ zzzyk.com###Tinfo
 ||planetapozitiva.ru^
 ||planetup.com^
 ||planktab.com^
+||planmybackup.co^
 ||plannedcappuccino.com^
 ||plannerladyreality.com^
 ||planningunavoidablenull.com^
@@ -95013,6 +95037,7 @@ zzzyk.com###Tinfo
 ||redir9.net^
 ||redirect-ads.com^
 ||redirect-path1.com^
+||redirecting7.eu^
 ||redirectsstm.click^
 ||redirectvoluum.com^
 ||redirnewsoft.ru^
@@ -95800,6 +95825,7 @@ zzzyk.com###Tinfo
 ||rightfulfall.com^
 ||rightmoveanalytics.co.uk^
 ||rights.wang^
+||rightsapphiresand.info^
 ||rightstats.com^
 ||rightypulverizetea.com^
 ||rigiddepth.com^
@@ -97190,6 +97216,7 @@ zzzyk.com###Tinfo
 ||scarofnght.com^
 ||scarpbooking.ru^
 ||scarwan.com^
+||scatterdisagreeabledealer.com^
 ||scatteredheat.com^
 ||scatteredstream.com^
 ||scbt.asia^
@@ -97952,6 +97979,7 @@ zzzyk.com###Tinfo
 ||sh0w-me-how.com^
 ||sh6ss7.top^
 ||sh996.dftoutiao.com^
+||shabsaco.net^
 ||shackapple.com^
 ||shacsda.name^
 ||shadesincreasingcontents.com^
@@ -99825,6 +99853,7 @@ zzzyk.com###Tinfo
 ||spendpest.com^
 ||spentbennet.com^
 ||sperans-beactor.com^
+||spewsserved.website^
 ||spewyelks.com^
 ||sphegidsephen.com^
 ||sphjtw.ru^
@@ -101079,6 +101108,7 @@ zzzyk.com###Tinfo
 ||strivesidewalk.com^
 ||strivesquirrel.com^
 ||strnguz.cn^
+||strobesfalsity.digital^
 ||strodesoot.com^
 ||stroeerdigitalmedia.de^
 ||stroi-help.ru/forum/script_new.js
@@ -101497,6 +101527,7 @@ zzzyk.com###Tinfo
 ||svlzckw.cn^
 ||svm6ryo.cn^
 ||svnfgib.cn^
+||svntrk.com^
 ||svr-prc-01.com^
 ||svrilvrrvwyh.xyz^
 ||svrojrv.cn^
@@ -102305,6 +102336,7 @@ zzzyk.com###Tinfo
 ||tcactivity.net^
 ||tcadserver.rain-digital.ca^
 ||tcamav.com^
+||tcaochocskid.com^
 ||tccbanner.com^
 ||tce.alicdn.com^
 ||tcgehkuyoblgg.xyz^
@@ -102356,6 +102388,7 @@ zzzyk.com###Tinfo
 ||tdjc.shop^
 ||tdk.petsplace.nl^
 ||tdkkjueowqb.com^
+||tdlbygajwdmtpge.xyz^
 ||tdmd.us^
 ||tdohrpnwzs.com^
 ||tds.astdn.ru^
@@ -103177,6 +103210,7 @@ zzzyk.com###Tinfo
 ||tifpjz.xyz^
 ||tifstudiousyo.info^
 ||tifybecausingp.com^
+||tifyeldi.top^
 ||tigely.com^
 ||tigerpush.net^
 ||tightendescendantcuddle.com^
@@ -108842,6 +108876,7 @@ zzzyk.com###Tinfo
 ||whillfortis.life^
 ||whimsoplynx.com^
 ||whineattempt.com^
+||whineshellcat.space^
 ||whiningconfessed.com^
 ||whippedfreezerbegun.com^
 ||whippedpuces.tech^
@@ -108950,6 +108985,7 @@ zzzyk.com###Tinfo
 ||whxva.com^
 ||whychymithy.com^
 ||whycywhivu.pro^
+||whyocafenet.space^
 ||whytoss.com^
 ||whzz.shop^
 ||wi-fi.ru/ad_video/$redirect=noop-1s.mp4,important,media
@@ -109512,6 +109548,7 @@ zzzyk.com###Tinfo
 ||wphmavwgay.xyz^
 ||wpib0jr.cn^
 ||wpiwoo.xyz^
+||wpjhenqutmdzd.com^
 ||wples.com/pc/common.js
 ||wpncdn.com^
 ||wpnetwork.eu^
@@ -110957,6 +110994,7 @@ zzzyk.com###Tinfo
 ||ydstatic.com/dsp_website/
 ||ydstatic.com/fanyi/fanyi-ad-place/
 ||ydtqlmsvocjp.com^
+||ydygdsnss.com^
 ||ydygk.com^
 ||ye120.com/swt.js
 ||ye120.com/zool.js
@@ -112070,6 +112108,7 @@ zzzyk.com###Tinfo
 ||zeechumy.com^
 ||zeecoomi.net^
 ||zeegreen.net^
+||zeekaihu.net^
 ||zeerat.com^
 ||zeeshech.net^
 ||zeeshith.net^

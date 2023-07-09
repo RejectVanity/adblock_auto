@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: MVB/GP4dDvFKBi9KzjhqWg
+! Checksum: Cr/nA5ns32FkL48jf5DOow
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230709160844
+! Version: 20230709225313
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-09 16:08:44
-! Total Count: 19278
+! Last modified: 2023-07-09 22:53:13
+! Total Count: 19285
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2093,6 +2093,7 @@
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
+##span > video[poster*="-1316632262.cos.ap-"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
 ##style + .need_grid_img
@@ -3269,6 +3270,7 @@
 ://app-*.com/page/*/install/c/*=$~third-party
 ://at.umtrack.com/*?cid=$document
 ://at.umtrack.com/*?cid=$~third-party
+://ayq*nsx.icu/*.js$third-party,script
 ://banner.$third-party
 ://boeg*.xyz/*.html$document
 ://boeg*.xyz/*.html$~third-party
@@ -6232,6 +6234,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||1385a.xyz^
 ||138txt.net/js/ssgdd.
 ||138vps.com/fa/
+||138vps.com/image/
 ||139file.com/jsa/
 ||13niao20230422.live^
 ||13txt.net/js/ssgdd.
@@ -8474,6 +8477,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||axutongxue.net/js/ik474n.js
 ||axvnsla.top^
 ||axybcz.cn^
+||ayq3nsx.icu^$third-party
 ||ayqxx.com^$third-party
 ||ayverwe.cn^
 ||ayxz.com/images/$script
@@ -13725,7 +13729,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||loli.net/2020/06/17/gpRx7AzGwI4kQmV.gif
 ||loli.net/2020/06/17/vGALJ4mQx26T75u.gif
 ||loli.net/2023/05/08/w4aGFUIVmKgOT78.
-||loli.net^$domain=1090ys8.com|520film.net|9kanqq.com|acglover.me|hdsky.me|magnet2048.com|nulltm.com|xinqingdou.net
+||loli.net^$domain=520film.net|9kanqq.com|acglover.me|hdsky.me|magnet2048.com|nulltm.com|xinqingdou.net
 ||lolshipin.com/zt/sxx/
 ||lolttaaas.com/forever/
 ||longdidi.top^*.js
@@ -14124,6 +14128,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||merwds.qwuidbn.com^$third-party
 ||mestrip.com/widgets/
 ||metamx.com^
+||metaversemolecule.com^
 ||meteor.today/ad/
 ||metvb.com/js/bofangwei.js
 ||meueeq.xyz^
@@ -14892,6 +14897,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||one.fsylr.com^
 ||one.toumppk.cn^
 ||one101.xyz/data/images/*.gif
+||one6u.xyz^
 ||onedala.tv/uploads/banner/
 ||onegameday.com^
 ||onegreen.net/MyFile/
@@ -17055,6 +17061,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tiexue.net/domain-policy/
 ||tiexue.net/zgg/
 ||tifpjz.xyz^
+||tifyeldi.top^
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
