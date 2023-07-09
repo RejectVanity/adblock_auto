@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M5w2IhYIPYym0/iEh75tLQ
+! Checksum: sWm1TC8mQ7aOpBreMWiC1A
 ! Title: 自用去广告Adblock规则
-! Version: 20230708200242
-! Last modified: 2023-07-08 20:02:42
-! Total Count: 1725
+! Version: 20230709225112
+! Last modified: 2023-07-09 22:51:12
+! Total Count: 1728
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -414,6 +414,7 @@
 ##script + #rbbox
 ##script + #strl
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
+##span > video[poster*="-1316632262.cos.ap-"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 &adZones$xmlhttprequest
 -advertise/
@@ -664,6 +665,7 @@
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
+://ayq*nsx.icu/*.js$third-party,script
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dpic.*.cn/*.js$third-party
@@ -1420,6 +1422,7 @@ zle.com$script
 ||asa.com^
 ||ashooqapp.top^$~third-party
 ||ato.tooopen.com^$third-party
+||ayq3nsx.icu^$third-party
 ||baby.thinkmore.top^
 ||bbangads.*.net^$third-party
 ||beijing163.aliyunapi.org^$third-party,script
