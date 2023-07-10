@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: HH6SXvKZbixCWTdli1oVBg
+! Checksum: o+5sBbaRdOPkVgBjrNU2CA
 ! Title: 混合规则(自动更新)
-! Version: 20230710084155
+! Version: 20230710161027
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-10 08:41:55
-! Total Count: 112910
+! Last modified: 2023-07-10 16:10:27
+! Total Count: 112917
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20579,6 +20579,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/*.html?uid=$document
 .xyz/*.html?uid=$~third-party
 .xyz/*.sdk?$script,third-party
+.xyz/*=$object,third-party
 .xyz/*?16$third-party
 .xyz/*_*.js?*16$third-party
 .xyz/99x/
@@ -28508,7 +28509,9 @@ $websocket,domain=5nj.com|cechi8.com
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
+188soft.com##.cont_d_l_dow + .down-center
 188soft.com##.down_gaosu
+188soft.com##.safety
 189.cn#@##linkShare
 189.cn#@#.share-panel
 189.cn,hdfcbank.com#@#.adLink
@@ -34898,7 +34901,7 @@ breitbart.com###HavDW
 breitbart.com##.a-wrapper
 brenz.net###rndBanner
 brickset.com##.admin.buy
-brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
+brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,shape.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
 brighteon.com##[href^="https://support.brighteon.com/"]
 briian.com###main > div[style="width:100%; height:auto; margin: 5px 0 15px; background:#FFFFFF; text-align:center; padding:7px 0 10px 4px;"]
 briian.com###post-wrapper div[style^="width:"][style*="height: auto; background"]
@@ -36112,12 +36115,11 @@ cumlouder.com,gr8.cc,psycatgames.com##.sticky-banner
 cumlouder.com,pornjam.com##.related-sites
 cuntest.net###banners
 cupfox.app###page-wrap > div:nth-child(3)
-cupfox.app##.a1-box[class^="jsx-"]
+cupfox.app##.a2-box[class^="jsx-"]
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.cupfox-box
 cupfox.app##.t-img-box > a[target="_blank"] > img
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
-cupfox.app##div[class*="-box"][class^="jsx-"]
 cupfox.app#?##outer-container > .model:-abp-has(> .model-content > a[href*=".jd.com"])
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
@@ -59460,6 +59462,7 @@ zzzyk.com###Tinfo
 ||bentliarpomposity.com^
 ||bento.agoda.com^
 ||bentonow.com^
+||bentonuncage.com^
 ||benumbagcy.com^
 ||benumelan.com^
 ||benureko.xyz^
@@ -69043,6 +69046,7 @@ zzzyk.com###Tinfo
 ||duouoo.com/vss/right-ssd.js
 ||duouoo.com/vss/wz
 ||duoyi.com/welcome/$popup
+||duoying.vip^$third-party
 ||dup.baidustatic.com^
 ||dupelipperan.com^
 ||duper8flash.com^
@@ -94559,6 +94563,7 @@ zzzyk.com###Tinfo
 ||radiusmarketing.com^
 ||radull.com^
 ||radxcomm.com^
+||raferu.com^
 ||raftybuts.com^
 ||rag3ca7t5amubr8eedffin.com^
 ||ragapa.com^
@@ -106690,6 +106695,7 @@ zzzyk.com###Tinfo
 ||uym11.xyz^
 ||uymjbn.com^
 ||uyojnhqeipyb.xyz^
+||uyq3ruf.icu^
 ||uysdxmo.com^
 ||uyt79.top^
 ||uyueread.com^
@@ -112220,6 +112226,7 @@ zzzyk.com###Tinfo
 ||zfopakkt.com^
 ||zfoxhovh.com^
 ||zfsfkp.com^
+||zfteiv.xyz^
 ||zfvklk.ru^
 ||zfykvns.cn^
 ||zg.mmyuer.com^
