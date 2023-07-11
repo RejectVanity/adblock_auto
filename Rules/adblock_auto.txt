@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: arD840G9LL00K1FpIWYi3w
+! Checksum: zneJ55kjHcYZ6SilM33zTw
 ! Title: 混合规则(自动更新)
-! Version: 20230711083704
+! Version: 20230711161034
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-11 08:37:04
-! Total Count: 112969
+! Last modified: 2023-07-11 16:10:34
+! Total Count: 112977
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2604,6 +2604,7 @@
 ###bodyAd4
 ###body_728_ad
 ###body_ad
+###body_centered_ad
 ###bodymainAd
 ###book-ad
 ###bordeaux-preemptive-ad-0
@@ -14489,6 +14490,7 @@
 ##.mmy-ads
 ##.mnopolarisAd
 ##.mntl-gpt-adunit
+##.mntl-leaderboard-spacer
 ##.mo-advert
 ##.mo_googlead
 ##.moads-top-banner
@@ -34903,7 +34905,7 @@ breitbart.com###HavDW
 breitbart.com##.a-wrapper
 brenz.net###rndBanner
 brickset.com##.admin.buy
-brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,shape.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
+brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
 brighteon.com##[href^="https://support.brighteon.com/"]
 briian.com###main > div[style="width:100%; height:auto; margin: 5px 0 15px; background:#FFFFFF; text-align:center; padding:7px 0 10px 4px;"]
 briian.com###post-wrapper div[style^="width:"][style*="height: auto; background"]
@@ -35683,6 +35685,7 @@ cntronics.com##.ads970-90
 cntronics.com##.cnt-ads90
 cntv.cn##div[class^="tchmk_"]
 cnx-software.com###fixeddbar
+cnx-software.com##.ghelpme
 cnx-software.com##.gno
 cnx-software.com##.gvoodoo
 cnxz.cn###js_focusimg3
@@ -36811,6 +36814,7 @@ dryicons.com##.search-related__sponsored
 dsearch.com##div[class^="PreAd_"]
 dshangyan.com##.advHeader
 dtf.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
+duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
 duanwenxue.com##.shuang11_mb
@@ -37934,8 +37938,8 @@ fujieace.com##.single-goods
 fuli.us###callboard
 fuli.us###toubuads
 fuli.us##.slick
+fuli.us,th-sjy.com,zhumengwl.com##.banner-post
 fuli.us,tianshif.com###comment-ad
-fuli.us,zhumengwl.com##.banner-post
 fuliba.net###content > div:first-child > a:first-child:last-child
 fuliba.net###content > ul[style="list-style-type: none;"]
 fuliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
@@ -43953,6 +43957,7 @@ rebelnews.com##.lighter-gray-bg
 rebelnews.com##.rn-article-ad
 rebelnews.com##.rn-sidebar-ad
 rebelnews.com##.rn_widgets_content
+rebelnews.com##[href^="https://www.eventbrite.com/"]
 rebooo.com###gong
 recipesandcooker.com##.pbl
 recombu.com##.takeover-right
@@ -81963,6 +81968,7 @@ zzzyk.com###Tinfo
 ||laim.tv^
 ||laimroll.ru^
 ||lainaumi.com^
+||laink.xyz^
 ||lainmpatoio.xyz^
 ||lairdsnorthen.store^
 ||laiwhost.net^
@@ -95651,6 +95657,7 @@ zzzyk.com###Tinfo
 ||rettica.com^
 ||rettik.ru^
 ||returnpath.net^
+||returt.com^
 ||reuded.com^
 ||reudoh.com^
 ||reukandthis.xyz^
@@ -109977,6 +109984,7 @@ zzzyk.com###Tinfo
 ||wyoxmklaa.xyz^
 ||wyplmjufd.live^
 ||wypydowhi.com^
+||wyq3rum.icu^
 ||wyqaafplm.live^
 ||wyqwrfghj.live^
 ||wyrtqdvhuiyhml.com^
