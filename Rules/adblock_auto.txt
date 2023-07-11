@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: zneJ55kjHcYZ6SilM33zTw
+! Checksum: L8hVsttsY0wCRiUjdwmZRQ
 ! Title: 混合规则(自动更新)
-! Version: 20230711161034
+! Version: 20230712000900
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-11 16:10:34
-! Total Count: 112977
+! Last modified: 2023-07-12 00:09:00
+! Total Count: 112994
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -35303,6 +35303,7 @@ chengdu.cn,eprice.com.tw,oeeee.com,ofweek.com,setn.com##div[class^="ad-"]
 cheshi.com##.ad_980105
 cheshi.com##div[id^="ad_pos_"]
 chess.com##.game-over-ad-component
+chess.com##.short-sidebar-ad-component
 chewy.com##.js-tracked-ad-product
 chewy.com#?#.kib-carousel-item:-abp-has(.kib-product-sponsor)
 chexun.com##.ad1100
@@ -35655,6 +35656,7 @@ cnjxol.com##.linked
 cnki.com.cn##.ad-right-default
 cnki.com.cn##.adList
 cnki.com.cn##.mainboxconbanner
+cnki.net##.translateOutAdLink
 cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
@@ -39178,6 +39180,7 @@ hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 hk.yahoo.com##div[id^="my-ads"]
 hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
 hk01.com##.md\:min-h-\[90px\]
+hk01.com##.min-h-\[250px\].mb-3
 hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
 hk01.com##div[data-id="lazyload-placeholder"]
 hkcards.com###ad-slot-01
@@ -42852,6 +42855,7 @@ oschina.net##div[data-tracepid="question_detai_above"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
+osdn.net###after-download-ad
 osradar.com##a[href="http://insiderapps.com/"]
 ostatic.com###media_partner_gallery
 ostroh.info###modal.modal-bg
@@ -43513,6 +43517,7 @@ premiumtimesng.com##.directcampaign
 premiumtimesng.com##.premi-texem-campaign
 premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 premiumtimesng.com##img[alt$=" Ad"]
+prepostseo.com###after_button_ad_desktop
 presearch.com##[x-data*="kwrdAdFirst"]
 presearch.com##div[x-data*="kwAdFirst"]
 pretoria.co.za##.banner-bg
@@ -44845,6 +44850,8 @@ softicons.com##.right_ga
 softonic.com##.sam-slot
 softpanorama.org##table[height="620"]
 sogi.com.tw##div[class="row my-2 ad-slot-970"]
+sogi.com.tw#?##main > div.container:has(> div#ad)
+sogi.com.tw#?#.editable  > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
 sogou.com###PZL
 sogou.com###PZR
 sogou.com###adWindow
@@ -45098,6 +45105,7 @@ startup.ch##.smallbanner
 startups.co.uk##.dc-leaderboard
 stat-nba.com###ad_video
 staticice.com.au##[href^="https://kogan.sjv.io/"]
+stationx.net##.stnx-cta-embed
 statsroyale.com##div[class^="adUnit_"]
 stc.gov.cn###mov
 steachs.com##.sidebar:first-child
@@ -66593,6 +66601,7 @@ zzzyk.com###Tinfo
 ||dada8828.com/js/aaa/
 ||dadawm.cc^
 ||dadcc.cn^
+||dadde.cn^
 ||daddq.cn^
 ||daddychess.online^
 ||dadhuhram.com^
@@ -75344,6 +75353,7 @@ zzzyk.com###Tinfo
 ||gvt1.com/videoplayback?$media,redirect=noop-1s.mp4,domain=safeframe.googlesyndication.com
 ||gvt2.com^
 ||gw069.com^
+||gw1jvhs.com^
 ||gwaaz.cn^
 ||gwallet.com^
 ||gwbgqrxlelrjsi.com^
@@ -75401,6 +75411,7 @@ zzzyk.com###Tinfo
 ||gynax.com^
 ||gypsiedjilt.com^
 ||gypsyardently.com^
+||gyq3bew.icu^
 ||gyratesequal.website^
 ||gyro-n.com^
 ||gysn001.com^
@@ -81152,6 +81163,7 @@ zzzyk.com###Tinfo
 ||kingads.net^
 ||kingads.space^
 ||kingadsvip.club^
+||kingdepo.com^
 ||kingkongapp.com^*/web/adv/list?
 ||kingleo.hk^
 ||kingmoney.io^
@@ -83423,6 +83435,7 @@ zzzyk.com###Tinfo
 ||logbor.com^
 ||logcol.kyobobook.co.kr^
 ||logcollect.totalcms.ncloud.or.kr^
+||logcollector.note.com^
 ||logcollector.viewster.com^
 ||logconfig.polarisoffice.com^
 ||logcounter.com^
@@ -87304,6 +87317,7 @@ zzzyk.com###Tinfo
 ||navegg.com^
 ||navelfletch.com^
 ||naveljutmistress.com^
+||naverpa-phinf.pstatic.net^
 ||navigation.api.hk.goforandroid.com/api/*/website/navigations?virtual_id=
 ||navigator.io^
 ||navilytics.com^
@@ -89537,6 +89551,8 @@ zzzyk.com###Tinfo
 ||openlog.in^
 ||openlyprematurerates.com^
 ||openmindter.com^
+||openmonitor.alipay-eco.com^
+||openmonitor.alipay.com^
 ||openstat.net^
 ||opentecs.com^
 ||opentracker.net^
@@ -92485,6 +92501,7 @@ zzzyk.com###Tinfo
 ||pr.ikovrov.ru^
 ||pr.rusmed.ru^
 ||pr0gram.org^
+||pr88vhg.com^
 ||pra.praxis.nl^
 ||practicallyfire.com^
 ||practicallysacrificestock.com^
