@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: GB8Ec0MnSjrgKx1KdFoJLQ
+! Checksum: UNAxpl1qbeW8WmaFSOE9Qw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230712084320
+! Version: 20230712161039
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-12 08:43:20
-! Total Count: 19330
+! Last modified: 2023-07-12 16:10:39
+! Total Count: 19335
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -839,6 +839,7 @@
 ##.col-lg-3.col-xs-6 > .well
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
+##.col6 > A[onclick*="横幅"]
 ##.comiis_ad
 ##.comiis_adbox
 ##.comiis_guanggao
@@ -10328,6 +10329,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dongya.org^
 ||doodlemobile.com/feature_server/fullScreen/get.php
 ||doodlemobile.com/feature_server/geo-ip/test.php
+||dosre12.xyz^
 ||dota.sykty.com^
 ||dota2.uuu9.com^$subdocument
 ||dotomi.com^
@@ -12915,6 +12917,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jojog.com^
 ||jokerlu.com/upload/addon/
 ||jokerlu.com/upload/vod/
+||jokerlulm.com^
 ||jollyspring.com^
 ||joplopr.cn^
 ||jp.twww.sbs^
@@ -13444,6 +13447,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kybzkiw.xyz^
 ||kydb.xyz^
 ||kygso.com/js/lrtk.js
+||kyq3hky.icu^
 ||kyqbifz.cn^
 ||kyrj.xyz^
 ||kyxw9itc.xyz^
@@ -18285,6 +18289,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xcvsw.xyz^
 ||xcvtg.xyz^
 ||xcvur.xyz^
+||xcvwrj.xyz^
 ||xcwzq.xyz^
 ||xcysqq.com^
 ||xd4a.top^
