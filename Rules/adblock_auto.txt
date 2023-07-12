@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: FDaqIf0g71AaEkO6kVVJ5Q
+! Checksum: mAN7md1yPQjEYFOAPLQUUA
 ! Title: 混合规则(自动更新)
-! Version: 20230712161033
+! Version: 20230713000849
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-12 16:10:33
-! Total Count: 113118
+! Last modified: 2023-07-13 00:08:49
+! Total Count: 113138
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11902,6 +11902,7 @@
 ##.col2-ads
 ##.col5 > dl#randomBox
 ##.col6 > A[onclick*="横幅"]
+##.col6 > a[onclick*="横幅"]
 ##.colAd
 ##.colBoxAdframe
 ##.colBoxDisplayAd
@@ -15886,6 +15887,7 @@
 ##.shadvertisment
 ##.sheknows-infuse-ad
 ##.shift-ad
+##.shopee-search-user-brief
 ##.shoppingGoogleAdSense
 ##.short-ad
 ##.short-sidebar-ad-bottom
@@ -28528,7 +28530,7 @@ $websocket,domain=5nj.com|cechi8.com
 18av.mm-cg.com###primary_content > #Dfrom
 18av.mm-cg.com##.ut_ad_box
 18av.pro##.video-server > .inplayer
-18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,allmyfaves.com,allthetests.com,av1868.com,avmimi.com,bing.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,edc1014070.pixnet.net,eth-converter.com,farmtrader.co.nz,freealts.pw,fsdpp.cn,goosegame.io,greatbritishchefs.com,m.youku.com,mangahax.com,mm-cg.com,moviesfoundonline.com,openstreetmap.org,pajiba.com,sports.qq.com,sundayobserver.lk,suopao.org,techconnect.com,timecn.cn,ting56.com,txzqw.me,vstreamhub.com,youxi.baidu.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,allmyfaves.com,allthetests.com,av1868.com,avmimi.com,bing.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,edc1014070.pixnet.net,eth-converter.com,farmtrader.co.nz,freealts.pw,fsdpp.cn,goosegame.io,greatbritishchefs.com,ip138.com,m.youku.com,mangahax.com,mm-cg.com,moviesfoundonline.com,openstreetmap.org,pajiba.com,sports.qq.com,sundayobserver.lk,suopao.org,techconnect.com,timecn.cn,ting56.com,txzqw.me,vstreamhub.com,youxi.baidu.com###banner
 18avhub.com,18avtube.com,avmimi.com,mm-cg.com###friendLink
 18avhub.com,18avtube.com,mm-cg.com###partner
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
@@ -31768,6 +31770,9 @@ $websocket,domain=5nj.com|cechi8.com
 @@||dnspod.cn/static/common/js/analytics.js
 @@||doc110.com^*/ad.css?$stylesheet
 @@||docs.w3cub.com^$generichide
+@@||doda.jp/brand/ad/img/icon_play.png
+@@||doda.jp/cmn_web/img/brand/ad/ad_text_
+@@||doda.jp/cmn_web/img/brand/ad/ad_top_3.mp4
 @@||douban.com/popup/login?
 @@||doubibackup.com^$generichide
 @@||doubleclick.net/ddm/trackclk/$popup,domain=hongkongcard.com
@@ -37298,6 +37303,7 @@ etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="?plkey="])
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
+ettoday.net##.adHint
 ettoday.net##.ad_in_news
 ettoday.net##.ad_readmore
 ettoday.net##.content-container > .iframe-ad
@@ -40383,6 +40389,8 @@ jianshu.com##section[class][aria-label="ad360-ad"]
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jiaodong.net###leftBanner
 jiaodong.net###rightBanner
+jiayongluyou.com##.widget_image_myimg
+jiayongluyou.com#?#.widget_html_myimg:has(> ins.adsbygoogle)
 jieav.com##ul[id^="jieav_"]
 jieav.com#$##comment { margin-bottom: 0 !important; }
 jieav.com,miliav.com##.b300
@@ -41066,6 +41074,7 @@ limetorrents.lol#?#table:first-of-type:-abp-contains(Sponsored Links)
 limetorrents.pro##a[href^="/leet/?"] > img[src^="/static/images/download"]
 limetorrents.pro#?#.torrentinfo div + div:-abp-contains(Fast And Direct Download Safely And Anonymously)
 line.me###install_line
+line.me##.midAdModule-root
 lineageos18.com###contentLocker
 linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-brand"]
 lingojam.com###adsense-area-label
@@ -44044,6 +44053,7 @@ returnyoutubedislike.com###top-donors
 reuters##[testid="ResponsiveAdSlot"]
 reuters.com##[data-testid="ResponsiveAdSlot"]
 reuters.com##div[class^="AdSlot__container"]
+reuters.com##div[class^="RightRail-sticky-container"]
 reuters.com##div[class^="ad-slot__"]
 revelist.com##.b-container
 reverso.net###bottom-mega-rca-box
@@ -44184,7 +44194,7 @@ runtastic.com##.halfpage
 rupors.com#@#.advertSlider
 rusnext.ru###detectAdblock
 rusopen.com##.classblsi.addshr
-rustlabs.com###right-column > .sub-info-block
+rustlabs.com#?#.sub-info-block:-abp-has(#banner)
 rutab.net##div[class^="ggmodale"]
 ruten.com.tw###AdRelatedTitle
 ruten.com.tw###ad-467
@@ -44385,6 +44395,9 @@ senmanga.com##.box480x90
 sentinelnews.com,theandersonnews.com###div-promo
 sentinelnews.com,theandersonnews.com###pre-header
 sentinelnews.com,theandersonnews.com##div[style="height:620px;width:279px;margin:auto;margin-top:5px;background-color:#eaeaea;"]
+senzuri.tube##.content > div > .hv-block-transparent
+senzuri.tube##.video-page__watchfull-special
+senzuri.tube##.video-tube-friends
 sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
 sephora.com#?#div[data-comp^="RmnBanner"]:-abp-has(p:-abp-contains(Sponsored))
 seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
@@ -54677,6 +54690,7 @@ zzzyk.com###Tinfo
 ||agdcdf.live^
 ||agdcdf.shop^
 ||ageandinone.xyz^
+||agefans.top/js/wap2-jm-ms.js
 ||ageismvipery.com^
 ||agency2.ru^
 ||agenduret.com^
@@ -70017,6 +70031,7 @@ zzzyk.com###Tinfo
 ||eighthwaspish.com^
 ||eightuntrue.com^
 ||eightvodrumble.com^
+||eignan.com^
 ||eigned.com^
 ||eignky.xyz^
 ||eiinaq.xyz^
@@ -70228,6 +70243,7 @@ zzzyk.com###Tinfo
 ||emjs.mkzhan.com^
 ||emjysmk.cn^
 ||emkarto.fun^
+||emkyrzrjnjrmw.top^
 ||emlifok.info^
 ||emltrk.com^
 ||emmermyotic.com^
@@ -76998,6 +77014,7 @@ zzzyk.com###Tinfo
 ||hptcwtmzuj.com^
 ||hpvl2kb.icu^
 ||hpvvn.com^
+||hpvwdkn.cn^
 ||hpwqsjpkbiixue.com^
 ||hpychofen.com^
 ||hpygame.com^
@@ -79715,6 +79732,7 @@ zzzyk.com###Tinfo
 ||jd6pq31f.site^
 ||jdaa22.top^
 ||jdamc.top^
+||jdcnwd.com^
 ||jddaw.com^
 ||jdexcgb.cn^
 ||jdgsgl.com^
@@ -96911,6 +96929,7 @@ zzzyk.com###Tinfo
 ||s.kma1.biz^
 ||s.logsss.com^
 ||s.mangalivre.net^
+||s.myangular.life^
 ||s.mycar-life.com/amp-itd.html
 ||s.mycar-life.com/amp-side-special01.html
 ||s.news.naver.com^
@@ -112673,6 +112692,7 @@ zzzyk.com###Tinfo
 ||zjst.net/3.gif
 ||zjthzf.xyz^
 ||zjttaqx.cn^
+||zjtu.tv/add.
 ||zjws.xyz^
 ||zjxc.com/source/plugin/e6_xc_ad/
 ||zk.91post.com^
