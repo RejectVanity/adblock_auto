@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BJvsLycuPtnTBsuvfgJ94g
+! Checksum: 1/uWrHOmIaF0vgREVBvZ6g
 ! Title: 混合规则(自动更新)
-! Version: 20230713161033
+! Version: 20230714000843
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-13 16:10:33
-! Total Count: 113224
+! Last modified: 2023-07-14 00:08:43
+! Total Count: 113238
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17543,6 +17543,7 @@
 ##ADS-RIGHT
 ##AMP-AD
 ##A[href*=".com/?Agent="]
+##A[href*="kdocs.cn"] > IMG[src*="sstv."]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
@@ -36351,6 +36352,7 @@ dc.fsecity.com,dmzj.com,idmzj.com#@#[onclick*="app"]
 dcard.tw#?##comment-anchor > section > div[style] > div[data-index]:-abp-has(> div[class] > div > div[id^="div-gpt-ad"])
 dcard.tw#?##comment-anchor > section > div[style] > div[data-index]:has(> div[class] > div > div[id^="div-gpt-ad"])
 dcard.tw#?#div[data-index] > article:contains(贊助活動)
+dcard.tw#?#div[role="main"] div[class^="atm_26_"]:has(> div[class^="atm_26_"] > div[style="min-height:90px"] > div[id^="div-gpt-ad"])
 dcfever.com##.col-md-right > div[style^="margin-bottom: 20px; text-align: center;"]
 dcfever.com##.container > .row > .col-md-12[style^="margin-top:"][style*="text-align: center; width:"][style*="min-height:"]
 dcloud.net.cn##.aw-ad-item
@@ -56199,6 +56201,7 @@ zzzyk.com###Tinfo
 ||analytics.svt.se^
 ||analytics.tebilisim.com^
 ||analytics.techweb.com.cn^
+||analytics.tedium.co^
 ||analytics.teespring.com^
 ||analytics.teko.vn^
 ||analytics.teleclal.com^
@@ -59852,6 +59855,7 @@ zzzyk.com###Tinfo
 ||biancheng.net/templets/new/images/index_pc/fudaoban_
 ||biancheng.net/uploads/ggxc/
 ||biandaosheng.com^
+||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
 ||bianxianmao.com^$third-party
 ||bianzhirensheng.com/img/banner.jpg
 ||bianzhirensheng.com/img/bianzhiji.jpg
@@ -64523,6 +64527,7 @@ zzzyk.com###Tinfo
 ||connectingresort.com^
 ||connectio.s3.amazonaws.com^
 ||connectionads.com^
+||connectreadoasis.com^
 ||connects.ch^
 ||connexity.net^
 ||connexplace.com^
@@ -66678,6 +66683,7 @@ zzzyk.com###Tinfo
 ||dad-api.dcard.tw^
 ||dada8828.com/js/aaa/
 ||dadawm.cc^
+||dadbj.cn^
 ||dadcc.cn^
 ||dadde.cn^
 ||daddq.cn^
@@ -69323,6 +69329,7 @@ zzzyk.com###Tinfo
 ||dyj8pbcnat4xv.cloudfront.net^
 ||dyjcydn.cloud^
 ||dyjqd.com/images/js/dyjqd.js
+||dykshao.cn/image/$third-party
 ||dymfodqwwtrw.xyz^
 ||dymmt.com/skin/mzitu/js/foot.
 ||dynaads.net^
@@ -71637,6 +71644,7 @@ zzzyk.com###Tinfo
 ||fallingfalcon.com^
 ||falobo.ru^
 ||faloo.com/ou/site/
+||falsarywaybung.com^
 ||falsefeet.com^
 ||falseframe.com^
 ||falsemulticultural.com^
@@ -72327,7 +72335,6 @@ zzzyk.com###Tinfo
 ||fivecdm.com^
 ||fivelegant.com^
 ||fivetrafficroads.com^
-||fiveyardlab.com^
 ||fiwhibse.com^
 ||fiwyjar.cn^
 ||fixbreakthrough.com^
@@ -76682,6 +76689,7 @@ zzzyk.com###Tinfo
 ||hljcq.xyz^
 ||hllowvsion.click^
 ||hlmiq.com^
+||hlnr9q.icu^
 ||hlryy.top^
 ||hlserve.com^
 ||hlstlyy.com^
@@ -81945,6 +81953,7 @@ zzzyk.com###Tinfo
 ||kymirasite.pro^
 ||kypivukypi.ru^
 ||kyq3hky.icu^
+||kyq3xch.icu^
 ||kyqbifz.cn^
 ||kyqcfj.com^
 ||kyriod.com^
@@ -82851,6 +82860,7 @@ zzzyk.com###Tinfo
 ||lifu11.com^
 ||lifuguan.cn^
 ||lifvfr.xyz^
+||lifyeldl.top^
 ||ligatus.com^
 ||lighes.com^
 ||lightcushion.com^
@@ -83616,6 +83626,9 @@ zzzyk.com###Tinfo
 ||loggingapi.spingo.com^
 ||loggingservices.tribune.com^
 ||loggly.cheatsheet.com^
+||loggw-ex.alipay.com^
+||loggw.alipay.com.cn^
+||loggw.alipay.com^
 ||logicalmodelvisible.com^
 ||logicanalytics.io^
 ||logicdate.com^
@@ -88043,6 +88056,7 @@ zzzyk.com###Tinfo
 ||nidelove.club^
 ||nideqoa.ru^
 ||nidredra.net^
+||nieae.xyz^
 ||niececordthrone.com^
 ||nieveni.com^
 ||nifiel.com^
