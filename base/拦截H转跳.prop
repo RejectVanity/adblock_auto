@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AbLFZyigx7WnSWBoj946iQ
+! Checksum: 6JqzS6YUDZVdYs6c0aWI1g
 ! Title: 拦截黄色网站转跳
-! Version: 20230709225557
-! Last modified: 2023-07-09 22:55:57
-! Total Count: 264
+! Version: 20230714224324
+! Last modified: 2023-07-14 22:43:24
+! Total Count: 266
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -144,6 +144,8 @@
 ://chio*.xyz/*.html$~third-party
 ://ly*.guixiangyuan.xyz$document
 ://ly*.guixiangyuan.xyz$~third-party
+://missav*.com/pop?url=$document
+://missav*.com/pop?url=$~third-party
 zhaotianbao1.cn/*/ywy*.apk$document
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||144w6.com^$document
