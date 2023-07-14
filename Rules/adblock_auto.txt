@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1/uWrHOmIaF0vgREVBvZ6g
+! Checksum: Y22uAqJJO3FaZhey81l5NQ
 ! Title: 混合规则(自动更新)
-! Version: 20230714000843
+! Version: 20230714084211
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-14 00:08:43
-! Total Count: 113238
+! Last modified: 2023-07-14 08:42:11
+! Total Count: 113245
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17543,7 +17543,6 @@
 ##ADS-RIGHT
 ##AMP-AD
 ##A[href*=".com/?Agent="]
-##A[href*="kdocs.cn"] > IMG[src*="sstv."]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
@@ -18188,6 +18187,7 @@
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
+##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="nnqp.vip"]
 ##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
@@ -35246,6 +35246,7 @@ centurylink.net,wowway.net###sc_home_header_banner
 ceoexpress.com###kalamazooDiv
 cesafe.com,kkpan.com,yxdj.com.cn##.m-a-linktwo
 cgchannel.com###mediumRectangle
+cger.com,pcsoft.com.cn#@#.share_box
 cgown.com##.banner-gg
 cgown.com##.breadcrumb-gg
 chacuo.net###mailtooltipss
@@ -35447,10 +35448,10 @@ christianpost.com##.article-divider
 chromecastappstips.com###fwdevpDiv0
 chromecj.com##.topblock
 chromefk.com##.tip-alert
-chron.com##.b-gray300.bt.bb
-chron.com##.b-gray300.md\:bt.md\:bb
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 chron.com,seattlepi.com##[data-block-type="ad"]
+chron.com,sfgate.com##.b-gray300.bt.bb
+chron.com,sfgate.com##.b-gray300.md\:bt.md\:bb
 chronline.com##.cq-creative
 chsi.com.cn##.zx-axvert
 chtoen.com##.adsbygoogle:not([data-ad-slot="9717665976"])
@@ -43050,7 +43051,6 @@ pcsoft.com.cn##.xzdz_huodong
 pcsoft.com.cn##a[onclick*="_ad"]
 pcsoft.com.cn##div[style^="width:100px;height:300px;position:fixed;"]
 pcsoft.com.cn##iframe[id]
-pcsoft.com.cn#@#.share_box
 pcstats.com##table[width="866"]
 pcstore.com.tw###id_index_ad_bimg
 pcstore.com.tw###keyad-right
@@ -44369,13 +44369,13 @@ searchenginereports.net###imagess3
 searchenginereports.net##a[title="Ad"]
 searchfiles.de###nextuse
 seattlepi.com##.b-gray300
-seattlepi.com##.b-gray300.bt
-seattlepi.com##.b-gray300.md\:bt
 seattlepi.com##.ctpl-fullbanner
 seattlepi.com##.hnpad-Flex1
 seattlepi.com##.hnpad-Inline
 seattlepi.com##.pt40
 seattlepi.com##.y100.package
+seattlepi.com,sfgate.com##.b-gray300.bt
+seattlepi.com,sfgate.com##.b-gray300.md\:bt
 seattlepride.org##.section_sponsorship
 seattleweekly.com#?#.marketplace-row-item-wrapper:-abp-has(.sponsored)
 secretchicago.com##.google-ad-manager-ads-header
@@ -61057,6 +61057,7 @@ zzzyk.com###Tinfo
 ||browser.covatic.io^
 ||browser.events.data.msn.cn^
 ||browser.events.data.msn.com^
+||browser.pipe.aria.microsoft.com^
 ||browser.sentry-cdn.com^
 ||browser1.ru^
 ||browserdownloadz.com^
@@ -62930,6 +62931,7 @@ zzzyk.com###Tinfo
 ||chicssnowman.com^
 ||chidir.com^
 ||chidsimp.com^
+||chiese.site^
 ||chignonrelics.com^
 ||chijauqybb.xyz^
 ||chikhanos.info^
@@ -79920,6 +79922,7 @@ zzzyk.com###Tinfo
 ||jhuvybt.cn^
 ||jhxcld.xyz^
 ||jhxqfgbj.com^
+||jhzfwl.cn^
 ||jhzotqafwgb.com^
 ||jia-huan.cn^
 ||jia.com/js/common/article_home_adv.js
@@ -82156,6 +82159,7 @@ zzzyk.com###Tinfo
 ||lamimi.cn^
 ||laminarrailage.com^
 ||lamise.ru^
+||lamkghx.icu^
 ||lamma.24ex.net^
 ||lammasbananas.com^
 ||lamp-shade.net^
@@ -89653,6 +89657,7 @@ zzzyk.com###Tinfo
 ||oomsoapt.net^
 ||oomtexoa.com^
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
+||oopej.xyz^
 ||oopodmomenta.website^
 ||oopsauwa.xyz^
 ||oopt.fr^
@@ -91046,6 +91051,7 @@ zzzyk.com###Tinfo
 ||pctlwm.com^
 ||pctsrv.com^
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
+||pcvzpj.xyz^
 ||pcxtvr.xyz^
 ||pd-news.com^
 ||pdayyocpnvh.ru^
@@ -98227,6 +98233,7 @@ zzzyk.com###Tinfo
 ||sf16-scmcdn-sg.ibytedtos.com^
 ||sf2.net/a/index.
 ||sffsdvc.com^
+||sfg11rr.com^
 ||sfgprze.cn^$document
 ||sfgprze.cn^$~third-party
 ||sfinwoyxjx.xyz^

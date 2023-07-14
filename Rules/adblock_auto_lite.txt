@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: X8VHZmN71qz9a2w8HC2ANw
+! Checksum: gYDzHxQi4U1cBrQL7RXwgg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230714000848
+! Version: 20230714084216
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-14 00:08:48
-! Total Count: 19355
+! Last modified: 2023-07-14 08:42:16
+! Total Count: 19361
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1258,7 +1258,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
-##A[href*="kdocs.cn"] > IMG[src*="sstv."]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
@@ -1718,6 +1717,7 @@
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
+##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="nnqp.vip"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
@@ -9479,6 +9479,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||chexun.net/images/sales//cxgg/
 ||chicmifi.com^
 ||chidir.com^
+||chiese.site^
 ||childlikecrowd.com^$third-party
 ||childlikeform.com^$third-party
 ||chiluyingxiao.com^$third-party
@@ -12773,6 +12774,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jhgtf.com^
 ||jhlxfw.cn^
 ||jhxcld.xyz^
+||jhzfwl.cn^
 ||jia-huan.cn^
 ||jia.com/js/common/article_home_adv.js
 ||jiadunkeji.com^
@@ -13500,6 +13502,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||laixi.com/tp/20
 ||laladui.buzz^
 ||lambda.center^
+||lamkghx.icu^
 ||lancdn.com/landian/public/recm/54181RECM.png
 ||lancdn.com^*/Alipay_HB.
 ||lancdn.com^*/Alipay_RC.
@@ -14969,6 +14972,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ooexkqj.cn^
 ||oofyjik.xyz^
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
+||oopej.xyz^
 ||ooqiu.com/ad_js/
 ||oorlsblk.cyou^
 ||op7s.top^
@@ -15174,6 +15178,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pcstore.com.tw/adm/psearch_payad_
 ||pcstore.com.tw/css/myacc_init.js
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
+||pcvzpj.xyz^
 ||pcxtvr.xyz^
 ||pddbtn.xyz^
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
@@ -16315,6 +16320,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sexyno1.com/mk-banner/
 ||sf16-scmcdn-sg.ibytedtos.com^
 ||sf2.net/a/index.
+||sfg11rr.com^
 ||sfgprze.cn^$document
 ||sfgprze.cn^$~third-party
 ||sfnmt.com/dq/
