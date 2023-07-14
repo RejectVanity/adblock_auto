@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Y22uAqJJO3FaZhey81l5NQ
+! Checksum: kPD8HbslIlBnTUbvwPAy2w
 ! Title: 混合规则(自动更新)
-! Version: 20230714084211
+! Version: 20230714160940
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-14 08:42:11
-! Total Count: 113245
+! Last modified: 2023-07-14 16:09:40
+! Total Count: 113248
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17543,6 +17543,7 @@
 ##ADS-RIGHT
 ##AMP-AD
 ##A[href*=".com/?Agent="]
+##A[href*=".taobao.com"] > .top1
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
@@ -29256,7 +29257,7 @@ $websocket,domain=5nj.com|cechi8.com
 58pic.com##.xyyh
 591hx.com##.banner_w
 5dm.app##.top1
-5dm.app#@#.tm-share-this
+5dm.app,5dm.link#@#.tm-share-this
 5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##img[width="1240"]
 5eplay.com##img[width="290"][height="360"]
@@ -73304,6 +73305,7 @@ zzzyk.com###Tinfo
 ||fwtrck.com^
 ||fwwang.cn/templets/fw/js/art
 ||fwwjbvz.cn^
+||fwzvlp.xyz^
 ||fx-trend.com^
 ||fx110.*/Pub/Ghz/GetModel
 ||fx110.*/Scripts/1.0.0/gulpmin/Ghz/
@@ -112395,6 +112397,7 @@ zzzyk.com###Tinfo
 ||zcp.zwame.pt^
 ||zcrui.com^
 ||zcsnjbjlwn.com^
+||zcvyzsyd.icu^
 ||zczcvx.com^
 ||zd518.cn/bfq2.html
 ||zdabnt.*$third-party
