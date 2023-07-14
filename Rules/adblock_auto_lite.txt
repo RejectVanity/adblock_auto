@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: LfVU5+mYozzg6IeQQqRyTg
+! Checksum: X74ogK7knSCdbxPbSKEzwg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230714160945
+! Version: 20230714224654
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-14 16:09:45
-! Total Count: 19363
+! Last modified: 2023-07-14 22:46:54
+! Total Count: 19367
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1258,6 +1258,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
+##A[href*=".taobao.com"] > .top1
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
@@ -3223,7 +3224,7 @@
 69vj.com###vban
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
 7itv.com##*[style*="display"][style*="block"],*[style*="position"][style*="fixed"],*[style*="bottom:"],[class$="_b"]
-7mmtv.sx,adultdeepfakes.com,missav.com,missav123.com,missav888.com,thisav.com##[class^="root--"]
+7mmtv.sx,adultdeepfakes.com,missav.com,missav123.com,missav789.com,missav888.com,thisav.com##[class^="root--"]
 7sim.net##html > body ~ div
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
 99re.com##a[href][target="_blank"] > img[src]
@@ -3623,6 +3624,8 @@
 ://m.yetianlian.so/*/*.js
 ://m.yetianlian.tw/*/*.js
 ://m.yetianlian.us/*/*.js
+://missav*.com/pop?url=$document
+://missav*.com/pop?url=$~third-party
 ://mobivx.*.cam$third-party
 ://mobivx.*.club$third-party
 ://mobivx.*.cyou$third-party
@@ -5433,10 +5436,10 @@ mhnew.xyz,mhhanman.xyz##[id^="hfad"]
 minimultik.ru###abDetected
 miobt.com##.gg_canvas
 miobt.com##.gg_canvas-hidden
-missav.com,missav888.com,missav123.com,thisav.com##.under_player
-missav.com,missav888.com,missav123.com,thisav.com##[href*="//bit.ly/"]
-missav.com,missav888.com,missav123.com,thisav.com##div[class^="flex justify-center"]
-missav.com,missav888.com,missav123.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
+missav.com,missav123.com,missav789.com,missav888.com,thisav.com##.under_player
+missav.com,missav123.com,missav789.com,missav888.com,thisav.com##[href*="//bit.ly/"]
+missav.com,missav123.com,missav789.com,missav888.com,thisav.com##div[class^="flex justify-center"]
+missav.com,missav123.com,missav789.com,missav888.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 mobile.baidu.com##div[class*="card-recommend"]
 mobile.baidu.com##div[class^="detail-banner-"]
@@ -18554,6 +18557,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xuexi.hydcd.com^
 ||xuexiwa.com^$script,third-party
 ||xuhaijun.pw^
+||xukou.net^
 ||xuliglsw.space^
 ||xulizui6.com^
 ||xumnxwvw.ink^
