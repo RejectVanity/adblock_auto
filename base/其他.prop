@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: o38H6ytRoNshPgspR9NT/g
+! Checksum: xxuc2lnAT17Tb+qb6TW9ow
 ! Title: 自用去广告Adblock规则
-! Version: 20230715082847
-! Last modified: 2023-07-15 08:28:47
-! Total Count: 1729
+! Version: 20230715090416
+! Last modified: 2023-07-15 09:04:16
+! Total Count: 1734
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -437,7 +437,9 @@
 .cc/api/getPos?jspath=/$~third-party
 .club/r/*$xmlhttprequest
 .cn/20*/*/*.txt$third-party
+.cn/Report/*-*-$third-party,other
 .cn/api/getPos?jspath=/$~third-party
+.cn/cg/*-*.cg$third-party
 .cn/j/*$script,third-party
 .cn/k/*$script,third-party
 .cn/s/*.xc$third-party
@@ -1566,6 +1568,7 @@ zle.com$script
 ||merwds.qwuidbn.com^$third-party
 ||missav.com/pop?url=
 ||missav123.com/pop?url=
+||missav789.com/pop?url=
 ||mklou.yuvdqnpo.com^
 ||moatads.com^
 ||mobixc.manlisgx.fun^
@@ -1601,6 +1604,7 @@ zle.com$script
 ||qlspx.com:$third-party
 ||qpolkmbbf.com$third-party
 ||qwfbiujsknjk.com^
+||qwiudbnaiio.com^$third-party
 ||rd.autohome.com.cn^
 ||rdx.autohome.com.cn^
 ||read*.me/app/*.js$script
@@ -1627,6 +1631,7 @@ zle.com$script
 ||stats.autohome.com.cn^
 ||stgowan.com^
 ||sugs.m.sm.cn^
+||superchat.live^
 ||surface361.com^$third-party
 ||svdpgmt.cn^
 ||sznj91.com^
