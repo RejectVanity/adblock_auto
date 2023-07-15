@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8QTDhA2OkbWsmaZxM5hS+A
+! Checksum: +OSQuGYAUL4N8Sdu31ipAQ
 ! Title: 混合规则(自动更新)
-! Version: 20230715084030
+! Version: 20230715090640
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-15 08:40:30
-! Total Count: 113477
+! Last modified: 2023-07-15 09:06:40
+! Total Count: 113484
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19960,10 +19960,12 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/20*/*/*.txt$third-party
 .cn/?ss=
 .cn/?ss=$script,third-party
+.cn/Report/*-*-$third-party,other
 .cn/a.gif?
 .cn/ads/
 .cn/api/getPos?jspath=/$~third-party
 .cn/b.gif?
+.cn/cg/*-*.cg$third-party
 .cn/gg/$script,third-party
 .cn/h.html?id=$document
 .cn/h.html?id=$~third-party
@@ -20659,6 +20661,8 @@ $websocket,domain=5nj.com|cechi8.com
 /#/pages/video/video/?shareName=$document
 /#/pages/video/video/?shareName=$~third-party
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
+/(https?:\/\/)(this|miss)av[0-9]+\.(xyz|top|live|com|cn)\/pop\?url=/$document
+/(https?:\/\/)(this|miss)av[0-9]+\.(xyz|top|live|com|cn)\/pop\?url=/$~third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
@@ -86095,6 +86099,7 @@ zzzyk.com###Tinfo
 ||missav.com/pop?url=
 ||missav.com/static/img/partners/
 ||missav123.com/pop?url=
+||missav789.com/pop?url=
 ||missevan.com^$domain=jijidown.com
 ||missgrand.beauty^
 ||missilesurvive.com^
@@ -94834,6 +94839,7 @@ zzzyk.com###Tinfo
 ||qwex.ru^
 ||qwfbiujsknjk.com^
 ||qwfh39851jtfvkurf21hf.com^
+||qwiudbnaiio.com^$third-party
 ||qwogldy.top^
 ||qwrdj.xyz^
 ||qwrot.cyou^
@@ -101886,6 +101892,7 @@ zzzyk.com###Tinfo
 ||superbanner.org^
 ||superbdolly.com^
 ||superbisle.com^
+||superchat.live^
 ||superclix.de^
 ||supercounters.com^
 ||superdeos.com^

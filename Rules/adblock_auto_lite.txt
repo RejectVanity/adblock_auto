@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0j/k06nebO0ACHSr+SPeeQ
+! Checksum: X2TFiJTw0MIpTn88/NW2Jg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230715084036
+! Version: 20230715090646
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-15 08:40:36
-! Total Count: 19376
+! Last modified: 2023-07-15 09:06:46
+! Total Count: 19383
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2532,10 +2532,12 @@
 .cn/*.html?c=dyyu$document
 .cn/*.html?c=dyyu$~third-party
 .cn/20*/*/*.txt$third-party
+.cn/Report/*-*-$third-party,other
 .cn/a.gif?
 .cn/ads/
 .cn/api/getPos?jspath=/$~third-party
 .cn/b.gif?
+.cn/cg/*-*.cg$third-party
 .cn/gg/$script,third-party
 .cn/h.html?id=$document
 .cn/h.html?id=$~third-party
@@ -2951,6 +2953,8 @@
 /#/home?c=ggcha$~third-party
 /#/pages/video/video/?shareName=$document
 /#/pages/video/video/?shareName=$~third-party
+/(https?:\/\/)(this|miss)av[0-9]+\.(xyz|top|live|com|cn)\/pop\?url=/$document
+/(https?:\/\/)(this|miss)av[0-9]+\.(xyz|top|live|com|cn)\/pop\?url=/$~third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
@@ -14258,6 +14262,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||missav.com/pop?url=
 ||missav.com/static/img/partners/
 ||missav123.com/pop?url=
+||missav789.com/pop?url=
 ||missevan.com^$domain=jijidown.com
 ||missyuan.com/sy/
 ||mitbbs.*/servicedata/static_ad.php
@@ -15843,6 +15848,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qwcqqw.xyz^
 ||qwe0231141.bj.bcebos.com^
 ||qwfbiujsknjk.com^
+||qwiudbnaiio.com^$third-party
 ||qwogldy.top^
 ||qwrdj.xyz^
 ||qwrot.cyou^
@@ -16852,6 +16858,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||super.bad996.com/*ads.js
 ||super.cat898.com^
 ||super.kdnet.net^
+||superchat.live^
 ||superficialeyes.com^$third-party
 ||superfish.com^$third-party
 ||supersonicads-a.akamaihd.net^
