@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8VR1Ejg4QNf4l/CNCtiFww
+! Checksum: AzS2zdocAdcEft/U5+PmnQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230715000847
+! Version: 20230715083441
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-15 00:08:47
-! Total Count: 19368
+! Last modified: 2023-07-15 08:34:41
+! Total Count: 19375
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1258,7 +1258,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
-##A[href*=".taobao.com"] > .top1
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
@@ -1531,6 +1530,7 @@
 ##a[href*=".snmlyshj.com/"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".supernfp.com/"]
+##a[href*=".taobao.com"] > .top1
 ##a[href*=".tdchat.in"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
@@ -2026,6 +2026,7 @@
 ##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
+##img[id^="GGADIMG"][src]
 ##img[id^="GGADIMG"][src][class="loading"]
 ##img[onclick*=".5408h.cn"]
 ##img[onclick*=".aiyou305.com/"]
@@ -5128,6 +5129,7 @@ darkteam.net##.pls_rmv
 daz3d.ru,portfel.info##body > div[id][style="display: block;"]
 dbz-fantasy.com#@##adTeaser
 dc.fsecity.com,dmzj.com,idmzj.com#@#[onclick*="app"]
+ddav.xyz,ddav.com##img[id^="GGADIMG"][src],a[href*="://asiav.cyou"][target="_blank"],a[href][target="_blank"][style],[class^="happy_undie"],[class^="touchy-wrapper"]
 ddys.art##div > a[href][target="_blank"] > img
 ddys.art##div > span > a > img
 dealerdunet.fr#@#.text_ads
@@ -13065,6 +13067,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jsx.luyouwang.com^
 ||jsyd139.com^$third-party
 ||jsyefc.com^
+||jszavs1.com^
 ||jsztl.com/img/particular/tbyhq.jpg
 ||jtbo*.nqxvevk.cn^
 ||jtpu9s.icu^
@@ -15347,6 +15350,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||pmb*.tj.ali213.net/js/
 ||pmcppla.cn^
 ||pmthinktank.shop^
+||pmxalz.xyz^
 ||pnesemr.cn^
 ||pnez8.rut6m.xyz^
 ||pniao99.com/statics/js/stat.js
@@ -15767,6 +15771,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qqjia.com/images/ad
 ||qqk19.com/data/content
 ||qqm98.com^
+||qqnde.xyz^
 ||qqnggnsy.fun^
 ||qqtn.com/js/*0.js
 ||qqtn.com/js/downinfo-
@@ -15781,6 +15786,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qs9jfd.com^
 ||qs9jfd.xyz^
 ||qsanciy.top^
+||qselic.top^
 ||qsezjy.cn^
 ||qsj8fd.com^
 ||qsj8fd.xyz^
@@ -17190,6 +17196,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tmioe.com/img/att/boom.jpg
 ||tmochyf.cn^
 ||tmrhoe2.com^
+||tmwbszn.icu^
 ||tmz.vo.llnwd.net^
 ||tnarzc.com^
 ||tnc16-*.byteoversea.com^
