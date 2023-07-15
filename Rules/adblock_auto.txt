@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ZHWySpl3fAyIRiIWr31Kcw
+! Checksum: h/qioTAW7C4NlwawFeIakA
 ! Title: 混合规则(自动更新)
-! Version: 20230715160900
+! Version: 20230715195413
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-15 16:09:00
-! Total Count: 112817
+! Last modified: 2023-07-15 19:54:13
+! Total Count: 112824
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9832,6 +9832,7 @@
 ##.adssmall
 ##.adssquare
 ##.adssquare2
+##.adsterra
 ##.adstext
 ##.adstextpad
 ##.adstipt
@@ -33359,8 +33360,8 @@ airfactsjournal.com##.avia_image
 airfactsjournal.com,apkmb.com,hexieshe.cn,wbap.com###media_image-3
 airmail.news,govevents.com,protipster.com##.display
 airplaydirect.com#@##header_ad
+airplaydirect.com,bankbazaar.com,cultofcalcio.com,dailynews.lk,economicconfidential.com,issuu.com,newzimbabwe.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##[height="90"]
 airplaydirect.com,cultofcalcio.com,dailynews.lk,economicconfidential.com,elitepvpers.com,newzimbabwe.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##img[height="90"]
-airplaydirect.com,cultofcalcio.com,dailynews.lk,economicconfidential.com,issuu.com,newzimbabwe.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##[height="90"]
 airportinfo.live,audiokarma.org,audizine.com##.AdvallyTag
 aiscore.com##.bet365
 aiscore.com##.justify-center.w100
@@ -33986,6 +33987,7 @@ axios-js.com##.lessonlist
 axios-js.com##.recommand
 axios-js.com##.vultr-desc
 axios.com##.shortFormNativeAd
+axios.com##[data-cy="injected-promo"]
 axios.com##[data-vars-category="sidebar_promo"]
 axisbank.com##.topbandBg_New
 axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
@@ -34303,6 +34305,7 @@ bangordailynews.com##.scaip
 bangordailynews.com##.wp-block-newspack-blocks-wp-block-newspack-ads-blocks-ad-unit
 banjiajia.com##.register-box
 banjiajia.com##.register-ten
+bankbazaar.com##[height="80"]
 banma.com##div[id^="disapper"]
 banzou.name###ads_1
 banzou.name###ads_2
@@ -41181,6 +41184,8 @@ loldk.com##a[href$=".html?from=video_right"]
 loldk.com##a[href^="http://www.esportsclub.cn/home/"]
 lolshipin.com,malaysiastory.com,wahm.com##.box2
 londonnewsonline.co.uk##img[width="360"]
+longevity.technology##.addvertisment
+longevity.technology,news18.com##.add_section
 longjin123.com##.fc_foot
 longzhu.com##.chatroom-ap
 longzhu.com##.pop-up-button
@@ -41862,7 +41867,9 @@ money.com##.ca-widget-inline
 money.yahoo.com,tw.news.yahoo.com,yahoo.com###sda-MON
 money18.on.cc#@#.ads-bg
 moneycontrol.com##.add-spot
+moneycontrol.com##.ads-320-50
 moneycontrol.com##.mf_radarad
+moneycontrol.com##.rhs_banner_300x34_widget
 moneycontrol.com,windowsreport.com##.hide-mobile
 moneynet.com.tw##.ads-fixed-bottom
 moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
@@ -42427,7 +42434,6 @@ news12.com##.banner-midContent-area
 news12.com##.banner-middleboard-area
 news12.com##.banner-sidebar-area
 news18.com##.NAT_add
-news18.com##.add_section
 news18.com##.article_mad
 news18.com##.article_main > div[style="min-height: 1170px;"]
 news18.com##.article_main > div[style="min-height:1170px"]
@@ -44201,6 +44207,7 @@ ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费
 ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
 ruanyifeng.com#@?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#@?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
+rugby365.com##.snack-container
 rugbyonslaught.com##.sticky-add
 ruian.com##.ad_opera
 ruian.com##div[class^="gg_"]
