@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: E0+tvEYVxksKfe8hfbW83w
+! Checksum: ZHWySpl3fAyIRiIWr31Kcw
 ! Title: 混合规则(自动更新)
-! Version: 20230715094341
+! Version: 20230715160900
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-15 09:43:41
-! Total Count: 112813
+! Last modified: 2023-07-15 16:09:00
+! Total Count: 112817
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17235,6 +17235,7 @@
 ##.wahAdRight
 ##.waldo-display-unit
 ##.waldo-placeholder
+##.waldo-placeholder-bottom
 ##.wall-ads-control
 ##.wall-ads-right
 ##.wallAd
@@ -42950,6 +42951,7 @@ paraphraser.io##.after_button_box
 parentdish.co.uk###rr-amazon
 parkers.co.uk##.inline-leaderboard-ad-wrapper
 passiontimes.hk##.rectAd680
+paste.fo##[data-asid]
 pastebin.com##.content > [style^="padding-bottom:"]
 pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 pastemagazine.com###above_logo
@@ -44229,6 +44231,8 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 saabplanet.com##.baner
 sabcnews.com##.jeg_topbar
 sabcsport.com##.sbac_header_top_ad
+safetydetectives.com###best_deals_widget
+safetydetectives.com,univisa.com.cn###popup
 saharareporters.com###sidebar-top
 saharareporters.com###stage-header
 saharareporters.com##.body-inject
@@ -44959,6 +44963,7 @@ solarbe.com##.RT_banner
 solarbe.com##a[href*="redirect"] > img[width^="3"]
 solidot.org###headads
 solidot.org##.e_reply > .fr
+solidtorrents.to###alart-box > .view-box
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
 songfacts.com##.songfacts-song-inline-ads
 songkick.com##.video-ad-wrapper
@@ -46411,7 +46416,6 @@ unionpedia.org##div[style^="margin-top: 15px; min-width: 300px"]
 unitconversion.org###ileft
 unitconversion.org###iright
 unitconversion.org##a[href="../noads.html"]
-univisa.com.cn###popup
 unixmen.com##.banners_home
 unknowncheats.me##[href="https://securecheats.com/"]
 unknowncheats.me##[href^="https://proxy-seller.com/"]
