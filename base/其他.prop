@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xxuc2lnAT17Tb+qb6TW9ow
+! Checksum: Fr8O6gFk+RIFA8Vwhrg9lg
 ! Title: 自用去广告Adblock规则
-! Version: 20230715090416
-! Last modified: 2023-07-15 09:04:16
-! Total Count: 1734
+! Version: 20230717125023
+! Last modified: 2023-07-17 12:50:23
+! Total Count: 1736
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1062,6 +1062,7 @@ missav.com,missav888.com,missav123.com,missav789.com,thisav.com##.under_player
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##[class^="root--"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##[href*="//bit.ly/"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##div[class^="flex justify-center"]
+missav.com,missav888.com,missav123.com,missav789.com,thisav.com##iframe[src*="://creative.live.missav.com/widgets/"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 mobile.baidu.com##div[class*="card-recommend"]
 mobile.baidu.com##div[class^="detail-banner-"]
@@ -1555,6 +1556,7 @@ zle.com$script
 ||lanmeifeel.xyz^
 ||leads.api.autohome.com.cn^
 ||leads.autohome.com.cn^
+||lezhutv.com/static/jquerys.js
 ||ln.tian-ting.ink^
 ||log.m.sm.cn^
 ||lqglqq.com^$third-party

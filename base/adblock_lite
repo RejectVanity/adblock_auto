@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: E4RSTotx+QatRGjoktGDFA
+! Checksum: e+7jAsf5gb85PoLm2aB7Ww
 ! Title: 混合规则(精简版)
-! Version: 20230715093543
+! Version: 20230717130256
 ! Expires: 1145141919810
-! Last modified: 2023-07-15 09:35:59
-! Total Count: 18946
+! Last modified: 2023-07-17 13:03:14
+! Total Count: 18936
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -4294,7 +4294,6 @@
 ?frm=*&ct=*&dit=$third-party
 ?method=baidu.ting.commercial.tactics&
 @@.cc/*/*/comm*.js$~third-party
-@@.cc/*/*jquery*.js$~third-party
 @@.cc/*/*zepto*.js$~third-party
 @@.cc/*/comm*.js$~third-party
 @@.cc/*/common.js$~third-party
@@ -4332,7 +4331,6 @@
 @@.cc/xxgg/comm.js$~third-party
 @@.cc/xxgg/yuedu.js$~third-party
 @@.cn/*/*/comm*.js$~third-party
-@@.cn/*/*jquery*.js$~third-party
 @@.cn/*/*zepto*.js$~third-party
 @@.cn/*/comm*.js$~third-party
 @@.cn/*/common.js$~third-party
@@ -4370,7 +4368,6 @@
 @@.cn/xxgg/comm.js$~third-party
 @@.cn/xxgg/yuedu.js$~third-party
 @@.co/*/*/comm*.js$~third-party
-@@.co/*/*jquery*.js$~third-party
 @@.co/*/*zepto*.js$~third-party
 @@.co/*/comm*.js$~third-party
 @@.co/*/common.js$~third-party
@@ -4408,7 +4405,6 @@
 @@.co/xxgg/comm.js$~third-party
 @@.co/xxgg/yuedu.js$~third-party
 @@.com/*/*/comm*.js$~third-party
-@@.com/*/*jquery*.js$~third-party
 @@.com/*/*zepto*.js$~third-party
 @@.com/*/comm*.js$~third-party
 @@.com/*/common.js$~third-party
@@ -4446,7 +4442,6 @@
 @@.com/xxgg/comm.js$~third-party
 @@.com/xxgg/yuedu.js$~third-party
 @@.info/*/*/comm*.js$~third-party
-@@.info/*/*jquery*.js$~third-party
 @@.info/*/*zepto*.js$~third-party
 @@.info/*/comm*.js$~third-party
 @@.info/*/common.js$~third-party
@@ -4484,7 +4479,6 @@
 @@.info/xxgg/comm.js$~third-party
 @@.info/xxgg/yuedu.js$~third-party
 @@.la/*/*/comm*.js$~third-party
-@@.la/*/*jquery*.js$~third-party
 @@.la/*/*zepto*.js$~third-party
 @@.la/*/comm*.js$~third-party
 @@.la/*/common.js$~third-party
@@ -4522,7 +4516,6 @@
 @@.la/xxgg/comm.js$~third-party
 @@.la/xxgg/yuedu.js$~third-party
 @@.me/*/*/comm*.js$~third-party
-@@.me/*/*jquery*.js$~third-party
 @@.me/*/*zepto*.js$~third-party
 @@.me/*/comm*.js$~third-party
 @@.me/*/common.js$~third-party
@@ -4560,7 +4553,6 @@
 @@.me/xxgg/comm.js$~third-party
 @@.me/xxgg/yuedu.js$~third-party
 @@.net/*/*/comm*.js$~third-party
-@@.net/*/*jquery*.js$~third-party
 @@.net/*/*zepto*.js$~third-party
 @@.net/*/comm*.js$~third-party
 @@.net/*/common.js$~third-party
@@ -4598,7 +4590,6 @@
 @@.net/xxgg/comm.js$~third-party
 @@.net/xxgg/yuedu.js$~third-party
 @@.org/*/*/comm*.js$~third-party
-@@.org/*/*jquery*.js$~third-party
 @@.org/*/*zepto*.js$~third-party
 @@.org/*/comm*.js$~third-party
 @@.org/*/common.js$~third-party
@@ -4636,7 +4627,6 @@
 @@.org/xxgg/comm.js$~third-party
 @@.org/xxgg/yuedu.js$~third-party
 @@.so/*/*/comm*.js$~third-party
-@@.so/*/*jquery*.js$~third-party
 @@.so/*/*zepto*.js$~third-party
 @@.so/*/comm*.js$~third-party
 @@.so/*/common.js$~third-party
@@ -4674,7 +4664,6 @@
 @@.so/xxgg/comm.js$~third-party
 @@.so/xxgg/yuedu.js$~third-party
 @@.tw/*/*/comm*.js$~third-party
-@@.tw/*/*jquery*.js$~third-party
 @@.tw/*/*zepto*.js$~third-party
 @@.tw/*/comm*.js$~third-party
 @@.tw/*/common.js$~third-party
@@ -4712,7 +4701,6 @@
 @@.tw/xxgg/comm.js$~third-party
 @@.tw/xxgg/yuedu.js$~third-party
 @@.us/*/*/comm*.js$~third-party
-@@.us/*/*jquery*.js$~third-party
 @@.us/*/*zepto*.js$~third-party
 @@.us/*/comm*.js$~third-party
 @@.us/*/common.js$~third-party
@@ -5350,6 +5338,7 @@ miobt.com##.gg_canvas-hidden
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##.under_player
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##[href*="//bit.ly/"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##div[class^="flex justify-center"]
+missav.com,missav888.com,missav123.com,missav789.com,thisav.com##iframe[src*="://creative.live.missav.com/widgets/"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 mobile.baidu.com##div[class*="card-recommend"]
@@ -13327,6 +13316,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||letaojuan68.com^
 ||letv.com/pzt/hyhmzq/index.shtml
 ||lewqiiy.xyz^
+||lezhutv.com/static/jquerys.js
 ||leztc.com^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lfsenmei.com^
