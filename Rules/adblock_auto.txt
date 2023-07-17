@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TWbUdlgs6m87OiKjBC9AzA
+! Checksum: dOPEpfNIlUVv39tFl5TuDA
 ! Title: 混合规则(自动更新)
-! Version: 20230717000806
+! Version: 20230717084341
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-17 00:08:06
-! Total Count: 112973
+! Last modified: 2023-07-17 08:43:41
+! Total Count: 112986
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -28551,6 +28551,7 @@ $websocket,domain=5nj.com|cechi8.com
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="20%"] > a[target="_blank"]
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="25%"]
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="33%"]
+18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="50%"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="320"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="330"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="900"]
@@ -35450,6 +35451,7 @@ chongdiantou.com##.nice-sales
 chordify.net###campaign_banner
 chordify.net##.a1p2y5ib
 christianpost.com##.article-divider
+chrome-stats.com##div[id*="billboard_responsive"]
 chromecastappstips.com###fwdevpDiv0
 chromecj.com##.topblock
 chromefk.com##.tip-alert
@@ -39088,7 +39090,7 @@ hentai2read.com##div[data-type="leaderboard-top"]
 hentai2read.com,vk.barkov.net##.alert-danger
 hentai2w.com##.aff-col
 hentai2w.com##.aff-content-col
-hentai2w.com,pornxt.com,xhentai.tv###playerOverlay
+hentai2w.com,iporntoo.com,pornxt.com,xhentai.tv###playerOverlay
 hentaianimedownloads.com##.bp_detail
 hentaicomic.*,wnacg1.cc,wnacg.*##+js(abort-current-script, document.write, /\.(gif|php)/)
 hentaicomic.org,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wnacg.com,wnacg.org,wnacg.ru,wnacg.top,wnacg4.com,wnacgs.com#@##adsbox
@@ -39725,6 +39727,7 @@ ijiandao.com###index_top_ad
 ijiandao.com##div[class^="banner_h_"]
 ik123.com###aa960a
 ikandy.fun##.stui-banner__pic[href="/statics/js/ky-a.html"]
+ikandy1.com##A[href*="/ky-a.html"]
 ikjzd.com##.article-banner-wrap
 ikjzd.com##.foot-advert-box
 ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
@@ -39991,6 +39994,7 @@ iplaysoft.com##.d250x90
 iplaysoft.com##.entry-content + div[style="margin:-10px 0 0 0;overflow:hidden"]
 iplaysoft.com##[style*="width:3"][style*="height:2"]
 iplaysoft.com##div[style="background:#fcf0ef;width:680px;height:130px;border-radius:8px;margin-top:28px;position:relative"]
+iporntoo.com##.adbox-inner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###con-ar > .result-op[mu*="nourl.ubs.baidu.com"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > div
@@ -48871,6 +48875,7 @@ zzzyk.com###Tinfo
 ||1368999.com^
 ||136dd8678f.com^
 ||137.175.69.92^
+||1379a.xyz^
 ||137kfj65k.de^
 ||1381a.xyz^
 ||1383a.xyz^
@@ -53435,6 +53440,7 @@ zzzyk.com###Tinfo
 ||ads-resources.waze.com^
 ||ads-sdk.mattel163.com^
 ||ads-server.mxplay.com^
+||ads-static.conde.digital^
 ||ads-thanhnien-vn.cdn.ampproject.org^
 ||ads-trk.vidible.tv^
 ||ads-twitter.com^
@@ -58964,6 +58970,7 @@ zzzyk.com###Tinfo
 ||bbeljxm2dvwnfib.ru^
 ||bbes.xyz^
 ||bbfabeagadcfbjfbgh.ru^
+||bbges.xyz^
 ||bbgickdocf.xyz^
 ||bbgtranst.com^
 ||bbhktv.xyz^
@@ -70657,6 +70664,7 @@ zzzyk.com###Tinfo
 ||esefurthere.buzz^
 ||esescvyjtqoda.xyz^
 ||eset-affiliate.de^
+||esgher.fun^
 ||esgher.site^
 ||eshaurie.xyz^
 ||eshkol.io^
@@ -76267,6 +76275,7 @@ zzzyk.com###Tinfo
 ||hgbvtax.cn^
 ||hgcmnews.pro^
 ||hgearlpfbm.top^
+||hgf8hck.com^
 ||hgfsdzfs.com^
 ||hggtt.top^
 ||hghit.com^
@@ -88004,6 +88013,7 @@ zzzyk.com###Tinfo
 ||njih.net^
 ||njmbgc.cn^
 ||njmkilpqzibv.com^
+||njogejt.icu^
 ||njq.net^
 ||njs.manhuahome.com^
 ||njs.manhuahome.com^$third-party
@@ -107767,6 +107777,7 @@ zzzyk.com###Tinfo
 ||vnet.cn^*.html
 ||vnet.cn^*.html?$popup,third-party
 ||vnfjsus.xyz^
+||vnfsbl.xyz^
 ||vnfunsvrtm.com^
 ||vnghuw.xyz^
 ||vnlqcod.cn^
@@ -110624,6 +110635,7 @@ zzzyk.com###Tinfo
 ||xpartners.nl^
 ||xpcha.com/js/notice.js
 ||xpctraffic.com^
+||xpcwrgy.cn^
 ||xpdjsd.cn^
 ||xpdyqax.cn^
 ||xpectthatmy.shop^
@@ -110688,6 +110700,7 @@ zzzyk.com###Tinfo
 ||xt2d.cn^
 ||xtasattazv.com^
 ||xtb.ink^
+||xtbzff.xyz^
 ||xtdsxjlk.club^
 ||xtendmedia.com^
 ||xtgreat.com^
