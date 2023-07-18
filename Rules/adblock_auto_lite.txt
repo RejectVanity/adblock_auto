@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: +VZys3VGSn8aKD7RsxCwLg
+! Checksum: nsPUgOjLWCmj2pUuWgecBA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230719000946
+! Version: 20230719041254
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-19 00:09:46
-! Total Count: 19348
+! Last modified: 2023-07-19 04:12:54
+! Total Count: 19350
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2631,6 +2631,7 @@
 .com/sh/back/*$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
 .com/sh/to/*$third-party
+.com/sitejs/hansan.js
 .com/static/js/ad.js
 .com/style/vue.js?v=
 .com/tonglan.js
@@ -2901,6 +2902,7 @@
 .xyz/kallss?$third-party
 .xyz/mithril?$third-party
 .xyz/o.js
+.xyz/o.js$script,third-party
 .xyz/polymer?$third-party
 .xyz/r/*$xmlhttprequest
 .xyz/stimulus?$third-party
@@ -4917,6 +4919,7 @@ _naimabdd_
 _popAds.
 _rectangle_ads.
 _reklama_$domain=~youtube.com
+_rony.js$script,third-party
 _tm11_pmt_
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
@@ -5690,6 +5693,7 @@ ssmh01.top,ssmh02.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga
 stalkerportaal.ru##.video_adsense
 strikeout.co,vipbox.sx,vipleague.co,vipleague.is##div[style="display: block;"]
 stroi-help.ru##.alert_warn
+sunshinewaay.cn##img[class$="BnImg"]
 sv.baidu.com##.open-button-wrap
 swaego.ru##body > .special-message-wrapper
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
@@ -6123,7 +6127,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||107.182.131.103/cache/?q=/images/
 ||107.183.137.18^
 ||107.187.122.172^
-||107cine.com/front/js/layer.js
 ||108.171.248.234^
 ||109218er.xyz^
 ||10fang.com/static/skin/tfy/layer/layer.js
@@ -8381,7 +8384,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||autohome.com.cn/ximg/*.png$script
 ||autoimg.cn/club/v1Content/images/heycar1111.jpg
 ||autoimg.cn/club/v1Content/images/young
-||autoimg.cn/engine/root/fggxl.js
 ||automaticairplane.com^$third-party
 ||autonet.com.tw/90/
 ||autopiano.cn/data/jd_
