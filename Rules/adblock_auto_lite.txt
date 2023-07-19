@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9WH7CnjRzjF3aZSCy4bEBQ
+! Checksum: 4EFBVTP8AVmQjE+T79Y/Kg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230719160856
+! Version: 20230720000801
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-19 16:08:56
-! Total Count: 19361
+! Last modified: 2023-07-20 00:08:01
+! Total Count: 19363
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1153,6 +1153,7 @@
 ##.spon-img[src*=".alicdn."]
 ##.sponsor_image
 ##.spot_nav_under_ad
+##.standard-article-vertical-ad
 ##.static-a2d
 ##.stui-vodlist__thumb.lazyload[href^="http"][target="_blank"]
 ##.stui-vodlist__thumb.lazyload[href^="http"][target="_blank"] + .stui-vodlist__detail
@@ -1914,6 +1915,7 @@
 ##div[onclick*=".lyty49.com"]
 ##div[onclick*=".open"][onclick*="leyu"]
 ##div[onclick*=".rwnyou.com"]
+##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="/ky0777.cn"]
 ##div[onclick*="?i_code="]
 ##div[onclick*="bdtz5.com"]

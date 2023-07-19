@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: M1gt4WPfnEuDe1XKoaPjHA
+! Checksum: ypCXxjYjfny8smMDgPYIzA
 ! Title: 混合规则(自动更新)
-! Version: 20230719160850
+! Version: 20230720000756
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-19 16:08:50
-! Total Count: 113134
+! Last modified: 2023-07-20 00:07:56
+! Total Count: 113150
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -16541,6 +16541,7 @@
 ##.ssp-advert
 ##.standalonead
 ##.standard-ad-container
+##.standard-article-vertical-ad
 ##.standard_ad_slot
 ##.star-ad
 ##.start__advertising_container
@@ -18787,6 +18788,7 @@
 ##div[onclick*=".open"][onclick*="leyu"]
 ##div[onclick*=".rwnyou.com"]
 ##div[onclick*=".yyav5.top"]
+##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="/ky0777.cn"]
 ##div[onclick*="?i_code="]
 ##div[onclick*="bdtz5.com"]
@@ -29065,7 +29067,7 @@ $websocket,domain=5nj.com|cechi8.com
 4qrcode.com###addContainer
 4shared.com##.remove-rekl
 4spaces.org,fuliba2023.net,fuliba23.net,uliba.net,ypojie.com##.widget_ui_orbui
-4sysops.com,9to5linux.com,arcjav.com,backthetruckup.com,catcountry941.com,cnx-software.com,corvetteblogger.com,dailyveracity.com,fastestvpns.com,fuliba2020.net,fuliba2021.net,fuliba2023.net,gamingonphone.com,gizmochina.com,hardwaretimes.com,hotcelebshome.com,javcrave.com,landiannews.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,pussycatxx.com,quickanswer.blog,robloxhackscripts.com,ruyo.net,sashares.co.za,techdows.com,techjuice.pk,thinkcivics.com,tooxclusive.com,torrentfreak.com,trendingpoliticsnews.com,uliba.net,vrhotporn.top##.widget_custom_html
+4sysops.com,9to5linux.com,arcjav.com,backthetruckup.com,catcountry941.com,cnx-software.com,corvetteblogger.com,dailyveracity.com,fastestvpns.com,fuliba2020.net,fuliba2021.net,fuliba2023.net,gamingonphone.com,gizmochina.com,hardwaretimes.com,hotcelebshome.com,javcrave.com,landiannews.com,macsources.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,openloading.com,pussycatxx.com,quickanswer.blog,robloxhackscripts.com,ruyo.net,sashares.co.za,scienceabc.com,techdows.com,techjuice.pk,thinkcivics.com,tooxclusive.com,torrentfreak.com,trendingpoliticsnews.com,uliba.net,vrhotporn.top##.widget_custom_html
 4teachers.org###banner-wrapper
 4tube.com###main-jessy-grid
 4tube.com##.cpp
@@ -33588,7 +33590,7 @@ androidpolice.com##.w-pencil-banner
 androidpolice.com,constructionreviewonline.com,cryptobriefing.com,dereeze.com,tyretradenews.co.uk##.ai-track
 androidsage.com##.code-block-9
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,streamtelly.com,techpp.com,whats-on-netflix.com##.code-block-1
-androidsage.com,patriotfetch.com##.code-block-5
+androidsage.com,patriotfetch.com,scienceabc.com##.code-block-5
 androidtrends.com,backthetruckup.com,trendstorys.com##.a-wrap
 androidweblog.com##.cgdyh > [data-adid]
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,codedevstuff.blogspot.com,comic.tw,hassiweb-programming.blogspot.com,jasonblog.tw#@#.vertical-ads
@@ -34689,6 +34691,8 @@ blabber.buzz##.topfeed
 blackcaps.co.nz##.commercial-partners
 blackdesert-info.ru##div[class][style*="z-index"][style*="999999;"][style*="background"][style*="rgb"]
 blackhaloadultreviews.com,hentaigasm.com,javjunkies.com,masahub.net,missav.com,phun.org,porn-w.org,yespornplease.porn##a[href*="//bit.ly/"]
+blackhatworld.com##.bhw-advertise-link
+blackhatworld.com##.link--external
 blasternation.com###xobda
 blastingnews.com###content-banner-dx1-p1
 blastingnews.com##.adv-box-content
@@ -40260,6 +40264,7 @@ iwan.baidu.com###j-ditu
 iwan.baidu.com###j-media
 iwan.baidu.com###side-xbox
 iwan.baidu.com,news.am,nexter.org,viva.co.nz##.side-banner
+iwara.tv##.contentBlock__content
 iwatchme2u.com##+js(nano-setTimeout-booster, video-ad-timeout, *, 0.02)
 iwatchme2u.com##+js(window.open-defuser, /bit\.ly|kbtv/)
 iwatchme2u.com##.video-ad-box
@@ -43498,6 +43503,8 @@ pornjam.com##.r1ght-pl4yer-43
 pornlulu.com##.row.links
 pornmd.com##.suggestions-box
 pornone.com##.video-add
+pornone.com##.warp
+pornone.com##a[class^="listing"]
 pornoreino.com##.bottom-bang
 pornoreino.com##.right-side
 pornpapa.com##.js-mob-popup
@@ -44325,6 +44332,9 @@ schoolguide.co.za##.banner-bar
 schoolguide.co.za##.banner-bar-bot
 sci-hub.org.cn##.gs_r[data-cid=""]
 sci-hub.org.cn##.gs_red[style="color:#EB7F00"]
+scienceabc.com###fusenative
+scienceabc.com##.bigincontentad
+scienceabc.com##.incontentad
 sciencealert.com###Purch_D_R_0_1
 sciencealert.com###rt-header
 sciencealert.com##.Purch_Y_C_0_1-container
@@ -48021,6 +48031,8 @@ yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;marg
 yule.iqiyi.com##div[style="width:970px;margin:0 auto;padding:10px 0;text-align:center;"]
 yun.cn##div[class*="ad-block"]
 yunduanxin.xyz###adb-mask
+yunpan.com#@#.share-new
+yunpan.com#@#.share-wrapper
 yusuan123.com##a[href*="/goto/"]
 yutu.cn###botfocus-res
 yuukinohana.co.jp#@##gwd-ad
@@ -54681,6 +54693,7 @@ zzzyk.com###Tinfo
 ||afterwardspenal.com^
 ||afterwardstationquestions.com^
 ||aftrangale.com^
+||aftrk1.com^
 ||afvmusm.cn^
 ||afwpc.com^
 ||afx001.pw^
@@ -71088,6 +71101,7 @@ zzzyk.com###Tinfo
 ||evolvemediallc.com^
 ||evolvenation.com^
 ||evorra.net^
+||evours.com^
 ||evouxoup.com^
 ||evs.data.ciceksepeti.com^
 ||evs.proxy.analytics.shutterstock.com^
@@ -73179,6 +73193,7 @@ zzzyk.com###Tinfo
 ||fuojuw.com^
 ||fuoo1.top^
 ||fuoo1.top^$third-party
+||furded.com^
 ||furiosocomique.com^
 ||furlsstealbilk.com^
 ||furnacemanagerstates.com^
@@ -88724,6 +88739,7 @@ zzzyk.com###Tinfo
 ||nzydzsw.com^
 ||nzydzsw.com^$third-party
 ||nzymeedg.icu^
+||o-nad.com^
 ||o-oo.ooo^
 ||o-s.io^
 ||o.027eat.com^
