@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Qtg6WPaGosxvitnHNdgADg
+! Checksum: 6ELCEo5Iod+m/5oBKIJ47g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230722083650
+! Version: 20230722160744
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-22 08:36:50
-! Total Count: 19402
+! Last modified: 2023-07-22 16:07:44
+! Total Count: 19416
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -551,6 +551,7 @@
 ##.ad-below-post-title
 ##.ad-below-related-post
 ##.ad-block
+##.ad-block-cn
 ##.ad-block-detected
 ##.ad-block-enabled
 ##.ad-block-message
@@ -1059,6 +1060,7 @@
 ##.modal__body-adblock
 ##.module-adslist
 ##.module-adslists
+##.module-ttlist.tt_w-2
 ##.msg-AdBlock
 ##.msg-adblock
 ##.my-cat.my-cat-header
@@ -1098,6 +1100,7 @@
 ##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm > a[target="_blank"]
 ##.player-rm-float
+##.player-tt-rm.rm-list
 ##.player_ggw
 ##.playtop.col-pd
 ##.plc > .a_p
@@ -6196,6 +6199,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||126.net/house/hrb/flash/*X
 ||126.net/ntesrich/*/suning-
 ||126.net^$script,redirect=noop.js,domain=rjno1.com
+||1267a.xyz^
 ||127.net/2018/08/15/71ee02b5b61c4090b3ce0116306596c2.jpeg
 ||127.net/external/js6promote
 ||127.net/external/js6public126_
@@ -8981,6 +8985,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
+||bnfyzszm.icu^
 ||bnhxxj.xyz^
 ||bnl2bii.icu^
 ||bnlg.fun^
@@ -11417,6 +11422,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||godie.cyou^
 ||godloveme.cn^
 ||godlu.com^
+||godni.xyz^
 ||godpvqnszo.com^$third-party
 ||gogfhq.xyz^
 ||gogorenti.wang/js/m_cp
@@ -11762,6 +11768,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hdapp1008-a.akamaihd.net^
 ||hdc.maxli.cn^
 ||hdchina.*/styles/topshow/AD/
+||hdfdsdaw.com^
 ||hdgzta.com^
 ||hdherpc.cn^
 ||hdminfeng.com^
@@ -12120,6 +12127,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||hybbs.com/i/$image,object
 ||hybird.rayjump.com^
 ||hybrid.ai^
+||hyeqp.xyz^
 ||hyfumxc.cn^
 ||hyhfimgg.com^
 ||hyk9.xyz^
@@ -13575,6 +13583,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ledni.xyz^
 ||leeleo.top^$third-party
 ||lefengtv.com/js/tj.js
+||legdeh.fun^
 ||leiersuqd.com^
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leirsw.com^
@@ -15035,6 +15044,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||osp45qr.site^
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
 ||oss-cn-shanghai.aliyuncs.com/feimobileA.js
+||ossfile001.com^
 ||otantgi.cn^
 ||otcdn2.auditude.com^
 ||other.appcpi.net^
@@ -15847,6 +15857,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||qwandly.top^
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcqqw.xyz^
+||qwdbsjnql.com^
 ||qwe0231141.bj.bcebos.com^
 ||qwfbiujsknjk.com^
 ||qwiudbnaiio.com^$third-party
@@ -17198,6 +17209,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tl86tv.com/52
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tlhlpcb.xyz^
+||tlprlf.xyz^
 ||tlsynmli.fun^
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
@@ -17220,6 +17232,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tns.simba.taobao.com^
 ||to8to.com^$subdocument,third-party
 ||toadtexture.com^$third-party
+||toastspinner.com^
 ||todayapp.tv^$popup,third-party
 ||todayweather.co/ads.json
 ||toijr.xyz^
@@ -18338,6 +18351,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xchina.pro/upload/ad/
 ||xchina.tv/upload/ad/
 ||xcjwq.world^
+||xckj0623.com^
 ||xckyqq.com^
 ||xcmno.xyz^
 ||xcvdd.xyz^
