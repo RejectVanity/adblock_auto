@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UXzSAbtpSKq5BZspy7uxuQ
+! Checksum: F9f7jA6Z8ILK+wi9SY9ccQ
 ! Title: 拦截黄色网站转跳
-! Version: 20230715090234
-! Last modified: 2023-07-15 09:02:34
-! Total Count: 268
+! Version: 20230722220115
+! Last modified: 2023-07-22 22:01:15
+! Total Count: 280
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -116,6 +116,10 @@
 /dayu*.html?channelCode=$~third-party
 /domredirect?visitid=$document
 /domredirect?visitid=$~third-party
+/home/game?id=vip*&gameCategoryId=0$document
+/home/game?id=vip*&gameCategoryId=0$~third-party
+/home/subgame?id=vip*&gameCategoryId=*&platformId=$document
+/home/subgame?id=vip*&gameCategoryId=*&platformId=$~third-party
 /v*/?channelCode=$document
 /v*/?channelCode=$~third-party
 /yeyue*.html?channelCode=$document
@@ -124,6 +128,8 @@
 139.196.80.247$~third-party
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
+://*.xn--*.net/16*.html#/$document
+://*.xn--*.net/16*.html#/$~third-party
 ://*:*/chunyu.html?k=$document
 ://*:*/chunyu.html?k=$~third-party
 ://*:*/dayu*.html?channelCode=$document
@@ -148,6 +154,10 @@
 ://ly*.guixiangyuan.xyz$~third-party
 ://missav*.com/pop?url=$document
 ://missav*.com/pop?url=$~third-party
+:2022/vip/index.php?refresh&rand=$document
+:2022/vip/index.php?refresh&rand=$~third-party
+:2023/vip/index.php?refresh&rand=$document
+:2023/vip/index.php?refresh&rand=$~third-party
 zhaotianbao1.cn/*/ywy*.apk$document
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||144w6.com^$document
@@ -232,6 +242,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||qapuote.cn^$~third-party
 ||qgfzb.com^$document
 ||qgfzb.com^$~third-party
+||qsbgubdez120.com^$document
+||qsbgubdez120.com^$~third-party
 ||sd.s*dad.com^$document
 ||sd.s*dad.com^$~third-party
 ||sfgprze.cn^$document
