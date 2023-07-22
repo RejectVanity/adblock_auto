@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Yk1jiyHKwEOFM5P7tN+WBw
+! Checksum: tvhe6KUDaKsLrg9AcP4CSA
 ! Title: 混合规则(自动更新)
-! Version: 20230722000807
+! Version: 20230722083645
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-22 00:08:07
-! Total Count: 113415
+! Last modified: 2023-07-22 08:36:45
+! Total Count: 113446
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6375,6 +6375,7 @@
 ##.ad-block-big
 ##.ad-block-bottom
 ##.ad-block-btf
+##.ad-block-cn
 ##.ad-block-container
 ##.ad-block-detected
 ##.ad-block-enabled
@@ -14594,6 +14595,7 @@
 ##.module-image-ad
 ##.module-rectangleads
 ##.module-sponsored-ads
+##.module-ttlist.tt_w-2
 ##.module-zerg
 ##.module1colAds
 ##.moduleAd
@@ -15158,6 +15160,7 @@
 ##.player-rm > a[target="_blank"]
 ##.player-rm-float
 ##.player-section__ad-b
+##.player-tt-rm.rm-list
 ##.player-under-ad
 ##.playerAd
 ##.playerAdv
@@ -41723,6 +41726,8 @@ merriam-webster.com##.ad-base
 merriam-webster.com##.max-h-\[94px\].min-h-\[94px\].max-w-\[730px\]
 metabattle.com##div[style="display: flex; justify-content: center; align-items: center; margin-top: 60px; min-height: 250px;"]
 metager.org#?#.result:-abp-has(.mark:-abp-contains(Ad))
+metager.org#?#.result:-abp-has(img[src="/img/mark-en.svg"])
+metager.org#?#.result:-abp-has(span:-abp-contains(Partner))
 metager.org#?#.result:-abp-has(span:-abp-contains(partnershop))
 metalsucks.net##.single-300-insert
 metar-taf.com##.controls-right
@@ -48893,6 +48898,7 @@ zzzyk.com###Tinfo
 ||126.net^$script,redirect=noop.js,domain=rjno1.com
 ||126.net^$script,redirect=noopjs,domain=rjno1.com
 ||126.net^*analysis
+||1267a.xyz^
 ||127.net/2018/08/15/71ee02b5b61c4090b3ce0116306596c2.jpeg
 ||127.net/external/js6promote
 ||127.net/external/js6public126_
@@ -52092,6 +52098,7 @@ zzzyk.com###Tinfo
 ||abuseewarlock.com^
 ||abusiveserving.com^
 ||abvwyuaskikol.com^
+||abwattfrutex.com^
 ||abwhyag.com^
 ||abyamaskor.com^
 ||abyssesbathman.com^
@@ -55785,6 +55792,7 @@ zzzyk.com###Tinfo
 ||ammaar.delivery.zeerak.cloud^
 ||ammankeyan.com^
 ||ammcg.imgscloud.com/toy/
+||ammits.com^
 ||ammunitionconsiderinstitution.com^
 ||amnet.tw^
 ||amnoctowlan.club^
@@ -60388,6 +60396,7 @@ zzzyk.com###Tinfo
 ||blogsontop.com^
 ||blogspot.com^*/s1600/drug.gif
 ||blogstatistics.sapoapps.vn^
+||blogterest.net/regular/?i=$subdocument
 ||blogtoplist.com^
 ||blogtraffic.de^
 ||blogtw.net^
@@ -62701,6 +62710,7 @@ zzzyk.com###Tinfo
 ||cfgr1.com^
 ||cfhijdsb.cn^
 ||cfhlrai.cn^
+||cfivfadtlr.com^
 ||cfkkdhs.cn^
 ||cfqc.me^
 ||cfrsoft.com^
@@ -72651,6 +72661,7 @@ zzzyk.com###Tinfo
 ||fntlyenclothe.xyz^
 ||fo.iphonevip.cn^
 ||fo.iphonevip.cn^$third-party
+||foagreen.xyz^
 ||foakiwhazoja.com^
 ||foalyraisins.com^
 ||foamidsputt.com^
@@ -74723,6 +74734,7 @@ zzzyk.com###Tinfo
 ||godloveme.cn^
 ||godlu.com^
 ||godlygeese.com^
+||godni.xyz^
 ||godpvqnszo.com^
 ||godpvqnszo.com^$third-party
 ||godspeaks.net^
@@ -75996,6 +76008,7 @@ zzzyk.com###Tinfo
 ||hassarexurbs.com^
 ||hasslepasta.com^
 ||hasslesneatly.com^
+||hastifuhllo.top^
 ||hatagashira.com^
 ||hatbenchmajestic.com^
 ||hatchasked.com^
@@ -76014,6 +76027,7 @@ zzzyk.com###Tinfo
 ||hauchiwu.com^
 ||hauganes.net^
 ||hauihsahuieoi398u89q.click^
+||haulairtime.com^
 ||haulmserinys.com^
 ||haulrationally.com^
 ||haulstugging.com^
@@ -76131,6 +76145,7 @@ zzzyk.com###Tinfo
 ||hdc.maxli.cn^
 ||hdchina.*/styles/topshow/AD/
 ||hddss.top^
+||hdfdsdaw.com^
 ||hdgzta.com^
 ||hdherpc.cn^
 ||hditers.com^
@@ -76282,6 +76297,7 @@ zzzyk.com###Tinfo
 ||helign.com^
 ||helilong.xyz^
 ||hellay.net^
+||hellmade.top^
 ||hellnebsh.live^
 ||hello-jm.com/foot.js
 ||hello.staticstuff.net^
@@ -77173,6 +77189,7 @@ zzzyk.com###Tinfo
 ||hqcx.net/index.php?m=poster&
 ||hqdfh.mobi^
 ||hqdoor.com/Web/
+||hqgearb.icu^
 ||hqmwuvdf.xyz^
 ||hqol.cn/up/ad/
 ||hqoqbs.xyz^
@@ -77546,6 +77563,7 @@ zzzyk.com###Tinfo
 ||hydragrouge.com^
 ||hydrahydra.ir^
 ||hydrangeao.com^
+||hyeqp.xyz^
 ||hyfntrak.com^
 ||hyfumxc.cn^
 ||hyfx.me^
@@ -80251,6 +80269,7 @@ zzzyk.com###Tinfo
 ||jkjoiij.cn^
 ||jkk7777.xyz^
 ||jklbilitukyd.xyz^
+||jklhs7u.com^
 ||jknmsdpo.xyz^
 ||jkthlsrdhni.com^
 ||jktopia.com^
@@ -82614,6 +82633,7 @@ zzzyk.com###Tinfo
 ||legalleg.com^
 ||legandruk.com^
 ||legcatastrophetransmitted.com^
+||legdeh.fun^
 ||legely.com^
 ||legendadmiration.com^
 ||legendsmaestri.com^
@@ -82899,6 +82919,7 @@ zzzyk.com###Tinfo
 ||lichtpass.com^
 ||lichyela.ru^
 ||lickingimprovementpropulsion.com^
+||licmiwot.com^
 ||licoshnit.com^
 ||licted.com^
 ||liddenlywilli.org^
@@ -84293,6 +84314,7 @@ zzzyk.com###Tinfo
 ||lychangxu.cn^
 ||lychangxu.cn^$third-party
 ||lycheenews.com^
+||lycjsix.cn^
 ||lycodz.com^
 ||lycopinrekey.com^
 ||lycopuscris.com^
@@ -87650,6 +87672,7 @@ zzzyk.com###Tinfo
 ||ndfqoqo.cn^
 ||ndg.io^
 ||ndha4sding6gf.com^
+||ndhfywacw.com^
 ||ndjelsefd.com^
 ||ndkes.com^
 ||ndqzqmb.xyz^
@@ -89415,6 +89438,7 @@ zzzyk.com###Tinfo
 ||okcy.top^
 ||okdi.top^
 ||okdigital.me^
+||okehsominous.com^
 ||okew.top^
 ||okfzopj.cn^
 ||okgvtr.com^
@@ -89841,6 +89865,7 @@ zzzyk.com###Tinfo
 ||openmindter.com^
 ||openmonitor.alipay-eco.com^
 ||openmonitor.alipay.com^
+||opensdeiseal.com^
 ||openstat.net^
 ||opentecs.com^
 ||opentracker.net^
@@ -90108,6 +90133,7 @@ zzzyk.com###Tinfo
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
 ||oss-cn-shanghai.aliyuncs.com/feimobileA.js
 ||ossacmaw.com^
+||ossfile001.com^
 ||ossgogoaton.com^
 ||osshydreigonan.com^
 ||osskanger.com^
@@ -98398,6 +98424,7 @@ zzzyk.com###Tinfo
 ||sh0w-me-how.com^
 ||sh6ss7.top^
 ||sh996.dftoutiao.com^
+||shabaiks.com^
 ||shabsaco.net^
 ||shackapple.com^
 ||shacsda.name^
@@ -99820,6 +99847,7 @@ zzzyk.com###Tinfo
 ||sohu.com/s/sohuplayer/iplay.html?*&autoplay=true$domain=eetop.cn
 ||sohu999.com^
 ||soiasjgtd.top^
+||soicos.com^
 ||soilenthusiasmshindig.com^
 ||sojson.com/ps/list.
 ||sokitosa.com^
@@ -103894,6 +103922,7 @@ zzzyk.com###Tinfo
 ||tle.ru^
 ||tlhlpcb.xyz^
 ||tlootas.org^
+||tlprlf.xyz^
 ||tlprxzujk.com^
 ||tlrkcj17.de^
 ||tlrrlomssbt.com^
@@ -108339,6 +108368,7 @@ zzzyk.com###Tinfo
 ||vrhorus.com^
 ||vriddhiabrege.live^
 ||vrizead.com^
+||vrlvnz.xyz^
 ||vrmgwvz.cn^
 ||vrmynha.cn^
 ||vrrw.net//templets/default/js/ad.js
@@ -110577,6 +110607,7 @@ zzzyk.com###Tinfo
 ||xchina.tv/upload/ad/
 ||xcjcy.pro^
 ||xcjwq.world^
+||xckj0623.com^
 ||xckyqq.com^
 ||xclaimwords.net^
 ||xclicks.net^
