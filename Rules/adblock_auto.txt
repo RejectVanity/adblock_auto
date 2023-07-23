@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: HjLdI3V9GyQs/QZH7mIEEA
+! Checksum: muciObp4hTnpMsuNMBGj2w
 ! Title: 混合规则(自动更新)
-! Version: 20230723160751
+! Version: 20230723191234
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-23 16:07:51
-! Total Count: 113601
+! Last modified: 2023-07-23 19:12:34
+! Total Count: 113608
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17597,6 +17597,8 @@
 ##[class^="ad none"]
 ##[class^="ad-layer"]
 ##[class^="adDisplay-module"]
+##[class^="ads"][style] > a > img[width="100%"][alt]
+##[class^="ads"][style] > a[target="_blank"]
 ##[class^="adv-banner-"]
 ##[class^="amp-ad-"]
 ##[class^="appdownload_ad"]
@@ -31056,6 +31058,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.com/xxgg/bookxxll*.js$~third-party
 @@.com/xxgg/comm.js$~third-party
 @@.com/xxgg/yuedu.js$~third-party
+@@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.info/*/*/comm*.js$~third-party
@@ -36408,6 +36411,7 @@ dcloud.net.cn##.aw-ad-item
 dcnewsnow.com,ktla.com###bestreviews-widget
 ddav.org###adv-2
 ddav.xyz,ddav.com##img[id^="GGADIMG"][src],a[href*="://asiav.cyou"][target="_blank"],a[href][target="_blank"][style],[class^="happy_undie"],[class^="touchy-wrapper"]
+ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
 dditblog.com###income_div
 ddl826.pixnet.net#?#.article-body > div.forward ~ div[style^="position:"][style*="important"]
 ddooo.com##.gadat_list
@@ -37533,6 +37537,7 @@ fansshare.com##[width="300"]
 fansshare.com##div[style="background-image:url(http://img23.fansshare.com/media/img/advertisement.png);width:335px;height:282px;"]
 fantasygames.nascar.com##.larger-banner-wrapper
 fantuanhd.com###t-img-box
+fantuanhd.com,hktv02.com,hktv06.com,j1069.com,kankanju.cc,meijumi.buzz,meijumi.com,meijumi.xyz,renren.pro,rujiapawn.com,sbdm.net,sstv.fun,sysjbz.com,tvyb01.com,tvyb02.com,tvyb03.com,tvyb06.com,xhzysh.com,zq3q.com##*[style*="bottom"],[class$="_b"]
 fanyi.baidu.com###app-read
 fanyi.baidu.com##.app-bar
 fanyi.baidu.com##.appbanner
@@ -37927,6 +37932,7 @@ fpdisplay.com##table[width="960"][height="110"]
 fqlook.cn###rtj1009_iho3
 fqlook.cn###rtj1009_ren_imme1
 fqsousou.com,kengso.com#@#.user-share
+fqys1.com##[class^="ads"][style]
 fqzww.net##a[onclick="qinlintes11t2()"]
 frdic.com,godic.net##a[onclick*="/ads/"]
 free.com.tw,isekaiscan.com,miloserdov.org###custom_html-11
@@ -44139,6 +44145,7 @@ renonr.com##.below-header-widgets
 renonr.com##.category-sponsored-content
 renren.com###videoAd12
 renren.com##.toplive
+renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 rent.591.com.tw##.listRight-ad
 rent.ie###sresult_banner
 repeatmyvids.com,w3newspapers.com,wendu.cn###topads
@@ -47515,7 +47522,6 @@ xhofficial.com,xhamster.com,xhamster2.com##[class^="xp-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
 xhtml?$domain=kanshu8.net
 xhtml?%22+$script,third-party
-xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net##*[style*="bottom"],[class$="_b"]
 xhzyw.com###HtmlMoKua_752383
 xhzyw.com##.ads_bottom
 xia1ge.com##.wsappad
@@ -98501,6 +98507,7 @@ zzzyk.com###Tinfo
 ||sftapi.com^
 ||sftrack.searchforce.net^
 ||sfultraight.xyz^
+||sfvsjv.com/sh$third-party,script
 ||sfzztox.cn^
 ||sg.freeimg.ru^
 ||sg01.rayjump.com^

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xuIbR5rYKdXozdes1BoyYw
+! Checksum: NyN4bHVuX9L8KI3y0D2KdA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230723160756
+! Version: 20230723191239
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-23 16:07:56
-! Total Count: 19463
+! Last modified: 2023-07-23 19:12:39
+! Total Count: 19470
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1301,6 +1301,8 @@
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class^="ad none"]
 ##[class^="ad-layer"]
+##[class^="ads"][style] > a > img[width="100%"][alt]
+##[class^="ads"][style] > a[target="_blank"]
 ##[class^="adv-banner-"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
@@ -4516,6 +4518,7 @@
 @@.com/xxgg/bookxxll*.js$~third-party
 @@.com/xxgg/comm.js$~third-party
 @@.com/xxgg/yuedu.js$~third-party
+@@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
 @@.info/*/*/comm*.js$~third-party
 @@.info/*/*zepto*.js$~third-party
 @@.info/*/comm*.js$~third-party
@@ -5133,6 +5136,7 @@ daz3d.ru,portfel.info##body > div[id][style="display: block;"]
 dbz-fantasy.com#@##adTeaser
 dc.fsecity.com,dmzj.com,idmzj.com#@#[onclick*="app"]
 ddav.xyz,ddav.com##img[id^="GGADIMG"][src],a[href*="://asiav.cyou"][target="_blank"],a[href][target="_blank"][style],[class^="happy_undie"],[class^="touchy-wrapper"]
+ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##div > a[href][target="_blank"] > img
@@ -5178,6 +5182,7 @@ exler.ru##.adblock-pls
 factorio.su##body > div[id][class][style*="background"][style*="visible"]
 fairytailmx.com#@##sponsored-ad
 fanfics.me##.red.nodata
+fantuanhd.com,hktv02.com,hktv06.com,j1069.com,kankanju.cc,meijumi.buzz,meijumi.com,meijumi.xyz,renren.pro,rujiapawn.com,sbdm.net,sstv.fun,sysjbz.com,tvyb01.com,tvyb02.com,tvyb03.com,tvyb06.com,xhzysh.com,zq3q.com##*[style*="bottom"],[class$="_b"]
 fanyi.baidu.com##.app-bar
 fanyi.baidu.com##.bottom-intro
 fanyi.baidu.com##[class^="jifeng-"]
@@ -5198,6 +5203,7 @@ forum.virtualdjing.com#@#.adFrame
 forumdz.com##body .breadcrumb + center > [color="red"] > b
 fotoshop-online.org##.aslot
 fotoshop-online.org##section > .col-full + script + center[class]
+fqys1.com##[class^="ads"][style]
 freelogovectors.net##div[class^="popup"]
 freestore.app##.adbn2-wrap2
 frkp.lol###film > #content > span[style="color:#ff6a00;"]
@@ -5547,6 +5553,7 @@ radiox.com##.notifyjs-corner
 redtube.com###as_131
 redtube.com###slidePanelContainerAB
 redtube.com##.qb
+renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 reshuct.by,reshuolymp.ru,sdamgia.ru#@#.googlead
 reshuct.by,sdamgia.ru##div[class$="-BlockDetect"]
 retinaboys.com###screen_block
@@ -5855,7 +5862,6 @@ xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
 xhofficial.com,xhamster.com,xhamster2.com##[class^="xp-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
-xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net##*[style*="bottom"],[class$="_b"]
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 xnxx.com##[class*="ad-"]
@@ -16402,6 +16408,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||sfgprze.cn^$~third-party
 ||sfnmt.com/dq/
 ||sfsft.com/ckplayer/1config.js
+||sfvsjv.com/sh$third-party,script
 ||sganilglb.cyou^
 ||sgdgh15.com^
 ||sgegie.fun^
