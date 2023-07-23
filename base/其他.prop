@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1NPsFWw32A+bN0tbwwJ63A
+! Checksum: 93uEFmV5gS3EhyEDWQuPwg
 ! Title: 自用去广告Adblock规则
-! Version: 20230723004257
-! Last modified: 2023-07-23 00:42:57
-! Total Count: 1760
+! Version: 20230723111647
+! Last modified: 2023-07-23 11:16:47
+! Total Count: 1761
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -994,6 +994,7 @@ ifeng.com##[class^="appRecommend"]
 ifeng.com##[class^="bottom_box"]
 ifeng.com##[class^="fixSlideBox-"]
 ifeng.com##[class^="hot_box"]
+ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],header[class*="index_header"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"]
 javbabe.net###a-player
 javbabe.net,chinababe.net##.clipxx
 javbangers.com##.topnav > li > a[onclick][href]
