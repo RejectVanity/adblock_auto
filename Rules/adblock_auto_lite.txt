@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6zwX/t7ma4tiK1KSkfEzKw
+! Checksum: KYnBFiCiNYaBK1E1MWf3Ow
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230723192413
+! Version: 20230723202007
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-23 19:24:13
-! Total Count: 19465
+! Last modified: 2023-07-23 20:20:07
+! Total Count: 19471
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2544,7 +2544,9 @@
 .cn/z.gif?
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
+.cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
+.cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
 .co/ads/
 .co/js/ads/
@@ -2640,7 +2642,6 @@
 .com/s/*.xc$third-party
 .com/sc/*?n=$script,third-party
 .com/sc/*?n=$third-party
-.com/sc/*?x=$script,third-party
 .com/sc/*?x=$third-party
 .com/sh/back/*$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
@@ -2690,10 +2691,15 @@
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
 .com:80*/d/*0?c=$third-party
+.com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
+.com:8004/sc/*?*=$third-party
+.com:8007/sc/*?*=$third-party
+.com:8008/sc/*?*=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
+.com:8010/sc/*?*=$third-party
 .com:9*/yc/c/*/GEBEF$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
