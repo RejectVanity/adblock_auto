@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: e2rOS/nea9V75bxryQtMMg
+! Checksum: Imae3o1fQL+OgWC4KT2rcA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230723083916
+! Version: 20230723112538
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-23 08:39:16
-! Total Count: 19453
+! Last modified: 2023-07-23 11:25:38
+! Total Count: 19459
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -199,6 +199,7 @@
 ###bottom_qr_code
 ###bottomad
 ###bottombanner
+###bottommob.bottommob
 ###box-adblocker-wrap
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
@@ -5313,6 +5314,7 @@ ifeng.com##[class^="appRecommend"]
 ifeng.com##[class^="bottom_box"]
 ifeng.com##[class^="fixSlideBox-"]
 ifeng.com##[class^="hot_box"]
+ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],header[class*="index_header"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"]
 igorchernomoretz.com##body > div[id^="ab"]
 igorchernomoretz.com##body > div[id^="ab"] + div[style*="cursor"]
 imgrutor.com,playtor.tv##div[class^="adblock-warning"]
@@ -6444,6 +6446,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||22fssv.com^
 ||22pixx.xyz/l/
 ||23.224.89.2^$third-party
+||23.231.151.252^
 ||23.234.217.11^
 ||23.234.217.12^
 ||23.244.43.212^
@@ -9840,6 +9843,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||csgw.xyz^
 ||csh253.cn^
 ||csi.gstatic.com^
+||cslbahf.top^
 ||cspb1.5w5w.com^
 ||csqiulong.com^
 ||css.huvmi.com^
@@ -13228,6 +13232,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kaoyan1v1.com/IAA/
 ||kapsmnd.cyou^
 ||kart2ks.icu^
+||kasiklz.cc^
 ||kayzqar.cn^
 ||kb-render.alicdn.com/html/*.html
 ||kb5ke.xyz^
@@ -13466,6 +13471,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||kuwoyy.com^
 ||kuxinqi.com^
 ||kuyw.cn^
+||kv8899.com^
 ||kvbgoc.com^
 ||kveff.com^
 ||kvhcc.com^
