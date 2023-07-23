@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tTBiTzQYOreyaJTAcA2T4g
+! Checksum: AYBcW/XqD9olpIlLuhDc4A
 ! Title: 自用去广告Adblock规则
-! Version: 20230723114711
-! Last modified: 2023-07-23 11:47:11
-! Total Count: 1756
+! Version: 20230723190921
+! Last modified: 2023-07-23 19:09:22
+! Total Count: 1763
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -103,6 +103,8 @@
 ##[class][onclick="goAppHtml();"]
 ##[class^="ad none"]
 ##[class^="ad-layer"]
+##[class^="ads"][style] > a > img[width="100%"][alt]
+##[class^="ads"][style] > a[target="_blank"]
 ##[class^="adv-banner-"]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
@@ -720,6 +722,7 @@
 ://yin*.zgpingshu.com
 =AdCode_$third-party
 =AdCode_sjdb$third-party
+@@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@1anime.me/template/conch/asset/js/hlhtml.
@@ -877,6 +880,7 @@ d1bzw.com##[id="appurl"],[id="bbsurl"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
 dc.fsecity.com#@#[onclick*="app"]
 ddav.xyz,ddav.com##img[id^="GGADIMG"][src],a[href*="://asiav.cyou"][target="_blank"],a[href][target="_blank"][style],[class^="happy_undie"],[class^="touchy-wrapper"]
+ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##div > a[href][target="_blank"] > img
@@ -901,6 +905,7 @@ events.baidu.com##.bottom-img
 fanyi.baidu.com##.app-bar
 fanyi.baidu.com##.bottom-intro
 fanyi.baidu.com##[class^="jifeng-"]
+fqys1.com##[class^="ads"][style]
 gamcore.com##[class*="adn-"]
 game2.baifumeiba.com###gotoPlay
 gogumatv.com##[class^="mod-head"],[class^="popup_"][style],li[class^="mb"],iframe[src^="/ad"][src$=".html"]
@@ -1113,6 +1118,7 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##div[onclick*="bp1.com"]
 qinav.com##div[id^="qinav_b"]
+renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 sbdm.net##div#vodshare
 sexmod.pw,md91av.top,twavbook999.cc,siaoredbook.cc,mitaonuhai.cc,gipinreba.cc,r18lumod.cc##[class*="topads"],[class*="tads"],[class*="bottomads"],[class*="bads"],[class*="leftd"],[class*="rightd"],a[target="_blank"][href][onclick]
 sina.cn##.feed.module-extend.module-recommend
@@ -1349,7 +1355,7 @@ xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
 xhofficial.com,xhamster.com,xhamster2.com##[class^="xp-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
 xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
-xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net##*[style*="bottom"],[class$="_b"]
+xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net,fantuanhd.com,kankanju.cc,renren.pro,sstv.fun##*[style*="bottom"],[class$="_b"]
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xnxx.com##[class*="ad-"]
 xnxx.com##[id^="ad-"]
@@ -1641,6 +1647,7 @@ zle.com$script
 ||scjpqut.cn^
 ||sdk.51.la^
 ||sejieboxapi.yingyangdj.com^
+||sfvsjv.com/sh$third-party,script
 ||siduohua.top^
 ||sjdfuvz.cn^
 ||skluff.com^$third-party
