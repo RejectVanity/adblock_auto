@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AYBcW/XqD9olpIlLuhDc4A
+! Checksum: zhZd60IaGHtZeKP70k6rWg
 ! Title: 自用去广告Adblock规则
-! Version: 20230723190921
-! Last modified: 2023-07-23 19:09:22
-! Total Count: 1763
+! Version: 20230723195926
+! Last modified: 2023-07-23 19:59:26
+! Total Count: 1766
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -452,11 +452,11 @@
 .cn/j/*$script,third-party
 .cn/k/*$script,third-party
 .cn/s/*.xc$third-party
-.cn/sc/*?n=$script,third-party
 .cn/sc/*?n=$third-party
-.cn/sc/*?x=$script,third-party
 .cn/sc/*?x=$third-party
+.cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
+.cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
 .com./$popup,domain=pornhub.com
 .com/*/ddd1.js
@@ -470,9 +470,7 @@
 .com/j/*$script,third-party
 .com/k/*$script,third-party
 .com/s/*.xc$third-party
-.com/sc/*?n=$script,third-party
 .com/sc/*?n=$third-party
-.com/sc/*?x=$script,third-party
 .com/sc/*?x=$third-party
 .com/sh/back/*$third-party
 .com/sh/to/*$third-party
@@ -489,8 +487,13 @@
 .com:*/vj1/1$third-party
 .com:*/vj2/1$third-party
 .com:80*/d/*0?c=$third-party
+.com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
+.com:8004/sc/*?*=$third-party
+.com:8007/sc/*?*=$third-party
+.com:8008/sc/*?*=$third-party
+.com:8010/sc/*?*=$third-party
 .com:9*/yc/c/*/GEBEF$third-party
 .html?channelCode=$third-party
 .la/8WaadBLH/*.js
