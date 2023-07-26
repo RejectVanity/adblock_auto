@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0ViDKc6qygBb1gvVYnJi8w
+! Checksum: XP9gzEi7J9t6ZIKghh4gBg
 ! Title: 混合规则(自动更新)
-! Version: 20230726170308
+! Version: 20230727000803
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-26 17:03:08
-! Total Count: 114041
+! Last modified: 2023-07-27 00:08:03
+! Total Count: 114053
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -33529,6 +33529,8 @@ alu.cn##.Tg_260x70
 alu.cn##.Tg_290x60
 alu.cn##.Tg_390x60
 alu.cn##.Tg_590x60
+alypw.com##.adbkk
+alypw.com##.ceadd
 amateur-vids.eu,camgirl-video.com,gigapornmovies.com,mature.community,mature.mom,mature.sexy,mature.studio,milf.community,milf.mom,milf.plus,milf.sexy##.happy-under-player
 amateur-vids.eu,mature.community,mature.mom,mature.sexy,milf.community,milf.mom,milf.plus,milf.sexy##.happy-footer
 amateur8.com##.is-av
@@ -39744,6 +39746,8 @@ ifeng.com##div[class^="d_box-"]
 ifeng.com##div[class^="dbox"]
 ifeng.com##div[class^="games_ad_"]
 ifeng.com##div[class^="h"] > div[class$="-main"]
+ifeng.com##div[class^="index_topBox_"]
+ifeng.com##div[class^="index_top_box_"]
 ifeng.com##div[class^="layout-"] > div#subNav + div
 ifeng.com##div[class^="middleAd"]
 ifeng.com##div[class^="pplive"]
@@ -41782,7 +41786,11 @@ merriam-webster.com##.abl
 merriam-webster.com##.ad-base
 merriam-webster.com##.max-h-\[94px\].min-h-\[94px\].max-w-\[730px\]
 metabattle.com##div[style="display: flex; justify-content: center; align-items: center; margin-top: 60px; min-height: 250px;"]
+metager.org##a[href^="https://metager.org"][href*="/partner/r?"]
+metager.org##a[href^="https://r.search.yahoo.com/"]
 metager.org#?#.result:-abp-has(.mark:-abp-contains(Ad))
+metager.org#?#.result:-abp-has(a[href^="https://metager.org"][href*="/partner/r?"])
+metager.org#?#.result:-abp-has(a[href^="https://r.search.yahoo.com/"])
 metager.org#?#.result:-abp-has(img[src="/img/mark-en.svg"])
 metager.org#?#.result:-abp-has(span:-abp-contains(Partner))
 metager.org#?#.result:-abp-has(span:-abp-contains(partnershop))
@@ -42928,7 +42936,7 @@ onlinedown.net##.u-btn-gao
 onlinedown.net##.u-btn-safe
 onlinemschool.com###oms_left
 onlineradiobox.com##.banner--vertical
-onlineradious.com##.ai-placement
+onlineradious.com,radiomixer.net##.ai-placement
 onlydudes.tv##.b-footer-place
 onlydudes.tv##.b-side-col
 onlyfungames.com##.preview3bannerspot
@@ -55754,6 +55762,7 @@ zzzyk.com###Tinfo
 ||alxbgo.com^
 ||alxfixnrip.com^
 ||alxsite.com^
+||alypw.com/zb_users/plugin/ZF_tanchuang/
 ||alysson.de^
 ||alzexa.com^
 ||am-investor.ru^
@@ -76422,6 +76431,7 @@ zzzyk.com###Tinfo
 ||head-clickfusion.com^
 ||headbidder.net^
 ||headedtamhemp.com^
+||headerbidding.ai^
 ||headerbidding.services^
 ||headerlift.com^
 ||headlightbailey.com^
@@ -87269,6 +87279,7 @@ zzzyk.com###Tinfo
 ||mt.64foot.com^
 ||mt34iofvjay.com^
 ||mt48.net^
+||mt4v4.com^
 ||mt66g.com^
 ||mtabdil.com^
 ||mtag.mman.kr^
@@ -111612,6 +111623,7 @@ zzzyk.com###Tinfo
 ||xn--xhq9mt12cf5v.top^$third-party
 ||xn--xhq9mt12cf5v.xn--io0a7i^
 ||xn--xhq9mt12cf5v.xn--io0a7i^$third-party
+||xn--zw0autp42d.cn^
 ||xne1ocient87zxz.360doc.cn^
 ||xng02.com/api.php?mod=ad&
 ||xni.ink^
