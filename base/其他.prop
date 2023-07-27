@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oAOaw15Z9Y8yjxImYfmBGg
+! Checksum: 2y4FxWyUwrAorl52rexTWw
 ! Title: 自用去广告Adblock规则
-! Version: 20230727191011
-! Last modified: 2023-07-27 19:10:11
-! Total Count: 1772
+! Version: 20230727212042
+! Last modified: 2023-07-27 21:20:42
+! Total Count: 1779
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -213,6 +213,7 @@
 ##a[href*="?channelCode="] > img[src]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
+##a[href*="www.pssy.xyz"]
 ##a[href="/baidu/index.html"]
 ##a[href="http://52199.vip"]
 ##a[href="http://595tz166.cc"]
@@ -529,6 +530,7 @@
 .xyz/api/getPos?jspath=/$~third-party
 .xyz/base*.js?
 .xyz/c.php?s=
+.xyz/d/?resource=bundler&nada=1&widgets=$third-party
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
@@ -571,6 +573,7 @@
 /ad-blocking-advisor/*
 /ad-blocking-alert/*
 /ad-tetris-site/file
+/ad/display.php?$third-party
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
 /adBanner?
 /adBlockDetector/*
@@ -690,6 +693,7 @@
 ://api.*.com/sh/back/$third-party,xmlhttprequest
 ://api.*.com/sh/to/$third-party,xmlhttprequest
 ://ayq*nsx.icu/*.js$third-party,script
+://chaturbate.com$third-party
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dpic.*.cn/*.js$third-party
@@ -1079,6 +1083,7 @@ m.ximalaya.com##a[class*="schema-link"][to^="iting://open"]
 m.youdao.com##.banner-item
 m.youdao.com##.top-download
 madou.club##a[href*="//www.pssy.xyz"]
+madou.club##a[href*="www.pssy.xyz"]
 madou.club##a[href][target="_blank"][rel="nofollow noopener"]
 maigoo.com##[class*="ads"]
 mfsft.com,xgmeitu.com##.apptur
@@ -1531,6 +1536,7 @@ zle.com$script
 ||go.meiweifood.xyz^
 ||go.xlivrdr.com$third-party
 ||go.xlviirdr.com/smartpop$third-party
+||goadsexchange.com^$third-party
 ||godpvqnszo.com^$third-party
 ||google-analytics.com^
 ||googletagmanager.com^
@@ -1628,6 +1634,7 @@ zle.com$script
 ||poh.uoydhco.cn^
 ||porn5f.com/nb/*.php?
 ||profitablegatetocontent.com^
+||pssy.xyz^$third-party
 ||pstatp.com^*/push.js
 ||public.app.autohome.com.cn^
 ||push.app.autohome.com.cn^
