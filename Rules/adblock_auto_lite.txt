@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: FmA+GflBf4wd2jabYCseuw
+! Checksum: +EBBYrD9GCXcrV77ZfSMJQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230727193747
+! Version: 20230727220119
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-27 19:37:47
-! Total Count: 19544
+! Last modified: 2023-07-27 22:01:19
+! Total Count: 19554
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1711,6 +1711,7 @@
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="nnqp.vip"]
+##a[href*="www.pssy.xyz"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
@@ -2914,6 +2915,7 @@
 .xyz/base*.js?
 .xyz/c.php?s=
 .xyz/chrdaf_*_*.js?$third-party
+.xyz/d/?resource=bundler&nada=1&widgets=$third-party
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
@@ -3062,6 +3064,7 @@
 /ad-blocking-advisor/*
 /ad-blocking-alert/*
 /ad-tetris-site/file
+/ad/display.php?$third-party
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
 /adBanner?
 /adBlockDetector/*
@@ -3300,6 +3303,7 @@
 ://boeg*.xyz/*.html$document
 ://boeg*.xyz/*.html$~third-party
 ://btt*/Runtime/js/psData.
+://chaturbate.com$third-party
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
@@ -5433,6 +5437,7 @@ m.youdao.com##.banner-item
 m.youdao.com##.top-download
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
 madou.club##a[href*="//www.pssy.xyz"]
+madou.club##a[href*="www.pssy.xyz"]
 madou.club##a[href][target="_blank"][rel="nofollow noopener"]
 maigoo.com,xhamster.com,xhamster2.com,xhofficial.com##[class*="ads"]
 mail.rambler.ru##.notification-warning
@@ -7191,6 +7196,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||883.engine.mobileapptracking.com^
 ||883ads.com^*.js
 ||88448.com/images/appkai980x100.gif
+||8861198.com^
 ||8861200.com^
 ||8861201.com^
 ||8861202.com^
@@ -10782,6 +10788,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ermao20230220.live^
 ||eroioshiri.blogterest.net/regular/$subdocument
 ||eromanga-castle.com/famsiro1.html
+||eromanga-musou.com/fammusou1.html
 ||erop.store^
 ||ertgbme.com^
 ||ertjo.xyz^
@@ -11478,6 +11485,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||go2s.co/*?t=
 ||go2s.co/res/$image
 ||go2tutor.com/lifebox.asp
+||goadsexchange.com^$third-party
 ||goasdfa.top^
 ||gocye.com^$third-party
 ||godie.cyou^
@@ -12655,6 +12663,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||itavcn.com/pic/news/201802/20180207/image/050N2.gif
 ||itbaoku.cn/Content/jms_
 ||itbear.com.cn/abc/list-and-
+||itbulu.com/banner/
 ||itbwq.xyz^
 ||itc.*^prod=ad&
 ||itc.cn/?prod=rtb&
@@ -15577,6 +15586,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||psf805.xyz^$document
 ||psf805.xyz^$~third-party
 ||pssvc.iqzone.com^
+||pssy.xyz^$third-party
 ||pstatp.com/large/pgc-image/e8bd997e82874259a66207d2f77f0c6c
 ||pstatp.com/obj/game-files/e30c81a77b8c2d45ca8d6f99aae969dc
 ||pstatp.com/origin/1381500009611bc201d61
