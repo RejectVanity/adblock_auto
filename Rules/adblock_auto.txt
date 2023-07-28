@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BgT1IEjpWUpgNMc/jqZ7JQ
+! Checksum: rdTXKoMPfXS3TAR1sjSgTw
 ! Title: 混合规则(自动更新)
-! Version: 20230728083410
+! Version: 20230728160842
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-28 08:34:10
-! Total Count: 114113
+! Last modified: 2023-07-28 16:08:42
+! Total Count: 114122
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18993,6 +18993,7 @@
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
+##span[data-ez-ph-id]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -45358,6 +45359,9 @@ storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womens
 strangesounds.org##.wp-image-281312
 streamingmedia.com##.expand
 streamingrant.com###hb-strip
+streamingsites.com##.IPdetectCard
+streamingsites.com##.styles_adverticementBlock__FINvH
+streamingsites.com##.styles_backdrop__8uFQ4
 streams.tv###flowerInGarden
 streams.tv###sunGarden
 streetinsider.com###bottom_ad_fixed
@@ -61754,6 +61758,7 @@ zzzyk.com###Tinfo
 ||bzlwe.com^
 ||bzngisyv.xyz^
 ||bzrpvk.com^
+||bzxvtj.xyz^
 ||bzyunduan.cn^
 ||c*hit.zerkalo.io^
 ||c-4fambt.com^
@@ -62575,6 +62580,7 @@ zzzyk.com###Tinfo
 ||cdn.movieads.ru^
 ||cdn.myadmessenger.com^
 ||cdn.neon.click^
+||cdn.npcta.xyz^
 ||cdn.nsimg.net/cache/landing/pr/*/yjmobile-*.xml$domain=youjizz.com
 ||cdn.optmn.cloud^
 ||cdn.outfit7.com/promo-nc
@@ -88785,6 +88791,7 @@ zzzyk.com###Tinfo
 ||nnnfqegwes.xyz^
 ||nnocsin.cn^
 ||nnoxzo.rfskbylbsf.xyz^
+||nnqwe.xyz^
 ||nntsdp.xyz^
 ||nnvkh.com^
 ||no1.168abc.net/upload/
@@ -97307,6 +97314,7 @@ zzzyk.com###Tinfo
 ||rtbix.com^
 ||rtbldisubeignb.com^
 ||rtbnowads.com^
+||rtborp.xyz^
 ||rtbpop.com^
 ||rtbpopd.com^
 ||rtbrenab.com^
@@ -101494,6 +101502,7 @@ zzzyk.com###Tinfo
 ||stationeryshapeless.com^
 ||statis.dsp.vn^
 ||statis1.mama.cn^
+||statisfile.com^
 ||statisfy.net^
 ||statistic-blog-v2.sapoapps.vn^
 ||statistic-data.com^
