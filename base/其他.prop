@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2XPXODdxKnkwEvl+ti7OOg
+! Checksum: rxxgO0qsvVm4kDhw/7Gudg
 ! Title: 自用去广告Adblock规则
-! Version: 20230728220240
-! Last modified: 2023-07-28 22:02:40
-! Total Count: 1873
+! Version: 20230728221652
+! Last modified: 2023-07-28 22:16:52
+! Total Count: 1878
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -270,6 +270,7 @@
 ##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##bkveng
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
+##body[ontouchstart] > #topBox
 ##center[style="display: none;"] > span[style][onclick]
 ##citrus-ad-wrapper
 ##dd > a[data-uuid]
@@ -332,6 +333,7 @@
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id="videoMask"]
+##div[id^="azwangye"][style*="z-index: 11000;"]
 ##div[id^="rfads"]
 ##div[id^="test"][style*="fixed"][style*="position:"]
 ##div[onclick*="window.location.href"][onclick*=".biqu"][onclick*="app"]
@@ -411,6 +413,7 @@
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
+##img[src*="sm2kz.net"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://pic.lsddkd.com:"]
@@ -670,6 +673,7 @@
 /npc/sdk/wp-banners.js$script,third-party
 /pagead2.
 /sdk/push_web/?zid=
+/search/tsc.php?
 /template/blank/yk/sdo.js
 /vs.php?id=$third-party,xmlhttprequest
 /widget-advert.
@@ -1756,6 +1760,7 @@ zle.com$script
 ||sc-gov-cn.website^
 ||scjpqut.cn^
 ||sdk.51.la^
+||sedoparking.com^
 ||sejieboxapi.yingyangdj.com^
 ||sfvsjv.com/sh$third-party,script
 ||siduohua.top^
