@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2y4FxWyUwrAorl52rexTWw
+! Checksum: 2XPXODdxKnkwEvl+ti7OOg
 ! Title: 自用去广告Adblock规则
-! Version: 20230727212042
-! Last modified: 2023-07-27 21:20:42
-! Total Count: 1779
+! Version: 20230728220240
+! Last modified: 2023-07-28 22:02:40
+! Total Count: 1873
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -63,6 +63,7 @@
 ##.leftd1 + .rightd1
 ##.leftd2 + .rightd2
 ##.leftd3 + .rightd3
+##.m-hm-ad
 ##.moboad
 ##.module-adslist
 ##.myplayer_ima-ad-container
@@ -102,7 +103,9 @@
 ##[class="rmadb-info"]
 ##[class][onclick="goAppHtml();"]
 ##[class^="ad none"]
+##[class^="ad-bottom"]
 ##[class^="ad-layer"]
+##[class^="ad-top"]
 ##[class^="ads"][style] > a > img[width="100%"][alt]
 ##[class^="ads"][style] > a[target="_blank"]
 ##[class^="adv-banner-"]
@@ -112,6 +115,7 @@
 ##[class^="bfad"]
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="footer-ad"]
+##[class^="m-hm-ad"]
 ##[class^="naicon btn btn-raised"]
 ##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
@@ -336,6 +340,7 @@
 ##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##embed[src^="https:////"]
+##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//go.goaserv.com"]
@@ -536,6 +541,7 @@
 .xyz/ember?$third-party
 .xyz/hm.js?
 .xyz/jque*.js?
+.xyz/js/adlm$third-party,script
 .xyz/kallss?$third-party
 .xyz/mithril?$third-party
 .xyz/o.js
@@ -572,8 +578,13 @@
 /ad-audit.
 /ad-blocking-advisor/*
 /ad-blocking-alert/*
+/ad-blocking-detector/*
 /ad-tetris-site/file
 /ad/display.php?$third-party
+/ad/iframe.
+/ad/iframe/*
+/ad/image/*
+/ad/js/pushdown.
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
 /adBanner?
 /adBlockDetector/*
@@ -581,12 +592,53 @@
 /adClick/*$popup
 /adClick?$popup
 /adManager.js$script,third-party
+/ad_head_
+/ad_header.
+/ad_header_
+/ad_headerbg.
+/adblock-alerter/*
+/adblock-alerter/js/adblock_alerter.js
+/adblock-blocker/*
+/adblock-detect.
+/adblock-detect/*
+/adblock-detector.
+/adblock-img.
+/adblock-message.
+/adblock-modal-
+/adblock-modal.
+/adblock-notice-
+/adblock-notify-by-bweb/*
+/adblock-relief.js
+/adblock-relief/*
+/adblock-warning-teaser/*
+/adblock.gif?
+/adblockDetector.
+/adblock_alerter.
+/adblock_alerter/*
+/adblock_detect.
+/adblock_detector.
+/adblock_detector2.
+/adblock_erreur.
+/adblock_logger.
+/adblock_notify.js
+/adblockdetect.
+/adblockdetect/*$~image
+/adblockdetection.
+/adblockdetectorwithga.
+/adblocker-detected.
+/adblocker-feature?
+/adblocker-leader.
+/adblocker/modal.
+/adblocker_message_
+/adblockkiller.
+/adblockpopup.
 /adclick?
 /adclickcv.php
 /ads.dp.js?
 /ads/ads.js$script
 /ads?zone_id=
 /ads_iframe
+/advert/youxi.js$script
 /advertise/*$domain=~legl.co|~payju.ir
 /advertisement/*
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
@@ -620,7 +672,48 @@
 /sdk/push_web/?zid=
 /template/blank/yk/sdo.js
 /vs.php?id=$third-party,xmlhttprequest
+/widget-advert.
+/widget-advert?
+/widget/ad/*
+/widget/ads.
+/widget/ads/*
+/widgetad.
+/widgetadsense.
+/widgets/ads.
+/widgets/exo$domain=mangapanda.com|memecenter.com|mangareader.net|animeland.tv|animetoon.org|goodanime.co|animeplus.tv|animeflv.net|toonova.net|gogoanime.in|kiss-anime.me|kimcartoon.me
+/widgets/sponsored/*
+/wp-banners/*$~image
+/wp-content/ads/*
+/wp-content/mbp-banner/*
+/wp-content/plugins/ad-block-defender/*
+/wp-content/plugins/adunblocker/*
+/wp-content/plugins/amazon-auto-links/*
+/wp-content/plugins/amazon-product-in-a-post-plugin/*
+/wp-content/plugins/anti-block/*
+/wp-content/plugins/anti_ad_blocker/*
+/wp-content/plugins/automatic-social-locker/*
+/wp-content/plugins/banner-manager/*
+/wp-content/plugins/bhcb/lock.js
+/wp-content/plugins/bookingcom-banner-creator/*
+/wp-content/plugins/bookingcom-text2links/*
+/wp-content/plugins/deadblocker/*
+/wp-content/plugins/deblocker/*
+/wp-content/plugins/fasterim-optin/*
+/wp-content/plugins/m-wp-popup/*$~stylesheet
+/wp-content/plugins/platinumpopup/*
+/wp-content/plugins/popad/*
+/wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/upprev/*
+/wp-content/plugins/useful-banner-manager/*
+/wp-content/plugins/wp-ad-guru/*
+/wp-content/plugins/wp-super-popup-pro/*
+/wp-content/plugins/wp-super-popup/*$~stylesheet
+/wp-content/themes/iMovies/js/tc_
 /wp-content/uploads/*/*.js$domain=turkceyama.net|xiaomitools.com|sciotocountydailynews.com|muratisbilir.com.tr|dongknows.com|torrentmafya.org|smarteranalyst.com|movieknowing.com|money-sense.club|tv-livestream.online|legendas.dev|megasubtitles.com|ggwptech.com|ultimate-catch.eu|xingkbjm.com|avoiderrors.com|v2rayssr.com|embetronicx.com|haberpop.com|techidence.com|wotcheatmods.com|grafixfather.com|asia-mag.com|dellwindowsreinstallationguide.com|downloadbull.com|amirantivirus.com|modernvalueinvesting.de|shirokuns.com|hulblog.com|omgmusik.com|omglyrics.com|phpscripttr.com|kkpmh.vip|allmacworld.com|resource-pack.com|kindleku.com|biryoo.com|onurcici.com|variatkowo.pl|lauxanh.org|robloxscripts.com|filmboxoffice.web.id|satcesc.com|teamsaiyajin.it|online-dvdrip.com|stilearte.it|gidabilinci.com|hanimeku.com|k2nblog.com|plugintorrent.com|pinsystem.co.uk|comando4kfilmes.com|kepoow.me|trgamestudio.com|terrarium.com.pl|rikucan.com|3dzip.org|turreta.com|elevatortoday.com|canalbpv.com|thesimarchitect.com|desktophut.com|hackinformer.com|bookflare.org|earmilk.com|infokupedia.id|refoblog.xyz|chimicamo.org|landscapenature.pw|chromeba.net|learnsql.xyz|otobelgesel.com|ad4msan.win|mediasobytiya.com|airlive.net|civetta.tv|gamesmagnet.net|gktoday.in|jkmk.net|jppinto.com|learncpponline.com|pcyardim.xyz|programegratuitepc.com|scat.gold|unblockedgamming.com|veezie.st|wallstreams.com|labkom.co.id
+/wp-content/uploads/an-temp/*$script,stylesheet
+/wp-content/uploads/useful_banner_manager_banners/*
+/wp-popup-scheduler/*
+/wp-srv/ad/*
 /www/delivery/*
 /xxgg/zhhads*.js
 /yep.gif$domain=abellalist.com|doseofporn.com|freyalist.com|lizardporn.com|moozporn.com|zehnporn.com
@@ -1463,6 +1556,7 @@ zle.com$script
 ||asa.com^
 ||ashooqapp.top^$~third-party
 ||ato.tooopen.com^$third-party
+||axkq.xyz^$third-party,script
 ||ayq3nsx.icu^$third-party
 ||baby.thinkmore.top^
 ||bbangads.*.net^$third-party
