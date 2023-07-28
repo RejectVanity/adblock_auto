@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rxxgO0qsvVm4kDhw/7Gudg
+! Checksum: SgIG7xAU8tkPbIky/tbk2w
 ! Title: 自用去广告Adblock规则
-! Version: 20230728221652
-! Last modified: 2023-07-28 22:16:52
-! Total Count: 1878
+! Version: 20230728222343
+! Last modified: 2023-07-28 22:23:43
+! Total Count: 1884
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -33,6 +33,7 @@
 ##.ad-title
 ##.ad_img
 ##.adbanner
+##.ads-all
 ##.ads_
 ##.adsbygoogle
 ##.adsbytrafficjunky
@@ -48,6 +49,7 @@
 ##.bottomads
 ##.cctv_banner_dv
 ##.commentads
+##.conch-ads-box
 ##.container > iframe[src*="123.html"][width][height]
 ##.dlad
 ##.fed-play-advs
@@ -565,6 +567,10 @@
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /*_*_/bigREDdog.$third-party
 /?channelCode=bfy$document
+/AdS/RAD.
+/AdServer/*$popup,third-party
+/AdServlet?
+/AdSpace160x60.
 /JavaScript/Ads-
 /Javascripts/SBA-
 /\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$important,script,~third-party,domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|upornia.*|voyeurhit.com|vxxx.com|txxxporn.tube|vjav.com|vjav.tube
