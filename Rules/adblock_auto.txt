@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: rdTXKoMPfXS3TAR1sjSgTw
+! Checksum: tQAwmLB3+5ggVAmEOpg/rA
 ! Title: 混合规则(自动更新)
-! Version: 20230728160842
+! Version: 20230729000751
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-28 16:08:42
-! Total Count: 114122
+! Last modified: 2023-07-29 00:07:51
+! Total Count: 114145
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14246,6 +14246,7 @@
 ##.m-content-advert-wrap
 ##.m-dfp-ad-text
 ##.m-header-ad
+##.m-hm-ad
 ##.m-in-content-ad
 ##.m-in-content-ad-row
 ##.m-jac-ad
@@ -17597,7 +17598,9 @@
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class^="ad none"]
+##[class^="ad-bottom"]
 ##[class^="ad-layer"]
+##[class^="ad-top"]
 ##[class^="adDisplay-module"]
 ##[class^="ads"][style] > a > img[width="100%"][alt]
 ##[class^="ads"][style] > a[target="_blank"]
@@ -17610,6 +17613,7 @@
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="div-gpt-ad"]
 ##[class^="footer-ad"]
+##[class^="m-hm-ad"]
 ##[class^="naicon btn btn-raised"]
 ##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
@@ -18780,6 +18784,7 @@
 ##div[id^="adspot-"]
 ##div[id^="adv-"].adv
 ##div[id^="advads_ad_"]
+##div[id^="azwangye"][style*="z-index: 11000;"]
 ##div[id^="crt-"][style]
 ##div[id^="dfp-ad-"]
 ##div[id^="div-ads-"]
@@ -18858,6 +18863,7 @@
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##hl-adsense
+##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
@@ -18961,6 +18967,7 @@
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
+##img[src*="sm2kz.net"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://images.purevpnaffiliates.com"]
@@ -20668,6 +20675,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/h.html?id=$~third-party
 .xyz/hm.js?
 .xyz/jque*.js?
+.xyz/js/adlm$third-party,script
 .xyz/js/ads/
 .xyz/kallss?$third-party
 .xyz/mithril?$third-party
@@ -21318,6 +21326,7 @@ $websocket,domain=5nj.com|cechi8.com
 /ad-blacklist.
 /ad-blocking-advisor/*
 /ad-blocking-alert/*
+/ad-blocking-detector/*
 /ad-bottom.
 /ad-box-
 /ad-boxes-
@@ -23746,6 +23755,7 @@ $websocket,domain=5nj.com|cechi8.com
 /adversting?
 /advert-$domain=~advert-ai-landing.firebaseapp.com|~advert-ai-landing.web.app|~advert-ai.com|~advert-solutions.com|~advert-technology.com|~advert-technology.ru
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
+/advert/youxi.js$script
 /advert01.
 /advert1-
 /advert1.
@@ -29157,6 +29167,7 @@ $websocket,domain=5nj.com|cechi8.com
 51cto.com###postform + a[style]
 51cto.com###upopbox_bot
 51cto.com###upopbox_mid
+51cto.com##.ad-jing
 51cto.com##.footer_mask
 51cto.com##.suspend
 51cto.com##.upopbg
@@ -40172,6 +40183,7 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
+iqiyi.com##.ad-seed
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
@@ -40199,6 +40211,8 @@ iqiyi.com##.m-downApp
 iqiyi.com##.m-hotWords-bottom
 iqiyi.com##.mod_focus-index_list > li:last-child
 iqiyi.com##.oppo
+iqiyi.com##.qy20-h-carousel-wrap[data-focus="ad-focus-image"] .qy20-h-carousel__a
+iqiyi.com##.qy20-h-carousel_con-gray a[href^="http"]:not([href*="iqiyi.com/"])
 iqiyi.com##.rightLink
 iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
@@ -41892,6 +41906,7 @@ mirrored.to#?#tr:-abp-has([alt="UseNet"])
 mirrormedia.mg##.micro-ad
 mirrormedia.mg##.story__ad
 missav.com##[href^="https://l.hyenadata.com/"]
+missav.com,missav123.com,missav789.com,redgifs.com##div[style="width: 300px; height: 250px;"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##.under_player
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##[href*="//bit.ly/"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##div[class^="flex justify-center"]
@@ -44148,7 +44163,6 @@ redgifs.com##.placard-wrapper
 redgifs.com##a[href^="https://camsfinders.com/"]
 redgifs.com##div[class^="AdTabs_"]
 redgifs.com##div[class^="AdUnit_"]
-redgifs.com##div[style="width: 300px; height: 250px;"]
 redian.news##._ap_apex_ad[style^="width: 300px"]
 redian.news##.bottom-0.fixed
 redian.news##.md\:w-\[728px\].mx-auto
@@ -58260,6 +58274,7 @@ zzzyk.com###Tinfo
 ||axisnuisance.com^
 ||axiwyni.cn^
 ||axjbt.com/dbxf/pctc.js
+||axkq.xyz^$third-party,script
 ||axkwmsivme.com^
 ||axlsksphvbs.xyz^
 ||axoncoho.tk^
@@ -69210,6 +69225,7 @@ zzzyk.com###Tinfo
 ||drmcmm.baidu.com^
 ||drmfslx.cn^
 ||dronedgentile.com^
+||dronelskipper.com^
 ||dropboxfingerprintjs.com^
 ||dropkickmedia.com^
 ||droppalpateraft.com^
@@ -80123,6 +80139,7 @@ zzzyk.com###Tinfo
 ||jasaiklan.com^
 ||jaseysbionomy.com^
 ||jashautchord.com^
+||jasheest.xyz^
 ||jasjei2ejk.ru^
 ||jaspercrozes.com^
 ||jatostepa.com^
@@ -90641,6 +90658,7 @@ zzzyk.com###Tinfo
 ||otwwtutujwa.com^
 ||ouaker.com^
 ||oubqzcg.cn^
+||oucaibie.net^
 ||ouchojig.xyz^
 ||ouchruse.com^
 ||oudseroa.com^
@@ -100570,6 +100588,7 @@ zzzyk.com###Tinfo
 ||source.advisible.com^
 ||sourcecode.pro^
 ||sourcetobin.com^
+||sourishpuler.com^
 ||sourne.com^
 ||sourtophulsean.space^
 ||sousefulhea.buzz^
@@ -102520,6 +102539,7 @@ zzzyk.com###Tinfo
 ||sv-static1-lottery.headlines.pw^
 ||sv.sheego.de^
 ||svarajwens.com^
+||svarub.xyz^
 ||svdpgmt.cn^
 ||svedkan.com^
 ||sveklon.com^
@@ -106488,6 +106508,7 @@ zzzyk.com###Tinfo
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||tw.rd.yahoo.com^$image
 ||twadakesi.cyou^
+||twads.gg^
 ||twandli.top^
 ||twangedcored.com^
 ||twaonhcjwoaouj.com^
@@ -109990,6 +110011,7 @@ zzzyk.com###Tinfo
 ||whaleads.com^
 ||whalepp.com^
 ||whaleserver.com^
+||whamauft.com^
 ||whamiwiwu.pro^
 ||whampamp.com^
 ||whamukoji.pro^
@@ -110835,6 +110857,7 @@ zzzyk.com###Tinfo
 ||ws-goguardian.pusher.com^
 ||ws.audioeye.com^
 ||ws.ksmobile.net^
+||ws.namava.ir^
 ||ws.sharethis.com^
 ||ws.wenshenxiu.com^
 ||ws3.smartp.com^
