@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: +tbhl84Ss1coGJigJikpTw
+! Checksum: s16yz/PYNf0ciSWuAzP/Jg
 ! Title: 混合规则(自动更新)
-! Version: 20230729083327
+! Version: 20230729150347
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-29 08:33:28
-! Total Count: 114162
+! Last modified: 2023-07-29 15:03:47
+! Total Count: 114180
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20246,19 +20246,30 @@ $websocket,domain=5nj.com|cechi8.com
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
 .com:2516/code/
+.com:80*/cc/*?is_not=$third-party
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
 .com:80*/d/*0?c=$third-party
+.com:8001/cc/*?*=$third-party
 .com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
+.com:8002/cc/*?*=$third-party
 .com:8002/sc/*?*=$third-party
+.com:8003/cc/*?*=$third-party
 .com:8003/sc/*?*=$third-party
+.com:8004/cc/*?*=$third-party
 .com:8004/sc/*?*=$third-party
+.com:8005/cc/*?*=$third-party
 .com:8005/sc/*?*=$third-party
+.com:8007/cc/*?*=$third-party
+.com:8007/cc/*?is_not=$third-party
 .com:8007/sc/*?*=$third-party
+.com:8008/cc/*?*=$third-party
 .com:8008/sc/*?*=$third-party
+.com:8009/cc/*?*=$third-party
 .com:8009/sc/*?*=$third-party
+.com:8010/cc/*?*=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
 .com:8010/sc/*?*=$third-party
@@ -44772,6 +44783,7 @@ sina.cn##.sw_c0.fix_top
 sina.cn##.unfold-words
 sina.cn##.xc_da
 sina.cn##.zhidi
+sina.cn##[class*="callup-app"]
 sina.cn##[data-href*="://sax"]
 sina.cn##[data-href*="://sax"] + aside
 sina.cn##[data-href*="://sax"] + aside + blockquote
@@ -72822,6 +72834,7 @@ zzzyk.com###Tinfo
 ||flowerstreatment.com^
 ||flowerstreatment.com^$third-party
 ||flowerycreature.com^
+||floweryfact.com^
 ||floweryflavor.com^
 ||floweryflavor.com^$third-party
 ||floweryoperation.com^
@@ -80609,6 +80622,7 @@ zzzyk.com###Tinfo
 ||jjwxc.net/adsmanage.
 ||jjwxc.net/jjPopup.php
 ||jjwxc.net/jjad*.html$popup
+||jjztrz.xyz^
 ||jk4lmrf2.de^
 ||jk5t7g6.cn^
 ||jkasn.com^
@@ -80985,6 +80999,7 @@ zzzyk.com###Tinfo
 ||jsinfo.net^$third-party
 ||jsiqql.xyz^
 ||jsl44w.xyz^
+||jslbaha.top^
 ||jslog.zapps.vn^
 ||jsmentry.com^
 ||jsmjmp.com^
@@ -90255,6 +90270,7 @@ zzzyk.com###Tinfo
 ||oopt.fr^
 ||oopukrecku.com^
 ||ooqiu.com/ad_js/
+||ooqwc.xyz^
 ||ooredi.com^
 ||oorlsblk.cyou^
 ||oortelre.net^
@@ -106471,6 +106487,7 @@ zzzyk.com###Tinfo
 ||turtlemobile.com.tw^
 ||turvpij.cn^
 ||tuscanyaskant.com^
+||tushwjp.icu^
 ||tuskercampe.life^
 ||tusno.com^
 ||tut.prosmotrov.net^
@@ -113310,6 +113327,7 @@ zzzyk.com###Tinfo
 ||zdbnt.*$third-party
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
+||zddpnf.xyz^
 ||zdenochary.com^
 ||zdhfff.xyz^
 ||zdjljvsi.com^

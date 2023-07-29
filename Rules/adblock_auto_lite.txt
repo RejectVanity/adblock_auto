@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 5JhICN0I3TrRkdhr5x3Lvw
+! Checksum: WaXOIVwj0joavUPRzlU4EA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230729083332
+! Version: 20230729150352
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-29 08:33:32
-! Total Count: 19650
+! Last modified: 2023-07-29 15:03:52
+! Total Count: 19667
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2697,19 +2697,30 @@
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
 .com:2516/code/
+.com:80*/cc/*?is_not=$third-party
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
 .com:80*/d/*0?c=$third-party
+.com:8001/cc/*?*=$third-party
 .com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
+.com:8002/cc/*?*=$third-party
 .com:8002/sc/*?*=$third-party
+.com:8003/cc/*?*=$third-party
 .com:8003/sc/*?*=$third-party
+.com:8004/cc/*?*=$third-party
 .com:8004/sc/*?*=$third-party
+.com:8005/cc/*?*=$third-party
 .com:8005/sc/*?*=$third-party
+.com:8007/cc/*?*=$third-party
+.com:8007/cc/*?is_not=$third-party
 .com:8007/sc/*?*=$third-party
+.com:8008/cc/*?*=$third-party
 .com:8008/sc/*?*=$third-party
+.com:8009/cc/*?*=$third-party
 .com:8009/sc/*?*=$third-party
+.com:8010/cc/*?*=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
 .com:8010/sc/*?*=$third-party
@@ -5676,6 +5687,7 @@ sina.cn##.module-lecai.module-extend
 sina.cn##.shou.js-voice.broadcast
 sina.cn##.show.js-voice.broadcast
 sina.cn##.unfold-words
+sina.cn##[class*="callup-app"]
 sina.cn##[data-href*="://sax"] + aside + blockquote
 sina.cn##[data-videojc*="://sax"]
 sina.cn##[href*="://sax"]
@@ -13047,6 +13059,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jjnrqq.com^
 ||jjwxc.net/jjPopup.php
 ||jjwxc.net/jjad*.html$popup
+||jjztrz.xyz^
 ||jkasn.com^
 ||jke1.jianke.com^
 ||jkjoiij.cn^
@@ -13216,6 +13229,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||jsf.cnlinfo.net^
 ||jsinfo.net^$third-party
 ||jsl44w.xyz^
+||jslbaha.top^
 ||jsnignsa.xyz^
 ||jsnoownma.fun^
 ||json.cn/js/aliWindow.js
@@ -15187,6 +15201,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
 ||oopej.xyz^
 ||ooqiu.com/ad_js/
+||ooqwc.xyz^
 ||oorlsblk.cyou^
 ||op7s.top^
 ||opeci.cyou^
@@ -17591,6 +17606,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||turifb.xyz^
 ||turn.com^
 ||turner.com/xslo/cvp/ads/$domain=cnn.com
+||tushwjp.icu^
 ||tutudao.net/js/gg*.js
 ||tututu666.com^
 ||tuwan.com/events/courseiframe?
@@ -19357,6 +19373,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zdbnt.*$third-party
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
+||zddpnf.xyz^
 ||zdkdwk.buzz^
 ||zdkdwk.live^$third-party
 ||zdkjr.xyz^$third-party
