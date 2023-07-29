@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: wGCjIYbP7OYog6FM+GGpNg
+! Checksum: Iy89MlXTKQ3nC64yFnG60Q
 ! Title: 混合规则(自动更新)
-! Version: 20230729171419
+! Version: 20230730000653
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-29 17:14:19
-! Total Count: 114187
+! Last modified: 2023-07-30 00:06:53
+! Total Count: 114194
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -23796,7 +23796,7 @@ $websocket,domain=5nj.com|cechi8.com
 /advertbuttons_
 /advertical.$domain=~advertical.hu
 /advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
-/advertise/*$domain=~legl.co|~payju.ir
+/advertise/*$domain=~bakusai.com|~legl.co|~payju.ir
 /advertise125x125.
 /advertise_
 /advertisebanners/*
@@ -28230,7 +28230,7 @@ $websocket,domain=5nj.com|cechi8.com
 1024pz.com,1024sh.com###header > center
 1024pz.com,1024sh.com##.leftd
 1024pz.com,1024sh.com##.t[style="margin-top:8px"]
-1024pz.com,1024sh.com,2cycomic.com,whnyd.com,xcyy.tv,yemancomic.com##body > a
+1024pz.com,1024sh.com,2cycomic.com,bamxs.com,whnyd.com,xcyy.tv,yemancomic.com##body > a
 1024pz.com,1024sh.com,99syy1.com##div[class^="ps_"]
 104.com.tw###aidma-job
 104.com.tw###aidma_128
@@ -29409,9 +29409,9 @@ $websocket,domain=5nj.com|cechi8.com
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 69xx.one,69xx487.xyz,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 69xx.one,9xav.cc,theav.xyz,theporn.cc#$##alert_windows { display: none !important; }
-6abc.com##.taboola
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.leaderboard2
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.story > .placeholderWrapper
+6abc.com,abcnews.go.com##.taboola
 6park.com##a[href*=".php?key="]
 6park.com##a[href*="/link.php?key="]
 6park.com##img[width="980"][height="90"]
@@ -33397,6 +33397,7 @@ afzhan.com##.newsRightAdv
 afzhan.com##.topRightAdv
 afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 afzhan.com,iqiyi.com##.rightAdv
+agar.io###agar-io_300x250
 agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,boardgamegeek.com,bravewords.com,broadcastnow.co.uk,cantbeunseen.com,cattime.com,chairmanlol.com,chemistryworld.com,citynews.ca,comingsoon.net,crn.com.au,diyfail.com,dogtime.com,drugtargetreview.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,liveoutdoors.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thehun.net,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 agedbeauty.net,data18.com,pornpics.com,pornpics.de,vipergirls.to##a[href*="/go/"]
 aggeliestanea.gr,infotel.ca#@#.adResult
@@ -37099,6 +37100,7 @@ e3zy.com##.jiacu
 e3zy.com##img[style="height: 80px; width: 100%;"]
 eagle1065.com##.featureRotator
 earlygame.com,i711.com##a[rel*="sponsored"]
+earnhub.net##ins[style^="display:inline-block"]
 earnmoneyhub.com###div-outer-4398
 earth.com##.AdZone_adZone__2w4TC
 easou.com###ec-results-c
@@ -40669,8 +40671,8 @@ joebucsfan.com##.tweet_div1
 johncodeos.com##.johnc-widget
 johncodeos.com,worldsex.com##.hide-on-mobile
 joindota.com##.monkey-container
-joins.com##.r_banner
 joins.com,jtbc.co.kr#@#.ad_bottom
+joins.com,kmplayer.com##.r_banner
 jokeji.cn##.ad360_280
 jokerlu.com##.closebox
 jokerlu.com,jokerlu1.com##a[onclick^="_czc."]
@@ -40909,9 +40911,11 @@ kkphm.com,haohaiyo.cc,51kkp.club##a[href*="kkpmh.com/"]
 kkw360.com##a[href^="https://sourl.cn/"]
 klmanga.com,maxsports.site,newsturbovid.com,weloma.net###id-custom_banner
 klmanga.io#?##movie-last-movie > li:-abp-has(> center > ins[data-width="300"])
+klz9.com,mn4u.net,napuzba.com##div[style^="width:336px"]
 km.com##.downloadApp
 kmbb70.com###publicIndexBanner
 kmf.com##.g-kmf-906banner
+kmplayer.com##.dim-layer
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 knowmore.cc##.ins
 knowyourmeme.com##.combo-wrapper
@@ -41949,7 +41953,6 @@ mmff30.com##span[id$="_gg"]
 mmonly.cc###\32 vm_box
 mmorpg.com###mmorpg_desktop_list_1
 mmos.com##[href^="https://plarium.com/landings/"]
-mn4u.net,napuzba.com##div[style^="width:336px"]
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 mnw.cn##.mnw_685
 mnw.cn##.mnw_960
@@ -46231,7 +46234,9 @@ torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,
 torlock.com##[class^="wrn"]
 torlock.com##table.hidden-xs
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
+torrentgalaxy.to##a[href*="/fetchdownload.php?"]
 torrentgalaxy.to##a[href*="/hub.php?a"][target="_blank"]
+torrentgalaxy.to##a[href*="/hub.php?a"][target]
 torrentresource.com##[width="150"]:last-child
 torrnado.win##body > div > .a-overlay
 tossinggames.com#?#tbody:-abp-contains(Please visit our below advertisers)
@@ -52103,6 +52108,7 @@ zzzyk.com###Tinfo
 ||abdict.com^
 ||abdlnk.com^
 ||abdlnkjs.com^
+||abdluv.xyz^
 ||abdmi.ru^
 ||abds.pingpingw.com^
 ||abdurantom.com^
@@ -74252,6 +74258,7 @@ zzzyk.com###Tinfo
 ||geoip-db.com^
 ||geoip-lookup.vice.com^
 ||geoip.al.com^
+||geoip.apps.avada.io^
 ||geoip.boredpanda.com^
 ||geoip.cleveland.com^
 ||geoip.fotoable.net^
