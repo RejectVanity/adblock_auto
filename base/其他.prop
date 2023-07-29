@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BztUamAdWWMSnHpF9FUgCA
+! Checksum: VFQjaoVcHXmwv92QhArl9g
 ! Title: 自用去广告Adblock规则
-! Version: 20230729141018
-! Last modified: 2023-07-29 14:10:18
-! Total Count: 1894
+! Version: 20230729150213
+! Last modified: 2023-07-29 15:02:13
+! Total Count: 1896
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -500,6 +500,7 @@
 .com:80*/cc/*?is_not=$third-party
 .com:80*/d/*0?c=$third-party
 .com:8001/cc/*?*=$third-party
+.com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
 .com:8002/cc/*?*=$third-party
@@ -1260,6 +1261,7 @@ sina.cn##.module-lecai.module-extend
 sina.cn##.shou.js-voice.broadcast
 sina.cn##.show.js-voice.broadcast
 sina.cn##.unfold-words
+sina.cn##[class*="callup-app"]
 sina.cn##[data-href*="://sax"] + aside + blockquote
 sina.cn##[data-videojc*="://sax"]
 sina.cn##[href*="://sax"]
