@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 4tCV5mcIUnNHZNn2h8DBaQ
+! Checksum: lndXmvsEAMt6B7CwKY8nTg
 ! Title: 混合规则(自动更新)
-! Version: 20230729160718
+! Version: 20230729163534
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-29 16:07:18
-! Total Count: 114180
+! Last modified: 2023-07-29 16:35:34
+! Total Count: 114184
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17770,6 +17770,7 @@
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[src*="//ad.a-ads.com/"]
 ##[src*="://sejieboxapi.yingyangdj.com"]
+##[src*="advertising"][src*="banner"],[data*="advertising"][data*="banner"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
@@ -69867,6 +69868,7 @@ zzzyk.com###Tinfo
 ||eallywasnothyca.info^
 ||ealooov.cn^
 ||eamobile.com/gameasset/direct/draper/*/ads/
+||eamqbaqzaewwq.top^
 ||eanalyzer.de^
 ||eanddescri.com^
 ||eanddrsgankru.com.ua^
@@ -77410,6 +77412,7 @@ zzzyk.com###Tinfo
 ||hothydrant.com^
 ||hotinga.ru^
 ||hotjar.com^
+||hotjar.com^$third-party
 ||hotjar.io^
 ||hotlog.ru^
 ||hotnews1.me^
@@ -106501,6 +106504,7 @@ zzzyk.com###Tinfo
 ||tuuu.me/gg*.js
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
+||tuwaqtjcood.com^
 ||tuwo-audio.cn^
 ||tuxbpnne.com^
 ||tuxedochard.com^
