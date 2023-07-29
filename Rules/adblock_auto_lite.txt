@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Sli6YpBCosp/+VYhB+vLDw
+! Checksum: vDaHyW2j1sqH/uSyLxcesA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230729163538
+! Version: 20230729171424
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-29 16:35:38
-! Total Count: 19669
+! Last modified: 2023-07-29 17:14:24
+! Total Count: 19678
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2457,6 +2457,8 @@
 #@#[id^="google_ads_iframe"]
 #@#ins.adsbygoogle
 &adZones$xmlhttprequest
+&ad_block=
+&ad_code=
 &ad_type=
 &adsrc=
 &xhtml?$script,third-party
@@ -3101,6 +3103,8 @@
 /adClick/*$popup
 /adClick?$popup
 /adManager.js$script,third-party
+/ad_footer.
+/ad_footer_
 /ad_head_
 /ad_header.
 /ad_header_
@@ -3158,7 +3162,9 @@
 /adsmatcher-anti-adblock/*
 /advert/youxi.js$script
 /advertise/*$domain=~legl.co|~payju.ir
+/advertisement.
 /advertisement/*
+/advertisement_
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /antiadblockmsg.
@@ -5849,6 +5855,7 @@ tassbiz.ru##.adblock_notif
 technologypep.com##.main-container-wrap > div[class$="-bg"]
 technologypep.com##.main-container-wrap > div[id][class][style*="opacity"]
 techonthenet.com###sabl
+tecms.net##[class$="i"][style],[class$="h"][style],[class$="_b"],[class$="c"][style],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],[class$="m"][style*="display"][style*="block"][style*="100%"]
 telesputnik.ru##.adbPopup
 the-village.com.ua##.infoA
 theav.xyz##[class*="absolute-"]
@@ -10677,6 +10684,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ealdi.xyz^
 ||ealooov.cn^
 ||eamobile.com/gameasset/direct/draper/*/ads/
+||eamqbaqzaewwq.top^
 ||eap.big5.enorth.com.cn^
 ||eap.enorth.com.cn^
 ||eapsmnw.cyou^
@@ -17613,6 +17621,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tututu666.com^
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
+||tuwaqtjcood.com^
 ||tuyqiolni.cyou^
 ||tv2box.com/img_1g/
 ||tv699.com/AllTemplet/js/

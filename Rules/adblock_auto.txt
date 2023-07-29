@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: lndXmvsEAMt6B7CwKY8nTg
+! Checksum: wGCjIYbP7OYog6FM+GGpNg
 ! Title: 混合规则(自动更新)
-! Version: 20230729163534
+! Version: 20230729171419
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-29 16:35:34
-! Total Count: 114184
+! Last modified: 2023-07-29 17:14:19
+! Total Count: 114187
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -23802,9 +23802,11 @@ $websocket,domain=5nj.com|cechi8.com
 /advertisebanners/*
 /advertisehere.
 /advertisement-$~script,domain=~berlin-airport.de
+/advertisement.
 /advertisement/*
 /advertisement160.
 /advertisement?zoneid=
+/advertisement_
 /advertisement_$~script
 /advertisements-
 /advertisements?
@@ -45684,6 +45686,7 @@ techug.com,webhek.com##a[href*="/4r4.html"]
 techymedies.com#@##ad-top
 techyv.com##.td-header-header
 techyv.com##.wpb_raw_code
+tecms.net##[class$="i"][style],[class$="h"][style],[class$="_b"],[class$="c"][style],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],[class$="m"][style*="display"][style*="block"][style*="100%"]
 teddysun.com##.sidebar > .widget:nth-child(2)
 teddysun.com##.sidebar > .widget:nth-child(3)
 teenager365.com##.wps-player__happy-inside-btn-close
