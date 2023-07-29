@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SgIG7xAU8tkPbIky/tbk2w
+! Checksum: c6MJeaME0PwoJggw3vr41Q
 ! Title: 自用去广告Adblock规则
-! Version: 20230728222343
-! Last modified: 2023-07-28 22:23:43
-! Total Count: 1884
+! Version: 20230729135432
+! Last modified: 2023-07-29 13:54:32
+! Total Count: 1893
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -498,16 +498,25 @@
 .com:*/vj1/1$third-party
 .com:*/vj2/1$third-party
 .com:80*/d/*0?c=$third-party
-.com:8001/sc/*?*=$third-party
+.com:8001/cc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
+.com:8002/cc/*?*=$third-party
 .com:8002/sc/*?*=$third-party
+.com:8003/cc/*?*=$third-party
 .com:8003/sc/*?*=$third-party
+.com:8004/cc/*?*=$third-party
 .com:8004/sc/*?*=$third-party
+.com:8005/cc/*?*=$third-party
 .com:8005/sc/*?*=$third-party
+.com:8007/cc/*?*=$third-party
+.com:8007/cc/*?is_not=0$third-party
 .com:8007/sc/*?*=$third-party
+.com:8008/cc/*?*=$third-party
 .com:8008/sc/*?*=$third-party
+.com:8009/cc/*?*=$third-party
 .com:8009/sc/*?*=$third-party
+.com:8010/cc/*?*=$third-party
 .com:8010/sc/*?*=$third-party
 .com:9*/yc/c/*/GEBEF$third-party
 .html?channelCode=$third-party
