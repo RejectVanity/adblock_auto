@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: wMT8UDjm1/zFfvNqtg8rwQ
+! Checksum: 5JhICN0I3TrRkdhr5x3Lvw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230729000756
+! Version: 20230729083332
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-29 00:07:56
-! Total Count: 19641
+! Last modified: 2023-07-29 08:33:32
+! Total Count: 19650
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3001,6 +3001,10 @@
 /?channelNo=*#/home$~third-party
 /?linkid=*&pop=1$document
 /?linkid=*&pop=1$~third-party
+/AdS/RAD.
+/AdServer/*$popup,third-party
+/AdServlet?
+/AdSpace160x60.
 /AdblockMessage.
 /JavaScript/Ads-
 /Javascripts/SBA-
@@ -10238,6 +10242,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||denpvh.xyz^
 ||dertyhsf.xyz^
 ||destc10.icu^
+||destc8.icu^
 ||deude.ltd^
 ||deutsche-mittelstands-nachrichten.de/wp-content/wptouch-data/include/js/dmn_interstitial_mobile.js
 ||dev.appboy.com^
@@ -11010,6 +11015,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fanpingbi*.gaokao.com^
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
+||fantuan.name^
 ||fanyi.baidu.com/wise/afd
 ||fanyi100.com.cn^
 ||fanzhuang.net.cn^$third-party
@@ -13258,6 +13264,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||juzi6.com/js/dp.js
 ||juzi6.com/js/gd.js
 ||juzwrl.xyz^
+||jvjlkih.com^
 ||jvkckeg.cn^
 ||jvljnb.xyz^
 ||jvmxrug.xyz^
@@ -17190,6 +17197,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||taizexy.com^*.gif
 ||tajxgs.com^
 ||talkfx.*/showTKImg?
+||tamedia.com.tw^$third-party
 ||tan1dian.com^
 ||tan1dian.com^$third-party
 ||tangrenjie.tv/gg/
@@ -19001,6 +19009,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||yhhnjg.com^
 ||yhjccj.cn^
 ||yhjh04.com^
+||yhmeinv.com/mh/
 ||yhsfsdv03.com^
 ||yhsmk.com^
 ||yht7.com/web/assets/js/right.js
