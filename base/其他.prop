@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VFQjaoVcHXmwv92QhArl9g
+! Checksum: OEsiRz2lqhNhHJuzSlr1jw
 ! Title: 自用去广告Adblock规则
-! Version: 20230729150213
-! Last modified: 2023-07-29 15:02:13
-! Total Count: 1896
+! Version: 20230729163342
+! Last modified: 2023-07-29 16:33:42
+! Total Count: 1898
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -177,6 +177,7 @@
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[src*="//ad.a-ads.com/"]
 ##[src*="://sejieboxapi.yingyangdj.com"]
+##[src*="advertising"][src*="banner"],[data*="advertising"][data*="banner"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
 ##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
@@ -1666,6 +1667,7 @@ zle.com$script
 ||hnr.dodhvug.cn^
 ||hnrte.ghkmoert.xyz^
 ||hosr.xyz^
+||hotjar.com^$third-party
 ||huayiyuan.hk^
 ||hubiazhi.com^
 ||hxdqsvw.cn^
