@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OEsiRz2lqhNhHJuzSlr1jw
+! Checksum: 6rVAn5UNlP65W9fFI3E05w
 ! Title: 自用去广告Adblock规则
-! Version: 20230729163342
-! Last modified: 2023-07-29 16:33:42
-! Total Count: 1898
+! Version: 20230729171236
+! Last modified: 2023-07-29 17:12:36
+! Total Count: 1912
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -79,6 +79,12 @@
 ##.textadv
 ##.topads
 ##.van-tab__panel > .noTop.main-content > .group-content
+##.widget-ad
+##.widget-ads
+##.widget_ad_rotator
+##.widget_ads
+##.widget_adsensem
+##.widget_advert
 ##.yuepa-list
 ##.yuepa-warp
 ##[class$="ad-box"]
@@ -437,6 +443,9 @@
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 &adZones$xmlhttprequest
+&ad_block=
+&ad_code=
+&adsrc=
 -1316632262.cos.
 -advertise/
 -advertisement_
@@ -613,6 +622,8 @@
 /adClick/*$popup
 /adClick?$popup
 /adManager.js$script,third-party
+/ad_footer.
+/ad_footer_
 /ad_head_
 /ad_header.
 /ad_header_
@@ -661,7 +672,9 @@
 /ads_iframe
 /advert/youxi.js$script
 /advertise/*$domain=~legl.co|~payju.ir
+/advertisement.
 /advertisement/*
+/advertisement_
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
@@ -1391,6 +1404,7 @@ sv.baidu.com##.open-button-wrap
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##button[onclick*="this.parentNode.parentNode.removeChild"]
 tasexy.com##[id^="sexy_b"]
+tecms.net##[class$="i"][style],[class$="h"][style],[class$="_b"],[class$="c"][style],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],[class$="m"][style*="display"][style*="block"][style*="100%"]
 theav.xyz##[class*="-gg"]
 theav.xyz##[class*="absolute-"]
 theav.xyz##div[id*="theav"][style*="margin"] > div > span
