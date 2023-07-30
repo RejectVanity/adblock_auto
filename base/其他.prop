@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6rVAn5UNlP65W9fFI3E05w
+! Checksum: LwGpyiQK+EP25pIV4TCuQg
 ! Title: 自用去广告Adblock规则
-! Version: 20230729171236
-! Last modified: 2023-07-29 17:12:36
-! Total Count: 1912
+! Version: 20230730091817
+! Last modified: 2023-07-30 09:18:17
+! Total Count: 1928
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -224,6 +224,7 @@
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
 ##a[href*="/youyicl/youku.html"][target="_blank"]
 ##a[href*="?channelCode="] > img[src]
+##a[href*="?channelCode="][target="_blank"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
@@ -239,6 +240,7 @@
 ##a[href="賢者同盟"][target="_blank"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
+##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][alt="xxx"]
@@ -421,8 +423,10 @@
 ##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
+##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="sm2kz.net"]
+##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://pic.lsddkd.com:"]
@@ -628,6 +632,14 @@
 /ad_header.
 /ad_header_
 /ad_headerbg.
+/ad_units.
+/ad_units/*
+/ad_units?
+/ad_upload/*
+/ad_util.
+/ad_utils.
+/ad_ver/*
+/ad_vert.
 /adblock-alerter/*
 /adblock-alerter/js/adblock_alerter.js
 /adblock-blocker/*
@@ -697,6 +709,7 @@
 /js/dj2ll*.js
 /js/jads.js$script
 /js/pfadll*.js
+/js/sp_ad.js$script
 /lv/esnk/*$script,third-party
 /mdzzxttss.php?s=
 /nb/*$script,domain=bigtitslust.com|pornhex.com|159i.com|babesjoy.com|pornyfap.com|imgtorrnt.in|imgtornado.com|shameless.com|imgdone.com|webcamshows.org|ipicture.su|youav.com|porndr.com|noodlemagazine.com|picmoza.com|cumlouder.com|maturetubehere.com|amateur8.com|freeporn8.com
@@ -706,6 +719,7 @@
 /sdk/push_web/?zid=
 /search/tsc.php?
 /template/blank/yk/sdo.js
+/upload/ads/*$domain=~ads.ae
 /vs.php?id=$third-party,xmlhttprequest
 /widget-advert.
 /widget-advert?
@@ -797,6 +811,7 @@
 7itv.com##*[style*="display"][style*="block"],*[style*="position"][style*="fixed"],*[style*="bottom:"],[class$="_b"]
 7mmtv.sx##[class^="root--"]
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
+91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"]
 99re.com##a[href][target="_blank"] > img[src]
 ://*.*27txt.com/*/*.js$~third-party
 ://*.*27txt.com/xi.js$~third-party
@@ -1637,6 +1652,7 @@ zle.com$script
 ||dfes68.com^
 ||dicouksa.com^
 ||dilidili*.com/js/wap2-jm-ms.js$script
+||dizhi.men/js/*ad*.js$third-party,script
 ||dpic.wxddid.cn^$third-party
 ||drfvtgbyk.xyz^$third-party
 ||dspmnt.autohome.com.cn^
