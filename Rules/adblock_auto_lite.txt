@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qNX9JziQ2j892nVq/TP/qw
+! Checksum: 3jU3eI2KKVs0TWoJkq7hBg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230730094736
+! Version: 20230730111703
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-30 09:47:36
-! Total Count: 19705
+! Last modified: 2023-07-30 11:17:03
+! Total Count: 19714
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1285,6 +1285,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="ads"] > img
 ##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
@@ -1712,6 +1713,7 @@
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
+##a[href*="?shareName="][target="_blank"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
@@ -1758,6 +1760,7 @@
 ##a[href][target="_blank"][onclick*="点击"][onclick*="图标"][onclick*="'value':1"][onclick*="gtag"]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
+##a[href][target="_blank"][rel="noopener noreferrer"] > img[src][alt][class="pc"],a[href][target="_blank"][rel="noopener noreferrer"] > img[src][alt][class="h5"]
 ##a[href][title*="sponsor"][target="_blank"] > img[src$=".gif"]
 ##a[href][title*="sponsor"][target="_blank"] > img[src$=".png"]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
@@ -2072,6 +2075,7 @@
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
+##img[src*="jiongnet.cn"]
 ##img[src*="sm2kz.net"]
 ##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
@@ -5449,6 +5453,7 @@ imgrutor.com,playtor.tv##div[class^="adblock-warning"]
 in-trend.biz##body > [id][style^="z-index"]
 info-mage.ru###helpme[style="display: block;"]
 internet-law.ru###fab-enabled
+iookd.cc##[class="ads"] > img,img[src*="jiongnet.cn"]
 iphonesoft.fr,iphonetweak.fr###msgUser
 irk.ru##.b-adblock-message
 it-enginer.ru##body > #modal[style*="blur"]
@@ -5903,6 +5908,7 @@ txxx.com##a[href][rel="nofollow"][target="_blank"]
 uakino.club##.side-content-adblock
 ucoin.net###bottom-notice
 ukr.net##body > .yellow-die
+up.taoseye.com##a[target="_blank"],[ontouchstart]
 usgang.ch###rectangle-wrapper
 veseloeradio.ru##.racy_sidebar
 vesti-ukr.com###adblockpopup
@@ -8482,6 +8488,8 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||apsgo.com/go/
 ||aptosdevnet.com^
 ||apxadtracking.net^
+||aq869.name^$document
+||aq869.name^$~third-party
 ||aqc.gucheng.com^
 ||aqdy.net/js/banner.js
 ||aqdy.net/js/tj.js
@@ -17652,6 +17660,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||tv699.com/AllTemplet/js/
 ||tv699.com/Templet699/js/
 ||tv7box.com/Runtime/Js/
+||tv99.tv/wp-content/uploads/pum/
 ||tvdpebx.cn^
 ||tveta.naver.net^
 ||tvrshv.xyz^
