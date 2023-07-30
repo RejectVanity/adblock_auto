@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LwGpyiQK+EP25pIV4TCuQg
+! Checksum: q5dm7ReaL5EXfYD4NzqgIw
 ! Title: 自用去广告Adblock规则
-! Version: 20230730091817
-! Last modified: 2023-07-30 09:18:17
-! Total Count: 1928
+! Version: 20230730104839
+! Last modified: 2023-07-30 10:48:39
+! Total Count: 1934
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -103,6 +103,7 @@
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
 ##[class="ad noadmo"]
+##[class="ads"] > img
 ##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
@@ -225,6 +226,7 @@
 ##a[href*="/youyicl/youku.html"][target="_blank"]
 ##a[href*="?channelCode="] > img[src]
 ##a[href*="?channelCode="][target="_blank"]
+##a[href*="?shareName="][target="_blank"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
@@ -253,6 +255,7 @@
 ##a[href][target="_blank"][onclick*="点击"][onclick*="图标"][onclick*="'value':1"][onclick*="gtag"]
 ##a[href][target="_blank"][rel="external nofollow"] > img[src]
 ##a[href][target="_blank"][rel="nofollow noopenner"][class="text-ad-link" ]
+##a[href][target="_blank"][rel="noopener noreferrer"] > img[src][alt][class="pc"],a[href][target="_blank"][rel="noopener noreferrer"] > img[src][alt][class="h5"]
 ##a[href][title*="sponsor"][target="_blank"] > img[src$=".gif"]
 ##a[href][title*="sponsor"][target="_blank"] > img[src$=".png"]
 ##a[href^="http://googleads.g.doubleclick.net/pcs/click"]
@@ -425,6 +428,7 @@
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
+##img[src*="jiongnet.cn"]
 ##img[src*="sm2kz.net"]
 ##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
@@ -1149,6 +1153,7 @@ hanyu.baidu.com##[id^="fengchao_els"]
 hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
 ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
+iookd.cc##[class="ads"] > img,img[src*="jiongnet.cn"]
 javbabe.net###a-player
 javbabe.net,chinababe.net##.clipxx
 javbangers.com##.topnav > li > a[onclick][href]
@@ -1438,6 +1443,7 @@ tnaflix.com##.bannerBlock
 tnaflix.com##.rbsd
 txxx.com##[class*="popup"]
 txxx.com##a[href][rel="nofollow"][target="_blank"]
+up.taoseye.com##a[target="_blank"],[ontouchstart]
 video.sina.cn##section.Card_Mb16
 view.inews.qq.com##[class*="downloader-"]
 view.inews.qq.com##[class^="style_floatingRight__"]
