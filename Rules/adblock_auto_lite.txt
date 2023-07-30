@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 69b4RO88qOop8vz7ppc0jg
+! Checksum: qNX9JziQ2j892nVq/TP/qw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230730083740
+! Version: 20230730094736
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-30 08:37:40
-! Total Count: 19687
+! Last modified: 2023-07-30 09:47:36
+! Total Count: 19705
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1708,6 +1708,7 @@
 ##a[href*="?channelCode="] > img[src*=".com"]
 ##a[href*="?channelCode="] > img[src*=".xyz"]
 ##a[href*="?channelCode="] > img[src]
+##a[href*="?channelCode="][target="_blank"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
@@ -1744,6 +1745,7 @@
 ##a[href="賢者同盟"][target="_blank"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
+##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][alt="xxx"]
@@ -2068,8 +2070,10 @@
 ##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
+##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="sm2kz.net"]
+##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://pic.lsddkd.com:"]
@@ -3109,6 +3113,14 @@
 /ad_header.
 /ad_header_
 /ad_headerbg.
+/ad_units.
+/ad_units/*
+/ad_units?
+/ad_upload/*
+/ad_util.
+/ad_utils.
+/ad_ver/*
+/ad_vert.
 /adb-watch.
 /adbDetect.
 /adbDetect/*
@@ -3209,6 +3221,8 @@
 /home/subgame?id=vip*&gameCategoryId=*&platformId=$document
 /home/subgame?id=vip*&gameCategoryId=*&platformId=$~third-party
 /inc/antiblock.
+/index.html?shareName=$document
+/index.html?shareName=$~third-party
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/GDHF.js
 /js/ad_jyshe.js$third-party,script
@@ -3219,6 +3233,7 @@
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/jads.js$script
 /js/pfadll*.js
+/js/sp_ad.js$script
 /levelmaxblock.js
 /lv/esnk/*$script,third-party
 /mdzzxttss.php?s=
@@ -3237,6 +3252,7 @@
 /template/blank/yk/sdo.js
 /testAB.bundle.
 /upload/ad/*$image,domain=~manwa1.vip|~manwa2.vip|~manwa3.vip|~manwa4.vip|~manwa5.vip|~manwa6.vip|~manwa7.vip|~manwa8.vip|~manwa9.vip|~manwa10.vip|~manwa.vip|~manwa1.site|~manwa2.site|~manwa3.site|~manwa4.site|~manwa5.site|~manwa6.site|~manwa7.site|~manwa8.site|~manwa9.site|~manwa10.site|~manwa.site|~manwa1.me|~manwa2.me|~manwa3.me|~manwa4.me|~manwa5.me|~manwa6.me|~manwa7.me|~manwa8.me|~manwa9.me|~manwa10.me|~manwa.me|~mwcomic1.cc|~mwcomic2.cc|~mwcomic3.cc|~mwcomic4.cc|~mwcomic5.cc|~mwcomic6.cc|~mwcomic7.cc|~mwcomic8.cc|~mwcomic9.cc|~mwcomic10.cc|~mwcomic.cc|~mwcomic1.biz|~mwcomic2.biz|~mwcomic3.biz|~mwcomic4.biz|~mwcomic5.biz|~mwcomic6.biz|~mwcomic7.biz|~mwcomic8.biz|~mwcomic9.biz|~mwcomic10.biz|~mwcomic.biz|~mwcomic1.xyz|~mwcomic2.xyz|~mwcomic3.xyz|~mwcomic4.xyz|~mwcomic5.xyz|~mwcomic6.xyz|~mwcomic7.xyz|~mwcomic8.xyz|~mwcomic9.xyz|~mwcomic10.xyz|~mwcomic.xyz|~mwcomic1.top|~mwcomic2.top|~mwcomic3.top|~mwcomic4.top|~mwcomic5.top|~mwcomic6.top|~mwcomic7.top|~mwcomic8.top|~mwcomic9.top|~mwcomic10.top|~mwcomic.top|~manwa1.xyz|~manwa2.xyz|~manwa3.xyz|~manwa4.xyz|~manwa5.xyz|~manwa6.xyz|~manwa7.xyz|~manwa8.xyz|~manwa9.xyz|~manwa10.xyz|~manwa.xyz|~mwcomic1.co|~mwcomic2.co|~mwcomic3.co|~mwcomic4.co|~mwcomic5.co|~mwcomic6.co|~mwcomic7.co|~mwcomic8.co|~mwcomic9.co|~mwcomic10.co|~mwcomic.co
+/upload/ads/*$domain=~ads.ae
 /v*/?channelCode=$document
 /v*/?channelCode=$~third-party
 /vs.php?id=$third-party,xmlhttprequest
@@ -3345,6 +3361,7 @@
 7mmtv.sx,adultdeepfakes.com,missav.com,missav123.com,missav789.com,missav888.com,thisav.com##[class^="root--"]
 7sim.net##html > body ~ div
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
+91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"]
 99re.com##a[href][target="_blank"] > img[src]
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
@@ -10383,6 +10400,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||diwok.cyou^
 ||diyifanwen.com/siteimages/jiqiren
 ||diyijjj.com/data/content
+||dizhi.men/js/*ad*.js$third-party,script
 ||dj155.com/gg/
 ||dj930.cn^
 ||dj930.cn^$third-party

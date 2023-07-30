@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: aZhnAMEJgfJMOH3qjt44zA
+! Checksum: ax5SgOFXy3aT8j+FeHQfig
 ! Title: 混合规则(自动更新)
-! Version: 20230730083734
+! Version: 20230730094732
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-30 08:37:34
-! Total Count: 114236
+! Last modified: 2023-07-30 09:47:32
+! Total Count: 114219
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18214,6 +18214,7 @@
 ##a[href*="?channelCode="] > img[src*=".com"]
 ##a[href*="?channelCode="] > img[src*=".xyz"]
 ##a[href*="?channelCode="] > img[src]
+##a[href*="?channelCode="][target="_blank"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
@@ -18256,6 +18257,7 @@
 ##a[href="賢者同盟"][target="_blank"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
+##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][alt="xxx"]
@@ -18970,8 +18972,10 @@
 ##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="ads.bullionyield.com"]
+##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="sm2kz.net"]
+##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://images.purevpnaffiliates.com"]
@@ -25727,6 +25731,8 @@ $websocket,domain=5nj.com|cechi8.com
 /incotrading-ads/*
 /index-ad-
 /index-ad.
+/index.html?shareName=$document
+/index.html?shareName=$~third-party
 /index.php/Customize/list?params=
 /index.php/Statistics/ads_show?
 /index.php?m=book/ad&
@@ -25909,6 +25915,7 @@ $websocket,domain=5nj.com|cechi8.com
 /js/showgg.js
 /js/sjgg.js
 /js/soku-analytics.js
+/js/sp_ad.js$script
 /js/tpolknm.js
 /js/uoeuoem&12_tt.js
 /js/utils51.js
@@ -27448,6 +27455,7 @@ $websocket,domain=5nj.com|cechi8.com
 /static/js/4728ba74bc.js$~third-party
 /static/js/a22082021.
 /static/js/aall.js
+/static/js/adblocker.js$important,script,domain=hindimearticles.net|gameophobias.com|solution-hub.com
 /static/js/fuo_3.js
 /static/js/gold_daddy.js
 /static/js/headad.js
@@ -29533,6 +29541,7 @@ $websocket,domain=5nj.com|cechi8.com
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 91rb99.com,daporn.com,euobserver.com,fpo.xxx,hentai-moon.com,jianshu.com,medicinehatnews.com,pornmix.org,scatxxxporn.com##.top
+91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"]
 91wenmi.com###xzsp
 91wenmi.com##a[href^="http://www.91wenmi.com/xiezuo/"]
 91wenmi.com,wenmi114.com###xiezuo
@@ -44341,7 +44350,6 @@ roosterteeth.com##.vjs-marker
 roseindia.net##.col-md-4
 roseindia.net##.tutorialsstaticdata
 rottentomatoes.com##.leaderboard_wrapper
-rottentomatoes.com##.ordered-layout__scores-wrap
 rouman5.com##.fixed-bottom
 rouman5.com##a[href*=".tapdb.net"]
 rouman5.com#?#.col-md-4 > div.row:has(> div.col > div[style] > ins[id])
@@ -46238,7 +46246,6 @@ torlock.com##[class^="wrn"]
 torlock.com##table.hidden-xs
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
 torrentgalaxy.to##a[href*="/fetchdownload.php?"]
-torrentgalaxy.to##a[href*="/hub.php?a"][target="_blank"]
 torrentgalaxy.to##a[href*="/hub.php?a"][target]
 torrentresource.com##[width="150"]:last-child
 torrnado.win##body > div > .a-overlay
@@ -61384,7 +61391,6 @@ zzzyk.com###Tinfo
 ||bt.cosxcos.com/uploads/mya/$image
 ||bt.ktxp.com/iframe/statistics.js
 ||bt.mediaimpact.de^
-||bt.yurokrelax.com^
 ||bt1.patexplorer.com^
 ||bt121.net/ats/
 ||bt888bf.com/da.aspx
@@ -64501,7 +64507,6 @@ zzzyk.com###Tinfo
 ||collect.rtl.lu^
 ||collect.sas.com^
 ||collect.serious.li^
-||collect.tianya.cn^
 ||collect.usefathom.com^
 ||collect2.sas.com^
 ||collectfasttracks.com^
@@ -64551,7 +64556,6 @@ zzzyk.com###Tinfo
 ||collector.ozeex.com^
 ||collector.pi.spectrum.net^
 ||collector.prod.expedia.com^
-||collector.puhutv.com^
 ||collector.reelevant.com^
 ||collector.retailcrm.pro^
 ||collector.rn.de^
@@ -64639,7 +64643,6 @@ zzzyk.com###Tinfo
 ||comekang.xyz^
 ||comenicurled.space^
 ||comermormal.com^
-||comet.sputniknews.com^
 ||cometlytrack.com^
 ||comezz.xyz^
 ||comfortablecheese.com^
@@ -65166,7 +65169,6 @@ zzzyk.com###Tinfo
 ||counter.1gb.ru^
 ||counter.1i.kz^
 ||counter.24h.com.vn^
-||counter.24smi.info^
 ||counter.adguard.com^
 ||counter.ajansspor.com^
 ||counter.all.biz^
@@ -65199,7 +65201,6 @@ zzzyk.com###Tinfo
 ||counter.ntdvn.net^
 ||counter.nv.ua^
 ||counter.ok.ee^
-||counter.opinion.com.ua^
 ||counter.packa2.cz^
 ||counter.pcauto.com.cn^
 ||counter.photopulse.ru^
@@ -65213,7 +65214,6 @@ zzzyk.com###Tinfo
 ||counter.rian.ru^
 ||counter.sberbank.ru^
 ||counter.scribblelive.com^
-||counter.scribblelive.net^
 ||counter.sibnet.ru^
 ||counter.sina.com.cn^
 ||counter.snackly.co^
@@ -65225,7 +65225,6 @@ zzzyk.com###Tinfo
 ||counter.toolsir.com^
 ||counter.top.ge^
 ||counter.top.kg^
-||counter.tovarro.com^
 ||counter.ukr.net^
 ||counter.web.money^
 ||counter.webmart.de^
@@ -65590,7 +65589,6 @@ zzzyk.com###Tinfo
 ||crm.agency^
 ||crm.bizfly.vn^
 ||crm.englishtown.edu.vn^
-||crm.zenguard.biz^
 ||crm4d.com^
 ||crmbizfly.todo.vn^
 ||crmmetrix.fr^
@@ -67045,7 +67043,6 @@ zzzyk.com###Tinfo
 ||dailiqing.net^
 ||dailyc24.com^
 ||dailyenoplan.website^
-||dailymotion-ams.gravityrd-services.com^
 ||dailynews.sina.com/gb/ads/
 ||dailynews.wiki^
 ||dailyportalz.jp/api/dpz/adPosts|
@@ -68522,6 +68519,7 @@ zzzyk.com###Tinfo
 ||diyijjj.com/data/content
 ||diyusa.xyz^
 ||diz4z73aymwyp.cloudfront.net^
+||dizhi.men/js/*ad*.js$third-party,script
 ||dizipal223.com^
 ||dizzy-illegal.pro^
 ||dizzyac.com^
@@ -72580,7 +72578,6 @@ zzzyk.com###Tinfo
 ||fillhr.xyz^
 ||fillidutt.tw^
 ||fillsitsy.cam^
-||fillvpn.com^
 ||filmdomparesis.com^
 ||filmesonlinegratis.com^
 ||filmoljupci.com^
@@ -83822,7 +83819,6 @@ zzzyk.com###Tinfo
 ||lnd.com.cn/sys/real_calc.js
 ||lndata.com^
 ||lndayp.com/4567/
-||lnews.riafan.ru^
 ||lnflfbf.cn^
 ||lngtd.com^
 ||lnhsjob.com^
@@ -85017,7 +85013,6 @@ zzzyk.com###Tinfo
 ||ma.baiducdn2.com^*/main.js?t=
 ||ma.logsss.com^
 ||ma.news.naver.com^
-||ma.tarnkappe.info^
 ||ma.zoho.eu^
 ||ma1.meishij.net^
 ||ma2gs3wne3gfej70osium.com^
@@ -95902,7 +95897,6 @@ zzzyk.com###Tinfo
 ||rebillsegomism.com^
 ||rebindskayoes.com^
 ||rebiraert.com^
-||rebrand.ly^
 ||rebrea.com^
 ||rebrew-foofteen.com^
 ||rebrickstowp.com^
@@ -99102,7 +99096,6 @@ zzzyk.com###Tinfo
 ||shaque.vip^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||shar3yourf1le.com^
-||sharapako.com^
 ||share-server.com^
 ||share.baidu.com/static/js/
 ||share.dmhy.org^*.*?$image
@@ -105416,7 +105409,6 @@ zzzyk.com###Tinfo
 ||tracker.mtrtb.com^
 ||tracker.myyschool.xyz^
 ||tracker.nbcuas.com^
-||tracker.neon-images.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||tracker.phunusuckhoe.vn^
@@ -105429,7 +105421,6 @@ zzzyk.com###Tinfo
 ||tracker.realclearpolitics.com^
 ||tracker.redditmedia.com^
 ||tracker.remp-beam.golem.de^
-||tracker.remp.impresa.pt^
 ||tracker.remp.sme.sk^
 ||tracker.revip.info^
 ||tracker.samplicio.us^
@@ -105446,7 +105437,6 @@ zzzyk.com###Tinfo
 ||tracker.tolvnow.com^
 ||tracker.tubecj.com^
 ||tracker.twenga.
-||tracker.twenga.pl^
 ||tracker.unbxdapi.com^
 ||tracker.uprinting.com^
 ||tracker.washtimes.com^
@@ -105675,9 +105665,7 @@ zzzyk.com###Tinfo
 ||tracking.overwolf.com^
 ||tracking.pacharge.com^
 ||tracking.parte.com^
-||tracking.performgroup.com^
 ||tracking.phunuadong.vn^
-||tracking.pixelfederation.com^
 ||tracking.plattformad.com^
 ||tracking.playzing.g6.zing.vn^
 ||tracking.plinga.de^
@@ -105685,7 +105673,6 @@ zzzyk.com###Tinfo
 ||tracking.pornhd.com^
 ||tracking.practicefusion.com^
 ||tracking.prd.mz.internal.unity3d.com^
-||tracking.propelmedia.com^
 ||tracking.purchasely.io^
 ||tracking.rapidape.com^
 ||tracking.rce.veeseo.com^
@@ -105707,7 +105694,6 @@ zzzyk.com###Tinfo
 ||tracking.shopback.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shoptogether.buy.com^
-||tracking.sim-technik.de^
 ||tracking.skaraborgslanstidning.se^
 ||tracking.skd.se^
 ||tracking.skovdenyheter.se^
@@ -105754,7 +105740,6 @@ zzzyk.com###Tinfo
 ||tracking.viewlift.com^
 ||tracking.viewster.com^
 ||tracking.visitorsvoice.com^
-||tracking.vitringez.com^
 ||tracking.vlt.se^
 ||tracking.vn.se^
 ||tracking.vnncdn.net^
@@ -109132,7 +109117,6 @@ zzzyk.com###Tinfo
 ||vst.dfn-network.pro^
 ||vst.sibnet.ru^
 ||vstat.borderlessbd.com^
-||vstats.digitaltrends.com^
 ||vstats.me^
 ||vsthouse.ru/a-detector/
 ||vstvstsa.com^
@@ -109727,7 +109711,6 @@ zzzyk.com###Tinfo
 ||webair.com^
 ||webanalysis.dev^
 ||webanalytic.info^
-||webanalyzer.bussion.com^
 ||webantenna.info^
 ||webapps.leasing.com^
 ||webassembly.stream^
