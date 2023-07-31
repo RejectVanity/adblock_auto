@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7L8t6DZmyLLBqZaS9ddsMw
+! Checksum: qV0mE7GQs2B8zJlCBvtyrA
 ! Title: 混合规则(自动更新)
-! Version: 20230731083643
+! Version: 20230731160933
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-31 08:36:43
-! Total Count: 114374
+! Last modified: 2023-07-31 16:09:33
+! Total Count: 114428
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -16580,6 +16580,7 @@
 ##.sticky-bottom-ad
 ##.sticky-footer-ad
 ##.sticky-footer-ad-container
+##.sticky-navbar-ad-container
 ##.sticky-rail-ad-container
 ##.sticky-side-ad
 ##.sticky-sidebar-ad
@@ -24115,6 +24116,7 @@ $websocket,domain=5nj.com|cechi8.com
 /api.ad.
 /api.ads.$domain=~ads.instacart.com|~instacart.com
 /api/Video/GetAdsData?
+/api/Video/GetAdsDataList?
 /api/aaaac/list
 /api/ad/*
 /api/ads/*
@@ -28619,7 +28621,7 @@ $websocket,domain=5nj.com|cechi8.com
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
-180gadgets.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,fyptt.to,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hdmovies4u.live,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,japaneseasmr.com,journeybytes.com,linuxfordevices.com,lithub.com,mb.com.ph,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,techviral.net,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,vjmedia.com.hk,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
+180gadgets.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,fyptt.to,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hdmovies4u.live,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,japaneseasmr.com,journeybytes.com,linuxfordevices.com,lithub.com,mb.com.ph,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,techviral.net,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,vjmedia.com.hk,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
@@ -43302,6 +43304,8 @@ petco.com##[data-widget-type="citrus-banner"]
 petco.com#?#[class^="CitrusCatapult-styled__LeftContent"]:-abp-has(div:-abp-contains(Sponsored))
 petco.com#?#[class^="HorizontalWidget"]:-abp-has(div:-abp-contains(Sponsored))
 petco.com#?#li:-abp-contains(Sponsored)
+petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
+petfinder.com##.CardGrid-module--breakOut--a18cf
 petitchef.com,station-drivers.com,tennistemple.com##.akcelo-wrapper
 petkeen.com##.br-10
 petoskeynews.com##.skyScraper
@@ -51409,6 +51413,7 @@ zzzyk.com###Tinfo
 ||8bc4888880.com^
 ||8bo.com/template/default/8bo/j/app.js
 ||8bobf.*/da.aspx
+||8c771f7ea1.com^
 ||8c9cz5kp0o.com^
 ||8cc5ff581a88.bitsngo.net^
 ||8ccrv.xyz^
@@ -53374,6 +53379,7 @@ zzzyk.com###Tinfo
 ||admdspc.com^
 ||adme-net.com^
 ||admedia.com^
+||admedia.network^
 ||admediatex.net^
 ||admediator.ru^
 ||admedit.net^
@@ -54639,6 +54645,7 @@ zzzyk.com###Tinfo
 ||aebwmemfebks.xyz^
 ||aec40f9e073ba6.com^
 ||aecyrdlcvjdfcus.com^
+||aed54582b6.com^
 ||aeeg5idiuenbi7erger.com^
 ||aeesy.com^
 ||aefaldypulldoo.com^
@@ -56898,6 +56905,7 @@ zzzyk.com###Tinfo
 ||apeng.club^
 ||apenterprise.io^
 ||aperchwagered.com^
+||aperprovant.top^
 ||aperseearanein.space^
 ||aperushmo.cam^
 ||apesdrooping.com^
@@ -57457,6 +57465,7 @@ zzzyk.com###Tinfo
 ||arrowpushengine.com^
 ||arrowrictus.com^
 ||arrowtoldilim.xyz^
+||arsahahada.com^
 ||arsdev.net^
 ||arshadsafrash.com^
 ||arshelmeton.com^
@@ -61387,6 +61396,7 @@ zzzyk.com###Tinfo
 ||brunettemattersrefused.com^
 ||brupu.com^
 ||brutalconfer.com^
+||brvkzwjrjzzav.top^
 ||brwaraykbrlrl.top^
 ||brygella.com^
 ||bryond.com^
@@ -62519,6 +62529,7 @@ zzzyk.com###Tinfo
 ||cc599.com^
 ||cc954a8da8.com^
 ||cca63f7d30.com^
+||ccaahdancza.com^
 ||ccalgf.com^
 ||ccav1.com/wp-content/uploads/an-temp/
 ||ccav1.com/wp-content/uploads/bMShkpexGYJd/
@@ -64578,6 +64589,7 @@ zzzyk.com###Tinfo
 ||collector-pxrf8vapwa.px-cdn.net^
 ||collector-pxrf8vapwa.px-cloud.net^
 ||collector-pxrf8vapwa.pxchk.net^
+||collector-soompi.viki.io^
 ||collector-statistics.nhn-commerce.com^
 ||collector-videoplayer.5centscdn.net^
 ||collector.api.video^
@@ -65169,6 +65181,7 @@ zzzyk.com###Tinfo
 ||cotingavintry.website^
 ||coubte.com^
 ||coudswamper.com^
+||couldburgeon.com^
 ||coull.com^
 ||coumasha.xyz^
 ||councedvdvg.club^
@@ -65340,6 +65353,7 @@ zzzyk.com###Tinfo
 ||courselfnorter.xyz^
 ||coursyorpins.space^
 ||courteous-development.com^
+||courtroomboyfriend.com^
 ||courtsbeltmen.com^
 ||cousingypsy.com^
 ||couthieisobath.com^
@@ -67389,6 +67403,7 @@ zzzyk.com###Tinfo
 ||dauntlessamusingcomrade.com^
 ||davaifoa.com^
 ||davarello.com^
+||davbaqlajfza.com^
 ||davedbux.ir^
 ||davjdaauvlp.com^
 ||dawangde.me^
@@ -68865,6 +68880,7 @@ zzzyk.com###Tinfo
 ||dodayobeitand.xyz^
 ||doddassagai.com^
 ||doddymetaled.space^
+||dodgefondness.com^
 ||dodgilyscutula.com^
 ||dodk8rb03jif9.cloudfront.net^
 ||dodo8.com/template/*/images/g_js/
@@ -69612,6 +69628,7 @@ zzzyk.com###Tinfo
 ||dvbnmikxh.xyz^
 ||dvbuxcl.cn^
 ||dvc8653ec6uyk.cloudfront.net^
+||dvcgzygp.com^
 ||dvfkpfgqyauuux.com^
 ||dviccvivms.com^
 ||dvigukindal.com^
@@ -69780,6 +69797,7 @@ zzzyk.com###Tinfo
 ||dz4ad.com^
 ||dz5bomaog2c5t.cloudfront.net^
 ||dz6uw9vrm7nx6.cloudfront.net^
+||dzbkl37t8az8q.cloudfront.net^
 ||dzdgfp673c1p0.cloudfront.net^
 ||dzeoiizhixuyvg.com^
 ||dzhjmp.com^
@@ -72421,6 +72439,7 @@ zzzyk.com###Tinfo
 ||fegivja.com^
 ||fegortius.com^
 ||fegsbatak.uno^
+||fehaishu.com^
 ||feifcgx.cn^
 ||feifei.buzz^
 ||feifei.mobi^
@@ -76731,6 +76750,7 @@ zzzyk.com###Tinfo
 ||helloworldisbeautiful.net^
 ||helltraffic.com^
 ||hellu.cyou^
+||helmethopeinscription.com^
 ||helpcollar.com^
 ||helpedhandwritingintestine.com^
 ||helpful-web.com^
@@ -77031,6 +77051,7 @@ zzzyk.com###Tinfo
 ||hilded.com^
 ||hildly.com^
 ||hillbackserve.com^
+||hillsidejustificationstitch.com^
 ||hilltopads.com^
 ||hilltopads.net^
 ||hilltopgo.com^
@@ -79133,6 +79154,7 @@ zzzyk.com###Tinfo
 ||infinitytrk.com^
 ||infirmaryboss.com^
 ||inflameemanent.cam^
+||inflationabstinence.com^
 ||inflationbreedinghoax.com^
 ||inflationmileage.com^
 ||inflectedminimalbits.com^
@@ -79254,6 +79276,7 @@ zzzyk.com###Tinfo
 ||innity.net^
 ||innlzrs.cn^
 ||innocenceexpeditionsensation.com^
+||innocencescarcelymoreover.com^
 ||innocentinvention.com^
 ||innocentwax.com^
 ||innovads-server.poster.appsinnova.com^
@@ -79300,6 +79323,7 @@ zzzyk.com###Tinfo
 ||inscriptionafford.com^
 ||inscriptionharm.com^
 ||insectclothe.com^
+||insectsaw.com^
 ||insectsmanners.com^
 ||insensitiveintegertransactions.com^
 ||inseparablelunchwasted.com^
@@ -79458,6 +79482,7 @@ zzzyk.com###Tinfo
 ||interestededit.com^
 ||interesting-vids.space^
 ||interesting.cc^
+||interestingpics.space^
 ||interestingpot.com^
 ||interestingpot.com^$third-party
 ||interestmoments.com^
@@ -80110,6 +80135,7 @@ zzzyk.com###Tinfo
 ||iydppgpcz.com^
 ||iyes.youku.com^
 ||iyf.tv/a/$xmlhttprequest
+||iyf.tv/play/$xmlhttprequest
 ||iyfbodn.com^
 ||iyfnz.com^
 ||iyfnzgb.com^
@@ -82381,6 +82407,7 @@ zzzyk.com###Tinfo
 ||ksdr.xyz^
 ||ksehinkitw.hair^
 ||ksjdkjh.ru^
+||kslbahd.top^
 ||ksnignsd.xyz^
 ||ksnoownmd.fun^
 ||kspotson.de^
@@ -83570,6 +83597,7 @@ zzzyk.com###Tinfo
 ||lin01.bid^
 ||lindanmiaoxiang.cn^
 ||line1-log.biligame.net^
+||linearmummy.com^
 ||linecg.com/uploads/banner/
 ||linedprocurator.com^
 ||linedpuzzle.com^
@@ -83687,6 +83715,7 @@ zzzyk.com###Tinfo
 ||liquorsswouned.com^
 ||liqwid.net^
 ||lirateblister.com^
+||lirdooch.xyz^
 ||lisafnil.space^
 ||lispingwraths.space^
 ||listc.cn^
@@ -85186,6 +85215,7 @@ zzzyk.com###Tinfo
 ||magetic.com^
 ||magetrigla.com^
 ||maggieeatstheangel.com^
+||maggotpolity.com^
 ||maghoutwell.com^
 ||magic-future.com^
 ||magicalbending.com^
@@ -86464,6 +86494,7 @@ zzzyk.com###Tinfo
 ||mightyspiders.com^
 ||mignished-sility.com^
 ||migrantspiteconnecting.com^
+||migrationscarletquick.com^
 ||migric.com^
 ||miguyu.com/AD/
 ||mihouse.pw^
@@ -87382,6 +87413,7 @@ zzzyk.com###Tinfo
 ||mq.d6s3mov.cn^$third-party
 ||mq65.top^
 ||mqabjtgli.xyz^
+||mqaqtwkbwcqty.xyz^
 ||mqarrenothanca.xyz^
 ||mqjeut5.com^
 ||mql5.com/rq?
@@ -87914,6 +87946,7 @@ zzzyk.com###Tinfo
 ||mytrackf73.com^
 ||mytraf.info^
 ||mytraf.ru^
+||myudkrefaiygs.com^
 ||myunion1.qm120.com^
 ||myunion1.tupians.com^
 ||myuosid.cn^
@@ -90472,6 +90505,7 @@ zzzyk.com###Tinfo
 ||opengam.com^
 ||openguid.org^
 ||openhit.com^
+||openingdreamsspinster.com^
 ||openinstall.io^$third-party
 ||openinternetexchange.com^
 ||openinternetexchange.net^
@@ -91925,6 +91959,7 @@ zzzyk.com###Tinfo
 ||pegmanascare.com^
 ||pehlvl.xyz^
 ||peigbv.cn^
+||peiq.de^
 ||peirs5tbakchios.com^
 ||peise.net/Skin/js/global.
 ||peishuning1.cn^
@@ -94019,6 +94054,7 @@ zzzyk.com###Tinfo
 ||prudsys-rde.de^
 ||prugskh.com^
 ||prugskh.net^
+||prunesderelicttug.com^
 ||pruneslustremind.com^
 ||prunesupgraderadiator.com^
 ||prunuspelmet.website^
@@ -94295,6 +94331,7 @@ zzzyk.com###Tinfo
 ||publited.com^
 ||publpush.com^
 ||publy.net^
+||publytics.net^
 ||publzuza.live^
 ||pubmaner5.com^
 ||pubmatic.com^
@@ -95953,6 +95990,7 @@ zzzyk.com###Tinfo
 ||realhumandeals.com^
 ||reali.st^
 ||realist.gen.tr^
+||realityamorphous.com^
 ||realizerecess.com^
 ||realizesensitivenessflashlight.com^
 ||realizevacation.com^
@@ -96263,6 +96301,7 @@ zzzyk.com###Tinfo
 ||region1.analytics.google.com^
 ||regionads.ru^
 ||regionaladversarylight.com^
+||regionalyesterdayreign.com^
 ||regioncolonel.com^
 ||register.appsflyer.com^
 ||register.xmpush.xiaomi.com^
@@ -98357,6 +98396,7 @@ zzzyk.com###Tinfo
 ||scarecrowslip.com^
 ||scarecrowslope.com^
 ||scared-respond.pro^
+||scaredcollector.com^
 ||scaredcomfort.com^
 ||scaredfarm.com^
 ||scaredimmediatelyrave.com^
@@ -100802,6 +100842,7 @@ zzzyk.com###Tinfo
 ||souvoana.xyz^
 ||souyou.org^
 ||sovietit.com^
+||sovism.com^
 ||sovrn.com^
 ||sowlettuce.com^
 ||soxscc.org/wsc/
@@ -101098,6 +101139,7 @@ zzzyk.com###Tinfo
 ||spiritualinstalled.com^
 ||spitefulif.pro^
 ||spitefulstop.com^
+||spittenant.com^
 ||spitter.pauk.ru^
 ||spitzeslamprey.uno^
 ||spixel.socy.es^
@@ -102389,6 +102431,7 @@ zzzyk.com###Tinfo
 ||style.onvz.nl^
 ||stylesheet-js.ru^
 ||styleui.ru^
+||stylewhiskerscreepy.com^
 ||stylliyote.com^
 ||styrianauf.com^
 ||su.bdimg.com/static/dspui/js/
@@ -102791,6 +102834,7 @@ zzzyk.com###Tinfo
 ||swayersnoance.com^
 ||swaypedigreeresolve.com^
 ||swbdds.com^
+||sweake.com^
 ||swearanalogous.com^
 ||sweaterwarmly.com^
 ||sweatybar.pro^
@@ -102806,6 +102850,7 @@ zzzyk.com###Tinfo
 ||sweetromance.life^
 ||sweetslope.com^
 ||swelen.com^
+||swelllagoon.com^
 ||swellstocking.com^
 ||swelltomatoesguess.com^
 ||swelteringsmile.com^
@@ -104583,6 +104628,7 @@ zzzyk.com###Tinfo
 ||tinystat.ir^
 ||tinytendency.com^
 ||tioew.cyou^
+||tionakasulbac.net^
 ||tionininanceena.info^
 ||tip-ads.de^
 ||tipcartoleron.com^
@@ -106424,6 +106470,7 @@ zzzyk.com###Tinfo
 ||trx.zip.co^
 ||trxs123.com/skin/default/js/jque.js
 ||trxxh.com^
+||try-snowplow.com^
 ||trymynewspirit.com^
 ||trymysadoroh.site^
 ||trynhassd.com^
@@ -108277,6 +108324,7 @@ zzzyk.com###Tinfo
 ||variouscreativeformats.com^
 ||variousformatscontent.com^
 ||variti.net^
+||varnishmixed.com^
 ||varothpajraq.com^
 ||varravgames.com/AdVarServer/
 ||varshacundy.com^
@@ -108735,6 +108783,7 @@ zzzyk.com###Tinfo
 ||viewar.org^
 ||viewclc.com^
 ||viewlnk.com^
+||viewpointscissorsfolks.com^
 ||views.cancan.ro^
 ||views.romaniatv.net^
 ||viewscout.com^
@@ -110261,6 +110310,7 @@ zzzyk.com###Tinfo
 ||wheehiba.net^
 ||wheeksir.net^
 ||wheeledajar.com^
+||wheeledmoundangrily.com^
 ||wheelify.cartzy.com^
 ||wheelwheel.space^
 ||wheensairga.com^
@@ -110313,6 +110363,7 @@ zzzyk.com###Tinfo
 ||whirlwealth.com^
 ||whirlwindconsistencyinoffensive.com^
 ||whirlwindofnews.com^
+||whiskersbiographypropulsion.com^
 ||whiskerssituationdisturb.com^
 ||whiskyqueue.com^
 ||whisla.com^
@@ -110604,6 +110655,7 @@ zzzyk.com###Tinfo
 ||wishesantennarightfully.com^
 ||wishesen.com^
 ||wishesobtrusivefastest.com^
+||wishfulauthorities.com^
 ||wishjus.com^
 ||wishloop.com^
 ||wishmayvaganti.website^
@@ -112677,6 +112729,7 @@ zzzyk.com###Tinfo
 ||yimi1818.xyz^
 ||yimuhe.com/n_ad/
 ||yin1.zgpingshu.com^
+||yinadeditiontowriti.info^
 ||yingav.net/images/content/spot01.jpg
 ||yingce.asia^
 ||yingforthemoo.info^
@@ -113492,6 +113545,7 @@ zzzyk.com###Tinfo
 ||zcck60eqyw.world^
 ||zcczrvsaqw.world^
 ||zcdfll.xyz^
+||zcekqwlqktzrfq.com^
 ||zcfhi.cn.com^
 ||zchange.xyz^
 ||zchkz.cn^
