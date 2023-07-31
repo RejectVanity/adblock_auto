@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qV0mE7GQs2B8zJlCBvtyrA
+! Checksum: 7Acbzyw5SfP48i/gAGZGMQ
 ! Title: 混合规则(自动更新)
-! Version: 20230731160933
+! Version: 20230801000855
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-07-31 16:09:33
-! Total Count: 114428
+! Last modified: 2023-08-01 00:08:55
+! Total Count: 114433
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -34767,6 +34767,7 @@ bitdegree.org##.comparison-suggestion
 bitdegree.org##.page-coupon-landing
 bitref.com##picture > img[src]
 bittools.net##[href^="//www.bittools.net/binance"]
+bitzite.com,unmineablesbest.com##ins[style^="display:inline-block;width:300px;height:250px;"]
 bixia.org##dd[style*="bottom:"]
 biz.ifeng.com##.riodel
 biz.ifeng.com,feng.com##.header
@@ -39826,6 +39827,7 @@ ifeng.com##div[id^="padhide_"]
 ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
 ifeng.com##section[class^="fixSlide-"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
+ifeng.com#?#div[class^="index_yaowen_center"] div[class^="index_news_list_"]:has(a[target="_blank"] + img[src^="https://x0.ifengimg.com/feprod/"])
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
@@ -40459,6 +40461,7 @@ japan-whores.com##.vp-info
 japantoday.com##.s10r
 japantoday.com##.widget--animated
 japantoday.com##.widget--jobs
+jav-jp.com###block-29
 jav.work##.releated_video[style^="overflow: hidden;"]
 jav321.com###popup-container
 jav4tv.com#?#aside:-abp-has(.ads_300_250)
@@ -46652,7 +46655,6 @@ unlockboot.com##.ubtopheadads
 unmatched.gg##app-advertising
 unmineablesbest.com##.ct_ipd728x90
 unmineablesbest.com##div[class^="uk-visible@"]
-unmineablesbest.com##ins[style^="display:inline-block;width:300px;height:250px;"]
 unogs.com###purevpninfo
 unogs.com##.nordvpnAd
 unogs.com##[href^="/ad/"]
@@ -61071,6 +61073,7 @@ zzzyk.com###Tinfo
 ||bouncyfront.com^
 ||bouncyproperty.com^
 ||boundlessbrake.com^
+||boundlessveil.com^
 ||bouptosaive.com^
 ||bouqaiewfksqz.com^
 ||bourbonlunches.com^
@@ -88256,6 +88259,7 @@ zzzyk.com###Tinfo
 ||nceqpmxyhqo.com^
 ||ncernedas.one^
 ||ncesprin.buzz^
+||ncgqmzm.cn^
 ||nchte.com^
 ||nchxzmhr.com^
 ||ncmxwhf.icu^
@@ -95209,6 +95213,7 @@ zzzyk.com###Tinfo
 ||qprskl.com^
 ||qptnew.com^
 ||qpxohp.com^
+||qpztub.xyz^
 ||qq.com/Index/getAdsAndHotspot
 ||qq.com/PL_adT.htm
 ||qq.com/bbs/bbs_topgg.htm
