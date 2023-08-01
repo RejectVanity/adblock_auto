@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q5dm7ReaL5EXfYD4NzqgIw
+! Checksum: JGfG1Duijp5oJtjeJ279Jw
 ! Title: 自用去广告Adblock规则
-! Version: 20230730104839
-! Last modified: 2023-07-30 10:48:39
-! Total Count: 1934
+! Version: 20230801115121
+! Last modified: 2023-08-01 11:51:21
+! Total Count: 1942
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -185,6 +185,7 @@
 ##[src*="//ad.a-ads.com/"]
 ##[src*="://sejieboxapi.yingyangdj.com"]
 ##[src*="advertising"][src*="banner"],[data*="advertising"][data*="banner"]
+##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
 ##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
@@ -450,6 +451,7 @@
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
+$third-party,domain=lengmenread.com
 &adZones$xmlhttprequest
 &ad_block=
 &ad_code=
@@ -720,6 +722,7 @@
 /new/yinghuacd*/bottom.js$third-party,script
 /npc/sdk/wp-banners.js$script,third-party
 /pagead2.
+/redbaiduct.com?s=$third-party
 /sdk/push_web/?zid=
 /search/tsc.php?
 /template/blank/yk/sdo.js
@@ -1176,6 +1179,7 @@ jingyanlib.com##div[id^="adIndex"]
 jinxiyue.com##a[onclick^="qinlintest"]
 kdslife.com##[class*="DownloadGuide"]
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
+lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background: url"]
 luoqiuzw.com##.show-app2
 m.bilibili.com##.home-float-openapp.launch-app-btn
 m.bilibili.com##.large.openapp-dialog
@@ -1423,6 +1427,7 @@ sunshinewaay.cn##img[class$="BnImg"]
 sv.baidu.com##.open-button-wrap
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##button[onclick*="this.parentNode.parentNode.removeChild"]
+taotu.org##img[src*="/adimages/"]
 tasexy.com##[id^="sexy_b"]
 tecms.net##[class$="i"][style],[class$="h"][style],[class$="_b"],[class$="c"][style],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],[class$="m"][style*="display"][style*="block"][style*="100%"]
 theav.xyz##[class*="-gg"]
@@ -1629,6 +1634,7 @@ zle.com$script
 ||buondua.com/temp*_/temp*_.js$script
 ||buondua.us/temp*_/?
 ||buondua.us/temp*_/temp*_.js$script
+||byjdg.xyz^$third-party
 ||bytegoofy.com/goofy/*/push.js?
 ||c-ctrip.com/images/*.gif
 ||c-ctrip.com/train/*/*.jpg
@@ -1750,6 +1756,7 @@ zle.com$script
 ||leads.api.autohome.com.cn^
 ||leads.autohome.com.cn^
 ||lezhutv.com/static/jquerys.js
+||lhotajl.icu^$third-party
 ||ln.tian-ting.ink^
 ||log.m.sm.cn^
 ||lqglqq.com^$third-party
@@ -1778,6 +1785,7 @@ zle.com$script
 ||nsclick.baidu.com^
 ||nscxbr.com^$third-party
 ||nwecd.xyz^$third-party
+||oqedci.xyz^$third-party
 ||oronwg.xyz^$third-party
 ||pagead2.googlesyndication.com^
 ||pcd.autohome.com.cn^
