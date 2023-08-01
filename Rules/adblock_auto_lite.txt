@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: /ufvczX12T58L2kfP+waZw
+! Checksum: OopIoY0J9r9Ob+KvJ5v3cQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230801084001
+! Version: 20230801121150
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-01 08:40:01
-! Total Count: 19734
+! Last modified: 2023-08-01 12:11:50
+! Total Count: 19746
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -708,6 +708,8 @@
 ##.adlistcss
 ##.adp-popup
 ##.adpc > .module
+##.adpc > .promot-link-
+##.adpc > .promot-link_
 ##.adpc > .promote-link
 ##.adpc > .promote-link-
 ##.adpc > .promote-link_
@@ -839,7 +841,6 @@
 ##.chat-top-ad
 ##.clearfix.col5.row > #listBox
 ##.col-ad
-##.col-lg-3.col-xs-6 > .well
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
 ##.col6 > a[onclick*="横幅"]
@@ -1375,6 +1376,7 @@
 ##[src*="//ad.a-ads.com/"]
 ##[src*="://sejieboxapi.yingyangdj.com"]
 ##[src*="advertising"][src*="banner"],[data*="advertising"][data*="banner"]
+##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
@@ -2464,6 +2466,7 @@
 #@#.ws_contentAd660
 #@#[id^="google_ads_iframe"]
 #@#ins.adsbygoogle
+$third-party,domain=lengmenread.com
 &adZones$xmlhttprequest
 &ad_block=
 &ad_code=
@@ -2773,6 +2776,7 @@
 .html?channelCode=$~third-party
 .icu/*_*_rony.js
 .icu/ads/
+.icu/pssbk?*16$third-party
 .in/js/ads/
 .info/ad.js
 .info/ad/
@@ -3251,6 +3255,7 @@
 /pagead2.
 /pge/?s=$third-party
 /popup/adblocker
+/redbaiduct.com?s=$third-party
 /sdk/push_web/?zid=
 /search/tsc.php?
 /template/blank/yk/sdo.js
@@ -4443,6 +4448,8 @@
 ://www.yetianlian.us/*/*.js
 ://xingkong6688s.oss-
 ://yin*.zgpingshu.com
+://yttc.tristavn.com$document
+://yttc.tristavn.com$~third-party
 :1010/openV5.js
 :11211/t.js?MAC=
 :12289/o.js$script,third-party
@@ -5495,6 +5502,7 @@ kubik3.ru##.adbs
 l-a-w.ru,mhelp.kz##.swal2-container
 lagrosseradio.com###warn
 leechyscripts.com##div[class^="chp_ads_block_modal"]
+lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background: url"]
 liga.net#@#div[id^="div-gpt-ad"]
 llifle.com###ad_blocker_found
 lostfilm.tv##div[class^="alarm"]
@@ -5872,6 +5880,7 @@ sv.baidu.com##.open-button-wrap
 swaego.ru##body > .special-message-wrapper
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##button[onclick*="this.parentNode.parentNode.removeChild"]
+taotu.org##img[src*="/adimages/"]
 tasexy.com##[id^="sexy_b"]
 tassbiz.ru##.adblock_notif
 technologypep.com##.main-container-wrap > div[class$="-bg"]
@@ -9344,6 +9353,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||by4d.com/dh/
 ||by4d.com/love/
 ||by8428.com^
+||byjdg.xyz^$third-party
 ||byjykj.xyz^
 ||byrprsi.cn^
 ||byscy.cn^$third-party
@@ -11207,7 +11217,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||flurry.cachefly.net^
 ||flurry.com^
 ||flygo.ru^
-||flyv.tv/a/$xmlhttprequest
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm086.com/Plugins/search
 ||fmblph.xyz^
@@ -11310,6 +11319,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||fvdoics.cn^
 ||fvffd678.xyz^
 ||fvtrx.cyou^
+||fvxlhn.xyz^
 ||fvzljv.xyz^
 ||fweia.xyz^
 ||fwepd.xyz^
@@ -13883,6 +13893,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||lhiefl.com^
 ||lhot.xyz^
 ||lhotajl.icu^
+||lhotajl.icu^$third-party
 ||lianaiyx.com/d/js/cst/
 ||lianfu.shop^
 ||lianfuhuang.cn^
@@ -15281,6 +15292,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||opticsky.cn/images/2015/gy-px201
 ||opxnwz.shop^
 ||opzksyy.cn^
+||oqedci.xyz^$third-party
 ||oqeohuc.cn^
 ||oqnggnsk.fun^
 ||oqpgq.top^
