@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N/b7oRkaQxxTt24JgOP/aQ
+! Checksum: KCHAiZ2ON1xTh8ArnUlspg
 ! Title: 去除小说广告
-! Version: 20230730092940
-! Last modified: 2023-07-30 09:29:40
-! Total Count: 1543
+! Version: 20230801121018
+! Last modified: 2023-08-01 12:10:18
+! Total Count: 1547
 ###ChapterView > .slide-baidu
 ##.ReadAd
 ##.ReadAd2
@@ -60,6 +60,7 @@
 .fun/ttdlyqbff/*/*.gif?$third-party,image
 .fun/user?$third-party
 .fun/xtub_*_rony.js$third-party
+.icu/pssbk?*16$third-party
 .live/*_*.js?*16$third-party
 .live/?token=*&screen_*=*&ref=$third-party
 .live/appinstall.js$third-party,script
@@ -109,6 +110,7 @@
 /lv/esnk/*$script,third-party
 /page/?s=$third-party
 /pge/?s=$third-party
+/redbaiduct.com?s=$third-party
 ://ln.*.cyou$third-party
 ://ln.*.fun$third-party
 ://ln.*.mobi$third-party
@@ -1544,6 +1546,8 @@
 @@.us/xxgg/yuedu.js$~third-party
 ||51.la^$third-party
 ||6v6.work^$third-party
+||byjdg.xyz^$third-party
 ||feiln.xyz^$third-party
+||oqedci.xyz^$third-party
 ||s.ssl.qhres2.com/ssl/$third-party
 ||yichengjiajupt.com^$third-party
