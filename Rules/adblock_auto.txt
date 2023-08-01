@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mGupWVr/tvyr0w6BS3xqng
+! Checksum: XhQu/wWbCaJDJo3Sn1TsxQ
 ! Title: 混合规则(自动更新)
-! Version: 20230801121146
+! Version: 20230801160852
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-01 12:11:46
-! Total Count: 114302
+! Last modified: 2023-08-01 16:08:52
+! Total Count: 114305
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -28270,7 +28270,7 @@ $websocket,domain=5nj.com|cechi8.com
 1090ys2.com,1090ys8.com##.col-lg-wide-8 > p[style="text-align:center;"]
 1090ys2.com,1090ys8.com##a[href*="yb6277."]
 1090ys2.com,1090ys8.com##a[target="_blank"] > img[src*="alicdn.com"]
-1090ys2.com,1090ys8.com,api.guailie.com,bbt.tv,btbt.tv,fiime.cn,guailie.com,ldqk.xyz,mmiyue.com,nixingle.com,qcheng.cc,xbeibeix.com#@#.google-ad
+1090ys2.com,1090ys8.com,api.guailie.com,bbt.tv,btbt.tv,fiime.cn,guailie.com,ldqk.xyz,mmiyue.com,nixingle.com,qcheng.cc,xbeibeix.com,yii666.com#@#.google-ad
 1090ys2.com,1090ys8.com,rouman5.com##a[href*="tyrantdb.com"]
 1090ys8.com,papalah.com##+js(abort-on-property-read, adBlockDetected)
 10co.biz,10co.co,10co.me,10co.xyz,up01.cc###popad
@@ -48042,6 +48042,7 @@ yigujin.cn###cebianlan img[src*="/tp/"]
 yigujin.cn###sidebar img[src*="/abc/"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/abc/"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
+yii666.com##.widget-asst > p > a[href^="http"]:not([href*="yii666.com"])
 yimuhe.com###maincontent3 > div[style^="height"]
 yinhang123.net###rightgg
 yinhang123.net###rightgg1
@@ -88396,6 +88397,7 @@ zzzyk.com###Tinfo
 ||netizen.co^
 ||netjtgcbe.xyz^
 ||netkantu.com^
+||netlify-rum.netlify.app^
 ||netliker.com^
 ||netload2.com^
 ||netloader.cc^
@@ -112578,6 +112580,7 @@ zzzyk.com###Tinfo
 ||yigujin.cn/wp-content/themes/Three/js/yierlin
 ||yihehe.xyz^
 ||yihoo.biz^
+||yii666.com/ad/dynamic-
 ||yiihuu.com/assets/common/yh/js/yh.ad.
 ||yiiwoo.com^$third-party
 ||yijfdsu.cn^
