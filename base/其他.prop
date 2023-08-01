@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dgNtmNDThNQKtPNAKzhXqg
+! Checksum: gVvtBRtbM+m2Qvb1j2xYNA
 ! Title: 自用去广告Adblock规则
-! Version: 20230802010839
-! Last modified: 2023-08-02 01:08:39
+! Version: 20230802020733
+! Last modified: 2023-08-02 02:07:33
 ! Total Count: 1943
 ###ChapterView > .slide-baidu
 ###__ads_dp
@@ -1179,7 +1179,6 @@ jingyanlib.com##div[id^="adIndex"]
 jinxiyue.com##a[onclick^="qinlintest"]
 kdslife.com##[class*="DownloadGuide"]
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
-lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background: url"]
 luoqiuzw.com##.show-app2
 m.bilibili.com##.home-float-openapp.launch-app-btn
 m.bilibili.com##.large.openapp-dialog
@@ -1573,6 +1572,7 @@ zhidao.baidu.com##.wap-youx-change-asp
 zhidao.baidu.com##[href*="/baidu.php?"]
 zjtu.tv##a[target="_blank"] > img[class="br"][src][width="100%"]
 zle.com$script
+zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"]
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||33.autohome.com.cn^
