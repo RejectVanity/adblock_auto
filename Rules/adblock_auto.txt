@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Xf4nlkQNxnsPcG8Ycr9j0A
+! Checksum: pgiHng6WvD0nkIZLEsrtDg
 ! Title: 混合规则(自动更新)
-! Version: 20230802021019
+! Version: 20230802083452
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-02 02:10:19
-! Total Count: 114316
+! Last modified: 2023-08-02 08:34:52
+! Total Count: 114329
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11271,6 +11271,7 @@
 ##.billboard__advert
 ##.billboard_ad
 ##.billboard_ad_desktop
+##.billboard_ad_wrap
 ##.billboard_adwrap
 ##.bin-ads
 ##.bing-ads-wrapper
@@ -11886,6 +11887,7 @@
 ##.click-track.partner
 ##.clickads
 ##.clickforceads
+##.clickio-side-ad
 ##.client-ad
 ##.client-ad-container
 ##.close-ad-wrapper
@@ -36808,6 +36810,9 @@ dokicloud.one,fmoviefree.net###overlay-center
 dola.com##.ds-brand
 dola.com##.ds-display-ad
 dollargeneral.com#?#li:-abp-has(.dg-product-card__sponsored[style="display: block;"])
+domaingang.com##.adblock_sales
+domaingang.com##.widget_execphp
+domaingang.com##div[id^="domai-"]
 domainmasters.co.ke##.banner_google
 domainmasters.co.ke##.partner2
 domainnamewire.com##.after-header
@@ -41288,6 +41293,7 @@ linkhub.icu##a[href^="/downloadnow.php?"]
 linkhub.icu##a[href^="/linknow.php?"]
 linksly.co###imgAddDirectLink
 linkvertise.com##lv-taboola-ctr-ad-dummy
+linkz.fun##a[href="https://cozmo.fun/"]
 linovelib.com##+js(set-constant, adblock, 0)
 linovelib.com,yodu.org#$##byspider { display: none !important; }
 linovelib.com,yodu.org#$#body[style] { overflow: auto !important; }
@@ -76379,6 +76385,7 @@ zzzyk.com###Tinfo
 ||harvesttheory.com^
 ||harvintact.com^
 ||hasdrs.com^
+||hasgde.site^
 ||hash-hash-tag.com^
 ||hashcoin.co^
 ||hashing.win^
@@ -77149,6 +77156,7 @@ zzzyk.com###Tinfo
 ||hjiwoazeigefn.com^
 ||hjjevg.com^
 ||hjjkk66.xyz^
+||hjkiguy.com^
 ||hjkkindwould.xyz^
 ||hjpqt.cn^
 ||hjqwe.com^
@@ -97948,6 +97956,7 @@ zzzyk.com###Tinfo
 ||sabrinacaulked.com^
 ||sabs-push.xyz^
 ||saccac11.com^
+||sacfasv.com^
 ||sacralcabaa.com^
 ||sacrawasat.store^
 ||sacredperpetratorbasketball.com^
@@ -99511,6 +99520,7 @@ zzzyk.com###Tinfo
 ||shulihua.net/js/gzlishigoogle.js
 ||shulihua.net/js/topcen.js
 ||shulihua.net/js/yegonggao.js
+||shulsbs.cn^
 ||shulugoo.net^
 ||shumanwu.info^
 ||shumilou.co/style/html5.js
@@ -106461,6 +106471,7 @@ zzzyk.com###Tinfo
 ||ttwrhns.cn^
 ||ttwwy.top^
 ||ttxs8.xyz^
+||ttykabh.icu^
 ||ttyvdilxsuorg.com^
 ||ttyyeastfeukuf.xyz^
 ||ttz.com^$third-party
@@ -110538,6 +110549,7 @@ zzzyk.com###Tinfo
 ||wisafnie.space^
 ||wisdomvalley.wang^
 ||wisehowronspar.com^
+||wiseref.com^
 ||wisetrack.net^
 ||wishesantennarightfully.com^
 ||wishesen.com^
@@ -111802,6 +111814,7 @@ zzzyk.com###Tinfo
 ||xlviirdr.com^
 ||xlvirdr.com^
 ||xlvlnpkeqz.com^
+||xlvqhx.xyz^
 ||xlwaluyw.com^
 ||xlxknf.xyz^
 ||xlyzjs.com$third-party
