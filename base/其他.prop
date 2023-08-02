@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gVvtBRtbM+m2Qvb1j2xYNA
+! Checksum: pZTHIACvgRbmCBQIGCbrfg
 ! Title: 自用去广告Adblock规则
-! Version: 20230802020733
-! Last modified: 2023-08-02 02:07:33
-! Total Count: 1943
+! Version: 20230802165853
+! Last modified: 2023-08-02 16:58:53
+! Total Count: 1945
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -542,6 +542,7 @@ $third-party,domain=lengmenread.com
 .com:8010/sc/*?*=$third-party
 .com:9*/yc/c/*/GEBEF$third-party
 .html?channelCode=$third-party
+.icu/pssbk?$third-party
 .la/8WaadBLH/*.js
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
@@ -571,6 +572,7 @@ $third-party,domain=lengmenread.com
 .xyz/api/getPos?jspath=/$~third-party
 .xyz/base*.js?
 .xyz/c.php?s=
+.xyz/cyethhd_*.js?$third-party
 .xyz/d/?resource=bundler&nada=1&widgets=$third-party
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
@@ -960,7 +962,6 @@ baidu.com##[class*="fc-"][class*="ad"]
 baidu.com##[class*="na-ec-"]
 baidu.com##[class^="ad-"]
 baidu.com##[class^="cu-video-player"]
-baidu.com##[class^="fc-"]
 baidu.com##[id*="ec-"][id*="ad"]
 baidu.com##[id*="ec_"][id*="ad"]
 baidu.com##[srcid*="_ad"]
@@ -1259,6 +1260,7 @@ mparticle.uc.cn##[id*="_open_uc_id"]
 msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
 mydrivers.com#@#a[href*="/bp.ashx"]
+mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"]
 nxnba.com##.bootom-fixed
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
 pan.baidu.com##.share-error-ad
@@ -1572,7 +1574,6 @@ zhidao.baidu.com##.wap-youx-change-asp
 zhidao.baidu.com##[href*="/baidu.php?"]
 zjtu.tv##a[target="_blank"] > img[class="br"][src][width="100%"]
 zle.com$script
-zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"]
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||33.autohome.com.cn^
@@ -1749,6 +1750,7 @@ zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0
 ||kmr.vcunkbo.cn^
 ||kmr.wdjptto.cn^
 ||kmy.qhwifeq.cn^
+||kmyyuw.xyz^$third-party
 ||kszc.j1evtmx.xyz^
 ||kszvmqo.cn^$third-party
 ||kszxqq.com^$third-party
