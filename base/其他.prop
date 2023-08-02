@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pZTHIACvgRbmCBQIGCbrfg
+! Checksum: VfdNKmCRTnTlXF9LIVy6eg
 ! Title: 自用去广告Adblock规则
-! Version: 20230802165853
-! Last modified: 2023-08-02 16:58:53
-! Total Count: 1945
+! Version: 20230802193406
+! Last modified: 2023-08-02 19:34:06
+! Total Count: 1946
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -451,7 +451,6 @@
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
-$third-party,domain=lengmenread.com
 &adZones$xmlhttprequest
 &ad_block=
 &ad_code=
@@ -691,6 +690,7 @@ $third-party,domain=lengmenread.com
 /ads?zone_id=
 /ads_iframe
 /advert/youxi.js$script
+/advert?
 /advertise/*$domain=~legl.co|~payju.ir
 /advertisement.
 /advertisement/*
@@ -1595,6 +1595,7 @@ zle.com$script
 ||adb.*.online/slot?$third-party
 ||adda.ljhhhhrt.top^
 ||addthis.com^
+||adfstat.yandex.ru^
 ||adnewnc.app.autohome.com.cn^
 ||adproxy.autohome.com.cn^
 ||ads.traffichaus.com^
