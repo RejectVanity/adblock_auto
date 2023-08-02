@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: lElojSGzWbGT4P6kUysIpA
+! Checksum: TJmgmIbYBMXIGH2pED+bKQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230802170329
+! Version: 20230803000759
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-02 17:03:29
-! Total Count: 19777
+! Last modified: 2023-08-03 00:07:59
+! Total Count: 19782
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2466,7 +2466,6 @@
 #@#.ws_contentAd660
 #@#[id^="google_ads_iframe"]
 #@#ins.adsbygoogle
-$third-party,domain=lengmenread.com
 &adZones$xmlhttprequest
 &ad_block=
 &ad_code=
@@ -3191,6 +3190,7 @@ $third-party,domain=lengmenread.com
 /ads_iframe
 /adsmatcher-anti-adblock/*
 /advert/youxi.js$script
+/advert?
 /advertise/*$domain=~legl.co|~payju.ir
 /advertisement.
 /advertisement/*
@@ -5625,7 +5625,6 @@ music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[styl
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify *
 myanimelist.net##._unit
 mydrivers.com#@#a[href*="/bp.ashx"]
-mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"]
 myshared.ru###download_form > .uk-margin-top[style]
 natural-cosmetology.ru##body > div[style*="background-color:#ff0000;color:#ffffff;"]
 nautiljon.com###cmsg
@@ -5856,6 +5855,7 @@ sogou.com##div[class^="rt-gameright"]
 sogou.com##ul[class^="atAd"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
 soonnight.com##.display_natural
+soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"]
 sostav.ru###rek_blocker
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 spanishdict.com##.whitelist
@@ -7874,6 +7874,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||adforgames.com^
 ||adform.com^
 ||adfox.ru^
+||adfstat.yandex.ru^
 ||adg.kajicam.com^
 ||adgear.com^
 ||adgrx.com^
@@ -12556,6 +12557,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ihhmh.com/mg/show
 ||ihlurin.cn^
 ||ihngyjp.cn^
+||ihwdun.xyz^
 ||ii1.chajiaotong.com^
 ||iia1.pikacn.com^
 ||iiauu.cn/777/
@@ -13957,6 +13959,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||liisex.com/images/banners/
 ||liitwrz.icu^
 ||lijie.in^
+||likdie.com^
 ||limessy.xyz^
 ||lindanmiaoxiang.cn^
 ||linecg.com/uploads/banner/
@@ -18956,6 +18959,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||xuexi.hydcd.com^
 ||xuexiwa.com^$script,third-party
 ||xuhaijun.pw^
+||xukang09.cn^
 ||xukou.net^
 ||xuliglsw.space^
 ||xulizui6.com^
@@ -19458,6 +19462,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||zbpx.xyz^
 ||zbsybh.cn^$third-party
 ||zbvchabjbcj.com^
+||zbx01.com^
 ||zbzbzzz.top^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
