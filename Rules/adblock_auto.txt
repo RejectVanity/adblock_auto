@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: gQAV2p+OPjymC/u4jax9Gw
+! Checksum: b9EOaeJdHA70mxa84ps/AA
 ! Title: 混合规则(自动更新)
-! Version: 20230803173002
+! Version: 20230804000610
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-03 17:30:02
-! Total Count: 114502
+! Last modified: 2023-08-04 00:06:10
+! Total Count: 114508
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17106,6 +17106,7 @@
 ##.u-ads
 ##.u-lazy-ad-wrapper
 ##.udn-ads
+##.ue-c-ad
 ##.ui-ad
 ##.ui-advertising__container
 ##.ui-advertising_position1
@@ -44986,6 +44987,7 @@ slidehunter.com##.custom-ad-text
 slidehunter.com##.itm-ads
 slideme.org###block-block-31
 slideserve.com###readl
+slideshare.net##.FreestarAdContainer_container__Ze7OY
 slit.cn##+js(abort-current-script, alert, typeof(ad))
 slivap.ru##.svg-adblock
 sltrib.com##div[id^="sltrib-promo-"]
@@ -54033,6 +54035,7 @@ zzzyk.com###Tinfo
 ||adserverplus.com^
 ||adserverpub.com^
 ||adservi.com^
+||adservice.google.
 ||adservice.google.*$important,script,redirect=noopjs,domain=973espn.com|espn1420.com|viki.com
 ||adservice.google.*$important,xmlhttprequest,redirect=nooptext,domain=123link.pw|ccbluex.net|ctrlv.link|marie-claire.es|miarevista.es|muyhistoria.es|muyinteresante.es|muynegociosyeconomia.es|serpadres.es|tubia.com
 ||adservice.google.se^
@@ -82414,6 +82417,7 @@ zzzyk.com###Tinfo
 ||kqnggnsd.fun^
 ||kqpdnmkkvuu.com^
 ||kqskqi.xyz^
+||kqubxdb.cn^
 ||kqvkvc3.com^
 ||kqwip.cyou^
 ||kr.phorm.com^
@@ -95329,6 +95333,7 @@ zzzyk.com###Tinfo
 ||qrclevrfjw.com^
 ||qreakingoutinteah.xyz^
 ||qrfladd.cn^
+||qrirud.xyz^
 ||qrlsx.com^
 ||qrnmyn.cn^
 ||qrstes.com^
@@ -98089,6 +98094,7 @@ zzzyk.com###Tinfo
 ||sacfasv.com^
 ||sacralcabaa.com^
 ||sacrawasat.store^
+||sacre.cn^
 ||sacredperpetratorbasketball.com^
 ||sacrip.com^
 ||sad2tizer.ru^
