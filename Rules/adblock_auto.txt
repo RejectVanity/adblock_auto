@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Jdi4TcM0iQG/snColqCB5Q
+! Checksum: j9Y7WXn19Ni/AxtBUScT3Q
 ! Title: 混合规则(自动更新)
-! Version: 20230804160839
+! Version: 20230805000752
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-04 16:08:39
-! Total Count: 114649
+! Last modified: 2023-08-05 00:07:52
+! Total Count: 114665
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9809,6 +9809,7 @@
 ##.adspace_2
 ##.adspace_bottom
 ##.adspace_buysell
+##.adspace_right
 ##.adspace_rotate
 ##.adspace_skyscraper
 ##.adspace_top
@@ -28714,7 +28715,7 @@ $websocket,domain=5nj.com|cechi8.com
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 18moe.org##.alignnone[alt="恰饭广告"]
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
-18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4porn4.com,4wank.com,63290r.com,amateurest.com,amateurporn.me,bestpornflix.com,bigtitslust.com,blowjobs.pro,bravoerotica.net,cambay.tv,camflow.tv,camfox.com,camwhorescloud.com,cartoonprn.com,celebwhore.com,cluset.com,danude.com,daporn.com,ebony8.com,exoav.com,fapnow.xxx,faptube.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,gettubetv.com,hairyerotica.com,hentai-moon.com,heroero.com,hoes.tube,hqbang.com,intporn.com,japaneseporn.xxx,jizzberry.com,kuxxx.com,love4porn.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,pornsai.com,rare-videos.net,sexcams-24.com,sexoverdose.com,shemalesin.com,sortporn.com,tabootube.xxx,thebussybandit.com,theporngod.com,theyarehuge.com,thothd.com,tubsexer.*,watchmygf.xxx,watchporn.to,xcavy.com,xgroovy.com,xmegadrive.com,xtits.*,xxxshake.com,yourporngod.com##.table
+18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4porn4.com,4wank.com,63290r.com,amateurest.com,amateurporn.me,bestpornflix.com,bigtitslust.com,blowjobs.pro,bravoerotica.net,cambay.tv,camflow.tv,camfox.com,camwhorescloud.com,cartoonprn.com,celebwhore.com,cluset.com,danude.com,daporn.com,ebony8.com,exoav.com,fapnow.xxx,faptube.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,gettubetv.com,hairyerotica.com,hentai-moon.com,heroero.com,hoes.tube,hqbang.com,intporn.com,japaneseporn.xxx,jav.gl,javwind.com,jizzberry.com,kuxxx.com,love4porn.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,pornsai.com,rare-videos.net,sexcams-24.com,sexoverdose.com,shemalesin.com,sortporn.com,tabootube.xxx,thebussybandit.com,theporngod.com,theyarehuge.com,thothd.com,tubsexer.*,watchmygf.xxx,watchporn.to,xcavy.com,xgroovy.com,xmegadrive.com,xtits.*,xxxshake.com,yourporngod.com##.table
 18porn.sex,4kporn.xxx,alphaporno.com,amateur8.com,andrewlock.net,anyporn.com,area51.porn,bigtitslust.com,camclips.tv,camwhores.tv,cd1025.com,centos.org,crazyporn.xxx,daniao.org,domainincite.com,dyz99.com,eachporn.com,europages.co.uk,fapster.xxx,fontyukle.net,fpo.xxx,freeporn8.com,gamingcloud.com,geekpark.net,gettubetv.com,grahamcluley.com,hairyerotica.com,heavyfetish.com,hentai-moon.com,heroero.com,ijr.com,its.porn,izlesimdiporno.com,kpbs.org,lesbian8.com,lolhentai.net,magnetfox.com,manutd.com,maturetubehere.com,pervertslut.com,phillyvoice.com,phish.report,pornbrb.com,pornchimp.com,pornfapr.com,porngem.com,porno90.online,porntop.com,porntrex.video,pornxpert.com,scatkings.com,sexpornimages.com,sexvid.xxx,sexwebvideo.com,shemalesin.com,sortporn.com,speedcafe.com,speedtest.cn,swiftbysundell.com,thefederalistpapers.org,thegatewaypundit.com,ufile.io,uiporn.com,vikiporn.com,watchmyexgf.net,westernjournal.com,wnd.com,xhamster.com,zedporn.com##.sponsor
 1905.com##.mobile_ad_promote
 1905.com##.zx-pic
@@ -28767,6 +28768,7 @@ $websocket,domain=5nj.com|cechi8.com
 2000fun.com##.single-box
 200sht.info,sehuatang.org##.show-text
 2014.qq.com#@##adIframe
+2023.allthingsopen.org#@#a[href*=".com?aff="]
 212.32.226.234###floatcenter
 21cn.com###embed_hzh_div
 21cn.com##.h-gg
@@ -33516,6 +33518,7 @@ aitextpromptgenerator.com##.adsbyus_wrapper
 aitextpromptgenerator.com##[href^="https://app.getsitepop.com/"]
 aiweibk.com##.lili
 aiweibk.com##.pc
+aiyifan.tv,iyf.tv##+js(set-constant, Object.prototype.captions, {})
 aiyuke.com###Playerpad
 aiyuke.com###js-ad-type4
 aiyuke.com##.GGad
@@ -35495,6 +35498,8 @@ chicagotribune.com###top_fluid_wrapper
 chikiporn.com,pornq.com##.thumb--adv
 chilltracking.com###blink
 chimpreports.com,islandecho.co.uk,locklab.com,mallorcasunshineradio.com,runwaygirlnetwork.com,talkradioeurope.com,theshoesnobblog.com##.a-single
+china-tubex.site##.videoAd
+china-tubex.site,de-sexy-tube.ru##.aBlock
 china.ahk.de##.b-header__banner
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 china.cn###pic_banner
@@ -36551,7 +36556,6 @@ ddys.tv,ddrk.me#$#a[href*="/kst6632.com/"] > img { width: 2px !important; }
 ddys.tv,ddrk.me#$#a[href*="/kst6632.com/"] { pointer-events: none !important; }
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##div > a[href][target="_blank"] > img
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##div > span > a > img
-de-sexy-tube.ru##.aBlock
 dead-frog.com###site_top
 deadspin.com#?#section:-abp-has(a[href^="https://theinventory.com"])
 dealmoon.com,weibo.com##.pic_ad
@@ -40464,6 +40468,7 @@ iyaxin.com##.huand3
 iyf.tv##+js(abort-on-stack-trace, dispatchEvent, intersitialHandler)
 iyf.tv##+js(set-constant, Object.prototype.ShouldPlayAds, 0)
 iyf.tv##.player-side > .block > *
+iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##vg-pause-ads
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
@@ -40530,6 +40535,7 @@ javfor.tv##.my-2.container
 javfor.tv##.text-md-center
 javgg.net###adlink
 javgg.net##.home_iframead
+javgg.net##[href^="https://onlyfans.com/action/trial/"]
 javhd.com##.benefits-list-holder
 javhd.run##.loading-ad
 javhd.today###ics
@@ -43606,6 +43612,7 @@ porn-plus.com##.bottom_player_a
 porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
 porn-w.org#?#.row:-abp-contains(Promotion Bot)
 porn.com##.foot-zn
+porn.com##[data-adch]
 porn.com##a[href*="&ref="]
 porn18videos.com##.playerRight
 porn300.com##.aaann_fake
@@ -45399,7 +45406,6 @@ stackoverflow.com##.js-sidebar-zone
 stadiumastro.com##.Ads
 stakingrewards.com###asset-calculator-banner
 stakingrewards.com##div[class^="assetFilters_desktop-banner_"]
-stalirov.lawyer##.cookies_ntf
 stalkerportaal.ru##.video_adsense
 standard.co.uk###thirdparty_03_parent
 standard.co.uk##.dXaqls
@@ -46574,13 +46580,12 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.str
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="src=promoted_trend_click"]
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="src=promoted_trend_click"] + div
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#.tweet:-abp-has(.promo)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(a[href*="&twclid="])
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(a[href*="?twclid="])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="UserCell"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="eventHero"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="trend"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 two.game.tw#@##ad_02
 twpkinfo.com###div_close_cf
 txahz.com###archy_ad2
@@ -52843,6 +52848,7 @@ zzzyk.com###Tinfo
 ||ad.vo-media.ru^
 ||ad.vrvm.com^
 ||ad.walkgame.com^
+||ad.weibo.com^
 ||ad.weplayer.cc^
 ||ad.woman.mynavi.jp^
 ||ad.wsod.com^
@@ -54231,6 +54237,7 @@ zzzyk.com###Tinfo
 ||adstracker.info^
 ||adstracking.apps.zing.vn^
 ||adstract.com^$third-party
+||adstrategy.biz.weibo.com^
 ||adstripe.net^
 ||adstuber.com^
 ||adstudio.cloud^
@@ -62272,6 +62279,7 @@ zzzyk.com###Tinfo
 ||can-get-some.in^
 ||can-get-some.net^
 ||canangafierier.uno^
+||canarytokens.com^
 ||canastagruff.com^
 ||candac.iridion.de^
 ||canddi.com^
@@ -69887,6 +69895,7 @@ zzzyk.com###Tinfo
 ||dzjv9gbu8a.com^
 ||dzjzg.com^
 ||dzkpopetrf.com^
+||dzkwj0y.xyz^
 ||dzletao.com^
 ||dzooo.cn^
 ||dzpu6za66svjl.cloudfront.net^
@@ -69945,6 +69954,7 @@ zzzyk.com###Tinfo
 ||e1eacb6f88.com^
 ||e1jzk.cn^
 ||e2078be122.com^
+||e20d8e38992b.o3n.io^
 ||e21b1642db801b2a.com^
 ||e23.cn/js/aaa.js
 ||e255347009.com^
@@ -71377,6 +71387,7 @@ zzzyk.com###Tinfo
 ||etphoneme.com^
 ||etpsn.com^
 ||etqigt.com^
+||etracker.p3p.repl.co^
 ||etrader.kalahari.com^
 ||etrader.kalahari.net^
 ||etrckeh.cn^
@@ -75552,6 +75563,7 @@ zzzyk.com###Tinfo
 ||gr0z6.xyz^
 ||gr8y7z1xaq30.com^
 ||grabhastened.com^
+||grabifyicu.com^
 ||gracaiko.net^
 ||gracedschelly.com^
 ||gracefulbayonetlukewarm.com^
@@ -84876,6 +84888,7 @@ zzzyk.com###Tinfo
 ||lumnstoodthe.info^
 ||lumpmancommos.guru^
 ||lumptaxmen.com^
+||lumpyactive.com^
 ||lumpylumber.com^
 ||lumupu.xyz^
 ||lumxts.com^
@@ -90655,6 +90668,7 @@ zzzyk.com###Tinfo
 ||openmindter.com^
 ||openmonitor.alipay-eco.com^
 ||openmonitor.alipay.com^
+||openrate.aweber.com^
 ||opensdeiseal.com^
 ||openstat.net^
 ||opentecs.com^
@@ -93474,6 +93488,7 @@ zzzyk.com###Tinfo
 ||poredii.com^
 ||porepoise.com^
 ||porettginzo.com^
+||porgruite.com^
 ||porjjhu.cn^
 ||porkinconceivable.com^
 ||porlsbll.cyou^
@@ -105772,6 +105787,7 @@ zzzyk.com###Tinfo
 ||tracker.icerocket.com^
 ||tracker.idocdn.com^
 ||tracker.iltrovatore.it^
+||tracker.iplocation.net^
 ||tracker.jkstremum.xyz^
 ||tracker.joongang.co.kr^
 ||tracker.joost.com^
