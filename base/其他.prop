@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: spZrPnxlEaA1LTlZX5B+Lw
+! Checksum: 95+TIy3r0pqhpFDWHvWNOg
 ! Title: 自用去广告Adblock规则
-! Version: 20230805195446
-! Last modified: 2023-08-05 19:54:46
-! Total Count: 1950
+! Version: 20230805201718
+! Last modified: 2023-08-05 20:17:18
+! Total Count: 1953
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -542,6 +542,7 @@
 .com:8010/sc/*?*=$third-party
 .com:9*/yc/c/*/GEBEF$third-party
 .html?channelCode=$third-party
+.icu/*/20*/*/16*.gif$image,third-party
 .icu/pssbk?$third-party
 .la/8WaadBLH/*.js
 .live/j/*/*?$third-party
@@ -572,6 +573,7 @@
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
 .xyz/base*.js?
+.xyz/biyys*.js$third-party,script
 .xyz/c.php?s=
 .xyz/cyethhd_*.js?$third-party
 .xyz/d/?resource=bundler&nada=1&widgets=$third-party
@@ -1677,6 +1679,7 @@ zle.com$script
 ||dspmnt.autohome.com.cn^
 ||dydytt.net/js3
 ||effirst.com^$third-party
+||ehfjup.xyz^$third-party
 ||elsynmlw.fun^
 ||eporner.com/adblock
 ||eqwyym.com/js/dom.js$third-party
