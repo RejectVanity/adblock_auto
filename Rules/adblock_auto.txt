@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Ot6sezOI3cKYmQ/6x7iiEw
+! Checksum: O3H7ET3lxy4RY6ZFffS7FQ
 ! Title: 混合规则(自动更新)
-! Version: 20230805201935
+! Version: 20230805215612
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-05 20:19:35
-! Total Count: 114735
+! Last modified: 2023-08-05 21:56:12
+! Total Count: 114740
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -40481,6 +40481,7 @@ iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##vg-pause-ads
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
+iyf.tv#@#.share-top
 izismile.com##.ban_top
 izismile.com##.css-widget-item-wrap
 izmailov.tv##.popupBlock
@@ -44460,7 +44461,7 @@ rs05.com##.adv_bottom
 rs05.com##.side-bar-first
 rsdown.cn##.cq-tips
 rsdown.cn##.listaddr
-rshzm.com##a > img[style="width:100%;height:100%"]
+rshzm.com##[style*="width"][style*=":"][style*="100%"]
 rt.com##.banners__border
 ruanjianxia.com###gaosu_downloads
 ruanyifeng.com###gd1
@@ -66477,6 +66478,7 @@ zzzyk.com###Tinfo
 ||d1nv2vx70p2ijo.cloudfront.net^
 ||d1nx2jii03b4ju.cloudfront.net^
 ||d1o1guzowlqlts.cloudfront.net^
+||d1o6lu9dr4t13s.cloudfront.net^
 ||d1of5w8unlzqtg.cloudfront.net^
 ||d1okyw2ay5msiy.cloudfront.net^
 ||d1or04kku1mxl9.cloudfront.net^
@@ -78534,6 +78536,7 @@ zzzyk.com###Tinfo
 ||idwrx.com^
 ||idx.lat^
 ||idy666.com^
+||idydlesswale.info^
 ||ie3wisa4.com^
 ||ie8eamus.com^
 ||ieatlu.xyz^
@@ -104686,6 +104689,7 @@ zzzyk.com###Tinfo
 ||thycantyoubelike.com^
 ||thygrepuwo.pro^
 ||thymeneoctic.digital^
+||thyn.renzhen8.cn^$third-party
 ||thyrsi.com^$domain=cnscg.com
 ||thztv.*/tool/
 ||ti.tradetracker.net^
@@ -107336,6 +107340,7 @@ zzzyk.com###Tinfo
 ||uc129.com/m/
 ||uc9.suinidai.com.cn^
 ||ucationinin.info^
+||ucationininancee.info
 ||ucconn.live^
 ||ucdn.website^
 ||ucgnawffqess.xyz^

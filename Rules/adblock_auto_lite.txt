@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: OXYrN0LsJrQvr3o5y2q2+Q
+! Checksum: w0w2JUWMy7LcSZxnWz9kXQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230805201940
+! Version: 20230805215617
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-05 20:19:40
-! Total Count: 19827
+! Last modified: 2023-08-05 21:56:17
+! Total Count: 19828
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5712,7 +5712,7 @@ reshuct.by,reshuolymp.ru,sdamgia.ru#@#.googlead
 reshuct.by,sdamgia.ru##div[class$="-BlockDetect"]
 retinaboys.com###screen_block
 ria.ru##.antiblock
-rshzm.com##a > img[style="width:100%;height:100%"]
+rshzm.com##[style*="width"][style*=":"][style*="100%"]
 rusnext.ru###detectAdblock
 rusopen.com##.classblsi.addshr
 rutab.net##div[class^="ggmodale"]
@@ -17489,6 +17489,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||thsrh.xyz^
 ||thumbor.prod.vidiocdn.com/*/uploads/section/background_image/*/rejoice-vidio-drakor-gratis-*.jpg
 ||thvx9i.icu^
+||thyn.renzhen8.cn^$third-party
 ||thyrsi.com^$domain=cnscg.com
 ||thztv.*/tool/
 ||tian-ting.ink^
