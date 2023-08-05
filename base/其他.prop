@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 95+TIy3r0pqhpFDWHvWNOg
+! Checksum: HXAnfXMBcBq4VMngpubF6Q
 ! Title: 自用去广告Adblock规则
-! Version: 20230805201718
-! Last modified: 2023-08-05 20:17:18
-! Total Count: 1953
+! Version: 20230805215341
+! Last modified: 2023-08-05 21:53:41
+! Total Count: 1954
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1287,7 +1287,7 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##div[onclick*="bp1.com"]
 qinav.com##div[id^="qinav_b"]
 renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
-rshzm.com##a > img[style="width:100%;height:100%"]
+rshzm.com##[style*="width"][style*=":"][style*="100%"]
 sbdm.net##div#vodshare
 sexmod.pw,md91av.top,twavbook999.cc,siaoredbook.cc,mitaonuhai.cc,gipinreba.cc,r18lumod.cc##[class*="topads"],[class*="tads"],[class*="bottomads"],[class*="bads"],[class*="leftd"],[class*="rightd"],a[target="_blank"][href][onclick]
 sina.cn##.feed.module-extend.module-recommend
@@ -1861,6 +1861,7 @@ zle.com$script
 ||tg.xkcxh.com^$third-party
 ||tgcfmh.com^
 ||thisav.com/pop?url=
+||thyn.renzhen8.cn^$third-party
 ||tongji.click^
 ||toutiaoimg.com^$image,domain=350xs.com
 ||tpic.mhslbqk.cn^
