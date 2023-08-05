@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: OkTI5722oU2VUB02+MwgPw
+! Checksum: OXYrN0LsJrQvr3o5y2q2+Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230805200026
+! Version: 20230805201940
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-05 20:00:26
-! Total Count: 19824
+! Last modified: 2023-08-05 20:19:40
+! Total Count: 19827
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2778,6 +2778,7 @@
 .html?channelCode=$third-party
 .html?channelCode=$~third-party
 .icu/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.icu/*/20*/*/16*.gif$image,third-party
 .icu/*_*_rony.js
 .icu/ads/
 .icu/pssbk?$third-party
@@ -2953,6 +2954,7 @@
 .xyz/api/getPos?jspath=/$~third-party
 .xyz/appinstall.js$third-party,script
 .xyz/base*.js?
+.xyz/biyys*.js$third-party,script
 .xyz/c.php?s=
 .xyz/chrdaf_*_*.js?$third-party
 .xyz/cyethhd_*.js?$third-party
@@ -10864,6 +10866,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||egptz.cyou^
 ||egrnmic.cn^
 ||egsxdp.cn^
+||ehfjup.xyz^$third-party
 ||eiadf.xyz^
 ||eidccepu.cyou^
 ||eidphap.cn^
