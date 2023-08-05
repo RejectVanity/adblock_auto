@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: CJoiwdsSuglTjvkbU7TPbA
+! Checksum: oUNDJC7YAY3Ja65ycPih4Q
 ! Title: 混合规则(自动更新)
-! Version: 20230805191215
+! Version: 20230805200021
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-05 19:12:15
-! Total Count: 114730
+! Last modified: 2023-08-05 20:00:21
+! Total Count: 114732
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18695,6 +18695,7 @@
 ##display-ad-component
 ##display-ads
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
+##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div#HMRichBox
 ##div#HMcoupletDivleft
@@ -44457,6 +44458,7 @@ rs05.com##.adv_bottom
 rs05.com##.side-bar-first
 rsdown.cn##.cq-tips
 rsdown.cn##.listaddr
+rshzm.com##a > img[style="width:100%;height:100%"]
 rt.com##.banners__border
 ruanjianxia.com###gaosu_downloads
 ruanyifeng.com###gd1
