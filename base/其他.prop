@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BKRuDB2k1zlmA3boWX+AjQ
+! Checksum: YJQLyZQ5KE8AmU/fiyrHcw
 ! Title: 自用去广告Adblock规则
-! Version: 20230802193815
-! Last modified: 2023-08-02 19:38:15
-! Total Count: 1946
+! Version: 20230804184947
+! Last modified: 2023-08-04 18:49:47
+! Total Count: 1948
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -560,6 +560,7 @@
 .top/k/*$script,third-party
 .top/xling_*_*.js?
 .xin/blxn_*.js?
+.xyz/*.gif?*16$third-party
 .xyz/*?16$third-party
 .xyz/?ch=ssmh
 .xyz/?channelCode=$document
@@ -1445,6 +1446,7 @@ tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##a[href*="/baidu.php?url="]
 tieba.baidu.com##div[add-shield-track]
+tinghaobook.com,haitangkan.com,tinghaobook.com,nosadfun.com,ebook8.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"]
 tnaflix.com##.bannerBlock
 tnaflix.com##.rbsd
 txxx.com##[class*="popup"]
