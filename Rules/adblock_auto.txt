@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: kfD1T3/WbHHtjc4AEYC30Q
+! Checksum: 8KdCuPnrEiJVpiIr1CklUg
 ! Title: 混合规则(自动更新)
-! Version: 20230806160736
+! Version: 20230807000822
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-06 16:07:36
-! Total Count: 114756
+! Last modified: 2023-08-07 00:08:22
+! Total Count: 114764
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2467,6 +2467,7 @@
 ###banneradspace
 ###banneradvert3
 ###banneradvertise
+###bannerplayer-wrap
 ###baseMedRec
 ###baseboard-ad
 ###baseboard-ad-wrapper
@@ -33853,8 +33854,10 @@ apkcombo.com##div[class*="revamp-ads"]
 apkdone.com,crazygames.com,english-hindi.net,livesoccertv.com,malaysiakini.com##div[style^="height:250px"]
 apkmb.com##.personalizadas
 apkmirror.com##.ains-apkm_outbrain_ad
+apkmirror.com##.ezo_ad
 apkmirror.com##.gooWidget
 apkmirror.com##.google-ad-leaderboard
+apkmirror.com##div[id^="adtester-container-"]
 apkmirror.com,ruten.com.tw,tuxpi.com#@#.adslot
 apkmody.io##.body-fixed-footer
 apkonline.net###adxx
@@ -40549,6 +40552,7 @@ javfor.tv##.my-2.container
 javfor.tv##.text-md-center
 javgg.net###adlink
 javgg.net##.home_iframead
+javgg.net##.home_iframead > a[target="_blank"] > img
 javgg.net##[href^="https://onlyfans.com/action/trial/"]
 javhd.com##.benefits-list-holder
 javhd.run##.loading-ad
@@ -42085,6 +42089,7 @@ moddroid.co##a[href^="https://doodoo.love/"]
 modelhorseblab.com##img[name="js_ad"]
 modelhorseblab.com#@#.ad_global_header
 modernghana.com##.quikr_banner
+modrinth.com##.GBBNWLJVGRHFLYVGSZKSSKNTHFYXHMBD
 modrinth.com##.MYYLVTXBPUVWMLVBPVSDLHADDRYFBF
 modrinth.com##[href^="http://bisecthosting.com/"]
 modrinth.com##[type="banner"]
@@ -44876,6 +44881,7 @@ sina.cn###j_gotop ~ .fl_suspension_template
 sina.cn###j_toTop ~ .fl_suspension_template
 sina.cn###midThreeAds
 sina.cn###promotionCover
+sina.cn##.callApp_fl_btn
 sina.cn##.dfz_sd_news > a[href*=".10086.cn"]
 sina.cn##.feed.module-extend.module-recommend
 sina.cn##.j_article_cutpic
@@ -70603,6 +70609,7 @@ zzzyk.com###Tinfo
 ||egyptpolarity.com^
 ||ehadmethe.xyz^
 ||ehadtwobright.com^
+||eheb8.cn^
 ||ehfgifjjhdaejjajacj.ru^
 ||ehfjup.xyz^$third-party
 ||ehmqlr.com^
@@ -77346,6 +77353,7 @@ zzzyk.com###Tinfo
 ||hjfile.cn/site/js/pop_gift_plugin.js
 ||hjgajfbhiefjigafafc.ru^
 ||hjgd.ltd^
+||hjgkr0g.xyz^
 ||hjgrc.xyz^
 ||hjheaijhafgfgbaaaei.ru^
 ||hjiss.com^
