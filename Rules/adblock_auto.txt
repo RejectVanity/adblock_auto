@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: oov3jxPZbybiaKWVmgGQRA
+! Checksum: 68g26B9iSZx75015dnLajg
 ! Title: 混合规则(自动更新)
-! Version: 20230807232420
+! Version: 20230808000756
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-07 23:24:20
-! Total Count: 113880
+! Last modified: 2023-08-08 00:07:56
+! Total Count: 113881
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -34751,6 +34751,7 @@ bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
+bilibili.com#?#.container > div[class*="-card"]:has(div[style="display: none !important;"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):-abp-has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
