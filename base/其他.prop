@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OczXXOVbkc76meTkrYcD4g
+! Checksum: eqege2g3Nz+mC0mcj0q7Cg
 ! Title: 自用去广告Adblock规则
-! Version: 20230807183712
-! Last modified: 2023-08-07 18:37:12
-! Total Count: 1959
+! Version: 20230807232053
+! Last modified: 2023-08-07 23:20:53
+! Total Count: 1961
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -850,6 +850,7 @@
 ://api.*.com/sh/to/$third-party,xmlhttprequest
 ://ayq*nsx.icu/*.js$third-party,script
 ://chaturbate.com$third-party
+://d*.cloudfront.net$third-party
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dpic.*.cn/*.js$third-party
@@ -1665,8 +1666,9 @@ zle.com$script
 ||cpro.baidustatic.com^
 ||crjpgate.com^$document
 ||cvmjf.xyz^$third-party
+||d*.cloudfront.net^$third-party
 ||d1ezlc9vy4yc7g.cloudfront.net^$third-party
-||d2wy8f7a9ursnm.cloudfront.net^
+||d2wy8f7a9ursnm.cloudfront.net^$third-party
 ||da-ads.com^
 ||daraz.com^
 ||data.bilibili.com/log
