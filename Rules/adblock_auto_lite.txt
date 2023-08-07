@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 3qXpo8pC0ieeUh1xeDMJIg
+! Checksum: u89F7Poo+c+NJqukCAyzbg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230807191643
+! Version: 20230807232425
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-07 19:16:44
-! Total Count: 19498
+! Last modified: 2023-08-07 23:24:25
+! Total Count: 19490
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3423,6 +3423,7 @@
 ://chaturbate.com$third-party
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+://d*.cloudfront.net$third-party
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
@@ -7328,6 +7329,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||8961a.com^
 ||897263tqs.com^
 ||89h8.com^
+||89mtdab.xyz^
 ||8b4v.cn^
 ||8b8r.icu^
 ||8bo.com/template/default/8bo/j/app.js
@@ -9980,6 +9982,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||ctfile.com/popjump.php?$popup
 ||ctl.buyt.in^
 ||ctoyb.cyou^
+||ctquh0q.xyz^
 ||ctrip.com/Domestic/tool/AjaxGetCPTList.ashx?advpositioncode=
 ||ctrip.com/amd/*960x90.
 ||ctuhn2cop.xyz^
@@ -10026,6 +10029,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||czsp12.com/api/*=advert&
 ||czsp12.com/api/*=announce&
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
+||d*.cloudfront.net^$third-party
 ||d*.ruiwen.com^
 ||d*.xinshipu.com^
 ||d-test.39.net^
@@ -10044,27 +10048,15 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||d1.handdiy.com^
 ||d1.sina.com.cn^$object,script
 ||d1.zhuangxiu6.com^
-||d13jhr4vol1304.cloudfront.net^
-||d15cjcet1djbmv.cloudfront.net^
-||d19xf4taj229i8.cloudfront.net^
 ||d1ad.com^$third-party
 ||d1ezlc9vy4yc7g.cloudfront.net^$third-party
 ||d1net.com/index.php?m=poster&
-||d1pmhihatyvp1k.cloudfront.net^
 ||d2.sina.com.cn^$object,script
-||d239g0z67jcted.cloudfront.net^
-||d26yfyk0ym2k1u.cloudfront.net^
 ||d2kadvyeq051an.cloudfront.net^$third-party
-||d2nrdy2pg3k168.cloudfront.net^
 ||d2robot.com.cn^
-||d2wy8f7a9ursnm.cloudfront.net^
+||d2wy8f7a9ursnm.cloudfront.net^$third-party
 ||d3.sina.com.cn^$object,script
-||d32bug9eb0g0bh.cloudfront.net^
-||d32z5ni8t5127x.cloudfront.net^
 ||d3f3.xyz^
-||d3hdbjtb1686tn.cloudfront.net^
-||d3iih5w7xp5hdg.cloudfront.net^
-||d3t3z4teexdk2r.cloudfront.net^
 ||d4.sina.com.cn^$object,script
 ||d4vd.life/love/
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
@@ -10076,7 +10068,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||d67p.com/love/
 ||d7dzf.xyz^
 ||d7i.cn^
-||d830x8j3o1b2k.cloudfront.net^
 ||d86.xyz^
 ||d86n.top^
 ||d8r7.xyz^
@@ -10224,7 +10215,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||deansent.top^
 ||deapi.afreecatv.com^
-||debojuagug1sf.cloudfront.net^
 ||debonairtree.com^$third-party
 ||debugease.com/static/js/show.js
 ||dedcrfvdj.xyz^
@@ -10633,7 +10623,6 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||dzjzg.com^
 ||dzkwj0y.xyz^
 ||dzletao.com^
-||dzpu6za66svjl.cloudfront.net^
 ||dzwww.com/data/js/asp_$script
 ||dzwww.com/images/ad_down.js
 ||dzwww.com/k.js
@@ -12590,6 +12579,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||imks.cn^
 ||imminentshake.com^$third-party
 ||immmg.owowqrf.cn^
+||imnks.com/ad2023/$image
 ||imooc.com/open/courselistrandjs
 ||imoote.xyz^
 ||impossibleexpansion.com^$third-party
@@ -16097,6 +16087,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||requirejs.cn/ts.png
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.pinpai8.cn^
+||res.vps234.com/resources/images/hosting-promotion/
 ||resource.baomihua.com^
 ||resourcecs.com^
 ||restartad.com^
@@ -16948,6 +16939,7 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 ||strangesink.com^$third-party
 ||strced.xyz^
 ||stream.pcradio.ru/list/message/notifications_v2.json
+||stream.spongead.com^
 ||stretchsister.com^$third-party
 ||stretchsneeze.com^$third-party
 ||strip.taobaocdn.com/tfscom/$subdocument
