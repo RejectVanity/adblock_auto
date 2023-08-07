@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HXAnfXMBcBq4VMngpubF6Q
+! Checksum: OczXXOVbkc76meTkrYcD4g
 ! Title: 自用去广告Adblock规则
-! Version: 20230805215341
-! Last modified: 2023-08-05 21:53:41
-! Total Count: 1954
+! Version: 20230807183712
+! Last modified: 2023-08-07 18:37:12
+! Total Count: 1959
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -890,6 +890,7 @@
 =AdCode_$third-party
 =AdCode_sjdb$third-party
 @@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
+@@/index.m3u8$domain=tecms.net
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@1anime.me/template/conch/asset/js/hlhtml.
@@ -899,11 +900,13 @@
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
+@@p2p.$domain=tecms.net
 @@tangsanshu.net/js/comm.js
 @@yetianlian.la/js/comm.js
 @@yetianlian.la/xxgg/common.js
 @@yetianlian.la/xxgg/read.js
 @@ysjdm.net/template/conch/asset/js/hlhtml.
+@@||150075.com^$domain=tecms.net
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||bili96.co^$image
 @@||c-ctrip.com/images/*.jpg
@@ -1435,7 +1438,7 @@ taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##button[onclick*="this.parentNode.parentNode.removeChild"]
 taotu.org##img[src*="/adimages/"]
 tasexy.com##[id^="sexy_b"]
-tecms.net##[class$="i"][style],[class$="h"][style],[class$="_b"],[class$="c"][style],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],[class$="m"][style*="display"][style*="block"][style*="100%"]
+tecms.net##[class$="i"][style],[class$="h"][style],[class$="_b"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],[class$="m"][style*="display"][style*="block"][style*="100%"],span > video[poster*="-1316632262.cos.ap-"]
 theav.xyz##[class*="-gg"]
 theav.xyz##[class*="absolute-"]
 theav.xyz##div[id*="theav"][style*="margin"] > div > span
@@ -1759,6 +1762,7 @@ zle.com$script
 ||kmr.wdjptto.cn^
 ||kmy.qhwifeq.cn^
 ||kmyyuw.xyz^$third-party
+||kpic.pbaiyho.cn^$third-party
 ||kszc.j1evtmx.xyz^
 ||kszvmqo.cn^$third-party
 ||kszxqq.com^$third-party
@@ -1864,6 +1868,7 @@ zle.com$script
 ||thyn.renzhen8.cn^$third-party
 ||tongji.click^
 ||toutiaoimg.com^$image,domain=350xs.com
+||tpic.kszvmqo.cn^$third-party
 ||tpic.mhslbqk.cn^
 ||trafficjunky.com^
 ||trafficjunky.net^
