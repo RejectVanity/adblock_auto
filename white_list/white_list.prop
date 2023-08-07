@@ -54,7 +54,7 @@ baidu.com.*#results[[:space:]]>[[:space:]]div\[class\]:not(.result):not(.result-
 ! 修复Via 规则读取错误的问题
 ^##div\[class\*=\"ad\"[[:space:]]i\].*\!important\;)$
 ^\/assets\/ad-$
-
+^\|\|d.*\.cloudfront\.net\^$
 
 
 
