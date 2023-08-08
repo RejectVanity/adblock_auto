@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9guxLJM5yxDqckyU2o4HSg
+! Checksum: v3XKf1W3ydXGsNeNwKUm9g
 ! Title: 自用去广告Adblock规则
-! Version: 20230808082000
-! Last modified: 2023-08-08 08:20:00
-! Total Count: 1964
+! Version: 20230808091147
+! Last modified: 2023-08-08 09:11:47
+! Total Count: 1974
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -264,6 +264,14 @@
 ##a[href^="http://s.73xx.icu/xgmn"]
 ##a[href^="http://www.lovetoytw.com/"][onclick]
 ##a[href^="https://adultfriendfinder.com"]
+##a[href^="https://go.xlirdr.com"]
+##a[href^="https://go.xlivrdr.com"]
+##a[href^="https://go.xlviiirdr.com"]
+##a[href^="https://go.xlviirdr.com"]
+##a[href^="https://go.xlvirdr.com"]
+##a[href^="https://go.xxxiijmp.com"]
+##a[href^="https://go.xxxijmp.com"]
+##a[href^="https://go.xxxjmp.com"]
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://xxuudxdu.live?"]
 ##a[onclick*="博彩"]
@@ -1168,6 +1176,7 @@ hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
 ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
 iookd.cc##[class="ads"] > img,img[src*="jiongnet.cn"]
+jable.tv##[href*="//go.xlviirdr.com"],[href*="//go.xlvirdr.com"],[href*="//go.xlviiirdr.com"],[href*="//go.xlivrdr.com"],[href*="//go.xlirdr.com"]
 javbabe.net###a-player
 javbabe.net,chinababe.net##.clipxx
 javbangers.com##.topnav > li > a[onclick][href]
@@ -1783,6 +1792,7 @@ zle.com$script
 ||lskjwica.cn^
 ||lwksxs.com^$third-party
 ||lwonclbench.com^$third-party
+||magsrv.com/ad-provider.js$third-party
 ||mail.kguapp.com^
 ||mc.webvisor.org^
 ||mc.yandex.ru^
