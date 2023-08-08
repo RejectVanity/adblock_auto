@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eqege2g3Nz+mC0mcj0q7Cg
+! Checksum: HjCyOUjwFJzastMuKK/KdA
 ! Title: 自用去广告Adblock规则
-! Version: 20230807232053
-! Last modified: 2023-08-07 23:20:53
-! Total Count: 1961
+! Version: 20230808074234
+! Last modified: 2023-08-08 07:42:34
+! Total Count: 1964
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -362,6 +362,7 @@
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//go.goaserv.com"]
+##iframe[src*="//go.goasrv.com/"]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ads."]
 ##iframe[src^="/ad"][src$=".html"]
@@ -911,6 +912,7 @@
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||bili96.co^$image
 @@||c-ctrip.com/images/*.jpg
+@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com
 @@||guokr.com/apis/flowingboard/item/guokrapp_
 @@||guokr.com/apis/flowingboard/item/m_
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=androidrepublic.org|apkmirror.com|b00.tw|boo.tw|cleodesktop.com|dl.ccbluex.net|freeopenvpn.org|hexviewer.iblogbox.com|lolalytics.com|onlinemschool.com|roaddir.com|smsget.net|streetdir.com|thewebflash.com|up-4ever.com
@@ -1271,6 +1273,7 @@ mydrivers.com#@#a[href*="/bp.ashx"]
 nxnba.com##.bootom-fixed
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
 pan.baidu.com##.share-error-ad
+porndoe.com##[class^="-banner"],[href*="//ads"],[href^="/redirect"]
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##.container-fluid > .links
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##.no-gutters
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##[id^="bottom-ads"]
@@ -1439,7 +1442,7 @@ taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##button[onclick*="this.parentNode.parentNode.removeChild"]
 taotu.org##img[src*="/adimages/"]
 tasexy.com##[id^="sexy_b"]
-tecms.net##[class$="i"][style],[class$="h"][style],[class$="_b"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],[class$="m"][style*="display"][style*="block"][style*="100%"],span > video[poster*="-1316632262.cos.ap-"]
+tecms.net##[class$="i"][style],[class$="h"][style],[class$="_b"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],[class$="m"][style*="display"][style*="block"][style*="100%"],span > video[poster*="-1316632262.cos.ap-"],[class$="c"][style$="131px;"]
 theav.xyz##[class*="-gg"]
 theav.xyz##[class*="absolute-"]
 theav.xyz##div[id*="theav"][style*="margin"] > div > span
