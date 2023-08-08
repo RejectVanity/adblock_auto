@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: XEjpyTcevWzStXmj6dEAZw
+! Checksum: Q4Tg+JObJTFxY5vdq5zl7w
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230808160913
+! Version: 20230809000821
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-08 16:09:13
-! Total Count: 23063
+! Last modified: 2023-08-09 00:08:21
+! Total Count: 23072
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -708,8 +708,10 @@
 ##.adlistcss
 ##.adp-popup
 ##.adpc > .module
+##.adpc > .promo-link-
 ##.adpc > .promot-link-
 ##.adpc > .promot-link_
+##.adpc > .promt-link_
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -12296,6 +12298,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ||caaie.xyz^
 ||caardinal.com^
 ||cacafly.net^
+||cache.ltn.com.tw/js/cache_ads_h1.js
 ||cachead.com^*.js
 ||cadke.xyz^
 ||cads.scalemonk.com^
@@ -13392,6 +13395,9 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ||dnwx.com*/ad$image
 ||dnwx.com/pic/*_978x60.
 ||dnwx.com/pic_ad/
+||dnxtc.net/images/xiaobing
+||dnxtc.net/xiaobing/
+||dnxtc.net^*/xiaobing
 ||dnyzbp.cn^
 ||dnzmhr.xyz^
 ||dobiez.com/statics/wap_v1/js/qwd.
@@ -15110,6 +15116,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ||hnshangzhongxia.com^
 ||hnwjlhg.cn^
 ||hnws.xyz^
+||hnxxt.net^
 ||hnyishidengbao.com^$third-party
 ||hnylb8.cn^
 ||hnzhengtongkj.cn^
@@ -19275,6 +19282,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ||qsjfd5.xyz^
 ||qsjfd6.com^
 ||qsjfd6.xyz^
+||qslbahy.top^
 ||qsmdeyz.cn^$third-party
 ||qsnignsy.xyz^
 ||qsnoownmy.fun^
@@ -19544,6 +19552,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ||rppihz.xyz^
 ||rptjx.xyz^
 ||rpvdfb.xyz^
+||rpyor0k.xyz^
 ||rqmob.com^
 ||rqnggnsz.fun^
 ||rqxtbr.xyz^
