@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6j6+NgD+5Km2qXSD03NogQ
+! Checksum: L4Szao0qKyYOYcTPu7Khvg
 ! Title: 混合规则(自动更新)
-! Version: 20230809160936
+! Version: 20230810000956
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-09 16:09:36
-! Total Count: 115998
+! Last modified: 2023-08-10 00:09:56
+! Total Count: 116012
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -15077,6 +15077,7 @@
 ##.pageclwideadv
 ##.pagecon + .ad1
 ##.pagefair-acceptable
+##.pagepusheradATF
 ##.pages__ad
 ##.pane-ad-pane
 ##.pane-ads
@@ -21842,6 +21843,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /adTemplates/*
 /adTools.
 /adTopBar.
+/adUnitsBreakpoints.
+/adUnitsData.
 /adVisit.
 /adWiseShopPlus1.
 /adWorking/*
@@ -25443,6 +25446,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /google728.
 /googleAdScripts.
 /googleAdTaggingSubSec.
+/googleAdsManager.
 /google_ad.
 /google_ad_
 /google_ads.
@@ -33717,6 +33721,7 @@ aitextpromptgenerator.com##.adsbyus_wrapper
 aitextpromptgenerator.com##[href^="https://app.getsitepop.com/"]
 aiweibk.com##.lili
 aiweibk.com##.pc
+aiyifan.tv,iyf.tv##+js(abort-on-property-read, Object.prototype.ShouldPlayAds)
 aiyifan.tv,iyf.tv##+js(set-constant, Object.prototype.captions, {})
 aiyuke.com###Playerpad
 aiyuke.com###js-ad-type4
@@ -33989,7 +33994,7 @@ animexin.vip,hentaiff.com###overplay
 animixplay.to###belowcomment
 animixplay.to###streambottomright
 animixplay.to###topmid
-aninews.in,hardwaretimes.com,oneindia.com,wionews.com###parentDiv0
+aninews.in,gadgets360.com,hardwaretimes.com,oneindia.com,wionews.com###parentDiv0
 aniporn.com###und_ban
 aniporn.com#?#.wrapper > section:has(> div > div > div[id^="footer_"] > div._ccw-wrapper)
 aniporn.com,bdsmx.tube,hclips.com,hotmovs.com,javdoe.fun,javdoe.sh,javtape.site,porntop.com,terminal.hackernoon.com##.right
@@ -34982,6 +34987,8 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
+bilibili.com#$?#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { remove: true; }
 bilibili.com#$?#.ex-card-common:-abp-has(.gg-icon) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:-abp-has(.bypb-icon) { remove: true; }
@@ -34990,7 +34997,6 @@ bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
-bilibili.com#?#.container > div[class*="-card"]:has(div[style="display: none !important;"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):-abp-has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
@@ -36761,6 +36767,7 @@ dallasinnovates.com,thecoastnews.com,thelakewoodscoop.com##.gofollow
 dallasnews.com##.dmnc_features-ads-config-presets-module__1xTTS
 dallasnews.com##.xl_right-rail
 dallasnews.com##[class^="dmnc_features-ads-"]
+dallasnews.com##div[class*="features-ads"]
 dallasobserver.com##.AirBillboardInlineContentresponsive
 dallasobserver.com,houstonpress.com,pcgamebenchmark.com,streetcheck.co.uk,zerohedge.com##.placement
 dan-teng.top##.nav
@@ -47732,13 +47739,13 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.pro
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.stream-item-group-start[label="promoted"]
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="src=promoted_trend_click"]
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="src=promoted_trend_click"] + div
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#.tweet:-abp-has(.promo)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#article[data-testid="tweet"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="UserCell"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="eventHero"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[data-testid="trend"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
-twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 two.game.tw#@##ad_02
 twpkinfo.com###div_close_cf
 txahz.com###archy_ad2
@@ -53416,6 +53423,7 @@ zzzyk.com###Tinfo
 ||aaddzz.com^
 ||aads.shuzilm.cn^
 ||aadserving.com^
+||aaenv48847h.com^
 ||aaf26c0e6a.com^
 ||aafdcq.com^
 ||aafuck.xyz^$third-party
@@ -58753,6 +58761,7 @@ zzzyk.com###Tinfo
 ||aquentlytujim.com^
 ||aqutxohnexd.com^
 ||aquvg.com^
+||aqvwn18102h.com^
 ||aqy103.com/js/aqy/
 ||aqylmil.cn^
 ||ar-x.site^
@@ -60022,6 +60031,7 @@ zzzyk.com###Tinfo
 ||b477.life^
 ||b477.life^$popup,third-party
 ||b4dg.life/love/
+||b4g7k9d2.com^
 ||b4jy.top^
 ||b509ab5b0d.com^
 ||b53.xyz^
@@ -70778,6 +70788,7 @@ zzzyk.com###Tinfo
 ||ebpu2.top^
 ||ebqidwm.xyz^
 ||ebrun.com/jfile/position/js/*.js
+||ebscb0l.xyz^
 ||ebten.xyz^
 ||ebtrk1.com^
 ||ebuqxsjq.com^
@@ -92528,6 +92539,7 @@ zzzyk.com###Tinfo
 ||parecyrclame.com^
 ||parentelement.ml^
 ||parentlargevia.com^
+||parentpicture.com^
 ||pariatonet.com^
 ||parifytraily.com^
 ||paripartner.com^
@@ -110635,6 +110647,7 @@ zzzyk.com###Tinfo
 ||voicegiddiness.com^
 ||voices-kerence.com^
 ||voicevegetable.com^
+||voidnetwork.cloud^
 ||voihkjd.cn^
 ||voipnewswire.net^
 ||voirst.com^
@@ -113499,6 +113512,7 @@ zzzyk.com###Tinfo
 ||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||xn--gov-x68dy61b.club^
 ||xn--gov-x68dy61b.shop^
+||xn--jvrp4x1zyfta.net^
 ||xn--mtso8sj6menhyil.online^
 ||xn--mtso8sj6menhyil.online^$third-party
 ||xn--wxtr9fwyxk9c.club^
