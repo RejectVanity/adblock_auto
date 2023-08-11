@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: M4ADB7qbogz3/53Aey0UNw
+! Checksum: ZULFl9aU3PJS5pt/wvuodg
 ! Title: 混合规则(自动更新)
-! Version: 20230811002633
+! Version: 20230811082814
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-11 00:26:33
-! Total Count: 116171
+! Last modified: 2023-08-11 08:28:14
+! Total Count: 116195
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1531,6 +1531,7 @@
 ###ads-header-728
 ###ads-home-468
 ###ads-horizontal
+###ads-inread
 ###ads-inside-content
 ###ads-leader
 ###ads-leaderboard
@@ -9074,6 +9075,7 @@
 ##.ads-decorator
 ##.ads-desktop
 ##.ads-div
+##.ads-end-content
 ##.ads-express
 ##.ads-favicon
 ##.ads-feed
@@ -9141,6 +9143,7 @@
 ##.ads-mini-3rows
 ##.ads-mobile
 ##.ads-module
+##.ads-module-alignment
 ##.ads-movie
 ##.ads-mpu
 ##.ads-narrow
@@ -29196,6 +29199,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 3dmgame.com#?#.downl_list:-abp-has(style)
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
 3dnatives.com##a[data-bid][target="_blank"]
+3dpchip.com##+js(set-constant, alert, undefined)
 3dprint.com##.lap-block-items
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,solidworksvideo.ru,wordvideo.ru###prozrachnyi2,#video_window2
 3dtube.xxx,milf.dk,nakedtube.com,pornmaki.com##.promotionbox
@@ -40580,6 +40584,7 @@ independent.com#@#.sidebar-ads
 independent.ie##.slot1
 independent.ie##.slot4
 india.com##.iwplhdbanner-wrap
+india.com##.top-horizontal-banner
 india.com,ntdeals.net,psdeals.net,xbdeals.net##div[class^="ads-"]
 indianapublicmedia.org##.sidebar-upper-underwritings
 indiancountrytoday.com##.skgeoeho
@@ -60229,6 +60234,7 @@ zzzyk.com###Tinfo
 ||bahisciler.co^
 ||bahmemohod.com^
 ||bahutuophian.com^
+||bai128.xyz^
 ||baibiigcfdjgdgacig.ru^
 ||baidbsjvb.com^
 ||baidnblkdn.com^
@@ -62277,6 +62283,7 @@ zzzyk.com###Tinfo
 ||bnbmatrix.io^
 ||bnbvd.xyz^
 ||bncloudfl.com^
+||bnds3.site^
 ||bnds4.site^
 ||bnds8.site^
 ||bnextmedia.com.tw/feed/fetch.js
@@ -67344,6 +67351,7 @@ zzzyk.com###Tinfo
 ||cryptoads.space^
 ||cryptoadvertising.net^
 ||cryptobara.com^
+||cryptocoinsad.com^
 ||cryptoland.com^
 ||cryptonoter.com^
 ||cryptraffic.de^
@@ -68131,6 +68139,7 @@ zzzyk.com###Tinfo
 ||darts-ads.telkom.co.id^
 ||darvorn.com^
 ||darwk.com^
+||darzeegobble.com^
 ||darzkrx.cn^
 ||dasesiumworkhovdimi.info^
 ||dasfelynsaterr.webcam^
@@ -73666,6 +73675,7 @@ zzzyk.com###Tinfo
 ||flexterkita.com^
 ||flickerbridge.com^
 ||flickeringintention.pro^
+||fliddercharm.space^
 ||fliedridgin.com^
 ||fligha.com^
 ||flighty.cn/images/
@@ -76250,6 +76260,7 @@ zzzyk.com###Tinfo
 ||gpm-mon-sg.byteoversea.com^
 ||gpm.ltd^
 ||gpnjknuqas.xyz^
+||gporkecpyttu.com^
 ||gposrzz.cn^
 ||gpozmocm.com^
 ||gpqicw.xyz^
@@ -76331,6 +76342,7 @@ zzzyk.com###Tinfo
 ||graph.facebook.com/network_ads
 ||grapheffect.com^
 ||graphinsider.com^
+||graphnitriot.com^
 ||grapiercaproyl.com^
 ||grappamacram.com^
 ||grasshopperprudencecondiment.com^
@@ -76593,6 +76605,7 @@ zzzyk.com###Tinfo
 ||gtcslt-di2.com^
 ||gtdmtjebafo.com^
 ||gter.net/index.html?c=foot_js&type=footer.js
+||gthfwcjhbxbq.xyz^
 ||gtifund.cn^
 ||gtimg.cn/mediastyle/event/20160306_music_live/img/skd.jpg
 ||gtimg.com/201*/dsp/
@@ -84854,6 +84867,7 @@ zzzyk.com###Tinfo
 ||lkmhn.com^
 ||lkmxqq.com^
 ||lknmnnr.xyz^
+||lknnbd.xyz^
 ||lkoobbpti.com^
 ||lkpmprksau.com^
 ||lkqd.net^
@@ -85366,6 +85380,7 @@ zzzyk.com###Tinfo
 ||lokeriklan.com^
 ||loki.maximonline.ru^
 ||lokinatoer5.com^
+||lokindt.com^
 ||lokngd.com^
 ||loktrk.com^
 ||lol.bash.org.ru^
@@ -87736,6 +87751,7 @@ zzzyk.com###Tinfo
 ||mjavagames.ru
 ||mjca-yijws.global.ssl.fastly.net^
 ||mjdauebjosbtcsb.xyz^
+||mjehvuwgy.com^
 ||mjita.cn^
 ||mjjjhfgqqpt.com^
 ||mjkyydz.cn^
@@ -93320,6 +93336,7 @@ zzzyk.com###Tinfo
 ||pf34zdjoeycr.com^
 ||pfeite.com^
 ||pfewuzbtkr.com^
+||pfhj89w.com^
 ||pfiparts.com^
 ||pfja.top^
 ||pfjfj45.xyz^
@@ -93645,6 +93662,7 @@ zzzyk.com###Tinfo
 ||piloteraser.com^
 ||pilpulbagmen.com^
 ||pilsarde.net^
+||pilularatavist.com^
 ||piluleruggy.com^
 ||pimlicoouranos.space^
 ||pimpleinterference.com^
@@ -103639,6 +103657,7 @@ zzzyk.com###Tinfo
 ||steepsister.com^$third-party
 ||steepsquirrel.com^
 ||steepto.com^
+||steeringsunshine.com^
 ||steessay.com^
 ||steghaiwhy.com^
 ||steinfqwe6782beck.com^
@@ -111340,6 +111359,7 @@ zzzyk.com###Tinfo
 ||warpassistrefrain.com^
 ||warswhitawe.com^
 ||warten-sie-mal.xyz^
+||wartletkenn.com^
 ||warumbistdusoarm.space^
 ||wary-pressure.pro^
 ||waryboot.pro^
@@ -113714,6 +113734,7 @@ zzzyk.com###Tinfo
 ||xonlines.com/yyh_qp_200_200.png
 ||xoor.ru^
 ||xopew.cyou^
+||xopxptn.cn^
 ||xoredi.com^
 ||xorlsblw.cyou^
 ||xovq5nemr.com^
@@ -114905,6 +114926,7 @@ zzzyk.com###Tinfo
 ||ytelc.com^$third-party
 ||ytfezzava.com^
 ||ytgzz.com^
+||ythingy.com^
 ||ythjhk.com^
 ||ytimgg.com^
 ||ytimm.com^
@@ -115466,6 +115488,7 @@ zzzyk.com###Tinfo
 ||zgfckf.mobi^
 ||zgfdczj.mobi^
 ||zgfushi.mobi^
+||zggrxf.life^
 ||zggrxf.life^$third-party
 ||zghsfh.xyz^
 ||zglww.net/jsnew/pfkf.js
@@ -116017,6 +116040,7 @@ zzzyk.com###Tinfo
 ||zuysfr.com^
 ||zuzab.com^
 ||zuzodoad.com^
+||zvasuzb.icu^
 ||zvbhei.cn^
 ||zvdc9y.icu^
 ||zvetokr2hr8pcng09.com^
