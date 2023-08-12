@@ -294,6 +294,35 @@ echo "${css_common_record}" >> "${target_adblock_file}"
 busybox sed -i 's/换行符正则表达式n/\\/g' "${target_adblock_file}"
 }
 
+#规则分类
+function sort_and_optimum_adblock(){
+local file="${1}"
+test ! -f "${file}" && return 
+cat << key > "${file}"
+
+! →→→→域名规则 起始 ←←←← !
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\|\||^\|http' | sort | uniq `
+! →→→→域名规则 结束 ←←←← !
+
+! →→→→网站单独规则 起始←←←← !
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\@\@|^\|\||^\|http|^#|^\/|^:\/\/|^_|^\?|^\.|^-|^=|^:|^~|^,|^&|^\$|^\||^\*' | sort | uniq `
+! →→→→网站单独规则 结束←←←← !
+
+! →→→→通配符规则 起始←←←← !
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -Ev '^\|\||^\|http|##|#\?#|#\%#|#\@#|##\[|##\.|[#][$][#]|[#][$][?][#]|[#][@][?][#]|^#' | sort | uniq `
+! →→→→通配符规则 结束←←←← !
+
+! →→→→通用Css规则 起始←←←← !
+`cat "${file}" | busybox sed '/^!/d;/^\@\@/d;/#\@#/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^#|^~.*#' | sort | uniq `
+! →→→→通用Css规则 结束←←←← !
+
+! →→→→放行白名单 起始←←←← !
+`cat "${file}" | busybox sed '/^!/d;/^\[/d;/^[[:space:]]*$/d' | grep -E '^\@\@|#\@#' | sort | uniq `
+! →→→→放行白名单 结束←←←← !
+
+key
+}
+
 
 #更新README信息
 function update_README_info(){
@@ -306,8 +335,8 @@ cat << key > "${file}"
 
 | 名称 | GIthub订阅链接 | Github加速订阅链接 | GitCode订阅链接 | Gitlab订阅链接 |
 | :-- | :-- | :-- | :-- | :-- |
-| 混合规则(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅](https://raw.fgit.ml/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto.txt) | [订阅](https://jihulab.com/foreseeable_boy/adblock_auto/-/raw/main/Rules/adblock_auto.txt) |
-| 混合规则精简版(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅](https://raw.fgit.ml/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt) | [订阅](https://jihulab.com/foreseeable_boy/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt) |
+| 混合规则(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅](https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto.txt) | [订阅](https://jihulab.com/foreseeable_boy/adblock_auto/-/raw/main/Rules/adblock_auto.txt) |
+| 混合规则精简版(自动更新) | [订阅](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅](https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt) | [订阅](https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt) | [订阅](https://jihulab.com/foreseeable_boy/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt) |
 
 ### 拦截器说明
 > #### [混合规则(自动更新)](https://lingeringsound.github.io/adblock_auto/Rules/adblock_auto.txt) 适用于 \`Adguard\` / \`Ublock Origin\` / \`Adblock Plus\`(用Adblock Plus源码编译的软件也支持，例如[嗅觉浏览器](https://www.coolapk.com/apk/com.hiker.youtoo) ) 支持复杂语法的过滤器，或者能兼容大规则的浏览器例如 [X浏览器](https://www.coolapk.com/apk/com.mmbox.xbrowser)
