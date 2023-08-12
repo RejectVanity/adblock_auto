@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: tcYLLVqEPejd1IpD4aHUVw
+! Checksum: V3D/JTh8fgQwQk5Dk6MPtQ
 ! Title: 混合规则(自动更新)
-! Version: 20230812182943
+! Version: 20230812193548
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-12 18:29:43
-! Total Count: 116018
+! Last modified: 2023-08-12 19:35:48
+! Total Count: 116028
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -37726,6 +37726,7 @@
 ||mjita.cn^
 ||mjjjhfgqqpt.com^
 ||mjkyydz.cn^
+||mjne.dtdnnrs.cn^$third-party
 ||mjnomtahm.com^
 ||mjnxku.com^
 ||mjrvkv5.com^
@@ -59642,6 +59643,7 @@
 ||uxdwhatijun.xyz^
 ||uxiaaip.cn^
 ||uxlidt.ink^
+||uxmwh0f.xyz^
 ||uxngqd.cn^
 ||uxpascal.com^
 ||uxpolqk.cn^
@@ -69933,6 +69935,7 @@ chron.com,seattlepi.com##[data-block-type="ad"]
 chron.com,sfgate.com##.b-gray300.bt.bb
 chron.com,sfgate.com##.b-gray300.md\:bt.md\:bb
 chronline.com##.cq-creative
+chrybloom.live,chrybloom.cc,jisaobad.vip,jisaobad.cc,jieyunuhai.info,aprk2.top,yydsav.top,mbjav.top,mbjav69.buzz,mbjav27.buzz,mbjav97.buzz,mbjav53.buzz,jztj39.top,jztj.xyz##[class$="i"][style],[class$="c"][style$="131px;"],[class$="_b"],[class$="h"][style],[class^="app"],a[target="_blank"] > [style*="width:100%"]
 chsi.com.cn##.zx-axvert
 chtoen.com##.adsbygoogle:not([data-ad-slot="9717665976"])
 chtupdate.net##.widget_media_image.widget
@@ -80404,6 +80407,7 @@ tassbiz.ru##.adblock_notif
 taxidrivermovie.com##a[href*="/category/"]
 taxidrivermovie.com##a[href*="mrskin.com/"]
 tbs.com##.smallBanners
+tbssp66.top##.app,a[rel="external nofollow noopener"][target="_blank"][data-original]
 tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
@@ -83139,7 +83143,6 @@ yxzoo.com##.downgg
 yy.com###gg_left
 yy.com###gg_right
 yy.com###rbappend
-yydsav.top,mbjav.top,mbjav69.buzz,mbjav27.buzz,##[class$="i"][style],[class$="c"][style$="131px;"],[class$="_b"],[class$="h"][style],[class^="app"],a[target="_blank"] > [style*="width:100%"]
 yyrtv.com##.right-gg
 yyrtv.com##li[class*="baidu"]
 yz.m.sm.cn##[id^="dl-banner-"]
@@ -84123,6 +84126,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
+.cn:*/vh5/1$third-party
 .co/ads/
 .co/ads/$popup
 .co/ads?
@@ -84330,6 +84334,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com:*/sc/*?x=$third-party
 .com:*/vh1/1$third-party
 .com:*/vh2/1$third-party
+.com:*/vh5/1$third-party
 .com:*/vj1/1$third-party
 .com:*/vj2/1$third-party
 .com:*/waga*.html$document
@@ -84507,6 +84512,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .live/user?$third-party
 .live/xtub_*_rony.js$third-party
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.live:*/vh5/1$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
 .lk/ads/
@@ -84702,6 +84708,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .top/xling_*_*.js?
 .top/xtub_*_rony.js$third-party
 .top:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|sadhub.org|soosadfun.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.top:*/vh5/1$third-party
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
 .topad.
@@ -112089,6 +112096,7 @@ zle.com$script
 ##[class^="ads"][style] > a[target="_blank"]
 ##[class^="adv-banner-"]
 ##[class^="amp-ad-"]
+##[class^="app"] > ul > li > a[rel="external nofollow noopener"][target="_blank"][href]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
@@ -113260,6 +113268,7 @@ zle.com$script
 ##div[id*="MarketGid"]
 ##div[id*="ScriptRoot"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
+##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -113463,6 +113472,7 @@ zle.com$script
 ##img[src*="://tpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
+##img[src*="acgfuny.com/"]
 ##img[src*="ads.bullionyield.com"]
 ##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
