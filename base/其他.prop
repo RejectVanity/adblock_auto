@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 67/ywNcjQtpZxuM+fbhDrA
+! Checksum: QbZwRqnGOb9Eew2qHVr8MQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230812123545
-! Last modified: 2023-08-12 12:35:45
-! Total Count: 1972
+! Version: 20230812163526
+! Last modified: 2023-08-12 16:35:26
+! Total Count: 1977
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -54,6 +54,7 @@
 ##.dlad
 ##.fed-play-advs
 ##.feed-ad
+##.float-ad
 ##.footads
 ##.g-slide
 ##.gg_pc
@@ -287,6 +288,7 @@
 ##a[onclick] > img[class^="index-center-tc"]
 ##a[onclick^="gtag"][onclick*="广告"]
 ##a[onclick^="visitReport("][target="_blank"]
+##a[referrerpolicy="unsafe-url"][target="_blank"]
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
@@ -424,6 +426,7 @@
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
+##img[src*="://ad.xmmnsl.com"]
 ##img[src*="://dpic."][src*=".cn"][src$=".js"]
 ##img[src*="://dpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
@@ -1275,6 +1278,7 @@ mparticle.uc.cn##[class^="index"][class*="block"],[class^="index_"][class*="card
 msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
 mydrivers.com#@#a[href*="/bp.ashx"]
+n6h7m.com##a[href="/pwa/lottery"],img[src*="://ad.xmmnsl.com"],a[referrerpolicy="unsafe-url"][target="_blank"],.float-ad
 newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"]
 nxnba.com##.bootom-fixed
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
@@ -1568,6 +1572,7 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com##embed[src]
 yhpdm.com,yhdmp.net,d53px.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
+yydsav.top,mbjav.top,mbjav69.buzz,mbjav27.buzz,##[class$="i"][style],[class$="c"][style$="131px;"],[class$="_b"],[class$="h"][style],[class^="app"],a[target="_blank"] > [style*="width:100%"]
 yz.m.sm.cn##[id^="dl-banner-"]
 yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 yz.m.sm.cn##div[id*="_Shopping_Etao_"]
