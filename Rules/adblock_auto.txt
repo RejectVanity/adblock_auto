@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: pY1GOd9sfFt5bJJnOuegrQ
+! Checksum: tcYLLVqEPejd1IpD4aHUVw
 ! Title: 混合规则(自动更新)
-! Version: 20230812160753
+! Version: 20230812182943
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-12 16:07:53
-! Total Count: 116011
+! Last modified: 2023-08-12 18:29:43
+! Total Count: 116018
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -59502,6 +59502,7 @@
 ||usingswhoring.com^
 ||usjbwvtqwv.com^
 ||usjbwvtqwv.com^$third-party
+||uslbaht.top^
 ||uslycoloursewo.com^
 ||usmhimw.cn^
 ||usnczrq.cn^
@@ -76818,6 +76819,7 @@ mzansi.porn##.dvr-3x2
 mzyz.com###idTransformView2
 mzzcloud.life,rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
 n4g.com,techspy.com##.top-ads-container-outer
+n6h7m.com##a[href="/pwa/lottery"],img[src*="://ad.xmmnsl.com"],a[referrerpolicy="unsafe-url"][target="_blank"],.float-ad
 nablog.org##.promo-archive-all
 nablog.org##.promo-single-3-2sidebars
 nagpurtoday.in##.film-right-s
@@ -78818,6 +78820,7 @@ racingtv.com##.layout__promotion
 radaronline.com##.gwzeAW
 radaronline.com##.hIlCTc
 radaronline.com##.hfdIrh
+radio.net#?#div:-abp-has(> div > div > [id^="RAD_D_"])
 radio.yandex.by,radio.yandex.kz,radio.yandex.ru##.notify
 radiocaroline.co.uk###photographsforeverDiv
 radiocaroline.co.uk##.home-banner
@@ -83136,6 +83139,7 @@ yxzoo.com##.downgg
 yy.com###gg_left
 yy.com###gg_right
 yy.com###rbappend
+yydsav.top,mbjav.top,mbjav69.buzz,mbjav27.buzz,##[class$="i"][style],[class$="c"][style$="131px;"],[class$="_b"],[class$="h"][style],[class^="app"],a[target="_blank"] > [style*="width:100%"]
 yyrtv.com##.right-gg
 yyrtv.com##li[class*="baidu"]
 yz.m.sm.cn##[id^="dl-banner-"]
@@ -87647,7 +87651,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /adstube/*
 /adstubs/*
 /adstx.
-/adstyle.$~stylesheet,domain=~adstyle.com
+/adstyle.$~stylesheet,domain=~adstyle.com|~adstyle.jp
 /adsummos.
 /adsummos2.
 /adsunauth?
@@ -107095,6 +107099,7 @@ zle.com$script
 ##.flexadvert
 ##.flexiad
 ##.flm-ad
+##.float-ad
 ##.float-adv-left-bottom
 ##.float-adv-left-top
 ##.float-adv-right-bottom
@@ -113086,6 +113091,7 @@ zle.com$script
 ##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source
 ##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
 ##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source
+##a[referrerpolicy="unsafe-url"][target="_blank"]
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[style$="2147483647;"][ontouchstart]
@@ -113444,6 +113450,7 @@ zle.com$script
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
+##img[src*="://ad.xmmnsl.com"]
 ##img[src*="://dpic."][src*=".cn"][src$=".js"]
 ##img[src*="://dpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Yh994XYcvO0AyL1M1r/HKQ
+! Checksum: qg/b1tPucNiBp0UQ7/2y4A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230812160800
+! Version: 20230812182950
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-12 16:08:00
-! Total Count: 23149
+! Last modified: 2023-08-12 18:29:50
+! Total Count: 23155
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -13606,6 +13606,7 @@
 ||usfw2eu.icu^
 ||usingde.com^$third-party
 ||usjbwvtqwv.com^$third-party
+||uslbaht.top^
 ||usnignst.xyz^
 ||usnoownmt.fun^
 ||usp1.baidu.com^
@@ -16585,6 +16586,7 @@ mysexgames.com##table[style^="background-color:#eeeeee; width:800px; height:270p
 mysexpedition.com##div[style="text-align: center"] > a[target="_blank"]
 myshared.ru###download_form > .uk-margin-top[style]
 mzansi.porn##.dvr-3x2
+n6h7m.com##a[href="/pwa/lottery"],img[src*="://ad.xmmnsl.com"],a[referrerpolicy="unsafe-url"][target="_blank"],.float-ad
 namethatporn.com###fab_blacko
 namethatporn.com###parto_block
 namethatporn.com##+js(set-constant, maniblok, false)
@@ -17956,6 +17958,7 @@ youtube.com#?#ytd-rich-grid-row > #contents > ytd-rich-item-renderer:-abp-has(> 
 youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
 youwatchporn.com##+js(window.open-defuser, snowdayonline.xyz)
 youwatchporn.com##a[href^="http://gohillgo.com/out"]
+yydsav.top,mbjav.top,mbjav69.buzz,mbjav27.buzz,##[class$="i"][style],[class$="c"][style$="131px;"],[class$="_b"],[class$="h"][style],[class^="app"],a[target="_blank"] > [style*="width:100%"]
 yz.m.sm.cn##[id^="dl-banner-"]
 zakon.kz##.adblock_alert
 zbporn.*##.desktop-nat-spot
@@ -20952,6 +20955,7 @@ zle.com$script
 ##.flash_ad
 ##.flex-row > #propagandaLeft
 ##.flex-row > #propagandaRight
+##.float-ad
 ##.float-adv-left-bottom
 ##.float-adv-left-top
 ##.float-adv-right-bottom
@@ -21861,6 +21865,7 @@ zle.com$script
 ##a[onclick^="gtag"][onclick*="广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 ##a[onclick^="visitReport("][target="_blank"]
+##a[referrerpolicy="unsafe-url"][target="_blank"]
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[style*=".e-years.net/"]
@@ -22111,6 +22116,7 @@ zle.com$script
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
+##img[src*="://ad.xmmnsl.com"]
 ##img[src*="://dpic."][src*=".cn"][src$=".js"]
 ##img[src*="://dpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
