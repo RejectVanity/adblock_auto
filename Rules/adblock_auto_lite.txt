@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: VIj+NdCYyAJFw1/ReJxn9g
+! Checksum: PKiCVp5BG1UzEM6/rVX/MQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230814000730
+! Version: 20230814064100
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-14 00:07:30
-! Total Count: 23177
+! Last modified: 2023-08-14 06:41:00
+! Total Count: 23214
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5170,6 +5170,14 @@
 ||creative.141live.com/widgets/Spot/
 ||creative.live.javhdporn.net/widgets/Spot/lib.js
 ||creative.live.javhdporn.net^
+||creative.xlirdr.com^
+||creative.xlivrdr.com^
+||creative.xlviiirdr.com^
+||creative.xlviirdr.com^
+||creative.xlvirdr.com^
+||creative.xxxiijmp.com^
+||creative.xxxijmp.com^
+||creative.xxxjmp.com^
 ||creawww.top^
 ||creditcreature.com^$third-party
 ||crf999.cn^
@@ -5523,6 +5531,7 @@
 ||dfggq.com^
 ||dfghaqea.xyz^
 ||dfgpifa.com^
+||dfgwer.com^
 ||dfgymtx.icu^
 ||dfjd.xyz^
 ||dfkd.xyz^
@@ -6851,8 +6860,16 @@
 ||go.mobstitialtag.com^
 ||go.pornav.net^
 ||go.vrvm.com^
+||go.xlirdr.com^
 ||go.xlivrdr.com$third-party
+||go.xlivrdr.com^
+||go.xlviiirdr.com^
 ||go.xlviirdr.com/smartpop$third-party
+||go.xlviirdr.com^
+||go.xlvirdr.com^
+||go.xxxiijmp.com^
+||go.xxxijmp.com^
+||go.xxxjmp.com^
 ||go2av.com/for_ad/
 ||go2av.com/js/AM.js
 ||go2s.co/*/*.zip
@@ -9593,6 +9610,7 @@
 ||magictreehouse.cn^
 ||magnetdog.net^$popup
 ||magsrv.com/ad-provider.js$third-party
+||magsrv.com^$third-party
 ||mahao1.cn^
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/api/$subdocument
@@ -13893,6 +13911,7 @@
 ||vx2e.top^
 ||vx4n.icu^
 ||vxhtxt.xyz^
+||vxinzheng.xyz^$third-party
 ||vxotu.com/i/*.gif
 ||vxvtzx.xyz^
 ||vydbvp.xyz^
@@ -14848,6 +14867,7 @@
 ||yl04z4v.cn^
 ||yllix.com^
 ||ylykd.cn^
+||ym.oaclrst.cn^$third-party
 ||ymcdn.ymtrack6.co/ads_file/
 ||ymcdn.ymtrack6.co/offer_single_files/
 ||ymdxl.com^
@@ -15516,6 +15536,7 @@
 91porn.com##.vjs-preroll
 91porn.com#?##videodetails > div:has(> a[href][target="_blank"])
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"]
+91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3
 9908ww.com,adelaidepawnbroker.com,bztube.com,disputeresolutionfinance.uk,hotovs.com,insuredhome.org,nudegista.com,pornluck.com,vidd.se,redtube.*,youpornru.com,tube8.com,tube8.es,tube8.fr,tube8.net##+js(set-constant, page_params.holiday_promo, true)
 99re.com##a[href][target="_blank"] > img[src]
 Banner-Ad
@@ -17375,6 +17396,7 @@ sina.cn##[data-href*="://sax"] + aside + blockquote
 sina.cn##[data-videojc*="://sax"]
 sina.cn##[href*="://sax"]
 sina.cn##[href^="https://finance.sina.cn/app/"]
+sinpornx.com##.zyz,div[id="jue"]
 slivap.ru##.svg-adblock
 sm.cn###download-uc
 sm.cn###download-uc-v2
@@ -18113,6 +18135,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .cn/sc/*?n=$third-party
 .cn/sc/*?x=$script,third-party
 .cn/sc/*?x=$third-party
+.cn/x/*-*-*.as$third-party,script
 .cn/z.gif?
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
@@ -18558,6 +18581,8 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /#/home?c=ggcha$~third-party
 /#/pages/video/video/?shareName=$document
 /#/pages/video/video/?shareName=$~third-party
+/#/register/?c=$document
+/#/register/?c=$~third-party
 /(https?:\/\/)(this|miss)av[0-9]+\.(xyz|top|live|com|cn)\/pop\?url=/$document
 /(https?:\/\/)(this|miss)av[0-9]+\.(xyz|top|live|com|cn)\/pop\?url=/$~third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
@@ -18802,6 +18827,8 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /home?tgId=$document
 /home?tgId=$~third-party
 /inc/antiblock.
+/index.html#/register$document
+/index.html#/register$~third-party
 /index.html?shareName=$document
 /index.html?shareName=$~third-party
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
@@ -21620,6 +21647,7 @@ zle.com$script
 ##a[href*=".uqubsb.com/"]
 ##a[href*=".urfatek.com/"]
 ##a[href*=".uxfqh.com/"]
+##a[href*=".vip:"] > img[src]
 ##a[href*=".vldbd.com/"]
 ##a[href*=".wjLkj.com/"]
 ##a[href*=".xacg.info/"]
@@ -21854,6 +21882,7 @@ zle.com$script
 ##a[href^="https://join.sexworld3d.com/track/"]
 ##a[href^="https://join3.bannedsextapes.com/track/"]
 ##a[href^="https://l.hyenadata.com"]
+##a[href^="https://mnwkcf.pojuko.buzz"]
 ##a[href^="https://porngames.adult/?SID="]
 ##a[href^="https://porntubemate.com/"]
 ##a[href^="https://www.mypornstarcams.com/landing/click/"]
@@ -21861,6 +21890,7 @@ zle.com$script
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
+##a[id$="ads-link"]
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
 ##a[id][target="_blank"] > img[src*="help-ol.bj.bcebos.com"]
@@ -21948,6 +21978,7 @@ zle.com$script
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
 ##div[class*="ad_banner_group"]
+##div[class*="app"] > [class="photo-two"]
 ##div[class*="clearfix-ads"]
 ##div[class*="col"] > a[rel="nofollow noopener noreferrer"][href][target="_blank"]
 ##div[class*="col"][clearfix] > a[target="_blank"][onclick][href]
@@ -21960,6 +21991,7 @@ zle.com$script
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class="need_grid_text"] > ul > li
 ##div[class="v-banner"][style]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
@@ -21970,6 +22002,7 @@ zle.com$script
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class][id][style] > .pic_container
+##div[class][style*="131px"][style*="bottom"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
@@ -22008,8 +22041,10 @@ zle.com$script
 ##div[id^="div-gpt-ad"]
 ##div[id^="em"] > a[onclick^="em"][max-width]
 ##div[id^="photo-header-title-content-text-dall"]
+##div[id^="player-ads"]
 ##div[id^="rfads"]
 ##div[id^="test"][style*="fixed"][style*="position:"]
+##div[id^="video-player-ads"]
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".lyty49.com"]
 ##div[onclick*=".open"][onclick*="leyu"]
@@ -22054,6 +22089,7 @@ zle.com$script
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
+##iframe[src*=".medfoodsafety.com/"]
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
@@ -22131,6 +22167,7 @@ zle.com$script
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
+##img[src*=".tptp002.cfd/"][src$=".gif"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
