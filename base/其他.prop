@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ecQo5mi3NjB61ixuJgH+MA
+! Checksum: BOQImMAo9tL4+4aggXiviw
 ! Title: 自用去广告Adblock规则
-! Version: 20230812193319
-! Last modified: 2023-08-12 19:33:19
-! Total Count: 1990
+! Version: 20230814062916
+! Last modified: 2023-08-14 06:29:16
+! Total Count: 2022
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -67,6 +67,7 @@
 ##.leftd2 + .rightd2
 ##.leftd3 + .rightd3
 ##.m-hm-ad
+##.maomi-content > .section-banner
 ##.moboad
 ##.module-adslist
 ##.myplayer_ima-ad-container
@@ -221,6 +222,7 @@
 ##a[href*=".com:"] > img[src]
 ##a[href*=".html?channelCode="]
 ##a[href*=".top"] > img[src]
+##a[href*=".vip:"] > img[src]
 ##a[href*=".xyz:"] > img[src]
 ##a[href*=".xyz?ch=ssmh"]
 ##a[href*="//go.xlivrdr.com"][target="_blank"]
@@ -276,7 +278,9 @@
 ##a[href^="https://go.xxxijmp.com"]
 ##a[href^="https://go.xxxjmp.com"]
 ##a[href^="https://l.hyenadata.com"]
+##a[href^="https://mnwkcf.pojuko.buzz"]
 ##a[href^="https://xxuudxdu.live?"]
+##a[id$="ads-link"]
 ##a[onclick*="博彩"]
 ##a[onclick*="同城"]
 ##a[onclick*="外接'"]
@@ -316,6 +320,7 @@
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
 ##div[class*="ad_banner_group"]
+##div[class*="app"] > [class="photo-two"]
 ##div[class*="clearfix-ads"]
 ##div[class*="col"] > a[rel="nofollow noopener noreferrer"][href][target="_blank"]
 ##div[class*="col"][clearfix] > a[target="_blank"][onclick][href]
@@ -328,6 +333,7 @@
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
+##div[class="need_grid_text"] > ul > li
 ##div[class="v-banner"][style]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
@@ -337,6 +343,7 @@
 ##div[class] > ul > li > a[href][alt^="同城"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class][style*="131px"][style*="bottom"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
@@ -363,8 +370,10 @@
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id^="azwangye"][style*="z-index: 11000;"]
+##div[id^="player-ads"]
 ##div[id^="rfads"]
 ##div[id^="test"][style*="fixed"][style*="position:"]
+##div[id^="video-player-ads"]
 ##div[onclick*="window.location.href"][onclick*=".biqu"][onclick*="app"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*="apps.apple.com/cn/"]
@@ -372,6 +381,7 @@
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##embed[src^="https:////"]
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
+##iframe[src*=".medfoodsafety.com/"]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//go.goaserv.com"]
@@ -423,6 +433,7 @@
 ##img[class][src$=".txt"]
 ##img[id^="GGADIMG"][src]
 ##img[src$=".add"]
+##img[src*=".tptp002.cfd/"][src$=".gif"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
@@ -503,6 +514,7 @@
 .cn/s/*.xc$third-party
 .cn/sc/*?n=$third-party
 .cn/sc/*?x=$third-party
+.cn/x/*-*-*.as$third-party,script
 .cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
@@ -847,7 +859,7 @@
 7itv.com##*[style*="display"][style*="block"],*[style*="position"][style*="fixed"],*[style*="bottom:"],[class$="_b"]
 7mmtv.sx##[class^="root--"]
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
-91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"]
+91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3
 99re.com##a[href][target="_blank"] > img[src]
 ://*.*27txt.com/*/*.js$~third-party
 ://*.*27txt.com/xi.js$~third-party
@@ -1337,6 +1349,7 @@ sina.cn##[data-href*="://sax"] + aside + blockquote
 sina.cn##[data-videojc*="://sax"]
 sina.cn##[href*="://sax"]
 sina.cn##[href^="https://finance.sina.cn/app/"]
+sinpornx.com##.zyz,div[id="jue"]
 sm.cn###download-uc
 sm.cn###download-uc-v2
 sm.cn###index_banner
@@ -1688,6 +1701,14 @@ zle.com$script
 ||comm.app.autohome.com.cn^
 ||cos.ap-*.myqcloud.com^$third-party
 ||cpro.baidustatic.com^
+||creative.xlirdr.com^
+||creative.xlivrdr.com^
+||creative.xlviiirdr.com^
+||creative.xlviirdr.com^
+||creative.xlvirdr.com^
+||creative.xxxiijmp.com^
+||creative.xxxijmp.com^
+||creative.xxxjmp.com^
 ||crjpgate.com^$document
 ||cvmjf.xyz^$third-party
 ||d*.cloudfront.net^$third-party
@@ -1733,8 +1754,16 @@ zle.com$script
 ||go.adltserv.com^
 ||go.goaserv.com$third-party
 ||go.meiweifood.xyz^
+||go.xlirdr.com^
 ||go.xlivrdr.com$third-party
+||go.xlivrdr.com^
+||go.xlviiirdr.com^
 ||go.xlviirdr.com/smartpop$third-party
+||go.xlviirdr.com^
+||go.xlvirdr.com^
+||go.xxxiijmp.com^
+||go.xxxijmp.com^
+||go.xxxjmp.com^
 ||goadsexchange.com^$third-party
 ||godpvqnszo.com^$third-party
 ||google-analytics.com^
@@ -1807,6 +1836,7 @@ zle.com$script
 ||lwksxs.com^$third-party
 ||lwonclbench.com^$third-party
 ||magsrv.com/ad-provider.js$third-party
+||magsrv.com^$third-party
 ||mail.kguapp.com^
 ||mc.webvisor.org^
 ||mc.yandex.ru^
@@ -1928,6 +1958,7 @@ zle.com$script
 ||vmsolxc.cn^
 ||vs*.bozhou666.com^$third-party
 ||vuhbgtsi.xyz^$third-party
+||vxinzheng.xyz^$third-party
 ||vzigttqgqx.com^
 ||wap.gonb.org/qjlm_wap.js
 ||wotmvdc.cn^
@@ -1969,6 +2000,7 @@ zle.com$script
 ||yinghua*.com/bar/yfgg*.js
 ||yinghuacd.com/bar/
 ||yinghuavideo.com/bar/
+||ym.oaclrst.cn^$third-party
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||youradexchange.com^$third-party
 ||yourporn.sexy/nbsys3/fsyspp.js
