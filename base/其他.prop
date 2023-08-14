@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BOQImMAo9tL4+4aggXiviw
+! Checksum: OKey2Z60oTH9I66a2dMBgA
 ! Title: 自用去广告Adblock规则
-! Version: 20230814062916
-! Last modified: 2023-08-14 06:29:16
-! Total Count: 2022
+! Version: 20230814110714
+! Last modified: 2023-08-14 11:07:14
+! Total Count: 2025
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -437,6 +437,7 @@
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
+##img[src*="/new/ads/"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
 ##img[src*="://acc.snmovie.com"]
@@ -459,6 +460,7 @@
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="jiongnet.cn"]
 ##img[src*="sm2kz.net"]
+##img[src*="tp.chsq.one/gg"][src$=".gif"]
 ##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src^="/uploads/aidou/adlist/"]
@@ -861,6 +863,7 @@
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3
 99re.com##a[href][target="_blank"] > img[src]
+://*.*.xyz/*/*-*-*-*/$third-party
 ://*.*27txt.com/*/*.js$~third-party
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
