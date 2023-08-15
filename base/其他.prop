@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OKey2Z60oTH9I66a2dMBgA
+! Checksum: /NibpVDwsuq69CknCE7ejw
 ! Title: 自用去广告Adblock规则
-! Version: 20230814110714
-! Last modified: 2023-08-14 11:07:14
-! Total Count: 2025
+! Version: 20230815093526
+! Last modified: 2023-08-15 09:35:26
+! Total Count: 2036
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -308,6 +308,7 @@
 ##display-ad-component
 ##display-ads
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
+##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div.ad-nav-box
@@ -343,7 +344,8 @@
 ##div[class] > ul > li > a[href][alt^="同城"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
-##div[class][style*="131px"][style*="bottom"]
+##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
+##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
@@ -767,8 +769,17 @@
 /redbaiduct.com?s=$third-party
 /sdk/push_web/?zid=
 /search/tsc.php?
+/template/*/adm/*
 /template/*/ads/*
+/template/ad.
 /template/blank/yk/sdo.js
+/template/chiav/img/*.mp4
+/template/chiav/img/*.png
+/template/gg.js
+/templates/*/js/_banner.js
+/templates/ad.
+/templates/ad/*
+/templates/ads/*
 /upload/ads/*$domain=~ads.ae
 /vs.php?id=$third-party,xmlhttprequest
 /widget-advert.
@@ -1206,6 +1217,7 @@ hanyu.baidu.com##[id^="fengchao_els"]
 hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
 ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
+ilengmen.com,newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"],div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 iookd.cc##[class="ads"] > img,img[src*="jiongnet.cn"]
 jable.tv##[href*="//go.xlviirdr.com"],[href*="//go.xlvirdr.com"],[href*="//go.xlviiirdr.com"],[href*="//go.xlivrdr.com"],[href*="//go.xlirdr.com"]
 javbabe.net###a-player
@@ -1305,7 +1317,6 @@ msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
 mydrivers.com#@#a[href*="/bp.ashx"]
 n6h7m.com##a[href="/pwa/lottery"],img[src*="://ad.xmmnsl.com"],a[referrerpolicy="unsafe-url"][target="_blank"],.float-ad
-newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"]
 nxnba.com##.bootom-fixed
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
 pan.baidu.com##.share-error-ad
