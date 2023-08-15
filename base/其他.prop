@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZPtah3BKFVv6yCCF8cy1Sw
+! Checksum: 3TH7hfG+uobU05IGXb294g
 ! Title: 自用去广告Adblock规则
-! Version: 20230815183531
-! Last modified: 2023-08-15 18:35:31
-! Total Count: 2087
+! Version: 20230815185259
+! Last modified: 2023-08-15 18:52:59
+! Total Count: 2089
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -983,6 +983,8 @@
 ://shiold*.zhaosw.com$script
 ://tpic.*.cn/*.js$third-party
 ://tpic.*.cn/*.txt$third-party
+://us-west1.*/*.js#spot=$third-party,script
+://us-west1.*/api/spots/$third-party
 ://vlets.*.club$third-party
 ://vlets.*.cyou$third-party
 ://vlets.*.shop$third-party
