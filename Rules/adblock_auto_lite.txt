@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: HW1hn4COVwhm8pGhVjPrsA
+! Checksum: NPbzb3vuJIm2qSAepHmy3w
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230815183749
+! Version: 20230815192100
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-15 18:37:49
-! Total Count: 23305
+! Last modified: 2023-08-15 19:21:00
+! Total Count: 23299
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19370,6 +19370,8 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ://shiold*.zhaosw.com$script
 ://tpic.*.cn/*.js$third-party
 ://tpic.*.cn/*.txt$third-party
+://us-west1.*/*.js#spot=$third-party,script
+://us-west1.*/api/spots/$third-party
 ://vlets.*.club$third-party
 ://vlets.*.cyou$third-party
 ://vlets.*.shop$third-party
@@ -21927,14 +21929,6 @@ zle.com$script
 ##a[href^="http://yunbofangbt."]
 ##a[href^="https://adm.beimg.com/"]
 ##a[href^="https://adultfriendfinder.com"]
-##a[href^="https://go.xlirdr.com"]
-##a[href^="https://go.xlivrdr.com"]
-##a[href^="https://go.xlviiirdr.com"]
-##a[href^="https://go.xlviirdr.com"]
-##a[href^="https://go.xlvirdr.com"]
-##a[href^="https://go.xxxiijmp.com"]
-##a[href^="https://go.xxxijmp.com"]
-##a[href^="https://go.xxxjmp.com"]
 ##a[href^="https://join.dreamsexworld.com/"]
 ##a[href^="https://join.sexworld3d.com/track/"]
 ##a[href^="https://join3.bannedsextapes.com/track/"]
