@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: NPbzb3vuJIm2qSAepHmy3w
+! Checksum: 7EUYA9G/QGR4vZkz/eCY1w
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230815192100
+! Version: 20230815235846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-15 19:21:00
-! Total Count: 23299
+! Last modified: 2023-08-15 23:58:46
+! Total Count: 23310
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4908,6 +4908,7 @@
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
 ||choujue.net/one/down.js
 ||choujue.net/script/
+||chozarpeases.com^
 ||chromeba.net/wp-content/uploads/
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
 ||chuantu.biz^$domain=7mav2.com|aotu43.com|thztv.cc
@@ -7365,6 +7366,7 @@
 ||hh*.huojiabeijing.org^$~third-party
 ||hh.jiankang.com^
 ||hh010.com/static/image/fff/
+||hh6820123.com^
 ||hhaobcj.cn^
 ||hhff111222.com^
 ||hhgxbxk.cn^
@@ -8068,6 +8070,7 @@
 ||iqbecde.cn^$document
 ||iqbecde.cn^$~third-party
 ||iqede.xyz^
+||iqgoukn.cn^
 ||iqilu.com/getZone.php
 ||iqilu.com/static_files/multiads/
 ||iqilu.com/static_files/richmedia/
@@ -10256,6 +10259,7 @@
 ||ncrkff.xyz^
 ||ncyksuw.xyz^
 ||nczsks.com/SCWB/WebResource.axd
+||ndqcz0e.xyz^
 ||ndqzqmb.xyz^
 ||ndruhz.xyz^
 ||neaqi.top^
@@ -15595,6 +15599,7 @@ airplaydirect.com,americaoutloud.com,bigeye.ug,completesports.com,cryptomining-b
 al4a.com##a[href^="http://as.sexad.net"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 alexfilm.cc##.panel-primary
+ali213.net##iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 alloldpics.com,sexygirlspics.com##.custom-spot
 alloldpics.com,sexygirlspics.com##.live-spot
 allsex.xxx##div[class^="block-"] > .table
@@ -18550,6 +18555,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
 .xyz/appinstall.js$third-party,script
+.xyz/ba.php?id=$third-party
 .xyz/base*.js?
 .xyz/biyys*.js$third-party,script
 .xyz/c.php?s=
@@ -18836,6 +18842,8 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /domredirect?visitid=$document
 /domredirect?visitid=$~third-party
 /doseofporn.com\/[a-z]{0,5}[1-9]{0,5}[a-z]{0,5}[1-9][s\S]*.js/
+/entry/register?i_code=$document
+/entry/register?i_code=$~third-party
 /forum/docs/requests.js$script,domain=nnm-club.lib|nnm-club.me|nnm-club.ws|nnmclub.ro|nnmclub.to|nontorclub.in.net
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 /google-adblock.
@@ -22017,6 +22025,7 @@ zle.com$script
 ##div#ad_id
 ##div#xinxi
 ##div.ad-nav-box
+##div.content > div[style] > div[class="photo-two"]
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
 ##div.g-list > ul > li
@@ -22044,7 +22053,9 @@ zle.com$script
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
 ##div[class="need_grid_text"] > ul > li
+##div[class="photo-two"] > a[target="_blank"]
 ##div[class="v-banner"][style]
+##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
