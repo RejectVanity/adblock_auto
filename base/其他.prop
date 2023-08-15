@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3TH7hfG+uobU05IGXb294g
+! Checksum: vmT3LzXzHzLAlRo0iOvzQg
 ! Title: 自用去广告Adblock规则
-! Version: 20230815185259
-! Last modified: 2023-08-15 18:52:59
-! Total Count: 2089
+! Version: 20230815235552
+! Last modified: 2023-08-15 23:55:52
+! Total Count: 2094
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -333,6 +333,7 @@
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div.ad-nav-box
+##div.content > div[style] > div[class="photo-two"]
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
 ##div.g-list > ul > li
@@ -356,7 +357,9 @@
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
 ##div[class="need_grid_text"] > ul > li
+##div[class="photo-two"] > a[target="_blank"]
 ##div[class="v-banner"][style]
+##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="棋牌"][target="_blank"]
@@ -661,6 +664,7 @@
 .xyz/alpine?$third-party
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
+.xyz/ba.php?id=$third-party
 .xyz/base*.js?
 .xyz/biyys*.js$third-party,script
 .xyz/c.php?s=
@@ -1033,6 +1037,7 @@ advancedrenamer.com,alotof.software,android-doc.com,androidrepublic.org,anonymou
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend" i]
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend"]
 airplaydirect.com,americaoutloud.com,bigeye.ug,completesports.com,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,flsentinel.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kenyabuzz.com,kiwiblog.co.nz,mature.community,mature.mom,mauitime.com,milf.community,milf.mom,milf.plus,milf.sexy,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,newzimbabwe.com,onislandtimes.com,ouo.press,pornhub.com,punchng.com,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,sports.sexy,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,tntribune.com,wantedinafrica.com,wantedinrome.com,wschronicle.com##img[width="300"]
+ali213.net##iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 anime1.me##div[id^="ad-"] > a
 animehentaihub.com,bestjavporn.com,hentaiasmr.moe,koreanstreamer.xyz,youporntube.net##.happy-header
 autohome.com.cn###float_bottom_button
