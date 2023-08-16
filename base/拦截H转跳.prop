@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S1fWfPELCMRSh4sC+aUgcQ
+! Checksum: 4YVDk4N8N9aZh9Qhlvl//g
 ! Title: 拦截黄色网站转跳
-! Version: 20230815220611
-! Last modified: 2023-08-15 22:06:11
-! Total Count: 302
+! Version: 20230816121324
+! Last modified: 2023-08-16 12:13:24
+! Total Count: 314
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -56,14 +56,20 @@
 .top/?channelCode=$~third-party
 .top/h.html?id=$document
 .top/h.html?id=$~third-party
+.top:*/#?shareName=$document
+.top:*/#?shareName=$~third-party
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
+.vip:*/#?shareName=$document
+.vip:*/#?shareName=$~third-party
 .xyz/*.html?uid=$document
 .xyz/*.html?uid=$~third-party
 .xyz/?channelCode=$document
 .xyz/?channelCode=$~third-party
 .xyz/h.html?id=$document
 .xyz/h.html?id=$~third-party
+.xyz:*/#?shareName=$document
+.xyz:*/#?shareName=$~third-party
 .xyz:*/*.html?uid=$document
 .xyz:*/*.html?uid=$~third-party
 .xyz:*/waga*.html$document
@@ -136,6 +142,8 @@
 /index.html#/register$~third-party
 /index.html?shareName=$document
 /index.html?shareName=$~third-party
+/m.html?rmid=*&yd=$document
+/m.html?rmid=*&yd=$~third-party
 /v*/?channelCode=$document
 /v*/?channelCode=$~third-party
 /yeyue*.html?channelCode=$document
@@ -184,6 +192,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||58455540.com^$~third-party
 ||61mnj.com^$document
 ||61mnj.com^$~third-party
+||6633091.com^$document
+||6633091.com^$~third-party
 ||8002v.com^$document
 ||8002v.com^$~third-party
 ||92g7x.com^$document
@@ -216,6 +226,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||daohan15.com^$~third-party
 ||daohan3.com^$document
 ||daohan3.com^$~third-party
+||dfyl.eeeeehfghrq555^$document
+||dfyl.eeeeehfghrq555^$~third-party
 ||edlzedu.cn^$document
 ||edlzedu.cn^$~third-party
 ||ewefbeu.cn^$document

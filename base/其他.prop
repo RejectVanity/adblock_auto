@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vmT3LzXzHzLAlRo0iOvzQg
+! Checksum: You6vYKOqC5i2R/x/+R+qQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230815235552
-! Last modified: 2023-08-15 23:55:52
-! Total Count: 2094
+! Version: 20230816124242
+! Last modified: 2023-08-16 12:42:42
+! Total Count: 2106
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -114,6 +114,7 @@
 ##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][onclick="goAppHtml();"]
+##[class][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] > .photo-two
 ##[class^="ad none"]
 ##[class^="ad-bottom"]
 ##[class^="ad-layer"]
@@ -275,6 +276,7 @@
 ##a[href="極樂夜王"][target="_blank"]
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
+##a[href][style*="overflow:hidden;display:block;"] > img[src$=".gif"][style*="width:100%"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
@@ -318,6 +320,7 @@
 ##a[referrerpolicy="unsafe-url"][target="_blank"]
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
+##a[target=" _blank"] > img[src$=".gif"][style*="width:100%"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
 ##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##bkveng
@@ -403,7 +406,9 @@
 ##div[onclick*="window.location.href"][onclick*=".biqu"][onclick*="app"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*="apps.apple.com/cn/"]
+##div[style="display: flex;flex-wrap: wrap;margin:5px;"] > div[class="photo-two"]
 ##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
+##div[style^="display:flex;flex-direction:column"] > [style*="display:flex;"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##embed[src^="https:////"]
 ##embed[width="100%"][height="100"]
@@ -488,6 +493,7 @@
 ##img[class][src$=".mp3"]
 ##img[class][src$=".txt"]
 ##img[id^="GGADIMG"][src]
+##img[id^="daohang_hengfu"][width="100%"]
 ##img[src$=".add"]
 ##img[src*=".tptp002.cfd/"][src$=".gif"]
 ##img[src*="/Ayi-GG"]
@@ -536,6 +542,7 @@
 ##script + #strl
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
+##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 &adZones$xmlhttprequest
 &ad_block=
@@ -565,6 +572,7 @@
 .club/r/*$xmlhttprequest
 .cn/20*/*/*.txt$third-party
 .cn/Report/*-*-$third-party,other
+.cn/api/LM/Report?placeUUID=$third-party
 .cn/api/getPos?jspath=/$~third-party
 .cn/cg/*-*.cg$third-party
 .cn/j/*$script,third-party
@@ -572,7 +580,7 @@
 .cn/s/*.xc$third-party
 .cn/sc/*?n=$third-party
 .cn/sc/*?x=$third-party
-.cn/x/*-*-*.as$third-party,script
+.cn/x/*-*-*.as$third-party
 .cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
@@ -673,6 +681,7 @@
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
+.xyz/foundation?$third-party
 .xyz/hm.js?
 .xyz/jque*.js?
 .xyz/js/adlm$third-party,script
@@ -794,6 +803,7 @@
 /advertisement_
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
+/api/LM/Report?placeUUID=$third-party
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
 /assets/ad-$domain=~flowus.cn
@@ -969,6 +979,7 @@
 ://ln.*.fun$third-party
 ://ln.*.mobi$third-party
 ://m.91zww.com/0x*/0x*.js?v=$~third-party
+://mobi*.*.*/*_*?$third-party
 ://mobivx.*.cam$third-party
 ://mobivx.*.club$third-party
 ://mobivx.*.cyou$third-party
@@ -1920,6 +1931,7 @@ zle.com$script
 ||mjne.dtdnnrs.cn^$third-party
 ||mklou.yuvdqnpo.com^
 ||moatads.com^
+||mobixc.lslbahl.top^$third-party
 ||mobixc.manlisgx.fun^
 ||mobixc.ognlaigk.fun^
 ||mobixc.wqnggnse.fun^
