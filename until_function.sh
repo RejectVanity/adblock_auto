@@ -47,6 +47,7 @@ cat << key > "${file}"
 ! Gitcode Raw Link: https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/${file##*/}
 ! Github Raw Link: https://lingeringsound.github.io/adblock_auto/Rules/${file##*/}
 ! GITlab Raw Link: https://jihulab.com/foreseeable_boy/adblock_auto/-/raw/main/Rules/${file##*/}
+
 key
 echo "${original_file}" >> "${file}"
 busybox sed -i 's/换行符正则表达式n/\\/g' "${file}"
