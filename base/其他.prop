@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x17xV8EfR5WMQHHT7z2VKA
+! Checksum: 5NXDlOiv6es+9xndI5ZWCA
 ! Title: 自用去广告Adblock规则
-! Version: 20230817113136
-! Last modified: 2023-08-17 11:31:36
-! Total Count: 2138
+! Version: 20230817121827
+! Last modified: 2023-08-17 12:18:27
+! Total Count: 2140
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -589,12 +589,14 @@
 .cn/s/*.xc$third-party
 .cn/sc/*?n=$third-party
 .cn/sc/*?x=$third-party
+.cn/vj5/1$third-party
 .cn/x/*-*-*.as$third-party
 .cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/1$third-party
+.cn:*/vj5/1$third-party
 .com./$popup,domain=pornhub.com
 .com/*/ddd1.js
 .com/*/ddd2.js
