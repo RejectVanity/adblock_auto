@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: K1BBf4lYnUsjdlpH4tW9Kw
+! Checksum: I8eT2xlTOPyVDFKRJx7SiA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230817160845
+! Version: 20230817175935
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-17 16:08:45
-! Total Count: 23395
+! Last modified: 2023-08-17 17:59:35
+! Total Count: 23398
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18348,6 +18348,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .com:*/*/m.html?shareName=$~third-party
 .com:*/?channelCode=$document
 .com:*/?channelCode=$~third-party
+.com:*/adduv_*_*_16$third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/entry/register/?i_code=$document
@@ -22151,6 +22152,7 @@ zle.com$script
 ##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
+##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="img"][title$="棋牌"]
@@ -22174,6 +22176,7 @@ zle.com$script
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
+##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SPmwFROKRmohOnvD/QFlew
+! Checksum: 68hXszKXubzeENhap9D5rw
 ! Title: 混合规则(自动更新)
-! Version: 20230817160836
+! Version: 20230817175928
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-17 16:08:36
-! Total Count: 116576
+! Last modified: 2023-08-17 17:59:28
+! Total Count: 116580
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18462,6 +18462,7 @@
 ||dcs.conac.cn/js/
 ||dcs.maxthon.com^
 ||dcsv33.com^
+||dcsxv.com^
 ||dct.mango-office.ru^
 ||dcuonsugikrma.com^
 ||dcvbnzss.xyz^
@@ -84753,6 +84754,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com:*/*/m.html?shareName=$~third-party
 .com:*/?channelCode=$document
 .com:*/?channelCode=$~third-party
+.com:*/adduv_*_*_16$third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/entry/register/?i_code=$document
@@ -113734,6 +113736,7 @@ zle.com$script
 ##div[class^="Display_displayAd"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
+##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="img"][title$="棋牌"]
@@ -113779,6 +113782,7 @@ zle.com$script
 ##div[id*="MarketGid"]
 ##div[id*="ScriptRoot"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
+##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
