@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5NXDlOiv6es+9xndI5ZWCA
+! Checksum: lcoXSakbCRx+djcJWPSYtw
 ! Title: 自用去广告Adblock规则
-! Version: 20230817121827
-! Last modified: 2023-08-17 12:18:27
-! Total Count: 2140
+! Version: 20230817174833
+! Last modified: 2023-08-17 17:48:33
+! Total Count: 2142
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -379,7 +379,7 @@
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
 ##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
-##div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
+##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="img"][title$="棋牌"]
@@ -401,6 +401,7 @@
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
+##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id^="azwangye"][style*="z-index: 11000;"]
@@ -619,6 +620,7 @@
 .com/vj1/1$third-party
 .com/vj2/1$third-party
 .com/vj5/1$third-party
+.com:*/adduv_*_*_16$third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/sc/*?n=$third-party
