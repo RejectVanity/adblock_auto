@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: r1Rdk/c/zi7QvAggK72OsQ
+! Checksum: /EbMZjpHVZhxO9vqQDL7Xg
 ! Title: 混合规则(自动更新)
-! Version: 20230817181629
+! Version: 20230817182933
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-17 18:16:29
-! Total Count: 116583
+! Last modified: 2023-08-17 18:29:33
+! Total Count: 116584
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -67015,6 +67015,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 19lou.com,ihome99.com##.ad-300x30
 19lou.com,ihome99.com##.ad-980x90
 1anime.me##[class*="ads"],[style*="z-index:"][style*="2000000000"],[style*="z-index:"][style*="5000000"],img[src*="//hgilaryph.com/"]
+1anime.me##[class*="ads"],[style*="z-index:"][style*="2000000000"],[style*="z-index:"][style*="5000000"],img[src*="//hgilaryph.com/"],body[style^="padding"] > [style*="130px"],img[width="30"][height="60"]
 1avlang.com,avavl4.com,avlang.com##.index-info > .tac
 1fzd.com,2fzd.com,3fzd.com,5fzd.com,fzd3.com###diy_cmn1
 1fzw.com##.focus-bots
