@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cz4gx1/tfjAUjURh+mrQVg
+! Checksum: Aep8y9uUxiPMfr0u4EnGBA
 ! Title: 自用去广告Adblock规则
-! Version: 20230817182725
-! Last modified: 2023-08-17 18:27:25
-! Total Count: 2145
+! Version: 20230818000257
+! Last modified: 2023-08-18 00:02:57
+! Total Count: 2152
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -25,6 +25,7 @@
 ###rollingadBox > .wrap
 ###top-ads
 ###top_ad
+###video-ad
 ##.ReadAd
 ##.ReadAd2
 ##.__bm_btn_div
@@ -52,6 +53,7 @@
 ##.conch-ads-box
 ##.container > iframe[src*="123.html"][width][height]
 ##.dlad
+##.exo-ad-ins-container
 ##.fed-play-advs
 ##.feed-ad
 ##.float-ad
@@ -92,6 +94,7 @@
 ##.yuepa-list
 ##.yuepa-warp
 ##[class$="ad-box"]
+##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
 ##[class*="ads-block"]
@@ -258,6 +261,7 @@
 ##a[href*="//go.xxxiijmp.com"]
 ##a[href*="//go.xxxijmp.com"]
 ##a[href*="//go.xxxjmp.com"]
+##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
 ##a[href*="/adslog/"][target="_blank"]
@@ -305,6 +309,9 @@
 ##a[href^="https://adultfriendfinder.com"]
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://mnwkcf.pojuko.buzz"]
+##a[href^="https://t.acam.link/"]
+##a[href^="https://t.adating.link/"]
+##a[href^="https://t.aslnk.link/"]
 ##a[href^="https://xxuudxdu.live?"]
 ##a[id$="ads-link"]
 ##a[onclick*="博彩"]
@@ -606,6 +613,7 @@
 .com/*/ffff.js
 .com/20*/*/*.txt$third-party
 .com/?channelCode=$~third-party
+.com/ad-provider.js$third-party
 .com/api/getPos?jspath=/$~third-party
 .com/candy*.js$third-party
 .com/j/*$script,third-party
@@ -622,6 +630,7 @@
 .com/vj1/1$third-party
 .com/vj2/1$third-party
 .com/vj5/1$third-party
+.com/wcm/?sh=*&$third-party
 .com:*/adduv_*_*_16$third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
@@ -701,6 +710,7 @@
 .xyz/ember?$third-party
 .xyz/foundation?$third-party
 .xyz/hm.js?
+.xyz/iutfkdfnshsdfk.js$third-party
 .xyz/jque*.js?
 .xyz/js/adlm$third-party,script
 .xyz/kallss?$third-party
@@ -968,6 +978,7 @@
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
 ://*.27txt.La/xi.js$~third-party
+://*.aj25*.bid/*.js$third-party
 ://*.zd*.buzz/*x*x*x*x*=$third-party
 ://*.zd*.fyi/*x*x*x*x*=$third-party
 ://*.zd*.live/*x*x*x*x*=$third-party
@@ -986,6 +997,7 @@
 ://*:*/dayu*.html?channelCode=$document
 ://*:*/yeyue.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$document
+://aj25*.bid/$third-party
 ://api.*.com/s/c?_=$third-party
 ://api.*.com/sh/*.js$script,third-party
 ://api.*.com/sh/back/$third-party,xmlhttprequest
@@ -1058,6 +1070,7 @@
 @@||bili96.co^$image
 @@||c-ctrip.com/images/*.jpg
 @@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com
+@@||eporner.com^$~third-party
 @@||guokr.com/apis/flowingboard/item/guokrapp_
 @@||guokr.com/apis/flowingboard/item/m_
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=androidrepublic.org|apkmirror.com|b00.tw|boo.tw|cleodesktop.com|dl.ccbluex.net|freeopenvpn.org|hexviewer.iblogbox.com|lolalytics.com|onlinemschool.com|roaddir.com|smsget.net|streetdir.com|thewebflash.com|up-4ever.com
@@ -1667,25 +1680,8 @@ xgroovy.com##.fluid_ad_cta
 xgroovy.com##[class^="fluid-b"]
 xgroovy.com##[class^="headA"],[class^="headC"]
 xgroovy.com##div[class^="in is_mobile"]
-xhofficial.com,xhamster.com,xhamster2.com##.bottom-widget-section
-xhofficial.com,xhamster.com,xhamster2.com##.clipstore-bottom
-xhofficial.com,xhamster.com,xhamster2.com##.player-add-overlay
-xhofficial.com,xhamster.com,xhamster2.com##.promo-message
-xhofficial.com,xhamster.com,xhamster2.com##.sponsorBottom
-xhofficial.com,xhamster.com,xhamster2.com##.video-view-ads
-xhofficial.com,xhamster.com,xhamster2.com##.xplayer-b
-xhofficial.com,xhamster.com,xhamster2.com##.xplayer-hover-menu
-xhofficial.com,xhamster.com,xhamster2.com##[class$="-pause"]
-xhofficial.com,xhamster.com,xhamster2.com##[class*="ads"]
-xhofficial.com,xhamster.com,xhamster2.com##[class*="video-view-ads"]
-xhofficial.com,xhamster.com,xhamster2.com##[class*="view-ads"]
-xhofficial.com,xhamster.com,xhamster2.com##[class*="wio-"]
-xhofficial.com,xhamster.com,xhamster2.com##[class*="wixx-"]
-xhofficial.com,xhamster.com,xhamster2.com##[class*="yld-"]
-xhofficial.com,xhamster.com,xhamster2.com##[class*="yxd-j"]
-xhofficial.com,xhamster.com,xhamster2.com##[class^="xp-banner"]
-xhofficial.com,xhamster.com,xhamster2.com##[class^="xplayer-banner"]
-xhofficial.com,xhamster.com,xhamster2.com##a[href*="adblocked"][target="_blank"]
+xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi##.bottom-widget-section,.clipstore-bottom,.player-add-overlay,.promo-message,.sponsorBottom,.video-view-ads,.xplayer-b,.xplayer-hover-menu
+xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi##[class$="-pause"],[class*="ads"],[class*="video-view-ads"],[class*="view-ads"],[class*="wio-"],[class*="wixx-"],[class*="yld-"],[class*="yxd-j"],[class^="xp-banner"],[class^="xplayer-banner"],a[href*="adblocked"][target="_blank"],[data-role^="yld-"],[class^="xplayer-ads"]
 xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net,fantuanhd.com,kankanju.cc,renren.pro,sstv.fun##*[style*="bottom"],[class$="_b"]
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xnxx.com##[class*="ad-"]
@@ -1770,10 +1766,12 @@ zle.com$script
 ||afenjkopoqwm.com^$third-party
 ||agdcdf.live^
 ||agdcdf.shop^
+||aj2555.bid^$third-party
 ||al.autohome.com.cn^
 ||alert.autohome.com.cn^
 ||alibaba.com/ts?
 ||alskfdf.com^
+||amung.us^
 ||an.yandex.ru^
 ||antiadblocksystems.com^
 ||anyshare.icu^*.js
@@ -1792,6 +1790,7 @@ zle.com$script
 ||beijing163.aliyunapi.org^$third-party,script
 ||bisonads.com^
 ||bj-gov-cn.website^
+||bl230126pb.com^
 ||bnsdk.top^
 ||browser.sentry-cdn.com^
 ||btds.zog.link^$third-party
@@ -1881,6 +1880,7 @@ zle.com$script
 ||go.xxxiijmp.com^
 ||go.xxxijmp.com^
 ||go.xxxjmp.com^
+||go.xxxviijmp.com^
 ||goadsexchange.com^$third-party
 ||godpvqnszo.com^$third-party
 ||google-analytics.com^
@@ -1953,7 +1953,6 @@ zle.com$script
 ||lskjwica.cn^
 ||lwksxs.com^$third-party
 ||lwonclbench.com^$third-party
-||magsrv.com/ad-provider.js$third-party
 ||magsrv.com^$third-party
 ||mail.kguapp.com^
 ||mc.webvisor.org^
@@ -1980,6 +1979,7 @@ zle.com$script
 ||nscxbr.com^$third-party
 ||nwecd.xyz^$third-party
 ||oqedci.xyz^$third-party
+||orbsrv.com^
 ||oronwg.xyz^$third-party
 ||pagead2.googlesyndication.com^
 ||pcd.autohome.com.cn^
@@ -2007,7 +2007,9 @@ zle.com$script
 ||rd.autohome.com.cn^
 ||rdx.autohome.com.cn^
 ||read*.me/app/*.js$script
+||reallifeforyouandme.com^
 ||realsrv.com^$third-party
+||riamiavid.com^
 ||route34.cn^
 ||rpvdfb.xyz^
 ||rtbrennab.com^$third-party
@@ -2018,6 +2020,7 @@ zle.com$script
 ||sas.com^
 ||sc-gov-cn.website^
 ||scjpqut.cn^
+||sda.seksohub.com^
 ||sdk.51.la^
 ||sedoparking.com^
 ||sejieboxapi.yingyangdj.com^
@@ -2025,6 +2028,7 @@ zle.com$script
 ||siduohua.top^
 ||sjdfuvz.cn^
 ||skluff.com^$third-party
+||smachnakittchen.com^
 ||sofire.bdstatic.com^
 ||srnov.top^
 ||srv.dropkickmedia.com$third-party
@@ -2037,6 +2041,7 @@ zle.com$script
 ||svdpgmt.cn^
 ||sznj91.com^
 ||tangsanshu.net/*/*.js
+||tapioni.com^
 ||tc.dqpumx.com^
 ||td.easysavemore.com^
 ||td.sxwqhotel.com^
@@ -2050,6 +2055,7 @@ zle.com$script
 ||toutiaoimg.com^$image,domain=350xs.com
 ||tpic.kszvmqo.cn^$third-party
 ||tpic.mhslbqk.cn^
+||traffichaus.com^
 ||trafficjunky.com^
 ||trafficjunky.net^
 ||tryoe.com^$third-party
@@ -2113,6 +2119,7 @@ zle.com$script
 ||xvliqsa.cn^
 ||xw.ooegpip.cn^$third-party,image
 ||yaacdn.com/static/js/*.js$script
+||yadro.ru^
 ||yazhouse*.com/images/gg/$image
 ||ybayck.xyz^
 ||yber.fourlaile.com^$third-party
