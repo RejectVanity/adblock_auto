@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 68hXszKXubzeENhap9D5rw
+! Checksum: r1Rdk/c/zi7QvAggK72OsQ
 ! Title: 混合规则(自动更新)
-! Version: 20230817175928
+! Version: 20230817181629
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-17 17:59:28
-! Total Count: 116580
+! Last modified: 2023-08-17 18:16:29
+! Total Count: 116583
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -44385,6 +44385,7 @@
 ||pniao99.com/statics/js/stat.js
 ||pnirrb.cn^
 ||pnpmreuwqv.xyz^
+||pnpy.mmtnat.com^$third-party,script
 ||pnrblholty.com^
 ||pnrqz.xyz^
 ||pnslejs.cn^
@@ -84632,6 +84633,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/bads/
 .com/banner_list.js
 .com/c.gif?
+.com/candy*.js$third-party
 .com/code.php?a=index&z=$script,third-party,xmlhttprequest
 .com/code.php?z=$script,third-party
 .com/common_list.js
@@ -84698,6 +84700,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/new/5*.html$~third-party
 .com/new/8*.html$document
 .com/new/8*.html$~third-party
+.com/o.js$third-party
 .com/pc/ad/$domain=~yoogame.com
 .com/piaozi/*.js
 .com/pm/ad-
