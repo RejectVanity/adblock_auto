@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2oxLkqyPMT8Iqu2d6r6wbw
+! Checksum: hezwOQvnXPIOuN9sa2JDpQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230818010053
-! Last modified: 2023-08-18 01:00:53
-! Total Count: 2245
+! Version: 20230819192208
+! Last modified: 2023-08-19 19:22:08
+! Total Count: 2253
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -312,6 +312,7 @@
 ##a[href^="https://t.acam.link/"]
 ##a[href^="https://t.adating.link/"]
 ##a[href^="https://t.aslnk.link/"]
+##a[href^="https://xlivesex.com/"]
 ##a[href^="https://xxuudxdu.live?"]
 ##a[id$="ads-link"]
 ##a[onclick*="博彩"]
@@ -611,6 +612,7 @@
 .com/*/ddd3.js
 .com/*/ddd4.js
 .com/*/ffff.js
+.com/*interstitial*.js$third-party,script
 .com/20*/*/*.txt$third-party
 .com/?channelCode=$~third-party
 .com/ad-provider.js$third-party
@@ -1225,6 +1227,7 @@ baidu.com##[class*="fc-"][class*="ad"]
 baidu.com##[class*="na-ec-"]
 baidu.com##[class^="ad-"]
 baidu.com##[class^="cu-video-player"]
+baidu.com##[class^="sfc-video-page"] > [class="mask"],[class="sfc-video-page-vertical-player-layer"]
 baidu.com##[id*="ec-"][id*="ad"]
 baidu.com##[id*="ec_"][id*="ad"]
 baidu.com##[srcid*="_ad"]
@@ -1424,6 +1427,7 @@ hoho.tv##[class^="hoho-ad"],[data-ad-client]
 ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
 ilengmen.com,newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"],div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 iookd.cc##[class="ads"] > img,img[src*="jiongnet.cn"]
+iyar.com.cn##[class][style*="131px"]
 jable.tv##[href*="//go.xlviirdr.com"],[href*="//go.xlvirdr.com"],[href*="//go.xlviiirdr.com"],[href*="//go.xlivrdr.com"],[href*="//go.xlirdr.com"]
 javbabe.net###a-player
 javbabe.net,chinababe.net##.clipxx
@@ -1860,6 +1864,7 @@ zle.com$script
 ||agdcdf.live^
 ||agdcdf.shop^
 ||aj2555.bid^$third-party
+||ajtdumo.cn^$third-party
 ||al.autohome.com.cn^
 ||alert.autohome.com.cn^
 ||alibaba.com/ts?
@@ -2071,6 +2076,7 @@ zle.com$script
 ||nsclick.baidu.com^
 ||nscxbr.com^$third-party
 ||nwecd.xyz^$third-party
+||openinstall.io^$third-party,script
 ||oqedci.xyz^$third-party
 ||orbsrv.com^
 ||oronwg.xyz^$third-party
@@ -2111,6 +2117,7 @@ zle.com$script
 ||s.htkk*.top:20443^$script
 ||s.ssl.qhres2.com/ssl/
 ||sas.com^
+||sbcjahdc.com^$third-party
 ||sc-gov-cn.website^
 ||scjpqut.cn^
 ||sda.seksohub.com^
@@ -2247,5 +2254,6 @@ zle.com$script
 ||zeatse.buzz^$third-party
 ||zewfbw.buzz^$third-party
 ||zggrxf.life^$third-party
+||zglghr.xyz^$third-party
 ||zkappsart.com^$third-party,xmlhttprequest
 ||zz.bdstatic.com^
