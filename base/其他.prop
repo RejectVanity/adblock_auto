@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hezwOQvnXPIOuN9sa2JDpQ
+! Checksum: 77PBjuHmKfge0kXuxQ8llA
 ! Title: 自用去广告Adblock规则
-! Version: 20230819192208
-! Last modified: 2023-08-19 19:22:08
-! Total Count: 2253
+! Version: 20230820030637
+! Last modified: 2023-08-20 03:06:37
+! Total Count: 2268
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -936,10 +936,22 @@
 /nativeads-
 /nb/*$script,domain=bigtitslust.com|pornhex.com|159i.com|babesjoy.com|pornyfap.com|imgtorrnt.in|imgtornado.com|shameless.com|imgdone.com|webcamshows.org|ipicture.su|youav.com|porndr.com|noodlemagazine.com|picmoza.com|cumlouder.com|maturetubehere.com|amateur8.com|freeporn8.com
 /nb/ads/*
+/new/yinghua*/top.js$third-party,script
 /new/yinghuacd*/bottom.js$third-party,script
 /npc/sdk/wp-banners.js$script,third-party
 /pagead2.
+/picture/ad/*
+/pictureads/*
+/pictures/ads/*
+/pix/ads/*
+/pixel/puclc?
+/pixel/pure
+/pixel/purs?
+/pixel/purst?
+/pixel/sbe?
+/pixelads/*
 /redbaiduct.com?s=$third-party
+/sbar.json?key=
 /sdk/push_web/?zid=
 /search/tsc.php?
 /tempads/*
@@ -1958,6 +1970,7 @@ zle.com$script
 ||ffmehcg.cn^$third-party
 ||fg.knlk2md.cn^$third-party
 ||fourier.alibaba.com^
+||friendshipmale.com^
 ||ftiodfqk.com^$third-party
 ||g.aidinghz.com^
 ||g.shommaipl.com^$third-party
@@ -2126,6 +2139,7 @@ zle.com$script
 ||sejieboxapi.yingyangdj.com^
 ||sfvsjv.com/sh$third-party,script
 ||siduohua.top^
+||simplewebanalysis.com^
 ||sjdfuvz.cn^
 ||skluff.com^$third-party
 ||smachnakittchen.com^
@@ -2172,6 +2186,7 @@ zle.com$script
 ||union.macoms.la^
 ||unionadjs.com^
 ||unm.zzxmcp.com^$third-party
+||us-west1.cdngcloud.com^
 ||usjbwvtqwv.com^$third-party
 ||uztyvfk.cn^$third-party,image
 ||v*.qudou100.com^$script
