@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: w7/EtnQCDH/joheNV3XPVw
+! Checksum: BczCEp3KhFhArCIj2p+n4Q
 ! Title: 混合规则(自动更新)
-! Version: 20230820175914
+! Version: 20230820190757
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-20 17:59:14
-! Total Count: 117355
+! Last modified: 2023-08-20 19:07:57
+! Total Count: 117361
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -44084,6 +44084,7 @@
 ||pippio.com^
 ||pipprfvhpykpvk.com^
 ||pipsol.net^
+||piqtpbxo.icu^
 ||piquantpigs.com^
 ||piquantprice.com^
 ||piquantstove.com^
@@ -80234,6 +80235,7 @@ shuba.life##.md\:u-block
 shuba.life##img[height][src^="https://shuba.life/static/banners/placeholders/"]
 shulink.com##.er_g
 shuowan.com##.side_flash
+shushudu.com##[style*="width:"][style*="100%"],[style*="width:"][style*="99%"],[width*="99%"],[width*="100%"],div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
 si.com##.l-inline.m-detail--feature-container
 si.com##.m-balloon-header--spacer
 siasat.com###tie-block_3274
@@ -113221,6 +113223,7 @@ zle.com$script
 ##[class*="ads_"]
 ##[class*="ads_border"]
 ##[class*="banner-"][class*="cctv"]
+##[class*="card-ads"]
 ##[class*="chp_ads_blocker_detector-show"]
 ##[class*="floating_ads"]
 ##[class*="juicyads"]
@@ -114429,6 +114432,7 @@ zle.com$script
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class][id][style] > .pic_container
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
+##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
 ##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 ##div[class^="Adstyled__AdWrapper-"]
 ##div[class^="Display_displayAd"]
@@ -114691,6 +114695,7 @@ zle.com$script
 ##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[onclick^="window.open"][src*="pc.qq.com"]
 ##img[src$=".add"]
+##img[src$=".gif"][style="border:0;"][width="99%"]
 ##img[src$=".gif"][style="width:100%;max-width: 960px;height:45px;margin-bottom:2px;"]
 ##img[src$="/img/tianbo.gif"]
 ##img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
@@ -114777,6 +114782,7 @@ zle.com$script
 ##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 ##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
+##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
 ##vg-pause-ads
 ##zeus-ad
 ~05wang.com##.a_pr
