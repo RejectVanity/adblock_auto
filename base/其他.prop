@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CAgQTBl9dyA+v7h347iT9Q
+! Checksum: VutDHwX1eaKLbGE5exVmbA
 ! Title: 自用去广告Adblock规则
-! Version: 20230820160118
-! Last modified: 2023-08-20 16:01:18
-! Total Count: 2269
+! Version: 20230820190052
+! Last modified: 2023-08-20 19:00:52
+! Total Count: 2274
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -101,6 +101,7 @@
 ##[class*="ads_"]
 ##[class*="ads_border"]
 ##[class*="banner-"][class*="cctv"]
+##[class*="card-ads"]
 ##[class*="floating_ads"]
 ##[class*="juicyads"]
 ##[class*="skip-ad"]
@@ -385,6 +386,7 @@
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
+##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
 ##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
@@ -511,6 +513,7 @@
 ##img[id^="daohang_hengfu"][width="100%"]
 ##img[onclick^="golh()"][width="100%"],img[onclick^="golh()"][src$=".gif"]
 ##img[src$=".add"]
+##img[src$=".gif"][style="border:0;"][width="99%"]
 ##img[src*=".tptp002.cfd/"][src$=".gif"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
@@ -561,6 +564,7 @@
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
+##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
 &adZones$xmlhttprequest
 &ad_block=
 &ad_code=
@@ -1567,6 +1571,7 @@ renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
 sbdm.net##div#vodshare
 sexmod.pw,md91av.top,twavbook999.cc,siaoredbook.cc,mitaonuhai.cc,gipinreba.cc,r18lumod.cc##[class*="topads"],[class*="tads"],[class*="bottomads"],[class*="bads"],[class*="leftd"],[class*="rightd"],a[target="_blank"][href][onclick]
+shushudu.com##[style*="width:"][style*="100%"],[style*="width:"][style*="99%"],[width*="99%"],[width*="100%"],div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
 sina.cn##.feed.module-extend.module-recommend
 sina.cn##.j_article_relevent
 sina.cn##.j_article_relevent_news
