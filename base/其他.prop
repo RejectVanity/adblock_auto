@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7AZelrWMgh1jLarBFDS1kg
+! Checksum: kP0FOyDOVfeveorLahrPkA
 ! Title: 自用去广告Adblock规则
-! Version: 20230821104427
-! Last modified: 2023-08-21 10:44:27
-! Total Count: 2282
+! Version: 20230822022442
+! Last modified: 2023-08-22 02:24:42
+! Total Count: 2297
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -452,11 +452,13 @@
 ##iframe[src*="//go.goasrv.com/"]
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
+##iframe[src*="/redbaiduct.com?s="]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ad.a-ads.com/"]
 ##iframe[src^="//ads."]
 ##iframe[src^="//us-west1."][src*="/api/spots/"]
 ##iframe[src^="/ad"][src$=".html"]
+##iframe[width="0"][height="0"]
 ##iframe[width="100%"][height="120"]
 ##iframe[width="100%"][height="90"]
 ##iframe[width="104"][height="464"]
@@ -615,6 +617,8 @@
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/1$third-party
 .cn:*/vj5/1$third-party
+.co/ajd.php?pid=$third-party
+.co/ajtop.php?pid=*$third-party
 .com./$popup,domain=pornhub.com
 .com/*/ddd1.js
 .com/*/ddd2.js
@@ -741,9 +745,11 @@
 .xyz/vj1/$third-party
 .xyz/vj2/$third-party
 .xyz/vue?$third-party
+.xyz/wb/*-*-*.yb$third-party
 .xyz/xling_*_*.js?
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
+/*.php?pid=*&n=$third-party
 /*_*_/bigREDdog.$third-party
 /?channelCode=bfy$document
 /AdS/RAD.
@@ -845,6 +851,7 @@
 /advertisement_
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
+/aj*.php?pid=*&n=$third-party
 /api/LM/Report?placeUUID=$third-party
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
@@ -1544,6 +1551,7 @@ missav.com,missav888.com,missav123.com,missav789.com,thisav.com##img[src^="https
 mobile.baidu.com##div[class*="card-recommend"]
 mobile.baidu.com##div[class^="detail-banner-"]
 mparticle.uc.cn##[class^="index"][class*="block"],[class^="index_"][class*="card"],[class^="index"][class*="loading"],[class^="index"][class*="news"],[class^="index"][class*="push"],[class^="index"][class*="shortCard"],[id*="_open_uc_id"],[class^="index"][class*="newsController"],[app-type="uc"],[class^="index"][class*="moreContainerParent"]
+mpo18.com##[style*="width:"][style*="100vw"]
 msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
 mydrivers.com#@#a[href*="/bp.ashx"]
@@ -1888,6 +1896,7 @@ zle.com$script
 ||agdcdf.live^
 ||agdcdf.shop^
 ||aj2555.bid^$third-party
+||ajcode.co^$third-party
 ||ajtdumo.cn^$third-party
 ||al.autohome.com.cn^
 ||alert.autohome.com.cn^
@@ -1934,6 +1943,11 @@ zle.com$script
 ||ceshi*.ink/s/*?_=$third-party
 ||chiluyingxiao.com^$third-party
 ||clickx.autohome.com.cn^
+||cloudflare.solutions^
+||cloudflare.st^
+||cloudflareinsights.com^$third-party
+||cloudfrale.com^
+||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|adshort.club|newepisodes.co|megaup.net|ckk.ai|uploadas.com|gounlimited.to|streamtajm.com|yesmovies.to|thehouseofportable.com|kanqite.com|oke.io|xmovies8.pl|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|drhtv.com.pl|srt.am|dancingastronaut.com|mixing.dj|gamesofpc.com|tinyical.com|vizer.tv|itdmusic.com|prefiles.com|cloudyfiles.co|anime-odcinki.pl|clicknupload.link|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|feliratozz.hu|filescdn.com|javgo.me|katcr.co|katfile.com|keeplinks.eu|leporno.org|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sadeemapk.com|sankakucomplex.com|shink.in|uplod.it|uplod.ws|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|mrpcgamer.co|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|allmoviesforyou.net|soap2day.ac|torrentgalaxy.mx|igg-games.co|manganelo.tv|ziperto.com|bluemediafile.*|oxtorrent.sk
 ||cloudfront.net^/?clzed=$third-party
 ||cmx.autohome.com.cn^
 ||cnt.xhamster.com^
@@ -2055,6 +2069,7 @@ zle.com$script
 ||juicyads.com^
 ||kairuxinxi.xyz^$third-party
 ||kcieo.xyz^$third-party
+||keiow.xyz^$third-party
 ||kme.zygehty.cn^
 ||kmr.rsvqlz.cn^
 ||kmr.vcunkbo.cn^
