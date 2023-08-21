@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1GcAVhvIe2/GaGctTgpvWQ
+! Checksum: c7mfDzaSeXTDdHSHq/gDQg
 ! Title: 混合规则(自动更新)
-! Version: 20230821084831
+! Version: 20230821101356
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-21 08:48:31
-! Total Count: 117405
+! Last modified: 2023-08-21 10:13:56
+! Total Count: 117407
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -112934,6 +112934,7 @@ zle.com$script
 ##.w-Ads-small
 ##.w-ad-box
 ##.w-content--ad
+##.w-full > .banner.el-carousel
 ##.w100b > .m_adv
 ##.wAdvert
 ##.w_AdExternal
@@ -115881,6 +115882,7 @@ zle.com$script
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
+@@://css.yhdmtu.xyz$image,third-party
 @@://css.yhdmtu.xyz/news$image,third-party
 @@://img.souche.com/*.jpg
 @@=mywebloadt1&$domain=myweb.hinet.net
