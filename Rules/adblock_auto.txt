@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: c7mfDzaSeXTDdHSHq/gDQg
+! Checksum: jzaIVb3zpxIV1x93GPJo4w
 ! Title: 混合规则(自动更新)
-! Version: 20230821101356
+! Version: 20230821134409
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-21 10:13:56
-! Total Count: 117407
+! Last modified: 2023-08-21 13:44:09
+! Total Count: 117414
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9124,6 +9124,7 @@
 ||ascomamizzen.com^
 ||ascpqnj-oam.global.ssl.fastly.net^
 ||ascraftan.com^
+||ascsvlostatic2.filmspoiler.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||asdasdad.net^
 ||asdb.xyz^
@@ -36012,6 +36013,7 @@
 ||lts*.qq.com^*.ts?index=$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com
 ||lts*.qq.com^*.ts?index=$media,rewrite=abp-resource:blank-mp3,domain=qq.com
+||ltsubzgmw.xyz^
 ||ltwfd.xyz^
 ||ltyabkihjsecl.xyz^
 ||ltyscmtia.xyz^
@@ -66027,6 +66029,7 @@
 ||zggrxf.life^
 ||zggrxf.life^$third-party
 ||zghsfh.xyz^
+||zgkvfu.xyz^
 ||zglghr.xyz^$third-party
 ||zglmvz.buzz^
 ||zglmvz.xyz^
@@ -67159,6 +67162,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > br
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > center > a
 17ce.com###tp_banner
+17ce.com##SECTION[id*="top_banner"]
 17ce.com##a[href="/site/api"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 17ce.com##tr[id^="tr"] > td > a[href^="http"]
@@ -114432,6 +114436,9 @@ zle.com$script
 ##div#slide_ad
 ##div#xinxi
 ##div.ad-nav-box
+##div.ad_popper
+##div.ad_txt_li,div.ad_txt
+##div.advertisement-box
 ##div.content > div[style] > div[class="photo-two"]
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
