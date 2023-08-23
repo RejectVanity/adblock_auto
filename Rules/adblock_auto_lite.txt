@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: vL4NaOGG/8k9y979oku08Q
+! Checksum: syvBysAmtViiQUANowMowA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230823082840
+! Version: 20230823121054
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-23 08:28:40
-! Total Count: 24146
+! Last modified: 2023-08-23 12:10:54
+! Total Count: 24168
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -311,6 +311,7 @@
 ||159i.com/video/usr/uploads/bd/$image
 ||159i.com^*.php|
 ||15hn.net/data/content
+||15re.com^$third-party
 ||15tianqi.com^$third-party
 ||160.com/statics/statics/js/code_13.js
 ||160.com/statics/statics/js/code_15.js
@@ -3558,6 +3559,7 @@
 ||api.ad-locus.com^
 ||api.ads.newsdigest.jp^
 ||api.ads.watchabc.go.com^
+||api.aflsj.com^$third-party
 ||api.ambelbet.com/assets/js/in.ads.js$script,redirect=noop.js
 ||api.ambelbet.com/assets/js/page.ads.js$script,redirect=noop.js
 ||api.ampiri.com^
@@ -5237,6 +5239,7 @@
 ||crosspromotion-us.avosapps.us^
 ||crosspromotion.weplayer.cc^
 ||crpvoxl.cn^
+||crulxoits.com^$third-party
 ||crumpet.xxxpornhd.pro^
 ||crxs.me/scripts/my_
 ||crxs.me/upload/ad/
@@ -11115,6 +11118,7 @@
 ||pnesemr.cn^
 ||pnez8.rut6m.xyz^
 ||pniao99.com/statics/js/stat.js
+||pnlhnx.xyz^
 ||pnpy.mmtnat.com^$third-party,script
 ||pnzhpb.xyz^
 ||poae2klya.icu^
@@ -13164,6 +13168,7 @@
 ||tffytdo.cn^
 ||tfg2.com/images/upfile/AD/
 ||tfonlyuse.shop^
+||tfosrv.com^$third-party
 ||tfprivacy.live^
 ||tftran.shop^
 ||tfttbd.xyz^
@@ -15981,7 +15986,7 @@ bycard.by,goodfon.ru,kimo.ma,old-games.ru,satsis.info,swordmaster.org##.adb
 byzoo.org,videobug.net##div[style^="position: absolute; width: 300px;"]
 cam4.com###headerMenuMainUL > li > #sexgames
 cam69.com,sexu.com##.sidebarBanner
-cambb.xxx,chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,sprashivalka.com,tallermaintenancar.com,tehvids.com,thehentaiworld.com,thehun.net,theporn.cc,tiktits.com,uflash.tv,xcafe.com##.ad
+cambb.xxx,chaturbate.com,m.90xw.com,playboy.com,rampant.tv,sex.com,signbucks.com,sprashivalka.com,tallermaintenancar.com,tehvids.com,thehentaiworld.com,thehun.net,theporn.cc,tiktits.com,uflash.tv,xcafe.com##.ad
 camhub.tv,camlovers.tv,camwhores.*,camwhoresbay.porn,ebalovo.*,femdomtb.com,homegrownfreaks.net,pornbimbo.com,pornfd.com,pornissimo.org,pornobit.me,pornoham.me,pornsexer.com,porntn.com,sexcams-24.com,tubsexer.com,tubsexer.info,viralpornhub.com,watchmdh.to,watchporn.to##+js(set-constant, flashvars.protect_block, '')
 camporn.to,camseek.tv,camstreams.tv,domainnamewire.com,eurogirlsescort.com,ghostbin.me,hdtube.porn,hotstunners.com,i24news.tv,manofmany.com,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,petapixel.com,pornburst.xxx,pornflix.to,punishbang.com,rapidtvnews.com,sexu.com,teenfuckhd.com,telesurtv.net,thehackernews.com,theporngod.com,travelpulse.com,vibexxx.com,wantedbabes.com,wonderopolis.org,worldofmods.com,xxxadultphoto.com,xxxdl.net##.banners
 campornosex.com##.beginning
@@ -18325,6 +18330,8 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .com/*/ddd3.js
 .com/*/ddd4.js
 .com/*/ffff.js
+.com/*/ua.php$third-party
+.com/*/uagu.php$third-party
 .com/*M*M*M*M*M*M*==$third-party
 .com/*_*.js?*16$third-party
 .com/*interstitial*.js$third-party,script
@@ -19273,6 +19280,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ://*:*/yeyue.html?k=$~third-party
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
+://16*.com:*/wap_*_*_16*$third-party
 ://a.ads.
 ://abb.*.js?adv=
 ://abc.*.js?adv=
@@ -21723,9 +21731,16 @@ zle.com$script
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
 ##.container > iframe[src*="123.html"][width][height]
+##.containerAdsense
+##.containerad
+##.containerads
 ##.containeradvertising
 ##.content > a > .topline
+##.content-ad-container
 ##.content-ads
+##.content-ads-bottom
+##.content-advert
+##.content-advertisment
 ##.content-video > .ads
 ##.content-video > .ads-player
 ##.content_ad_300
@@ -21777,6 +21792,7 @@ zle.com$script
 ##.floatAd
 ##.float_bot_right
 ##.fnwehjnc12
+##.foot-dp-fix
 ##.footads
 ##.footer-ad
 ##.frAd
@@ -22245,6 +22261,7 @@ zle.com$script
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
+##[onclick^="goDownWebFun('/config"]
 ##[onclick^="playAd"]
 ##[onclick^="toinfo('"][onclick$=")"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
@@ -22781,6 +22798,7 @@ zle.com$script
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
+##div[aria-hidden="true"][class="q-dialog__backdrop fixed-full"]
 ##div[bannerlist]
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
@@ -22838,6 +22856,7 @@ zle.com$script
 ##div[class^="swiper-"] > a[href][alt^="同城"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="澳门"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class^="swiper-"] > a[onclick][rel="nofollow"] > img[style="width: 100%; height: 100%"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
@@ -22924,6 +22943,7 @@ zle.com$script
 ##iframe[src*="//go.goaserv.com"]
 ##iframe[src*="//go.goasrv.com/"]
 ##iframe[src*="//syndication.exosrv.com/"]
+##iframe[src*="//tfosrv.com"]
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
 ##iframe[src*="/redbaiduct.com?s="]
@@ -23048,6 +23068,7 @@ zle.com$script
 ##img[src*="tp.chsq.one/gg"][src$=".gif"]
 ##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
+##img[src="/apijs/image/960x100.gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
@@ -23076,6 +23097,7 @@ zle.com$script
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
+##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
