@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yu6X6tajp5XIPtTfEvOMeA
+! Checksum: pBASLK79x8kYIplr5bBTsA
 ! Title: 自用去广告Adblock规则
-! Version: 20230822124727
-! Last modified: 2023-08-22 12:47:27
-! Total Count: 2292
+! Version: 20230823120736
+! Last modified: 2023-08-23 12:07:36
+! Total Count: 2315
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -52,11 +52,20 @@
 ##.commentads
 ##.conch-ads-box
 ##.container > iframe[src*="123.html"][width][height]
+##.containerAdsense
+##.containerad
+##.containerads
+##.containeradvertising
+##.content-ad-container
+##.content-ads-bottom
+##.content-advert
+##.content-advertisment
 ##.dlad
 ##.exo-ad-ins-container
 ##.fed-play-advs
 ##.feed-ad
 ##.float-ad
+##.foot-dp-fix
 ##.footads
 ##.g-slide
 ##.gg_pc
@@ -189,6 +198,7 @@
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
+##[onclick^="goDownWebFun('/config"]
 ##[onclick^="playAd"]
 ##[onclick^="toinfo('"][onclick$=")"]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
@@ -360,6 +370,7 @@
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div.suiji.bottom,div.suiji.topad
+##div[aria-hidden="true"][class="q-dialog__backdrop fixed-full"]
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
@@ -413,6 +424,7 @@
 ##div[class^="swiper-"] > a[href][alt^="同城"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="澳门"][target="_blank"]
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class^="swiper-"] > a[onclick][rel="nofollow"] > img[style="width: 100%; height: 100%"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
@@ -450,6 +462,7 @@
 ##iframe[src*="//av.ageverify.co/"]
 ##iframe[src*="//go.goaserv.com"]
 ##iframe[src*="//go.goasrv.com/"]
+##iframe[src*="//tfosrv.com"]
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
 ##iframe[src*="/redbaiduct.com?s="]
@@ -550,6 +563,7 @@
 ##img[src*="tp.chsq.one/gg"][src$=".gif"]
 ##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
+##img[src="/apijs/image/960x100.gif"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
@@ -568,6 +582,7 @@
 ##script + #strl
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
+##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
@@ -625,6 +640,8 @@
 .com/*/ddd3.js
 .com/*/ddd4.js
 .com/*/ffff.js
+.com/*/ua.php$third-party
+.com/*/uagu.php$third-party
 .com/*M*M*M*M*M*M*==$third-party
 .com/*interstitial*.js$third-party,script
 .com/20*/*/*.txt$third-party
@@ -1121,6 +1138,7 @@
 ://*:*/dayu*.html?channelCode=$document
 ://*:*/yeyue.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$document
+://16*.com:*/wap_*_*_16*$third-party
 ://aj25*.bid/$third-party
 ://api.*.com/s/c?_=$third-party
 ://api.*.com/sh/*.js$script,third-party
@@ -1476,6 +1494,7 @@ jinxiyue.com##a[onclick^="qinlintest"]
 kdslife.com##[class*="DownloadGuide"]
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
 luoqiuzw.com##.show-app2
+m.90xw.com##.ad
 m.bilibili.com##.home-float-openapp.launch-app-btn
 m.bilibili.com##.large.openapp-dialog
 m.bilibili.com##.m-float-openapp.launch-app-btn
@@ -1859,6 +1878,7 @@ zjtu.tv##a[target="_blank"] > img[class="br"][src][width="100%"]
 zle.com$script
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
+||15re.com^$third-party
 ||33.autohome.com.cn^
 ||3pmcoohke.scriptmh.com^
 ||3zmm.net/*/*.js
@@ -1901,6 +1921,7 @@ zle.com$script
 ||an.yandex.ru^
 ||antiadblocksystems.com^
 ||anyshare.icu^*.js
+||api.aflsj.com^$third-party
 ||app2.*dfs.com^
 ||applogapi.autohome.com.cn^
 ||aqhfqaaq.xyz^
@@ -1958,6 +1979,7 @@ zle.com$script
 ||creative.xxxijmp.com^
 ||creative.xxxjmp.com^
 ||crjpgate.com^$document
+||crulxoits.com^$third-party
 ||cvmjf.xyz^$third-party
 ||d*.cloudfront.net^$third-party
 ||d1ezlc9vy4yc7g.cloudfront.net^$third-party
@@ -2182,6 +2204,7 @@ zle.com$script
 ||tc.dqpumx.com^
 ||td.easysavemore.com^
 ||td.sxwqhotel.com^
+||tfosrv.com^$third-party
 ||tg.s4te24u.com^
 ||tg.wmqfey.com^$third-party
 ||tg.xkcxh.com^$third-party
