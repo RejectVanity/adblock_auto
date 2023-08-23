@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: yy3sMc8eZ5Np0G8oRX2wcA
+! Checksum: /91rWhLrhIPcnvOgVYIyBw
 ! Title: 混合规则(自动更新)
-! Version: 20230823204325
+! Version: 20230824000803
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-23 20:43:25
-! Total Count: 117230
+! Last modified: 2023-08-24 00:08:03
+! Total Count: 117234
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -50730,6 +50730,7 @@
 ||sensualsheilas.com^
 ||sensualsmiles.com^
 ||sentbarn.com^
+||sentcss.com/get/cors/spread/
 ||sentenceinformedveil.com^
 ||sentexoticoncoming.com^
 ||sentientfog.com^
@@ -80900,6 +80901,9 @@ streamingsites.com##div[style="margin-bottom: 10px; display: flex;"]
 streamporn.co.uk##+js(abort-on-stack-trace, localStorage, window.onload)
 streams.tv###flowerInGarden
 streams.tv###sunGarden
+streetdirectory.com###offers_splash_screen
+streetdirectory.com###splash_screen_overlay
+streetdirectory.com##.anchor_bottom
 streetinsider.com###bottom_ad_fixed
 strikeout.co,vipbox.sx,vipleague.co,vipleague.is##div[style="display: block;"]
 stripes.com###FeatureAd
