@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: R+KyK9rKqYlu53csZCyG6w
+! Checksum: bUtV3lLx3aQZvRimNgRpeg
 ! Title: 混合规则(自动更新)
-! Version: 20230824082820
+! Version: 20230824151215
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-24 08:28:20
-! Total Count: 117245
+! Last modified: 2023-08-24 15:12:15
+! Total Count: 117256
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18255,6 +18255,7 @@
 ||dash.tmearn.com^
 ||dashbida.com^
 ||dashboard.io^
+||dashenya.com/js/jquery.js
 ||dashet.com^
 ||dashgreen.online^
 ||dashingdaredmeeting.com^
@@ -19307,6 +19308,7 @@
 ||dioimg.net^$domain=18board.com|18board.net|18board.org|18p2p.com|88files.net|t66y.com
 ||diopic.net^$domain=18board.com|18p2p.com
 ||diorismmotes.website^
+||dioxidtoluyls.com^
 ||diplic.com^
 ||diploisaloofly.com^
 ||diplomahawaii.com^
@@ -31137,6 +31139,7 @@
 ||ithome.com/images/v2.1/downsoftmaster.gif
 ||ithome.com/js/lapin/hot.js
 ||ithome.com/js/recommend.js
+||itienlo.top^
 ||itiexue.net/domain-policy/
 ||itiexue.net/wap/tiexue/js/chuping/nativeshare
 ||itim.vn^
@@ -49601,6 +49604,7 @@
 ||rvt2687sqo9o.ru^
 ||rvxqnjsczubld.com^
 ||rvyjbwr.cn^
+||rvzlobj.cn^
 ||rw.marchex.io^
 ||rwadakesz.cyou^
 ||rwated.com^
@@ -64674,6 +64678,7 @@
 ||yarmtangled.com^
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
+||yasg114.com^
 ||yashi.com^
 ||yassumeda.one^
 ||yatab.net^
@@ -68929,7 +68934,7 @@ asurascans.com,realmscans.com,void-scans.com###teaser3
 asus.com##.bg_block
 atalayar.com##.column-content > .megabanner
 atalayar.com##.rotulo-publi
-atalayar.com,express.co.uk,msn.com,simply-hentai.com##.superbanner
+atalayar.com,express.co.uk,msn.com,simply-hentai.com,the-express.com##.superbanner
 atishmkv.site###idbannerplayer
 atlantatribune.com,barrettsportsmedia.com,footballleagueworld.co.uk,ioncinema.com,marijuanamoment.net,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.product-tile-group__list__item:-abp-contains(Sponsored)
@@ -69896,6 +69901,7 @@ bolnews.com#?#[style*="center"]:-abp-contains(Ad)
 bolor-toli.com###banner-clear
 bonappetit.com##.slideshow_sidebar_divider
 bonbonme.com##.topbannerer
+bonginoreport.com##.homepage-ad-2
 boniu123.cc##.right_side
 boniu123.cc##.td_item
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
@@ -83849,6 +83855,7 @@ yxzoo.com##.downgg
 yy.com###gg_left
 yy.com###gg_right
 yy.com###rbappend
+yydstv.net##body > div[class][style]
 yydy.cc##a[onclick^="window"] > img[id][width="1"],a[style*="width:99%"][style*="z-index:100000"][style*="block"]
 yyrtv.com##.right-gg
 yyrtv.com##li[class*="baidu"]
@@ -88611,6 +88618,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /adv_teasers.js
 /adv_top.
 /adv_vert.
+/adv_vert.js
 /adv_vertical.
 /advadserve/*
 /advagg_font.
@@ -88621,7 +88629,9 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /advanced-ads/*$domain=~wordpress.org
 /advault.
 /advbanner/*
+/advbanner/*$~image
 /advbanners/*
+/advbanners/*$~image
 /advcontents.
 /advcounter.
 /advdl.
@@ -114306,6 +114316,7 @@ zle.com$script
 ##div[class][id][style] > .pic_container
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
 ##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
+##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"],div[class][style*="z-index:"][style*="display: block;"][style$="98px;"]
 ##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 ##div[class^="Adstyled__AdWrapper-"]
 ##div[class^="Display_displayAd"]

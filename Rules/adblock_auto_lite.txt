@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qY7IjWiVNgtg+MGC+ivCTg
+! Checksum: yFa3i6lFqcSfRTSNdd2waQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230824082829
+! Version: 20230824151223
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-24 08:28:29
-! Total Count: 24119
+! Last modified: 2023-08-24 15:12:23
+! Total Count: 24128
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4045,6 +4045,7 @@
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
+||bcsijjgck.xyz^
 ||bcvxfgy.xyz^
 ||bd*-ys.km.com^
 ||bd-china-1.appmobile.cn^
@@ -5461,6 +5462,7 @@
 ||daraz.com^
 ||darren01.oss-cn-beijing.aliyuncs.com^
 ||darzkrx.cn^
+||dashenya.com/js/jquery.js
 ||daspic.top^
 ||dastelefonbuch.de/banner^
 ||dasv10rewq.xyz^
@@ -8218,6 +8220,7 @@
 ||ithome.com/images/huawei.jpg
 ||ithome.com/js/lapin/hot.js
 ||ithome.com/js/recommend.js
+||itienlo.top^
 ||itiexue.net/domain-policy/
 ||itiexue.net/wap/tiexue/js/chuping/nativeshare
 ||itjew.xyz^
@@ -8939,6 +8942,7 @@
 ||kjos.vo.llnwd.net^
 ||kju369.cn^
 ||kjugr.xyz^
+||kjvaqbyebqarl.top^
 ||kjvnfhdgb.com^
 ||kjwx8.com^
 ||kjwysxs.cn^
@@ -12099,6 +12103,7 @@
 ||ruyig.com/730x76.png
 ||ruyqiolnz.cyou^
 ||rvlgrb.xyz^
+||rvzlobj.cn^
 ||rwadakesz.cyou^
 ||rwefsw55.com^
 ||rwogldz.top^
@@ -14369,6 +14374,7 @@
 ||wpiwoo.xyz^
 ||wples.com/pc/common.js
 ||wpnsrv.com^$third-party,important
+||wpoarjokzgi.com^
 ||wpozwh.com^
 ||wpqsmse.cn^
 ||wqdro6us.icu^
@@ -14884,6 +14890,7 @@
 ||yaozui.com/ref/index?
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
+||yasg114.com^
 ||yatemy.cn^
 ||yazhouse*.com/images/gg/$image
 ||yb0a.xyz^
@@ -18173,6 +18180,7 @@ youtube.com#?#ytd-rich-grid-row > #contents > ytd-rich-item-renderer:-abp-has(> 
 youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
 youwatchporn.com##+js(window.open-defuser, snowdayonline.xyz)
 youwatchporn.com##a[href^="http://gohillgo.com/out"]
+yydstv.net##body > div[class][style]
 yydy.cc##a[onclick^="window"] > img[id][width="1"],a[style*="width:99%"][style*="z-index:100000"][style*="block"]
 yz.m.sm.cn##[id^="dl-banner-"]
 zakon.kz##.adblock_alert
@@ -22784,6 +22792,7 @@ zle.com$script
 ##div[class][id][style] > .pic_container
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
 ##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
+##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"],div[class][style*="z-index:"][style*="display: block;"][style$="98px;"]
 ##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
