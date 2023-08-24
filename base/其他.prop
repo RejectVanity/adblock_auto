@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UNz0qLQ6CLhPnJgWuFotZQ
+! Checksum: GsTkpULMv/s2O6ITunGhrg
 ! Title: 自用去广告Adblock规则
-! Version: 20230824150914
-! Last modified: 2023-08-24 15:09:15
-! Total Count: 2319
+! Version: 20230824195750
+! Last modified: 2023-08-24 19:57:50
+! Total Count: 2324
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -45,6 +45,7 @@
 ##.bdads
 ##.bing-ads-wrapper
 ##.bing-native-ad
+##.bottom-ads-content
 ##.bottom_fixed > a > img[src$=".gif"]
 ##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottomads
@@ -92,6 +93,7 @@
 ##.synopsisAd
 ##.tads
 ##.textadv
+##.top-ads-content
 ##.topads
 ##.txtguanggao
 ##.van-tab__panel > .noTop.main-content > .group-content
@@ -1334,6 +1336,7 @@ boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove
 bqg33.com##a[href][target="_blank"],font[color="red"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
+buondua.com,buondua.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
 cambb.xxx,chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,thehentaiworld.com,thehun.net,tiktits.com,uflash.tv,xcafe.com,theporn.cc##.ad
@@ -1478,6 +1481,8 @@ javbabe.net,chinababe.net##.clipxx
 javbangers.com##.topnav > li > a[onclick][href]
 javbow.com###advertisement-footer
 javboys.com##a[id][href*="://chpadblock.com"][rel="noopener noreferrer"]
+javme.net##.top-ads-content,.bottom-ads-content
+javme.net##div[class^="b"][class*="9"],div[class^="i"][class*="9"]
 javrank.com##.justify-content-around.d-flex.align-content-center
 jingyan.baidu.com##.ad-card
 jingyan.baidu.com##.bk-common-video-list
