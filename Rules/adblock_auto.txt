@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: bUtV3lLx3aQZvRimNgRpeg
+! Checksum: OHaXBTVFowCSvkEE109VWw
 ! Title: 混合规则(自动更新)
-! Version: 20230824151215
+! Version: 20230824160901
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-24 15:12:15
-! Total Count: 117256
+! Last modified: 2023-08-24 16:09:01
+! Total Count: 117259
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -58911,6 +58911,7 @@
 ||txahz.com/static/image/tp/
 ||txbhhh.xyz^
 ||txcmjo.com^
+||txcv68f.com^
 ||txfhfdd.cn^
 ||txgg2022bisheng.com^
 ||txie.club^
@@ -69467,6 +69468,7 @@ bbs.my0511.com##.outertxt > tbody > tr > td[height="80"][align="right"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 bbs.my0511.com##embed[width="970"][height="70"]
 bbs.my0511.com##span.smalltxt
+bbs.nga.cn##div[style^="background:#423d35;box-shadow:"]
 bbs.pcbeta.com###diynavtop + style + div[class]
 bbs.xmfish.com##.cmp_v
 bcbay.com##.ad_txt_box
@@ -113338,6 +113340,7 @@ zle.com$script
 ##a[alt="领882元"][target="_blank"]
 ##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
+##a[clickmode="ad"]
 ##a[data-obtrack^="http://paid.outbrain.com/network/redir?"]
 ##a[data-oburl^="https://paid.outbrain.com/network/redir?"]
 ##a[data-redirect^="https://paid.outbrain.com/network/redir?"]
