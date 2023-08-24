@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qjpvZ5QNrdep/Dvh1g3lag
+! Checksum: SVPoeKlzzPE3k/p3v7f+Qw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230824200322
+! Version: 20230824215918
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-24 20:03:22
-! Total Count: 24142
+! Last modified: 2023-08-24 21:59:18
+! Total Count: 24145
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18921,7 +18921,9 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /^https?:\/\/www[1-3]\.doubleclick\.net\/$/$xmlhttprequest,redirect-rule=nooptext
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$third-party,important,script
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
+/_xa/ads?
 /_xa/ads_
+/aas/r45d/vki/*$third-party
 /abb-msg.js
 /ad-audit.
 /ad-blocking-advisor/*
@@ -19036,6 +19038,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
 /blxn_*.js?
+/bultykh/ipp24/7/*$third-party
 /channel/downApk*&appName=antv$document
 /channel/downApk*&appName=antv$~third-party
 /chunyu*.html?channelCode=$document

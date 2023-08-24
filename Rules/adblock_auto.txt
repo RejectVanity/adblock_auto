@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ISk9aEP/2VlmUSQ14iW0BA
+! Checksum: r84FjqgTrjtgeLKX3wArnA
 ! Title: 混合规则(自动更新)
-! Version: 20230824200314
+! Version: 20230824215908
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-24 20:03:14
-! Total Count: 117281
+! Last modified: 2023-08-24 21:59:08
+! Total Count: 117287
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -39728,6 +39728,7 @@
 ||necmah.com^
 ||necmdow.cn^
 ||nectardoodled.com^
+||nectarineple.com^
 ||nedaughablelead.info^
 ||nedes.xyz^
 ||nedouseso.com^
@@ -57642,6 +57643,7 @@
 ||tracker.nbcuas.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
+||tracker.p3a.net^
 ||tracker.phunusuckhoe.vn^
 ||tracker.phunuvagiadinh.vn^
 ||tracker.pinnaclesports.com^
@@ -63827,6 +63829,7 @@
 ||xecner.top^
 ||xeghes.fun^
 ||xegluwate.com^
+||xegmsox.com^
 ||xeiatmf.cn^
 ||xeihy.com^
 ||xeiyt.cyou^
@@ -76493,6 +76496,7 @@ ltn.com.tw##.suggest_full .C5
 ltn.com.tw##A[href*="draw.ltn.com.tw"]
 ltn.com.tw##[data-desc="內廣"]
 ltn.com.tw##div[class^="market300"]
+ltn.com.tw##div[id^="ad-"]
 ltn.com.tw##div[id^="compass-fit"]
 ltn.com.tw#$#.whitecon > .related[data-desc="相關新聞"] > li:nth-child(5) { margin-right: 0!important; margin-left: 20px!important; }
 ltn.com.tw#?#.whitecon > .related > li:has(> .ltn_ad)
@@ -86188,6 +86192,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /aaddright.
 /aamsz=
 /aas/r45d/vki/*
+/aas/r45d/vki/*$third-party
 /abDetector.js
 /ab_fl.js
 /ab_fl.js$script
@@ -89373,6 +89378,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /buildAdfoxBanner.
 /buildAdriverBanner.
 /bultykh/ipp24/7/*
+/bultykh/ipp24/7/*$third-party
 /bundle/ads.
 /bundles/Ad/*
 /bundles/ads-
