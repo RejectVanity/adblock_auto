@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GsTkpULMv/s2O6ITunGhrg
+! Checksum: agW+4uGUeFpVENJiey4kaA
 ! Title: 自用去广告Adblock规则
-! Version: 20230824195750
-! Last modified: 2023-08-24 19:57:50
-! Total Count: 2324
+! Version: 20230824215639
+! Last modified: 2023-08-24 21:56:39
+! Total Count: 2327
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -789,7 +789,9 @@
 /^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=4kporn.xxx|4tube.com|alotporn.com|alphaporno.com|alrincon.com|amateur8.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bestfreetube.xxx|bigtitslust.com|bravotube.net|cockmeter.com|crazyporn.xxx|daftporn.com|ebony8.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|gotporn.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
 /^https?:\/\/.*\/[a-z]{4,}\/[a-z]{4,}\.js/$script,~third-party,domain=bdsmx.tube|bigdick.tube|desiporn.tube|hclips.com|hdzog.com|hdzog.tube|hotmovs.com|inporn.com|porn555.com|pornzog.com|shemalez.com|tporn.xxx|tubepornclassic.com|txxx.com|upornia.com|vjav.com|vxxx.com|youteenporn.net
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
+/_xa/ads?
 /_xa/ads_
+/aas/r45d/vki/*$third-party
 /ad-audit.
 /ad-blocking-advisor/*
 /ad-blocking-alert/*
@@ -884,6 +886,7 @@
 /blsx_*_*_*.$third-party
 /blsx_*_*js?
 /blxn_*.js?
+/bultykh/ipp24/7/*$third-party
 /clientapi/app/getinfo?appid=*&android=true$third-party
 /config/json/cctv.json?v=1$~third-party
 /display/ads/*
