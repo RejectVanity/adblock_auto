@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TSkNMYvb6mPqD9/MnUNjXg
+! Checksum: qjpvZ5QNrdep/Dvh1g3lag
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230824160908
+! Version: 20230824200322
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-24 16:09:08
-! Total Count: 24128
+! Last modified: 2023-08-24 20:03:22
+! Total Count: 24142
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2505,6 +2505,7 @@
 ||adrsp.net^$third-party
 ||adrunnr.com^
 ||adrunnr.com^$popup
+||ads*.bojijulebu.com^
 ||ads*.depositfiles.com^
 ||ads*.depositfiles.org^
 ||ads*.dfiles.eu^
@@ -6333,6 +6334,7 @@
 ||f1.zaojv.com^
 ||f11.hackhome.com^
 ||f1lws.top^
+||f1tfmxzg.icu^
 ||f2dsex1.com/public/fb*.png
 ||f3go4jpwa.shop^
 ||f8dy.tv/template/m1938/js/b
@@ -9662,6 +9664,7 @@
 ||m.sporx.com/_js/postitial_check.php
 ||m.sxnarod.com/newrek/bng_mb_bn.html
 ||m.szyuke.cn^$third-party
+||m.tbiquge.com/scripts/rd8v.js
 ||m.telegraaf.nl/static/lib/bva-widget.html
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
 ||m.tubemate.net/c.jsp
@@ -11905,6 +11908,8 @@
 ||redtram.com^
 ||reebbwi.cyou^
 ||reffnik.cn^
+||reg.jiayuan.com^$document
+||reg.jiayuan.com^$~third-party
 ||regrfg33.com^
 ||regulatesleet.com^$third-party
 ||rehabilitatereason.com^$third-party
@@ -13573,6 +13578,7 @@
 ||tx9ff.top^
 ||txahz.com/static/image/tp/
 ||txbhhh.xyz^
+||txcv68f.com^
 ||txlidi.ink^
 ||txnwq.xyz^
 ||txphjl.xyz^
@@ -15995,6 +16001,7 @@ btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
 bubbaporn.com,kalporn.com,koloporno.com,pornodingue.com,pornodoido.com,pornozot.com,serviporno.com,voglioporno.com##.banners-footer
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
+buondua.com,buondua.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
 bustyporn.com##.widget-friends
@@ -16592,6 +16599,8 @@ javbangers.com##.topnav > li > a[onclick][href]
 javbow.com###advertisement-footer
 javboys.com##a[id][href*="://chpadblock.com"][rel="noopener noreferrer"]
 javhub.net,highporn.net,xxxparodyhd.net,uptobox.com,uptostream.com,pornkino.cc,watchpornfree.info,xxxmoviestream.xyz,mangoporn.co,playpornfree.xyz,xopenload.me,streamporn.pw##+js(abort-on-property-read, jsUnda)
+javme.net##.top-ads-content,.bottom-ads-content
+javme.net##div[class^="b"][class*="9"],div[class^="i"][class*="9"]
 javmix.app,hdfilmseyircisi.org,shemaleporn.xxx,lizardporn.com,imgsin.com,45.133.203.223,filmdelisi.co,seyredeger.com,masterplayer.*,balfilmizle1.com,filmseyretizlet.com,altyazilifilm.*,milfzr.com,movies07.live,adly.fun,hotscopes.*,hentaianimedownloads.com,indiatoday.tech,erotikfilmsitesi.com,mobileflasherbd.com,eroticpub.com,boobsrealm.com,kickass.ws,naughtymachinima.com,mangovideo.club,22pixx.xyz,xxxparodyhd.net,torrentproject.cc,porcore.com,dbupload.co,mangoporn.net,pornkino.cc,watchpornfree.info,imguur.pictures,xxxmoviestream.xyz,mangoporn.co,kickass.vc,freshscat.com,playpornfree.xyz,kickass.love,xopenload.me,streamporn.pw##+js(set-constant, puShown, true)
 javmovieporn.com,xxxmax.net#$#.video-list-content.with-happy .thumb-block { clear: unset !important; }
 javporn.tv##.download-favorite-container > a[target="_blank"]
@@ -18841,6 +18850,8 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /?linkid=*&pop=1$~third-party
 /?linkid=*&type=$document
 /?linkid=*&type=$~third-party
+/?utm_source=*&utm_campaign=*$document
+/?utm_source=*&utm_campaign=*$~third-party
 /AdS/RAD.
 /AdServer/*$popup,third-party
 /AdServlet?
@@ -21644,6 +21655,7 @@ zle.com$script
 ##.bn728-100
 ##.bn728-93
 ##.book > #btmBox
+##.bottom-ads-content
 ##.bottom-adv
 ##.bottomAd
 ##.bottomSponsor
@@ -22027,6 +22039,7 @@ zle.com$script
 ##.tooltip > #tp
 ##.top > a > .topline[src^="/photo/"]
 ##.top-ads
+##.top-ads-content
 ##.top-bar-adblock
 ##.top-gg
 ##.top-read-ad
@@ -22259,6 +22272,7 @@ zle.com$script
 ##a[alt="领882元"][target="_blank"]
 ##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
+##a[clickmode="ad"]
 ##a[data-track-content][data-content-name][target="_blank"]
 ##a[href$=".cc:8443"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
