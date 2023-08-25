@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xPT/Jw5vCS2gAgdfo8gzdg
+! Checksum: TGgezrvROOVkCif6PgaR0g
 ! Title: 混合规则(自动更新)
-! Version: 20230825082841
+! Version: 20230825160901
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-25 08:28:41
-! Total Count: 117326
+! Last modified: 2023-08-25 16:09:01
+! Total Count: 117337
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3140,6 +3140,7 @@
 ||9ca976adbb.com^
 ||9cbj41a5.de^
 ||9cc200fd2f.com^
+||9cc9ckp.com^
 ||9cd76b4462bb.com^
 ||9cgms.xyz^
 ||9content.com^
@@ -31694,6 +31695,7 @@
 ||jewscane.digital^
 ||jewspa.com^
 ||jezailjazzmen.com^
+||jezailmasking.com^
 ||jf71qh5v14.com^
 ||jfanhao.com^
 ||jfhoq.com^
@@ -34681,6 +34683,7 @@
 ||lh54.top^
 ||lhare.xyz^
 ||lhdlbp.xyz^
+||lhgwcvw.cn^
 ||lhiarfocjo.com^
 ||lhiefl.com^
 ||lhinsights.com^
@@ -39779,6 +39782,7 @@
 ||negationsome.com^
 ||negativehorriblecrumple.com^
 ||negbxdfn.xyz^
+||neghes.fun^
 ||neglectdrivingalertness.com^
 ||negligentresponded.com^
 ||negligible-pension.pro^
@@ -62361,6 +62365,7 @@
 ||weixinhuoyuan.com^
 ||weixisiwang.com^
 ||weiyuedu.cc/skin/v3/js/dibu.js
+||weiyun.com/cgi-bin/tianshu_get?position=4&
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy?
 ||weizjzg.com^$third-party
 ||wel-wel-fie.com^
@@ -66065,6 +66070,7 @@
 ||zgtwzq.xyz^
 ||zgunion.cn^
 ||zgvvx.com^
+||zgwsnw.xyz^
 ||zgxrht.com^
 ||zgyemy.com^
 ||zgyhw.mobi^
@@ -68384,6 +68390,7 @@ advfn.com###APS_300_X_600
 advfn.com###APS_BILLBOARD
 advfn.com##.APS_TOP_BANNER_468_X_60_container
 advfn.com##.plus500
+advocate.com##.partners__container
 advocate.com,donegaltv.ie,emergencyemail.org,m.zhanqi.tv,out.com##.footer
 advocate.com,out.com###sPost_Layout_Default_0_0_16_0_0_2_2
 advocate.com,out.com##.ourSponsors
@@ -73949,6 +73956,9 @@ gulf-times.com##.gt-vertical-ad
 gulftoday.ae##.gt-ad-center
 gulte.com###awt_landing
 gulte.com##.awt_side_sticky
+gumtree.com###bing-text-ad-1
+gumtree.com###bing-text-ad-2
+gumtree.com###bing-text-ad-3
 gumtree.com###tBanner
 gumtree.com###vipBanner
 gumtree.com##.ecn-display-block
@@ -76889,6 +76899,7 @@ maxthon.cn##.tmall-nav-v2
 maxthon.cn##.top-right-pop-wrapper
 maxthon.cn,search.brave.com###shopping
 mayi.com###floatingLayer
+mayoclinic.org##.cmp-advertisement__wrapper
 mayoclinic.org##.mayoad
 mazterize.com##.dl-g
 mbauniverse.com###block-views-home-page-banner-block
@@ -88782,10 +88793,12 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /advertisingwidgets/*
 /advertisment-
 /advertisment/*
+/advertisment/*$~image
 /advertisment1-
 /advertisment4.
 /advertisment_
 /advertisments/*
+/advertisments/*$~image
 /advertize_
 /advertlayer.
 /advertmedia/*
@@ -93184,6 +93197,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://*.tv/ad/$domain=~moviedj.tv
 ://*.xn--*.net/16*.html#/$document
 ://*.xn--*.net/16*.html#/$~third-party
+://*.z*.xyz/$object,third-party
 ://*.zd*.buzz/*x*x*x*x*=$third-party
 ://*.zd*.fyi/*x*x*x*x*=$third-party
 ://*.zd*.live/*x*x*x*x*=$third-party
@@ -102793,14 +102807,10 @@ zle.com$script
 ##.ad-tech-widget
 ##.ad-temp
 ##.ad-text
-##.ad-text-blockA01
-##.ad-text-blockB01
 ##.ad-text-centered
 ##.ad-text-label
 ##.ad-text-link
 ##.ad-text-links
-##.ad-text-placeholder-3
-##.ad-textG01
 ##.ad-textads
 ##.ad-textlink
 ##.ad-thanks
@@ -102911,6 +102921,7 @@ zle.com$script
 ##.ad-wrap
 ##.ad-wrap--leaderboard
 ##.ad-wrap--mrec
+##.ad-wrap-leaderboard
 ##.ad-wrap-transparent
 ##.ad-wrap_wallpaper
 ##.ad-wrapp
