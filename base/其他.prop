@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NmqMra/Ybt+jUw22PThqyw
+! Checksum: LPtm3GGnEnDQOfgMt5D+rg
 ! Title: 自用去广告Adblock规则
-! Version: 20230825233205
-! Last modified: 2023-08-25 23:32:05
-! Total Count: 2385
+! Version: 20230827010729
+! Last modified: 2023-08-27 01:07:29
+! Total Count: 2401
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -72,6 +72,8 @@
 ##.g-slide
 ##.gg_pc
 ##.gg_sj
+##.header-ad-desktop
+##.header-ad-mobile
 ##.ima-ad-container
 ##.img-cctv.lazyLoad
 ##.index-center-tc-index2.index-center-tc > a
@@ -91,6 +93,8 @@
 ##.player-rm > a[target="_blank"]
 ##.popup + .shortcuts-mobile-overlay
 ##.pre-play-adv
+##.remove-ads
+##.sidebar-ads
 ##.slide-hd > ul > li > a
 ##.synopsisAd
 ##.tads
@@ -98,6 +102,7 @@
 ##.top-ads-content
 ##.topads
 ##.txtguanggao
+##.under-player-ad-mobile
 ##.van-tab__panel > .noTop.main-content > .group-content
 ##.widget-ad
 ##.widget-ads
@@ -153,6 +158,7 @@
 ##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
+##[class^="remove-ads"]
 ##[class^="stsxxgtv_"]
 ##[class^="th-ad"]
 ##[class^="van-tab"] > .main-content > .group-content > [class^="area-"]
@@ -248,6 +254,9 @@
 ##a[href*=".vip:"] > img[src]
 ##a[href*=".xyz:"] > img[src]
 ##a[href*=".xyz?ch=ssmh"]
+##a[href*="//ad.doubleclick.net"]
+##a[href*="//adclick.g.doubleclick.net"]
+##a[href*="//adultfriendfinder.com"]
 ##a[href*="//baidujkdjklvvsbvk.com"]
 ##a[href*="//go.admjmp.com/"]
 ##a[href*="//go.cmtaffiliates.com/"]
@@ -280,6 +289,7 @@
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//xxuudxdu.live?"]
 ##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
 ##a[href*="/youyicl/youku.html"][target="_blank"]
@@ -952,6 +962,7 @@
 /iframe/ad/*
 /iframe/ad_
 /iframe/ads/*
+/in/track?data=
 /javascript/ads/*
 /javascript/gpt-
 /javascripts/ads/*
@@ -964,6 +975,7 @@
 /js/advertiser.js
 /js/dj1ll*.js
 /js/dj2ll*.js
+/js/dnsads.js?
 /js/jads.js$script
 /js/pfadll*.js
 /js/sp_ad.js$script
@@ -1880,8 +1892,8 @@ xgroovy.com##.fluid_ad_cta
 xgroovy.com##[class^="fluid-b"]
 xgroovy.com##[class^="headA"],[class^="headC"]
 xgroovy.com##div[class^="in is_mobile"]
-xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi##.bottom-widget-section,.clipstore-bottom,.player-add-overlay,.promo-message,.sponsorBottom,.video-view-ads,.xplayer-b,.xplayer-hover-menu
-xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi##[class$="-pause"],[class*="ads"],[class*="video-view-ads"],[class*="view-ads"],[class*="wio-"],[class*="wixx-"],[class*="yld-"],[class*="yxd-j"],[class^="xp-banner"],[class^="xplayer-banner"],a[href*="adblocked"][target="_blank"],[data-role^="yld-"],[class^="xplayer-ads"]
+xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##.bottom-widget-section,.clipstore-bottom,.player-add-overlay,.promo-message,.sponsorBottom,.video-view-ads,.xplayer-b,.xplayer-hover-menu
+xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##[class$="-pause"],[class*="ads"],[class*="video-view-ads"],[class*="view-ads"],[class*="wio-"],[class*="wixx-"],[class*="yld-"],[class*="yxd-j"],[class^="xp-banner"],[class^="xplayer-banner"],a[href*="adblocked"][target="_blank"],[data-role^="yld-"],[class^="xplayer-ads"]
 xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net,fantuanhd.com,kankanju.cc,renren.pro,sstv.fun##*[style*="bottom"],[class$="_b"]
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xnxx.com##[class*="ad-"]
@@ -2134,6 +2146,9 @@ zle.com$script
 ||itrww.xyz^
 ||ixsw.org/*/*.js
 ||jads.co^$third-party
+||javhd.com/banners-mainpage/
+||javhd.com/sb/
+||javhdporn.net/wp-content/themes/kingtube/assets/js/fun.js
 ||jcylrv.iask.com.cn^
 ||jianpian.vip^
 ||jievf.cn^
@@ -2202,6 +2217,7 @@ zle.com$script
 ||openinstall.io^$third-party,script
 ||oqedci.xyz^$third-party
 ||orbsrv.com^
+||orbsrv.com^$third-party
 ||oronwg.xyz^$third-party
 ||pagead2.googlesyndication.com^
 ||pcd.autohome.com.cn^
