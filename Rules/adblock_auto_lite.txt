@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 51+XFIfg6KhFoNGO5Kk/5A
+! Checksum: v2Y/9U3ZRXoEm9qsqz4njA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230828160943
+! Version: 20230829000836
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-28 16:09:43
-! Total Count: 24291
+! Last modified: 2023-08-29 00:08:36
+! Total Count: 24297
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -959,6 +959,7 @@
 ||5dmail.net/image/ad_
 ||5dmail.net/js/
 ||5fz.cc/t/aimg/tao
+||5gg17gm.com^
 ||5ggj5cp.com^
 ||5hte21mz.com^
 ||5icool.org/uploadfile/poster/
@@ -1651,6 +1652,7 @@
 ||acgshenshicha.cn^$third-party
 ||achicih.gitee.io^$third-party
 ||achost.top/banner/
+||achost.top/uploads/ads/
 ||acode.b2b.cn/JS/
 ||acodes.b2b.cn^
 ||acqc9.com^
@@ -11878,6 +11880,7 @@
 ||r3sub.com/posters/00698128.jpg
 ||r3sub.com^*0.gif
 ||r528e.cn^$third-party
+||r5dfwjtb.icu^
 ||r5h6.icu^
 ||r75tia.cn^
 ||ra1.xyz^
@@ -16163,6 +16166,7 @@ crocotube.com,zedporn.com##span[id^="TAm-Native-Bottom-"]
 cs-amba.ru##.banka
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 cxem.net###antiAdBlock
+cyberscore.live##.wrapper-partner-rb
 czx.to###vdl_ctnr
 d1bzw.com##[id="appurl"],[id="bbsurl"]
 d3.ru##.b-promo__placeholder
@@ -21138,6 +21142,7 @@ zle.com$script
 ###adtop1
 ###adv-2
 ###adv-3
+###adv-fixed-square
 ###adv_wrap_hh
 ###advertisementjsalert
 ###advertisings
@@ -21730,6 +21735,7 @@ zle.com$script
 ##.adtop
 ##.adtxt
 ##.adv-300-250
+##.adv-couplets
 ##.adv-g1
 ##.adv250
 ##.advInfoElem
