@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xfmnBYcziBBo4drlTFHarg
+! Checksum: HGaBMi9A6W9pCApiBxlQkg
 ! Title: 混合规则(自动更新)
-! Version: 20230829160941
+! Version: 20230830000814
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-29 16:09:41
-! Total Count: 117681
+! Last modified: 2023-08-30 00:08:14
+! Total Count: 117695
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5159,6 +5159,7 @@
 ||ads*.bojijulebu.com^
 ||ads-6686.top^
 ||ads-admin.hubs.vn^
+||ads-api.kidsnote.com^
 ||ads-api.playfun.vn^
 ||ads-api.twitter.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads-api.twitter.com^$xmlhttprequest,redirect-rule=nooptext
@@ -14853,6 +14854,7 @@
 ||chattertasty.com^
 ||chaturbate.com/affiliates/
 ||chaturgirl.ddns.net^$domain=pornyfap.com|imgtorrnt.in
+||chauckoo.xyz^
 ||chaudrep.net^
 ||chaugroo.net^
 ||chaukrgukepers.xyz^
@@ -15210,6 +15212,7 @@
 ||chucity.com^
 ||chudongcaiwu.xyz^
 ||chugaiwe.net^
+||chugsorlando.com^
 ||chuhramumper.com^
 ||chullohagrode.com^
 ||chultoux.com^
@@ -23558,6 +23561,7 @@
 ||ff9ffc838f.com^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||ffbjhl.xyz^
+||ffcclqkmmlmecf.xyz^
 ||ffdcpvv.cn^
 ||ffe390afd658c19dcbf707e0597b846d.de^
 ||ffffff0000ff.com^
@@ -31487,6 +31491,7 @@
 ||j6rudlybdy.com^
 ||j6zh4g0.cn^
 ||j721s.top^
+||j7ifivzy.icu^
 ||j8377.com^
 ||j8377.com^$popup
 ||j83ad.speedrun.com^
@@ -51561,6 +51566,7 @@
 ||shoagooy.net^
 ||shoagooy.net^$third-party
 ||shoahoom.com^
+||shoaltor.com^
 ||shoawhom.com^
 ||shockadviceinsult.com^
 ||shockeddump.pro^
@@ -55323,6 +55329,7 @@
 ||t.dgm-au.com^
 ||t.eharmony.com^
 ||t.elasticsuite.io^
+||t.enuygun.com^
 ||t.etraveli.com^
 ||t.felmat.net^
 ||t.flix360.com^
@@ -58269,6 +58276,7 @@
 ||trading-ad.net^
 ||trading21s.com^
 ||tradingken.com^
+||tradingpancreasdevice.com^
 ||traditionallymeasuringwire.com^
 ||traditionallyobjectlessblinked.com^
 ||tradplusad.com^
@@ -62030,6 +62038,7 @@
 ||wanlyavower.com^
 ||wanmei.la/a*.js
 ||wanmolamchoor.store^
+||wannessdebus.com^
 ||wannestfooled.com^
 ||wansultoud.com^
 ||wantfour.com^
@@ -62235,6 +62244,7 @@
 ||wct-2.com^
 ||wct.link^
 ||wctcudh.cn^
+||wcv68kw.com^
 ||wcvyyacmnoamt.com^
 ||wd.adcolony.xyz^
 ||wd282endfws.de^
@@ -76839,6 +76849,10 @@ lywww.com##.lianmengclass
 lz13.cn##.left_box3
 lz13.cn##.left_box4
 lz13.cn##.left_box5
+lzacg.one##.content-layout .zib-widget > .textwidget > a[target="blank"]
+lzacg.one##.sidebar .zib-widget > .textwidget > a[target="blank"]
+lzacg.one#?#.content-layout .zib-widget:has(> .textwidget:only-child > a[target="blank"])
+lzacg.one#?#.sidebar .zib-widget:has(> .textwidget:only-child > a[target="blank"])
 lzdcctv.cn##.ac_pc
 lzdcctv.cn##.focusmo + table
 lzdcctv.cn##.widget_ssr > a > img
