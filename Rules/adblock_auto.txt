@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mFy2n4t8IbrCmA1awZXkQQ
+! Checksum: xfmnBYcziBBo4drlTFHarg
 ! Title: 混合规则(自动更新)
-! Version: 20230829114512
+! Version: 20230829160941
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-29 11:45:12
-! Total Count: 117667
+! Last modified: 2023-08-29 16:09:41
+! Total Count: 117681
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -10400,6 +10400,7 @@
 ||baidu1.codejie.net^
 ||baiduada.babihu.com^
 ||baiduajbcjkabcav.com^
+||baiduapp.app^
 ||baidubdvjssv.com^
 ||baidubvjsbvv.com^
 ||baiduccdn1.com^
@@ -20343,6 +20344,7 @@
 ||dsandmaroons.com^
 ||dsas.danawa.com^
 ||dsb.yahoo.co.jp^
+||dsbjdeh.cn^
 ||dsbt7.com^
 ||dsctnsn.xyz^
 ||dsfd67.com^
@@ -21375,6 +21377,7 @@
 ||efyt6.com^$third-party
 ||eg.light2gr0w.me^
 ||egadvertising.com^
+||egallsylvate.com^
 ||egamingonline.com^
 ||egamiplatform.tv^
 ||eganilglw.cyou^
@@ -23644,6 +23647,7 @@
 ||fiktvlnc.icu^
 ||fila.com.se^
 ||filament-stats.herokuapp.com^
+||filasseseeder.com^
 ||file-online.ru^
 ||file-subiz.com^
 ||filebanner.com^
@@ -33787,6 +33791,7 @@
 ||kt5850pjz0.com^
 ||ktbelts.cn^
 ||ktggbk.com^
+||ktienld.top^
 ||ktkjmp.com^
 ||ktkkt.com/js/tvb/
 ||ktlrhudvlsu.com^
@@ -34225,6 +34230,7 @@
 ||langger76.site^
 ||langkefaye.top^
 ||languagelake.com^
+||languewauchts.com^
 ||langxi.org/langxi/*900$image,object
 ||langya.cn/2014html/2014ad_
 ||langya.cn/2014html/ad/
@@ -40367,6 +40373,7 @@
 ||nidelove.club^
 ||nideqoa.ru^
 ||nidredra.net^
+||nidudihideout.com^
 ||nieae.xyz^
 ||niececordthrone.com^
 ||nieveni.com^
@@ -41197,6 +41204,7 @@
 ||oagudole.net^
 ||oahaurti.com^
 ||oahosaisaign.com^
+||oaihiiacb.com^
 ||oainternetservices.com^
 ||oaiweznjo.com^
 ||oajagroax.com^
@@ -45537,6 +45545,7 @@
 ||presssensor.com^
 ||prestadsng.com^
 ||prestigefunction.com^
+||prestlyamylan.com^
 ||prestoris.com^
 ||prestsusie.com^
 ||presumeauthorizationcamping.com^
@@ -70268,8 +70277,8 @@ bqg33.com##a[href][target="_blank"],font[color="red"]
 brainyquote.com##.bq_ad_320x250_multi
 bramptonguardian.com###tncms-region-global-container-bottom
 bramptonguardian.com##.adSlot___3IQ8M
-bramptonguardian.com,insideottawavalley.com##.adLabelWrapper
-bramptonguardian.com,insideottawavalley.com##.polarBlock
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com##.adLabelWrapper
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com##.polarBlock
 brandingmag.com##.add-wrap
 brandsoftheworld.com##.seedling
 bravoporn.com##.content > .wrap ~  div.headline > p
@@ -71355,7 +71364,7 @@ cpomagazine.com##.cpoma-adlabel
 cpomagazine.com##.cpoma-main-header
 cpomagazine.com##.cpoma-target
 cps.com.cn##.couplet-le
-cpu-monkey.com,gpu-monkey.com##.werb
+cpu-monkey.com,cpu-panda.com,gpu-monkey.com##.werb
 cpuid.com###console_log
 cq-esports.com##[href][target*="blank"]
 cq.qq.com##div.clearfix[style*="1000"]
@@ -74173,6 +74182,8 @@ gucheng.com##.title_ad_time
 gucheng.com##.title_down_ad
 gucheng.com##a[href*=".liaogu.com"]
 gucheng.com##img[data-mv-ad]
+guelphmercury.com###sticky-ad-1
+guelphmercury.com##.offcanvas-inner > .tncms-region
 gufengmh.com##.animated
 gugeys.cc##.am-g
 guiayi.com##.gg-box
@@ -85571,6 +85582,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .info/js/alls_top.js
 .info/s.php?id=$script,third-party
 .info/topjs/
+.info/tsf/
 .intad.
 .intad/
 .internads.
@@ -111223,11 +111235,13 @@ zle.com$script
 ##.promo_border
 ##.promoad
 ##.promoboxAd
+##.promolink-[style="position:relative;width:100%;height:100%;"]
 ##.promoted-outbrain
 ##.promoted_content_ad
 ##.promotionAdContainer
 ##.promotionTextAd
 ##.promotional-feature-ads
+##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.proof_ad
 ##.propa_bottom
 ##.propel-ad
