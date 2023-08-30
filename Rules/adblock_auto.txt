@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Sr5GYUaysgFwRHUgwO/JNQ
+! Checksum: eYEtd255CLDvfb/m0/1w+g
 ! Title: 混合规则(自动更新)
-! Version: 20230830093139
+! Version: 20230830160928
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-30 09:31:39
-! Total Count: 117766
+! Last modified: 2023-08-30 16:09:28
+! Total Count: 117779
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9913,6 +9913,7 @@
 ||awstaticdn.net^
 ||awstats.cloud^
 ||awsurveys.com^
+||awswaf.com^
 ||awsxc.live^
 ||awsync.yandex.ru^
 ||awtks.com^
@@ -13087,6 +13088,7 @@
 ||bs7li.cn^
 ||bsanciv.top^
 ||bsaq5.cn^
+||bsbaswq.cn^
 ||bserver.gp-guia.net^
 ||bsfishing.cn^
 ||bsgbd77l.de^
@@ -13731,6 +13733,7 @@
 ||ca.cbsi.com.cn/rpv?
 ||ca.cydp5.com^
 ||ca.video-cdn.net^
+||ca.yangshengtv.com^
 ||ca169a128b.com^
 ||ca1dbc5563.com^
 ||ca30f.top^
@@ -48590,6 +48593,7 @@
 ||reportions.club^
 ||reportlog.dftoutiao.com^
 ||reports-api.sqreen.io^
+||reports.hibu.com^
 ||reports.koalametrics.com^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
@@ -59878,6 +59882,7 @@
 ||unhosepedalo.com^
 ||unhwav.com^
 ||unibots.in^
+||unibotscdn.com^
 ||unicaondemand.com^
 ||unicast.com^
 ||uniconsent.com^
@@ -65159,6 +65164,7 @@
 ||yetterslave.com^
 ||yettyz.com^
 ||yext-pixel.com^
+||yextevents.com^
 ||yeyemo4.com^$third-party,image
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yeyuly.love^
@@ -78162,8 +78168,10 @@ news9live.com###left_before_story
 newsbusters.org###intranet_mid
 newsday.com##.midPg
 newser.com###divWhizzcoRightRail
+newser.com###headerAdSection
 newser.com##.fiavur2
 newser.com##.fu4elsh1yd
+newser.com##div[style="min-height:398px;"]
 newsfirst.lk###sponsored-content-1
 newshub.co.nz###island-unit-2
 newshub.co.nz##[data-belt-widget]
@@ -86560,6 +86568,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /^https?:\/\/(.+?\.)?letocard\.fr\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=letocard.fr
 /^https?:\/\/(.+?\.)?lovezin\.fr[\/]{1,}.*[a-zA-Z0-9]{7,9}\/[a-zA-Z0-9]{10,}\/.*/$image,domain=lovezin.fr
 /^https?:\/\/(.+?\.)?naturalblaze\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{14,}\.*/$image,domain=naturalblaze.com
+/^https?:\/\/(.+?\.)?newser\.com[\/]{1,}.*[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=newser.com
 /^https?:\/\/(.+?\.)?rightwingnews\.com[\/]{1,9}.*[a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=rightwingnews.com
 /^https?:\/\/(.+?\.)?topminceur\.fr\/[a-zA-Z0-9]{6,}\/[a-zA-Z0-9]{3,}\/.*/$image,domain=topminceur.fr
 /^https?:\/\/(.+?\.)?vitamiiin\.com\/[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=vitamiiin.com
@@ -89244,12 +89253,14 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /advpreload.
 /advris/*
 /advrotator.
+/advrotator.js
 /advrotator_
 /advs-instream.
 /advs.ads.
 /advs/*
 /advs_actv.
 /advscript.
+/advscript.js
 /advscripts/*
 /advshow.
 /advt.$domain=~advt.ch|~advt.it
@@ -89521,7 +89532,9 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /async/ads-
 /asyncadload.
 /asyncjs.$domain=~asyncjs.com|~asyncjs.today
+/asyncjs.php
 /asyncspc.
+/asyncspc.php
 /atcode-bannerize/*
 /athena/tag/?
 /atlads/*
