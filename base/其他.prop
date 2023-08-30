@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gSbcMf0ETaJkPY/NTAD77g
+! Checksum: TxRVm2Q9LGK8cvJ5qu+4TA
 ! Title: 自用去广告Adblock规则
-! Version: 20230827011340
-! Last modified: 2023-08-27 01:13:40
-! Total Count: 2415
+! Version: 20230830082946
+! Last modified: 2023-08-30 08:29:46
+! Total Count: 2427
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -90,6 +90,12 @@
 ##.noopenlink.ads
 ##.play_list_adbox
 ##.player + .sponsor
+##.player-ad
+##.player-ad-overlay
+##.player-ads
+##.player-ads2
+##.player-bottom-gg
+##.player-info > .recommend-two.recommend-list
 ##.player-rm > a[target="_blank"]
 ##.popup + .shortcuts-mobile-overlay
 ##.pre-play-adv
@@ -289,6 +295,7 @@
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//tsyndicate.com"][href*="/click"]
 ##a[href*="//xxuudxdu.live?"]
 ##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
@@ -386,7 +393,6 @@
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div.suiji.bottom,div.suiji.topad
-##div[aria-hidden="true"][class="q-dialog__backdrop fixed-full"]
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
@@ -444,6 +450,7 @@
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
+##div[id="alert_windows"][class*="q-dialog fullscreen"]
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id^="azwangye"][style*="z-index: 11000;"]
@@ -953,6 +960,7 @@
 /html/ads/*
 /html/ads_
 /html/sponsors/*
+/i/npage/*$script,third-party
 /iframe-ad.
 /iframe-ad/*
 /iframe-ad?
@@ -1013,6 +1021,7 @@
 /pixel/purst?
 /pixel/sbe?
 /pixelads/*
+/popunder1000.js$third-party,script
 /redbaiduct.com?s=$third-party
 /sbar.json?key=
 /sdk/push_web/?zid=
@@ -1229,6 +1238,7 @@
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
 @@://img.souche.com/*.jpg
+@@://up.taoseye.com/contents/other/player/playerlogo.png
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
@@ -1976,6 +1986,7 @@ zle.com$script
 ||ads.traffichaus.com^
 ||adsco.re^
 ||adscustsrv.com^
+||adsession.exacdn.com^
 ||adsessionserv.com^$third-party
 ||adtrue.com^
 ||adultfriendfinder.com^$third-party
@@ -2375,6 +2386,7 @@ zle.com$script
 ||xv.leirsw.com^
 ||xvliqsa.cn^
 ||xw.ooegpip.cn^$third-party,image
+||xzezapozghp.com^
 ||yaacdn.com/static/js/*.js$script
 ||yadro.ru^
 ||yazhouse*.com/images/gg/$image
