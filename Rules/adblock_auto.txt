@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: CeK8tqRF/mvrOZNnf5bZNg
+! Checksum: ehV8v1iW3CshTekHzH3YZA
 ! Title: 混合规则(自动更新)
-! Version: 20230830082926
+! Version: 20230830091402
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-30 08:29:26
-! Total Count: 117748
+! Last modified: 2023-08-30 09:14:02
+! Total Count: 117766
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -574,6 +574,7 @@
 ||141h.com/data/attachment/noblock/cf/
 ||142.0.129.74^
 ||143.92.60.44^
+||1430254596.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||144w6.com^$document
 ||144w6.com^$~third-party
@@ -5515,6 +5516,7 @@
 ||adservr.de^
 ||adservrs.com^
 ||adserwer.xwords.pl^
+||adsession.exacdn.com^
 ||adsessionserv.com^
 ||adsessionserv.com^$third-party
 ||adsettings.com^
@@ -13271,6 +13273,7 @@
 ||bumimi.com/money/
 ||bumlam.com^
 ||bummerybutene.life^
+||bummockrewarm.com^
 ||bumnxwvs.ink^
 ||bumpyfruitless.com^
 ||bumpyremittancecarnivorous.com^
@@ -14318,6 +14321,7 @@
 ||cdceed.de^
 ||cdcqee.com^
 ||cddtsecure.com^
+||cdeaffjujxchf.com^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
 ||cdend.com/*.mp4$domain=moviedo24.com|hdd.movie365-hd.com|hdd.movies-store.com|hdd.nung2uhd.com|hdd.movie2021.com|hdd.movie22hd.com|moviehdfree.ngo-stream.xyz|hdd.porn2uhd.com
 ||cdend.com^
@@ -14869,6 +14873,7 @@
 ||chaugroo.net^
 ||chaukrgukepers.xyz^
 ||chauksoa.net^
+||chaulsan.com^
 ||chaumsee.net^
 ||chaussew.net^
 ||chautcho.com^
@@ -19652,6 +19657,7 @@
 ||djefosbx.com^
 ||djers.com^
 ||djfiln.com^
+||djfuieotdlo.com^
 ||djfwuer.xyz^
 ||djhrfus.xyz^
 ||djicdn.com/uploads/ad_image_file/
@@ -19750,6 +19756,7 @@
 ||dm1.ddwk8.cn^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
+||dm590.com/piao/
 ||dmakingbyth.com^
 ||dmanalytics1.com^
 ||dmclick.cn^
@@ -21423,6 +21430,7 @@
 ||egouages.site^
 ||egowyefort.live^
 ||egpdbp6e.de^
+||egpovsl.com^
 ||egptz.cyou^
 ||egreephu.com^
 ||egretswamper.com^
@@ -29217,6 +29225,7 @@
 ||hwpub.com^
 ||hwpyfcxahv.com^
 ||hwstats.unity3d.com^
+||hwucqkpdinfb.xyz^
 ||hwuzrko.cn^
 ||hwyjfhdjgoorb.com^
 ||hx1.tubepornbase.com^
@@ -35198,6 +35207,7 @@
 ||liulanliang.cn^
 ||liunxgroup.top^
 ||liupan.asia^
+||liupoaa.com^
 ||liushuaib.xyz^
 ||liutou20230203.live^
 ||liutt.online^
@@ -36746,6 +36756,7 @@
 ||mahimeta.com^
 ||maholinoticed.com^
 ||mahoupao.com/api.php?mod=ad&
+||mahourup.xyz^
 ||mahsirlaurite.guru^
 ||mahua.com/api/$subdocument
 ||mahua.com/www/default/js/mahua_show.js
@@ -40302,6 +40313,7 @@
 ||neyrvru.wmbgc.xyz^
 ||nezqmud.com^
 ||nezuel.com^
+||nezygmobha.com^
 ||nfbhakhweh.com^
 ||nffkfg.com^
 ||nfkq8jy5db0b.com^
@@ -58992,6 +59004,7 @@
 ||tumabeni.com^
 ||tumblebirds.com^
 ||tumblebit.com^
+||tumblebit.org^
 ||tumbleicicle.com^
 ||tumbleroutlook.com^
 ||tumgcmu.cn^
@@ -62397,6 +62410,7 @@
 ||webcounter.ws^
 ||webdissector.com^
 ||webest.info^
+||webestablishedsunflower.com^
 ||webeyez.com^
 ||webfeetdaidled.com^
 ||webflowmetrics.com^
@@ -92117,6 +92131,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /popunder/*
 /popunder/in/click/*$popup
 /popunder1.
+/popunder1000.js$third-party,script
 /popunder1_
 /popunder2.
 /popunder4.
@@ -114098,6 +114113,7 @@ zle.com$script
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
 ##a[href*="//lkstrck2.com/"]
+##a[href*="//tsyndicate.com"][href*="/click"]
 ##a[href*="//xxuudxdu.live?"]
 ##a[href*="/10093813.com"]
 ##a[href*="/1124024.xyz"]
@@ -114859,6 +114875,7 @@ zle.com$script
 ##div[id*="ScriptRoot"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
+##div[id="alert_windows"][class*="q-dialog fullscreen"]
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
@@ -116223,6 +116240,7 @@ zle.com$script
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
 @@://img.souche.com/*.jpg
+@@://up.taoseye.com/contents/other/player/playerlogo.png
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
 @@?sid=ads$domain=126.com|mail.163.com

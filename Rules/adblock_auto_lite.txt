@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7kzqLfQFvyBI7XP/LS4bhw
+! Checksum: lAfbeYQG24FfhLeAlVczmA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230830082937
+! Version: 20230830091409
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-30 08:29:37
-! Total Count: 24319
+! Last modified: 2023-08-30 09:14:09
+! Total Count: 24335
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -721,6 +721,7 @@
 ||3dsexgames.biz/linkbanners/3dsexgamesnew150x100.gif
 ||3dwwwgame.com^$third-party
 ||3ek9.cn^
+||3er88wn.com^
 ||3fa20230512.live^
 ||3g.cn/baidualading/
 ||3g.cn/index.php?s=Index/adv&
@@ -2708,6 +2709,7 @@
 ||adservrs.com^
 ||adserwer.xwords.pl^
 ||adsession.com^$third-party
+||adsession.exacdn.com^
 ||adsessionserv.com^
 ||adsessionserv.com^$third-party
 ||adsexo.com^
@@ -5514,6 +5516,7 @@
 ||dblcs.cn^
 ||dbmcmhh.cn^
 ||dbmp4.com/js/foot.
+||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
 ||dbtojr.xyz^
 ||dbw.cn/eap/js/db/dbwad_
@@ -5757,6 +5760,7 @@
 ||dm1.ddwk8.cn^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
+||dm590.com/piao/
 ||dmeia.xyz^
 ||dmg-dd.oss-accelerate.aliyuncs.com^
 ||dmm.aizhan.com^
@@ -12222,6 +12226,7 @@
 ||s11.cn^$third-party
 ||s1wq.top^
 ||s2.everydaygayporn.com^
+||s2dcm.com^
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||s3.amazonaws.com/promos.withbuddies.com/prod/ads/
@@ -13254,6 +13259,7 @@
 ||tffulllist.shop^
 ||tffytdo.cn^
 ||tfg2.com/images/upfile/AD/
+||tfgotoai.shop^
 ||tfonlyuse.shop^
 ||tfosrv.com^
 ||tfosrv.com^$third-party
@@ -14928,6 +14934,7 @@
 ||xywy.name^
 ||xyyejhm.cn^
 ||xyzyqq.com^
+||xzezapozghp.com^
 ||xzji.com/data/block_js/softShow_
 ||xzlurd.xyz^
 ||xznrtl.xyz^
@@ -19264,6 +19271,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /html/ads/*
 /html/ads_
 /html/sponsors/*
+/i/npage/*$script,third-party
 /iframe-ad.
 /iframe-ad/*
 /iframe-ad?
@@ -19341,6 +19349,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /pixel/purst?
 /pixel/sbe?
 /pixelads/*
+/popunder1000.js$third-party,script
 /popup/adblocker
 /redbaiduct.com?s=$third-party
 /sbar.json?key=
@@ -22118,6 +22127,10 @@ zle.com$script
 ##.photo-two > a[onclick^="_czc."]
 ##.play_list_adbox
 ##.player + .sponsor
+##.player-ad
+##.player-ad-overlay
+##.player-ads
+##.player-ads2
 ##.player-bottom-gg
 ##.player-info > .recommend-two.recommend-list
 ##.player-news > .news-list
@@ -22636,6 +22649,7 @@ zle.com$script
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//tsyndicate.com"][href*="/click"]
 ##a[href*="//xxuudxdu.live?"]
 ##a[href*="/1124024.xyz"]
 ##a[href*="/136ayx.vip"]
@@ -23011,6 +23025,7 @@ zle.com$script
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
+##div[id="alert_windows"][class*="q-dialog fullscreen"]
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -24150,6 +24165,7 @@ zle.com$script
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
 @@://img.souche.com/*.jpg
+@@://up.taoseye.com/contents/other/player/playerlogo.png
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
