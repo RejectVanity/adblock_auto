@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sFGiH4NqkxZEsR7IH4BRow
+! Checksum: FvzXLboZi0J0y+09CWaV9Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230831000835
+! Version: 20230831082925
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-08-31 00:08:35
-! Total Count: 24251
+! Last modified: 2023-08-31 08:29:25
+! Total Count: 24256
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4862,6 +4862,7 @@
 ||chazidian.com/czd_gg.js
 ||chazidian.com/mobile_general_
 ||chdbits.co/pic/*-*.gif
+||cheda1.icu^
 ||chenfoo.cn^
 ||chengdu.cn/acts/phoneqss/openCornerWin/
 ||chengduda.top^
@@ -5921,6 +5922,7 @@
 ||dwibjkdsn.com^
 ||dwqfmvc.cn^
 ||dwstatic.com^*/p/livetip/
+||dwyngjb.icu^
 ||dx7.sosporntube.com^
 ||dxg*.com/img/A*.js
 ||dxg*.top/img/A*.js
@@ -7679,6 +7681,7 @@
 ||hujunhao.name^
 ||huluxia.com^$third-party
 ||humgrww.xyz^
+||hummingexam.com^
 ||hunlimd.cn^
 ||huntmad.com^
 ||huo720.com/back/ad_
@@ -11874,6 +11877,7 @@
 ||rbazhaheiz.top^
 ||rbbbdj.xyz^
 ||rbodwtj.icu^
+||rbrbr88p.cn^
 ||rbrv9.cn^
 ||rbsodzgoy.xyz^
 ||rbvi.top^
@@ -22347,6 +22351,7 @@ zle.com$script
 ##[src*="advertising"][src*="banner"],[data*="advertising"][data*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##[style*="mi-img.com"]
 ##[style*="sotv.me"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
