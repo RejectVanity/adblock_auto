@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bg2heFrHffhp/hlqh7KCGg
+! Checksum: kTkYTZoNMGSnGqYX1c6F4w
 ! Title: 自用去广告Adblock规则
-! Version: 20230830162113
-! Last modified: 2023-08-30 16:21:13
-! Total Count: 2431
+! Version: 20230901114416
+! Last modified: 2023-09-01 11:44:16
+! Total Count: 2441
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -425,6 +425,8 @@
 ##div[class] > ul > li > a[href][alt^="同城"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class][style$="background-size: 393px 131px !important;"]
+##div[class][style*="100vw"][style*="no-repeat"][style*="background:"][style*="0px"]
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
 ##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"],div[class][style*="z-index:"][style*="display: block;"][style$="98px;"]
 ##div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
@@ -611,6 +613,7 @@
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
+##table[border="1"] > tbody > tr > td > a[href][onclick*="Novel"][title]
 ##ul > li > a[href][onclick][target="_blank"][rel="nofollow"] > img[src][alt]
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
 &adZones$xmlhttprequest
@@ -688,6 +691,9 @@
 .com/sh/to/*$third-party
 .com/vh1/1$third-party
 .com/vh2/1$third-party
+.com/vh3/1$third-party
+.com/vh4/1$third-party
+.com/vh5/1$third-party
 .com/vj1/1$third-party
 .com/vj2/1$third-party
 .com/vj3/1$third-party
@@ -701,6 +707,8 @@
 .com:*/sc/*?x=$third-party
 .com:*/vh1/1$third-party
 .com:*/vh2/1$third-party
+.com:*/vh3/1$third-party
+.com:*/vh4/1$third-party
 .com:*/vh5/1$third-party
 .com:*/vj1/1$third-party
 .com:*/vj2/1$third-party
@@ -799,6 +807,7 @@
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/sc/.*\?[A-Za-z]=/$third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn).*\/v[A-Za-z]/.*[0-9]$/$third-party
 /*.php?pid=*&n=$third-party
+/*_*_/bigREDcat.$third-party
 /*_*_/bigREDdog.$third-party
 /?channelCode=bfy$document
 /AdS/RAD.
@@ -1676,6 +1685,7 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[style*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##div[onclick*="bp1.com"]
+ppys66.com##a[title="成人深夜福利"]
 qinav.com##div[id^="qinav_b"]
 renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
