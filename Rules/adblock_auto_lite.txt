@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6Rcw7Qyz1kI3E5Q+3sGh4Q
+! Checksum: zEwXlYsDTgf3T/yoCQCRCg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230901160929
+! Version: 20230902000833
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-01 16:09:29
-! Total Count: 24283
+! Last modified: 2023-09-02 00:08:33
+! Total Count: 24315
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1254,6 +1254,8 @@
 ||8le8le.com^$third-party
 ||8maple.ru/comic.jpg
 ||8maple.ru/dzcm$redirect=1x1.gif,domain=8maple.ru,image
+||8mg050.n3cdn1.secureserver.net^*.gif
+||8mg050.n3cdn1.secureserver.net^*/960
 ||8o9m.cn^
 ||8q2h.icu^
 ||8s8s.com/data/banner/
@@ -4350,6 +4352,7 @@
 ||blxfqq.com^
 ||blz105.com/player/ad.html
 ||bm999999.com^$popup
+||bmiea.xyz^
 ||bmjs.xzw.com^
 ||bmmogb.xyz^
 ||bmp.ali213.net/js/
@@ -10269,6 +10272,7 @@
 ||mygeek.cn/pic_$domain=dapenti.com
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
+||myhaitang.cc/assets/public/*.js
 ||myhao.club^
 ||myhdporn.net/ccc.gif
 ||myhdporn.net/sss.gif
@@ -10982,6 +10986,7 @@
 ||peishuning1.cn^
 ||pejrq.xyz^
 ||pekingpk10.com^
+||pemsrv.com^$popup
 ||penglangyyds.com^
 ||pengpailm.online^
 ||pengtu.cc^*.png
@@ -19237,10 +19242,15 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /js/GDHF.js
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
+/js/adlmb.js$third-party,script
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
+/js/ads/hf*.js
+/js/ads/youxiajiao.js
+/js/ads/zuoxiajiao.js
 /js/advertiser.js
+/js/adverts-
 /js/dj1ll*.js
 /js/dj2ll*.js
 /js/dnsads.js?
@@ -19251,12 +19261,26 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /js/pfadll*.js
 /js/sp_ad.js$script
 /json/ads/*
+/juicyads_
+/leadads/*
+/leader_ad.
+/leaderad.
+/leaderboard-advert.
+/leaderboard_ad.
+/leaderboard_ad/*
+/leaderboard_adv/*
+/leaderboardad.
+/leaderboardadblock.
+/leaderboardads.
+/ledad.
 /levelmaxblock.js
 /lv/esnk/*$script,third-party
 /m.html?rmid=*&yd=$document
 /m.html?rmid=*&yd=$~third-party
 /mdzzxttss.php?s=
 /mod_ablockdetector/*
+/modalad.
+/module-ads-html-$script
 /module-ads/*
 /module/ads/*
 /module/adsview/*
@@ -19271,6 +19295,14 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /monetization/ads-
 /monetize-show-ads
 /moneyball/ads/*
+/moneymaker-banners/ads_
+/moneymaker/js/caoaa.js
+/moneymaker/js/fkpp.js
+/moneymaker/js/kppp.js
+/moneymaker/js/player/vast-
+/moneymaker/js/player/zanting.js
+/moneymaker/js/tmpp.js
+/moneymaker/js/videoplayer.js
 /nativeads-
 /nb/*$script,domain=bigtitslust.com|pornhex.com|159i.com|babesjoy.com|pornyfap.com|imgtorrnt.in|imgtornado.com|shameless.com|imgdone.com|webcamshows.org|ipicture.su|youav.com|porndr.com|noodlemagazine.com|picmoza.com|cumlouder.com|maturetubehere.com|amateur8.com|freeporn8.com
 /nb/ads/*
