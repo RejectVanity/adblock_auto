@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qjnBb2iUT8yTxe0f64jU+g
+! Checksum: x8E7j9df7M9uZ3FKihOZmA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230903000709
+! Version: 20230903012402
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-03 00:07:09
-! Total Count: 24302
+! Last modified: 2023-09-03 01:24:02
+! Total Count: 24364
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -13568,7 +13568,7 @@
 ||tuoshi168.com^
 ||tuotianxia.top^
 ||tupian55.com^*.gif
-||tupian888.cdn.bcebos.com^
+||tupian888.*.bcebos.com^
 ||tuplzt.xyz^
 ||turifb.xyz^
 ||turn.com^
@@ -16082,6 +16082,7 @@ bravoporn.com##.content > .wrap ~  div.headline > p
 bravoporn.com,bravoteens.com,bravotube.net,spanishporn.com.es##.brazzers
 bravotube.net,bravoteens.com,pornoaffe.com,hd-pornos.net##.vjs-overlay
 brazzers-hdx.club##.adblck
+britaku.com,e-kei.com##div[class="row"][style="margin:3px 0px;display:flex;flex-wrap: wrap;justify-content:space-evenly;width:100%;"],img[src^="data:image/png;base64"],table > tr[style="border-bottom:1px orange solid;"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
 bubbaporn.com,kalporn.com,koloporno.com,pornodingue.com,pornodoido.com,pornozot.com,serviporno.com,voglioporno.com##.banners-footer
@@ -18365,16 +18366,31 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .728x90.
 .adsense.
 .adserver.
+.advertmarket.
+.advertrecycling.
+.adwolf.
+.ae/ads/
+.ai/ads.
 .app?c=ggcha$document
 .app?c=ggcha$~third-party
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
+.at/ads/
+.au/ads/
+.be/ads/
 .bid/ads/
+.biz/ad.
+.biz/ad/
+.biz/ad2/
+.biz/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
 .buzz/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|sqruitu.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .buzz/*=$object,third-party
 .buzz:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|sqruitu.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.bz/ads/
+.ca/ads-
+.ca/ads/
 .cam/ads/
 .cc/?c=axza$document
 .cc/?c=axza$~third-party
@@ -18436,7 +18452,9 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/1$third-party
+.cn:*/vh5/2$third-party
 .cn:*/vj5/1$third-party
+.cn:*/vj5/2$third-party
 .co/ads/
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
@@ -18558,19 +18576,29 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .com/user?$third-party
 .com/vh1/$script,third-party
 .com/vh1/1$third-party
+.com/vh1/2$third-party
 .com/vh2/$script,third-party
 .com/vh2/1$third-party
+.com/vh2/2$third-party
 .com/vh3/1$third-party
+.com/vh3/2$third-party
 .com/vh4/1$third-party
+.com/vh4/2$third-party
 .com/vh5/$script,third-party
 .com/vh5/1$third-party
+.com/vh5/2$third-party
 .com/vj1/$script,third-party
 .com/vj1/1$third-party
+.com/vj1/2$third-party
 .com/vj2/$script,third-party
 .com/vj2/1$third-party
+.com/vj2/2$third-party
 .com/vj3/1$third-party
+.com/vj3/2$third-party
 .com/vj4/1$third-party
+.com/vj4/2$third-party
 .com/vj5/1$third-party
+.com/vj5/2$third-party
 .com/vodad.js
 .com/wcm/?sh=*&$third-party
 .com/xtub_*_rony.js$third-party
@@ -18591,15 +18619,25 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/vh1/1$third-party
+.com:*/vh1/2$third-party
 .com:*/vh2/1$third-party
+.com:*/vh2/2$third-party
 .com:*/vh3/1$third-party
+.com:*/vh3/2$third-party
 .com:*/vh4/1$third-party
+.com:*/vh4/2$third-party
 .com:*/vh5/1$third-party
+.com:*/vh5/2$third-party
 .com:*/vj1/1$third-party
+.com:*/vj1/2$third-party
 .com:*/vj2/1$third-party
+.com:*/vj2/2$third-party
 .com:*/vj3/1$third-party
+.com:*/vj3/2$third-party
 .com:*/vj4/1$third-party
+.com:*/vj4/2$third-party
 .com:*/vj5/1$third-party
+.com:*/vj5/2$third-party
 .com:*/waga*.html$document
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
@@ -19230,6 +19268,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /javascript/ads/*
 /javascript/gpt-
 /javascripts/ads/*
+/jquery.modal.$domain=1909.me|8se.me|litu100.xyz|xchina.co|xchina.fun|xchina.pro
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/GDHF.js
 /js/ad_jyshe.js$third-party,script
@@ -19316,6 +19355,29 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /pixel/purst?
 /pixel/sbe?
 /pixelads/*
+/plugins/cactus-ads/*$script,stylesheet
+/plugins/cpx-advert/*$script
+/plugins/dx-ads/*$script
+/plugins/meks-easy-ads-widget/*
+/plugins/mts-wp-in-post-ads/*
+/plugins/ultimate-popunder/*$~stylesheet
+/plugins/wp-moreads/*$~stylesheet
+/plugins_ads_
+/plus/ad_
+/pm_ads/*
+/poker-ad.
+/poki-ads.
+/poll-ad-
+/polopoly_fs/ad-
+/pool.ads.
+/pool/ad/*
+/pop_ad.
+/pop_adfy.
+/pop_ads.
+/pop_under/*
+/popad-
+/popads/*
+/popads_
 /popunder1000.js$third-party,script
 /popup/adblocker
 /redbaiduct.com?s=$third-party
@@ -21568,6 +21630,8 @@ zle.com$script
 ##.ad-title
 ##.ad-top
 ##.ad.mi_btcon
+##.ad.noadmo
+##.ad.none
 ##.ad01
 ##.ad02
 ##.ad03
@@ -21698,6 +21762,7 @@ zle.com$script
 ##.adpc > .promt-link_
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
+##.ads > img
 ##.ads-1
 ##.ads-2
 ##.ads-after-content
@@ -22070,6 +22135,7 @@ zle.com$script
 ##.n-banner--adblocked
 ##.nQIAj
 ##.nQIAj1
+##.naicon.btn.btn-raised
 ##.nav-area + .wrapper .tuiguang
 ##.newstyle > .container > a[target="_blank"]
 ##.newstyle > a > img[src*="img.com/i/"]
@@ -22091,6 +22157,7 @@ zle.com$script
 ##.pasuAD
 ##.pcd_ad
 ##.pcgg
+##.phone-ads
 ##.photo-two > a[onclick^="_czc."]
 ##.play_list_adbox
 ##.player + .sponsor
@@ -22295,12 +22362,9 @@ zle.com$script
 ##[class*="slick-"][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"]
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
-##[class="ad noadmo"]
-##[class="ads"] > img
 ##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
-##[class="phone-ads ads-bg"]
 ##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
@@ -22313,7 +22377,6 @@ zle.com$script
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] > .photo-two
-##[class^="ad none"]
 ##[class^="ad-bottom"]
 ##[class^="ad-layer"]
 ##[class^="ad-top"]
@@ -22328,7 +22391,6 @@ zle.com$script
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="footer-ad"]
 ##[class^="m-hm-ad"]
-##[class^="naicon btn btn-raised"]
 ##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
@@ -22353,6 +22415,7 @@ zle.com$script
 ##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
+##[href*="//ad.addizhi."][href$=".html"]
 ##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
@@ -22426,7 +22489,6 @@ zle.com$script
 ##a[alt="美高梅"][target="_blank"]
 ##a[alt="逼哩逼哩"][target="_blank"]
 ##a[alt="领882元"][target="_blank"]
-##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[clickmode="ad"]
 ##a[data-track-content][data-content-name][target="_blank"]
@@ -23036,6 +23098,7 @@ zle.com$script
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style="width:100%"][id*="hengfu"]
 ##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="display:flex;flex-direction:column"] > [style*="display:flex;"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
@@ -24126,7 +24189,7 @@ zle.com$script
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
 @@/adsbygoogle.js$script,domain=arabiaweather.com
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
-@@/index.m3u8$domain=tecms.net
+@@/index.m3u8
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
 @@/upload/ads/*$domain=manwa1.vip|manwa2.vip|manwa3.vip|manwa4.vip|manwa5.vip|manwa6.vip|manwa7.vip|manwa8.vip|manwa9.vip|manwa10.vip|manwa.vip|manwa1.site|manwa2.site|manwa3.site|manwa4.site|manwa5.site|manwa6.site|manwa7.site|manwa8.site|manwa9.site|manwa10.site|manwa.site|manwa1.me|manwa2.me|manwa3.me|manwa4.me|manwa5.me|manwa6.me|manwa7.me|manwa8.me|manwa9.me|manwa10.me|manwa.me|mwcomic1.cc|mwcomic2.cc|mwcomic3.cc|mwcomic4.cc|mwcomic5.cc|mwcomic6.cc|mwcomic7.cc|mwcomic8.cc|mwcomic9.cc|mwcomic10.cc|mwcomic.cc|mwcomic1.biz|mwcomic2.biz|mwcomic3.biz|mwcomic4.biz|mwcomic5.biz|mwcomic6.biz|mwcomic7.biz|mwcomic8.biz|mwcomic9.biz|mwcomic10.biz|mwcomic.biz|mwcomic1.xyz|mwcomic2.xyz|mwcomic3.xyz|mwcomic4.xyz|mwcomic5.xyz|mwcomic6.xyz|mwcomic7.xyz|mwcomic8.xyz|mwcomic9.xyz|mwcomic10.xyz|mwcomic.xyz|mwcomic1.top|mwcomic2.top|mwcomic3.top|mwcomic4.top|mwcomic5.top|mwcomic6.top|mwcomic7.top|mwcomic8.top|mwcomic9.top|mwcomic10.top|mwcomic.top|manwa1.xyz|manwa2.xyz|manwa3.xyz|manwa4.xyz|manwa5.xyz|manwa6.xyz|manwa7.xyz|manwa8.xyz|manwa9.xyz|manwa10.xyz|manwa.xyz|mwcomic1.co|mwcomic2.co|mwcomic3.co|mwcomic4.co|mwcomic5.co|mwcomic6.co|mwcomic7.co|mwcomic8.co|mwcomic9.co|mwcomic10.co|mwcomic.co|mwcomic1.online|mwcomic2.online|mwcomic3.online|mwcomic4.online|mwcomic5.online|mwcomic6.online|mwcomic7.online|mwcomic8.online|mwcomic9.online|mwcomic10.online|mwcomic.online|manwafei1.cc|manwafei2.cc|manwafei3.cc|manwafei4.cc|manwafei5.cc|manwafei6.cc|manwafei7.cc|manwafei8.cc|manwafei9.cc|manwafei10.cc|manwafei.cc|manwafei1.com|manwafei2.com|manwafei3.com|manwafei4.com|manwafei5.com|manwafei6.com|manwafei7.com|manwafei8.com|manwafei9.com|manwafei10.com|manwafei.com|manwafei1.xyz|manwafei2.xyz|manwafei3.xyz|manwafei4.xyz|manwafei5.xyz|manwafei6.xyz|manwafei7.xyz|manwafei8.xyz|manwafei9.xyz|manwafei10.xyz|manwafei.xyz|manwafei1.top|manwafei2.top|manwafei3.top|manwafei4.top|manwafei5.top|manwafei6.top|manwafei7.top|manwafei8.top|manwafei9.top|manwafei10.top|manwafei.top|manwafei1.me|manwafei2.me|manwafei3.me|manwafei4.me|manwafei5.me|manwafei6.me|manwafei7.me|manwafei8.me|manwafei9.me|manwafei10.me|manwafei.me|manwafei1.site|manwafei2.site|manwafei3.site|manwafei4.site|manwafei5.site|manwafei6.site|manwafei7.site|manwafei8.site|manwafei9.site|manwafei10.site|manwafei.site|manwafei1.biz|manwafei2.biz|manwafei3.biz|manwafei4.biz|manwafei5.biz|manwafei6.biz|manwafei7.biz|manwafei8.biz|manwafei9.biz|manwafei10.biz|manwafei.biz|manwafei1.online|manwafei2.online|manwafei3.online|manwafei4.online|manwafei5.online|manwafei6.online|manwafei7.online|manwafei8.online|manwafei9.online|manwafei10.online|manwafei.online
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
@@ -24134,6 +24197,7 @@ zle.com$script
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
+@@://d*.cloudfront.net/douyin
 @@://img.souche.com/*.jpg
 @@://up.taoseye.com/contents/other/player/playerlogo.png
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
@@ -24273,10 +24337,8 @@ baidu.com#@#.ad-wrapper
 bestjavporn.com,javhdporn.net,video.bestjavporn.com#@#.ad-placement
 bestporncomix.com#@#.adsbar
 colamanhua.com#@#.gg_950
-colamanhua.com#@#img[src^="/js/a_d"][src$=".png"]
 comptoir-info.com#@#.textad
 dbz-fantasy.com#@##adTeaser
-dc.fsecity.com,dmzj.com,idmzj.com#@#[onclick*="app"]
 dealerdunet.fr#@#.text_ads
 debrideurstream.fr#@##pubdirecte
 dz-android.com,freeiphone.fr,hommedumatch.fr,jetetroll.com,polska-ie.com,testious.com#@##adsense
