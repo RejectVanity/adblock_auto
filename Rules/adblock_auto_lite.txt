@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 4NKyorOtSjJu/7xNM/md0Q
+! Checksum: /KY6pYqRKfzYGzxYYiGo2g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230902160828
+! Version: 20230902161235
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-02 16:08:28
-! Total Count: 24291
+! Last modified: 2023-09-02 16:12:35
+! Total Count: 24294
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -7176,6 +7176,7 @@
 ||gynax.com^
 ||gyq3bew.icu^
 ||gyqifa.com^
+||gyqifa.com^$third-party
 ||gysn001.com^
 ||gyt168.com.cn^
 ||gyutmrp.com^
@@ -22956,6 +22957,7 @@ zle.com$script
 ##div[class][style$="background-size: 393px 131px !important;"]
 ##div[class][style*="100vw"][style*="no-repeat"][style*="background:"][style*="0px"]
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
+##div[class][style*="bottom: 0px; left: 0px; z-index:"][style*="0px 0px"][style*="no-repeat"]
 ##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"],div[class][style*="z-index:"][style*="display: block;"][style$="98px;"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
@@ -23042,6 +23044,7 @@ zle.com$script
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##dl#listwoBox
+##em > strong > img[style="pointer-events: none;"][width="100%"]
 ##embed[id][src*="://"][src*=".z"][src$="="]
 ##embed[src^="https:////"]
 ##embed[width="100%"][height="100"]
