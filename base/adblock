@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ipQSsWMQbZaEBp5IBYxAGg
+! Checksum: CP+aoguBXQAQIgySWz94Gg
 ! Title: 混合规则
-! Version: 20230902200558
+! Version: 20230903010447
 ! Expires: 7 days (update frequency)
-! Last modified: 2023-09-02 20:12:21
-! Total Count: 115485
+! Last modified: 2023-09-03 01:10:55
+! Total Count: 115508
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -72623,6 +72623,7 @@ dzone.com##.partner-resources-block
 dzwww.com##.popular
 dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidden;background-color:#fff;"]
 e-hentai.org##.itd[colspan="4"]
+e-kei.com##div[class="row"][style="margin:3px 0px;display:flex;flex-wrap: wrap;justify-content:space-evenly;width:100%;"],img[src^="data:image/png;base64"],table > tr[style="border-bottom:1px orange solid;"]
 e-learn.cn###block-gyouer
 e-learn.cn###block-youyi
 e-learn.cn##.region-sidebar-second > .block:nth-child(2)
@@ -85480,7 +85481,9 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/1$third-party
+.cn:*/vh5/2$third-party
 .cn:*/vj5/1$third-party
+.cn:*/vj5/2$third-party
 .co/ads/
 .co/ads/$popup
 .co/ads?
@@ -85673,19 +85676,29 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/user?$third-party
 .com/vh1/$script,third-party
 .com/vh1/1$third-party
+.com/vh1/2$third-party
 .com/vh2/$script,third-party
 .com/vh2/1$third-party
+.com/vh2/2$third-party
 .com/vh3/1$third-party
+.com/vh3/2$third-party
 .com/vh4/1$third-party
+.com/vh4/2$third-party
 .com/vh5/$script,third-party
 .com/vh5/1$third-party
+.com/vh5/2$third-party
 .com/vj1/$script,third-party
 .com/vj1/1$third-party
+.com/vj1/2$third-party
 .com/vj2/$script,third-party
 .com/vj2/1$third-party
+.com/vj2/2$third-party
 .com/vj3/1$third-party
+.com/vj3/2$third-party
 .com/vj4/1$third-party
+.com/vj4/2$third-party
 .com/vj5/1$third-party
+.com/vj5/2$third-party
 .com/vodad.js
 .com/vs.php?id=$script,third-party
 .com/wcm/?sh=*&$third-party
@@ -85707,15 +85720,25 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/vh1/1$third-party
+.com:*/vh1/2$third-party
 .com:*/vh2/1$third-party
+.com:*/vh2/2$third-party
 .com:*/vh3/1$third-party
+.com:*/vh3/2$third-party
 .com:*/vh4/1$third-party
+.com:*/vh4/2$third-party
 .com:*/vh5/1$third-party
+.com:*/vh5/2$third-party
 .com:*/vj1/1$third-party
+.com:*/vj1/2$third-party
 .com:*/vj2/1$third-party
+.com:*/vj2/2$third-party
 .com:*/vj3/1$third-party
+.com:*/vj3/2$third-party
 .com:*/vj4/1$third-party
+.com:*/vj4/2$third-party
 .com:*/vj5/1$third-party
+.com:*/vj5/2$third-party
 .com:*/waga*.html$document
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
@@ -101581,6 +101604,8 @@ zle.com$script
 ##.ad.native_story_2
 ##.ad.native_story_3
 ##.ad.netboard
+##.ad.noadmo
+##.ad.none
 ##.ad.post-area
 ##.ad.preroll
 ##.ad.promotion
@@ -103125,6 +103150,7 @@ zle.com$script
 ##.adrule
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
+##.ads > img
 ##.ads--bottom-spacing
 ##.ads--desktop
 ##.ads--full
@@ -108507,6 +108533,7 @@ zle.com$script
 ##.n-banner--adblocked
 ##.nQIAj
 ##.nQIAj1
+##.naicon.btn.btn-raised
 ##.narrow_ad_unit
 ##.narrow_ads
 ##.national_ad
@@ -108894,6 +108921,7 @@ zle.com$script
 ##.ph-ad
 ##.ph-ad-desktop
 ##.ph-ad-mediumrectangle
+##.phone-ads
 ##.photo-ad
 ##.photo-ad-pad
 ##.photo-two > a[onclick^="_czc."]
@@ -111326,12 +111354,9 @@ zle.com$script
 ##[class*="slick-"][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"]
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
-##[class="ad noadmo"]
-##[class="ads"] > img
 ##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
-##[class="phone-ads ads-bg"]
 ##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
@@ -111345,7 +111370,6 @@ zle.com$script
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] > .photo-two
-##[class^="ad none"]
 ##[class^="ad-bottom"]
 ##[class^="ad-layer"]
 ##[class^="ad-top"]
@@ -111363,7 +111387,6 @@ zle.com$script
 ##[class^="div-gpt-ad"]
 ##[class^="footer-ad"]
 ##[class^="m-hm-ad"]
-##[class^="naicon btn btn-raised"]
 ##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
@@ -111402,6 +111425,7 @@ zle.com$script
 ##[data-template-type="nativead"]
 ##[data-testid="ad_testID"]
 ##[data-type="ad-vertical"]
+##[href*="//ad.addizhi."][href$=".html"]
 ##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
@@ -111557,7 +111581,6 @@ zle.com$script
 ##a[alt="美高梅"][target="_blank"]
 ##a[alt="逼哩逼哩"][target="_blank"]
 ##a[alt="领882元"][target="_blank"]
-##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[clickmode="ad"]
 ##a[data-obtrack^="http://paid.outbrain.com/network/redir?"]
@@ -112673,6 +112696,7 @@ zle.com$script
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style="width:100%"][id*="hengfu"]
 ##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="display:flex;flex-direction:column"] > [style*="display:flex;"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
@@ -113930,7 +113954,7 @@ zle.com$script
 @@/img/ad/*$domain=exp.qq.com
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img_ad/*$domain=tkec.com.tw
-@@/index.m3u8$domain=tecms.net
+@@/index.m3u8
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/jquery/*$domain=sobooks.cc
 @@/js/ads.$domain=shrinklink.co
@@ -113961,6 +113985,7 @@ zle.com$script
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
+@@://d*.cloudfront.net/douyin
 @@://img.souche.com/*.jpg
 @@://up.taoseye.com/contents/other/player/playerlogo.png
 @@=mywebloadt1&$domain=myweb.hinet.net
@@ -115114,7 +115139,6 @@ cocomanga.com,cocomanhua.com#@#.gg430
 codejie.net,developers.google.com,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wnacg.com,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru#@##google-ads
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
 colamanhua.com#@#.gg_950
-colamanhua.com#@#img[src^="/js/a_d"][src$=".png"]
 comptoir-info.com,kingsofchaos.com#@#.textad
 consumerist.com#@#.after-post-ad
 cookinglight.com#@#div[data-native_ad]
@@ -115132,7 +115156,6 @@ dbook.docomo.ne.jp,dmagazine.docomo.ne.jp,dmkt-sp.jp#@#.ad-button
 dbook.docomo.ne.jp,dmagazine.docomo.ne.jp,dmkt-sp.jp#@#.ad-cover
 dbook.docomo.ne.jp,dmkt-sp.jp,docomo.ne.jp#@#.ad-label
 dbz-fantasy.com#@##adTeaser
-dc.fsecity.com,dmzj.com,idmzj.com#@#[onclick*="app"]
 debrideurstream.fr#@##pubdirecte
 deepgoretube.site#@##fwdevpDiv0
 deluxemusic.tv#@#.article_ad

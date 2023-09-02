@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rutAOZrgygB7kFh5/nPpsQ
+! Checksum: H8+wXdGXMLkBZ3CZcPKLSA
 ! Title: 自用去广告Adblock规则
-! Version: 20230902195558
-! Last modified: 2023-09-02 19:55:58
-! Total Count: 2433
+! Version: 20230903012117
+! Last modified: 2023-09-03 01:21:17
+! Total Count: 2496
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -32,8 +32,11 @@
 ##._ads
 ##.ad-placement
 ##.ad-title
+##.ad.noadmo
+##.ad.none
 ##.ad_img
 ##.adbanner
+##.ads > img
 ##.ads-all
 ##.ads_
 ##.adsbygoogle
@@ -86,8 +89,10 @@
 ##.moboad
 ##.module-adslist
 ##.myplayer_ima-ad-container
+##.naicon.btn.btn-raised
 ##.nonepc.mad
 ##.noopenlink.ads
+##.phone-ads
 ##.play_list_adbox
 ##.player + .sponsor
 ##.player-ad
@@ -105,6 +110,7 @@
 ##.sidebar-ads
 ##.slide-ad
 ##.slide-hd > ul > li > a
+##.slider-ad[adid]
 ##.synopsisAd
 ##.tads
 ##.textadv
@@ -136,17 +142,13 @@
 ##[class*="slick-"][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"]
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
-##[class="ad noadmo"]
-##[class="ads"] > img
 ##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
-##[class="phone-ads ads-bg"]
 ##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][onclick="goAppHtml();"]
 ##[class][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] > .photo-two
-##[class^="ad none"]
 ##[class^="ad-bottom"]
 ##[class^="ad-layer"]
 ##[class^="ad-top"]
@@ -161,7 +163,6 @@
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="footer-ad"]
 ##[class^="m-hm-ad"]
-##[class^="naicon btn btn-raised"]
 ##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
@@ -186,6 +187,7 @@
 ##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
+##[href*="//ad.addizhi."][href$=".html"]
 ##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
@@ -213,7 +215,6 @@
 ##[id^="syad"]
 ##[id^="xqad"]
 ##[name^="google_ads_iframe"]
-##[onclick*="app"]
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
@@ -248,8 +249,8 @@
 ##a[alt="美高梅"][target="_blank"]
 ##a[alt="逼哩逼哩"][target="_blank"]
 ##a[alt="领882元"][target="_blank"]
-##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
+##a[clickmode="ad"]
 ##a[data-track-content][data-content-name][target="_blank"]
 ##a[href*="&Ad_ID="]
 ##a[href*=".biquge"][href*="app"]
@@ -466,6 +467,7 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*="apps.apple.com/cn/"]
 ##div[style="display: flex;flex-wrap: wrap;margin:5px;"] > div[class="photo-two"]
+##div[style="width:100%"][id*="hengfu"]
 ##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="display:flex;flex-direction:column"] > [style*="display:flex;"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
@@ -637,6 +639,23 @@
 -takeover-ad-
 -template-ads/
 -text-ads.
+.advertmarket.
+.advertrecycling.
+.adwolf.
+.ae/ads/
+.ai/ads.
+.at/ads/
+.au/ads/
+.be/ads/
+.bid/ads/
+.biz/ad.
+.biz/ad/
+.biz/ad2/
+.biz/ads/
+.bz/ads/
+.ca/ads-
+.ca/ads/
+.cam/ads/
 .cc/?channelCode=$~third-party
 .cc/ad/
 .cc/api/getPos?jspath=/$~third-party
@@ -660,7 +679,9 @@
 .cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/1$third-party
+.cn:*/vh5/2$third-party
 .cn:*/vj5/1$third-party
+.cn:*/vj5/2$third-party
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
 .com./$popup,domain=pornhub.com
@@ -688,15 +709,25 @@
 .com/sh/back/*$third-party
 .com/sh/to/*$third-party
 .com/vh1/1$third-party
+.com/vh1/2$third-party
 .com/vh2/1$third-party
+.com/vh2/2$third-party
 .com/vh3/1$third-party
+.com/vh3/2$third-party
 .com/vh4/1$third-party
+.com/vh4/2$third-party
 .com/vh5/1$third-party
+.com/vh5/2$third-party
 .com/vj1/1$third-party
+.com/vj1/2$third-party
 .com/vj2/1$third-party
+.com/vj2/2$third-party
 .com/vj3/1$third-party
+.com/vj3/2$third-party
 .com/vj4/1$third-party
+.com/vj4/2$third-party
 .com/vj5/1$third-party
+.com/vj5/2$third-party
 .com/wcm/?sh=*&$third-party
 .com:*/adduv_*_*_16$third-party
 .com:*/ck*/get*.html$third-party
@@ -704,15 +735,25 @@
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/vh1/1$third-party
+.com:*/vh1/2$third-party
 .com:*/vh2/1$third-party
+.com:*/vh2/2$third-party
 .com:*/vh3/1$third-party
+.com:*/vh3/2$third-party
 .com:*/vh4/1$third-party
+.com:*/vh4/2$third-party
 .com:*/vh5/1$third-party
+.com:*/vh5/2$third-party
 .com:*/vj1/1$third-party
+.com:*/vj1/2$third-party
 .com:*/vj2/1$third-party
+.com:*/vj2/2$third-party
 .com:*/vj3/1$third-party
+.com:*/vj3/2$third-party
 .com:*/vj4/1$third-party
+.com:*/vj4/2$third-party
 .com:*/vj5/1$third-party
+.com:*/vj5/2$third-party
 .com:80*/cc/*?is_not=$third-party
 .com:80*/d/*0?c=$third-party
 .com:8001/cc/*?*=$third-party
@@ -982,6 +1023,7 @@
 /javascript/ads/*
 /javascript/gpt-
 /javascripts/ads/*
+/jquery.modal.$domain=1909.me|8se.me|litu100.xyz|xchina.co|xchina.fun|xchina.pro
 /js/GDHF.js
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
@@ -1056,6 +1098,29 @@
 /pixel/purst?
 /pixel/sbe?
 /pixelads/*
+/plugins/cactus-ads/*$script,stylesheet
+/plugins/cpx-advert/*$script
+/plugins/dx-ads/*$script
+/plugins/meks-easy-ads-widget/*
+/plugins/mts-wp-in-post-ads/*
+/plugins/ultimate-popunder/*$~stylesheet
+/plugins/wp-moreads/*$~stylesheet
+/plugins_ads_
+/plus/ad_
+/pm_ads/*
+/poker-ad.
+/poki-ads.
+/poll-ad-
+/polopoly_fs/ad-
+/pool.ads.
+/pool/ad/*
+/pop_ad.
+/pop_adfy.
+/pop_ads.
+/pop_under/*
+/popad-
+/popads/*
+/popads_
 /popunder1000.js$third-party,script
 /redbaiduct.com?s=$third-party
 /sbar.json?key=
@@ -1266,12 +1331,13 @@
 =AdCode_sjtb&$third-party
 @@.com/*M*M*M*M*M*M*==$third-party,domain=youtube.com
 @@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
-@@/index.m3u8$domain=tecms.net
+@@/index.m3u8
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
+@@://d*.cloudfront.net/douyin
 @@://img.souche.com/*.jpg
 @@://up.taoseye.com/contents/other/player/playerlogo.png
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
@@ -1433,13 +1499,11 @@ chinasex.com.es##[class^="footer-ad"]
 chrybloom.live,chrybloom.cc,jisaobad.vip,jisaobad.cc,jieyunuhai.info,aprk2.top,yydsav.top,mbjav.top,mbjav69.buzz,mbjav27.buzz,mbjav97.buzz,mbjav53.buzz,jztj39.top,jztj.xyz##[class$="i"][style],[class$="c"][style$="131px;"],[class$="_b"],[class$="h"][style],[class^="app"],a[target="_blank"] > [style*="width:100%"]
 colamanhua.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"]
 colamanhua.com#@#.gg_950
-colamanhua.com#@#img[src^="/js/a_d"][src$=".png"]
 colamanhua.com,ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
 comgk.com##a[ontouchstart],a[onclick],[class^="cvbcvxvb"],[href*="baidujkdjklvvsbvk.com"]
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 d1bzw.com##[id="appurl"],[id="bbsurl"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
-dc.fsecity.com#@#[onclick*="app"]
 ddav.xyz,ddav.com##img[id^="GGADIMG"][src],a[href*="://asiav.cyou"][target="_blank"],a[href][target="_blank"][style],[class^="happy_undie"],[class^="touchy-wrapper"]
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
@@ -1456,9 +1520,9 @@ dmh8.me,dm88.me,dm99.me##div[id^="test"]
 dmzj.com,idmzj.com##.Introduct > div > div > div
 dmzj.com,idmzj.com##.bottomDown
 dmzj.com,idmzj.com##[class$="close"][href="javascript:;"]
-dmzj.com,idmzj.com#@#[onclick*="app"]
 dnaav.com##div[id^="dnaav_b"]
 dyjihe8.com##div[style*="text-indent: -10000px !important; line-height: 0px !important;"]
+e-kei.com,britaku.com##div[class="row"][style="margin:3px 0px;display:flex;flex-wrap: wrap;justify-content:space-evenly;width:100%;"],img[src^="data:image/png;base64"],table > tr[style="border-bottom:1px orange solid;"]
 efukt.com##[data-ad-type]
 eporner.com##[id^="admobile"]
 events.baidu.com##.bottom-img

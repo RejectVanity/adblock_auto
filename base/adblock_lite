@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xaGv4QURuYplAKaNM7GGEA
+! Checksum: ipDD2Ys0l/1HVD4cSperqA
 ! Title: 混合规则(精简版)
-! Version: 20230902202122
+! Version: 20230903011924
 ! Expires: 1145141919810
-! Last modified: 2023-09-02 20:22:46
-! Total Count: 23830
+! Last modified: 2023-09-03 01:20:30
+! Total Count: 23892
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -15935,6 +15935,7 @@ dvdgayporn.com##.sidebar a[href^="http://join."][href*=".com/track/"] > img
 dvdgayporn.com,playpornfree.xyz,pornflixhd.com##+js(set-constant, dtGonza.playeradstime, -1)
 dyjihe8.com##div[style*="text-indent: -10000px !important; line-height: 0px !important;"]
 dzfoot.com##.messageB
+e-kei.com##div[class="row"][style="margin:3px 0px;display:flex;flex-wrap: wrap;justify-content:space-evenly;width:100%;"],img[src^="data:image/png;base64"],table > tr[style="border-bottom:1px orange solid;"]
 ebony8.com,sortporn.com,freeporn8.com,amateur8.com,maturetubehere.com##.item.pignr
 ebony8.com,sortporn.com,freeporn8.com,maturetubehere.com##.is-av
 efukt.com##[data-ad-type]
@@ -18059,14 +18060,29 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .728x90.
 .adsense.
 .adserver.
+.advertmarket.
+.advertrecycling.
+.adwolf.
+.ae/ads/
+.ai/ads.
 .app?c=ggcha$document
 .app?c=ggcha$~third-party
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
+.at/ads/
+.au/ads/
+.be/ads/
 .bid/ads/
+.biz/ad.
+.biz/ad/
+.biz/ad2/
+.biz/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
 .buzz/*=$object,third-party
+.bz/ads/
+.ca/ads-
+.ca/ads/
 .cam/ads/
 .cc/?c=axza$document
 .cc/?c=axza$~third-party
@@ -18126,7 +18142,9 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/1$third-party
+.cn:*/vh5/2$third-party
 .cn:*/vj5/1$third-party
+.cn:*/vj5/2$third-party
 .co/ads/
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
@@ -18247,19 +18265,29 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .com/user?$third-party
 .com/vh1/$script,third-party
 .com/vh1/1$third-party
+.com/vh1/2$third-party
 .com/vh2/$script,third-party
 .com/vh2/1$third-party
+.com/vh2/2$third-party
 .com/vh3/1$third-party
+.com/vh3/2$third-party
 .com/vh4/1$third-party
+.com/vh4/2$third-party
 .com/vh5/$script,third-party
 .com/vh5/1$third-party
+.com/vh5/2$third-party
 .com/vj1/$script,third-party
 .com/vj1/1$third-party
+.com/vj1/2$third-party
 .com/vj2/$script,third-party
 .com/vj2/1$third-party
+.com/vj2/2$third-party
 .com/vj3/1$third-party
+.com/vj3/2$third-party
 .com/vj4/1$third-party
+.com/vj4/2$third-party
 .com/vj5/1$third-party
+.com/vj5/2$third-party
 .com/vodad.js
 .com/wcm/?sh=*&$third-party
 .com/xtub_*_rony.js$third-party
@@ -18280,15 +18308,25 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/vh1/1$third-party
+.com:*/vh1/2$third-party
 .com:*/vh2/1$third-party
+.com:*/vh2/2$third-party
 .com:*/vh3/1$third-party
+.com:*/vh3/2$third-party
 .com:*/vh4/1$third-party
+.com:*/vh4/2$third-party
 .com:*/vh5/1$third-party
+.com:*/vh5/2$third-party
 .com:*/vj1/1$third-party
+.com:*/vj1/2$third-party
 .com:*/vj2/1$third-party
+.com:*/vj2/2$third-party
 .com:*/vj3/1$third-party
+.com:*/vj3/2$third-party
 .com:*/vj4/1$third-party
+.com:*/vj4/2$third-party
 .com:*/vj5/1$third-party
+.com:*/vj5/2$third-party
 .com:*/waga*.html$document
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
@@ -18963,6 +19001,29 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /pixel/purst?
 /pixel/sbe?
 /pixelads/*
+/plugins/cactus-ads/*$script,stylesheet
+/plugins/cpx-advert/*$script
+/plugins/dx-ads/*$script
+/plugins/meks-easy-ads-widget/*
+/plugins/mts-wp-in-post-ads/*
+/plugins/ultimate-popunder/*$~stylesheet
+/plugins/wp-moreads/*$~stylesheet
+/plugins_ads_
+/plus/ad_
+/pm_ads/*
+/poker-ad.
+/poki-ads.
+/poll-ad-
+/polopoly_fs/ad-
+/pool.ads.
+/pool/ad/*
+/pop_ad.
+/pop_adfy.
+/pop_ads.
+/pop_under/*
+/popad-
+/popads/*
+/popads_
 /popunder1000.js$third-party,script
 /popup/adblocker
 /redbaiduct.com?s=$third-party
@@ -21142,6 +21203,8 @@ zle.com$script
 ##.ad-title
 ##.ad-top
 ##.ad.mi_btcon
+##.ad.noadmo
+##.ad.none
 ##.ad01
 ##.ad02
 ##.ad03
@@ -21266,6 +21329,7 @@ zle.com$script
 ##.adpc > .promt-link_
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
+##.ads > img
 ##.ads-1
 ##.ads-2
 ##.ads-after-content
@@ -21633,6 +21697,7 @@ zle.com$script
 ##.n-banner--adblocked
 ##.nQIAj
 ##.nQIAj1
+##.naicon.btn.btn-raised
 ##.nav-area + .wrapper .tuiguang
 ##.newstyle > .container > a[target="_blank"]
 ##.newstyle > a > img[src*="img.com/i/"]
@@ -21654,6 +21719,7 @@ zle.com$script
 ##.pasuAD
 ##.pcd_ad
 ##.pcgg
+##.phone-ads
 ##.photo-two > a[onclick^="_czc."]
 ##.play_list_adbox
 ##.player + .sponsor
@@ -21858,12 +21924,9 @@ zle.com$script
 ##[class*="slick-"][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"]
 ##[class*="view-ads"]
 ##[class*="xplayer-ads-block"]
-##[class="ad noadmo"]
-##[class="ads"] > img
 ##[class="adv-img"]
 ##[class="bottommob"][id="bottommob"]
 ##[class="img"][style*="zhanlangimg.dingjiancdn.com"][style*=".gif"]
-##[class="phone-ads ads-bg"]
 ##[class="pre-play-adv"]
 ##[class="rmadb-info"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
@@ -21876,7 +21939,6 @@ zle.com$script
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] > .photo-two
-##[class^="ad none"]
 ##[class^="ad-bottom"]
 ##[class^="ad-layer"]
 ##[class^="ad-top"]
@@ -21891,7 +21953,6 @@ zle.com$script
 ##[class^="col"][class*="padding-0"] > [style]
 ##[class^="footer-ad"]
 ##[class^="m-hm-ad"]
-##[class^="naicon btn btn-raised"]
 ##[class^="navi"] > [class^="appico"]
 ##[class^="player-advertising"]
 ##[class^="player-rm"][class*="rm-two"][class*="rm-list"] > a
@@ -21916,6 +21977,7 @@ zle.com$script
 ##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
+##[href*="//ad.addizhi."][href$=".html"]
 ##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
@@ -21988,7 +22050,6 @@ zle.com$script
 ##a[alt="美高梅"][target="_blank"]
 ##a[alt="逼哩逼哩"][target="_blank"]
 ##a[alt="领882元"][target="_blank"]
-##a[class*="lazyload"][href][target="_blank"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[clickmode="ad"]
 ##a[data-track-content][data-content-name][target="_blank"]
@@ -22597,6 +22658,7 @@ zle.com$script
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style="width:100%"][id*="hengfu"]
 ##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="display:flex;flex-direction:column"] > [style*="display:flex;"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
@@ -23682,10 +23744,12 @@ zle.com$script
 @@.us/xxgg/bookxxll*.js$~third-party
 @@.us/xxgg/comm.js$~third-party
 @@.us/xxgg/yuedu.js$~third-party
+@@/index.m3u8
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
 @@1anime.me/template/conch/asset/js/hlhtml.
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
+@@://d*.cloudfront.net/douyin
 @@://img.souche.com/*.jpg
 @@://up.taoseye.com/contents/other/player/playerlogo.png
 @@game.baifumeiba.com/login/ad/adex.js
@@ -23802,10 +23866,8 @@ baidu.com#@#.ad-wrapper
 bestjavporn.com,javhdporn.net,video.bestjavporn.com#@#.ad-placement
 bestporncomix.com#@#.adsbar
 colamanhua.com#@#.gg_950
-colamanhua.com#@#img[src^="/js/a_d"][src$=".png"]
 comptoir-info.com#@#.textad
 dbz-fantasy.com#@##adTeaser
-dc.fsecity.com,dmzj.com,idmzj.com#@#[onclick*="app"]
 dealerdunet.fr#@#.text_ads
 debrideurstream.fr#@##pubdirecte
 dz-android.com,freeiphone.fr,hommedumatch.fr,jetetroll.com,polska-ie.com,testious.com#@##adsense
