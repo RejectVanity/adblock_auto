@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H8+wXdGXMLkBZ3CZcPKLSA
+! Checksum: OeJc8ssKOsQrBHEF6ULB3g
 ! Title: 自用去广告Adblock规则
-! Version: 20230903012117
-! Last modified: 2023-09-03 01:21:17
-! Total Count: 2496
+! Version: 20230904012556
+! Last modified: 2023-09-04 01:25:56
+! Total Count: 2502
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -343,6 +343,7 @@
 ##a[href^="http://s.73xx.icu/xgmn"]
 ##a[href^="http://www.lovetoytw.com/"][onclick]
 ##a[href^="https://adultfriendfinder.com"]
+##a[href^="https://app.kmtgsopq.com?agentId="][target="_blank"]
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://mnwkcf.pojuko.buzz"]
 ##a[href^="https://t.acam.link/"]
@@ -424,6 +425,7 @@
 ##div[class] > ul > li > a[href][alt^="同城"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class][style$="0vh; width: 0vw; bottom: 0px; left: 0px;"]
 ##div[class][style$="background-size: 393px 131px !important;"]
 ##div[class][style*="100vw"][style*="no-repeat"][style*="background:"][style*="0px"]
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"]
@@ -459,6 +461,7 @@
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id^="azwangye"][style*="z-index: 11000;"]
+##div[id^="photo-header-title-content-text-dall"]
 ##div[id^="player-ads"]
 ##div[id^="rfads"]
 ##div[id^="test"][style*="fixed"][style*="position:"]
@@ -872,6 +875,7 @@
 /ad-blocking-detector/*
 /ad-tetris-site/file
 /ad/display.php?$third-party
+/ad/gudingwei.js
 /ad/iframe.
 /ad/iframe/*
 /ad/image/*
@@ -1744,6 +1748,8 @@ qinav.com##div[id^="qinav_b"]
 renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
 sbdm.net##div#vodshare
+sewen.life##.links-top,table[border="1"]
+sewen.life,sewen.net,sewen.com,sewen.buzz,sewen.xyz,sewen.top##.links-top,table[border="1"]
 sexmod.pw,md91av.top,twavbook999.cc,siaoredbook.cc,mitaonuhai.cc,gipinreba.cc,r18lumod.cc##[class*="topads"],[class*="tads"],[class*="bottomads"],[class*="bads"],[class*="leftd"],[class*="rightd"],a[target="_blank"][href][onclick]
 shushudu.com##[style*="width:"][style*="100%"],[style*="width:"][style*="99%"],[width*="99%"],[width*="100%"],div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
 sina.cn##.feed.module-extend.module-recommend
