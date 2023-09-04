@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: cHhmFcnDEkkEBpPvmmx6tg
+! Checksum: MJXORRU+gtwpYzqRfwUrJw
 ! Title: 混合规则(自动更新)
-! Version: 20230905000801
+! Version: 20230905014201
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-05 00:08:01
-! Total Count: 118507
+! Last modified: 2023-09-05 01:42:01
+! Total Count: 118515
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -62555,6 +62555,8 @@
 ||w982.middletownpress.com^
 ||w99megeneral.com^
 ||w9f1r.top^
+||w9uz2f.cn^$document
+||w9uz2f.cn^$~third-party
 ||wa.and.co.uk^
 ||wa.appsflyer.com^
 ||wa.gmx.
@@ -69071,6 +69073,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3
+91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 91wenmi.com###xzsp
 91wenmi.com##a[href^="http://www.91wenmi.com/xiezuo/"]
 91wenmi.com,wenmi114.com###xiezuo
@@ -76196,6 +76199,7 @@ investopedia.com###performance-marketing_1-0
 investopedia.com##.partnerlinks
 invezz.com##.homepage-beneath-hero
 invezz.com,reviewparking.com##.mx-auto
+inxxx.com,theyarehuge.com##.desktopspot
 inyourarea.co.uk##.style_advertisementMark_1Jki4
 inyourarea.co.uk##.style_cardWrapper_ycKf8
 iobroker.net##.jss125
@@ -76514,7 +76518,7 @@ ixigua.com,juejin.im##.banner-section
 ixinshijue.com##a[href^="http"] > img[src*=".pstatp."]
 ixueshu.com##a[href^="https://adapi."]
 ixueyi.com,shangxueba.com###rightfloatdiv
-iyar.com.cn##[class][style*="131px"]
+iyar.com.cn,m4411.com##[class][style*="131px"]
 iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
@@ -77677,6 +77681,7 @@ m.youku.com##.cmt-more-cont
 m.youku.com##.hdwrap
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
 m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, {})
+m4411.com##[style*="131px"],.adlists
 m4ff.com##.content2
 m4ff.com##.index_gg_wz
 m4fz.com##a[data-etime]
@@ -78089,6 +78094,7 @@ miniwebtool.com##.normalvideo
 minwt.com##.g-336-280
 miobt.com##.gg_canvas
 miobt.com##.gg_canvas-hidden
+miohentai.com##.new-ntv
 miragenews.com##.hide-in-mob
 miragenews.com##.rem-i-s
 mirror.co.uk###comments-standalone-mpu
@@ -79793,7 +79799,9 @@ porn5f.com##.preroll-adv-popup-iframe
 porn5f.com##.preroll-adv-two
 porn5f.com##.video-promote-adv
 porn5f.com#?#.row:has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-title)
+porn87.com##.ads_desktop
 porn87.com##.pc_instant
+porn87.com##.three_ads
 pornalin.com##.aside_spots
 pornalin.com##.block_spots
 pornalin.com##.js-banner-player
@@ -81053,6 +81061,7 @@ sdzbcg.com##td[width="580"][height="279"] > table:nth-child(2n-1)
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
+seajav.com##.under_player,img[border="0"][width="300"][height="80"],[class*="lg:hidden"],[class][style*="131px"]
 search-results.com###rr_sa_container
 search.avast.com###AsbAdContainer
 search.b1.org##.adslabel
@@ -82638,7 +82647,6 @@ thewrap.com##.brid-default-skin
 thewrap.com##div[id^="dsk-box-ad"]
 theyarehuge.com##.cams-button
 theyarehuge.com##.desktop-spot
-theyarehuge.com##.desktopspot
 theyarehuge.com##.video-holder > .box
 theyarehuge.com##.yellow
 theyarehuge.com##div[data-nosnippet]
