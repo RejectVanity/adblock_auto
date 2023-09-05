@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: L5LNZ7N8X5G9Omsrtkw5KA
+! Checksum: DYDahsaUpN8lKFCttxI2Ig
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230905160950
+! Version: 20230906000829
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-05 16:09:50
-! Total Count: 23256
+! Last modified: 2023-09-06 00:08:29
+! Total Count: 23270
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3196,6 +3196,7 @@
 ||aj2555.bid^$third-party
 ||aj4j.icu^
 ||ajcnz1.com^
+||ajcode.co^
 ||ajcode.co^$third-party
 ||ajdivotdelbloab24.jio.com^
 ||ajfkwwpo.xyz^
@@ -3622,6 +3623,7 @@
 ||atuhi.cyou^
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
+||audiomob.com^
 ||audiosexstories.net/wp-content/uploads/sam-pro-images
 ||aup34.xyz^
 ||auspiciousyard.com^$third-party
@@ -3719,6 +3721,7 @@
 ||baby-kingdom.com/reqsads?
 ||baby.thinkmore.top^
 ||bacder.fun^
+||bace10.top^
 ||backchina.com/banners/
 ||bad996.com/dakaads.js
 ||badding.oss-ap-southeast-1.aliyuncs.com^
@@ -5135,6 +5138,7 @@
 ||d2wy8f7a9ursnm.cloudfront.net^$third-party
 ||d3.sina.com.cn^$object,script
 ||d3f3.xyz^
+||d3nfknbv.icu^
 ||d4.sina.com.cn^$object,script
 ||d4vd.life/love/
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
@@ -8253,6 +8257,7 @@
 ||jwjdpab.cn^
 ||jwronx.xyz^
 ||jwujvjo.cn^
+||jwylcrb.cn^
 ||jx.flzyw.com/js/foot.js
 ||jx3.freepornobook.com^
 ||jxad.jx163.com^
@@ -8558,6 +8563,7 @@
 ||kuheju.com^$popup
 ||kuk8.com^$third-party
 ||kuku99.com^$third-party
+||kunpeng-sc.csdnimg.cn/?timestamp=$subdocument,domain=blog.csdn.net
 ||kunzhang.name^
 ||kuqi.com^$third-party
 ||kusuriyasan.org^$image,third-party
@@ -8755,6 +8761,7 @@
 ||lgmi.com/windows/*-Advert.
 ||lgmi.com^*_gg
 ||lgnlaigl.fun^
+||lgoewtd.icu^
 ||lgohse.fun^
 ||lgoseh.fun^
 ||lgugsnp.cn^
@@ -10167,6 +10174,7 @@
 ||owihyg.xyz^
 ||owlinggnomist.com^
 ||ox8.topsexhdvideos.com^
+||oyfnkle.cn^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
 ||oyqjp.cn^
@@ -10754,6 +10762,7 @@
 ||psyzg.com/Public/Home/images/tuhe_240_236.gif
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
+||ptfxh.com^
 ||pthezjl.cn^
 ||ptijx.xyz^
 ||ptmabek.cn^
@@ -11051,6 +11060,7 @@
 ||qsnoownmy.fun^
 ||qsptv.com/tpl/newstyle/js/extension.js
 ||qtd95fj.online^$third-party
+||qtienly.top^
 ||qtmojo.com^$third-party
 ||quae0.top^
 ||quancuncq.xyz^
@@ -11522,6 +11532,7 @@
 ||sdfv66.com^
 ||sdfxcv.com^
 ||sdfxv57.com^
+||sdfyiu.com^
 ||sdk-api-v1.singular.net^
 ||sdk.51.la^
 ||sdk.adtiming.com^
@@ -14288,6 +14299,7 @@
 ||zbsybh.cn^$third-party
 ||zbvchabjbcj.com^
 ||zbx01.com^
+||zbzbzb.xyz^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
 ||zcbfjd.xyz^
@@ -14542,6 +14554,7 @@
 ||zt5g.top^
 ||ztaan.top^
 ||ztjal.info/wp-content/plugins/kill-adblock/
+||ztqdkzn.cn^
 ||ztxstudy.club^
 ||ztyumn.ifeng.com^
 ||zu3f.top^
@@ -21371,6 +21384,7 @@ zle.com$script
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style*="mi-img.com"]
 ##[style*="sotv.me"]
+##[style="display: flex; justify-content: space-between; width: 100%;"] > [style*="margin-bottom: 6px; background"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
