@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kO2kkcw8qXWwUOoKJagZPw
+! Checksum: wZF1CJ71TqBOZVNyyA3Z6Q
 ! Title: 自用去广告Adblock规则
-! Version: 20230905013533
-! Last modified: 2023-09-05 01:35:33
-! Total Count: 2504
+! Version: 20230905100216
+! Last modified: 2023-09-05 10:02:16
+! Total Count: 2513
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -65,6 +65,7 @@
 ##.content-ads-bottom
 ##.content-advert
 ##.content-advertisment
+##.cpcad.nopc
 ##.dlad
 ##.exo-ad-ins-container
 ##.fed-play-advs
@@ -568,6 +569,7 @@
 ##img[src$=".add"]
 ##img[src$=".gif"][style="border:0;"][width="99%"]
 ##img[src*=".tptp002.cfd/"][src$=".gif"]
+##img[src*="//image.suning.cn/uimg/ZR/share_order"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
@@ -617,6 +619,7 @@
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
+##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##table[border="1"] > tbody > tr > td > a[href][onclick*="Novel"][title]
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
@@ -796,12 +799,14 @@
 .pw/blxn_*.js?
 .shop/r/*$xmlhttprequest
 .shop/xling_*_*.js?
+.shop:*/o.js$third-party,script
 .site:*/*/*.js
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
 .top/j/*$script,third-party
 .top/k/*$script,third-party
 .top/xling_*_*.js?
+.top:*/o.js$third-party,script
 .top:*/vh5/1$third-party
 .xin/blxn_*.js?
 .xyz/*.gif?*16$third-party
@@ -1127,6 +1132,7 @@
 /popads_
 /popunder1000.js$third-party,script
 /redbaiduct.com?s=$third-party
+/rs/js/temp_1.js$script,third-party
 /sbar.json?key=
 /sdk/push_web/?zid=
 /search/tsc.php?
@@ -1642,6 +1648,7 @@ jingyanlib.com##div[id^="adIndex"]
 jinxiyue.com##a[onclick^="qinlintest"]
 kdslife.com##[class*="DownloadGuide"]
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
+kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
 luoqiuzw.com##.show-app2
 m.90xw.com##.ad
 m.bilibili.com##.home-float-openapp.launch-app-btn
@@ -2122,6 +2129,7 @@ zle.com$script
 ||ceshi*.ink/s/*?_=$third-party
 ||chiluyingxiao.com^$third-party
 ||chushoushijian.cn^$third-party
+||cje7egcisdr.xyz^
 ||clickx.autohome.com.cn^
 ||cloudflare.solutions^
 ||cloudflare.st^
@@ -2354,6 +2362,7 @@ zle.com$script
 ||rtmark.net^
 ||s.69vj.com/assets/DIY.$image,media
 ||s.htkk*.top:20443^$script
+||s2dcm.com^$third-party,script
 ||sas.com^
 ||sbcjahdc.com^$third-party
 ||sc-gov-cn.website^
