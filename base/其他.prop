@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wZF1CJ71TqBOZVNyyA3Z6Q
+! Checksum: DEb7HyaQoMLTeNgDjEaWnA
 ! Title: 自用去广告Adblock规则
-! Version: 20230905100216
-! Last modified: 2023-09-05 10:02:16
-! Total Count: 2513
+! Version: 20230905121759
+! Last modified: 2023-09-05 12:17:59
+! Total Count: 2526
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -42,6 +42,12 @@
 ##.adsbygoogle
 ##.adsbytrafficjunky
 ##.adswarning
+##.adx-300x250-container
+##.adx-300x600-container
+##.adx-ads
+##.adx-wrapper
+##.adx-wrapper-middle
+##.adx_center
 ##.appguide-wrap
 ##.articleads
 ##.bads
@@ -156,6 +162,7 @@
 ##[class^="ads"][style] > a > img[width="100%"][alt]
 ##[class^="ads"][style] > a[target="_blank"]
 ##[class^="adv-banner-"]
+##[class^="adx_video"]
 ##[class^="app"] > ul > li > a[rel="external nofollow noopener"][target="_blank"][href]
 ##[class^="appdownload_ad"]
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
@@ -567,6 +574,7 @@
 ##img[id^="daohang_hengfu"][width="100%"]
 ##img[onclick^="golh()"][width="100%"],img[onclick^="golh()"][src$=".gif"]
 ##img[src$=".add"]
+##img[src$=".dd"]
 ##img[src$=".gif"][style="border:0;"][width="99%"]
 ##img[src*=".tptp002.cfd/"][src$=".gif"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
@@ -957,6 +965,11 @@
 /advertisement_
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
+/adx_blacklist.js
+/adx_exo_
+/adx_flash.
+/adx_iframe_
+/adxads.
 /ai/s/s/su
 /ai2/s/s/su
 /aj*.php?pid=*&n=$third-party
