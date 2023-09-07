@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 2ZaihVGYtzIMB5shWQm1TQ
+! Checksum: yxKmZvvNsi+uuG8wehY+og
 ! Title: 混合规则(自动更新)
-! Version: 20230907120216
+! Version: 20230907160926
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-07 12:02:16
-! Total Count: 118753
+! Last modified: 2023-09-07 16:09:26
+! Total Count: 118752
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5180,7 +5180,6 @@
 ||ads-admin.hubs.vn^
 ||ads-api.kidsnote.com^
 ||ads-api.playfun.vn^
-||ads-api.twitter.com^
 ||ads-api.twitter.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads-api.twitter.com^$xmlhttprequest,redirect-rule=nooptext
 ||ads-bidder-api.twitter.com^
@@ -33923,6 +33922,7 @@
 ||knk95.cn^
 ||knkqjmjyxzev.info^
 ||knkyeterla.cc^
+||knliylh.cn^
 ||knlrfijhvch.com^
 ||knmnamr.cn^
 ||knmwrkw.xyz^
@@ -114787,7 +114787,6 @@ zle.com$script
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="b-cdn.net"][style*="background-size"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
-##[style*="mi-img.com"]
 ##[style*="mi-img.com"][style*="calc"]
 ##[style*="sotv.me"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
