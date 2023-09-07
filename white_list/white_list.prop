@@ -55,7 +55,8 @@ baidu.com.*#results[[:space:]]>[[:space:]]div\[class\]:not(.result):not(.result-
 ^##div\[class\*=\"ad\"[[:space:]]i\].*\!important\;)$
 ^\/assets\/ad-$
 ^\|\|d.*\.cloudfront\.net\^$
-
+! 小米商城误杀
+^##\[style\*=\"mi-img\.com\"\]$
 
 
 
