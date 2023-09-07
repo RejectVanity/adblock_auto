@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: cJr01Du1tw2Jfma/WBy1VQ
+! Checksum: 2ZaihVGYtzIMB5shWQm1TQ
 ! Title: 混合规则(自动更新)
-! Version: 20230907100646
+! Version: 20230907120216
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-07 10:06:46
-! Total Count: 118749
+! Last modified: 2023-09-07 12:02:16
+! Total Count: 118753
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -59597,6 +59597,7 @@
 ||ttgmjfgldgv9ed10.com^
 ||tthefireanddrs.work^
 ||ttidstfuqhj.xyz^
+||ttienli.top^
 ||ttigacl.com^
 ||ttihpaaxkgri.com^
 ||ttmetrics.jcpenney.com^
@@ -72171,6 +72172,7 @@ commonhealth.com.tw##div[class*="ad--"]
 community.spiceworks.com##.community-content--ad_card
 community.spiceworks.com##.gekko_leaderboard
 comparitech.com##.ct_popup_modal
+compellingtruth.org##.sponsor-sidebar
 competenetwork.com##div[id^="compe-"]
 complaintsingapore.com##[href*="/adv.php"]
 complaintsingapore.com##[href="https://thechillipadi.com/"]
@@ -82857,6 +82859,7 @@ theverge.com##div[data-concert]
 theweather.com,theweather.net,yourweather.co.uk##.megabanner
 theweather.com,theweather.net,yourweather.co.uk##.meteored-ads
 theweather.net##.creatividad
+theweathernetwork.com##.gGthWi
 thewindowsclub.com,lesbian8.com,bigtitslust.com,sexe-libre.org##a[rel$="sponsored"]
 theworld.cn##.download-now
 thewrap.com##.aspect-ratio-box-inside
@@ -84335,6 +84338,7 @@ writerscafe.org##.pay
 wsj.com###coupon-links
 wsj.com###in_ad_col_b
 wsj.com###saving-united-coupon-list
+wsj.com##.uds-ad-container
 wsj.com##.w27771
 wsj.com##.wsj-ad-label
 wsj.com##[aria-label="Sponsored Offers"]
@@ -118583,7 +118587,7 @@ lm-us.com#@#.advertisement_above_footer
 ltn.com.tw,tomwans.com#@#.adright
 m.motonet.fi#@#.ProductAd
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com#@#.ad_caption
-m.xiaomiyoupin.com#@#[style*="mi-img.com"]
+m.xiaomiyoupin.com,mi.com#@#[style*="mi-img.com"]
 macwk.com#@#.adBanner
 mafagames.com#@##adsContainer
 magazines-download.com#@#.item-ads
