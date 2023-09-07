@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dLM4ti/qgRqLMkSEjyn5Pg
+! Checksum: 7nYfJws/U8d0WZ3Jo3KyRQ
 ! Title: 去除小说广告
-! Version: 20230830092921
-! Last modified: 2023-08-30 09:29:21
-! Total Count: 2058
+! Version: 20230907090929
+! Last modified: 2023-09-07 09:09:29
+! Total Count: 2057
 ###ChapterView > .slide-baidu
 ##.ReadAd
 ##.ReadAd2
@@ -15,7 +15,6 @@
 ##[id^="bfad"]
 ##[id^="syad"]
 ##[id^="xqad"]
-##[onclick*="app"]
 ##[onclick="window.open(this.url)"][src]
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##div[onclick*="window.location.href"][onclick*=".biqu"][onclick*="app"]

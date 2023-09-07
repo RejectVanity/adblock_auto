@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DEb7HyaQoMLTeNgDjEaWnA
+! Checksum: VvDVbK5Q185mLKIIB/W+Tg
 ! Title: 自用去广告Adblock规则
-! Version: 20230905121759
-! Last modified: 2023-09-05 12:17:59
-! Total Count: 2526
+! Version: 20230907090739
+! Last modified: 2023-09-07 09:07:40
+! Total Count: 2531
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -141,7 +141,7 @@
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
-##[class*="banner-"][class*="cctv"]
+##[class*="banner"][class*="cctv"]
 ##[class*="card-ads"]
 ##[class*="floating_ads"]
 ##[class*="juicyads"]
@@ -328,6 +328,7 @@
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
 ##a[href][style*="overflow:hidden;display:block;"] > img[src$=".gif"][style*="width:100%"]
+##a[href][style="display:none!important"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
@@ -386,6 +387,7 @@
 ##body.page > .popup
 ##body[ontouchstart] > #topBox
 ##body[style] > embed[id][src*="://"][src$="="]
+##body[style^="padding"] > [style$="background-size: 407px 148.5px !important;"]
 ##center[style="display: none;"] > span[style][onclick]
 ##citrus-ad-wrapper
 ##dd > a[data-uuid]
@@ -441,6 +443,7 @@
 ##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"],div[class][style*="z-index:"][style*="display: block;"][style$="98px;"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
+##div[class^="cvbcvxvb"][style]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
 ##div[class^="img"][title$="棋牌"]
@@ -588,6 +591,7 @@
 ##img[src*="://ad.xmmnsl.com"]
 ##img[src*="://dpic."][src*=".cn"][src$=".js"]
 ##img[src*="://dpic."][src*=".cn"][src$=".txt"]
+##img[src*="://hfh.bgfe26.cn"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
 ##img[src*="://kpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://mpic."][src*=".cn"][src$=".js"]
@@ -676,9 +680,7 @@
 .club/r/*$xmlhttprequest
 .cn/20*/*/*.txt$third-party
 .cn/Report/*-*-$third-party,other
-.cn/api/LM/*?placeUUID=$third-party
 .cn/api/LM/GetBaiDuCode?placeUUID=$third-party
-.cn/api/LM/Report?placeUUID=$third-party
 .cn/api/getPos?jspath=/$~third-party
 .cn/cg/*-*.cg$third-party
 .cn/j/*$script,third-party
@@ -973,6 +975,8 @@
 /ai/s/s/su
 /ai2/s/s/su
 /aj*.php?pid=*&n=$third-party
+/api/LM/*placeUUID=$third-party
+/api/LM/Report*placeUUID=$third-party
 /api/LM/Report?placeUUID=$third-party
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
@@ -2093,6 +2097,7 @@ zle.com$script
 ||agilesrv.com^
 ||aj2555.bid^$third-party
 ||ajcode.co^$third-party
+||ajkjbcjbaaaed.com^$third-party
 ||ajtdumo.cn^$third-party
 ||al.autohome.com.cn^
 ||alert.autohome.com.cn^
