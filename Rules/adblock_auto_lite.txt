@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7FJZSvIPkw1jLcLfLCJslA
+! Checksum: /UBwiOmntAiFqvvEXULuOA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230910160801
+! Version: 20230911000730
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-10 16:08:01
-! Total Count: 23336
+! Last modified: 2023-09-11 00:07:30
+! Total Count: 23340
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4131,6 +4131,7 @@
 ||bis8j.com^
 ||bisonads.com^
 ||bitauto.com/js/sense*.js
+||bitizm.pojuko.buzz^
 ||bitporno.to/popup18.js
 ||bitscn.com/js/a2
 ||bitu.fun^
@@ -8098,6 +8099,7 @@
 ||jnlc.com/www/fund/newsmarket
 ||jnmaeun.xyz^
 ||jnmami.cn^
+||jnp0kmm.icu^
 ||jntxvf.xyz^
 ||jnwq.xyz^
 ||jochenanabata.guru^
@@ -13008,6 +13010,7 @@
 ||ustv123.com/images/axd.js
 ||usualt.com^$third-party,important
 ||utci9.cn^
+||utienlt.top^
 ||utlove02.com^$third-party
 ||utqzauw.cn^
 ||uu1.3gu.com^
@@ -15082,7 +15085,7 @@ collectionofbestporn.com###lower-ads
 collectionofbestporn.com##+js(abort-on-property-read, __ads)
 collectionofbestporn.com##.main-nav-list > li > a[rel="nofollow"]
 colliderporn.com##.player-container > .aside-blocks
-comgk.com##a[ontouchstart],a[onclick],[class^="cvbcvxvb"],[href*="baidujkdjklvvsbvk.com"]
+comgk.com,okdyy.com##a[ontouchstart],a[onclick],[class^="cvbcvxvb"],[href*="baidujkdjklvvsbvk.com"]
 cosplayporntube.com##div[class*="Creative"]
 cowcotland.com,wamiz.com###adblocker
 crabporn.com##.bottom-bns-block
@@ -21622,6 +21625,7 @@ zle.com$script
 ##a[href*="//adclick.g.doubleclick.net"]
 ##a[href*="//adultfriendfinder.com"]
 ##a[href*="//baidujkdjklvvsbvk.com"]
+##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//go.admjmp.com/"]
 ##a[href*="//go.cmtaffiliates.com/"]
 ##a[href*="//go.currency.com/"]
