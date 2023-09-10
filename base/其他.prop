@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 37tOqiDbN4PEZhOWRRyDdQ
+! Checksum: FXbwR9qiHACcrL0RqraAaA
 ! Title: 自用去广告Adblock规则
-! Version: 20230908024534
-! Last modified: 2023-09-08 02:45:34
-! Total Count: 2540
+! Version: 20230910212431
+! Last modified: 2023-09-10 21:24:31
+! Total Count: 2542
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -275,6 +275,7 @@
 ##a[href*="//adclick.g.doubleclick.net"]
 ##a[href*="//adultfriendfinder.com"]
 ##a[href*="//baidujkdjklvvsbvk.com"]
+##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//go.admjmp.com/"]
 ##a[href*="//go.cmtaffiliates.com/"]
 ##a[href*="//go.currency.com/"]
@@ -1535,7 +1536,7 @@ chrybloom.live,chrybloom.cc,jisaobad.vip,jisaobad.cc,jieyunuhai.info,aprk2.top,y
 colamanhua.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"]
 colamanhua.com#@#.gg_950
 colamanhua.com,ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
-comgk.com##a[ontouchstart],a[onclick],[class^="cvbcvxvb"],[href*="baidujkdjklvvsbvk.com"]
+comgk.com,okdyy.com##a[ontouchstart],a[onclick],[class^="cvbcvxvb"],[href*="baidujkdjklvvsbvk.com"]
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 d1bzw.com##[id="appurl"],[id="bbsurl"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
@@ -2132,6 +2133,7 @@ zle.com$script
 ||bbangads.*.net^$third-party
 ||beijing163.aliyunapi.org^$third-party,script
 ||bisonads.com^
+||bitizm.pojuko.buzz^
 ||bj-gov-cn.website^
 ||bjzankai.com^$script,third-party
 ||bl230126pb.com^
