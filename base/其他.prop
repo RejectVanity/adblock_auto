@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FXbwR9qiHACcrL0RqraAaA
+! Checksum: zxB+6CcIF648jg65NU+iAA
 ! Title: 自用去广告Adblock规则
-! Version: 20230910212431
-! Last modified: 2023-09-10 21:24:31
-! Total Count: 2542
+! Version: 20230911085223
+! Last modified: 2023-09-11 08:52:23
+! Total Count: 2547
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -507,6 +507,7 @@
 ##iframe[src*="//av.ageverify.co/"]
 ##iframe[src*="//go.goaserv.com"]
 ##iframe[src*="//go.goasrv.com/"]
+##iframe[src*="//rtbrenab.com/get"]
 ##iframe[src*="//tfosrv.com"]
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
@@ -2325,6 +2326,7 @@ zle.com$script
 ||lwonclbench.com^$third-party
 ||magsrv.com^$third-party
 ||mail.kguapp.com^
+||matomo.cloud^
 ||mc.webvisor.org^
 ||mc.yandex.ru^
 ||mc2n.xyz^
@@ -2387,6 +2389,9 @@ zle.com$script
 ||riamiavid.com^
 ||route34.cn^
 ||rpvdfb.xyz^
+||rtbpopd.com^
+||rtbrenab.com^
+||rtbrennab.com^
 ||rtbrennab.com^$third-party
 ||rtmark.net^
 ||s.69vj.com/assets/DIY.$image,media
