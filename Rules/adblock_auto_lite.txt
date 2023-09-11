@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: LioNPXMjrviDVIZ39Ifm2g
+! Checksum: Epqmo7oM4hMcU05v5mJkpg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230912000839
+! Version: 20230912004430
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-12 00:08:39
-! Total Count: 23349
+! Last modified: 2023-09-12 00:44:30
+! Total Count: 23354
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9263,6 +9263,7 @@
 ||materiel.baizhan.net^
 ||materiel.junshidao.com^
 ||mateul.top^
+||matomo.cloud^
 ||matrix.dailyinnovation.biz^
 ||maturefatporn.com/max.js
 ||maturesex.fun/vcrtlrvw/fjhreiow.php
@@ -11389,6 +11390,9 @@
 ||rtb.appbid.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||rtborp.xyz^
+||rtbpopd.com^
+||rtbrenab.com^
+||rtbrennab.com^
 ||rtbrennab.com^$third-party
 ||rtcegcp.cn^
 ||rtdxqq.com^
@@ -22121,6 +22125,7 @@ zle.com$script
 ##iframe[src*="//av.ageverify.co/"]
 ##iframe[src*="//go.goaserv.com"]
 ##iframe[src*="//go.goasrv.com/"]
+##iframe[src*="//rtbrenab.com/get"]
 ##iframe[src*="//syndication.exosrv.com/"]
 ##iframe[src*="//tfosrv.com"]
 ##iframe[src*="//vidsservices.space/"]
