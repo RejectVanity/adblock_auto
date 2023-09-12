@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TksRSYpVoCnCN1+CnJYKqA
+! Checksum: KNblF2Hsu8aUK4XUzFjmBg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230912184112
+! Version: 20230913000849
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-12 18:41:12
-! Total Count: 23361
+! Last modified: 2023-09-13 00:08:49
+! Total Count: 23371
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -246,6 +246,7 @@
 ||126.net/ntesrich/*/suning-
 ||126.net^$script,redirect=noop.js,domain=rjno1.com
 ||1267a.xyz^
+||126ccb.xyz^
 ||127.net/2018/08/15/71ee02b5b61c4090b3ce0116306596c2.jpeg
 ||127.net/external/js6promote
 ||127.net/external/js6public126_
@@ -3398,6 +3399,7 @@
 ||ancientact.com^$third-party
 ||andro-news.com/images/content/andronews_banner_
 ||andro-news.com/images/content/for_website_andro_news.jpg
+||anei.tv^$third-party
 ||anews7.nvwu.com^
 ||anfw.com.cn^
 ||angelweb.cn/Inc/AngelG.js
@@ -4931,6 +4933,7 @@
 ||cnzz.yifenghuyu.com^$third-party
 ||cnzzla.com/public/scripts/money.js
 ||coandroid.ru/uploads/mobcoin.png
+||cocloud.site^
 ||cocomanga.com/sw.js
 ||cod.southmoney.com^
 ||code.bizdirlib.com^
@@ -6485,6 +6488,7 @@
 ||gd163.*/2018_ad/
 ||gdbyhtl.net^*adfix/
 ||gdcytv.cn^*.gif
+||gdfp.gifshow.com^
 ||gdjme27.com^
 ||gdl.i9dhjx.ru^
 ||gdmm.com*/mybt/
@@ -8227,6 +8231,7 @@
 ||jsdelivr.net/gh/yaociyuan/
 ||jsdelivr.net/gh/yaofa88/bifa@main/*960
 ||jsf.cnlinfo.net^
+||jsgdvkjz.com^
 ||jsinfo.net^$third-party
 ||jsl44w.xyz^
 ||jslbaha.top^
@@ -10190,6 +10195,7 @@
 ||otcdn2.auditude.com^
 ||other.appcpi.net^
 ||othoj.xyz^
+||otienlk.top^
 ||otoeew.xyz^
 ||otreh.xyz^
 ||otwiss.xyz^
@@ -10238,6 +10244,7 @@
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
 ||p0y.cn^$image,domain=~ipinyou.com.cn
+||p1-lm.adukwai.com^
 ||p1.chinakaoyan.com^
 ||p1.qxzsw.com^
 ||p1.zhongyoo.com^
@@ -11152,6 +11159,7 @@
 ||qzngisyy.xyz^
 ||qzone.la/Scripts/m.js
 ||qzos9ou.xyz^
+||qzpbwq.com^
 ||qzsfmbt.cn^
 ||r.99waiyu.com^
 ||r.freeadultporn.tv^
@@ -14286,6 +14294,7 @@
 ||yxgfcj.com^$third-party
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
 ||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
+||yxvoud.com^
 ||yxzp.net/left.js
 ||yy17173.dtime.com^
 ||yy18.info/yyads/
@@ -20752,6 +20761,7 @@ zle.com$script
 ##.adlist
 ##.adlistcss
 ##.adp-popup
+##.adpc
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads > img
