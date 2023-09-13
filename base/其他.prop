@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F7EadR4BMGD6WLWMHMgpwg
+! Checksum: 8yHk745Nby3fj67OB9tJQw
 ! Title: 自用去广告Adblock规则
-! Version: 20230912132707
-! Last modified: 2023-09-12 13:27:07
-! Total Count: 2547
+! Version: 20230913164749
+! Last modified: 2023-09-13 16:47:49
+! Total Count: 2553
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -77,6 +77,7 @@
 ##.fed-play-advs
 ##.feed-ad
 ##.float-ad
+##.floating_ads
 ##.foot-dp-fix
 ##.footads
 ##.g-slide
@@ -319,6 +320,7 @@
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
 ##a[href="/baidu/index.html"]
+##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="http://52199.vip"]
 ##a[href="http://595tz166.cc"]
 ##a[href="http://www.zmtt.net/download"]
@@ -442,6 +444,7 @@
 ##div[class][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[class][style*="9.6vw;"][style$="background:#000;opacity:0.01;"],div[class][style*="131px"][style*="bottom"],div[style*="bottom:0vw;"][style*="9.6vw;"][style$="background: #000;opacity:0.01;"],div[style*="bottom:0vw;"][style*="9.6vw;"][style$="background:#000;opacity:0.01;"]
 ##div[class][style*="bottom: 0px; left: 0px; z-index:"][style*="0px 0px"][style*="no-repeat"]
 ##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"],div[class][style*="z-index:"][style*="display: block;"][style$="98px;"]
+##div[class][style*="z-index:"][style*="0px 0px / 100vw"][style*="no-repeat"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="cvbcvxvb"][style]
@@ -2153,6 +2156,7 @@ zle.com$script
 ||c-ctrip.com/train/*/*.jpg
 ||c.autohome.com.cn^
 ||c.j0rd.vip^
+||cdn-aousoce.org/*/musoapp.js$third-party
 ||celcxjb.cn^
 ||cer.niaideren.icu^
 ||ceseasons.com^
@@ -2197,6 +2201,7 @@ zle.com$script
 ||dicouksa.com^
 ||dilidili*.com/js/wap2-jm-ms.js$script
 ||dizhi.men/js/*ad*.js$third-party,script
+||doyougothere.com^$third-party
 ||dpic.wxddid.cn^$third-party
 ||drfvtgbyk.xyz^$third-party
 ||dspmnt.autohome.com.cn^
@@ -2255,6 +2260,7 @@ zle.com$script
 ||halihali*.com/js/wap2-jm-ms.js?$script
 ||hb.vhsrv.com^
 ||hffxc.com^$third-party,script
+||hhxsp.xyz/hf.js$script
 ||highperformancedisplayformat.com^
 ||histats.com^$third-party
 ||hnert.okmwfq.xyz^
