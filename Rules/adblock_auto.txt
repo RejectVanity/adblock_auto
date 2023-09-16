@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: FFEy5Z3Rix3GVlsHKxWoeA
+! Checksum: 2bmNhPbOOUgYnnhBL5y7sw
 ! Title: 混合规则(自动更新)
-! Version: 20230916000809
+! Version: 20230916082825
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-16 00:08:09
-! Total Count: 119944
+! Last modified: 2023-09-16 08:28:25
+! Total Count: 119948
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -602,6 +602,7 @@
 ||154.7.80.158^
 ||154886c13e.com^
 ||1558334541.rsc.cdn77.org^
+||155zn.com^
 ||156.232.37.2^
 ||156.233.32.123^$third-party
 ||156.246.162.2^
@@ -32489,6 +32490,7 @@
 ||jcreje.com^
 ||jcsppgv.cn^
 ||jcvty.cyou^
+||jcwtml.icu^
 ||jcyjly.com^
 ||jcylrv.iask.com.cn^
 ||jcyunk2.com^
@@ -63219,6 +63221,7 @@
 ||vm5apis.com^
 ||vmap.v.ad-generation.jp^
 ||vmax-ktv.com^
+||vmbzhfh.cn^
 ||vmdlxj.xyz^
 ||vmet.ro^
 ||vmewz.xyz^
@@ -67703,6 +67706,7 @@
 ||ywg.jobui.com^
 ||ywhnh.top^
 ||ywinterspace.ltd^
+||ywkkmze.cn^
 ||ywqpgy.com^
 ||ywrvpmapjcg.xyz^
 ||ywsiqlg.cn^
@@ -69402,7 +69406,6 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 18comic.*##body .bot-per
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > div
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
@@ -78083,7 +78086,6 @@ jjwxc.net##table[style^="width:984px;"]
 jkpan.cc##+js(abort-current-script, document.writeln, \u)
 jkpan.cc##+js(abort-current-script, jQuery, \u)
 jlpcn.net##.vodAd
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > div
 jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
 jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img + [style]
 jmail.co.za,tsamail.co.za,webmail.co.za##.content-section-left
@@ -81863,6 +81865,7 @@ qunar.com##.flight_ad
 qunar.com##.list_promotion_bar
 quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-pb--medium
 quora.com##.dom_annotate_ad_image_ad
+quora.com##.dom_annotate_ad_promoted_answer
 quora.com##.dom_annotate_ad_text_ad
 quora.com##.promoted_answer_wrapper
 quora.com##.spacing_log_question_page_ad
@@ -98660,6 +98663,7 @@ zle.com$script
 ###ad-billboard
 ###ad-billboard-atf
 ###ad-billboard-bottom
+###ad-billboard01
 ###ad-blade
 ###ad-block
 ###ad-block-125
