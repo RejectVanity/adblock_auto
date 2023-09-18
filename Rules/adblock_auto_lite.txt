@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 53WGvQznGRc9xLxKeA9CAQ
+! Checksum: bM+nFCMbMD+Y5D81MVlHhg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230918083035
+! Version: 20230918160954
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-18 08:30:35
-! Total Count: 23463
+! Last modified: 2023-09-18 16:09:54
+! Total Count: 23465
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -7616,6 +7616,7 @@
 ||imageshh.com^
 ||imagespublic.tk/clothes/comeliness.php
 ||imapi-sg.isnssdk.com^
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=hoy.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=line.me,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 ||imasdk.googleapis.com^
@@ -11166,6 +11167,7 @@
 ||qtd95fj.online^$third-party
 ||qtienly.top^
 ||qtmojo.com^$third-party
+||qu96.com^
 ||quae0.top^
 ||quancuncq.xyz^
 ||quantserve.com^$object,redirect-rule=noopjs
