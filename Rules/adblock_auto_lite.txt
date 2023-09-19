@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: axO70mudlbBqxH41TapWnQ
+! Checksum: 7ABKbPLByB3tOr+QEdD+ag
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230919000828
+! Version: 20230919083133
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-19 00:08:28
-! Total Count: 23470
+! Last modified: 2023-09-19 08:31:33
+! Total Count: 23479
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -363,6 +363,7 @@
 ||17k.com/jump/uh
 ||17ok.com/focus/3j_right_jdt.shtml
 ||17yy.com/style/ifra_ad/
+||18-comic.work/media/albums/*?$media
 ||180.76.171.28^
 ||180.96.27.85^*.htm
 ||18183.com/common/js/side.js
@@ -5841,6 +5842,7 @@
 ||ebscb0l.xyz^
 ||ebten.xyz^
 ||ebuqxsjq.com^
+||ecami.xyz^
 ||ecav5.com^
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
@@ -9119,6 +9121,7 @@
 ||lxting.com^
 ||lxyl66.cn^
 ||ly6080.com.cn/gg/
+||lybxft.xyz^
 ||lycc72.com/resources/js/content.js
 ||lychangxu.cn^$third-party
 ||lycjsix.cn^
@@ -13173,6 +13176,7 @@
 ||v9gfm.xyz^
 ||vagvedi.cn^
 ||vainews.cn^
+||vakdop.icu^
 ||valshara.com^$third-party
 ||valuepornmedia.com^$third-party
 ||vanpeople.com/gg/
@@ -14516,6 +14520,7 @@
 ||zeipw.xyz^
 ||zen0935.com^
 ||zents10.top^
+||zents5.top^
 ||zents7.top^
 ||zeookuv.xyz^
 ||zerolcp.cn^
@@ -14603,6 +14608,7 @@
 ||zhoubo01.cn^
 ||zhouduanyyds.com^
 ||zhouduayqq.com^
+||zhrrzug.xyz^
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
 ||zhuji.net/2007_ad/
 ||zhujiwiki.com/ad/
@@ -23318,9 +23324,11 @@ zle.com$script
 @@||150075.com^$domain=tecms.net
 @@||ad.doubleclick.net/*/adi/com.ytbc/$domain=youtube.com
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
+@@||alwingulla.com/88/tag.min.js$domain=darkino.online
 @@||ams.cdn.arkadiumhosted.com/assets/arena-4/arena/heap/advertisements.js$script,domain=jeux.lemonde.fr
 @@||anidub.com/ads.js|$script,domain=anidub.com
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
+@@||ankrzkz.sbs/js/boxad.js?$script,~third-party
 @@||anyporn.com/get_file^
 @@||anyporn.com/js/functions.js
 @@||anyporn.com/js/jquery.easy-autocomplete-my.js
@@ -23339,6 +23347,7 @@ zle.com$script
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
 @@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com
 @@||cyberdean.fr/js/advertisement.js
+@@||darkino.online^$generichide
 @@||dato.porn/js/pop.js|
 @@||dbz-fantasy.com/ads.css
 @@||docs.w3cub.com^$generichide
