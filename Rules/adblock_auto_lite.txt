@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: o6vlZ1MASCdFL8yFpKmX/A
+! Checksum: NODrKQQb8T5hL//V3TQHpw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230919111158
+! Version: 20230919120712
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-19 11:11:58
-! Total Count: 23503
+! Last modified: 2023-09-19 12:07:12
+! Total Count: 23504
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -21522,7 +21522,6 @@ zle.com$script
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
 ##[class^="bfad"]
-##[class^="col"][class*="padding-0"] > [style]
 ##[class^="footer-ad"]
 ##[class^="m-hm-ad"]
 ##[class^="navi"] > [class^="appico"]
@@ -21950,6 +21949,7 @@ zle.com$script
 ##a[href*="www.pssy.xyz"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
+##a[href="/download/apps"] > img[style^="max-width: 100%"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
@@ -22374,6 +22374,7 @@ zle.com$script
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
+##img[src*="/images/banner/ads"]
 ##img[src*="/new/ads/"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
