@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xvqwTAXR8/zDliAj3ycn7g
+! Checksum: HKOt7Ak/qnl1g7Tqlgl09A
 ! Title: 自用去广告Adblock规则
-! Version: 20230919110253
-! Last modified: 2023-09-19 11:02:53
-! Total Count: 2591
+! Version: 20230919115614
+! Last modified: 2023-09-19 11:56:14
+! Total Count: 2592
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -169,7 +169,6 @@
 ##[class^="banner-grid-item"] > a[target="_blank"][rel="nofollow"][href][style="height:80px"]
 ##[class^="bdads"]
 ##[class^="bfad"]
-##[class^="col"][class*="padding-0"] > [style]
 ##[class^="footer-ad"]
 ##[class^="m-hm-ad"]
 ##[class^="navi"] > [class^="appico"]
@@ -327,6 +326,7 @@
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
 ##a[href="/baidu/index.html"]
+##a[href="/download/apps"] > img[style^="max-width: 100%"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="http://52199.vip"]
 ##a[href="http://595tz166.cc"]
@@ -597,6 +597,7 @@
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
+##img[src*="/images/banner/ads"]
 ##img[src*="/new/ads/"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
