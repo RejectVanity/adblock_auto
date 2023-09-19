@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m/nF/61mRL8eq6gCmR+pTg
+! Checksum: xvqwTAXR8/zDliAj3ycn7g
 ! Title: 自用去广告Adblock规则
-! Version: 20230917223609
-! Last modified: 2023-09-17 22:36:09
-! Total Count: 2565
+! Version: 20230919110253
+! Last modified: 2023-09-19 11:02:53
+! Total Count: 2591
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -237,6 +237,7 @@
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##[style="position: absolute; inset: 0px;"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
 ##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
@@ -261,15 +262,21 @@
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[clickmode="ad"]
 ##a[data-track-content][data-content-name][target="_blank"]
+##a[href$=".vip"][target="_blank"][class] > span
 ##a[href*="&Ad_ID="]
 ##a[href*=".biquge"][href*="app"]
 ##a[href*=".cc:"] > img[src]
+##a[href*=".cc:"][target="_blank"][class] > span
 ##a[href*=".club:"] > img[src]
 ##a[href*=".com/av.html?"] > img[src]
 ##a[href*=".com:"] > img[src]
+##a[href*=".com:"][target="_blank"][class] > span
 ##a[href*=".html?channelCode="]
+##a[href*=".lvdou.life/"][target="_blank"]
 ##a[href*=".top"] > img[src]
+##a[href*=".top:"][target="_blank"][class] > span
 ##a[href*=".vip:"] > img[src]
+##a[href*=".xyz"][target="_blank"][class] > span
 ##a[href*=".xyz:"] > img[src]
 ##a[href*=".xyz?ch=ssmh"]
 ##a[href*="//ad.doubleclick.net"]
@@ -585,6 +592,7 @@
 ##img[src$=".dd"]
 ##img[src$=".gif"][style="border:0;"][width="99%"]
 ##img[src*=".tptp002.cfd/"][src$=".gif"]
+##img[src*=".wzxty168.com"][src$=".gif"][width="100%"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
@@ -684,6 +692,7 @@
 .cc/ad/
 .cc/api/getPos?jspath=/$~third-party
 .club/r/*$xmlhttprequest
+.cn/*-*-*.xc$script,third-party
 .cn/20*/*/*.txt$third-party
 .cn/Report/*-*-$third-party,other
 .cn/api/LM/GetBaiDuCode?placeUUID=$third-party
@@ -1045,6 +1054,7 @@
 /file/ads/*
 /fileadmin/ads/*
 /files/ads/*
+/gs/hengfu_$script
 /html/ads/*
 /html/ads_
 /html/sponsors/*
@@ -1095,6 +1105,7 @@
 /leaderboardads.
 /ledad.
 /lv/esnk/*$script,third-party
+/matomo.js$third-party,script
 /mdzzxttss.php?s=
 /modalad.
 /module-ads-html-$script
@@ -1126,6 +1137,17 @@
 /new/yinghua*/top.js$third-party,script
 /new/yinghuacd*/bottom.js$third-party,script
 /npc/sdk/wp-banners.js$script,third-party
+/openads-
+/openads.
+/openads/*
+/openads2/*
+/openads_
+/openadserver/*
+/orbitads.
+/origin-ad-
+/original/ad_
+/os230718.oss-
+/other/ads/*
 /pagead2.
 /picture/ad/*
 /pictureads/*
@@ -1197,6 +1219,8 @@
 /templets/yycms3/img/*
 /upload/ads/*$domain=~ads.ae
 /vs.php?id=$third-party,xmlhttprequest
+/wenziad.js?var=$script
+/wenziad.js?var=$script,~third-party
 /widget-advert.
 /widget-advert?
 /widget/ad/*
@@ -1383,6 +1407,7 @@
 @@.com/*M*M*M*M*M*M*==$third-party,domain=youtube.com
 @@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
 @@/index.m3u8
+@@/matomo.js$domain=github.com|trcet77.com
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@1anime.me/template/conch/asset/js/hlhtml.
@@ -1544,6 +1569,7 @@ cambb.xxx,chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermain
 camporn.to,camseek.tv,camstreams.tv,domainnamewire.com,eurogirlsescort.com,ghostbin.me,hdtube.porn,hotstunners.com,i24news.tv,manofmany.com,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,petapixel.com,pornburst.xxx,pornflix.to,punishbang.com,rapidtvnews.com,sexu.com,teenfuckhd.com,telesurtv.net,thehackernews.com,theporngod.com,travelpulse.com,vibexxx.com,wantedbabes.com,wonderopolis.org,worldofmods.com,xxxadultphoto.com,xxxdl.net##.banners
 canovel.com,aaanovel.com,hhhbook.com##[id*="_IM_Chat"]
 canovel.com,aaanovel.com,hhhbook.com##a[href][title][target="_blank"]
+cc/o.js$third-party,script
 che168.com##.talkprice.liaoliao.float-zixun
 chejiahao.m.autohome.com.cn##.pgc-details-recommend-list
 chinasex.com.es##[class^="footer-ad"]
