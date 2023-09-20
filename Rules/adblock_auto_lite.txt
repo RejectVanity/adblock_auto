@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: +0GA4YGqX+iCljUyFlcalg
+! Checksum: Kw0dgemuzbpKn4OhyBJCYg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230920160943
+! Version: 20230920202455
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-20 16:09:43
-! Total Count: 23524
+! Last modified: 2023-09-20 20:24:55
+! Total Count: 23534
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -10420,6 +10420,7 @@
 ||pehlvl.xyz^
 ||peise.net/Skin/js/global.
 ||peishuning1.cn^
+||peizi00.com^$third-party
 ||pejrq.xyz^
 ||pekingpk10.com^
 ||pemsrv.com^$popup
@@ -15835,6 +15836,7 @@ likeporno.me,yeswegays.com##.video-spot
 llifle.com###ad_blocker_found
 lostfilm.tv##div[class^="alarm"]
 love4porn.com##.block-video > div.top
+lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"]
 lovejav.net##div[class^="sextb_"]
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
 luoqiuzw.com##.show-app2
@@ -18513,6 +18515,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /popup/adblocker
 /redbaiduct.com?s=$third-party
 /rs/js/temp_1.js$script,third-party
+/rs/shto/*?n=*&p=false&t=16$third-party
 /sbar.json?key=
 /sdk/push_web/?zid=
 /search/tsc.php?
@@ -21531,6 +21534,7 @@ zle.com$script
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class][style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] > .photo-two
 ##[class^="ad-bottom"]
+##[class^="ad-float"]
 ##[class^="ad-layer"]
 ##[class^="ad-top"]
 ##[class^="ads"][style] > a > img[width="100%"][alt]
@@ -21585,6 +21589,7 @@ zle.com$script
 ##[id$="ad-box"]
 ##[id*="theAd_slider"]
 ##[id] > .wrap > .clearfix.mod
+##[id^="ad-float"]
 ##[id^="ad-index"]
 ##[id^="ad-wrap-"]
 ##[id^="adDisabledBtn"][onclick][href]
@@ -22104,8 +22109,12 @@ zle.com$script
 ##amp-sticky-ad
 ##bkveng
 ##body .has-ad
+##body > [style$="background-size: 407px 101px !important;"]
+##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
+##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
+##body > embed[id][src*="://"][src$="="]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
 ##body.page > .popup
@@ -22267,6 +22276,7 @@ zle.com$script
 ##dl#listwoBox
 ##em > strong > img[style="pointer-events: none;"][width="100%"]
 ##embed[id][src*="://"][src*=".z"][src$="="]
+##embed[src*=".peizi00.com/"]
 ##embed[src^="https:////"]
 ##embed[width="100%"][height="100"]
 ##embed[width="120"][height="240"]
