@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 4oT74JhbAdeAIiftE7TKIw
+! Checksum: HNdcKwaGocbMeB5ZeYGrxA
 ! Title: 混合规则(自动更新)
-! Version: 20230920202447
+! Version: 20230921000823
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-20 20:24:47
-! Total Count: 120095
+! Last modified: 2023-09-21 00:08:23
+! Total Count: 120103
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -26426,6 +26426,7 @@
 ||giggledgingle.com^
 ||gigmantomjohn.guru^
 ||gihehazfdm.com^
+||gijxsthpuqdwcn.com^
 ||gikefa.uno^
 ||gilarditus.com^
 ||gilcxqgcbebbo.xyz^
@@ -30751,7 +30752,8 @@
 ||imalug.com^
 ||imapi-sg.isnssdk.com^
 ||imarker.ru^
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=hoy.tv|htv.app
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=hoy.tv
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=line.me,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=hoy.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=line.me,important
@@ -63566,6 +63568,7 @@
 ||vucve6is.icu^
 ||vudoutch.com^
 ||vue-js.cyou^
+||vuedivv.icu^
 ||vueegqt.xyz^
 ||vuehhkm9.cfd^
 ||vuetifyjs.com/notify.json
@@ -64743,6 +64746,7 @@
 ||whoursie.com^
 ||whoururt.xyz^
 ||whouseem.com^
+||whoustoa.net^
 ||whoutchi.net^
 ||whoutsog.net^
 ||whouvike.com^
@@ -71414,6 +71418,7 @@ axios.com##[data-vars-category="sidebar_promo"]
 axisbank.com##.topbandBg_New
 axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
 axn-asia.com,onetvasia.com##.pane-dart-dart-tag-300x250-rectangle
+axutongxue.com,axutongxue.net###ccccc
 axutongxue.com,axutongxue.net###kkkkbbb
 axutongxue.com,axutongxue.net###uuuui
 axutongxue.com,axutongxue.net##style + div[id]
@@ -74705,8 +74710,8 @@ engadget.com###outstreamPlayer-inArticle
 engadget.com##.Mih\(90px\)
 engadget.com##.da-container
 engadget.com##.inline-emphasis
-engadget.com##.post-article-ad
 engadget.com#?#.Py\(40px\):-abp-has(> article > .D\(f\) > .Pos\(r\)[data-ylk*=":AD;"])
+engadget.com,sports.yahoo.com##.post-article-ad
 engine.presearch.org##.my-4
 english-hindi.net##div[style="height:250px !important; background:#ccc;"]
 english.nv.ua##.nts-video-wrapper
@@ -83325,6 +83330,9 @@ sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
 sports.sohu.com##.allsee-list > .bd-wrap
+sports.yahoo.com###mrt-node-Lead-1-Ad
+sports.yahoo.com###mrt-node-Primary-0-Ad
+sports.yahoo.com###mrt-node-Secondary-0-Ad
 sportscardforum.com###wgo_affiliates
 sportscardforum.com##a[href^="https://www.sportscardforum.com/rbs_banner.php?"]
 sportshub.stream##.db783ekndd812sdz-ads
