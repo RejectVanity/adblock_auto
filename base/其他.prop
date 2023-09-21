@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8piuNH+OzOehgHv+3UjSew
+! Checksum: 6LckzXtySEHtOlKidY2h2A
 ! Title: 自用去广告Adblock规则
-! Version: 20230921093512
-! Last modified: 2023-09-21 09:35:12
-! Total Count: 2606
+! Version: 20230921191358
+! Last modified: 2023-09-21 19:13:58
+! Total Count: 2609
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -793,7 +793,7 @@
 .com:*/vj5/1$third-party
 .com:*/vj5/2$third-party
 .com:80*/cc/*?is_not=$third-party
-.com:80*/d/*0?c=$third-party
+.com:80*/d/*?c=*&$third-party,script
 .com:8001/cc/*?*=$third-party
 .com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
@@ -1343,6 +1343,8 @@
 ://*.27txt.La/*/*.js$~third-party
 ://*.27txt.La/xi.js$~third-party
 ://*.aj25*.bid/*.js$third-party
+://*.xn--*.cc/jav/*?x=16$third-party
+://*.xn--*.net/y16*.js$third-party,script
 ://*.zd*.buzz/*x*x*x*x*=$third-party
 ://*.zd*.fyi/*x*x*x*x*=$third-party
 ://*.zd*.live/*x*x*x*x*=$third-party
@@ -2558,6 +2560,7 @@ zle.com$script
 ||xn--*.xn--fiqs8s^$~third-party
 ||xn--2quv4et7i4yno8fbua.xn--fiqs8s^
 ||xn--gov-x68dy61b.club^
+||xn--lms23v745btkai5c.net^$third-party,script
 ||xplme.xyz^
 ||xtdsxjlk.club^
 ||xuexiwa.com^$script,third-party
