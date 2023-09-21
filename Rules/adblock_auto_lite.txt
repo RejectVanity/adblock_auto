@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 80PCopx9AoA2NdL+n2D+Bw
+! Checksum: ZPPO1YnaT/dNB2UUBKaa+g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230921160950
+! Version: 20230921191648
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-21 16:09:50
-! Total Count: 23555
+! Last modified: 2023-09-21 19:16:48
+! Total Count: 23560
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -10328,6 +10328,7 @@
 ||p1.qxzsw.com^
 ||p1.zhongyoo.com^
 ||p11q.cn^
+||p1corn.com^
 ||p23jac.top^
 ||p2kfynrr.icu^
 ||p2oh1.xyz^
@@ -13961,6 +13962,7 @@
 ||xn--gov-x68dy61b.club^
 ||xn--gov-x68dy61b.shop^
 ||xn--jvrp4x1zyfta.net^
+||xn--lms23v745btkai5c.net^$third-party,script
 ||xn--mtso8sj6menhyil.online^$third-party
 ||xn--wxtr9fwyxk9c.club^$third-party
 ||xn--xhq9mt12cf5v.shop^$third-party
@@ -17766,6 +17768,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
 .com:80*/d/*0?c=$third-party
+.com:80*/d/*?c=*&$third-party,script
 .com:8001/cc/*?*=$third-party
 .com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
@@ -18648,8 +18651,10 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ://*.27txt.La/*/*.js$~third-party
 ://*.27txt.La/xi.js$~third-party
 ://*.aj25*.bid/*.js$third-party
+://*.xn--*.cc/jav/*?x=16$third-party
 ://*.xn--*.net/16*.html#/$document
 ://*.xn--*.net/16*.html#/$~third-party
+://*.xn--*.net/y16*.js$third-party,script
 ://*.z*.xyz/$object,third-party
 ://*.zd*.buzz/*x*x*x*x*=$third-party
 ://*.zd*.fyi/*x*x*x*x*=$third-party
