@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wLUQIvbnAZjZ8SZcf9wFVA
+! Checksum: 8piuNH+OzOehgHv+3UjSew
 ! Title: 自用去广告Adblock规则
-! Version: 20230920202151
-! Last modified: 2023-09-20 20:21:51
-! Total Count: 2601
+! Version: 20230921093512
+! Last modified: 2023-09-21 09:35:12
+! Total Count: 2606
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1092,6 +1092,7 @@
 /js/ads/zuoxiajiao.js
 /js/advertiser.js
 /js/adverts-
+/js/chunk-vendors.js?16$third-party,script
 /js/dj1ll*.js
 /js/dj2ll*.js
 /js/dnsads.js?
@@ -1724,7 +1725,7 @@ jinxiyue.com##a[onclick^="qinlintest"]
 kdslife.com##[class*="DownloadGuide"]
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
 kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
-lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"]
+lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"],[class^="tsgg"],[id*="ggsj"]
 luoqiuzw.com##.show-app2
 m.90xw.com##.ad
 m.bilibili.com##.home-float-openapp.launch-app-btn
@@ -2066,6 +2067,7 @@ xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster
 xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##[class$="-pause"],[class*="ads"],[class*="video-view-ads"],[class*="view-ads"],[class*="wio-"],[class*="wixx-"],[class*="yld-"],[class*="yxd-j"],[class^="xp-banner"],[class^="xplayer-banner"],a[href*="adblocked"][target="_blank"],[data-role^="yld-"],[class^="xplayer-ads"]
 xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net,fantuanhd.com,kankanju.cc,renren.pro,sstv.fun##*[style*="bottom"],[class$="_b"]
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
+xn--*.*/ins/js/*16$third-party,script
 xnxx.com##[class*="ad-"]
 xnxx.com##[id^="ad-"]
 xvideos.com##[class$="-ad"]
@@ -2126,6 +2128,7 @@ zle.com$script
 ||5hte21mz.com^
 ||a.adtng.com^
 ||a.shukriya90.com^
+||aaenv48847h.com^$script
 ||abc*.sssxwsry.com^$script,third-party
 ||abc.yebaike.com^
 ||abc.zgm*.com^$script
@@ -2432,6 +2435,7 @@ zle.com$script
 ||qpolkmbbf.com$third-party
 ||qwfbiujsknjk.com^
 ||qwiudbnaiio.com^$third-party
+||qzpbwq.com^
 ||randomadsrv.com^
 ||rd.autohome.com.cn^
 ||rdx.autohome.com.cn^
@@ -2580,6 +2584,7 @@ zle.com$script
 ||yourporn.to/script*/ad*.js
 ||yourporngod.com/cdn-cgi/apps/head/*.js
 ||yutew.cc^$third-party
+||yxvoud.com^
 ||zawqwpajq.live^
 ||zb.mtwie.com^
 ||zdabnt.*$third-party
