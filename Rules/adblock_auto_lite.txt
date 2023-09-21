@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0qvwBOQwVfeLVYKms0ihKQ
+! Checksum: AdrVnrOxx4XRmbwUMV9IFQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230921083016
+! Version: 20230921093840
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-21 08:30:16
-! Total Count: 23548
+! Last modified: 2023-09-21 09:38:40
+! Total Count: 23553
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1510,6 +1510,7 @@
 ||aaaimg.com/images*.gif
 ||aab-proxy.tld^
 ||aaenv48847h.com^
+||aaenv48847h.com^$script
 ||aafuck.xyz^$third-party
 ||aag.yahooapis.jp^
 ||aagomsi.xyz^
@@ -11678,6 +11679,7 @@
 ||sdfxcv.com^
 ||sdfxv57.com^
 ||sdfyiu.com^
+||sdjvbsjbvas.com^
 ||sdk-api-v1.singular.net^
 ||sdk.51.la^
 ||sdk.adtiming.com^
@@ -15850,7 +15852,7 @@ likeporno.me,yeswegays.com##.video-spot
 llifle.com###ad_blocker_found
 lostfilm.tv##div[class^="alarm"]
 love4porn.com##.block-video > div.top
-lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"]
+lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"],[class^="tsgg"],[id*="ggsj"]
 lovejav.net##div[class^="sextb_"]
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
 luoqiuzw.com##.show-app2
@@ -17215,6 +17217,7 @@ xindiansex.com##.spot-container.appeared > .spot.subappear
 xindiansex.com##.spot-cs > .spot
 xindiansex.com##.video > .spot-container.spot-container--video.appeared
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
+xn--*.*/ins/js/*16$third-party,script
 xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 xnxx-sex-videos.com##+js(no-setTimeout-if, /out.php)
 xnxx-sexfilme.com,hd-easyporn.com,pornblade.com,pornfelix.com##.vjs-overlayed
@@ -18417,6 +18420,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /js/ads/zuoxiajiao.js
 /js/advertiser.js
 /js/adverts-
+/js/chunk-vendors.js?16$third-party,script
 /js/dj1ll*.js
 /js/dj2ll*.js
 /js/dnsads.js?
@@ -20267,6 +20271,7 @@ porn*.com/bees.js|
 porn*.me/bees.js|
 porn*.net/bees.js|
 tubesex.me/eureka
+xn--*.*/ins/js/*16$third-party,script
 zhaotianbao1.cn/*/ywy*.apk$document
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
