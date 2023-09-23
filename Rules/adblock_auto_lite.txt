@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8aeBtVLIccIJjKu2yvutyQ
+! Checksum: 3FgpkLVtSOq7OKk6C5VPMQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230923082847
+! Version: 20230923160751
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-23 08:28:47
-! Total Count: 23548
+! Last modified: 2023-09-23 16:07:51
+! Total Count: 23553
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -191,6 +191,7 @@
 ||11.yiqig.cn^
 ||11.yiqig.com^
 ||1104piaoba2022.xyz^
+||110628.cn^
 ||1106yh.com^
 ||1108jiuba2022.xyz^
 ||11111.host^
@@ -4900,6 +4901,7 @@
 ||cm.ksmobile.com/api/GetCloudMsgAdv^
 ||cmath.fr/images/fond2.gif
 ||cmath.fr/images/fondsticky.gif
+||cmbmtpjm.xyz^
 ||cmci5cape.icu^
 ||cmdy5.com/js/waptbplay2.js
 ||cmm.xmfish.com^
@@ -8004,6 +8006,7 @@
 ||jcvty.cyou^
 ||jcwtml.icu^
 ||jcylrv.iask.com.cn^
+||jczunp.xyz^
 ||jd-bbs.com^*/gif/
 ||jd.com/bottom/cps
 ||jd.com/ddimg/$domain=bimiacg.net
@@ -12878,6 +12881,7 @@
 ||tvszazx.icu^
 ||tvxqdp.xyz^
 ||tvyan.com/images/jscss/tv-
+||tvyb03.com/template/mytheme/statics/js/layer/
 ||tw-api.vpon.com^
 ||tw.api.vpon.com^
 ||tw.beanfun.com/bfweb/NEW/commonlogin
@@ -22264,6 +22268,7 @@ zle.com$script
 ##div[onclick^="window.location.href"][onclick*="apps.apple.com/cn/"]
 ##div[role="listitem"] > div > div > .bannerliststyle
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
+##div[style*="jczunp.xyz"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
 ##div[style="display: flex;flex-wrap: wrap;margin:5px;"] > div[class="photo-two"]
 ##div[style="display:none;"] + script + #container.container
