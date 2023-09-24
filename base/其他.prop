@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6LckzXtySEHtOlKidY2h2A
+! Checksum: e5uqc4MiK/zk0vsEhki/kg
 ! Title: 自用去广告Adblock规则
-! Version: 20230921191358
-! Last modified: 2023-09-21 19:13:58
-! Total Count: 2609
+! Version: 20230924152706
+! Last modified: 2023-09-24 15:27:06
+! Total Count: 2612
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -614,6 +614,7 @@
 ##img[src*="://hfh.bgfe26.cn"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
 ##img[src*="://kpic."][src*=".cn"][src$=".txt"]
+##img[src*="://mc.yandex.ru/"][alt]
 ##img[src*="://mpic."][src*=".cn"][src$=".js"]
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
@@ -1345,6 +1346,7 @@
 ://*.aj25*.bid/*.js$third-party
 ://*.xn--*.cc/jav/*?x=16$third-party
 ://*.xn--*.net/y16*.js$third-party,script
+://*.yinghua*.*/bar$script,~third-party
 ://*.zd*.buzz/*x*x*x*x*=$third-party
 ://*.zd*.fyi/*x*x*x*x*=$third-party
 ://*.zd*.live/*x*x*x*x*=$third-party
@@ -2420,6 +2422,7 @@ zle.com$script
 ||pic.dibtvft.cn^$script,third-party
 ||pic.ivzfpwm.cn^$script,third-party
 ||picfourlai.com^
+||pjy55d.com^
 ||pnpy.mmtnat.com^$third-party,script
 ||poh.uoydhco.cn^
 ||porn5f.com/nb/*.php?
@@ -2576,8 +2579,7 @@ zle.com$script
 ||yetianlian.la/*/*.js
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yijfdsu.cn^
-||yinghua*.*/bar/yfgg*.js
-||yinghua*.com/bar/yfgg*.js
+||yinghua*.*/bar/$script,~third-party
 ||yinghuacd.com/bar/
 ||yinghuavideo.com/bar/
 ||ym.oaclrst.cn^$third-party
@@ -2588,6 +2590,7 @@ zle.com$script
 ||yourporngod.com/cdn-cgi/apps/head/*.js
 ||yutew.cc^$third-party
 ||yxvoud.com^
+||yyefao.com^
 ||zawqwpajq.live^
 ||zb.mtwie.com^
 ||zdabnt.*$third-party
