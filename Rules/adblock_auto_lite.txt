@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: YDflROXQCmq/tuFSo5SxWA
+! Checksum: Utv/IcsGubJWoJtEOFNU7g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230924083149
+! Version: 20230924160834
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-24 08:31:49
-! Total Count: 23557
+! Last modified: 2023-09-24 16:08:34
+! Total Count: 23567
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1113,6 +1113,7 @@
 ||7mmtv.tv/js/ad_js/
 ||7mmtv.tv/u_banner/
 ||7nekc.icu^
+||7ohy3f.cn^
 ||7pvk.xyz^
 ||7scs.com/Public/img/list-
 ||7sqa.icu^
@@ -3606,6 +3607,7 @@
 ||asa2.cn^
 ||asacdn.com^$subdocument,redirect-rule=noopframe
 ||asahicom.jp/sp/js/and_infeedad.js$script,redirect=noop.js
+||asclan.icu^
 ||ascsvlostatic2.filmspoiler.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||asdffe22.com^
@@ -8360,6 +8362,7 @@
 ||jweod.xyz^
 ||jweoe.xyz^
 ||jwjdpab.cn^
+||jwltpv.xyz^
 ||jwronx.xyz^
 ||jwujvjo.cn^
 ||jwylcrb.cn^
@@ -11439,6 +11442,7 @@
 ||rmm7ss.top^
 ||rmqz.xyz^
 ||rnajhyd.xyz^
+||rnfhsji.cn^
 ||rnhqxh.com^
 ||rock.porn/ai/s/s/im.php?ss=
 ||rockradio.com^*/blockadblock-$script,domain=rockradio.com
@@ -11627,6 +11631,7 @@
 ||sbbd1.qulishi.com^
 ||sbcjahdc.com^
 ||sbcjahdc.com^$third-party
+||sbdvjsbjslkv.com^
 ||sbeaje.com^
 ||sbehgm.xyz^
 ||sbo8.com/static/theme/js/bottom.
@@ -13339,6 +13344,7 @@
 ||vorluic.cn^
 ||vorsprung-online.de/images/images/*/Werbung/bannermobilwerbung.jpg
 ||vouninked.com^
+||voxirf.xyz^
 ||vpn.baolq666.com^$third-party
 ||vps234.com/resources/images/hosting-promotion/
 ||vpsgu.cn^
@@ -14225,6 +14231,7 @@
 ||yin1.zgpingshu.com^
 ||yingav.net/images/content/spot01.jpg
 ||yingce.asia^
+||yinghua*.*/bar/$script,~third-party
 ||yinghua*.*/bar/yfgg*.js
 ||yinghua*.com/bar/yfgg*.js
 ||yinghuacd.com/bar/
@@ -18651,6 +18658,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ://*.xn--*.net/16*.html#/$document
 ://*.xn--*.net/16*.html#/$~third-party
 ://*.xn--*.net/y16*.js$third-party,script
+://*.yinghua*.*/bar$script,~third-party
 ://*.z*.xyz/$object,third-party
 ://*.zd*.buzz/*x*x*x*x*=$third-party
 ://*.zd*.fyi/*x*x*x*x*=$third-party
@@ -22282,6 +22290,7 @@ zle.com$script
 ##div[style="width:100%"][id*="hengfu"]
 ##div[style] > a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##div[style^="display:flex;flex-direction:column"] > [style*="display:flex;"]
+##div[style^="line-height"][style*="http"][style$="fixed;"]
 ##div[style^="padding:16px 16px 20px;border-radius:50%;background-color:red;margin:10px;"]
 ##div[style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 960px; height: 515px; z-index: 2147483647;"]
 ##div[style^="position"][onclick^="window.open"]
@@ -22438,6 +22447,7 @@ zle.com$script
 ##img[src*="://hfh.bgfe26.cn"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
 ##img[src*="://kpic."][src*=".cn"][src$=".txt"]
+##img[src*="://mc.yandex.ru/"][alt]
 ##img[src*="://mpic."][src*=".cn"][src$=".js"]
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]

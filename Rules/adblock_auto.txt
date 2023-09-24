@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: E4jHkWcPTC7MzfwFQSr7ug
+! Checksum: bNW8ZWzomAJHwtJU8bPWQw
 ! Title: 混合规则(自动更新)
-! Version: 20230924083142
+! Version: 20230924160825
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-24 08:31:42
-! Total Count: 120323
+! Last modified: 2023-09-24 16:08:25
+! Total Count: 120328
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2709,6 +2709,7 @@
 ||7nt9p4d4.de^
 ||7oc5b1i3v4iu.top^
 ||7offers.ru^
+||7ohy3f.cn^
 ||7out.ru^
 ||7porn.ru^
 ||7pvk.xyz^
@@ -50773,6 +50774,7 @@
 ||rnengage.com^
 ||rneroftheparlor.com^
 ||rnet.plus^
+||rnfhsji.cn^
 ||rnfwyvgoxu.com^
 ||rng-snp-003.com^
 ||rngfavm.cn^
@@ -67373,6 +67375,7 @@
 ||yingav.net/images/content/spot01.jpg
 ||yingce.asia^
 ||yingforthemoo.info^
+||yinghua*.*/bar/$script,~third-party
 ||yinghua*.*/bar/yfgg*.js
 ||yinghua*.com/bar/yfgg*.js
 ||yinghuacd.com/bar/
@@ -96087,6 +96090,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://*.xn--*.net/16*.html#/$document
 ://*.xn--*.net/16*.html#/$~third-party
 ://*.xn--*.net/y16*.js$third-party,script
+://*.yinghua*.*/bar$script,~third-party
 ://*.z*.xyz/$object,third-party
 ://*.zd*.buzz/*x*x*x*x*=$third-party
 ://*.zd*.fyi/*x*x*x*x*=$third-party
@@ -117669,6 +117673,7 @@ zle.com$script
 ##img[src*="://hfh.bgfe26.cn"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
 ##img[src*="://kpic."][src*=".cn"][src$=".txt"]
+##img[src*="://mc.yandex.ru/"][alt]
 ##img[src*="://mpic."][src*=".cn"][src$=".js"]
 ##img[src*="://mpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://pic"][src*=".cn"][src$=".js"]
