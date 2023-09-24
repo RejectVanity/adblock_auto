@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e5uqc4MiK/zk0vsEhki/kg
+! Checksum: pgexuL4Hq6Mg7yVkP7NeTQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230924152706
-! Last modified: 2023-09-24 15:27:06
-! Total Count: 2612
+! Version: 20230925012009
+! Last modified: 2023-09-25 01:20:09
+! Total Count: 2619
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -370,6 +370,7 @@
 ##a[href^="https://t.acam.link/"]
 ##a[href^="https://t.adating.link/"]
 ##a[href^="https://t.aslnk.link/"]
+##a[href^="https://www.hnhflqgc.com"]
 ##a[href^="https://xlivesex.com/"]
 ##a[href^="https://xxuudxdu.live?"]
 ##a[id$="ads-link"]
@@ -396,8 +397,11 @@
 ##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##bkveng
 ##body > [style$="background-size: 407px 101px !important;"]
+##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
+##body > div[class$="c"][style="bottom: 135px;"]
+##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body.page > .popup
@@ -488,6 +492,7 @@
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
 ##div[id^="azwangye"][style*="z-index: 11000;"]
+##div[id^="hengfu_"] > a[id^="hengfu_"]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[id^="player-ads"]
 ##div[id^="rfads"]
@@ -1798,6 +1803,7 @@ miobt.com##.gg_canvas-hidden
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##.under_player
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##[class^="root--"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##[href*="//bit.ly/"]
+missav.com,missav888.com,missav123.com,missav789.com,thisav.com##div[class*="lg:hidden"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##div[class^="flex justify-center"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##iframe[src*="://creative.live.missav.com/widgets/"]
 missav.com,missav888.com,missav123.com,missav789.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
@@ -2508,6 +2514,7 @@ zle.com$script
 ||trafficjunky.net^
 ||tryoe.com^$third-party
 ||ts.grmnmwv.cn^
+||ts.venum.top^$third-party
 ||ts.ykkbwdf.cn^$third-party
 ||tsyndicate.com^
 ||twinrdsrv.com$xmlhttprequest,third-party
