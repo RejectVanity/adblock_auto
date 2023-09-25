@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9qWgScIcElP1eFhWqUg7ZQ
+! Checksum: KL3erIoSkDJmmqACPkWWvQ
 ! Title: 混合规则(自动更新)
-! Version: 20230925160953
+! Version: 20230925215509
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-25 16:09:53
-! Total Count: 120371
+! Last modified: 2023-09-25 21:55:09
+! Total Count: 120378
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3023,6 +3023,7 @@
 ||92245a1d7e.com^
 ||922tp.com/wp-content/uploads/*0x
 ||9284swk.cn^
+||92by17snes4.cc^
 ||92dp.com/home/showga?
 ||92f2m.top^
 ||92f77b89a1b2df1b539ff2772282e19b.com^
@@ -8000,6 +8001,7 @@
 ||analytics.nextopia.net^
 ||analytics.ngs55.ru^
 ||analytics.nhattao.com^
+||analytics.nianticlabs.com^
 ||analytics.nikkasystems.com^
 ||analytics.nodecraft.com^
 ||analytics.octaglobal.com^
@@ -26903,6 +26905,7 @@
 ||go.gotourls.bid^$third-party
 ||go.hangzhou.com.cn^
 ||go.jetswap.com^
+||go.kbnmnl.com/api/models/vast
 ||go.media-x.ru^
 ||go.meiweifood.xyz^
 ||go.mobstitialtag.com^
@@ -48059,6 +48062,7 @@
 ||pw.gigazine.net^
 ||pw.lpsxssm.com^
 ||pw.lpsxssm.com^$third-party
+||pw.xenthoril.com^$third-party
 ||pw321.com/bulu/
 ||pw321.com^*.gif
 ||pwbmdalngizhz.com^
@@ -70832,7 +70836,7 @@ adn.com,businessoffashion.com,irishtimes.com##.arcad-feature
 adrama.to###container > div[style*="margin-right: 2px;"][style*="width: 300px;"]
 adrama.to#?#.post_sidebar > div.side_box:has(div[id^="mynewads_"])
 adreep.cn,baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn,world68.com##.guanggao
-adswikia.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,radiotoday.com.au,runt-of-the-web.com,rxresource.org,warisboring.com##.header-banner
+adswikia.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,radiotoday.com.au,runt-of-the-web.com,rxresource.org,techworldgeek.com,warisboring.com##.header-banner
 adtunes.com###div-atf-336x280
 adtunes.com###div-inline-left-336x280
 adtunes.com###div-inline-right-336x280
@@ -81313,6 +81317,7 @@ playbuzz.com##.pb-site-player
 playbuzz.com##.stickyplayer-container
 playbuzz.com##.top-stickyplayer-container
 playco-opgame.com,sadeempc.com,thewashingtonstandard.com###text-8
+player.hboav.com##+js(set-constant, player.VastADPlugin, noopFunc)
 playno1.com###frame8I822E
 playno1.com###m12
 playno1.com###m2
@@ -84339,6 +84344,7 @@ thinbug.com###inktokad
 thingiverse.com##div[class^="AdCard__card"]
 thingstodovalencia.com###.get-your-guide
 thingstodovalencia.com###getyourguide-widget
+thingstodovalencia.com##.get-your-guide
 thinkcivics.com##.mmt-primary
 this.org##.Wrap-leaderboard
 thisav.com###vjs-banner-container
@@ -85570,6 +85576,7 @@ weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
 weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
+weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
