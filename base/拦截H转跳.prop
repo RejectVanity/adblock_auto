@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Hg4ctk2lJYAdK3Z9CIbqMg
+! Checksum: 2PCaAIgLKGqaoHi83aTibA
 ! Title: 拦截黄色网站转跳
-! Version: 20230913164858
-! Last modified: 2023-09-13 16:48:58
-! Total Count: 330
+! Version: 20230926123121
+! Last modified: 2023-09-26 12:31:21
+! Total Count: 338
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -60,6 +60,8 @@
 .net:*/index.html?shareName=$~third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
+.top/?invite=$document
+.top/?invite=$~third-party
 .top/h.html?id=$document
 .top/h.html?id=$~third-party
 .top:*/#?shareName=$document
@@ -182,6 +184,8 @@
 ://at.umtrack.com/*?cid=$~third-party
 ://boeg*.xyz/*.html$document
 ://boeg*.xyz/*.html$~third-party
+://cdn.maomaochong*.*$document
+://cdn.maomaochong*.*$~third-party
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
 ://ly*.guixiangyuan.xyz$document
@@ -238,6 +242,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||daohan15.com^$~third-party
 ||daohan3.com^$document
 ||daohan3.com^$~third-party
+||dfgsdfgr.xyz^$document
+||dfgsdfgr.xyz^$~third-party
 ||dfyl.eeeeehfghrq555^$document
 ||dfyl.eeeeehfghrq555^$~third-party
 ||edlzedu.cn^$document
@@ -266,6 +272,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||jugaohr.cn^$~third-party
 ||kop02.com^$document
 ||kop02.com^$~third-party
+||lamao.life^$document
+||lamao.life^$~third-party
 ||lgecqrb.com^$document
 ||lgecqrb.com^$~third-party
 ||lu.lindhf4.com^$document
