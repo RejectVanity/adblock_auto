@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6wlKQ50hXIOcFo8fF5UmyQ
+! Checksum: frY4BmmguATqHXgokh5Aug
 ! Title: 混合规则(自动更新)
-! Version: 20230926092503
+! Version: 20230926123411
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-26 09:25:03
-! Total Count: 120458
+! Last modified: 2023-09-26 12:34:11
+! Total Count: 120469
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19538,6 +19538,8 @@
 ||dfggq.com^
 ||dfghaqea.xyz^
 ||dfgpifa.com^
+||dfgsdfgr.xyz^$document
+||dfgsdfgr.xyz^$~third-party
 ||dfgwer.com^
 ||dfgymtx.icu^
 ||dfhajyevxmposa.xyz^
@@ -35260,6 +35262,8 @@
 ||lalerent.site^
 ||laljjn.xyz^
 ||laluvygy.com^
+||lamao.life^$document
+||lamao.life^$~third-party
 ||lambda.center^
 ||lamberslucina.website^
 ||lambersoultre.website^
@@ -70871,6 +70875,7 @@ addictivetips.com###at_popup_modal
 addictivetips.com,coinweek.com,lzacg.one,news365.co.za,simscommunity.info##.custom-html-widget
 additivemanufacturing.media,compositesworld.com,ptonline.com##.DisplayBar
 additudemag.com,organicfacts.net##.header-ad
+adexchanger.com##.widget_ai_ad_widget
 adfoc.us##.content > iframe
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 adgully.com,chedrives.com,chinatimes.com,colliderporn.com,livesportstream.club##div[class^="banner"]
@@ -88404,6 +88409,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .top/*_*.js?*16$third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
+.top/?invite=$document
+.top/?invite=$~third-party
 .top/?token=*&screen_*=*&ref=$third-party
 .top/ad-
 .top/ads/
@@ -88511,6 +88518,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .xyz/ember?$third-party
 .xyz/foundation?$third-party
 .xyz/get?$third-party
+.xyz/godfehrrg*_*.js?*16$third-party
 .xyz/gyxx_*_aubi.js$third-party
 .xyz/h.html?id=$document
 .xyz/h.html?id=$~third-party
@@ -88545,6 +88553,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .xyz/wb/*-*-*.yb$third-party
 .xyz/xling_*_*.js?
 .xyz/xtub_*_rony.js$third-party
+.xyz/zooker?$third-party
 .xyz:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|sqruitu.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .xyz:*/#?shareName=$document
 .xyz:*/#?shareName=$~third-party
@@ -96282,6 +96291,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://boeg*.xyz/*.html$document
 ://boeg*.xyz/*.html$~third-party
 ://btt*/Runtime/js/psData.
+://cdn.maomaochong*.*$document
+://cdn.maomaochong*.*$~third-party
 ://chaturbate.com$third-party
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
