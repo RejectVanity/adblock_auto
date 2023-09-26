@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8G89PuJmHBDqlc9lnjfNAg
+! Checksum: 6wlKQ50hXIOcFo8fF5UmyQ
 ! Title: 混合规则(自动更新)
-! Version: 20230926083019
+! Version: 20230926092503
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-26 08:30:19
-! Total Count: 120426
+! Last modified: 2023-09-26 09:25:03
+! Total Count: 120458
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -22879,7 +22879,9 @@
 ||eu-survey.com^
 ||eu.groupondata.com^
 ||eu.market-place.su^
+||eu.pftk.temu.com^
 ||eu.spgo.io^
+||eu.thtk.temu.com^
 ||euadsapi.manhuaren.com^
 ||euadw.com^
 ||euahvyde.xyz^
@@ -35469,6 +35471,7 @@
 ||laxallenopposed.com^
 ||laxativepermissiblesensation.com^
 ||laxnlqn.cn^
+||laxsson.com^
 ||laydcilck.com^
 ||layer-ad.org^
 ||layerloop.com^
@@ -52295,6 +52298,7 @@
 ||scuoo.porneq.co^
 ||scupio.com/adpinline/
 ||scupio.com^
+||scupio.net/kanglei/
 ||scupio.net^
 ||scutesneatest.com^
 ||scvxgm.cn^
@@ -55959,6 +55963,7 @@
 ||stats.poddtoppen.se^
 ||stats.polldaddy.com^
 ||stats.popcap.com^
+||stats.prebytes.com^
 ||stats.proff.se^
 ||stats.propublica.org^
 ||stats.pusher.com^
@@ -87746,6 +87751,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/v/*.xmtl?$third-party
+.cn/vj5/$third-party
 .cn/vj5/1$third-party
 .cn/vs.php?id=$script,third-party
 .cn/x/*-*-*.as$third-party
@@ -87756,8 +87762,10 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
+.cn:*/vh5/$third-party
 .cn:*/vh5/1$third-party
 .cn:*/vh5/2$third-party
+.cn:*/vj5/$third-party
 .cn:*/vj5/1$third-party
 .cn:*/vj5/2$third-party
 .co/ads/
@@ -87952,28 +87960,38 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/uploads/*-860x250.gif
 .com/user?$third-party
 .com/vh1/$script,third-party
+.com/vh1/$third-party
 .com/vh1/1$third-party
 .com/vh1/2$third-party
 .com/vh2/$script,third-party
+.com/vh2/$third-party
 .com/vh2/1$third-party
 .com/vh2/2$third-party
+.com/vh3/$third-party
 .com/vh3/1$third-party
 .com/vh3/2$third-party
+.com/vh4/$third-party
 .com/vh4/1$third-party
 .com/vh4/2$third-party
 .com/vh5/$script,third-party
+.com/vh5/$third-party
 .com/vh5/1$third-party
 .com/vh5/2$third-party
 .com/vj1/$script,third-party
+.com/vj1/$third-party
 .com/vj1/1$third-party
 .com/vj1/2$third-party
 .com/vj2/$script,third-party
+.com/vj2/$third-party
 .com/vj2/1$third-party
 .com/vj2/2$third-party
+.com/vj3/$third-party
 .com/vj3/1$third-party
 .com/vj3/2$third-party
+.com/vj4/$third-party
 .com/vj4/1$third-party
 .com/vj4/2$third-party
+.com/vj5/$third-party
 .com/vj5/1$third-party
 .com/vj5/2$third-party
 .com/vodad.js
@@ -87996,24 +88014,34 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com:*/m/#/home?register=1&agent=$~third-party
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
+.com:*/vh1/$third-party
 .com:*/vh1/1$third-party
 .com:*/vh1/2$third-party
+.com:*/vh2/$third-party
 .com:*/vh2/1$third-party
 .com:*/vh2/2$third-party
+.com:*/vh3/$third-party
 .com:*/vh3/1$third-party
 .com:*/vh3/2$third-party
+.com:*/vh4/$third-party
 .com:*/vh4/1$third-party
 .com:*/vh4/2$third-party
+.com:*/vh5/$third-party
 .com:*/vh5/1$third-party
 .com:*/vh5/2$third-party
+.com:*/vj1/$third-party
 .com:*/vj1/1$third-party
 .com:*/vj1/2$third-party
+.com:*/vj2/$third-party
 .com:*/vj2/1$third-party
 .com:*/vj2/2$third-party
+.com:*/vj3/$third-party
 .com:*/vj3/1$third-party
 .com:*/vj3/2$third-party
+.com:*/vj4/$third-party
 .com:*/vj4/1$third-party
 .com:*/vj4/2$third-party
+.com:*/vj5/$third-party
 .com:*/vj5/1$third-party
 .com:*/vj5/2$third-party
 .com:*/waga*.html$document
@@ -88193,6 +88221,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .live/user?$third-party
 .live/xtub_*_rony.js$third-party
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|sqruitu.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.live:*/vh5/$third-party
 .live:*/vh5/1$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -88395,6 +88424,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .top:*/#?shareName=$document
 .top:*/#?shareName=$~third-party
 .top:*/o.js$third-party,script
+.top:*/vh5/$third-party
 .top:*/vh5/1$third-party
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
@@ -116399,6 +116429,7 @@ zle.com$script
 ##[id^="syad"]
 ##[id^="xqad"]
 ##[name^="google_ads_iframe"]
+##[onclick*="://xxl.skdvkslkdb.com"]
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
@@ -117766,6 +117797,7 @@ zle.com$script
 ##img[src*="://ad.xmmnsl.com"]
 ##img[src*="://dpic."][src*=".cn"][src$=".js"]
 ##img[src*="://dpic."][src*=".cn"][src$=".txt"]
+##img[src*="://fhh.emossvu.cn"]
 ##img[src*="://hfh.bgfe26.cn"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
 ##img[src*="://kpic."][src*=".cn"][src$=".txt"]
