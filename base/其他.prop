@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: udRWCoiweuqWp1UEJL7WrQ
+! Checksum: +tIjQzh/g4yx8JjsZAyeWQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230925214653
-! Last modified: 2023-09-25 21:46:53
-! Total Count: 2620
+! Version: 20230926091654
+! Last modified: 2023-09-26 09:16:54
+! Total Count: 2600
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -225,6 +225,7 @@
 ##[id^="syad"]
 ##[id^="xqad"]
 ##[name^="google_ads_iframe"]
+##[onclick*="://xxl.skdvkslkdb.com"]
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
@@ -616,6 +617,7 @@
 ##img[src*="://ad.xmmnsl.com"]
 ##img[src*="://dpic."][src*=".cn"][src$=".js"]
 ##img[src*="://dpic."][src*=".cn"][src$=".txt"]
+##img[src*="://fhh.emossvu.cn"]
 ##img[src*="://hfh.bgfe26.cn"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
 ##img[src*="://kpic."][src*=".cn"][src$=".txt"]
@@ -716,16 +718,14 @@
 .cn/s/*.xc$third-party
 .cn/sc/*?n=$third-party
 .cn/sc/*?x=$third-party
-.cn/vj5/1$third-party
+.cn/vj5/$third-party
 .cn/x/*-*-*.as$third-party
 .cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
 .cn:*/sc/*?x=$third-party
-.cn:*/vh5/1$third-party
-.cn:*/vh5/2$third-party
-.cn:*/vj5/1$third-party
-.cn:*/vj5/2$third-party
+.cn:*/vh5/$third-party
+.cn:*/vj5/$third-party
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
 .com./$popup,domain=pornhub.com
@@ -752,52 +752,32 @@
 .com/sh/*.js$third-party
 .com/sh/back/*$third-party
 .com/sh/to/*$third-party
-.com/vh1/1$third-party
-.com/vh1/2$third-party
-.com/vh2/1$third-party
-.com/vh2/2$third-party
-.com/vh3/1$third-party
-.com/vh3/2$third-party
-.com/vh4/1$third-party
-.com/vh4/2$third-party
-.com/vh5/1$third-party
-.com/vh5/2$third-party
-.com/vj1/1$third-party
-.com/vj1/2$third-party
-.com/vj2/1$third-party
-.com/vj2/2$third-party
-.com/vj3/1$third-party
-.com/vj3/2$third-party
-.com/vj4/1$third-party
-.com/vj4/2$third-party
-.com/vj5/1$third-party
-.com/vj5/2$third-party
+.com/vh1/$third-party
+.com/vh2/$third-party
+.com/vh3/$third-party
+.com/vh4/$third-party
+.com/vh5/$third-party
+.com/vj1/$third-party
+.com/vj2/$third-party
+.com/vj3/$third-party
+.com/vj4/$third-party
+.com/vj5/$third-party
 .com/wcm/?sh=*&$third-party
 .com:*/adduv_*_*_16$third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
-.com:*/vh1/1$third-party
-.com:*/vh1/2$third-party
-.com:*/vh2/1$third-party
-.com:*/vh2/2$third-party
-.com:*/vh3/1$third-party
-.com:*/vh3/2$third-party
-.com:*/vh4/1$third-party
-.com:*/vh4/2$third-party
-.com:*/vh5/1$third-party
-.com:*/vh5/2$third-party
-.com:*/vj1/1$third-party
-.com:*/vj1/2$third-party
-.com:*/vj2/1$third-party
-.com:*/vj2/2$third-party
-.com:*/vj3/1$third-party
-.com:*/vj3/2$third-party
-.com:*/vj4/1$third-party
-.com:*/vj4/2$third-party
-.com:*/vj5/1$third-party
-.com:*/vj5/2$third-party
+.com:*/vh1/$third-party
+.com:*/vh2/$third-party
+.com:*/vh3/$third-party
+.com:*/vh4/$third-party
+.com:*/vh5/$third-party
+.com:*/vj1/$third-party
+.com:*/vj2/$third-party
+.com:*/vj3/$third-party
+.com:*/vj4/$third-party
+.com:*/vj5/$third-party
 .com:80*/cc/*?is_not=$third-party
 .com:80*/d/*?c=*&$third-party,script
 .com:8001/cc/*?*=$third-party
@@ -833,7 +813,7 @@
 .live/r/*/*?$third-party
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
-.live:*/vh5/1$third-party
+.live:*/vh5/$third-party
 .net/20*/*/*.txt$third-party
 .pw/blxn_*.js?
 .shop/r/*$xmlhttprequest
@@ -846,7 +826,7 @@
 .top/k/*$script,third-party
 .top/xling_*_*.js?
 .top:*/o.js$third-party,script
-.top:*/vh5/1$third-party
+.top:*/vh5/$third-party
 .xin/blxn_*.js?
 .xyz/*.gif?*16$third-party
 .xyz/*?16$third-party
