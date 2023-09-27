@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p348//LvcCxX/mbaYHSe8A
+! Checksum: rMnLztM8wrG03LjaUDlK+A
 ! Title: 自用去广告Adblock规则
-! Version: 20230926122507
-! Last modified: 2023-09-26 12:25:07
-! Total Count: 2602
+! Version: 20230927123507
+! Last modified: 2023-09-27 12:35:07
+! Total Count: 2605
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -2084,6 +2084,7 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com,colamanga.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com,colamanga.com##embed[src]
 yhpdm.com,yhdmp.net,d53px.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
+yitongqinba.com##.visible-xs
 yydstv.net##body > div[class][style]
 yydy.cc##a[onclick^="window"] > img[id][width="1"],a[style*="width:99%"][style*="z-index:100000"][style*="block"]
 yz.m.sm.cn##[id^="dl-banner-"]
@@ -2572,6 +2573,8 @@ zle.com$script
 ||yinghua*.*/bar/$script,~third-party
 ||yinghuacd.com/bar/
 ||yinghuavideo.com/bar/
+||yitongqinba.com/js/aa/$script
+||yitongqinba.com/js/xin/$script
 ||ym.oaclrst.cn^$third-party
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||youradexchange.com^$third-party
