@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rMnLztM8wrG03LjaUDlK+A
+! Checksum: DGJHxgLgbGu1w6NlkSug5g
 ! Title: 自用去广告Adblock规则
-! Version: 20230927123507
-! Last modified: 2023-09-27 12:35:07
-! Total Count: 2605
+! Version: 20230927165356
+! Last modified: 2023-09-27 16:53:56
+! Total Count: 2615
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -327,7 +327,10 @@
 ##a[href*="?shareName="][target="_blank"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
+##a[href*="live/?token="][href*="&screen_"][target="_blank"]
+##a[href*="top/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
+##a[href*="xyz/?token="][href*="&screen_"][target="_blank"]
 ##a[href="/baidu/index.html"]
 ##a[href="/download/apps"] > img[style^="max-width: 100%"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
@@ -813,6 +816,7 @@
 .live/r/*/*?$third-party
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
+.live/wiseindex*?*16$third-party
 .live:*/vh5/$third-party
 .net/20*/*/*.txt$third-party
 .pw/blxn_*.js?
@@ -824,6 +828,7 @@
 .top/?channelCode=$~third-party
 .top/j/*$script,third-party
 .top/k/*$script,third-party
+.top/wiseindex*?*16$third-party
 .top/xling_*_*.js?
 .top:*/o.js$third-party,script
 .top:*/vh5/$third-party
@@ -870,6 +875,7 @@
 .xyz/vj2/$third-party
 .xyz/vue?$third-party
 .xyz/wb/*-*-*.yb$third-party
+.xyz/wiseindex*?*16$third-party
 .xyz/xling_*_*.js?
 .xyz/zooker?$third-party
 /*.php?pid=*&n=$third-party
@@ -2336,6 +2342,7 @@ zle.com$script
 ||jcylrv.iask.com.cn^
 ||jianpian.vip^
 ||jievf.cn^
+||jijozdrg.xyz^$third-party
 ||jinxiyue.com/seo.js$script
 ||jiongnet.cn^
 ||jkjoiij.cn^
@@ -2367,6 +2374,7 @@ zle.com$script
 ||leads.autohome.com.cn^
 ||lezhutv.com/static/jquerys.js
 ||lhotajl.icu^$third-party
+||limurol.com^$third-party
 ||ln.tian-ting.ink^
 ||log.m.sm.cn^
 ||lqglqq.com^$third-party
@@ -2501,6 +2509,7 @@ zle.com$script
 ||ts.venum.top^$third-party
 ||ts.ykkbwdf.cn^$third-party
 ||tsyndicate.com^
+||tujohhbkeab.com^$third-party
 ||twinrdsrv.com$xmlhttprequest,third-party
 ||twrkcbs.cn^
 ||twww.sbs^$third-party
@@ -2545,6 +2554,7 @@ zle.com$script
 ||xchina.co/redirect/ad-
 ||xchina.fun/redirect/ad-
 ||xchina.tv/upload/ad/
+||xdiwbc.com^$third-party
 ||xero.porn/videoAd
 ||xhzysh.com/runtime/ad$~third-party
 ||xiangzishop.com^$third-party
