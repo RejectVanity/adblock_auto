@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: MNans7G18FriRZpzt9wG9Q
+! Checksum: Ji6jCjgBAdPL+i0WRl3fPA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230927083037
+! Version: 20230927160922
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-27 08:30:37
-! Total Count: 23663
+! Last modified: 2023-09-27 16:09:22
+! Total Count: 23668
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9682,6 +9682,7 @@
 ||movieclassic.net/pub/js_min.js
 ||movieclassic.net/templates/frontend/airav/js/*avs-0.4.js
 ||movshow.com/*portal/
+||mowec.xyz^
 ||mowenxi.com/1.png
 ||mp3.haogeba.com^$image,object
 ||mp4ba.com^*/js/head.js
@@ -10600,6 +10601,7 @@
 ||pjsbuhl.icu^
 ||pjtime.com/js/show_ad
 ||pjy55d.com^
+||pjzmbhf.cn^
 ||pkeog.cn^
 ||pki.net.cn/public/*/plugins/
 ||pki.net.cn/public/1/assets/js/custom/tt.
@@ -14307,6 +14309,8 @@
 ||yitai001.com^$third-party
 ||yitongfang.com^$third-party
 ||yitongkan.com/splash.xml$redirect=noop.js,domain=yitongkan.com,script
+||yitongqinba.com/js/aa/$script
+||yitongqinba.com/js/xin/$script
 ||yitongwl.cn^
 ||yiw2iei.icu^
 ||yjcf360.com/ad.
@@ -17335,6 +17339,7 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,colamanga.com,dm99.me##[style^="bac
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,colamanga.com##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com,colamanga.com##embed[src]
 yhpdm.com,yhdmp.net,d53px.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
+yitongqinba.com##.visible-xs
 ykt.ru##.n-banner--adblocked
 ymlporn7.net##.vid-ave-th
 yocast.tv###ra9e

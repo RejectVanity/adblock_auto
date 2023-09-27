@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: +asuyoSqedpaYr9LDdQfWQ
+! Checksum: xEdJf8Vq7CCdPYfp18EmWA
 ! Title: 混合规则(自动更新)
-! Version: 20230927083029
+! Version: 20230927160914
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-27 08:30:29
-! Total Count: 120645
+! Last modified: 2023-09-27 16:09:14
+! Total Count: 120657
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -34786,6 +34786,7 @@
 ||kopsil.com^
 ||kopsooli.com^
 ||kopterka.ru^
+||koraboe.com^
 ||koradu.com^
 ||koranicseimas.com^
 ||koreatimes.co.kr/ad/
@@ -46018,6 +46019,7 @@
 ||pjwshrlhyjyhqu.xyz^
 ||pjx1ky4xhwip.com^
 ||pjy55d.com^
+||pjzmbhf.cn^
 ||pk331.cn^
 ||pk965.com^
 ||pkajhaxf.com^
@@ -67671,6 +67673,8 @@
 ||yitongkan.com/splash.xml$redirect=noop.js,domain=yitongkan.com,script
 ||yitongkan.com/splash.xml$redirect=noopjs,domain=yitongkan.com
 ||yitongkan.com/splash.xml$rewrite=abp-resource:blank-js,domain=yitongkan.com
+||yitongqinba.com/js/aa/$script
+||yitongqinba.com/js/xin/$script
 ||yitongwl.cn^
 ||yiuspekmn.bar^
 ||yiw2iei.icu^
@@ -72737,6 +72741,7 @@ box-core.net,mma-core.com###rrec
 box-core.net,mma-core.com###tlbrd
 box-core.net,mma-core.com##.resp_ban
 box-core.net,mma-core.com##.rsky
+boxing-social.com##.page-takeover
 boxing-social.com##div[ad-slot]
 boxingstreams.cc,crackstreams.gg,cricketstreams.cc,footybite.cc,formula1stream.cc,mlbshow.com,nbabite.com###nordd
 boxofficemojo.com,imdb.com##.slot_wrapper
@@ -79655,6 +79660,8 @@ manhua.weibo.com###p-nav-fix + .p-area.w980
 manhua123.net##.addg
 manhuadb.com##.ad_1_wrap
 manhuadb.com##.ad_2_wrap
+manhuadb.com##.comicbook-index
+manhuadb.com##.d-flex.px-2
 manhuadb.com##a.d-block
 manhuagui.com##.gg_728
 manhuagui.com##.gg_950
@@ -86693,6 +86700,7 @@ yinyuetai.com##.video_abl
 yinyuetai.com##.video_abr
 yipee.cc##.footer-sidebar-container
 yitaifang.com##.mod-da
+yitongqinba.com##.visible-xs
 yivian.com##span[style^="color: #ff0000;"]
 yixingjia.com###wp > table[width="960"]
 yizhibo.com###J_reg_guide
@@ -91131,6 +91139,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /ads/video/*
 /ads/video_
 /ads/view.
+/ads/view.php
 /ads/view/*
 /ads/views/*
 /ads/vip_
@@ -94764,7 +94773,9 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /peelbackscript/ad_
 /peeljs.php
 /peeltl.
+/peeltl.js
 /peeltr.
+/peeltr.js
 /pencilad.
 /perfads.
 /performance_ads/*
@@ -94839,6 +94850,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /plugins/ad-ace/includes/shoppable-images/*
 /plugins/ad-invalid-click-protector/*$script
 /plugins/ad.
+/plugins/adrotate-pro/*
 /plugins/adrotate/*
 /plugins/ads-
 /plugins/ads/*
