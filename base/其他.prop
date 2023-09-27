@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DGJHxgLgbGu1w6NlkSug5g
+! Checksum: jIW5m8bmRiS48thAZsZ1EQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230927165356
-! Last modified: 2023-09-27 16:53:56
-! Total Count: 2615
+! Version: 20230928074616
+! Last modified: 2023-09-28 07:46:16
+! Total Count: 2625
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -322,6 +322,7 @@
 ##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
 ##a[href*="/youyicl/youku.html"][target="_blank"]
+##a[href*="://sm5xse.net"]
 ##a[href*="?channelCode="] > img[src]
 ##a[href*="?channelCode="][target="_blank"]
 ##a[href*="?shareName="][target="_blank"]
@@ -377,6 +378,7 @@
 ##a[href^="https://www.hnhflqgc.com"]
 ##a[href^="https://xlivesex.com/"]
 ##a[href^="https://xxuudxdu.live?"]
+##a[href^="javascript:linkto"][href*="_blank"] > img
 ##a[id$="ads-link"]
 ##a[onclick*="博彩"]
 ##a[onclick*="同城"]
@@ -638,14 +640,22 @@
 ##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="jiongnet.cn"]
+##img[src*="mt7y9.com/"]
+##img[src*="sm2he.net/"]
 ##img[src*="sm2kz.net"]
+##img[src*="tc911.vip"]
 ##img[src*="tp.chsq.one/gg"][src$=".gif"]
+##img[src*="u1011.com/"]
+##img[src*="u1055.com/"]
 ##img[src*="yslulu"][src*=".xyz"]
+##img[src*="z4a.net"][src*="/images/20"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src="/apijs/image/960x100.gif"]
 ##img[src^="/uploads/aidou/adlist/"]
+##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
+##img[src^="https://u10"][src*=".com"][src$=".gif"]
 ##img[src^="https://vip2.loli.io"]
 ##img[src^="https://www.static04.top/data/images/"][src$=".gif"]
 ##img[style][alt][src*="/data/ds3/"][src$=".php"]
