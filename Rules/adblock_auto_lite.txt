@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Ji6jCjgBAdPL+i0WRl3fPA
+! Checksum: QjQo4WmzQfzA6NTpsc+fWg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230927160922
+! Version: 20230927170440
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-27 16:09:22
-! Total Count: 23668
+! Last modified: 2023-09-27 17:04:40
+! Total Count: 23678
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8106,6 +8106,7 @@
 ||jijidy.com/640x200down.
 ||jijistatic.duapp.com/Squall/1.jpg
 ||jijozdrg.xyz^
+||jijozdrg.xyz^$third-party
 ||jike001.top^
 ||jiliw.com^$third-party
 ||jilong.work^
@@ -8964,6 +8965,7 @@
 ||liitwrz.icu^
 ||likdie.com^
 ||limitlessexterminator.com^
+||limurol.com^$third-party
 ||linecg.com/uploads/banner/
 ||lingdianshuwu.com/js/content
 ||lingsiqiwu.com^
@@ -12912,6 +12914,7 @@
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
 ||tuicool.com/images/upload/aliyun
+||tujohhbkeab.com^$third-party
 ||tuotianxia.top^
 ||tupian55.com^*.gif
 ||tupian888.*.bcebos.com^
@@ -13852,6 +13855,7 @@
 ||xdcad.net/source/plugin/disad/disad.js
 ||xdf.cn/v4/js/leyus/
 ||xdh0808.com^$popup
+||xdiwbc.com^$third-party
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
 ||xdrig.com^
@@ -17964,6 +17968,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
 .live/user?$third-party
+.live/wiseindex*?*16$third-party
 .live/xtub_*_rony.js$third-party
 .live:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|sqruitu.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .live:*/vh5/$third-party
@@ -18060,6 +18065,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .top/ttdlyqbff/*/*.gif?$third-party,image
 .top/upload/ad.js
 .top/user?$third-party
+.top/wiseindex*?*16$third-party
 .top/xling_*_*.js?
 .top/xtub_*_rony.js$third-party
 .top:$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|sqruitu.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
@@ -18154,6 +18160,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .xyz/vj2/$third-party
 .xyz/vue?$third-party
 .xyz/wb/*-*-*.yb$third-party
+.xyz/wiseindex*?*16$third-party
 .xyz/xling_*_*.js?
 .xyz/xtub_*_rony.js$third-party
 .xyz/zooker?$third-party
@@ -22097,8 +22104,11 @@ zle.com$script
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="kdocs.cn"] > img[src*="sstv."]
+##a[href*="live/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="nnqp.vip"]
+##a[href*="top/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
+##a[href*="xyz/?token="][href*="&screen_"][target="_blank"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/download/apps"] > img[style^="max-width: 100%"]
