@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9x2sbAmQYuAwOjXzWBkF8w
+! Checksum: 4EPjhEHLrcNLcbX7e0UieQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230928000921
+! Version: 20230928083004
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-28 00:09:21
-! Total Count: 23681
+! Last modified: 2023-09-28 08:30:04
+! Total Count: 23696
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4742,6 +4742,7 @@
 ||cheda10.icu^
 ||cheda7.icu^
 ||cheda8.icu^
+||cheda9.icu^
 ||chenfoo.cn^
 ||chengdu.cn/acts/phoneqss/openCornerWin/
 ||chengduda.top^
@@ -7162,6 +7163,7 @@
 ||hexun.com*/hx_news/hx_news_finalpage.js
 ||hexun.com/gphqtc/
 ||hexun.com/hxpage_jrtj2020/
+||hexun.com/pc/js/dataPopup.
 ||heyzap.com^
 ||hezlqmwm.com^
 ||hf.soulplp.com^$third-party
@@ -10139,6 +10141,7 @@
 ||nxflv.com/nxflv.js
 ||nxhwvt.xyz^
 ||nxing.cn/uploads/uploads/*-size1220x
+||nxtxxcm.xyz^
 ||nyaa.*/static/js/ccheck.js
 ||nyaa.fun/static/js/*_costcheck_a.js
 ||nyaasokuvip.net/wp-content/uploads/*/ad_manga_
@@ -11983,6 +11986,7 @@
 ||shuowan.com/Public/shuo/20160119/569dafddd13be.jpg
 ||shyww.mobi^
 ||shzzzz.dftoutiao.com^
+||sibehgtq.xyz^
 ||sickflock.com^$third-party
 ||sicongyyds.com^
 ||siduohua.top^
@@ -14849,6 +14853,7 @@
 ||zxcrr.com^
 ||zxfas56.com^
 ||zxgko.cn^
+||zxpgfl.xyz^
 ||zxptw.cn^$third-party
 ||zxrcfw.com^
 ||zxtkfvm.cn^
@@ -22092,6 +22097,7 @@ zle.com$script
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
 ##a[href*="://4"][href*="/vod."]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
+##a[href*="://sm5xse.net"]
 ##a[href*=":10443/"] > img[src$="gif"]
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
@@ -22195,6 +22201,7 @@ zle.com$script
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
+##a[href^="javascript:linkto"][href*="_blank"] > img
 ##a[id$="ads-link"]
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
@@ -22576,14 +22583,22 @@ zle.com$script
 ##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="jiongnet.cn"]
+##img[src*="mt7y9.com/"]
+##img[src*="sm2he.net/"]
 ##img[src*="sm2kz.net"]
+##img[src*="tc911.vip"]
 ##img[src*="tp.chsq.one/gg"][src$=".gif"]
+##img[src*="u1011.com/"]
+##img[src*="u1055.com/"]
 ##img[src*="yslulu"][src*=".xyz"]
+##img[src*="z4a.net"][src*="/images/20"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src="/apijs/image/960x100.gif"]
 ##img[src^="/uploads/aidou/adlist/"]
+##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
+##img[src^="https://u10"][src*=".com"][src$=".gif"]
 ##img[src^="https://vip2.loli.io"]
 ##img[src^="https://www.static04.top/data/images/"][src$=".gif"]
 ##img[style][alt][src*="/data/ds3/"][src$=".php"]
