@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: QViNTdyuzIRWJmVnaOHedg
+! Checksum: F8tFlm8YD9+bqTzjKjkwSg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230929003231
+! Version: 20230929004213
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-29 00:32:31
-! Total Count: 23708
+! Last modified: 2023-09-29 00:42:13
+! Total Count: 23713
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4181,6 +4181,7 @@
 ||bitizm.pojuko.buzz^
 ||bitporno.to/popup18.js
 ||bitscn.com/js/a2
+||bitsinflow.com^
 ||bitu.fun^
 ||bixingjia.com/js/hf.
 ||bixjf.com/*/ad/*.mp4
@@ -22112,6 +22113,8 @@ zle.com$script
 ##a[href*=":10443/"] > img[src$="gif"]
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
+##a[href*="?adCode="][target="_blank"]
+##a[href*="?adsCode="][target="_blank"]
 ##a[href*="?channelCode="] > img[src*=".com"]
 ##a[href*="?channelCode="] > img[src*=".xyz"]
 ##a[href*="?channelCode="] > img[src]
@@ -22120,6 +22123,8 @@ zle.com$script
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
 ##a[href*="?shareName="][target="_blank"]
+##a[href*="AdCode_"][target="_blank"]
+##a[href*="AdsCode_"][target="_blank"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
