@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OOIm8l0ouB41yNaCuDZKhw
+! Checksum: EiPhEIATzFUi/OeabHNzfw
 ! Title: 自用去广告Adblock规则
-! Version: 20230929002853
-! Last modified: 2023-09-29 00:28:53
-! Total Count: 2627
+! Version: 20230929003928
+! Last modified: 2023-09-29 00:39:28
+! Total Count: 2631
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -323,9 +323,13 @@
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
 ##a[href*="/youyicl/youku.html"][target="_blank"]
 ##a[href*="://sm5xse.net"]
+##a[href*="?adCode="][target="_blank"]
+##a[href*="?adsCode="][target="_blank"]
 ##a[href*="?channelCode="] > img[src]
 ##a[href*="?channelCode="][target="_blank"]
 ##a[href*="?shareName="][target="_blank"]
+##a[href*="AdCode_"][target="_blank"]
+##a[href*="AdsCode_"][target="_blank"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="live/?token="][href*="&screen_"][target="_blank"]
