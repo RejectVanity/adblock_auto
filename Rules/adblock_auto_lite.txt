@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0z24FIJw00sj8ubqaa5j9w
+! Checksum: CeVvJbEVm8GTVnAruhZFeQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230929083009
+! Version: 20230929102626
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-29 08:30:09
-! Total Count: 23720
+! Last modified: 2023-09-29 10:26:26
+! Total Count: 23752
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11332,6 +11332,7 @@
 ||ra1.xyz^
 ||ra5.xyz/z/*/code.
 ||ra5.xyz^
+||ra6.xyz^
 ||rabbitbreath.com^$third-party
 ||rabbitporno.com/friends/
 ||rabbitporno.com/iframes/
@@ -12855,6 +12856,7 @@
 ||trafmag.com^
 ||traktalent.com^
 ||traktum.com^
+||trandgid.com^$third-party
 ||trapdoorstepsex.com^
 ||trc.taboola.com^
 ||trebleperfect.com^$third-party
@@ -17688,6 +17690,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .com/*/ddd3.js
 .com/*/ddd4.js
 .com/*/ffff.js
+.com/*/js/8*/8*/8*/8*?r=https$third-party
 .com/*/ua.php$third-party
 .com/*/uagu.php$third-party
 .com/*_*.js?*16$third-party
@@ -22474,14 +22477,43 @@ zle.com$script
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//av.ageverify.co/"]
+##iframe[src*="//go.admjmp.com/"]
+##iframe[src*="//go.cmtaffiliates.com/"]
+##iframe[src*="//go.currency.com/"]
+##iframe[src*="//go.dmzjmp.com"]
+##iframe[src*="//go.etoro.com/"]
+##iframe[src*="//go.gldrdr.com/"]
 ##iframe[src*="//go.goaserv.com"]
+##iframe[src*="//go.goaserv.com/"]
 ##iframe[src*="//go.goasrv.com/"]
+##iframe[src*="//go.hpyjmp.com"]
+##iframe[src*="//go.hpyrdr.com/"]
+##iframe[src*="//go.julrdr.com/"]
+##iframe[src*="//go.markets.com/visit/?bta="]
+##iframe[src*="//go.nordvpn.net/aff"]
+##iframe[src*="//go.skinstrip.net"][src*="?campaignId="]
+##iframe[src*="//go.strpjmp.com/"]
+##iframe[src*="//go.tmrjmp.com"]
+##iframe[src*="//go.trackitalltheway.com/"]
+##iframe[src*="//go.xlirdr.com"]
+##iframe[src*="//go.xlivrdr.com"]
+##iframe[src*="//go.xlrdr.com"]
+##iframe[src*="//go.xlviiirdr.com"]
+##iframe[src*="//go.xlviirdr.com"]
+##iframe[src*="//go.xlvirdr.com"]
+##iframe[src*="//go.xtbaffiliates.com/"]
+##iframe[src*="//go.xxxiijmp.com"]
+##iframe[src*="//go.xxxijmp.com"]
+##iframe[src*="//go.xxxjmp.com"]
+##iframe[src*="//go.xxxviijmp.com"]
+##iframe[src*="//go.zybrdr.com"]
 ##iframe[src*="//rtbrenab.com/get"]
 ##iframe[src*="//syndication.exosrv.com/"]
 ##iframe[src*="//tfosrv.com"]
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
 ##iframe[src*="/redbaiduct.com?s="]
+##iframe[src*="://go.xlivrdr.com"]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ad.a-ads.com/"]
 ##iframe[src^="//ads."]
