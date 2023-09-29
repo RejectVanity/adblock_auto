@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: wrjWT6RdchPvpXvVlKkWzg
+! Checksum: 1UsbbNo3ZjlGsCqSSSRsdg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230929160943
+! Version: 20230930000756
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-29 16:09:43
-! Total Count: 23754
+! Last modified: 2023-09-30 00:07:56
+! Total Count: 23764
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -913,6 +913,7 @@
 ||58file.com/down/xyk.
 ||58tg.com^$third-party
 ||59.36.101.209:888/link/*_280x192.
+||591520.xyz^
 ||591huishou.cn^
 ||591hx.com/images/0000.jpg
 ||591hx.com/js/floatbox.js
@@ -1062,6 +1063,7 @@
 ||72asa.com^
 ||733.so/template/wap1/js/all_css.js
 ||73652253191.com^$third-party
+||738atf.xyz^
 ||75.125.41.29:8080/
 ||7676.com^$third-party
 ||767drv.cn^
@@ -1257,6 +1259,7 @@
 ||91p49.com/*.mp4
 ||91pk.love^
 ||91rb.com/*x90.gif
+||91rb.com/fc/$image
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
 ||91xiazai.com/Public/index/images/zanzhushang.gif
@@ -1524,6 +1527,7 @@
 ||aafuck.xyz^$third-party
 ||aag.yahooapis.jp^
 ||aagomsi.xyz^
+||aaholidays.cn^
 ||aamv.vip^
 ||aapeople.cn^
 ||aaread.space/images/*0.gif
@@ -1561,6 +1565,7 @@
 ||abenshishabi.com^
 ||abgxxc.com^
 ||ablsrv.com^
+||abmedia.io/*/pum/
 ||abminbuy.com/*.mp4$media,redirect=noop-1s.mp4
 ||abminbuy.com/789.
 ||abminbuy.com/QQ
@@ -3149,6 +3154,7 @@
 ||adzyou.com^$third-party
 ||aeg32y.top^
 ||aeletheacd.com^
+||aelxock.cn^
 ||af29.com/banner/
 ||afafevk.com^
 ||afdunaui.com^
@@ -4984,6 +4990,7 @@
 ||cnscg.com/template/default/style/t6/*x*1
 ||cnscg.com/template/default/style/t6/other/
 ||cnshiw2.com^
+||cnskyline.top^
 ||cnt.xhamster.com^
 ||cntronics.com/adsupload/
 ||cntv.cn/hezuo/
@@ -21836,6 +21843,8 @@ zle.com$script
 ##a[href*="&Ad_ID="]
 ##a[href*=".123ch.cn"]
 ##a[href*=".3366722.com"]
+##a[href*=".337771.xyz"]
+##a[href*=".337772.xyz"]
 ##a[href*=".516624.com/"]
 ##a[href*=".5599722.com"]
 ##a[href*=".613639.com/"]
@@ -22234,6 +22243,7 @@ zle.com$script
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
 ##a[id][target="_blank"] > img[src*="help-ol.bj.bcebos.com"]
+##a[onclick*=".337770.xyz"]
 ##a[onclick*=".lyty665.com"]
 ##a[onclick*="/dasp.php?a="]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
