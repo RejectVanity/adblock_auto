@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 668C+qLGcglpMa0FA2MWpg
+! Checksum: i8FP2BlUC7ncVji1v9QZXQ
 ! Title: 自用去广告Adblock规则
-! Version: 20230930194142
-! Last modified: 2023-09-30 19:41:42
-! Total Count: 2665
+! Version: 20230930230935
+! Last modified: 2023-09-30 23:09:35
+! Total Count: 2667
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -239,6 +239,7 @@
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##[style*="https://fjkb.tyvzyn.com/"]
 ##[style="position: absolute; inset: 0px;"]
 ##[style="text-align: center; margin: 20px 0; color: blue; font-size: larger;"]
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
@@ -410,6 +411,7 @@
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
+##body > [style^="display: block; z-index: 2147483647; width: 10%;"][style$="!important;"]
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
 ##body > embed[id][src*="://"][src$="="]
