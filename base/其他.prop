@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ghDgOeNvBZE7wGWwiw7HvA
+! Checksum: 668C+qLGcglpMa0FA2MWpg
 ! Title: 自用去广告Adblock规则
-! Version: 20230929102434
-! Last modified: 2023-09-29 10:24:34
-! Total Count: 2661
+! Version: 20230930194142
+! Last modified: 2023-09-30 19:41:42
+! Total Count: 2665
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -422,6 +422,7 @@
 ##dd > a[data-uuid]
 ##display-ad-component
 ##display-ads
+##div > [style="display: flex; flex-direction: column;width: 100%;"] > [style$="overflow: hidden; cursor: pointer;"]
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
@@ -471,6 +472,7 @@
 ##div[class][style*="bottom: 0px; left: 0px; z-index:"][style*="0px 0px"][style*="no-repeat"]
 ##div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"],div[class][style*="z-index:"][style*="display: block;"][style$="98px;"]
 ##div[class][style*="z-index:"][style*="0px 0px / 100vw"][style*="no-repeat"]
+##div[class^="Ads_container"]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="cvbcvxvb"][style]
@@ -1443,6 +1445,7 @@
 ://onvideo.ssrcdn.com/bs2/onVideo/skyfall/media/*.mp3$third-party
 ://p.qlogo.cn/qqmail_head/*
 ://pic.*.cn/*/*.js$third-party,script
+://rou*/_next/static/chunks/pages/home-$~third-party
 ://shiold*.zhaosw.com$script
 ://tpic.*.cn/*.js$third-party
 ://tpic.*.cn/*.txt$third-party
@@ -2461,6 +2464,7 @@ zle.com$script
 ||pcd.autohome.com.cn^
 ||pcmx.autohome.com.cn^
 ||peizi00.com^$third-party
+||piankudy.com/gg$script
 ||pic.dibtvft.cn^$script,third-party
 ||pic.ivzfpwm.cn^$script,third-party
 ||picfourlai.com^
