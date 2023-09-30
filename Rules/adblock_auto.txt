@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Rx11g7HnHyr4WN/eThU78g
+! Checksum: QK+jL3WAF8qRNLdRhLWBRw
 ! Title: 混合规则(自动更新)
-! Version: 20230930204100
+! Version: 20231001000726
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-30 20:41:00
-! Total Count: 120797
+! Last modified: 2023-10-01 00:07:26
+! Total Count: 120803
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -80112,6 +80112,7 @@ mitbbs.ca,mitbbs.com##table[width="336"][height="280"]
 mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
 mjzj.com##div[id^="sidebar-top-carouse"]
 mlsbd.shop##.notice-board
+mlsbd.shop##.srzads
 mm-cg.com###ioshowAD
 mm-cg.com##.ut1_img_content_js
 mma-core.com##.crec
@@ -81543,6 +81544,7 @@ php.cn##.close_id
 php.cn##.layui-show > UL > .top-img
 php.cn##.zwwad
 php.cn##a[href*="/go."]:not([href*="Fwww.php"])
+php?ad=
 phpbb.com###footer_banner_leaderboard
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
@@ -99026,6 +99028,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 inapps.appsflyersdk.com^
 leporno.org/english.js
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+php?ad=
 porn*.com/bees.js|
 porn*.me/bees.js|
 porn*.net/bees.js|
@@ -116723,6 +116726,7 @@ zle.com$script
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="b-cdn.net"][style*="background-size"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##[style*="https://fjkb.tyvzyn.com/"]
 ##[style*="mi-img.com"][style*="calc"]
 ##[style*="sotv.me"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -117699,7 +117703,9 @@ zle.com$script
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
+##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
 ##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
+##body > [style^="display: block; z-index: 2147483647; width: 10%;"][style$="!important;"]
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]

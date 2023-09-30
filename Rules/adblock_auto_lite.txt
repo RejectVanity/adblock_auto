@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TQv+PL6Lmkx5ebBeGutimA
+! Checksum: Xo4zhO+ub7XqYWygt8kb+w
 ! Title: 混合规则精简版(自动更新)
-! Version: 20230930204110
+! Version: 20231001000735
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-09-30 20:41:10
-! Total Count: 23717
+! Last modified: 2023-10-01 00:07:35
+! Total Count: 23739
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -16216,6 +16216,7 @@ ph4.ru##div[style^="width: 728px; height: 90px;"]
 ph4.ru##table[width][height="90"][style]
 phimsexmoi.biz###text-2[style*="left: 0px; top: 0px;"]
 photolessons.org###modal-adbmon-div
+php?ad=
 pic4you.ru,pic5you.ru##body > #bb
 picbaron.com,imgbaron.com##a[href^="https://sexymeets.club/"]
 pics4upload.com,imgsen.com##a[href="https://besthotgayporn.com/"] > img
@@ -18019,8 +18020,20 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .org/ads/
 .org/js/ads/
 .org/topjs/
+.ph/ads/
+.php/ad/
+.php/ads/
 .php?ad=
+.php?ad_
+.php?adsid=
+.php?adv=
+.php?adv_
+.php?id=ads_
+.php?zone_id=
 .php?zoneid=
+.pj?adv=
+.pk/ads/
+.pl/ads/
 .ppys.com/detail
 .pw/ads/
 .pw/blxn_*.js?
@@ -18029,6 +18042,11 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .qidian.com/floatOpBox.
 .qidian.com/gameBox.
 .qidian.com/pageOps.
+.refit.ads.
+.refreshAds.
+.ro/ads/
+.rolloverad.
+.ru/ads/
 .shop/$third-party,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|soosadfun.com|sqruitu.com|tangsanshu.info|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .shop/*_*.js?*16$third-party
 .shop/?token=*&screen_*=*&ref=$third-party
@@ -20380,6 +20398,7 @@ _yad_jsonp_
 cc/o.js$third-party,script
 leporno.org/english.js
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+php?ad=
 porn*.com/bees.js|
 porn*.me/bees.js|
 porn*.net/bees.js|
@@ -21745,6 +21764,7 @@ zle.com$script
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="b-cdn.net"][style*="background-size"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##[style*="https://fjkb.tyvzyn.com/"]
 ##[style*="mi-img.com"][style*="calc"]
 ##[style*="sotv.me"]
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -22250,7 +22270,9 @@ zle.com$script
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
+##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
 ##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
+##body > [style^="display: block; z-index: 2147483647; width: 10%;"][style$="!important;"]
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
