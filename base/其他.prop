@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i8FP2BlUC7ncVji1v9QZXQ
+! Checksum: Esms8nIs/xoYJTThdFEtTw
 ! Title: 自用去广告Adblock规则
-! Version: 20230930230935
-! Last modified: 2023-09-30 23:09:35
-! Total Count: 2667
+! Version: 20230930232251
+! Last modified: 2023-09-30 23:22:51
+! Total Count: 2688
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -410,6 +410,7 @@
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
+##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
 ##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
 ##body > [style^="display: block; z-index: 2147483647; width: 10%;"][style$="!important;"]
 ##body > div[class$="c"][style="bottom: 135px;"]
@@ -868,7 +869,26 @@
 .live/wiseindex*?*16$third-party
 .live:*/vh5/$third-party
 .net/20*/*/*.txt$third-party
+.ph/ads/
+.php/ad/
+.php/ads/
+.php?ad=
+.php?ad_
+.php?adsid=
+.php?adv=
+.php?adv_
+.php?id=ads_
+.php?zone_id=
+.php?zoneid=
+.pj?adv=
+.pk/ads/
+.pl/ads/
 .pw/blxn_*.js?
+.refit.ads.
+.refreshAds.
+.ro/ads/
+.rolloverad.
+.ru/ads/
 .shop/r/*$xmlhttprequest
 .shop/xling_*_*.js?
 .shop:*/o.js$third-party,script
@@ -1859,6 +1879,7 @@ nxnba.com##.bootom-fixed
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
 okdyy.com##[style*="width:"][style*="100%"],p[style*="display: block;"]
 pan.baidu.com##.share-error-ad
+php?ad=
 porndoe.com##[class^="-banner"],[href*="//ads"],[href^="/redirect"]
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##.container-fluid > .links
 pornfind.org,pornbest.org,ptt.sex,pornlulu.com##.no-gutters
