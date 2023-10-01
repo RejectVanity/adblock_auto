@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: RSTuQx+tya9rrmVAWddmrA
+! Checksum: y+LJ0/iUXflbgA6V3kCdvA
 ! Title: 混合规则(自动更新)
-! Version: 20231001112807
+! Version: 20231001160810
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-01 11:28:07
-! Total Count: 120865
+! Last modified: 2023-10-01 16:08:10
+! Total Count: 120868
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -84494,6 +84494,7 @@ the18.com##.push-downv
 theartnewspaper.com##.justify-center.flex.w-full
 theatlantic.com##div[class*="Leaderboard_placeholder_"]
 theautopian.com##[data-widget_type="html.default"]
+theautopian.com#?#.code-block:-abp-has(.htlad-InContent)
 theav.xyz##[class*="absolute-"]
 theav.xyz##div[id*="theav"][style*="margin"] > div > span
 theav.xyz##div[v-if="is_show()"]
@@ -116836,6 +116837,7 @@ zle.com$script
 ##a[href$="/xhg23.com"]
 ##a[href$="ky9402.com"]
 ##a[href*="&Ad_ID="]
+##a[href*="&campaignType=smartpop&creativeId"]
 ##a[href*=".05bq.com/"]
 ##a[href*=".08an.com/"]
 ##a[href*=".123ch.cn"]
@@ -117061,6 +117063,7 @@ zle.com$script
 ##a[href*="//baidujkdjklvvsbvk.com"]
 ##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//go.admjmp.com/"]
+##a[href*="//go.bbrdbr.com/"]
 ##a[href*="//go.cmtaffiliates.com/"]
 ##a[href*="//go.currency.com/"]
 ##a[href*="//go.dmzjmp.com"]
