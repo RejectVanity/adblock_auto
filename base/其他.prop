@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Esms8nIs/xoYJTThdFEtTw
+! Checksum: r+Nx83wYX5vHc3nmLegTBA
 ! Title: 自用去广告Adblock规则
-! Version: 20230930232251
-! Last modified: 2023-09-30 23:22:51
-! Total Count: 2688
+! Version: 20231001094538
+! Last modified: 2023-10-01 09:45:38
+! Total Count: 2692
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -197,7 +197,7 @@
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[href*="//ad.addizhi."][href$=".html"]
-##[href*="://sejieboxapi.yingyangdj.com"]
+##[href*="//sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
 ##[href*="https://go.xlviiirdr.com"]
@@ -225,7 +225,7 @@
 ##[id^="syad"]
 ##[id^="xqad"]
 ##[name^="google_ads_iframe"]
-##[onclick*="://xxl.skdvkslkdb.com"]
+##[onclick*="//xxl.skdvkslkdb.com"]
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
@@ -235,7 +235,7 @@
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[ontouchstart*="location.href"][ontouchstart*="baidujkdjklvvsbvk.com"]
 ##[src*="//ad.a-ads.com/"]
-##[src*="://sejieboxapi.yingyangdj.com"]
+##[src*="//sejieboxapi.yingyangdj.com"]
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -318,12 +318,12 @@
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//sm5xse.net"]
 ##a[href*="//tsyndicate.com"][href*="/click"]
 ##a[href*="//xxuudxdu.live?"]
 ##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
 ##a[href*="/youyicl/youku.html"][target="_blank"]
-##a[href*="://sm5xse.net"]
 ##a[href*="?adCode="][target="_blank"]
 ##a[href*="?adsCode="][target="_blank"]
 ##a[href*="?channelCode="] > img[src]
@@ -404,8 +404,8 @@
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[style*="width:99%"][style*="z-index:100000"][style*="block"]
 ##a[target=" _blank"] > img[src$=".gif"][style*="width:100%"]
+##a[target="_blank"][href*="//ads.traffichaus.com/"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
-##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##bkveng
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
@@ -536,8 +536,11 @@
 ##guj-ad
 ##hl-adsense
 ##iframe.ad-frame
+##iframe[sandbox*="allow-popups"]
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
+##iframe[src*=".magsrv.com/"]
 ##iframe[src*=".medfoodsafety.com/"]
+##iframe[src*=".montlusa.top/loader?"]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//av.ageverify.co/"]
@@ -576,7 +579,6 @@
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
 ##iframe[src*="/redbaiduct.com?s="]
-##iframe[src*="://go.xlivrdr.com"]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ad.a-ads.com/"]
 ##iframe[src^="//ads."]
@@ -649,7 +651,12 @@
 ##img[src*=".secureserver.net/"][src*=".gif"],img[src*=".secureserver.net/"][src*="960x"],img[src*=".secureserver.net/"][src*="960_"]
 ##img[src*=".tptp002.cfd/"][src$=".gif"]
 ##img[src*=".wzxty168.com"][src$=".gif"][width="100%"]
+##img[src*="//acc.snmovie.com"]
+##img[src*="//ad.xmmnsl.com"]
+##img[src*="//fhh.emossvu.cn"]
+##img[src*="//hfh.bgfe26.cn"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
+##img[src*="//upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
@@ -657,12 +664,8 @@
 ##img[src*="/new/ads/"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
-##img[src*="://acc.snmovie.com"]
-##img[src*="://ad.xmmnsl.com"]
 ##img[src*="://dpic."][src*=".cn"][src$=".js"]
 ##img[src*="://dpic."][src*=".cn"][src$=".txt"]
-##img[src*="://fhh.emossvu.cn"]
-##img[src*="://hfh.bgfe26.cn"]
 ##img[src*="://kpic."][src*=".cn"][src$=".js"]
 ##img[src*="://kpic."][src*=".cn"][src$=".txt"]
 ##img[src*="://mc.yandex.ru/"][alt]
@@ -672,7 +675,6 @@
 ##img[src*="://pic"][src*=".cn"][src$=".txt"]
 ##img[src*="://tpic."][src*=".cn"][src$=".js"]
 ##img[src*="://tpic."][src*=".cn"][src$=".txt"]
-##img[src*="://upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="_advertising_"]
 ##img[src*="acgfuny.com/"]
 ##img[src*="ads.bullionyield.com"]
@@ -1679,6 +1681,7 @@ dyjihe8.com##div[style*="text-indent: -10000px !important; line-height: 0px !imp
 e-kei.com,britaku.com##div[class="row"][style="margin:3px 0px;display:flex;flex-wrap: wrap;justify-content:space-evenly;width:100%;"],img[src^="data:image/png;base64"],table > tr[style="border-bottom:1px orange solid;"]
 efukt.com##[data-ad-type]
 eporner.com##[id^="admobile"]
+eporner.com##[id^="admobile"],[class^="admobile"]
 events.baidu.com##.bottom-img
 fanyi.baidu.com##.app-bar
 fanyi.baidu.com##.bottom-intro
@@ -1739,6 +1742,7 @@ google.com##.nH.MC
 hanyu.baidu.com###download-wrapper
 hanyu.baidu.com##[id^="fengchao_els"]
 hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
+hentaicity.com##[class^="adn-posty_"]
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
 ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
 ilengmen.com,newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"],div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
