@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: cVyayHwwqh8MKQE8/lRSLA
+! Checksum: RSTuQx+tya9rrmVAWddmrA
 ! Title: 混合规则(自动更新)
-! Version: 20231001102509
+! Version: 20231001112807
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-01 10:25:09
-! Total Count: 120861
+! Last modified: 2023-10-01 11:28:07
+! Total Count: 120865
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -94186,6 +94186,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/index_adfloat.js
 /js/jads.js$script
+/js/jads.js?
 /js/jsstyle-$third-party
 /js/layer1.js$domain=99a67.com|99re.com
 /js/lm.js$script,third-party
@@ -117894,6 +117895,7 @@ zle.com$script
 ##div[data-spotim-slot]
 ##div[id*="MarketGid"]
 ##div[id*="ScriptRoot"]
+##div[id*="_"][classname$="_f"][class$="_f"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
 ##div[id="alert_windows"][class*="q-dialog fullscreen"]
@@ -118019,6 +118021,7 @@ zle.com$script
 ##iframe.ad-frame
 ##iframe[sandbox*="allow-popups"]
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
+##iframe[src*=".jads."]
 ##iframe[src*=".magsrv.com/"]
 ##iframe[src*=".medfoodsafety.com/"]
 ##iframe[src*=".montlusa.top/loader?"]
@@ -118130,6 +118133,7 @@ zle.com$script
 ##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
+##img[id][height$="0001"][width="100%"][border="0"]
 ##img[id^="GGADIMG"][src]
 ##img[id^="daohang_hengfu"][width="100%"]
 ##img[onclick*=".5408h.cn"]

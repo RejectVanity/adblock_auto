@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9IXRKcj3habySB/jTQIZJg
+! Checksum: NAzrUu8ny1v9Icq6QCW72Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231001102516
+! Version: 20231001112814
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-01 10:25:16
-! Total Count: 23760
+! Last modified: 2023-10-01 11:28:14
+! Total Count: 23764
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18561,6 +18561,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /js/gano.js?$~third-party,script
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/jads.js$script
+/js/jads.js?
 /js/pfadll*.js
 /js/sp_ad.js$script
 /json/ads/*
@@ -22391,6 +22392,7 @@ zle.com$script
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class^="swiper-"] > a[onclick][rel="nofollow"] > img[style="width: 100%; height: 100%"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
+##div[id*="_"][classname$="_f"][class$="_f"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
 ##div[id="alert_windows"][class*="q-dialog fullscreen"]
@@ -22474,6 +22476,7 @@ zle.com$script
 ##iframe.ad-frame
 ##iframe[sandbox*="allow-popups"]
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
+##iframe[src*=".jads."]
 ##iframe[src*=".magsrv.com/"]
 ##iframe[src*=".medfoodsafety.com/"]
 ##iframe[src*=".montlusa.top/loader?"]
@@ -22585,6 +22588,7 @@ zle.com$script
 ##img[class][src$=".txt"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
+##img[id][height$="0001"][width="100%"][border="0"]
 ##img[id^="GGADIMG"][src]
 ##img[id^="daohang_hengfu"][width="100%"]
 ##img[onclick*=".aiyou305.com/"]
