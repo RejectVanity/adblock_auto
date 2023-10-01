@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LguuoE7UKWrWjJXlToV/TA
+! Checksum: nq/Jzxh+VNFhlFJWC7IUow
 ! Title: 自用去广告Adblock规则
-! Version: 20231001145905
-! Last modified: 2023-10-01 14:59:05
-! Total Count: 2698
+! Version: 20231001164726
+! Last modified: 2023-10-01 16:47:26
+! Total Count: 2700
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1408,6 +1408,7 @@
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 99re.com##a[href][target="_blank"] > img[src]
+:*/static/lbsite/*/*.js?v=16$third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
 ://*.*.xyz:*/*/*-*-*-*/$third-party
 ://*.*27txt.com/*/*.js$~third-party
@@ -2488,6 +2489,7 @@ zle.com$script
 ||nsclick.baidu.com^
 ||nscxbr.com^$third-party
 ||nwecd.xyz^$third-party
+||oce.nexithrom.com^$third-party
 ||oclasrv.com^
 ||openinstall.io^$third-party,script
 ||oqedci.xyz^$third-party
