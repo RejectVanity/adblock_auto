@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: y+LJ0/iUXflbgA6V3kCdvA
+! Checksum: bcX+5knQbq8KAF8acOIJ9Q
 ! Title: 混合规则(自动更新)
-! Version: 20231001160810
+! Version: 20231001164959
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-01 16:08:10
-! Total Count: 120868
+! Last modified: 2023-10-01 16:49:59
+! Total Count: 120870
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -42874,6 +42874,7 @@
 ||occxhidubbh.com^
 ||ocdn.eu/ramp/*/Sponsoring-Mobile-Float-Universal/*.js
 ||ocdouoqjvmn.com^
+||oce.nexithrom.com^$third-party
 ||oceanfilmingexperience.com^
 ||oceanvids.online^
 ||oceanvids.space^
@@ -96518,6 +96519,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 139.196.80.247$document
 139.196.80.247$~third-party
 728x90.jpg|
+:*/static/lbsite/*/*.js?v=16$third-party
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*.*.xyz/*/*-*-*-*/$third-party

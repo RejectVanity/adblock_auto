@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 5C2++nW2/b+/5z30rnWvrA
+! Checksum: /C4MOyvf1CzitolYWgztyQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231001160817
+! Version: 20231001165009
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-01 16:08:17
-! Total Count: 23766
+! Last modified: 2023-10-01 16:50:09
+! Total Count: 23768
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -10206,6 +10206,7 @@
 ||obmpp.com^
 ||obzthda.xyz^
 ||ocdn.eu/ramp/*/Sponsoring-Mobile-Float-Universal/*.js
+||oce.nexithrom.com^$third-party
 ||ocive.xyz^
 ||ockuc.com^
 ||oclasrv.com^
@@ -18771,6 +18772,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /ylnew/*.js$image
 139.196.80.247$document
 139.196.80.247$~third-party
+:*/static/lbsite/*/*.js?v=16$third-party
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
