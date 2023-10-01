@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SWkZ/sRZ/v2dZ+20tB8krg
+! Checksum: 9IXRKcj3habySB/jTQIZJg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231001083514
+! Version: 20231001102516
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-01 08:35:14
-! Total Count: 23745
+! Last modified: 2023-10-01 10:25:16
+! Total Count: 23760
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -15485,6 +15485,7 @@ eporner.com##.dropdown > li > a[rel="nofollow"]
 eporner.com##.hptab
 eporner.com##.vjs-inplayer-container
 eporner.com##[id^="admobile"]
+eporner.com##[id^="admobile"],[class^="admobile"]
 eporner.com#?#.mb:has(> .adnative-1x1)
 eporner.video##.center-adv
 eporner.video,porntrex.video##.container > .header ~ .top[style]
@@ -15759,6 +15760,7 @@ hellporno.net,bravoporn.com,alphaporno.com,sex3.com,crocotube.com,bravoteens.com
 helpsetup.ru##.veramoy
 hentai-moon.com,alotporn.com,amateurporn.co,onlinestars.net,someonesister.com,pornrabbit.com,lusttaboo.com,xhomealone.com,mangovideo.club,love4porn.com,hoes.tube,jizzonme.org,camclips.tv,partycelebs.com,jizzoncam.com,mrpeepers.net,cluset.com,celebwhore.com,sexcams-24.com,amateurporn.me,pornfay.org,fapnado.com,xgirls.webcam,cambay.tv##+js(set-constant, flashvars.popunder_url, '')
 hentai.video,hentaiporn.tube,naughtyhentai.com###videocon
+hentaicity.com##[class^="adn-posty_"]
 hentaicity.com,porntv.com##.detail-box > div.detail-con ~ div.detail-side-td
 hentaicity.com,porntv.com##.thumb-list > div[class^="outer-item _"]
 hentaidude.com,verpeliculasporno.gratis###videoOverAd
@@ -21723,6 +21725,7 @@ zle.com$script
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[href*="//ad.addizhi."][href$=".html"]
+##[href*="//sejieboxapi.yingyangdj.com"]
 ##[href*="://sejieboxapi.yingyangdj.com"]
 ##[href*="https://at.umtrack.com"]
 ##[href*="https://clickadilla.com"]
@@ -21755,6 +21758,7 @@ zle.com$script
 ##[id^="syad"]
 ##[id^="xqad"]
 ##[name^="google_ads_iframe"]
+##[onclick*="//xxl.skdvkslkdb.com"]
 ##[onclick*="://xxl.skdvkslkdb.com"]
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
@@ -21765,6 +21769,7 @@ zle.com$script
 ##[onclick^="window.location.href"][onclick*=".biqu"]
 ##[ontouchstart*="location.href"][ontouchstart*="baidujkdjklvvsbvk.com"]
 ##[src*="//ad.a-ads.com/"]
+##[src*="//sejieboxapi.yingyangdj.com"]
 ##[src*="://sejieboxapi.yingyangdj.com"]
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
@@ -21991,6 +21996,7 @@ zle.com$script
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//sm5xse.net"]
 ##a[href*="//tsyndicate.com"][href*="/click"]
 ##a[href*="//xxuudxdu.live?"]
 ##a[href*="/1124024.xyz"]
@@ -22255,6 +22261,7 @@ zle.com$script
 ##a[target="_blank"] > img.king
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
+##a[target="_blank"][href*="//ads.traffichaus.com/"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
 ##a[target="_blank"][href*="://ads.traffichaus.com/"]
 ##a[target="_blank"][onclick*="广告点击"]
@@ -22465,8 +22472,11 @@ zle.com$script
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##hl-adsense
 ##iframe.ad-frame
+##iframe[sandbox*="allow-popups"]
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
+##iframe[src*=".magsrv.com/"]
 ##iframe[src*=".medfoodsafety.com/"]
+##iframe[src*=".montlusa.top/loader?"]
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
@@ -22603,7 +22613,12 @@ zle.com$script
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##img[src*=".tptp002.cfd/"][src$=".gif"]
 ##img[src*=".wzxty168.com"][src$=".gif"][width="100%"]
+##img[src*="//acc.snmovie.com"]
+##img[src*="//ad.xmmnsl.com"]
+##img[src*="//fhh.emossvu.cn"]
+##img[src*="//hfh.bgfe26.cn"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
+##img[src*="//upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
