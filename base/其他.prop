@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JmbhQ4qlJzXx4IwWH2cszw
+! Checksum: LguuoE7UKWrWjJXlToV/TA
 ! Title: 自用去广告Adblock规则
-! Version: 20231001110411
-! Last modified: 2023-10-01 11:04:11
-! Total Count: 2696
+! Version: 20231001145905
+! Last modified: 2023-10-01 14:59:05
+! Total Count: 2698
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -267,6 +267,7 @@
 ##a[data-track-content][data-content-name][target="_blank"]
 ##a[href$=".vip"][target="_blank"][class] > span
 ##a[href*="&Ad_ID="]
+##a[href*="&campaignType=smartpop&creativeId"]
 ##a[href*=".biquge"][href*="app"]
 ##a[href*=".cc:"] > img[src]
 ##a[href*=".cc:"][target="_blank"][class] > span
@@ -288,6 +289,7 @@
 ##a[href*="//baidujkdjklvvsbvk.com"]
 ##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//go.admjmp.com/"]
+##a[href*="//go.bbrdbr.com/"]
 ##a[href*="//go.cmtaffiliates.com/"]
 ##a[href*="//go.currency.com/"]
 ##a[href*="//go.dmzjmp.com"]
