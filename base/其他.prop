@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nq/Jzxh+VNFhlFJWC7IUow
+! Checksum: Cc2RDL9c4l58POKo2azsQw
 ! Title: 自用去广告Adblock规则
-! Version: 20231001164726
-! Last modified: 2023-10-01 16:47:26
-! Total Count: 2700
+! Version: 20231003022527
+! Last modified: 2023-10-03 02:25:27
+! Total Count: 2737
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -338,6 +338,7 @@
 ##a[href*="live/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="top/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
+##a[href*="xn--dpq21dn8asxam8v16q0j5c.com"]
 ##a[href*="xyz/?token="][href*="&screen_"][target="_blank"]
 ##a[href="/baidu/index.html"]
 ##a[href="/download/apps"] > img[style^="max-width: 100%"]
@@ -416,6 +417,7 @@
 ##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
 ##body > [style^="display: block; z-index: 2147483647; width: 10%;"][style$="!important;"]
 ##body > div[class$="c"][style="bottom: 135px;"]
+##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
@@ -1298,6 +1300,39 @@
 /templates/bootadult4/js/text.js
 /templets/*/js/couplet-ad.
 /templets/yycms3/img/*
+/top-ad-
+/top-ad.
+/top-ad/*
+/top-ad_
+/top-ads.
+/top_ad.
+/top_ad/*
+/top_ad_
+/top_ads.
+/top_ads/*
+/top_ads_
+/top_adv_
+/topad.
+/topad/*
+/topad3.
+/topadImg.
+/topad_
+/topadbg.
+/topadfooter.
+/topadheader.
+/topads.$domain=~topads.me
+/topads/*
+/topads1.
+/topads2.
+/topads3.
+/topads_
+/topadv.
+/topadvert.
+/topleftads.
+/topperad.
+/toprightads.
+/tops.ads.
+/torget_ads.
 /upload/ads/*$domain=~ads.ae
 /vs.php?id=$third-party,xmlhttprequest
 /wenziad.js?var=$script
@@ -1660,6 +1695,7 @@ che168.com##.talkprice.liaoliao.float-zixun
 chejiahao.m.autohome.com.cn##.pgc-details-recommend-list
 chinasex.com.es##[class^="footer-ad"]
 chrybloom.live,chrybloom.cc,jisaobad.vip,jisaobad.cc,jieyunuhai.info,aprk2.top,yydsav.top,mbjav.top,mbjav69.buzz,mbjav27.buzz,mbjav97.buzz,mbjav53.buzz,jztj39.top,jztj.xyz##[class$="i"][style],[class$="c"][style$="131px;"],[class$="_b"],[class$="h"][style],[class^="app"],a[target="_blank"] > [style*="width:100%"]
+ciyuanshe6.com##body > div[id] > div[class="fixed"],body > div[id] > div[class*="_"],[style=" top: 0; left: 0; width: 100%; height: 120px; z-index: 9999;"]
 colamanhua.com,colamanga.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"]
 colamanhua.com,colamanga.com#@#.gg_950
 colamanhua.com,ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me,colamanga.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
@@ -2648,6 +2684,7 @@ zle.com$script
 ||xmsflzmygw.com^
 ||xn--*.xn--fiqs8s^$~third-party
 ||xn--2quv4et7i4yno8fbua.xn--fiqs8s^
+||xn--dpq21dn8asxam8v16q0j5c.com^
 ||xn--gov-x68dy61b.club^
 ||xn--lms23v745btkai5c.net^$third-party,script
 ||xplme.xyz^
