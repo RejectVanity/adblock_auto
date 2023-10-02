@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: d+VizR6nEn8VsxEJoLiPvg
+! Checksum: RbntQ50U64TxXSCWXDKtbw
 ! Title: 混合规则(自动更新)
-! Version: 20231002160952
+! Version: 20231003000844
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-02 16:09:52
-! Total Count: 120898
+! Last modified: 2023-10-03 00:08:44
+! Total Count: 120904
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -683,6 +683,7 @@
 ||16iis7i2p.de^
 ||16k6.com^
 ||16m.cc^
+||16m.cc^$third-party
 ||16niao20230125.live^
 ||16sucai.com/ads/
 ||16sucai.com/images/*0
@@ -37791,6 +37792,7 @@
 ||m.9wx.org/statics/js/new.js
 ||m.addthis.com/live/red_lojson/300lo.json
 ||m.adtiming.com^
+||m.ailezhai.cn^
 ||m.ailezhai.cn^$third-party
 ||m.alphaporno.com/adman_ai/
 ||m.aty.sohu.com^
@@ -46035,6 +46037,7 @@
 ||pixel.bridge.dooca.store^
 ||pixel.bullion.media^
 ||pixel.buzzfeed.com^
+||pixel.byspotify.com^
 ||pixel.cdnwidget.com^
 ||pixel.coccoc.com^
 ||pixel.condenastdigital.com^
@@ -71155,6 +71158,8 @@ abcnews.go.com##div[style^="min-height: 90px"]
 abcnews.go.com,edarabia.com##.leaderboard-970
 abcya.com##.a-leader
 abcya.com##.a-skyscraper
+ablesci.com##.fly-panel img[src*="-alipay-autumn-hongbao.png"]
+ablesci.com#?#.able-container-body-right > .fly-panel:has(> div > img[src*="-alipay-autumn-hongbao.png"])
 abmedia.io###block-12
 abmedia.io##.pum
 abmedia.io##a[href^="https://ace.io/"]
@@ -72282,6 +72287,7 @@ baidu.com##div[data-ad]
 baidu.com##div[id^="toast"]
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 baidu.com#$##content_left > div[style*="display:block !important;"]:not(.result) { position: absolute!important; left: -4000px!important; }
+baidu.com#$#.ec_wise_ad { position: absolute !important; left: -3000px !important; }
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
@@ -73365,6 +73371,11 @@ charlestownwyllie.oaklawnnonantum.com^
 charlieintel.com###topunit
 charlieintel.com##.position-sticky
 charlieintel.com,dexerto.com##.Ad_ad__SqDQA
+charlieintel.com,dexerto.com##.bg-neutral-grey-4.items-center
+charlieintel.com,dexerto.com##.bg-neutral-grey.justify-center
+charlieintel.com,dexerto.com##.text-center.italic
+charlieintel.com,dexerto.com##.top-0.justify-center
+charlieintel.com,dexerto.com##.top-10
 chaseyoursport.com###popup1
 chaseyoursport.com##.adv-slot
 chaseyoursport.com##.floating-adv
@@ -74578,11 +74589,6 @@ deviantart.com##._3bkGl
 deviantart.com##._3jfHP
 deviantart.com##.ytXUX
 dexdotexe.com##iframe[title="Top Games"]
-dexerto.com##.bg-neutral-grey-4.items-center
-dexerto.com##.bg-neutral-grey.justify-center
-dexerto.com##.text-center.italic
-dexerto.com##.top-0.justify-center
-dexerto.com##.top-10
 dexerto.com##div[id^="dex-ad-"]
 dexerto.com##div[id^="jwplayer_"]
 dexscreener.com##.custom-1klpohg
