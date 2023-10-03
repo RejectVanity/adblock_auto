@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ZmJaH41R18kWbnr5Sv/Mnw
+! Checksum: YxYWMqXGix3Gii1VWMvvuQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231003160936
+! Version: 20231003180041
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-03 16:09:36
-! Total Count: 23816
+! Last modified: 2023-10-03 18:00:41
+! Total Count: 23867
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -423,9 +423,12 @@
 ||2018x.*/guang/
 ||202.102.26.253:8182/files/7/lhzs1k.jpg
 ||2021.dxsbb.com^
+||2021welcome.com^$third-party
 ||2022fada1028.xyz^
 ||2022shoupidan1024.xyz^
+||2022welcome.com^$third-party
 ||2023518.com/js/mi.js
+||2023welcome.com^$third-party
 ||2048hd1.com/js/tc.js
 ||20mao.com/52
 ||20mao.com/js/sj.
@@ -4169,6 +4172,7 @@
 ||bigmobileads.com^
 ||bigpornclips.com^
 ||bigsexvids.com^
+||bihunekus.com^
 ||bikannovel.com^
 ||biketo.com/d/file/p/
 ||bilec.xyz^
@@ -5987,6 +5991,7 @@
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
+||elonreptiloid.com^$third-party
 ||elsbfby.com^$popup,third-party
 ||elsmom.xyz^
 ||elsynmlw.fun^
@@ -6430,6 +6435,7 @@
 ||ftanya.ltd^
 ||ftchinese.com/a.html
 ||ftchinese.com/m/marketing/
+||ftd.agency^$third-party
 ||fthqzxq.cn^
 ||ftimg.net/s?z=
 ||ftiodfqk.com^
@@ -6890,6 +6896,7 @@
 ||guanjiabo.net^
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
+||guchihyfa.pro^
 ||guess.h.qhimg.com^
 ||guge.red^
 ||guhai.com.cn/AD/
@@ -8764,6 +8771,7 @@
 ||kwivb.cn^
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
 ||kx4.firstsexfilm.com^
+||kxcdn.com^$xmlhttprequest
 ||kxcp365.com^
 ||kxd56.com/qq.js
 ||kxd56.com/tg.gif
@@ -12102,6 +12110,7 @@
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
 ||sitemaji.com^
 ||sitescout.com^
+||sitewithg.com^
 ||sitv.com.cn/cookiead.php
 ||siuscs.xyz^
 ||sjalipa.cn^
@@ -12883,6 +12892,7 @@
 ||tradeadexchange.com^
 ||tradplusad.com^
 ||traff10wap.com^
+||traffer.net^
 ||traffichaus.com^
 ||trafficjam.cn^$third-party
 ||trafficjunky.com^
@@ -14408,6 +14418,7 @@
 ||ynztzh.com^$third-party
 ||yofprpv.cn^
 ||yoiqacw.cn^
+||yomeno.xyz^
 ||yong.chazidian.com^
 ||yorkbbs.ca/crm/section/v1/get/list/open
 ||you75.youpornsexvideos.com^
@@ -17616,6 +17627,21 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 -advertising/vast/
 -advertisment-
 -bobo_recommend_
+-content-ad-
+-content-ad.
+-contest-ad.
+-contrib-ads.$~stylesheet
+-core-ads.
+-cpm-ad.
+-cpm-ads.
+-cust-ad.
+-detect-adblock.
+-dfp-ads/
+-dfp-adunits.
+-display-ads.
+-doubleclick-plugin/
+-doubleclick.js
+-doubleclick.min.js
 -side-ad-
 -side-ad.
 -sidebar-ad.
@@ -18419,6 +18445,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /adblockpopup.
 /adclick?
 /adclickcv.php
+/adfox/*
 /ads.dp.js?
 /ads/ads.js$script
 /ads/index-
@@ -18762,6 +18789,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /v*/?channelCode=$document
 /v*/?channelCode=$~third-party
 /vs.php?id=$third-party,xmlhttprequest
+/wcm/?sh=*&*=*&*=$third-party
 /wdbloogablock.js
 /wenziad.js?var=$script
 /wenziad.js?var=$script,~third-party
@@ -21216,7 +21244,29 @@ zle.com$script
 ##.below_ads
 ##.bg > img[src*=".meituan.net"]
 ##.bg_ad
+##.big-ads
+##.big-advertisement
+##.big-box-ad
+##.big-right-ad
+##.bigAd
+##.bigAdContainer
+##.bigAds
+##.bigAdvBanner
+##.bigAdvMiddle
+##.bigAdvMiddlea
+##.bigBoxAdArea
 ##.bigClickTeasersBlock
+##.bigCubeAd
+##.big_ad
+##.big_ad2
+##.big_ads
+##.big_center_ad
+##.bigad
+##.bigad1
+##.bigad2
+##.bigadleft
+##.bigadright
+##.bigads
 ##.bing-ads-wrapper
 ##.bing-native-ad
 ##.bjxhf
@@ -22578,6 +22628,7 @@ zle.com$script
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
 ##iframe[src*="/redbaiduct.com?s="]
+##iframe[src*="/smartpop/"]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ad.a-ads.com/"]
 ##iframe[src^="//ads."]

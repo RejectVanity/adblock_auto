@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1CXRzUKAv5Vsg6oIXqZzrw
+! Checksum: AjMdm9g4OYpcGMs0mphMww
 ! Title: 混合规则(自动更新)
-! Version: 20231003160929
+! Version: 20231003180034
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-03 16:09:29
-! Total Count: 120973
+! Last modified: 2023-10-03 18:00:34
+! Total Count: 120981
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -978,10 +978,13 @@
 ||202.102.26.253:8182/files/7/lhzs1k.jpg
 ||2020mustang.com^
 ||2021.dxsbb.com^
+||2021welcome.com^$third-party
 ||2022fada1028.xyz^
 ||2022shoupidan1024.xyz^
 ||2022welcome.com^
+||2022welcome.com^$third-party
 ||2023518.com/js/mi.js
+||2023welcome.com^$third-party
 ||2036369798.com^
 ||2048hd1.com/js/tc.js
 ||204st.us^
@@ -22208,6 +22211,7 @@
 ||elogs.vnexpress.net^
 ||elomf.xyz^
 ||elonreptiloid.com^
+||elonreptiloid.com^$third-party
 ||eloquencer.com^
 ||eloquentformallyrelapse.com^
 ||elparmo.ru^
@@ -25466,6 +25470,7 @@
 ||ftchinese.com/a.html
 ||ftchinese.com/m/marketing/
 ||ftd.agency^
+||ftd.agency^$third-party
 ||ftd2q1g8id1z.ru^
 ||ftdmfxq.cn^
 ||ftfnewu.cn^
@@ -35216,6 +35221,7 @@
 ||kwyuivlaychxe.com^
 ||kx4.firstsexfilm.com^
 ||kxapctq.cn^
+||kxcdn.com^$xmlhttprequest
 ||kxcp365.com^
 ||kxd56.com/qq.js
 ||kxd56.com/tg.gif
@@ -96373,6 +96379,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /waterad2.
 /wave-ad-
 /wbadvert/*
+/wcm/?sh=*&*=*&*=$third-party
 /wdbloogablock.js
 /wdzj_banners.js
 /weather-sponsor/*
@@ -118188,6 +118195,7 @@ zle.com$script
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
 ##iframe[src*="/redbaiduct.com?s="]
+##iframe[src*="/smartpop/"]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ad.a-ads.com/"]
 ##iframe[src^="//ads."]
