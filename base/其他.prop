@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YV3MMQG1dNLmeSKTVD4Ryg
+! Checksum: 2JGN6ejANKAF5AolTyWP4w
 ! Title: 自用去广告Adblock规则
-! Version: 20231003101758
-! Last modified: 2023-10-03 10:17:58
-! Total Count: 2740
+! Version: 20231003175129
+! Last modified: 2023-10-03 17:51:29
+! Total Count: 2791
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -53,6 +53,29 @@
 ##.bads
 ##.banner-cctv-style-top
 ##.bdads
+##.big-ads
+##.big-advertisement
+##.big-box-ad
+##.big-right-ad
+##.bigAd
+##.bigAdContainer
+##.bigAds
+##.bigAdvBanner
+##.bigAdvMiddle
+##.bigAdvMiddlea
+##.bigBoxAdArea
+##.bigClickTeasersBlock
+##.bigCubeAd
+##.big_ad
+##.big_ad2
+##.big_ads
+##.big_center_ad
+##.bigad
+##.bigad1
+##.bigad2
+##.bigadleft
+##.bigadright
+##.bigads
 ##.bing-ads-wrapper
 ##.bing-native-ad
 ##.bottom-ads-content
@@ -308,7 +331,6 @@
 ##a[href*="//go.trackitalltheway.com/"]
 ##a[href*="//go.xlirdr.com"]
 ##a[href*="//go.xlivrdr.com"]
-##a[href*="//go.xlivrdr.com"][target="_blank"]
 ##a[href*="//go.xlrdr.com"][target="_blank"]
 ##a[href*="//go.xlviiirdr.com"]
 ##a[href*="//go.xlviirdr.com"]
@@ -586,6 +608,7 @@
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
 ##iframe[src*="/redbaiduct.com?s="]
+##iframe[src*="/smartpop/"]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ad.a-ads.com/"]
 ##iframe[src^="//ads."]
@@ -737,6 +760,21 @@
 -advertising/assets/
 -advertising/vast/
 -advertisment-
+-content-ad-
+-content-ad.
+-contest-ad.
+-contrib-ads.$~stylesheet
+-core-ads.
+-cpm-ad.
+-cpm-ads.
+-cust-ad.
+-detect-adblock.
+-dfp-ads/
+-dfp-adunits.
+-display-ads.
+-doubleclick-plugin/
+-doubleclick.js
+-doubleclick.min.js
 -side-ad-
 -side-ad.
 -sidebar-ad.
@@ -1052,6 +1090,7 @@
 /adblockpopup.
 /adclick?
 /adclickcv.php
+/adfox/*
 /ads.dp.js?
 /ads/ads.js$script
 /ads/index-
@@ -1338,7 +1377,7 @@
 /torget_ads.
 /upload/ads/*$domain=~ads.ae
 /vs.php?id=$third-party,xmlhttprequest
-/wenziad.js?var=$script
+/wcm/?sh=*&*=*&*=$third-party
 /wenziad.js?var=$script,~third-party
 /widget-advert.
 /widget-advert?
@@ -2242,6 +2281,9 @@ zle.com$script
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||15re.com^$third-party
+||2021welcome.com^$third-party
+||2022welcome.com^$third-party
+||2023welcome.com^$third-party
 ||33.autohome.com.cn^
 ||3pmcoohke.scriptmh.com^
 ||3zmm.net/*/*.js
@@ -2264,6 +2306,7 @@ zle.com$script
 ||adda.ljhhhhrt.top^
 ||addthis.com^
 ||adfstat.yandex.ru^
+||adl-hunter.com^
 ||adnewnc.app.autohome.com.cn^
 ||adprosrv.com^
 ||adproxy.autohome.com.cn^
@@ -2307,6 +2350,7 @@ zle.com$script
 ||baidujkdjklvvsbvk.com^$third-party
 ||bbangads.*.net^$third-party
 ||beijing163.aliyunapi.org^$third-party,script
+||bihunekus.com^
 ||bisonads.com^
 ||bitizm.pojuko.buzz^
 ||bj-gov-cn.website^
@@ -2381,6 +2425,7 @@ zle.com$script
 ||dydytt.net/js3
 ||effirst.com^$third-party
 ||ehfjup.xyz^$third-party
+||elonreptiloid.com^$third-party
 ||elsynmlw.fun^
 ||eporner.com/adblock
 ||eqwyym.com/js/dom.js$third-party
@@ -2398,6 +2443,7 @@ zle.com$script
 ||fg.knlk2md.cn^$third-party
 ||fourier.alibaba.com^
 ||friendshipmale.com^
+||ftd.agency^$third-party
 ||ftiodfqk.com^$third-party
 ||g.aidinghz.com^
 ||g.shommaipl.com^$third-party
@@ -2424,6 +2470,7 @@ zle.com$script
 ||google-analytics.com^
 ||googletagmanager.com^
 ||gov-cn.website^
+||guchihyfa.pro^
 ||gyqifa.com^$third-party
 ||gz-yunxi.com^
 ||ha.liuye.club^
@@ -2489,6 +2536,7 @@ zle.com$script
 ||kszc.j1evtmx.xyz^
 ||kszvmqo.cn^$third-party
 ||kszxqq.com^$third-party
+||kxcdn.com^$xmlhttprequest
 ||labadena.com^$third-party
 ||lanmeifeel.xyz^
 ||leads.api.autohome.com.cn^
@@ -2592,6 +2640,7 @@ zle.com$script
 ||sfvsjv.com/sh$third-party,script
 ||siduohua.top^
 ||simplewebanalysis.com^
+||sitewithg.com^
 ||sjdfuvz.cn^
 ||skluff.com^$third-party
 ||smachnakittchen.com^
@@ -2624,6 +2673,7 @@ zle.com$script
 ||toutiaoimg.com^$image,domain=350xs.com
 ||tpic.kszvmqo.cn^$third-party
 ||tpic.mhslbqk.cn^
+||traffer.net^
 ||traffichaus.com^
 ||trafficjunky.com^
 ||trafficjunky.net^
@@ -2711,6 +2761,7 @@ zle.com$script
 ||yitongqinba.com/js/aa/$script
 ||yitongqinba.com/js/xin/$script
 ||ym.oaclrst.cn^$third-party
+||yomeno.xyz^
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||youradexchange.com^$third-party
 ||yourporn.sexy/nbsys3/fsyspp.js
