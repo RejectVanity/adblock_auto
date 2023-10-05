@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Wlogt4G8lwfF9L1Kn4yIHg
+! Checksum: jFDQHd0PAqnYgVHDwHd9yw
 ! Title: 混合规则(自动更新)
-! Version: 20231005160959
+! Version: 20231005190951
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-05 16:09:59
-! Total Count: 121099
+! Last modified: 2023-10-05 19:09:51
+! Total Count: 121106
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1172,6 +1172,7 @@
 ||26niao20230505.live^
 ||26q4nn691.de^
 ||272xb.com^
+||273knt.xyz^
 ||2777d013fc.com^
 ||27a25cc598.com^
 ||27ang.buzz/us/
@@ -84220,9 +84221,9 @@ sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
 sports.sohu.com##.allsee-list > .bd-wrap
-sports.yahoo.com###mrt-node-Lead-1-Ad
 sports.yahoo.com###mrt-node-Primary-0-Ad
 sports.yahoo.com###mrt-node-Secondary-0-Ad
+sports.yahoo.com,tw.news.yahoo.com###mrt-node-Lead-1-Ad
 sportscardforum.com###wgo_affiliates
 sportscardforum.com##a[href^="https://www.sportscardforum.com/rbs_banner.php?"]
 sportshub.stream##.db783ekndd812sdz-ads
@@ -85469,6 +85470,9 @@ tvzoneuk.com##[data-hook="HtmlComponent"]
 tw.beanfun.com###flybeanfun
 tw.bid.yahoo.com###livePromote
 tw.mall.yahoo.com##.hpad-wrapper
+tw.news.yahoo.com###sda-LDRB-iframe
+tw.news.yahoo.com###sda-LREC2-iframe
+tw.news.yahoo.com###sda-WPS-iframe
 tw.news.yahoo.com##.gn_sub_blue
 tw.news.yahoo.com##li[id^="ad-"]
 tw.nextapple.com##[class^="na-ad-"]
@@ -117338,6 +117342,7 @@ zle.com$script
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
 ##a[href*="//lkstrck2.com/"]
 ##a[href*="//sm5xse.net"]
+##a[href*="//t16-fghgdf.com"][target="_blank"]
 ##a[href*="//tsyndicate.com"][href*="/click"]
 ##a[href*="//xxuudxdu.live?"]
 ##a[href*="/10093813.com"]
@@ -118422,6 +118427,7 @@ zle.com$script
 ##img[src*="//fhh.emossvu.cn"]
 ##img[src*="//hfh.bgfe26.cn"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
+##img[src*="//tupian888.bj.bcebos.com/"]
 ##img[src*="//upliadli.yingxuguoji.xyz/images"][src$=".txt"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
@@ -120236,6 +120242,7 @@ zle.com$script
 @@||mediav.com/js/reward_video_pc.min.js$domain=baiten.cn
 @@||meituan.net/bs/js/*/js/tracker.js
 @@||meizu.com/fileserver/ad/img/
+@@||melon.rayyqoj.xyz/videos
 @@||mhxk.com^*/main/entry.common.$script
 @@||miaozhen.com^*/m.suning.
 @@||microsoft.com/translate/auth
