@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sGqnwiBA1G4jWOzUeYDv1A
+! Checksum: P4poisSA8z7z06nR23qJAQ
 ! Title: 自用去广告Adblock规则
-! Version: 20231005190644
-! Last modified: 2023-10-05 19:06:44
-! Total Count: 2794
+! Version: 20231006000636
+! Last modified: 2023-10-06 00:06:36
+! Total Count: 2802
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -342,6 +342,7 @@
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//live.jzmsg.cn"][href$=".apk"]
 ##a[href*="//sm5xse.net"]
 ##a[href*="//t16-fghgdf.com"][target="_blank"]
 ##a[href*="//tsyndicate.com"][href*="/click"]
@@ -369,6 +370,7 @@
 ##a[href="http://52199.vip"]
 ##a[href="http://595tz166.cc"]
 ##a[href="http://www.zmtt.net/download"]
+##a[href="https://kds03.net"][target="_blank"]
 ##a[href="javascript:void(0)"][rel="nofollow"][target="_new"] > img[src]
 ##a[href="墮落姬甲"][target="_blank"]
 ##a[href="天下布魔"][target="_blank"]
@@ -930,6 +932,7 @@
 .php?id=ads_
 .php?zone_id=
 .php?zoneid=
+.php?zoneid=*&var=*$xmlhttprequest
 .pj?adv=
 .pk/ads/
 .pl/ads/
@@ -1183,6 +1186,7 @@
 /html/ads_
 /html/sponsors/*
 /i/npage/*$script,third-party
+/i/npage/*/code.js$third-party,script
 /iframe-ad.
 /iframe-ad/*
 /iframe-ad?
@@ -1517,6 +1521,7 @@
 ://*:*/yeyue.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$document
 ://16*.com:*/wap_*_*_16*$third-party
+://a.*srv.com^$script,third-party
 ://aj25*.bid/$third-party
 ://api.*.com/s/c?_=$third-party
 ://api.*.com/sh/*.js$script,third-party
@@ -2546,6 +2551,7 @@ zle.com$script
 ||leads.autohome.com.cn^
 ||lezhutv.com/static/jquerys.js
 ||lhotajl.icu^$third-party
+||liktufmruav.com^$third-party
 ||limurol.com^$third-party
 ||ln.tian-ting.ink^
 ||log.m.sm.cn^
@@ -2589,6 +2595,7 @@ zle.com$script
 ||pcd.autohome.com.cn^
 ||pcmx.autohome.com.cn^
 ||peizi00.com^$third-party
+||pemsrv.com^$third-party
 ||piankudy.com/gg$script
 ||pic.dibtvft.cn^$script,third-party
 ||pic.ivzfpwm.cn^$script,third-party
@@ -2622,6 +2629,7 @@ zle.com$script
 ||realsrv.com^$third-party
 ||rexsrv.com^
 ||riamiavid.com^
+||rkgwzfwjgk.com^$third-party
 ||route34.cn^
 ||rpvdfb.xyz^
 ||rtbpopd.com^
