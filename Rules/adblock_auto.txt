@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: aJaBguRpZYnnZptXDHVgdw
+! Checksum: Grcrgkes6szX1XRAGw1GsQ
 ! Title: 混合规则(自动更新)
-! Version: 20231006000848
+! Version: 20231006002412
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-06 00:08:48
-! Total Count: 121114
+! Last modified: 2023-10-06 00:24:12
+! Total Count: 121122
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -36347,6 +36347,7 @@
 ||likidn.com^
 ||likondok.com^
 ||likspikcunhy.com^
+||liktufmruav.com^$third-party
 ||lilacbalak.top^
 ||lilacdefencelessroyal.com^
 ||lilacsloppy.com^
@@ -45434,6 +45435,7 @@
 ||pemainedperio.com^
 ||pemsrv.com^
 ||pemsrv.com^$popup
+||pemsrv.com^$third-party
 ||penaltyoutmatch.com^
 ||penapne.xyz^
 ||pendo.io^
@@ -51174,6 +51176,7 @@
 ||rkfodhkxmf.com^
 ||rkft2sdl8b.ru^
 ||rkgwzfwjgk.com^
+||rkgwzfwjgk.com^$third-party
 ||rkjnazpgfihz.com^
 ||rkkhuwl.cn^
 ||rkohksa.cn^
@@ -88906,6 +88909,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .php?nats=
 .php?zone_id=
 .php?zoneid=
+.php?zoneid=*&var=*$xmlhttprequest
 .piccash.net^
 .pj?adv=
 .pk/ads/
@@ -94062,6 +94066,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /i/ads/*
 /i/adv/*
 /i/npage/*$script,third-party
+/i/npage/*/code.js$third-party,script
 /iFall_AD_
 /iFramedAdTemplate/*
 /i_ads.
@@ -96823,6 +96828,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://16*.com:*/wap_*_*_16*$third-party
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 ://8ox.cn/$third-party
+://a.*srv.com^$script,third-party
 ://a.ads.
 ://abb.*.js?adv=
 ://abc.*.js?adv=
@@ -117348,6 +117354,7 @@ zle.com$script
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//live.jzmsg.cn"][href$=".apk"]
 ##a[href*="//lkstrck2.com/"]
 ##a[href*="//sm5xse.net"]
 ##a[href*="//t16-fghgdf.com"][target="_blank"]
@@ -117565,6 +117572,7 @@ zle.com$script
 ##a[href="http://www.zmtt.net/download"]
 ##a[href="https://368259.com"]
 ##a[href="https://guapitv.app/"]
+##a[href="https://kds03.net"][target="_blank"]
 ##a[href="https://www.ledlandi.com"]
 ##a[href="https://www.ybvip1879.vip"]
 ##a[href="https://xq97.com"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: oQVsl456FzWSyyf4eyqWrA
+! Checksum: BgagWdhptXuInBuLLqeFvA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231006000857
+! Version: 20231006002419
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-06 00:08:57
-! Total Count: 23895
+! Last modified: 2023-10-06 00:24:19
+! Total Count: 23903
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9019,6 +9019,7 @@
 ||liisex.com/images/banners/
 ||liitwrz.icu^
 ||likdie.com^
+||liktufmruav.com^$third-party
 ||limitlessexterminator.com^
 ||limurol.com^$third-party
 ||linecg.com/uploads/banner/
@@ -10546,6 +10547,7 @@
 ||pejrq.xyz^
 ||pekingpk10.com^
 ||pelageforgers.com^
+||pemsrv.com^$third-party
 ||penglangyyds.com^
 ||pengpailm.online^
 ||pengtu.cc^*.png
@@ -11548,6 +11550,7 @@
 ||rjzxw.com/include/
 ||rka1.fun^
 ||rkanr.com/data/cpcache/cp*.js
+||rkgwzfwjgk.com^$third-party
 ||rksnqq.com^
 ||rkv9.top^
 ||rkxy.com.cn/js/text_
@@ -18111,6 +18114,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 .php?id=ads_
 .php?zone_id=
 .php?zoneid=
+.php?zoneid=*&var=*$xmlhttprequest
 .pj?adv=
 .pk/ads/
 .pl/ads/
@@ -18596,6 +18600,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /html/ads_
 /html/sponsors/*
 /i/npage/*$script,third-party
+/i/npage/*/code.js$third-party,script
 /iframe-ad.
 /iframe-ad/*
 /iframe-ad?
@@ -18921,6 +18926,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
 ://16*.com:*/wap_*_*_16*$third-party
+://a.*srv.com^$script,third-party
 ://a.ads.
 ://abb.*.js?adv=
 ://abc.*.js?adv=
@@ -22129,6 +22135,7 @@ zle.com$script
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//live.jzmsg.cn"][href$=".apk"]
 ##a[href*="//sm5xse.net"]
 ##a[href*="//t16-fghgdf.com"][target="_blank"]
 ##a[href*="//tsyndicate.com"][href*="/click"]
@@ -22287,6 +22294,7 @@ zle.com$script
 ##a[href="http://595tz166.cc"]
 ##a[href="http://hqbet2191.com"]
 ##a[href="http://www.zmtt.net/download"]
+##a[href="https://kds03.net"][target="_blank"]
 ##a[href="https://www.ledlandi.com"]
 ##a[href="https://www.ybvip1879.vip"]
 ##a[href="https://xq97.com"]
