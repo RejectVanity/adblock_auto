@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mQUGAMK8/WNozeZZJcScGw
+! Checksum: FhxxI+ggaQYTzTTAb91Y2w
 ! Title: 混合规则(自动更新)
-! Version: 20231006160926
+! Version: 20231007000832
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-06 16:09:26
-! Total Count: 121155
+! Last modified: 2023-10-07 00:08:32
+! Total Count: 121163
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3113,6 +3113,7 @@
 ||94evd.xyz^
 ||94itv.app/casino/
 ||94itv.net/f/
+||94lm.com^
 ||94pr.cn^
 ||9519.net^$third-party
 ||9522faf9d6.com^
@@ -37476,6 +37477,7 @@
 ||lqrvkxk.cn^
 ||lqsw2.top^
 ||lqsw3.top^
+||lqxbkqdtvtdhw.xyz^
 ||lr-in-prod.com^
 ||lr-in.com^
 ||lr-ingest.com^
@@ -42198,6 +42200,7 @@
 ||nnvkh.com^
 ||no1.168abc.net/upload/
 ||no2veeamggaseber.com^
+||noafoaji.xyz^
 ||noahilum.net^
 ||noahparroty.com^
 ||noaiaft.com^
@@ -60634,6 +60637,7 @@
 ||tracking.univtec.com^
 ||tracking.unrealengine.com^
 ||tracking.ustream.tv^
+||tracking.utlservice.com^
 ||tracking.vastgotabladet.se^
 ||tracking.vegaid.vn^
 ||tracking.venturify.at^
@@ -64304,6 +64308,7 @@
 ||vsmyhky.cn^
 ||vsnoon.com^$third-party
 ||vsnpfmoxb.xyz^
+||vsping.com/website/ads?
 ||vst.dfn-network.pro^
 ||vst.sibnet.ru^
 ||vstat.borderlessbd.com^
@@ -72851,9 +72856,7 @@ bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
-bilibili.com#?#.bili-video-card:has(> div.bili-video-card__wrap[style="display: none !important;"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
-bilibili.com#?#.feed-card:has(> div.bili-video-card > div.bili-video-card__wrap[style="display: none !important;"])
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.to###yytf
@@ -73950,6 +73953,8 @@ cnbeta.com,sojson.com##a[href*=".upyun."]
 cnbeta.com,thinkphp.cn##.cooperation
 cnbeta.com,vdianying.cc##div[style^="display:block !important;"]
 cnbeta.com.tw##.cbv:not(#cb_share) a
+cnbeta.com.tw##[class^="cbv"]
+cnbeta.com.tw##div[id^="cbh"]
 cnblogs.com###cnblogs_c1
 cnblogs.com###cnblogs_c2
 cnblogs.com###div_digg
@@ -76597,8 +76602,8 @@ gameshub.com,screenhub.com.au##.ads-slot
 gameslol.net##.pubGside
 gameslol.net,yabiladi.com##.pub_header
 gamespot.com##.followBuy__body
-gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
-gamesradar.com,tomshardware.com,whathifi.com##.vid-present
+gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
+gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 gamesubject.com###headb
 gamesystemrequirements.com##.act_eng
 gametower.com.tw###tableAD
@@ -79686,6 +79691,7 @@ linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^
 lingojam.com###adsense-area-label
 lingojam.com##[href^="https://animefilter.com"]
 link-base.org##.col-lg-12
+linkedin.com##article[data-is-sponsored]
 linkedin.com##li[data-is-sponsored="true"]
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
@@ -85997,6 +86003,7 @@ vsadu.ru##.adb-block
 vsaduidoma.com##.ABD_display_wrapper
 vscode.one###flamelab-convo-widget
 vscode.one##._flamelab-ad
+vsping.com##.cell > span > a[href]:not([href*=".vsping.com"])
 vsuda.cn,wstimes.cn##.piaofu-left
 vsuda.cn,wstimes.cn##.piaofu-right
 vuejs.org###vm-banner
@@ -86411,6 +86418,7 @@ windowsreport.com##div[class^="refmedprod"]
 windowsreport.com##div[data-insertion]
 windowsreport.com#?#section.hide-mbl:-abp-has(a[href^="https://out.reflectormedia.com/"])
 windowszj.com###system_type
+windowszj.net##.g_slide_title > .feedback
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
 windycitymediagroup.com,windycitytimes.com##img[name="Sponsor"]
 winning11cn.com##.eis_topad
