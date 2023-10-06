@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: tPyk0qNOCG4dMtFg6TKubg
+! Checksum: mQUGAMK8/WNozeZZJcScGw
 ! Title: 混合规则(自动更新)
-! Version: 20231006083015
+! Version: 20231006160926
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-06 08:30:15
-! Total Count: 121132
+! Last modified: 2023-10-06 16:09:26
+! Total Count: 121155
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -753,6 +753,7 @@
 ||180.76.171.28^
 ||180.96.27.85^*.htm
 ||1800cnt.com^
+||1806217162.rsc.cdn77.org^
 ||1809442125.rsc.cdn77.org^
 ||18113407f3.com^
 ||18183.com/common/js/side.js
@@ -802,6 +803,7 @@
 ||194.59.220.161^
 ||1942213827.rsc.cdn77.org^
 ||1944696125.rsc.cdn77.org^
+||1949800833.rsc.cdn77.org^
 ||194ac5b0e3.com^
 ||194b7af8c3.com^
 ||19515bia.de^
@@ -13848,6 +13850,7 @@
 ||byfoongusor.com^
 ||byjdg.xyz^$third-party
 ||byjykj.xyz^
+||byjykj.xyz^$third-party,image
 ||byluvdiscor.com^
 ||bymnyzbkylvkv.top^
 ||bymyth.com^
@@ -33948,6 +33951,7 @@
 ||jvyigg.biqugeq.com^
 ||jvyigg.zbzw.la^
 ||jvylyreyazmea.top^
+||jvzoupeh.com^
 ||jwadakesa.cyou^
 ||jwalf.com^
 ||jwandla.top^
@@ -36351,6 +36355,7 @@
 ||likidn.com^
 ||likondok.com^
 ||likspikcunhy.com^
+||liktufmruav.com^
 ||liktufmruav.com^$third-party
 ||lilacbalak.top^
 ||lilacdefencelessroyal.com^
@@ -36564,6 +36569,7 @@
 ||liuxue86.com/js/ideng/liuxue-show
 ||liuyangyang.cn^
 ||liuye.club^
+||liuyi22.cn^
 ||liuyimin5.cn^
 ||liuyun.name^
 ||liuzhen.love^
@@ -37756,6 +37762,7 @@
 ||lwtlock.cn^
 ||lwtqqq.com^
 ||lwwdvshhbj.com^
+||lwwlkj1.cn^
 ||lwxqaq.club^
 ||lwzdzf.xyz^
 ||lx2rv.com^
@@ -39888,6 +39895,7 @@
 ||mmtcw.cn^
 ||mmtnat.com^
 ||mmtro.com^
+||mmvjuti.cn^
 ||mmwebhandler.888.com^
 ||mn1nm.com^
 ||mn230126pb.com^
@@ -44496,6 +44504,7 @@
 ||ownsattrib.life^
 ||owogldk.top^
 ||owoxauky.com^
+||owqrtaodb.com^
 ||owrkwilxbw.com^
 ||owrtwsrp.com^
 ||owtracking.us-east-1.elasticbeanstalk.com^
@@ -59123,6 +59132,7 @@
 ||tibacta.com^
 ||tibbujo.com^
 ||tibcpowpiaqv.com^
+||tibertannoy.com^
 ||tic-tic-bam.com^
 ||tic-tic-toc.com^
 ||ticaadjuk.xyz^
@@ -66530,6 +66540,7 @@
 ||wxskqy.cn^
 ||wxtp.cdn.bcebos.com^$popup
 ||wxumevd.cn^
+||wxvfhgdeis.com^
 ||wxxmt.xyz^
 ||wxzrw.com^
 ||wy123.fun^
@@ -94554,6 +94565,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /landingadvertisements/*
 /lanye2015/images/kuan.jpg
 /lanye2015/images/lanyeht.jpg
+/laojiuhengfu*.gif$image,third-party
 /lapi/sign/brandapi/getinfo
 /lapi/sign/phonegameapi/getinfo
 /lapi/sign/signapi/getinfo
@@ -117013,6 +117025,7 @@ zle.com$script
 ##[href^="https://zstacklife.com/"] img
 ##[id$="ad-box"]
 ##[id*="theAd_slider"]
+##[id="bannerCtrl"].source_container.swiper-wrapper
 ##[id] > .wrap > .clearfix.mod
 ##[id^="ad-float"]
 ##[id^="ad-index"]
@@ -117022,6 +117035,7 @@ zle.com$script
 ##[id^="ad_slider"]
 ##[id^="appss"][style]
 ##[id^="bfad"]
+##[id^="common"].bf_qy.common
 ##[id^="div-gpt-ad"]
 ##[id^="google_ads_iframe"]
 ##[id^="mhbottom_ad"]
@@ -117034,6 +117048,7 @@ zle.com$script
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
+##[onclick][style="position:absolute;top:0;right:0;z-index:2147483647;"],[ontouchstart][style="position:absolute;top:0;right:0;z-index:2147483647;"]
 ##[onclick^="goDownWebFun('/config"]
 ##[onclick^="location.href='http://www.reimageplus.com"]
 ##[onclick^="playAd"]
@@ -117077,6 +117092,7 @@ zle.com$script
 ##a[alt="美高梅"][target="_blank"]
 ##a[alt="逼哩逼哩"][target="_blank"]
 ##a[alt="领882元"][target="_blank"]
+##a[class^="cvbcvxvb"][onclick="this.click();"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[clickmode="ad"]
 ##a[data-obtrack^="http://paid.outbrain.com/network/redir?"]
@@ -118097,6 +118113,7 @@ zle.com$script
 ##div[class*="ff-ads"]
 ##div[class*="invideo-native-adv_"]
 ##div[class*="video-item--adv"]
+##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
@@ -118459,6 +118476,7 @@ zle.com$script
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/images/banner/ads"]
+##img[src*="/laojiuhengfu"][src$=".gif"]
 ##img[src*="/new/ads/"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
@@ -118494,6 +118512,7 @@ zle.com$script
 ##img[src^="https://images.purevpnaffiliates.com"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://pic.lsddkd.com:"]
+##img[src^="https://sbb.bbb.byjykj.xyz"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 ##img[src^="https://u10"][src*=".com"][src$=".gif"]
 ##img[src^="https://vip2.loli.io"]
@@ -118528,6 +118547,7 @@ zle.com$script
 ##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
 ##span[data-ez-ph-id]
 ##span[id^="ezoic-pub-ad-placeholder-"]
+##span[onclick^="window"][onclick$=".RD();"]
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##span[title="neteasefooter"]
@@ -119951,6 +119971,7 @@ zle.com$script
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|bigpixel.cn|tangdoucdn.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
+@@||cre.dp.sina.cn^
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||cruisecenter.com.tw/data/ad/
@@ -120083,6 +120104,7 @@ zle.com$script
 @@||gifshow.com/rest/wd/common/log/collect/acfun
 @@||github.io/videojs-ima/node_modules/video.$domain=setn.com
 @@||gk.sina.cn/v1/gkmatch?
+@@||gk.sina.cn^
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
 @@||golangnote.com^$generichide
 @@||gomein.net.cn^*,
@@ -120273,6 +120295,7 @@ zle.com$script
 @@||miaozhen.com^*/m.suning.
 @@||microsoft.com/translate/auth
 @@||microsofttranslator.com/translate?
+@@||mix.sina.com.cn^
 @@||mm.maxthon.cn/ad/
 @@||mmaa99.xyz^$generichide
 @@||mmee04.com^$generichide

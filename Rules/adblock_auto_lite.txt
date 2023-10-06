@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ks2GrWoSpWcR1jDuuHyVAw
+! Checksum: AMXTexBLuBiWBDglPJqUWg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231006083025
+! Version: 20231006160933
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-06 08:30:25
-! Total Count: 23912
+! Last modified: 2023-10-06 16:09:33
+! Total Count: 23927
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4455,6 +4455,7 @@
 ||bydcxdy.cn^
 ||byjdg.xyz^$third-party
 ||byjykj.xyz^
+||byjykj.xyz^$third-party,image
 ||byscy.cn^$third-party
 ||bytegoofy.com/goofy/*/push.js?
 ||bytravel.cn/images/cus/
@@ -9233,6 +9234,7 @@
 ||lwonclbench.com^$third-party
 ||lwpxhr.xyz^
 ||lwtqqq.com^
+||lwwlkj1.cn^
 ||lwzdzf.xyz^
 ||lx5.homeporntuber.com^
 ||lxapk.com/wp-content/uploads/*.gif
@@ -9652,6 +9654,7 @@
 ||mmonly.cc/js/mmonlyAPP.js
 ||mmp001.scalemonk.com^
 ||mmtalk.net/images/banner
+||mmvjuti.cn^
 ||mnbfs.xyz^
 ||mnhknds.com^
 ||mnnmnn.com^
@@ -18655,6 +18658,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 /js/sp_ad.js$script
 /json/ads/*
 /juicyads_
+/laojiuhengfu*.gif$image,third-party
 /leadads/*
 /leader_ad.
 /leaderad.
@@ -21889,6 +21893,7 @@ zle.com$script
 ##[href^="https://join3.bannedsextapes.com"]
 ##[id$="ad-box"]
 ##[id*="theAd_slider"]
+##[id="bannerCtrl"].source_container.swiper-wrapper
 ##[id] > .wrap > .clearfix.mod
 ##[id^="ad-float"]
 ##[id^="ad-index"]
@@ -21898,6 +21903,7 @@ zle.com$script
 ##[id^="ad_slider"]
 ##[id^="appss"][style]
 ##[id^="bfad"]
+##[id^="common"].bf_qy.common
 ##[id^="div-gpt-ad"]
 ##[id^="google_ads_iframe"]
 ##[id^="mhbottom_ad"]
@@ -21910,6 +21916,7 @@ zle.com$script
 ##[onclick*="content.ad/"]
 ##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open(this.url)"][src]
+##[onclick][style="position:absolute;top:0;right:0;z-index:2147483647;"],[ontouchstart][style="position:absolute;top:0;right:0;z-index:2147483647;"]
 ##[onclick^="goDownWebFun('/config"]
 ##[onclick^="playAd"]
 ##[onclick^="toinfo('"][onclick$=")"]
@@ -21950,6 +21957,7 @@ zle.com$script
 ##a[alt="美高梅"][target="_blank"]
 ##a[alt="逼哩逼哩"][target="_blank"]
 ##a[alt="领882元"][target="_blank"]
+##a[class^="cvbcvxvb"][onclick="this.click();"]
 ##a[class^="root--"][href^="https://go.xlviirdr.com/"]
 ##a[clickmode="ad"]
 ##a[data-track-content][data-content-name][target="_blank"]
@@ -22491,6 +22499,7 @@ zle.com$script
 ##div[class*="ff-ads"]
 ##div[class*="invideo-native-adv_"]
 ##div[class*="video-item--adv"]
+##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
 ##div[class="links"] > a[class="text-muted"][href][target="_blank"][style^="font-weight:bold;color:"]
 ##div[class="list-block"] > div[data-content-name][data-track-content]
@@ -22779,6 +22788,7 @@ zle.com$script
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
 ##img[src*="/images/banner/ads"]
+##img[src*="/laojiuhengfu"][src$=".gif"]
 ##img[src*="/new/ads/"]
 ##img[src*="/upload/ad/"]
 ##img[src*="/upload/images/ads"][src$=".gif"]
@@ -22813,6 +22823,7 @@ zle.com$script
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://pic.lsddkd.com:"]
+##img[src^="https://sbb.bbb.byjykj.xyz"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 ##img[src^="https://u10"][src*=".com"][src$=".gif"]
 ##img[src^="https://vip2.loli.io"]
@@ -22840,6 +22851,7 @@ zle.com$script
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
+##span[onclick^="window"][onclick$=".RD();"]
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##span[title="neteasefooter"]
@@ -23778,6 +23790,7 @@ zle.com$script
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
 @@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com
+@@||cre.dp.sina.cn^
 @@||cyberdean.fr/js/advertisement.js
 @@||darkino.online^$generichide
 @@||dato.porn/js/pop.js|
@@ -23795,6 +23808,7 @@ zle.com$script
 @@||fusacq.com/javascript/advertising.js|$script
 @@||fxporn69.com^$generichide
 @@||gamaniak.com/js/check_adsense.js$script
+@@||gk.sina.cn^
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
 @@||grattable.com/blogads.css
 @@||guokr.com/apis/flowingboard/item/guokrapp_
@@ -23813,6 +23827,7 @@ zle.com$script
 @@||manga-news.com/js/advert.js$script
 @@||manwa*/static/custom/files/300X250.gif
 @@||melon.rayyqoj.xyz/videos
+@@||mix.sina.com.cn^
 @@||nouvelle-fiat500.fr/ad-pub.js$script
 @@||numerama.com/ads.js
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=androidrepublic.org|apkmirror.com|b00.tw|boo.tw|cleodesktop.com|dl.ccbluex.net|freeopenvpn.org|hexviewer.iblogbox.com|lolalytics.com|onlinemschool.com|roaddir.com|smsget.net|streetdir.com|thewebflash.com|up-4ever.com
