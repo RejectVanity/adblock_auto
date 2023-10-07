@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sXzkAlKDsDf89GqDL75c3Q
+! Checksum: D8JftlByRtL5qxaXDQDfow
 ! Title: 混合规则(自动更新)
-! Version: 20231007082945
+! Version: 20231007094255
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-07 08:29:45
-! Total Count: 121183
+! Last modified: 2023-10-07 09:42:55
+! Total Count: 121189
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -43358,6 +43358,7 @@
 ||ojtkusmitp.com^
 ||ojtosjaqkrr.com^
 ||ojuhfoa.com^
+||ojuhjcmhemvs.com^
 ||ojuhwc.xyz^
 ||ojzfinlhemu.com^
 ||ok-11-cai.cc^
@@ -51716,6 +51717,7 @@
 ||rtc.multiscreensite.com^
 ||rtcegcp.cn^
 ||rtclx.com^
+||rtdqhjiqf.com^
 ||rtdxqq.com^
 ||rteneme.ru^
 ||rtfmakw.com^
@@ -52586,6 +52588,7 @@
 ||scaredsnake.com^
 ||scaredsnake.com^$third-party
 ||scaredsnakes.com^
+||scaredsong.com^
 ||scaredstory.com^
 ||scaredswing.com^
 ||scarflaremorally.com^
@@ -118478,6 +118481,9 @@ zle.com$script
 ##img[onclick^="golh()"][width="100%"],img[onclick^="golh()"][src$=".gif"]
 ##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[onclick^="window.open"][src*="pc.qq.com"]
+##img[src$="-960x100.gif"]
+##img[src$="-960x60.gif"]
+##img[src$="-960x80.gif"]
 ##img[src$=".add"]
 ##img[src$=".dd"]
 ##img[src$=".gif"][style="border:0;"][width="99%"]
@@ -119648,6 +119654,7 @@ zle.com$script
 @@/wp-content/*/social_$domain=servercat.me
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@1anime.me/template/conch/asset/js/hlhtml.
+@@://*.*.xyz/videos/*-*-*-*/cover
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
 @@://d*.cloudfront.net/douyin
@@ -119971,7 +119978,7 @@ zle.com$script
 @@||cloudflare.com/ajax/libs/dash-shaka-playback/$script,domain=vpornvideos.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.net^$script,domain=colamanga.com|colamanhua.com
-@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com
+@@||cloudfront.net^$domain=anime1.me|bitly.com|blog.wiki-topia.com|heatworld.com|hotslogs.com|ksl.com|mecox.wpengine.com|nationalreview.com|portmiamiwebcam.com|rethmic.com|soap2day.ai|streamingcommunity.tech|webupd8.org
 @@||club.tgfcer.com^$generichide
 @@||cmbc.com.cn^*ads/
 @@||cmbchina.com/ads/
@@ -120318,7 +120325,6 @@ zle.com$script
 @@||mediav.com/js/reward_video_pc.min.js$domain=baiten.cn
 @@||meituan.net/bs/js/*/js/tracker.js
 @@||meizu.com/fileserver/ad/img/
-@@||melon.rayyqoj.xyz/videos
 @@||mhxk.com^*/main/entry.common.$script
 @@||miaozhen.com^*/m.suning.
 @@||microsoft.com/translate/auth

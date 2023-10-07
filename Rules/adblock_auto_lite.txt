@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sxZMUuxYfOCYDMCXcyD1mQ
+! Checksum: qYAgWZ9c7I60vo5Prk3Sgg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231007082955
+! Version: 20231007094302
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-07 08:29:55
-! Total Count: 23937
+! Last modified: 2023-10-07 09:43:02
+! Total Count: 23944
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6738,6 +6738,7 @@
 ||gmkmkn.xyz^
 ||gmx27.top^
 ||gmx28.top^
+||gmx29.top^
 ||gmx30.top^
 ||gniew.xyz^
 ||gnrty.kmjkwe.xyz^
@@ -11099,6 +11100,7 @@
 ||qarsza.cn^$third-party
 ||qat5.top^
 ||qat7i.top^
+||qauksl.icu^
 ||qayqa.com:6868/jquery/
 ||qbazhaheiy.top^
 ||qbc1.cn^
@@ -12720,6 +12722,7 @@
 ||tgktw.xyz^
 ||tgnlaigi.fun^
 ||tgryfh.xyz^
+||thboxp.xyz^
 ||thcaes.top^
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
@@ -13464,6 +13467,7 @@
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tuwan.com/s.js
 ||vivaclix.com^$third-party
+||vivienjumpe.com^
 ||vivud.com/iframe/MOBILE_TOP_PLAYER/
 ||vj1p.xyz^
 ||vjhjxh.xyz^
@@ -22773,6 +22777,9 @@ zle.com$script
 ##img[onclick^="golh()"][width="100%"],img[onclick^="golh()"][src$=".gif"]
 ##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[onclick^="window.open"][src*="pc.qq.com"]
+##img[src$="-960x100.gif"]
+##img[src$="-960x60.gif"]
+##img[src$="-960x80.gif"]
 ##img[src$=".add"]
 ##img[src$=".dd"]
 ##img[src$=".gif"][style="border:0;"][width="99%"]
@@ -23760,6 +23767,7 @@ zle.com$script
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@1anime.me/template/conch/asset/js/hlhtml.
+@@://*.*.xyz/videos/*-*-*-*/cover
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
 @@://d*.cloudfront.net/douyin
@@ -23799,7 +23807,7 @@ zle.com$script
 @@||camsexvideo.net/js/advertising.js
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
-@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com
+@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me
 @@||cre.dp.sina.cn^
 @@||cyberdean.fr/js/advertisement.js
 @@||darkino.online^$generichide
@@ -23836,7 +23844,6 @@ zle.com$script
 @@||larvf.com/js/ads.js
 @@||manga-news.com/js/advert.js$script
 @@||manwa*/static/custom/files/300X250.gif
-@@||melon.rayyqoj.xyz/videos
 @@||mix.sina.com.cn^
 @@||nouvelle-fiat500.fr/ad-pub.js$script
 @@||numerama.com/ads.js
