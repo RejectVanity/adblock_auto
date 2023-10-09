@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: wspqmzN711iv5/dUbspukA
+! Checksum: JCpZer8wZO0K+TNPDvaylA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231009000746
+! Version: 20231009083100
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-09 00:07:46
-! Total Count: 23653
+! Last modified: 2023-10-09 08:31:00
+! Total Count: 23663
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3908,6 +3908,7 @@
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbangads.*.net^$third-party
+||bbfnrn.xyz^
 ||bbges.xyz^
 ||bbhktv.xyz^
 ||bbk5921.yncjsc.cn^$third-party
@@ -6232,6 +6233,7 @@
 ||fkesfg.com^
 ||fkf5.com/public/js/static.js
 ||fkjdz.cyou^
+||fkjsjwbs.xyz^
 ||fl6n.com/adtop/
 ||flan.fun^
 ||flash.cn/success/$popup
@@ -9804,6 +9806,7 @@
 ||nefbjp.xyz^
 ||neg2zos.icu^
 ||neghes.fun^
+||negnixa.cn^
 ||neiod.xyz^
 ||neipa.xyz^
 ||nen.com.cn/eap/
@@ -11704,6 +11707,7 @@
 ||sgeth1.icu^
 ||sgeth3.icu^
 ||sgeth7.icu^
+||sgeth9.icu^
 ||sgg.southcn.com^
 ||sgk.xyz/static/js/pc.js
 ||sgnlaigb.fun^
@@ -13058,6 +13062,7 @@
 ||vdggsd006.com^
 ||vdggsd007.com^
 ||vdggsd008.com^
+||vdggsd009.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrfes.site^
@@ -14003,6 +14008,7 @@
 ||yhgumcr.xyz^
 ||yhhnjg.com^
 ||yhjh04.com^
+||yhlzadr.xyz^
 ||yhmeinv.com/mh/
 ||yhsfsdv03.com^
 ||yht7.com/web/assets/js/right.js
@@ -14205,6 +14211,7 @@
 ||yurti.cyou^
 ||yuske2.xyz^
 ||yutew.cc^$third-party
+||yutiqf.icu^
 ||yuwangshe.net/astyle/wap.
 ||yuwenbin.host^
 ||ywg.jobui.com^
@@ -21062,6 +21069,7 @@ zle.com$script
 ##.con_section > .da
 ##.conch-ads-box
 ##.container + .container > .warp > .cate
+##.container > #dhshtml
 ##.container > .index-ad
 ##.container > .slide-baidu
 ##.container > .t-img-box:first-child
@@ -21072,6 +21080,7 @@ zle.com$script
 ##.containerad
 ##.containerads
 ##.containeradvertising
+##.content > #dhxhtml
 ##.content > a > .topline
 ##.content-ad-container
 ##.content-ads
@@ -21252,6 +21261,7 @@ zle.com$script
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
+##.main-container > #dhxhtml
 ##.main-content > .a2b3
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.main_adbalert
