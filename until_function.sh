@@ -326,6 +326,19 @@ cat << key > "${file}"
 key
 }
 
+#剔除css规则冲突规则
+function fixed_css_white_conflict(){
+local file="${1}"
+local white_list=`cat ${file} | grep -E '^#\@#' | sed -E 's/#\@#/##/g' `
+for i in ${white_list}
+do
+	echo "剔除冲突规则 ${i}"
+	rule=`escape_special_chars ${i}`
+	sed -Ei "/^${rule}/d" "${file}"
+done
+}
+
+
 
 #更新README信息
 function update_README_info(){

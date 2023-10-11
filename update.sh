@@ -70,6 +70,8 @@ fix_Rules "${Rules_Folder}/adblock_auto.txt" ',_____,domain=' ',domain='
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto.txt"
 #读取白名单 剔除规则
 make_white_rules "${Rules_Folder}/adblock_auto.txt" "`pwd`/white_list/white_list.prop"
+#剔除冲突的CSS规则
+fixed_css_white_conflict "${Rules_Folder}/adblock_auto.txt"
 #去除重复作用域名
 Running_sort_domain_Combine "${Rules_Folder}/adblock_auto.txt"
 #去除指定重复的Css
@@ -112,6 +114,8 @@ fix_Rules "${Rules_Folder}/adblock_auto_lite.txt" ',_____,domain=' ',domain='
 modtify_adblock_original_file "${Rules_Folder}/adblock_auto_lite.txt"
 #读取白名单 剔除规则
 make_white_rules "${Rules_Folder}/adblock_auto_lite.txt" "`pwd`/white_list/white_list.prop"
+#剔除冲突的CSS规则
+fixed_css_white_conflict "${Rules_Folder}/adblock_auto_lite.txt"
 #去除重复作用域名
 Running_sort_domain_Combine "${Rules_Folder}/adblock_auto_lite.txt"
 #去除指定重复的Css
