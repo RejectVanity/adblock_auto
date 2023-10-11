@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: kAGSiZj/3iwN3LFIw86cTw
+! Checksum: CMFWMCeaJebf83NMaVXPRQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231011083002
+! Version: 20231011132016
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-11 08:30:02
-! Total Count: 23666
+! Last modified: 2023-10-11 13:20:16
+! Total Count: 23594
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -397,6 +397,7 @@
 ||1999019.com^
 ||199aaa.us^
 ||19qiqi.com/mid/
+||1bctkn.xyz^
 ||1buu1.penyouw.com^
 ||1cdhf.top^
 ||1jc5t.xyz^
@@ -3708,6 +3709,7 @@
 ||axkq.xyz^$third-party,script
 ||axonix.com^
 ||axutongxue.*/js/pp
+||axutongxue.*/js/yes.
 ||axutongxue.net/js/ik474n.js
 ||aynufyns.xyz^
 ||ayq3nsx.icu^$third-party
@@ -4188,6 +4190,7 @@
 ||bla01.com^
 ||black6adv.com^
 ||blasensex.com/extras/
+||bleachmx.fr/wp-content/plugins/yeptmixnsykgrb/bjns-fcknj.js
 ||blesspizzas.com^$third-party
 ||bleumzr.icu^
 ||bljlrl.xyz^
@@ -5827,6 +5830,7 @@
 ||ebioweb.com/jslibrary/js
 ||ebioweb.com/newsf/js/inpic.js
 ||ebioweb.com/newsf/js/news_top_banner.js
+||ebmlsvw.cn^
 ||ebp.renren.com^
 ||ebpu2.top^
 ||ebqidwm.xyz^
@@ -6594,6 +6598,7 @@
 ||giold.xyz^
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||givevacation.com^$third-party
+||gixgav.icu^
 ||gixhlii.xyz^
 ||gjipd.xyz^
 ||gjmqqq.com^
@@ -6625,6 +6630,7 @@
 ||gmbuluo.net/js/
 ||gmicu.cn^
 ||gmkmkn.xyz^
+||gmx22.top^
 ||gmx23.top^
 ||gmx24.top^
 ||gmx27.top^
@@ -8283,6 +8289,7 @@
 ||juzi6.com/js/gd.js
 ||juzwrl.xyz^
 ||jvjlkih.com^
+||jvjmjt.xyz^
 ||jvkckeg.cn^
 ||jvljnb.xyz^
 ||jvmxrug.xyz^
@@ -20304,71 +20311,6 @@ zle.com$script
 ###abde
 ###abnotify
 ###abp-killer
-###ad > #h2_player_prevideo
-###ad > .pre-img
-###ad-SNSSplashAd
-###ad-floatwin
-###ad-index
-###ad1[onclick="window.open(this.url)"]
-###ad1[style^="position:"]
-###adBlockAlert
-###adBlockAlertWrap
-###adBlockDetect
-###adBlockerModal
-###adBody07
-###adLeftFloat
-###adRightFloat
-###adUrl
-###ad_blocker
-###ad_box1
-###ad_box2
-###ad_full
-###ad_globle_div
-###ad_headerbanner
-###ad_inview_area
-###adad
-###adb-actived
-###adb-enabled
-###adb-enabled3
-###adb-warning
-###adbWarnContainer
-###adbcontainer-popup
-###adblock-alert
-###adblock-box
-###adblock-honeypot
-###adblock-modal
-###adblock-msg
-###adblock-notice
-###adblock-overlay
-###adblock-warning
-###adblockDetect
-###adblockWrap
-###adblock_detected
-###adblock_message
-###adblock_msg
-###adblock_screen
-###adblock_tooltip
-###adblockerModal
-###adblocker_announce
-###adblocker_message
-###adblocker_modal_overlay
-###adblockinfo
-###adblockpopup
-###adbpopup
-###adrights14
-###ads-blocked
-###ads.row
-###ads_c_tpc
-###ads_top_video
-###adsblocker_detected
-###adtop1
-###adv-2
-###adv-3
-###adv-fixed-square
-###adv_wrap_hh
-###advertisementjsalert
-###advertisings
-###adx_cggp
 ###ai-adb-message
 ###ai-adb-overlay
 ###allpng
@@ -20780,7 +20722,6 @@ zle.com$script
 ##.ad-left
 ##.ad-left-down
 ##.ad-mod
-##.ad-placement
 ##.ad-r
 ##.ad-right
 ##.ad-right-down
@@ -20810,12 +20751,6 @@ zle.com$script
 ##.ad980
 ##.ad990x130
 ##.ad990x90
-##.adBlock-banner
-##.adBlockDetectModal
-##.adBlockDetectedSign
-##.adBlockNotification
-##.adBlockNotificationOverlay
-##.adBlockWarning
 ##.adContainer[style="margin-top: -5px"]
 ##.adDingT
 ##.adHF
@@ -20940,10 +20875,7 @@ zle.com$script
 ##.ads_mobile
 ##.adsblocked
 ##.adsbyexoclick
-##.adsbygoogle
 ##.adsbytrafficjunky
-##.adsense160
-##.adsense200
 ##.adsoho
 ##.adspace
 ##.adspop
@@ -21241,7 +21173,6 @@ zle.com$script
 ##.indexad3
 ##.indexad4
 ##.indexnews-ad
-##.inner-advertise
 ##.it618_firstad_flex
 ##.item-ad
 ##.itopbar + .container
@@ -21303,7 +21234,6 @@ zle.com$script
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
-##.mobadsq
 ##.moboad
 ##.mod + #bottomBox
 ##.mod-ad
@@ -21420,7 +21350,6 @@ zle.com$script
 ##.slider-ad[adid]
 ##.smcms-wrap > .group-box > a[target="_blank"] > img
 ##.smcms-wrap > a[target="_blank"] > img
-##.sp_ad_box_top
 ##.space-y-6 > .advertising
 ##.spon-img[src*=".alicdn."]
 ##.sponsor_image
@@ -21633,7 +21562,6 @@ zle.com$script
 ##[id^="bfad"]
 ##[id^="common"].bf_qy.common
 ##[id^="div-gpt-ad"]
-##[id^="google_ads_iframe"]
 ##[id^="mhbottom_ad"]
 ##[id^="player-advertising"]
 ##[id^="section-ad-banner"]
