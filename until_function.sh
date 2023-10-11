@@ -334,7 +334,7 @@ for i in ${white_list}
 do
 	echo "剔除冲突规则 ${i}"
 	rule=`escape_special_chars ${i}`
-	sed -Ei "/^${rule}/d" "${file}"
+	sed -Ei "/^${rule}$/d" "${file}"
 done
 }
 
