@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GgOivKKmm3VyWSjylog6KA
+! Checksum: wB4JM9FSrLUcAAn7CH4Ykw
 ! Title: 自用去广告Adblock规则
-! Version: 20231007092701
-! Last modified: 2023-10-07 09:27:01
-! Total Count: 2818
+! Version: 20231011130254
+! Last modified: 2023-10-11 13:02:54
+! Total Count: 2820
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -1123,6 +1123,7 @@
 /advertisement.
 /advertisement/*
 /advertisement_
+/advertisers.js
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /adx_blacklist.js
@@ -1784,6 +1785,7 @@ dmzj.com,idmzj.com##.Introduct > div > div > div
 dmzj.com,idmzj.com##.bottomDown
 dmzj.com,idmzj.com##[class$="close"][href="javascript:;"]
 dnaav.com##div[id^="dnaav_b"]
+douban.com##iframe[src*="//at4.doubanio.com"]
 dyjihe8.com##div[style*="text-indent: -10000px !important; line-height: 0px !important;"]
 e-kei.com,britaku.com##div[class="row"][style="margin:3px 0px;display:flex;flex-wrap: wrap;justify-content:space-evenly;width:100%;"],img[src^="data:image/png;base64"],table > tr[style="border-bottom:1px orange solid;"]
 efukt.com##[data-ad-type]
@@ -2370,6 +2372,7 @@ zle.com$script
 ||ayq3nsx.icu^$third-party
 ||baby.thinkmore.top^
 ||baidujkdjklvvsbvk.com^$third-party
+||banquetunarmedgrater.com^$script
 ||bbangads.*.net^$third-party
 ||beijing163.aliyunapi.org^$third-party,script
 ||bihunekus.com^
