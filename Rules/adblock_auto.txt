@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ofTAxwlgOQQTDY45YSmTvg
+! Checksum: vmn466A80DnD0SuSKMBHZw
 ! Title: 混合规则(自动更新)
-! Version: 20231011164140
+! Version: 20231012000844
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-11 16:41:40
-! Total Count: 121009
+! Last modified: 2023-10-12 00:08:44
+! Total Count: 121040
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17904,6 +17904,7 @@
 ||criminalweightforetaste.com^
 ||crimpedmelanic.com^
 ||crimsondozeprofessional.com^
+||crimsonmeadow.com^
 ||crisdomson.com^
 ||crisistuesdayartillery.com^
 ||crispads.com^
@@ -33415,6 +33416,9 @@
 ||jmcomic.asia/iframe_*&idzone=
 ||jmcomic1.*/media/albums/*?$media
 ||jmcomic1.cc/iframe_v*?type=exo&idzone=
+||jmcomic1.me/exads
+||jmcomic1.me/static/resources/lp.php
+||jmcomic1.me/static/resources/old/images/AD/
 ||jmeanzkixok.com^
 ||jmeeersdkmoir.xyz^
 ||jmged.xyz^
@@ -35266,6 +35270,7 @@
 ||kunner.wiesentbote.de^
 ||kunpeng-sc.csdnimg.cn/?timestamp=$subdocument,domain=blog.csdn.net
 ||kunvertads.com^
+||kunyun*.com/xiwang/fumeiti.js
 ||kunzhang.name^
 ||kupharlutetia.com^
 ||kupona.de^
@@ -38371,6 +38376,7 @@
 ||mamblubamblua.com^
 ||mambo.kiev.ua^
 ||mambobuyback.com^
+||mamecn.com/style/pcjs/bgimg.
 ||mameyesmulemen.digital^
 ||mamibai.com/img/contents/
 ||mamibuy.com.tw/Ad/Period.aspx
@@ -41336,6 +41342,7 @@
 ||nanesbewail.com^
 ||nanfengyl.com/static/js/zdad.js
 ||nangkasec.com^
+||nangongmall.com^
 ||nanigans.com^
 ||nanlisgc.fun^
 ||nannot.com^
@@ -59062,6 +59069,7 @@
 ||thirstytwig.com^
 ||thirteenthadjectivecleaning.com^
 ||thirtyfellowpresumptuous.com^
+||thirzasandra.com^$third-party
 ||thisav.com/0*.js
 ||thisav.com/index.js
 ||thisav.com/js/bioep.
@@ -63718,6 +63726,7 @@
 ||vibmhetkcedookx.com^
 ||viboom.com^
 ||viboom.ru^
+||vibranthaven.com^
 ||vibrantmedia.com^
 ||vibrateapologiesshout.com^
 ||vic-m.co^
@@ -65397,6 +65406,7 @@
 ||wendangku.net/js/common.js
 ||wendellyu.com/banner/
 ||wendelstein-1b.com^
+||wendypha.com^$third-party
 ||wenhaikj.xyz^
 ||wenhat.com^
 ||wenher.com^
@@ -71350,7 +71360,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 85wp.com###a3_diy2
 85wp.com,ziyuanba.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
-8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com,yxdmgo.com,yxdmlove.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.com,kugou.com,solarzoom.com,yesky.com,yxdmgo.com,yxdmlove.com##div[class^="adv"]
 86cg.me##[style^="width: 100%; height: auto; position: fixed; left: 0px; bottom: 0px;"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
@@ -75796,6 +75806,7 @@ eporner.com#?#.mb:has(> .adnative-1x1)
 eporner.video##.center-adv
 eporner.video,porntrex.video##.container > .header ~ .top[style]
 eporner.video,porntrex.video##.item[style="height:255px;overflow:hidden;"]
+eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 eprice.com.tw###goldlink
 eprice.com.tw###popup-ad-overlay
 eprice.com.tw##.ad-300x370
@@ -79247,6 +79258,9 @@ jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
 jmcomic1.city,jmcomic1.win##a[href^="http"]:not([href*="jmcom"]) > img
+jmcomic1.me##+js(remove-node-text, #text, 中間廣告)
+jmcomic1.me##div[style^="max-height: 600px"]
+jmcomic1.me#?#.container > div.row:has(ins[data-width="300"])
 jmnews.com.cn##div[id^="couplet_"]
 jmw.com.cn##.head_1b
 jmw.com.cn##.head_3
@@ -87766,6 +87780,7 @@ zhuji.net##td[valign="top"][height="96"]
 zhujiboke.com##.cjtz-border
 zhujiboke.com##.posts-top-cjtz
 zhujicankao.com##.topsss-111
+zhujicankao.com##DIV[style$="padding:0px"]
 zhujicankao.com##div[style*="padding:0px"] > a[target="_blank"] > img
 zhujicankao.com#?##ez-toc-container > div.ez-toc-right-container:has(> div.ez-toc-rigth > ins.adsbygoogle)
 zhujiceping.com###footer-widget-box
@@ -89899,7 +89914,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com|~tiktok.com
 /^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=1337x.to|cashurl.in|clicknupload.click|cloudvideo.tv|downloadpirate.com|fmovies.taxi|fmovies.world|hurawatch.at|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.ch|mixdrop.co|mixdrp.to|mp3-convert.org|nutritioninsight.com|ouo.press|pcgamestorrents.com|pcgamestorrents.org|powvideo.net|powvldeo.cc|primewire.sc|proxyer.org|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|theproxy.ws|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrar.com|uploadrive.com|uplovd.com|upstream.to|userscloud.com|vidbull.tv|vidoza.co|vidoza.net|vidup.io|vumoo.life|xtits.com|yourbittorrent2.com|ziperto.com
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|chikiporn.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|hog.tv|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
-/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=4kporn.xxx|4tube.com|alotporn.com|alphaporno.com|alrincon.com|amateur8.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bestfreetube.xxx|bigtitslust.com|bravotube.net|cockmeter.com|crazyporn.xxx|daftporn.com|ebony8.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|gotporn.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imgderviches.work|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
+/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=3movs.com|4kporn.xxx|4tube.com|alotporn.com|alphaporno.com|alrincon.com|amateur8.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bestfreetube.xxx|bigtitslust.com|bravotube.net|cockmeter.com|crazyporn.xxx|daftporn.com|ebony8.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|gotporn.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imgderviches.work|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manga18fx.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|rule34pornvids.com|runporn.com|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
 /^https?:\/\/.*\/[a-z]{4,}\/[a-z]{4,}\.js/$script,~third-party,domain=bdsmx.tube|bigdick.tube|desiporn.tube|hclips.com|hdzog.com|hdzog.tube|hotmovs.com|inporn.com|porn555.com|pornzog.com|shemalez.com|tporn.xxx|tubepornclassic.com|txxx.com|upornia.com|vjav.com|vxxx.com|youteenporn.net
 /^https?:\/\/.*\/sw\.js\?[a-zA-Z0-9%]{50,}/$script,~third-party
 /^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|cryptobriefing.com|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.red|vidbull.tv|vidop.icu|vidup.io|yourbittorrent2.com
@@ -107722,6 +107737,7 @@ zle.com$script
 ##.ad_break_container
 ##.ad_btf
 ##.ad_btn
+##.ad_btn-white
 ##.ad_btn1
 ##.ad_btn2
 ##.ad_by
@@ -108090,6 +108106,7 @@ zle.com$script
 ##.ad_w_us_a300
 ##.ad_warn
 ##.ad_warning
+##.ad_watch_now
 ##.ad_watermark
 ##.ad_wid300
 ##.ad_wide
@@ -108236,11 +108253,13 @@ zle.com$script
 ##.adbox1
 ##.adbox160
 ##.adbox2
+##.adbox250
 ##.adbox300
 ##.adbox300x250
 ##.adbox336
 ##.adbox600
 ##.adbox728
+##.adbox900
 ##.adboxRightSide
 ##.adboxTopBanner
 ##.adboxVert
@@ -117016,6 +117035,7 @@ zle.com$script
 ##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
+##[class*="adbox"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
@@ -117375,6 +117395,7 @@ zle.com$script
 ##a[href*=".ex068.com"]
 ##a[href*=".f2ocoin.com/"]
 ##a[href*=".fllkf.com/"]
+##a[href*=".g2afse.com/"]
 ##a[href*=".gghktv.com/"]
 ##a[href*=".glolhw.com/"]
 ##a[href*=".gnn8lgui.com/"]
@@ -118032,6 +118053,7 @@ zle.com$script
 ##a[href^="https://refpazkjixes.top/"]
 ##a[href^="https://reinstandpointdumbest.com/"]
 ##a[href^="https://s.optzsrv.com/"]
+##a[href^="https://s.zlinkb.com/"]
 ##a[href^="https://s.zlinkc.com/"]
 ##a[href^="https://sTARtgamIng.net/tienda/"]
 ##a[href^="https://sTaRTgamInG.net/tienda/"]
@@ -118183,6 +118205,7 @@ zle.com$script
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href*="//ads.traffichaus.com/"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
+##a[target="_blank"][href="/adjump/acg_show_right.html"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"]
 ##ad-shield-ads
@@ -118213,6 +118236,7 @@ zle.com$script
 ##bkveng
 ##body .has-ad
 ##body > [style$="background-size: 407px 101px !important;"]
+##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
@@ -118221,6 +118245,7 @@ zle.com$script
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
@@ -118553,11 +118578,17 @@ zle.com$script
 ##iframe[width="980"][height="90"]
 ##img#adv1
 ##img[alt$="抖阴"]
+##img[alt$="横幅"][src$=".gif"]
 ##img[alt$="约炮"]
+##img[alt*="88棋牌"][src$=".gif"]
+##img[alt*="bet365"][src$=".gif"]
 ##img[alt*="呦女"]
+##img[alt*="四季体育"][src$=".gif"]
 ##img[alt*="广告"][src]
 ##img[alt*="成人"][alt*="抖阴"]
 ##img[alt*="成人"][alt*="抖音"]
+##img[alt*="新葡京"][src$=".gif"]
+##img[alt*="棋牌游戏hf"][src$=".gif"]
 ##img[alt*="美女"][alt*="直播"][alt*="秀"]
 ##img[alt="91抖阴"]
 ##img[alt="91茄子视频"]

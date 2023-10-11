@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: RNxV+tRrrizQTFUiD27wtw
+! Checksum: Y76/7nPe9jwAnVVReuL3Uw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231011164152
+! Version: 20231012000855
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-11 16:41:52
-! Total Count: 23720
+! Last modified: 2023-10-12 00:08:55
+! Total Count: 23752
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8102,6 +8102,9 @@
 ||jmbluyxkl.xyz^
 ||jmcomic.asia/iframe_*&idzone=
 ||jmcomic1.cc/iframe_v*?type=exo&idzone=
+||jmcomic1.me/exads
+||jmcomic1.me/static/resources/lp.php
+||jmcomic1.me/static/resources/old/images/AD/
 ||jmged.xyz^
 ||jmhfw.com/index.php?/ajax/get_adv/
 ||jmm8a.xyz^
@@ -8608,6 +8611,7 @@
 ||kuk8.com^$third-party
 ||kuku99.com^$third-party
 ||kunpeng-sc.csdnimg.cn/?timestamp=$subdocument,domain=blog.csdn.net
+||kunyun*.com/xiwang/fumeiti.js
 ||kunzhang.name^
 ||kuqi.com^$third-party
 ||kusuriyasan.org^$image,third-party
@@ -9238,6 +9242,7 @@
 ||mall0.qiyipic.com^
 ||malong.plus^
 ||mamamia.vintageporno.stream^
+||mamecn.com/style/pcjs/bgimg.
 ||mamibai.com/img/contents/
 ||mamibuy.com.tw/Ad/Period.aspx
 ||manage.com^
@@ -9786,6 +9791,7 @@
 ||nan-net.com/*/bbs/s/inc/$subdocument
 ||naned.xyz^
 ||nanfengyl.com/static/js/zdad.js
+||nangongmall.com^
 ||nanigans.com^
 ||nanlisgc.fun^
 ||nanrenfuli.*/zb_users/upload/
@@ -12451,6 +12457,7 @@
 ||thetrafficstat.net^
 ||thind-gke-euw.prd.data.corp.unity3d.com^
 ||thingstaste.com^$third-party
+||thirzasandra.com^$third-party
 ||thisav.com/0*.js
 ||thisav.com/index.js
 ||thisav.com/js/bioep.
@@ -13393,6 +13400,7 @@
 ||wellgroomedhydrant.com^$third-party
 ||wendangku.net/js/common.js
 ||wendellyu.com/banner/
+||wendypha.com^$third-party
 ||wenhua.jiaoshou.com^
 ||wenku.baidu.com/browse/interface/getrec?
 ||wenku8.net/js/
@@ -20284,7 +20292,9 @@ zle.com$script
 ! →→→→通配符规则 结束←←←← !
 
 ! →→→→通用Css规则 起始←←←← !
+###ADbox
 ###AdBlockDialog
+###AdBox2
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -20396,6 +20406,16 @@ zle.com$script
 ###adblockinfo
 ###adblockpopup
 ###adblockz_alert
+###adbox
+###adbox--hot_news_ad
+###adbox--page_bottom_ad
+###adbox--page_top_ad
+###adbox-inarticle
+###adbox-topbanner
+###adbox1
+###adbox2
+###adbox_content
+###adbox_right
 ###adbpopup
 ###adbuddy-no-adb-container
 ###adbuddy-overlay
@@ -20958,6 +20978,8 @@ zle.com$script
 ##.adboard
 ##.adbottom
 ##.adbox-bg.adscounter
+##.adbox250
+##.adbox900
 ##.adbwarning
 ##.adclass
 ##.adcontent
@@ -21594,6 +21616,7 @@ zle.com$script
 ##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
+##[class*="adbox"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
@@ -22185,6 +22208,7 @@ zle.com$script
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href*="//ads.traffichaus.com/"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
+##a[target="_blank"][href="/adjump/acg_show_right.html"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##adblock-detect
 ##adblock-modal-component
@@ -22202,6 +22226,7 @@ zle.com$script
 ##bkveng
 ##body .has-ad
 ##body > [style$="background-size: 407px 101px !important;"]
+##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
@@ -22210,6 +22235,7 @@ zle.com$script
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
@@ -22466,11 +22492,17 @@ zle.com$script
 ##iframe[width="980"][height="90"]
 ##img#adv1
 ##img[alt$="抖阴"]
+##img[alt$="横幅"][src$=".gif"]
 ##img[alt$="约炮"]
+##img[alt*="88棋牌"][src$=".gif"]
+##img[alt*="bet365"][src$=".gif"]
 ##img[alt*="呦女"]
+##img[alt*="四季体育"][src$=".gif"]
 ##img[alt*="广告"][src]
 ##img[alt*="成人"][alt*="抖阴"]
 ##img[alt*="成人"][alt*="抖音"]
+##img[alt*="新葡京"][src$=".gif"]
+##img[alt*="棋牌游戏hf"][src$=".gif"]
 ##img[alt*="美女"][alt*="直播"][alt*="秀"]
 ##img[alt="91抖阴"]
 ##img[alt="91茄子视频"]
