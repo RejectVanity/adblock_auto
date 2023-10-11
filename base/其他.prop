@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wB4JM9FSrLUcAAn7CH4Ykw
+! Checksum: TyQNgzvwFoxr8CDRwXapMA
 ! Title: 自用去广告Adblock规则
-! Version: 20231011130254
-! Last modified: 2023-10-11 13:02:54
-! Total Count: 2820
+! Version: 20231011220831
+! Last modified: 2023-10-11 22:08:31
+! Total Count: 2834
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
@@ -36,6 +36,8 @@
 ##.ad.none
 ##.ad_img
 ##.adbanner
+##.adbox250
+##.adbox900
 ##.ads > img
 ##.ads-all
 ##.ads_
@@ -438,8 +440,10 @@
 ##a[target=" _blank"] > img[src$=".gif"][style*="width:100%"]
 ##a[target="_blank"][href*="//ads.traffichaus.com/"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
+##a[target="_blank"][href="/adjump/acg_show_right.html"]
 ##bkveng
 ##body > [style$="background-size: 407px 101px !important;"]
+##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
@@ -448,6 +452,7 @@
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body.page > .popup
@@ -638,11 +643,17 @@
 ##iframe[width="780"][height="120"]
 ##iframe[width="980"][height="90"]
 ##img[alt$="抖阴"]
+##img[alt$="横幅"][src$=".gif"]
 ##img[alt$="约炮"]
+##img[alt*="88棋牌"][src$=".gif"]
+##img[alt*="bet365"][src$=".gif"]
 ##img[alt*="呦女"]
+##img[alt*="四季体育"][src$=".gif"]
 ##img[alt*="广告"][src]
 ##img[alt*="成人"][alt*="抖阴"]
 ##img[alt*="成人"][alt*="抖音"]
+##img[alt*="新葡京"][src$=".gif"]
+##img[alt*="棋牌游戏hf"][src$=".gif"]
 ##img[alt*="美女"][alt*="直播"][alt*="秀"]
 ##img[alt="91抖阴"]
 ##img[alt="91茄子视频"]
@@ -2562,6 +2573,7 @@ zle.com$script
 ||kszc.j1evtmx.xyz^
 ||kszvmqo.cn^$third-party
 ||kszxqq.com^$third-party
+||kunyun*.com/xiwang/fumeiti.js
 ||kxcdn.com^$xmlhttprequest
 ||labadena.com^$third-party
 ||lanmeifeel.xyz^
@@ -2696,6 +2708,7 @@ zle.com$script
 ||tg.wmqfey.com^$third-party
 ||tg.xkcxh.com^$third-party
 ||tgcfmh.com^
+||thirzasandra.com^$third-party
 ||thisav.com/pop?url=
 ||thyn.renzhen8.cn^$third-party
 ||tongji.click^
@@ -2743,6 +2756,7 @@ zle.com$script
 ||vxinzheng.xyz^$third-party
 ||vzigttqgqx.com^
 ||wap.gonb.org/qjlm_wap.js
+||wendypha.com^$third-party
 ||wotmvdc.cn^
 ||wpadmngr.com^
 ||wpnsrv.com^
