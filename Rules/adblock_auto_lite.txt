@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: dcK7bC08mcqZ3Kd70pcLZQ
+! Checksum: RNxV+tRrrizQTFUiD27wtw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231011160956
+! Version: 20231011164152
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-11 16:09:56
-! Total Count: 23674
+! Last modified: 2023-10-11 16:41:52
+! Total Count: 23720
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20318,67 +20318,112 @@ zle.com$script
 ###ad > #h2_player_prevideo
 ###ad > .pre-img
 ###ad-SNSSplashAd
+###ad-box
 ###ad-floatwin
 ###ad-index
+###ad-message
 ###ad1[onclick="window.open(this.url)"]
 ###ad1[style^="position:"]
+###ad900
 ###adBlockAlert
 ###adBlockAlertWrap
+###adBlockBanner
 ###adBlockDetect
+###adBlockerAlert
 ###adBlockerModal
+###adBody01
+###adBody02
+###adBody03
+###adBody04
+###adBody06
 ###adBody07
 ###adLeftFloat
+###adPopUpContainer
 ###adRightFloat
+###adUn_1
+###adUn_2
+###adUn_3
 ###adUrl
+###ad_1
+###ad_banner
 ###ad_blocker
+###ad_bottom
 ###ad_box1
 ###ad_box2
 ###ad_full
 ###ad_globle_div
 ###ad_headerbanner
 ###ad_inview_area
+###ad_left
+###ad_lightbox
+###ad_link
+###ad_right
+###ad_text:not(textarea)
 ###adad
 ###adb-actived
 ###adb-enabled
 ###adb-enabled3
+###adb-pop
 ###adb-warning
 ###adbWarnContainer
 ###adbcontainer-popup
+###adbd
 ###adblock-alert
 ###adblock-box
 ###adblock-honeypot
+###adblock-in-browser
 ###adblock-modal
 ###adblock-msg
 ###adblock-notice
 ###adblock-overlay
 ###adblock-warning
+###adblock-wrapper
 ###adblockDetect
+###adblockWarningPopup
 ###adblockWrap
+###adblock__container
 ###adblock_detected
 ###adblock_message
 ###adblock_msg
+###adblock_popup
 ###adblock_screen
 ###adblock_tooltip
+###adblocker
 ###adblockerModal
 ###adblocker_announce
 ###adblocker_message
 ###adblocker_modal_overlay
 ###adblockinfo
 ###adblockpopup
+###adblockz_alert
 ###adbpopup
+###adbuddy-no-adb-container
+###adbuddy-overlay
+###adjs_id
+###adleft
+###adright
 ###adrights14
 ###ads-blocked
 ###ads.row
 ###ads_c_tpc
+###ads_inner
+###ads_left
+###ads_right
 ###ads_top_video
+###ads_warning
 ###adsblocker_detected
+###adsense
+###adtoniq-msgr-bar
 ###adtop1
 ###adv-2
 ###adv-3
 ###adv-fixed-square
 ###adv_wrap_hh
+###advert_1
+###advertisement_box
 ###advertisementjsalert
 ###advertisings
+###advt
 ###adx_cggp
 ###ai-adb-message
 ###ai-adb-overlay
@@ -20663,6 +20708,7 @@ zle.com$script
 ###sponsorAdCountdown
 ###sponsorAdDiv
 ###sponsorAdDiv2
+###sponsored_links
 ###swtleft[style^="position:fixed;"]
 ###syad.visible-xs
 ###syad1
