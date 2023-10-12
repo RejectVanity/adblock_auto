@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: of3cuccUD6BPpeBnlvL+IA
+! Checksum: hy37ZtdaTRJVRbME6v96Sw
 ! Title: 混合规则(自动更新)
-! Version: 20231012160947
+! Version: 20231013000857
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-12 16:09:47
-! Total Count: 121079
+! Last modified: 2023-10-13 00:08:57
+! Total Count: 121095
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -12844,6 +12844,7 @@
 ||boleimg.com^
 ||bolijiupingchang.com^
 ||bolivarmaltol.website^
+||bollenhurkle.com^
 ||bolofoak.net^
 ||boloingopulent.guru^
 ||bolrookr.com^
@@ -23440,6 +23441,7 @@
 ||exelator.com^
 ||exelbid.com^
 ||exemplary-range.pro^
+||exemptambientcream.com^
 ||exeqzb.cn^
 ||exercisefeeling.com^
 ||exerciseundergone.com^
@@ -25735,6 +25737,8 @@
 ||fuxeh.com^$~third-party
 ||fuxin-tech.com^
 ||fuxxijafrxma.com^
+||fuyime.com^$document
+||fuyime.com^$~third-party
 ||fuyviz.com^
 ||fuzeelamby.com^
 ||fuzhang.xyz^
@@ -31458,6 +31462,7 @@
 ||imputesmere.top^
 ||imrk.net^
 ||imrtrack.com^
+||imrvyop.cn^
 ||imrworldwide.com^
 ||imselutejzgd.com^
 ||imstks.com^
@@ -76837,6 +76842,8 @@ gaming.uefa.com##.si-ucl--head-bandSprLogo
 gamingbible.co.uk##.css-1i2p7ui
 gamingdeputy.com##.bottom-sticky-offset
 gamingdeputy.com##.header-banner-desktop
+gamingdeputy.com##div[class^="ad-wrapper-"]
+gamingdeputy.com##div[class^="vb-"]
 gamingskool.com##.wp-block-group-is-layout-constrained
 gamme.com.tw###bd
 gamme.com.tw##.ad_down
@@ -78293,6 +78300,7 @@ idropnews.com##.related-posts
 idropnews.com##.side-title-wrap
 ieforex.com##.header > .left
 ifanr.com##.popup-app-download
+ifanr.com##.popup-download
 ifeng.com###CA_left
 ifeng.com###CA_right
 ifeng.com###a_code
@@ -79022,6 +79030,7 @@ iyar.com.cn,m4411.com##[class][style*="131px"]
 iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
+iyf.tv##.bb > .ng-star-inserted
 iyf.tv##.player-side > .block > *
 iyf.tv##.prrb > .ng-star-inserted
 iyf.tv##.ss-ctn
@@ -86036,6 +86045,8 @@ v.baidu.com##div[id^="adv_asp_"]
 v.baidu.com,v.duba.com##div[id*="categoryPageColumn"]
 v.ifeng.com##.keyword
 v.pptv.com###video-download-game
+v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
+v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
@@ -103668,6 +103679,7 @@ zle.com$script
 ###midrect_ad
 ###midstrip_ad
 ###mini-ad
+###mobile-ad
 ###mobile-adhesion
 ###mobile-ads-ad
 ###mobile-footer-ad-wrapper
@@ -118284,7 +118296,9 @@ zle.com$script
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
+##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 21474"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
@@ -118354,6 +118368,7 @@ zle.com$script
 ##div[class="need_grid_text"] > ul > li
 ##div[class="photo-two"] > a[target="_blank"]
 ##div[class="v-banner"][style]
+##div[class] > div[class][style^="box-sizing: border-box; position: relative; left: 0px; z-index: 2147"]
 ##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
@@ -118599,6 +118614,7 @@ zle.com$script
 ##iframe[src^="//us-west1."][src*="/api/spots/"]
 ##iframe[src^="/ad"][src$=".html"]
 ##iframe[src^="/ai/s/s/su.php"]
+##iframe[src^="https://creative."][src*="/widgets/"]
 ##iframe[width="0"][height="0"]
 ##iframe[width="100%"][height="120"]
 ##iframe[width="100%"][height="90"]
