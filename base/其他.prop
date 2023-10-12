@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: s9gMc1crOOqDHN/4qTFRWg
+! Checksum: RpKaR0uhBTKMv0Xy3ai5Dg
 ! Title: 自用去广告Adblock规则
-! Version: 20231011221813
-! Last modified: 2023-10-11 22:18:13
-! Total Count: 2847
+! Version: 20231012221430
+! Last modified: 2023-10-12 22:14:30
+! Total Count: 2871
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -33,6 +33,21 @@
 ###global_header_ad
 ###hfad
 ###midBox > .wrap > .clearfix.mod
+###mini-ad
+###mobile-ad
+###mobile-adhesion
+###mobile-ads-ad
+###mobile-footer-ad-wrapper
+###mobileAdContainer
+###mobile_ad_main
+###mobile_ads_100_pc
+###mobile_ads_block
+###mod-tafad
+###mod_ad
+###mod_ad_top
+###modal-ad
+###modal-adblocker
+###modalAblockWrapper
 ###playerJsvLayer.jsv-layer
 ###rollingadBox > .wrap
 ###top-ads
@@ -93,6 +108,7 @@
 ##.bing-ads-wrapper
 ##.bing-native-ad
 ##.bottom-ads-content
+##.bottom-mobile-ad
 ##.bottom_fixed > a > img[src$=".gif"]
 ##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottomads
@@ -131,6 +147,10 @@
 ##.leftd3 + .rightd3
 ##.m-hm-ad
 ##.maomi-content > .section-banner
+##.mobile-ad-negative-space
+##.mobile-ad-placeholder
+##.mobile-ad-slider
+##.mobile-ads
 ##.moboad
 ##.module-adslist
 ##.myplayer_ima-ad-container
@@ -465,6 +485,7 @@
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
@@ -511,6 +532,7 @@
 ##div[class="need_grid_text"] > ul > li
 ##div[class="photo-two"] > a[target="_blank"]
 ##div[class="v-banner"][style]
+##div[class] > div[class][style^="box-sizing: border-box; position: relative; left: 0px; z-index: 2147"]
 ##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
@@ -640,6 +662,7 @@
 ##iframe[src^="//us-west1."][src*="/api/spots/"]
 ##iframe[src^="/ad"][src$=".html"]
 ##iframe[src^="/ai/s/s/su.php"]
+##iframe[src^="https://creative."][src*="/widgets/"]
 ##iframe[width="0"][height="0"]
 ##iframe[width="100%"][height="120"]
 ##iframe[width="100%"][height="90"]
@@ -1877,6 +1900,7 @@ hanyu.baidu.com##[id^="fengchao_els"]
 hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hentaicity.com##[class^="adn-posty_"]
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
+ifanr.com##.popup-download
 ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
 ilengmen.com,newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com,shenyedushu.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"],div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 iookd.cc##[class="ads"] > img,img[src*="jiongnet.cn"]
