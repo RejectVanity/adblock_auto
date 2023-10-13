@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B0Cyql+DNN+X75oq3EWBhw
+! Checksum: j2v/PCRO8BUasd5Sb4tuMg
 ! Title: 自用去广告Adblock规则
-! Version: 20231012232348
-! Last modified: 2023-10-12 23:23:48
-! Total Count: 2872
+! Version: 20231013213634
+! Last modified: 2023-10-13 21:36:34
+! Total Count: 2875
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -420,6 +420,7 @@
 ##a[href][style="display:none!important"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
+##a[href][target="_blank"] > img[src*=".cos.ap-"][src*=".myqcloud.com/"][src$=".gif"][alt]
 ##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
@@ -436,6 +437,7 @@
 ##a[href][target="_blank"][rel="noopener noreferrer"] > img[src][alt][class="pc"],a[href][target="_blank"][rel="noopener noreferrer"] > img[src][alt][class="h5"]
 ##a[href][title*="sponsor"][target="_blank"] > img[src$=".gif"]
 ##a[href][title*="sponsor"][target="_blank"] > img[src$=".png"]
+##a[href^="http://2kkfof.vip"]
 ##a[href^="http://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="http://intent.bingads.com/"]
 ##a[href^="http://s.73xx.icu/xgmn"]
@@ -2554,6 +2556,7 @@ zle.com$script
 ||hffxc.com^$third-party,script
 ||hhxsp.xyz/hf.js$script
 ||highperformancedisplayformat.com^
+||highwaycpmrevenue.com^$third-party
 ||histats.com^$third-party
 ||hnert.okmwfq.xyz^
 ||hnr.dodhvug.cn^
