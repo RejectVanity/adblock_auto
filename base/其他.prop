@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j2v/PCRO8BUasd5Sb4tuMg
+! Checksum: KewZUe1x/GTzsJ2FNoPP4g
 ! Title: 自用去广告Adblock规则
-! Version: 20231013213634
-! Last modified: 2023-10-13 21:36:34
-! Total Count: 2875
+! Version: 20231013221010
+! Last modified: 2023-10-13 22:10:10
+! Total Count: 2880
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -348,6 +348,7 @@
 ##a[href*="//ad.doubleclick.net"]
 ##a[href*="//adclick.g.doubleclick.net"]
 ##a[href*="//adultfriendfinder.com"]
+##a[href*="//app.kmtgsopq.com"][target="_blank"]
 ##a[href*="//baidujkdjklvvsbvk.com"]
 ##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//go.admjmp.com/"]
@@ -386,6 +387,8 @@
 ##a[href*="//t16-fghgdf.com"][target="_blank"]
 ##a[href*="//tsyndicate.com"][href*="/click"]
 ##a[href*="//xxuudxdu.live?"]
+##a[href*="//y3e33.top"][target="_blank"]
+##a[href*="/?agentId="][target="_blank"]
 ##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
 ##a[href*="/youyicl/youku.html"][target="_blank"]
@@ -1092,6 +1095,7 @@
 /ad-tetris-site/file
 /ad/display.php?$third-party
 /ad/gudingwei.js
+/ad/gudingwei.js$~third-party,script
 /ad/iframe.
 /ad/iframe/*
 /ad/image/*
@@ -1596,6 +1600,7 @@
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dpic.*.cn/*.js$third-party
 ://dpic.*.cn/*.txt$third-party
+://e.*.xyz/apps/sdk$third-party
 ://im.ifengsong888.com/*.gif
 ://im.ifengsong888.com/*.jpg
 ://im.yfled888.com/*.gif
@@ -2069,8 +2074,7 @@ renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
 sbdm.net##div#vodshare
 seajav.com##.under_player,img[border="0"][width="300"][height="80"],[class*="lg:hidden"],[class][style*="131px"]
-sewen.life##.links-top,table[border="1"]
-sewen.life,sewen.net,sewen.com,sewen.buzz,sewen.xyz,sewen.top##.links-top,table[border="1"]
+sewen.life,sewen.net,sewen.com,sewen.buzz,sewen.xyz,sewen.top,sewen4.top##img[src*=".xyz/"][src*="16"],[style*="bottom: 0px; left: 0px; z-index:"][style*="100vw;"],.hotcmd-box,.links-top,table[border="1"]
 sexmod.pw,md91av.top,twavbook999.cc,siaoredbook.cc,mitaonuhai.cc,gipinreba.cc,r18lumod.cc##[class*="topads"],[class*="tads"],[class*="bottomads"],[class*="bads"],[class*="leftd"],[class*="rightd"],a[target="_blank"][href][onclick]
 shushudu.com##[style*="width:"][style*="100%"],[style*="width:"][style*="99%"],[width*="99%"],[width*="100%"],div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
 sina.cn##.feed.module-extend.module-recommend
@@ -2500,6 +2504,7 @@ zle.com$script
 ||dtscout.com^
 ||dvnsdo.com^$third-party
 ||dydytt.net/js3
+||e.1bctkn.xyz^$third-party
 ||effirst.com^$third-party
 ||ehfjup.xyz^$third-party
 ||elonreptiloid.com^$third-party
