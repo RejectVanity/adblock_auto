@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KewZUe1x/GTzsJ2FNoPP4g
+! Checksum: tWhFGS80PpgTbFafj0G8Kg
 ! Title: 自用去广告Adblock规则
-! Version: 20231013221010
-! Last modified: 2023-10-13 22:10:10
-! Total Count: 2880
+! Version: 20231014191454
+! Last modified: 2023-10-14 19:14:54
+! Total Count: 2886
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -493,7 +493,9 @@
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 21474"]
+##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > embed[id][src*="://"][src$="="]
+##body > embed[id][src^="https:///"]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body.page > .popup
 ##body[ontouchstart] > #topBox
@@ -893,6 +895,7 @@
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/$third-party
 .cn:*/vj5/$third-party
+.cn:12443/ty/$third-party
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
 .com./$popup,domain=pornhub.com
@@ -1412,6 +1415,7 @@
 /templates/adv_
 /templates/bootadult4/js/bottom.js
 /templates/bootadult4/js/text.js
+/templete/*/wap/js/sjgg.js$third-party
 /templets/*/js/couplet-ad.
 /templets/yycms3/img/*
 /top-ad-
@@ -1558,6 +1562,8 @@
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 99re.com##a[href][target="_blank"] > img[src]
 :*/static/lbsite/*/*.js?v=16$third-party
+:*/ty/*-*-*-*.alpha$third-party
+:*/ty/*-*-*-*.blpha$third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
 ://*.*.xyz:*/*/*-*-*-*/$third-party
 ://*.*27txt.com/*/*.js$~third-party
