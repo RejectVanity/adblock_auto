@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: haxE04AE8TXuEgrmRGE8mQ
+! Checksum: yVvVrx7mAS1C/Q50uuxKWw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231014160857
+! Version: 20231014192337
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-14 16:08:57
-! Total Count: 23836
+! Last modified: 2023-10-14 19:23:37
+! Total Count: 23846
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8216,6 +8216,8 @@
 ||js.jialingmm.net/dm/history.js
 ||js.jialingmm.net/dm/tj.js
 ||js.jstucdn.com/js/ad_37cs.js
+||js.kkytwmxc.com^$document
+||js.kkytwmxc.com^$~third-party
 ||js.kt250.com^
 ||js.mfsft.com/*/*.js
 ||js.mtgqt.com/vdn/$script
@@ -11973,6 +11975,8 @@
 ||smilered.com^
 ||smilingswim.com^$third-party
 ||smlpcz.icu^
+||smmma.xyz^$document
+||smmma.xyz^$~third-party
 ||smmmqq.com^
 ||smqzj.com/seo.js
 ||smtlm967.com^
@@ -17505,6 +17509,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/$third-party
 .cn:*/vj5/$third-party
+.cn:12443/ty/$third-party
 .co/ads/
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
@@ -18583,6 +18588,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /templates/adv_
 /templates/bootadult4/js/bottom.js
 /templates/bootadult4/js/text.js
+/templete/*/wap/js/sjgg.js$third-party
 /templets/*/js/couplet-ad.
 /templets/yycms3/img/*
 /testAB.bundle.
@@ -18692,6 +18698,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 139.196.80.247$document
 139.196.80.247$~third-party
 :*/static/lbsite/*/*.js?v=16$third-party
+:*/ty/*-*-*-*.alpha$third-party
+:*/ty/*-*-*-*.blpha$third-party
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
@@ -22318,9 +22326,11 @@ zle.com$script
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 21474"]
+##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
+##body > embed[id][src^="https:///"]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
 ##body.page > .popup

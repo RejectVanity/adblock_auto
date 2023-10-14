@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mQmhlY9eKybjU3st29OkkA
+! Checksum: lfmVmiOgJ1/cPNlZKV1Eng
 ! Title: 混合规则(自动更新)
-! Version: 20231014160843
+! Version: 20231014192323
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-14 16:08:43
-! Total Count: 121200
+! Last modified: 2023-10-14 19:23:23
+! Total Count: 121213
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -33749,6 +33749,8 @@
 ||js.jianbihuadq.com^
 ||js.jstucdn.com/js/ad_37cs.js
 ||js.kabutocho-dsp.net^
+||js.kkytwmxc.com^$document
+||js.kkytwmxc.com^$~third-party
 ||js.kt250.com^
 ||js.letvcdn.com/*_banner_$script
 ||js.letvcdn.com/js/*/stats/
@@ -54969,6 +54971,8 @@
 ||smljmp.com^
 ||smlmupi.cn^
 ||smlpcz.icu^
+||smmma.xyz^$document
+||smmma.xyz^$~third-party
 ||smmmqq.com^
 ||smoggydisplay.pro^
 ||smoggylong.pro^
@@ -88760,6 +88764,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cn:*/sc/*?x=$third-party
 .cn:*/vh5/$third-party
 .cn:*/vj5/$third-party
+.cn:12443/ty/$third-party
 .co/ads/
 .co/ads/$popup
 .co/ads?
@@ -88887,6 +88892,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/js/LAD.js
 .com/js/a_d/
 .com/js/ad_
+.com/js/addp.js
 .com/js/ads/
 .com/js/alls_foot.js
 .com/js/alls_top.js
@@ -89476,6 +89482,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .xyz/hm.js?
 .xyz/iutfkdfnshsdfk.js$third-party
 .xyz/jque*.js?
+.xyz/js/addp.js
 .xyz/js/adlm$third-party,script
 .xyz/js/ads/
 .xyz/kallss?$third-party
@@ -96597,6 +96604,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /templates/adv_
 /templates/bootadult4/js/bottom.js
 /templates/bootadult4/js/text.js
+/templete/*/wap/js/sjgg.js$third-party
 /templets/*/js/couplet-ad.
 /templets/yycms3/img/*
 /tencentvideo/script/webtips/*
@@ -97171,6 +97179,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 139.196.80.247$~third-party
 728x90.jpg|
 :*/static/lbsite/*/*.js?v=16$third-party
+:*/ty/*-*-*-*.alpha$third-party
+:*/ty/*-*-*-*.blpha$third-party
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
@@ -116429,6 +116439,7 @@ zle.com$script
 ##.toolkit-ad-shell
 ##.tooltip > #tp
 ##.top > a > .topline[src^="/photo/"]
+##.top > div[style="max-width: 1235px; width: 100%; text-align:center; margin-left: auto; margin-right: auto"]
 ##.top-300-ad
 ##.top-ad
 ##.top-ad-728
@@ -118404,9 +118415,11 @@ zle.com$script
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 21474"]
+##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
+##body > embed[id][src^="https:///"]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
 ##body.page > .popup
