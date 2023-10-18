@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: fwHUe7qP9z90+e55IxdPPA
+! Checksum: bIUTT01d9lw4pgvLdQbsdg
 ! Title: 混合规则(自动更新)
-! Version: 20231018160924
+! Version: 20231018173622
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-18 16:09:24
-! Total Count: 121714
+! Last modified: 2023-10-18 17:36:22
+! Total Count: 121717
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -79500,6 +79500,7 @@ jingyan.baidu.com##.feed-ad-wrap
 jingyan.baidu.com##.right-fixed-related-wrap
 jingyan.baidu.com##.task-panel-entrance
 jingyan.baidu.com##.wgt-cms-banner
+jingyan.baidu.com##[class*="feed-ad-"]
 jingyan.baidu.com,zhidao.baidu.com##[href*="/baidu.php?"]
 jingyanlib.com##.TEST-ad
 jingyanlib.com##.adToastWin
@@ -82061,7 +82062,7 @@ optimyz.com##.widget_smartslider3
 optimyz.com,ringsidenews.com##.elementor-shortcode
 orgasm.com##.horizontal-banner-module
 originalindianporn.com,wowindianporn.com,6japaneseporn.com##.center-place > .bns-place-ob > .bn-place
-orilliamatters.com,sootoday.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
+orilliamatters.com,sootoday.com,time.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
 orschlurch.net##.amazon-wrapper
 orschlurch.net,tetris.com##[href^="https://amzn.to/"]
 orsoon.com###new-actentry
@@ -88091,6 +88092,7 @@ zhifang.com##.sytl
 zhihu.com###root > div > main.App-main:nth-child(3) > div.QuestionPage > div.Question-main:last-child > div.Question-sideColumn.Question-sideColumn--sticky:last-child > div > div.Sticky > div.Card.AppBanner:first-child
 zhihu.com##.GoodsRecommendCard
 zhihu.com##.LinkCard-ecommerceLoadingCard
+zhihu.com##.MBannerAd-image
 zhihu.com##.RichText-Ecommerce
 zhijia.com###QPhiddenLayer
 zhiyoo.com###body-bg
@@ -117917,6 +117919,7 @@ zle.com$script
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//js.kkytwmxc.com/download"]
 ##a[href*="//live.jzmsg.cn"][href$=".apk"]
 ##a[href*="//lkstrck2.com/"]
 ##a[href*="//sm5xse.net"]
