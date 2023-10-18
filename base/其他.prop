@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Nlwir++H0earKzLN+shriQ
+! Checksum: fTGKWNQcJ+0Fl4/2TKtKpQ
 ! Title: 自用去广告Adblock规则
-! Version: 20231014192706
-! Last modified: 2023-10-14 19:27:06
-! Total Count: 2886
+! Version: 20231018172713
+! Last modified: 2023-10-18 17:27:13
+! Total Count: 2889
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -382,6 +382,7 @@
 ##a[href*="//go.xxxviijmp.com"]
 ##a[href*="//go.zybrdr.com"]
 ##a[href*="//googleads.g.doubleclick.net/pcs/click"]
+##a[href*="//js.kkytwmxc.com/download"]
 ##a[href*="//live.jzmsg.cn"][href$=".apk"]
 ##a[href*="//sm5xse.net"]
 ##a[href*="//t16-fghgdf.com"][target="_blank"]
@@ -1956,6 +1957,7 @@ jingyan.baidu.com##.bk-common-video-list
 jingyan.baidu.com##.content-box.wgt-ad-guess
 jingyan.baidu.com##.feed-ad-wrap
 jingyan.baidu.com##.rel-exp-feed-ad-item
+jingyan.baidu.com##[class*="feed-ad-"]
 jingyan.baidu.com##[href*="/baidu.php?"]
 jingyanlib.com##.TEST-ad
 jingyanlib.com##.admorecon
@@ -2361,6 +2363,7 @@ zhidao.baidu.com##.single-up-ads-wrapper
 zhidao.baidu.com##.vricxrhmzs-ecom-ads
 zhidao.baidu.com##.wap-youx-change-asp
 zhidao.baidu.com##[href*="/baidu.php?"]
+zhihu.com##.MBannerAd-image
 zjtu.tv##a[target="_blank"] > img[class="br"][src][width="100%"]
 zle.com$script
 |https://m.frgls.com/js/*.js?v=
