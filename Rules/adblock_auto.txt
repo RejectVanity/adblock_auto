@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: zIx67ILxHYhNduLGvzSLOA
+! Checksum: FBjxRIOOcUPdK22AwCb95g
 ! Title: 混合规则(自动更新)
-! Version: 20231018000855
+! Version: 20231018083045
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-18 00:08:55
-! Total Count: 121687
+! Last modified: 2023-10-18 08:30:45
+! Total Count: 121704
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14337,6 +14337,7 @@
 ||candiruarf.com^
 ||candy-network.com^
 ||candypeaches.com^
+||candyprotected.com^
 ||canelastram.com^
 ||canem-auris.com^
 ||cangatu.xyz^
@@ -15666,6 +15667,7 @@
 ||chromessolacer.com^
 ||chronicads.com^
 ||chrothe.com^
+||chrtds.xyz^
 ||chrysostrck.com^
 ||chryvast.com^
 ||chsfdfkwsrjwe.xyz^
@@ -16402,6 +16404,7 @@
 ||cmci5cape.icu^
 ||cmclean.club^
 ||cmcore.com^
+||cmdcdacq.xyz^
 ||cmdgbuddies.guru^
 ||cmdy5.com/js/waptbplay2.js
 ||cmfads.com^
@@ -19971,6 +19974,7 @@
 ||dilliskunhome.com^
 ||dillsloppy.com^
 ||dilruwha.net^
+||diluterwearers.com^
 ||dilutionavailstoker.com^
 ||dimcarnie.com^
 ||dimedoncywydd.com^
@@ -22181,6 +22185,7 @@
 ||ehprnuo.cn^
 ||ehpvvxyp.com^
 ||ehqdzqi.com^
+||eht116.com^
 ||eiadf.xyz^
 ||eic.org.cn/api/Popup?
 ||eic.org.cn^*/analytics
@@ -23790,6 +23795,7 @@
 ||f459fdc403a6.78a5254f.ap-northeast-1.token.awswaf.com^
 ||f48d1c06e4.com^
 ||f4906b7c15ba.com^
+||f4961f1b2e.com^
 ||f4cebacks.com^
 ||f5080f5cee5a00.com^
 ||f52a1ac6d9.com^
@@ -27190,6 +27196,7 @@
 ||gmogccmnp.com^
 ||gmossp-sp.jp^
 ||gmpfruktfatpi.com^
+||gmx11.top^
 ||gmx12.top^
 ||gmx13.top^
 ||gmx14.top^
@@ -32693,6 +32700,7 @@
 ||iugbjkqwc.xyz^
 ||iughyy7919.com^
 ||iuhmydixxk.xyz^
+||iujlwn.icu^
 ||iulftx.com^
 ||iuliglsh.space^
 ||iumnxwvh.ink^
@@ -37930,6 +37938,7 @@
 ||lvnmzhhod.com^
 ||lvntekpejrmtb.com^
 ||lvodomo.info^
+||lvomenbxbyl.com^
 ||lvpcxqcoohcviks.com^
 ||lvrvdn.xyz^
 ||lvse.cn/output/block/html/
@@ -38952,6 +38961,7 @@
 ||mcbzq.xyz^
 ||mcdote.com^
 ||mcdp-*.outbrain.com^
+||mcds7.icu^
 ||mcds9.icu^
 ||mcgtrack.herokuapp.com^
 ||mci1.co.kr^
@@ -39595,6 +39605,7 @@
 ||mfjiaoyu.cn^
 ||mfjpwroy.com^
 ||mfk-cpm.com^
+||mfnfylx.xyz^
 ||mfoevvy.com^
 ||mftracking.com^
 ||mfwlis.xyz^
@@ -53251,6 +53262,7 @@
 ||securitytrfx.com^
 ||sedatebun.com^
 ||sedatecompulsiveout.com^
+||sedatenerves.com^
 ||sedatingnews.com^
 ||sednerenforbo.com^
 ||sedodna.com^
@@ -63527,6 +63539,7 @@
 ||vam-nado.ru^
 ||vamaker.com^
 ||vamaker.com^$third-party
+||vamjfssdvjit.com^
 ||vampedcortine.com^
 ||vampersmutuary.com^
 ||vampersogmic.com^
@@ -64791,6 +64804,7 @@
 ||vw66i.top^
 ||vwcsl.com^
 ||vwedfijcm.xyz^
+||vwegihahkos.com^
 ||vwfppr.xyz^
 ||vwgtbnamrvg.com^
 ||vwhnfwdbf.com^
@@ -75180,6 +75194,9 @@ dealsofde.com###gg_box_1
 dealsofde.com###gg_box_2
 dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com#?#div[class^="ColListing"]:-abp-has(div[data-testid^="Sponsored"])
 debka.com##.top-full-width-sidebar
+deccanherald.com###desktop-ad
+deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
+deccanherald.com#?#span.container-text:-abp-contains(ADVERTISEMENT)
 decider.com##.nyp-video-player
 deckstats.net###header_right_big
 decoist.com##.r300
@@ -79990,6 +80007,7 @@ ld0766.com##.rsf_pull_screen_adv
 ldjam.com##.sidebar-sponsor
 ldmnq.com##.dialog-game
 ldoceonline.com###rightslot2-container
+ldoceonline.com##[id^="ad_contentslot"]
 ldqk.xyz,masuit.com##.bs-slider
 ldqk.xyz,masuit.com##.ibox-content > .wow[id]
 ldqk.xyz,masuit.com#?#.panel:-abp-has(>.panel-body>a>img)
@@ -85866,8 +85884,7 @@ trumparea.com##.advertisement-list
 trustedreviews.com##.keystone-deal
 trustedreviews.com##.keystone-single-widget
 trustedreviews.com##.page_header_container
-truthsocial.com#?#.relative > .p-4:-abp-has(a[href*="/@TruthAds"])
-truthsocial.com#?#.status-unlisted.status__wrapper:-abp-has(div:-abp-contains(Sponsored Truth))
+truthsocial.com#?#div[item="[object Object]"]:-abp-has(path[d="M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673"])
 truyengihotnhat.com,rule34hentai.net,zinchanmanga.com,streamhub.to,javstream.com,sxyprn.net,manga1001.se,mangaraw.io,mangarow.org,syosetu.me,tokyomotion.com,mangarawjp.io,mrjav.net,yurineko.net,azel.info,clip-sex.biz,justpicsplease.com,lucagrassetti.com,mihand.ir,nudecelebsimages.com,overwatchporn.xxx,pornium.net,watchmygf.biz,xnxxw.net,xxxymovies.com,nozomi.la,mangaraw.to,klmanga.su,nhentai.to,masahub.net,vidsgator.com,nudostar.com,slutmesh.net,movieffm.net##+js(abort-on-property-write, __aaZoneid)
 tryindianporn.com##.mle
 tryindianporn.com##.uvk
