@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: KsynfgN8ZlUZPrrKONK+yQ
+! Checksum: E5wcWTPUQ3mLO9sp0lOLpw
 ! Title: 混合规则(自动更新)
-! Version: 20231020160931
+! Version: 20231021000852
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-20 16:09:31
-! Total Count: 121817
+! Last modified: 2023-10-21 00:08:52
+! Total Count: 121832
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14716,6 +14716,7 @@
 ||ccgateway.net^
 ||ccgjmzv.cn^
 ||ccgkudwutf.com^
+||ccgzcavzbmztk.com^
 ||cchdbond.com^
 ||ccieoqej.xyz^
 ||ccio6rope.cyou^
@@ -21869,6 +21870,7 @@
 ||eclassified.my/cp_featured
 ||eclatedpewy.com^
 ||eclczg.cn^
+||eclebgjz.com^
 ||eclick.baidu.com^
 ||eclick.vn^
 ||eclkmpbn.com^
@@ -24466,6 +24468,7 @@
 ||fewcupboard.com^
 ||fewergkit.com^
 ||fewjuice.com^
+||fewkittens.com^
 ||fewplan.pro^
 ||fewrfie.com^
 ||fewsvuh.cn^
@@ -26419,6 +26422,7 @@
 ||gejulm1314.com^
 ||gekko.spiceworks.com^
 ||gekroome.com^
+||gelbjvl.cn^
 ||gelbooru.com/script/application.js
 ||geldcounter.de^
 ||gelhp.com^
@@ -43857,6 +43861,7 @@
 ||omvcilk.com^
 ||omxriphi.com^
 ||omynews.net^
+||omzxutfm.com^
 ||omzylhvhwp.com^
 ||on-click.ir^
 ||on-line.lv^
@@ -45660,6 +45665,7 @@
 ||pdtqjd.cn^
 ||pdvacde.com^
 ||pdweigee.com^
+||pdweoyw.cn^
 ||pdxdxl.xyz^
 ||pdxubxc.cn^
 ||pe5a.top^
@@ -71264,6 +71270,11 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 3g.163.com,m.163.com##.js-recommend.recommend
 3g.163.com,m.163.com##.s-openApp
 3g.163.com,m.163.com##[src^="//ymjs.adutp.com/kjivriyd?"]
+3g.163.com,m.163.com##button.floatMenu-logo
+3g.163.com,m.163.com##div.article-payVip-recommend
+3g.163.com,m.163.com##div.backflow-floating
+3g.163.com,m.163.com##section.recommend.js-recommend
+3g.163.com,m.163.com##span.s-openApp
 3g.baidu.com,m.baidu.com,m5.baidu.com##.blank-frame
 3g.baidu.com,m.baidu.com,m5.baidu.com##div[style="overflow: hidden;background: #fff;position: relative;"]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
@@ -73341,6 +73352,7 @@ bilibili.com###app > div.international-home > a.contact-help:last-child
 bilibili.com###b_app_link
 bilibili.com###fixed_app_download
 bilibili.com###slide_ad + .ad-report
+bilibili.com##.activity-slider[style="width: 1220px;"]
 bilibili.com##.ad-e1
 bilibili.com##.ad-f
 bilibili.com##.ad-report
@@ -75505,7 +75517,7 @@ dm5.com#$#body[style*="overflow"] { overflow: auto !important; }
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
-dm590.com,hentai-one.com,hentaipaw.com,thepostemail.com##.external
+dm590.com,eromanga-show.com,hentai-one.com,hentaipaw.com,thepostemail.com##.external
 dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
 dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
 dmh8.me,dm88.me##div[style^="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
@@ -76204,6 +76216,7 @@ ericpetersautos.com##.text-109
 erji.com,erji.net##.black.y-style
 eroacg.com##.weimg1
 erofus.com#?#div:-abp-has(> .ad)
+eromanga-show.com,hentai-one.com,hentaipaw.com##div[id^="ts_ad_"]
 erotic-beauties.com,hardsex.cc,sex-movies.biz,sikwap.xyz,tube18.sexy##+js(abort-current-script, pop_init)
 eroticmv.com,xfantazy.com,analdin.com,xtits.com,sexu.com,javrave.club,mangamelon.com,vidoza.co,vintagetube.xxx,vidoza.org,xxxmom.pro##iframe[src^="//a.o333o.com/"]
 escortdirectory.com##.ixs-govazd-item
@@ -79378,6 +79391,7 @@ iyf.tv##vg-pause-ads
 iyf.tv##vg-pause-p
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
+iyf.tv#?#.video-player + div.ps > div:has(div.gg-tips-text)
 izismile.com##.ban_top
 izismile.com##.css-widget-item-wrap
 izmailov.tv##.popupBlock
@@ -86068,6 +86082,7 @@ tutorialink.com##.tutorialink-ad2
 tutorialink.com##.tutorialink-ad3
 tutorialink.com##.tutorialink-ad4
 tutorialink.com##.widget_ti_add_widget
+tutorialspoint.com##.panel-htop.layout-panel-east
 tutorviacomputer.com##.topMargin15
 tutsplus.com##.avert
 tuwan.com##.Player-zan
