@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fTGKWNQcJ+0Fl4/2TKtKpQ
+! Checksum: SbnVn5PvYHHSG3xcjTvTPA
 ! Title: 自用去广告Adblock规则
-! Version: 20231018172713
-! Last modified: 2023-10-18 17:27:13
-! Total Count: 2889
+! Version: 20231020100541
+! Last modified: 2023-10-20 10:05:41
+! Total Count: 2891
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2329,6 +2329,7 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
 ydm.life##[onclick*="surnum"][style],img[style*="z-index:2147483647"][onclick*="javascript:"]
+yeduxiaoshuoo.com##div[class$="anye"][onclick$="anye()"]
 yhdmw.com##.bottom_fixed
 yhdmw.com##div.container > iframe[src][rel="nofollow"]
 yhpdm.com,yhdmp.net,d53px.com##[style*="bottom:"]
@@ -2850,6 +2851,7 @@ zle.com$script
 ||yazhouse*.com/images/gg/$image
 ||ybayck.xyz^
 ||yber.fourlaile.com^$third-party
+||yeduxiaoshuoo.com/lokedpgdjs$script
 ||yetianlian.la/*/*.js
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yijfdsu.cn^
