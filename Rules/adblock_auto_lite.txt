@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: zRwmzO5VZ/Re2dxbBrddxw
+! Checksum: 9CUj3PbrKAnigjrkB/ft5w
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231020083042
+! Version: 20231020113958
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-20 08:30:42
-! Total Count: 23935
+! Last modified: 2023-10-20 11:39:58
+! Total Count: 23940
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6970,6 +6970,7 @@
 ||haise10.top^
 ||haise2.top^
 ||haise3.top^
+||haise4.top^
 ||haise5.top^
 ||haise6.top^
 ||haise8.top^
@@ -7062,6 +7063,7 @@
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hcdjy.xyz^
 ||hcenc.com^
+||hcgbhq.com^
 ||hciea.xyz^
 ||hcqumrjbx.xyz^
 ||hdapp1003-a.akamaihd.net^
@@ -10824,6 +10826,7 @@
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
+||ppvpmrt.xyz^
 ||ppwrc.xyz^
 ||pqjeoqa.cn^
 ||pqldzp.xyz^
@@ -14139,6 +14142,7 @@
 ||yea.im/5hq.gif
 ||yea.im/5ht.gif
 ||yecaoyun.com/AD/
+||yeduxiaoshuoo.com/lokedpgdjs$script
 ||yefu365.com/rebo/function.js
 ||yegziyf.cn^
 ||yegzkw.xyz^
@@ -17262,6 +17266,7 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
 yarik-sat.com##.noadb
 ydm.life##[onclick*="surnum"][style],img[style*="z-index:2147483647"][onclick*="javascript:"]
+yeduxiaoshuoo.com##div[class$="anye"][onclick$="anye()"]
 yeptube.com,proporn.com,hd21.com##.puFloatDiv
 yespornplease.com##div[class^="col-"] > .well:not([class*=" "])
 yespornpleasexxx.com##+js(abort-on-property-write, i7oo)
