@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ebCDxzZjFhcUR7seByhqCw
+! Checksum: SapSldMm3VQPlp5U6N5veA
 ! Title: 自用去广告Adblock规则
-! Version: 20231021221212
-! Last modified: 2023-10-21 22:12:12
-! Total Count: 2900
+! Version: 20231021225936
+! Last modified: 2023-10-21 22:59:36
+! Total Count: 2903
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -114,6 +114,7 @@
 ##.bottomads
 ##.cctv_banner_dv
 ##.commentads
+##.common_banner[style="width: 100%;"] > a[target="_blank"][style="width: 375px; height: 75px; max-width: 100%; max-height: 75px; display: block; margin: 0px auto; overflow: hidden;"]
 ##.conch-ads-box
 ##.container > iframe[src*="123.html"][width][height]
 ##.containerAdsense
@@ -1276,7 +1277,7 @@
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
 /js/adlmb.js$third-party,script
-/js/ads.js?v=$script
+/js/ads.js?v=
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
@@ -1392,6 +1393,7 @@
 /sbar.json?key=
 /sdk/push_web/?zid=
 /search/tsc.php?
+/splash.php?cat=&idzone=*
 /tempads/*
 /template/*/adm/*
 /template/*/ads/*
@@ -2690,6 +2692,7 @@ zle.com$script
 ||pcd.autohome.com.cn^
 ||pcmx.autohome.com.cn^
 ||peizi00.com^$third-party
+||pemsrv.com^
 ||pemsrv.com^$third-party
 ||piankudy.com/gg$script
 ||pic.dibtvft.cn^$script,third-party
