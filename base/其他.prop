@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: An8NoxXPY/Yb5SObitHkQw
+! Checksum: ebCDxzZjFhcUR7seByhqCw
 ! Title: 自用去广告Adblock规则
-! Version: 20231020175402
-! Last modified: 2023-10-20 17:54:02
-! Total Count: 2896
+! Version: 20231021221212
+! Last modified: 2023-10-21 22:12:12
+! Total Count: 2900
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -389,6 +389,7 @@
 ##a[href*="//tsyndicate.com"][href*="/click"]
 ##a[href*="//xxuudxdu.live?"]
 ##a[href*="//y3e33.top"][target="_blank"]
+##a[href*="/?agent="][target="_blank"]
 ##a[href*="/?agentId="][target="_blank"]
 ##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
@@ -750,6 +751,7 @@
 ##img[src*=".wzxty168.com"][src$=".gif"][width="100%"]
 ##img[src*="//acc.snmovie.com"]
 ##img[src*="//ad.xmmnsl.com"]
+##img[src*="//api.promptsgod.com/"][style*="width: 100%;"]
 ##img[src*="//fhh.emossvu.cn"]
 ##img[src*="//hfh.bgfe26.cn"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
@@ -1274,6 +1276,7 @@
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
 /js/adlmb.js$third-party,script
+/js/ads.js?v=$script
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
@@ -1956,6 +1959,7 @@ javbow.com###advertisement-footer
 javboys.com##a[id][href*="://chpadblock.com"][rel="noopener noreferrer"]
 javme.net##.top-ads-content,.bottom-ads-content
 javme.net##div[class^="b"][class*="9"],div[class^="i"][class*="9"]
+javmenu.top,javmenu03.top,javmenu02.top##.common_banner
 javrank.com##.justify-content-around.d-flex.align-content-center
 jingyan.baidu.com##.ad-card
 jingyan.baidu.com##.bk-common-video-list
