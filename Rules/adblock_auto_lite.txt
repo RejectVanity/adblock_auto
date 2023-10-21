@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: wAl/75E1hKwo0rx41zVUnw
+! Checksum: 57SUnD9ejYbehtwREJ15VA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231021160834
+! Version: 20231022000744
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-21 16:08:34
-! Total Count: 23959
+! Last modified: 2023-10-22 00:07:44
+! Total Count: 23969
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -7071,6 +7071,7 @@
 ||hcdjy.xyz^
 ||hcenc.com^
 ||hcgbhq.com^
+||hchuviq.cn^
 ||hciea.xyz^
 ||hcqumrjbx.xyz^
 ||hdapp1003-a.akamaihd.net^
@@ -8582,6 +8583,7 @@
 ||kl91ccp.com^
 ||klandmart.com/K-Landmart_0011.jpg
 ||klbvqqqj.com^
+||klfbnklddfbkn.com^
 ||kljslku.com^
 ||klsnckalualkcn.com^
 ||klsynmld.fun^
@@ -10451,6 +10453,7 @@
 ||peizi00.com^$third-party
 ||pekingpk10.com^
 ||pelageforgers.com^
+||pemsrv.com^
 ||pemsrv.com^$third-party
 ||penglangyyds.com^
 ||pengpailm.online^
@@ -11912,6 +11915,7 @@
 ||shilian168.cn^$third-party
 ||shimo.im^*/ads?
 ||shino3ur.xyz^
+||shipostrich.com^
 ||shiyaokejishanghai.com^
 ||shoagooy.net^$third-party
 ||shortlink.sex^$popup,domain=cam-archive.com
@@ -15807,6 +15811,7 @@ javboys.com##a[id][href*="://chpadblock.com"][rel="noopener noreferrer"]
 javhub.net,highporn.net,xxxparodyhd.net,uptobox.com,uptostream.com,pornkino.cc,watchpornfree.info,xxxmoviestream.xyz,mangoporn.co,playpornfree.xyz,xopenload.me,streamporn.pw##+js(abort-on-property-read, jsUnda)
 javme.net##.top-ads-content,.bottom-ads-content
 javme.net##div[class^="b"][class*="9"],div[class^="i"][class*="9"]
+javmenu.top,javmenu03.top,javmenu02.top##.common_banner
 javmovieporn.com,xxxmax.net#$#.video-list-content.with-happy .thumb-block { clear: unset !important; }
 javporn.tv##.download-favorite-container > a[target="_blank"]
 javporn.tv#?#.content-area > div.download-favorite-container > a[target="_blank"]:upward(1)
@@ -18528,6 +18533,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
 /js/adlmb.js$third-party,script
+/js/ads.js?v=
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
@@ -18668,6 +18674,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /search/tsc.php?
 /sex.gif$domain=epikporn.com|erotichdworld.com|guruofporn.com|jesseporn.xyz|jumboporn.xyz|kendralist.com|steezylist.com
 /smallfr*/*$subdocument,domain=babeimpact.com|decorativemodels.com|sexykittenporn.com
+/splash.php?cat=&idzone=*
 /static/exnb/froloa.js$domain=hd-easyporn.com|hdpornos.net
 /static/js/adblocker.js$important,script,domain=hindimearticles.net|gameophobias.com|solution-hub.com
 /sum.js$domain=freeporn8.com|sortporn.com|lesbian8.com|amateur8.com|bigtitslust.com|maturetubehere.com|shemalesin.com|3movs.com
@@ -21355,6 +21362,7 @@ zle.com$script
 ##.commentads
 ##.common-topad
 ##.common_ad
+##.common_banner[style="width: 100%;"] > a[target="_blank"][style="width: 375px; height: 75px; max-width: 100%; max-height: 75px; display: block; margin: 0px auto; overflow: hidden;"]
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
 ##.con_section > .da
 ##.conch-ads-box
@@ -22183,6 +22191,7 @@ zle.com$script
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="][target="_blank"]
+##a[href*="/?agent="][target="_blank"]
 ##a[href*="/?agentId="][target="_blank"]
 ##a[href*="/?intr="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
@@ -22781,6 +22790,7 @@ zle.com$script
 ##img[src*=".wzxty168.com"][src$=".gif"][width="100%"]
 ##img[src*="//acc.snmovie.com"]
 ##img[src*="//ad.xmmnsl.com"]
+##img[src*="//api.promptsgod.com/"][style*="width: 100%;"]
 ##img[src*="//fhh.emossvu.cn"]
 ##img[src*="//hfh.bgfe26.cn"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]

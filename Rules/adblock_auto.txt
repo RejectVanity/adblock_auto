@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Z6E8c6U3luUcPw2KkGkiGw
+! Checksum: aLB8DaCdI8+EdQEEi++hsQ
 ! Title: 混合规则(自动更新)
-! Version: 20231021160823
+! Version: 20231022000732
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-21 16:08:23
-! Total Count: 121868
+! Last modified: 2023-10-22 00:07:32
+! Total Count: 121879
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4187,6 +4187,7 @@
 ||ad-*.appacc.dbankedge.cn^
 ||ad-*.cos.accelerate.myqcloud.com^$third-party
 ||ad-1258444056.cos.accelerate.myqcloud.com^
+||ad-adapex.io^
 ||ad-admin.vnay.vn^
 ||ad-api-log.colopl.jp^
 ||ad-api.cnblogs.com^
@@ -28922,6 +28923,7 @@
 ||hcenc.com^
 ||hcgbhq.com^
 ||hchik.com^
+||hchuviq.cn^
 ||hciea.xyz^
 ||hcmyfni.cn^
 ||hcqsuqq.cn^
@@ -34990,6 +34992,7 @@
 ||kldtmki.cn^
 ||klenhosnc.com^
 ||klert.com^
+||klfbnklddfbkn.com^
 ||klgzjaw.cn^
 ||klick.vn^
 ||klick4u.de^
@@ -38276,6 +38279,7 @@
 ||m.zwsteel.cn^
 ||m.zwsteel.cn^$third-party
 ||m03dv.xyz^
+||m05ib.xyz^
 ||m0hcppadsnq8.com^
 ||m0mentum.net^
 ||m0zdeb.ru^
@@ -79500,6 +79504,7 @@ javlibrary.com##.bannerqq
 javlibrary.com##.bottombanner2
 javme.net##.top-ads-content,.bottom-ads-content
 javme.net##div[class^="b"][class*="9"],div[class^="i"][class*="9"]
+javmenu.top,javmenu03.top,javmenu02.top##.common_banner
 javmovieporn.com,xxxmax.net#$#.video-list-content.with-happy .thumb-block { clear: unset !important; }
 javporn.tv##.download-favorite-container > a[target="_blank"]
 javporn.tv#?#.content-area > div.download-favorite-container > a[target="_blank"]:upward(1)
@@ -81538,6 +81543,7 @@ nanoreview.net###float-sb-right
 nanoreview.net###the-app > .mb
 nanoreview.net##.nad_only_desktop
 nanrenwo.net##div[id^="content"]
+naozhong.net.cn###pnl-ne0n
 narcity.com###leaderboard-wrapper
 narkive.com##a[href^="https://rfnm.io/?"]
 narutofan.com###right-spon
@@ -95125,6 +95131,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
 /js/adlmb.js$third-party,script
+/js/ads.js?v=
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
@@ -96683,6 +96690,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /specialctrl.js
 /specialfeatureads/*
 /spiderad/*
+/splash.php?cat=&idzone=*
 /splash_ads_
 /sponlink.
 /spons/banners/*
@@ -112052,6 +112060,7 @@ zle.com$script
 ##.commercialAd
 ##.common-topad
 ##.common_ad
+##.common_banner[style="width: 100%;"] > a[target="_blank"][style="width: 375px; height: 75px; max-width: 100%; max-height: 75px; display: block; margin: 0px auto; overflow: hidden;"]
 ##.companion-ad
 ##.companion-ads
 ##.companionAd
@@ -118125,6 +118134,7 @@ zle.com$script
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="][target="_blank"]
+##a[href*="/?agent="][target="_blank"]
 ##a[href*="/?agentId="][target="_blank"]
 ##a[href*="/?intr="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
@@ -119181,6 +119191,7 @@ zle.com$script
 ##img[src*=".wzxty168.com"][src$=".gif"][width="100%"]
 ##img[src*="//acc.snmovie.com"]
 ##img[src*="//ad.xmmnsl.com"]
+##img[src*="//api.promptsgod.com/"][style*="width: 100%;"]
 ##img[src*="//fhh.emossvu.cn"]
 ##img[src*="//hfh.bgfe26.cn"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
