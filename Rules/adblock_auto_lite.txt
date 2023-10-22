@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: r9dsCfDxt+8xsVrIOthhMg
+! Checksum: AV0P0d0mCsubd/AWAgXF1Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231022083312
+! Version: 20231022160902
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-22 08:33:12
-! Total Count: 23970
+! Last modified: 2023-10-22 16:09:02
+! Total Count: 23989
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -782,6 +782,7 @@
 ||50m.gkcyc.com^
 ||51.com/up/bdfmt/
 ||51.la^$third-party
+||510cg.com/1688/m_*.php$~third-party
 ||510mall.com//image/
 ||5118.com/g/
 ||512ms.com/webggwhtml/
@@ -4555,6 +4556,8 @@
 ||car.qcmrjx.com^
 ||carelesshat.com^$third-party
 ||carexpert.com.tw/wp-content/uploads/*800x90.
+||cariribef.uno^$document
+||cariribef.uno^$~third-party
 ||carnoc.com/noticejs/
 ||cartoon-sex.tv/z/cartoontube-300x100.gif
 ||cartoon.porn/wp-content/*/ads.js?
@@ -5525,6 +5528,8 @@
 ||djahkee.xyz^
 ||djicdn.com/uploads/ad_image_file/
 ||djiuss.cn^
+||djmss.cn^$document
+||djmss.cn^$~third-party
 ||djs.baomihua.com^
 ||dkcwnsu.xyz^
 ||dklkxb.xyz^
@@ -6160,6 +6165,8 @@
 ||fainaidea.com/wp-content/uploads/*/*?ver=$script,stylesheet,domain=fainaidea.com
 ||fairtop.in/template/js/fdetect.js
 ||fakeporn.tv/js/z123.js
+||fakirjaipuri.space^$document
+||fakirjaipuri.space^$~third-party
 ||falal.cn^
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
 ||falcon.pixnet.net/ad/
@@ -6826,6 +6833,7 @@
 ||gsdpw.com/file/script/A
 ||gsjdzx.com^$third-party
 ||gskbzle.cn^
+||gslejoki.xyz^
 ||gstatic.com/shopping?q=tbn$image,domain=rocketnews24.com|youpouch.com|soranews24.com
 ||gt.duowan.com^
 ||gt.yy.com^
@@ -9580,6 +9588,7 @@
 ||mmvjuti.cn^
 ||mnbfs.xyz^
 ||mnhknds.com^
+||mnhncf.cn^
 ||mnnmnn.com^
 ||mnpbxjq.cn^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
@@ -9919,6 +9928,7 @@
 ||ndqcz0e.xyz^
 ||ndqzqmb.xyz^
 ||ndruhz.xyz^
+||ndvfwlv.cn^
 ||neaqi.top^
 ||nearbyad.com^
 ||nedes.xyz^
@@ -10080,6 +10090,7 @@
 ||nrj.fr/nrj?Page=/rg.fake&
 ||nrsfh.com/neirong/
 ||nryqr.cn^
+||nrzzaep.xyz^
 ||nsclick.baidu.com^
 ||nscxbr.com^$third-party
 ||nsnignsc.xyz^
@@ -14150,6 +14161,7 @@
 ||ycgy8888.com^
 ||ychkujj.cn^
 ||yclxrj.top^$third-party
+||ycmgeb.icu^
 ||ydgal.com/axfile/
 ||ydgh0zc.com^
 ||ydqcjy.cn^
@@ -14808,6 +14820,7 @@
 ||zzyl.mobi^$document
 ||zzyl.mobi^$~third-party
 ||zzyy17.top^
+||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
 ||zzz4.com/JS_AD/
@@ -15665,6 +15678,7 @@ hentaicity.com##[class^="adn-posty_"]
 hentaicity.com,porntv.com##.detail-box > div.detail-con ~ div.detail-side-td
 hentaicity.com,porntv.com##.thumb-list > div[class^="outer-item _"]
 hentaidude.com,verpeliculasporno.gratis###videoOverAd
+hentaipaw.com##.header-ad,.middle-ad,[id^="ts_ad_native"]
 hentaiporn.one##+js(no-setTimeout-if, realsrv, 300)
 hentaiporn.one,povaddict.com,myxclip.com##.adv-square
 hentaiporn.tube,naughtyhentai.com##.friends
@@ -18276,6 +18290,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /^https?:\/\/www[1-3]\.doubleclick\.net\/$/$xmlhttprequest,redirect-rule=nooptext
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$third-party,important,script
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
+/_next/static/chunks/$script,domain=hentaipaw.com
+/_next/static/chunks/$script,~third-party
 /_xa/ads?
 /_xa/ads_
 /aas/r45d/vki/*$third-party
@@ -18572,6 +18588,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /ledad.
 /levelmaxblock.js
 /lv/esnk/*$script,third-party
+/lv/esnk/*/code.js$script,third-party
 /m.html?rmid=*&yd=$document
 /m.html?rmid=*&yd=$~third-party
 /matomo.js$third-party,script
@@ -22691,6 +22708,8 @@ zle.com$script
 ##iframe[src^="/ad"][src$=".html"]
 ##iframe[src^="/ai/s/s/su.php"]
 ##iframe[src^="https://creative."][src*="/widgets/"]
+##iframe[style$="margin: auto 0px !important; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px 0px 0px auto !important; overflow: hidden; z-index: 2147483647;"]
+##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 21474"]
 ##iframe[width="0"][height="0"]
 ##iframe[width="100%"][height="120"]
 ##iframe[width="100%"][height="90"]
