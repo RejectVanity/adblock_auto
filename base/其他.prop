@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nqk9XmJjVb1zKbID/Nn1yw
+! Checksum: BI+wkAzQ7yZ287BuVpqyMw
 ! Title: 自用去广告Adblock规则
-! Version: 20231022195819
-! Last modified: 2023-10-22 19:58:19
-! Total Count: 2909
+! Version: 20231023020543
+! Last modified: 2023-10-23 02:05:43
+! Total Count: 2913
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -158,6 +158,7 @@
 ##.naicon.btn.btn-raised
 ##.nonepc.mad
 ##.noopenlink.ads
+##.nr_page > [style="width:100%;height:auto;min-height:150px;position:relative;display:block;"][id]
 ##.phone-ads
 ##.play_list_adbox
 ##.player + .sponsor
@@ -392,6 +393,7 @@
 ##a[href*="//y3e33.top"][target="_blank"]
 ##a[href*="/?agent="][target="_blank"]
 ##a[href*="/?agentId="][target="_blank"]
+##a[href*="/?utm_source="][target="_blank"]
 ##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
 ##a[href*="/youyicl/youku.html"][target="_blank"]
@@ -416,6 +418,8 @@
 ##a[href="http://595tz166.cc"]
 ##a[href="http://www.zmtt.net/download"]
 ##a[href="https://kds03.net"][target="_blank"]
+##a[href="https://ttzzz11.com"]
+##a[href="https://ttzzz22.com"]
 ##a[href="javascript:void(0)"][rel="nofollow"][target="_new"] > img[src]
 ##a[href="墮落姬甲"][target="_blank"]
 ##a[href="天下布魔"][target="_blank"]
