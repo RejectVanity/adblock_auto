@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: o6d7omnIdjsZOKHvN1pdPA
+! Checksum: oMl84BFZoFSH/Z+qnN2f+A
 ! Title: 混合规则(自动更新)
-! Version: 20231022160847
+! Version: 20231022200046
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-22 16:08:47
-! Total Count: 121953
+! Last modified: 2023-10-22 20:00:46
+! Total Count: 121958
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17898,6 +17898,7 @@
 ||crazyclickstats.com^
 ||crazyegg.com^
 ||crazyhell.com^
+||crazyit8.com^
 ||crazylead.com^
 ||crbbgate.com^
 ||crdefault.link^
@@ -69105,6 +69106,7 @@
 ||yuanma.icu^
 ||yuanmengbi.com^
 ||yuanpinghengkangfuyouxiangongsi.top^$domain=9xav.cc
+||yuanxiab.cn^
 ||yuanxiang19.fun^
 ||yuanxue365.com/js/a22.
 ||yue78.online^
@@ -73908,6 +73910,8 @@ bucksco.today##.placeholder-block
 budgetbytes.com,c4dm.live,celebritymovieblog.com,ets2.lt,hexieshe.cn,interracial-girls.com,miloserdov.org,nicekkk.com,tlanyan.me###custom_html-2
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
 buffstream.fun##[href^="https://s.click.aliexpress.com/"]
+buffstreams.sx##.position-absolute
+buffstreams.sx##button[data-openuri*=".allsportsflix."]
 builtbybit.com##[data-advertisement-id]
 builtbybit.com##center[style="margin-top: 20px"]
 bukaivip.com##img[onclick]
@@ -86731,6 +86735,8 @@ vpsmm.com##div[class*="xx"]
 vpsmm.com#?#.sidexbar div:-abp-has(>a>img)
 vsadu.ru##.adb-block
 vsaduidoma.com##.ABD_display_wrapper
+vsbattles.com##.vsb_ad
+vsbattles.com##.vsb_sticky
 vscode.one###flamelab-convo-widget
 vscode.one##._flamelab-ad
 vsping.com##.cell > span > a[href]:not([href*=".vsping.com"])
@@ -90509,7 +90515,6 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /_global/ads/*
 /_js/prbd_6.19.0.js
 /_next/static/chunks/$script,domain=hentaipaw.com
-/_next/static/chunks/$script,~third-party
 /_svc/ad/*
 /_xa/ads?
 /_xa/ads?$popup

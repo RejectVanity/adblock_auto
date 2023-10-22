@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AV0P0d0mCsubd/AWAgXF1Q
+! Checksum: LbCdD80jHCjvCkjU2pHgDA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231022160902
+! Version: 20231022200057
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-22 16:09:02
+! Last modified: 2023-10-22 20:00:57
 ! Total Count: 23989
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -5082,6 +5082,7 @@
 ||cr173.com/skinb/
 ||cratecamera.com^$third-party
 ||crayon.meishichina.com^
+||crazyit8.com^
 ||creaders.net*/ad_func.js
 ||creative.141live.com/widgets/Spot/
 ||creative.live.javhdporn.net/widgets/Spot/lib.js
@@ -18291,7 +18292,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$third-party,important,script
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
 /_next/static/chunks/$script,domain=hentaipaw.com
-/_next/static/chunks/$script,~third-party
 /_xa/ads?
 /_xa/ads_
 /aas/r45d/vki/*$third-party
