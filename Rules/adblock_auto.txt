@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sGipyCoGQQGprTuoU1z2jg
+! Checksum: +3Vh0hwrc+uRdIm2a2D0nQ
 ! Title: 混合规则(自动更新)
-! Version: 20231023161012
+! Version: 20231023224120
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-23 16:10:12
-! Total Count: 122011
+! Last modified: 2023-10-23 22:41:20
+! Total Count: 122042
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2968,6 +2968,7 @@
 ||88lajs1.com^
 ||88lajs2.com^
 ||88lajs3.com^
+||88lajs4.com^
 ||88liu.com/data/attachment/portal/
 ||88p2p.com^
 ||88p2p.com^$popup
@@ -4805,6 +4806,7 @@
 ||adforce.team^
 ||adforgames.com^
 ||adforgeinc.com^
+||adfork.co.kr^
 ||adform.com^
 ||adform.net^
 ||adfox.ru^
@@ -30472,6 +30474,7 @@
 ||huoche.net/public/huoche/ad/
 ||huodiyun.cn^
 ||huodong.press^
+||huohuo.huamuwo.com^
 ||huohuo1.huamuwo.com^$domain=knowbaike.com
 ||huoju.asia^
 ||huojua.com^
@@ -30870,6 +30873,7 @@
 ||icfy.xyz^
 ||ichannel.isnssdk.com^
 ||ichauphy.com^
+||ichc1.xinglinpukang.com^
 ||ichimaip.net^
 ||ichlnk.com^
 ||ichnaea-web.netflix.com^
@@ -61875,6 +61879,14 @@
 ||ttzmedia.com^
 ||ttzw.tv/tz/h.js
 ||ttzw.tv/tz/true.js
+||ttzzz11.com^$document
+||ttzzz11.com^$~third-party
+||ttzzz22.com^$document
+||ttzzz22.com^$~third-party
+||ttzzz33.com^$document
+||ttzzz33.com^$~third-party
+||ttzzz44.com^$document
+||ttzzz44.com^$~third-party
 ||tu.7j813.cn^
 ||tu.7j813.cn^$third-party
 ||tu.zx110.org^
@@ -72071,6 +72083,8 @@ ac.qq.com##.in-hd-mod
 academictorrents.com##[src^="/pic/sponsors/"]
 acc39.com##.player_ggw
 accessnow.org##.alert-banner
+accesswdun.com##.ad-slider-block
+accesswdun.com##a[href^="https://tinyurl.com"] > img
 accuradio.com###slot2Wrapper
 accuratefiles.com##.box-result
 acdn.live,worldtimebuddy.com###toprek
@@ -73374,6 +73388,7 @@ beermoneyforum.com##.p-body-sidebar
 beermoneyforum.com##.samTextUnit
 beforeitsnews.com##.gquuuu5a
 beforeitsnews.com##.notTwitterCardsGrid
+beforeitsnews.com##.rotating_text_link
 beforeitsnews.com##.x1x2prx2lbnm
 beforeitsnews.com##[id^="banners_"]
 beforeitsnews.com,bigleaguepolitics.com,in5d.com##a[href*=".hop.clickbank.net"]
@@ -74579,6 +74594,9 @@ cmo.com.au,interiordesign.net##.boombox
 cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
 cmswire.com##.styles_ad-block__2OJmV
 cmswire.com##.styles_article__top-ad-wrapper__35zg2
+cmswire.com##[class^="styles_ad-block"]
+cmswire.com##[class^="styles_article__text-ad"]
+cmswire.com##[class^="styles_article__top-ad-wrapper"]
 cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
@@ -76285,7 +76303,9 @@ engadget.com###outstreamPlayer-inArticle
 engadget.com##.Mih\(90px\)
 engadget.com##.da-container
 engadget.com##.inline-emphasis
+engadget.com##.related-content-lazyload
 engadget.com#?#.Py\(40px\):-abp-has(> article > .D\(f\) > .Pos\(r\)[data-ylk*=":AD;"])
+engadget.com#?#div:-abp-has(> div > div > #RR-MULTI_BTF)
 engadget.com,sports.yahoo.com##.post-article-ad
 engine.presearch.org##.my-4
 english-hindi.net##div[style="height:250px !important; background:#ccc;"]
@@ -77332,6 +77352,9 @@ gamicsoft.com##A[onclick*="'Advertisement"] + .absolute
 gaming.co.ua,pingvin.pro##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
 gaming.uefa.com##.si-ucl--head-bandSprLogo
 gamingbible.co.uk##.css-1i2p7ui
+gamingbible.com##.css-1z9hhh
+gamingbible.com,ladbible.com,unilad.co.uk,unilad.com##div[class*="margin-Advert"]
+gamingbible.com,unilad.com##div[data-cypress^="sticky-header"]
 gamingdeputy.com##.bottom-sticky-offset
 gamingdeputy.com##.header-banner-desktop
 gamingdeputy.com##div[class^="ad-wrapper-"]
@@ -80039,6 +80062,7 @@ kikinote.net##.pc_ad
 kimcartoon.li##div[style="font-size: 0; position: relative; text-align: center; margin: 10px auto; width: 300px; height: 250px; overflow: hidden;"]
 kingkong.com.tw##.public-activity
 kingkong.com.tw##.room-banner-wrap
+kingmodapk.net##[style="height:300px"]
 kinoafisha.ua##.turn-off-add-block-text
 kinoprofi.net##.warning-adblock
 kiplinger.com##.dianomi_gallery_wrapper
@@ -80206,7 +80230,6 @@ l-a-w.ru,mhelp.kz##.swal2-container
 ladbible.com##.css-1dgm0zi-Advert
 ladbible.com##.css-1v521fz
 ladbible.com##.css-salf17-margin-Advert
-ladbible.com,unilad.co.uk##div[class*="margin-Advert"]
 lagrosseradio.com###warn
 lahoo.ca###diyrighttop
 lahoo.ca##.a_af
@@ -80408,6 +80431,7 @@ lihkg.com##iframe[src^="https://pb.lihkg.com/"][style^="height:"]
 lihkg.com##iframe[src^="https://pb.lihkg.com/primis?"]
 lihkg.com#?##rightPanel > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[data-post-id] + div:not([data-post-id])
 lihkg.com#?##rightPanel div[id^="page-"] ~ div[class] > div > div[style^="display:"] ins.adsbygoogle:upward(div[style^="display:"])
+lihkg.com#?#div[class^="_"]:-abp-has(>div>div>.adsbygoogle)
 lihkg.com#?#div[data-body-portal] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class]:has(> div[class^="_"] ins.adsbygoogle)
 lihkg.com#?#div[id][class][data-post-id] + div[class]:not([id]):not([data-post-id]):has( > div[class]:only-child > div > div[id^="gam-"]:only-child)
 liisex.com###apDiv22
@@ -80427,6 +80451,7 @@ lineageos18.com###contentLocker
 linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-brand"]
 lingojam.com###adsense-area-label
 lingojam.com##[href^="https://animefilter.com"]
+linguisticsociety.org##.component-3
 link-base.org##.col-lg-12
 linkedin.com##article[data-is-sponsored]
 linkedin.com##li[data-is-sponsored="true"]
@@ -82313,6 +82338,8 @@ open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 opendocument.xml.org,trucknetuk.com###sidebarright
 openloading.com###fakeplayer
 openspeedtest.com###right-column
+openspeedtest.com###rightArea
+openspeedtest.com###top-lb
 opensubtitles.org###watch_online
 opensubtitles.org##.a_1.a.p
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
@@ -85452,6 +85479,7 @@ techrepublic.com,zdnet.com##.content-MPU-top
 techrepublic.com,zdnet.com##.content-leader-bottom
 techrepublic.com,zdnet.com##.content-leader-top
 techrounder.com###footerFixBanner
+techspot.com###tsadvideo
 techspot.com##.billboard_placeholder_home
 techspot.com##.billboard_placeholder_min
 techspot.com##.blu
@@ -85542,6 +85570,7 @@ the-star.co.ke###teasers
 the-village.com.ua##.infoA
 the18.com##.push-downv
 theadvocate.com##.asset-breakout-ads
+theanalyst.com##.ta-ad
 theartnewspaper.com##.justify-center.flex.w-full
 theatlantic.com##div[class*="Leaderboard_placeholder_"]
 theautopian.com##[data-widget_type="html.default"]
@@ -85694,6 +85723,7 @@ thelocal.at,thelocal.ch,thelocal.de,thelocal.es,thelocal.fr,thelocal.it,thelocal
 thelocal.com,thelocal.dk,thelocal.se##.article-sponsored
 themeforest.net###market-banner
 themeforest.net##.shared-global_footer-cross_sell_component__root
+themessenger.com##.htlad-leaderboard_top
 themighty.com##.tm-ads
 themonthly.com.au##.edm_wrapper
 themoscowtimes.com##.mb-4.py-3
@@ -86464,6 +86494,7 @@ unikoshardware.com##.elementor-popup-modal
 unikoshardware.com##.elementor-widget-sidebar a[href^="https://bit.ly/"]
 unikoshardware.com##.theiaStickySidebar a[href^="https://bit.ly/"]
 unikoshardware.com##.widget_jnews_popular ~ .uniko-widget
+unilad.com##.css-zmf6il
 unionpedia.org##div[style^="margin-top: 15px; min-width: 300px"]
 unitconversion.org###ileft
 unitconversion.org###iright
