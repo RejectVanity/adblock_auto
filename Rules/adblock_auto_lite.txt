@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1p5UKqgoKAr2stHDQ7M2HQ
+! Checksum: xkXUqKqd9uuPOqyQqUaQyw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231024185008
+! Version: 20231025000933
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-24 18:50:08
-! Total Count: 24047
+! Last modified: 2023-10-25 00:09:33
+! Total Count: 24051
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4914,6 +4914,8 @@
 ||clkfeed.com^$popup
 ||cln.willyporn.com^
 ||cloud.rovio.com/ads/
+||cloud.tencent.com/developer/api/common/getAds
+||cloud.tencent.com/developer/api/common/getOneAds
 ||cloudads-a.akamaihd.net^
 ||clouddn.com/960x60.gif
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
@@ -6720,6 +6722,7 @@
 ||gmx28.top^
 ||gmx29.top^
 ||gmx30.top^
+||gmx42.top^
 ||gmx45.top^
 ||gmx46.top^
 ||gmx47.top^
@@ -8786,6 +8789,7 @@
 ||l23jhjfasd.xyz^
 ||l3op.info^
 ||l3r6p0d5.com^
+||l404k.com^
 ||l4efwdtg.icu^
 ||l74co.xyz^
 ||labadena.com^$third-party
