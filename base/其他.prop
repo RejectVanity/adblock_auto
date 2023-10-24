@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BI+wkAzQ7yZ287BuVpqyMw
+! Checksum: TvhGPzl1cxeFowN5umXDEg
 ! Title: 自用去广告Adblock规则
-! Version: 20231023020543
-! Last modified: 2023-10-23 02:05:43
-! Total Count: 2913
+! Version: 20231024184730
+! Last modified: 2023-10-24 18:47:30
+! Total Count: 2931
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -411,9 +411,17 @@
 ##a[href*="www.pssy.xyz"]
 ##a[href*="xn--dpq21dn8asxam8v16q0j5c.com"]
 ##a[href*="xyz/?token="][href*="&screen_"][target="_blank"]
+##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
+##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/download/apps"] > img[style^="max-width: 100%"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
+##a[href="/forum/"] > img[src*=".bcebos.com"]
+##a[href="/gghtml/tyc.html"]
+##a[href="/goto.php?url=hth"]
+##a[href="/ht.html"]
+##a[href="/lht.html"]
+##a[href="/static/xzgg/index.html"]
 ##a[href="http://52199.vip"]
 ##a[href="http://595tz166.cc"]
 ##a[href="http://www.zmtt.net/download"]
@@ -1962,7 +1970,16 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="ga
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + style + div + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="_canvas"],div[id^="ecl-pc-game-"]
 iyar.com.cn,m4411.com##[class][style*="131px"]
+jable.tv###jimds-slider
+jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
+jable.tv##.badge
+jable.tv##.text-center > a[target="_blank"] > img
+jable.tv##.uu-ads
 jable.tv##[href*="//go.xlviirdr.com"],[href*="//go.xlvirdr.com"],[href*="//go.xlviiirdr.com"],[href*="//go.xlivrdr.com"],[href*="//go.xlirdr.com"]
+jable.tv##a[href*="?banner="]
+jable.tv##a[href="http://uus52.com/"]
+jable.tv##div[class^="root-"]
+jable.tv#?#div.col-6.col-sm-4.col-lg-12:has(> div.video-img-box > div.img-box > a[href*="?banner="])
 javbabe.net###a-player
 javbabe.net,chinababe.net##.clipxx
 javbangers.com##.topnav > li > a[onclick][href]
@@ -2399,6 +2416,7 @@ zle.com$script
 ||51.la^$third-party
 ||510cg.com/1688/m_*.php$~third-party
 ||5hte21mz.com^
+||5wxw.com^$third-party
 ||a.adtng.com^
 ||a.shukriya90.com^
 ||aaenv48847h.com^$script
