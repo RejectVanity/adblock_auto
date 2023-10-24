@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: GTlMAYae2vVdoFq8o92MNw
+! Checksum: 1p5UKqgoKAr2stHDQ7M2HQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231024161019
+! Version: 20231024185008
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-24 16:10:19
-! Total Count: 24034
+! Last modified: 2023-10-24 18:50:08
+! Total Count: 24047
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -952,6 +952,7 @@
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
 ||5vuk.xyz^
+||5wxw.com^$third-party
 ||5xdmw.com/tb.jpg
 ||5xur.top^
 ||5y9nfpes.52pk.com^
@@ -4115,6 +4116,7 @@
 ||bepolite.eu^
 ||beqokg.xyz^
 ||berjzj.xyz^
+||berrynicolo.com^
 ||berylnbb.com^
 ||besc.baidustatic.com^
 ||best18porn.com/best18.js
@@ -15851,7 +15853,16 @@ ivi.ru##.ivi-footer ~ div[class] > style + div[class]
 ixbt.com##.fc-ab-root
 iyar.com.cn,m4411.com##[class][style*="131px"]
 izmailov.tv##.popupBlock
+jable.tv###jimds-slider
+jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
+jable.tv##.badge
+jable.tv##.text-center > a[target="_blank"] > img
+jable.tv##.uu-ads
 jable.tv##[href*="//go.xlviirdr.com"],[href*="//go.xlvirdr.com"],[href*="//go.xlviiirdr.com"],[href*="//go.xlivrdr.com"],[href*="//go.xlirdr.com"]
+jable.tv##a[href*="?banner="]
+jable.tv##a[href="http://uus52.com/"]
+jable.tv##div[class^="root-"]
+jable.tv#?#div.col-6.col-sm-4.col-lg-12:has(> div.video-img-box > div.img-box > a[href*="?banner="])
 jagaporn.com##.nativad
 jaitoutcompris.com###antiBlock
 japanese-sex-porn.com##.bierlien > .lieviev:first-child + .lieviev > .bovie > .goagil > .title
@@ -22353,6 +22364,7 @@ zle.com$script
 ##a[href*="www.pssy.xyz"]
 ##a[href*="xn--dpq21dn8asxam8v16q0j5c.com"]
 ##a[href*="xyz/?token="][href*="&screen_"][target="_blank"]
+##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/download/apps"] > img[style^="max-width: 100%"]
@@ -22362,6 +22374,7 @@ zle.com$script
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
 ##a[href="/lht.html"]
+##a[href="/static/xzgg/index.html"]
 ##a[href="/vod/detail/id/118265.html"]
 ##a[href="http://52199.vip"]
 ##a[href="http://595tz166.cc"]
