@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: vht54uUkpz088Hy9ezI+cg
+! Checksum: sQJjYwI4VTAnYDRB0p0T9Q
 ! Title: 混合规则(自动更新)
-! Version: 20231025083031
+! Version: 20231025161000
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-25 08:30:31
-! Total Count: 122130
+! Last modified: 2023-10-25 16:10:00
+! Total Count: 122139
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19103,6 +19103,7 @@
 ||datingvr.ru^
 ||dato.porn/*.php?$popup
 ||datoporn.com^$popup
+||dattoswitches.com^
 ||datvantage.com^
 ||daubierbatties.uno^
 ||daughterbump.com^
@@ -21308,6 +21309,7 @@
 ||dunlopfermi.com^
 ||dunnedemicant.com^
 ||dunowmymmexmd.com^
+||dunrnd.com^
 ||dunta.ru^
 ||duobyj.icu^
 ||duodada.com/111/
@@ -27361,6 +27363,7 @@
 ||gnrnws.cn^
 ||gnrty.kmjkwe.xyz^
 ||gnsrlki.cn^
+||gnuoipb.cn^
 ||go-mpulse.net^
 ||go-rillatrack.com^
 ||go.*.com/apu.php$redirect=noop.txt,domain=movies.is,image,media,subdocument,stylesheet,script,xmlhttprequest,other
@@ -34169,6 +34172,7 @@
 ||jujwhjmtidgp.com^
 ||julia-liz.com^
 ||julidanroebuck.com^
+||juljrd.xyz^
 ||julkkoazfkh.com^
 ||jullyambery.net^
 ||julolecalve.website^
@@ -46184,6 +46188,7 @@
 ||pgssl.com^
 ||pgt1.voyage-prive.es^
 ||pgusgyzdfpj.ru^
+||phaglalt.com^
 ||phague.com^
 ||phaignux.xyz^
 ||phaikroo.net^
@@ -55304,6 +55309,7 @@
 ||smisto.com^
 ||smists.com^
 ||smithamenamel.com^
+||smithumbewreck.com^
 ||smitry.com^
 ||smjulynews.com^
 ||smjxarmaflpmxj.com^
@@ -56369,6 +56375,7 @@
 ||sreamyourvids.online^
 ||sreamyourvids.space^
 ||srefrukaxxa.com^
+||sregfle.cn^
 ||srgev.com^
 ||srgwxvm.cn^
 ||sridujhkagpe.com^
@@ -57358,6 +57365,7 @@
 ||stotchou.com^
 ||stotoowu.net^
 ||stougnee.com^
+||stouksom.xyz^
 ||stoushgowds.com^
 ||stovearmpitagreeable.com^
 ||stovecharacterize.com^
@@ -78483,7 +78491,7 @@ histock.tw##.bottom-right
 history.com##.m-balloon-header--ad
 history.com##.m-header-ad
 history.com##.m-in-content-ad
-history.com##.m-in-content-ad-row
+history.com,thestreet.com##.m-in-content-ad-row
 historycollection.com##div[class^="cis_add_block"]
 historydaily.org,israelnationalnews.com,m.toutiao.com,news12.com,pwinsider.com,spaceref.com,usahealthcareguide.com##.banner-top
 hit180.com##.widget_ui_orbui:nth-child(-n+2)
@@ -85887,6 +85895,8 @@ thestreamable.com###promo-signup-bottom-sheet
 thestreamable.com##.d-md-flex
 thestreet.com##.is-video-footer-enabled
 thestreet.com##.m-balloon-header
+thestreet.com##.m-video-unit
+thestreet.com,videogames.si.com##.is-exco-player
 thesun.co.uk##.dpa-slot
 thetealmango.com##div[style^="margin: 8px auto; text-align:"]
 thetechpoint.org##.navigation-banner
@@ -86811,7 +86821,6 @@ videocelebs.net##.fp-brand
 videocelebs.net##.recl
 videofun.me###flowplayer > div[class][style]:first-child
 videogamemods.com##.topbanners
-videogames.si.com##.is-exco-player
 videogames.si.com##.m-video
 videogameschronicle.com##.vgc-boxout
 videogameschronicle.com##.vgc-productsblock
