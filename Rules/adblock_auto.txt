@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: wH19QfbsbgTkDoG7s1ZQzw
+! Checksum: y6jQ50IVDhG0aiZpGhmr5w
 ! Title: 混合规则(自动更新)
-! Version: 20231026160927
+! Version: 20231027000829
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-26 16:09:27
-! Total Count: 122175
+! Last modified: 2023-10-27 00:08:29
+! Total Count: 122194
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3220,6 +3220,7 @@
 ||9999961.com/JS/bofang.js
 ||9999961.com/JS/daohang.js
 ||9999961.com/JS/lianmeng.js
+||999aa666bb.com^
 ||999d.com^$third-party
 ||999meiju.com/js/tj
 ||999pro.top^
@@ -6280,6 +6281,7 @@
 ||adx.io^
 ||adx.kul.vn^
 ||adx.phunuadong.vn^
+||adx.promo^
 ||adx.vn^
 ||adx.xemvtv.net^
 ||adx.xtv.vn^
@@ -14296,6 +14298,7 @@
 ||cakycalais.com^
 ||calameo-beacon.global.ssl.fastly.net^
 ||calamityfortuneaudio.com^
+||calcpol.com^
 ||calculatingcircle.com^
 ||calculatingtoothbrush.com^
 ||calculatorcamera.com^
@@ -21907,6 +21910,7 @@
 ||ec-track.com^
 ||ec.adadapted.com^
 ||ec.walkme.com^
+||ec1e2c92b3.com^
 ||ec2-44-233-143-239.us-west-2.compute.amazonaws.com^
 ||ec2867edc4.com^
 ||ec5e727d37.com^
@@ -27333,6 +27337,7 @@
 ||gmx29.top^
 ||gmx30.top^
 ||gmx42.top^
+||gmx43.top^
 ||gmx44.top^
 ||gmx45.top^
 ||gmx46.top^
@@ -33736,6 +33741,7 @@
 ||jnlc.com/www/fund/newsmarket
 ||jnmaeun.xyz^
 ||jnmami.cn^
+||jnnbzmyqaekzj.top^
 ||jnp0kmm.icu^
 ||jnqiangzhi.xyz^
 ||jnrtavp2x66u.com^
@@ -43482,6 +43488,7 @@
 ||oc.umeng.com^
 ||oc2tdxocb3ae0r.com^
 ||oc734yaw3w.rest^
+||ocalqoiw.com^
 ||occame.com^
 ||occarv.com^
 ||occasionalstatusbella.com^
@@ -51204,6 +51211,7 @@
 ||rereddit.com^
 ||rergeema.com^
 ||reroplittrewheck.pro^
+||rerpartmentm.info^
 ||reryn2ce.com^
 ||res.adx.opera.com^
 ||res.cngoldres.com/web/index/img/*_ad_
@@ -58880,6 +58888,7 @@
 ||tdbc.redgalaxy.com^
 ||tdbwgrm.cn^
 ||tddemchenko.info^
+||tdditqosnpeo.com^
 ||tdedqqv.cn^
 ||tdeogusnou.xyz^
 ||tdep.hema.nl^
@@ -61490,6 +61499,7 @@
 ||tramshirethf.xyz^
 ||trandgid.com^$third-party
 ||trandlife.info^
+||tranquilcanyon.com^
 ||tranquilizerproposedattribute.com^
 ||tranquilside.com^
 ||transactionale.com^
@@ -62260,6 +62270,7 @@
 ||twrailpolice.appspot.com/campaign.xml
 ||twrailpolice.appspot.com/full_ad_priority.txt
 ||twrank.com^$third-party
+||twrencesprin.info^
 ||twrkcbs.cn^
 ||twstat.lifenewsjr.com^
 ||twtad.com^
@@ -65070,6 +65081,7 @@
 ||vuntbnc.cn^$~third-party
 ||vupload.duowan.com^
 ||vupulse.com^
+||vuruzy.xyz^
 ||vuryua.ru^
 ||vuuwd.com^
 ||vuvacu.xyz^
@@ -80923,6 +80935,7 @@ mail.qq.com##.tipbook-top
 mail.rambler.ru##.notification-warning
 mail.sina.com.cn##.rightbottom
 mail.yahoo.com###slot_LREC
+mail.yahoo.com##[data-test-id="gam-iframe"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 mailshub.in##[href^="https://www.amazon.in/"]
@@ -86448,11 +86461,11 @@ tvzoneuk.com##[data-hook="HtmlComponent"]
 tw.beanfun.com###flybeanfun
 tw.bid.yahoo.com###livePromote
 tw.mall.yahoo.com##.hpad-wrapper
-tw.news.yahoo.com###sda-LDRB-iframe
 tw.news.yahoo.com###sda-LREC2-iframe
 tw.news.yahoo.com###sda-WPS-iframe
 tw.news.yahoo.com##.gn_sub_blue
 tw.news.yahoo.com##li[id^="ad-"]
+tw.news.yahoo.com,yahoo.com###sda-LDRB-iframe
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
 tw.stock.yahoo.com###ysmcm
@@ -87901,6 +87914,7 @@ yabiladi.com##.pub2
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
+yahoo.com###Horizon-ad
 yahoo.com###crazyAD
 yahoo.com###crazyad_mask
 yahoo.com###defaultLREC
@@ -87914,11 +87928,14 @@ yahoo.com###my-adsMBAR
 yahoo.com###sda-LDRB
 yahoo.com###sda-LDRB2
 yahoo.com###sda-LREC
+yahoo.com###sda-LREC-iframe
 yahoo.com###sda-LREC2
 yahoo.com###sda-LREC3
+yahoo.com###sda-LREC3-iframe
 yahoo.com###sda-LREC4
 yahoo.com###sda-MAST
 yahoo.com###sda-WFPAD
+yahoo.com###viewer-LDRB
 yahoo.com###viewer-LREC2-iframe
 yahoo.com###ysm-umu
 yahoo.com##.Feedback
@@ -87959,6 +87976,7 @@ yahoo.com##div[id$="-Banner-Proxy"]
 yahoo.com##div[id*="-Stream-ad-"]
 yahoo.com##div[id*="ComboAd"]
 yahoo.com##div[id^="-ad-"]
+yahoo.com##div[id^="COMMENTSLDRB"]
 yahoo.com##div[id^="LeadAd-"]
 yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="gemini-ad-"]
@@ -91921,6 +91939,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /adlandr.
 /adlantis.
 /adlayer.
+/adlayer.php
 /adlayer/*
 /adlead.$domain=~adlead.com|~adlead.pro|~adlead.ru
 /adleader.
