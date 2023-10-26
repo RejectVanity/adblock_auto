@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TvhGPzl1cxeFowN5umXDEg
+! Checksum: jDQKYJPGfcq9Gdds78IHSw
 ! Title: 自用去广告Adblock规则
-! Version: 20231024184730
-! Last modified: 2023-10-24 18:47:30
-! Total Count: 2931
+! Version: 20231027021521
+! Last modified: 2023-10-27 02:15:21
+! Total Count: 2942
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -146,6 +146,7 @@
 ##.leftd1 + .rightd1
 ##.leftd2 + .rightd2
 ##.leftd3 + .rightd3
+##.m-ad-full
 ##.m-hm-ad
 ##.maomi-content > .section-banner
 ##.mobile-ad-negative-space
@@ -425,6 +426,7 @@
 ##a[href="http://52199.vip"]
 ##a[href="http://595tz166.cc"]
 ##a[href="http://www.zmtt.net/download"]
+##a[href="https://79440433.com"]
 ##a[href="https://kds03.net"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
@@ -462,12 +464,16 @@
 ##a[href^="http://www.lovetoytw.com/"][onclick]
 ##a[href^="https://adultfriendfinder.com"]
 ##a[href^="https://app.kmtgsopq.com?agentId="][target="_blank"]
+##a[href^="https://igt17.net"]
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://mnwkcf.pojuko.buzz"]
+##a[href^="https://s7kc.com"]
 ##a[href^="https://t.acam.link/"]
 ##a[href^="https://t.adating.link/"]
 ##a[href^="https://t.aslnk.link/"]
+##a[href^="https://www.cgkjvip.com"]
 ##a[href^="https://www.hnhflqgc.com"]
+##a[href^="https://www.zhao-zupu.com"]
 ##a[href^="https://xlivesex.com/"]
 ##a[href^="https://xxuudxdu.live?"]
 ##a[href^="javascript:linkto"][href*="_blank"] > img
@@ -610,6 +616,7 @@
 ##div[id^="player-ads"]
 ##div[id^="rfads"]
 ##div[id^="test"][style*="fixed"][style*="position:"]
+##div[id^="ts_ad_native"]
 ##div[id^="video-player-ads"]
 ##div[onclick*="window.location.href"][onclick*=".biqu"][onclick*="app"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
@@ -812,6 +819,7 @@
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://sbb.bbb.byjykj.xyz"]
+##img[src^="https://sbb.bbb.wzguosutang.com"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 ##img[src^="https://u10"][src*=".com"][src$=".gif"]
 ##img[src^="https://vip2.loli.io"]
@@ -831,6 +839,8 @@
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
+##span[id$="bottom_gg"]
+##span[id$="top_gg"]
 ##span[onclick^="window"][onclick$=".RD();"]
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
@@ -2475,6 +2485,7 @@ zle.com$script
 ||axkq.xyz^$third-party,script
 ||ayq3nsx.icu^$third-party
 ||baby.thinkmore.top^
+||baglezymoses.com^$third-party
 ||baidujkdjklvvsbvk.com^$third-party
 ||banquetunarmedgrater.com^$script
 ||bbangads.*.net^$third-party
