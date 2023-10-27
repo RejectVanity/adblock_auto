@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZbBjnyM6LCBh40QdcBD5xQ
+! Checksum: IwO+u7AQFX7FyhfWi+AL9A
 ! Title: 自用去广告Adblock规则
-! Version: 20231027200056
-! Last modified: 2023-10-27 20:00:56
-! Total Count: 2950
+! Version: 20231027201415
+! Last modified: 2023-10-27 20:14:16
+! Total Count: 2952
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -819,12 +819,14 @@
 ##img[src*="z4a.net"][src*="/images/20"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
 ##img[src="/apijs/image/960x100.gif"]
+##img[src][style*="width:100%;height:auto;"][id^="hengfu"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://rpninf.xyz"]
 ##img[src^="https://sbb.bbb.byjykj.xyz"]
 ##img[src^="https://sbb.bbb.wzguosutang.com"]
+##img[src^="https://shaonvxueyuan.top"]
 ##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 ##img[src^="https://u10"][src*=".com"][src$=".gif"]
 ##img[src^="https://vip2.loli.io"]
