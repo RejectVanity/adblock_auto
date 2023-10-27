@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: audhp4direOEJo14nTmzmg
+! Checksum: S/fEG3hf8gCSZOts9uadQg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231028001713
+! Version: 20231028064906
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-28 00:17:13
-! Total Count: 24136
+! Last modified: 2023-10-28 06:49:06
+! Total Count: 24138
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -13456,6 +13456,7 @@
 ||vokwlch.xyz^
 ||volatileprofit.com^$third-party
 ||volatilerainstorm.com^$third-party
+||volgreal.com^$third-party
 ||vorluic.cn^
 ||vorsprung-online.de/images/images/*/Werbung/bannermobilwerbung.jpg
 ||vouninked.com^
@@ -18536,6 +18537,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /antv/*/antv-v*_asqt*.apk$~third-party
 /antv/antv_v*.*.apk$document
 /antv/antv_v*.*.apk$~third-party
+/api/*/g?kyurl=http*&refer=&pid=*=16*&callback=$third-party
 /api/LM/*placeUUID=$third-party
 /api/LM/Report*placeUUID=$third-party
 /api/LM/Report?placeUUID=$third-party
