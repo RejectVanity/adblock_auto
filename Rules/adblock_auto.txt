@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jfY7r5nmQvVE3PbtcVh/YQ
+! Checksum: I2pXiqGi0pTe9WfSRdvKAA
 ! Title: 混合规则(自动更新)
-! Version: 20231028082911
+! Version: 20231028113140
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-28 08:29:11
-! Total Count: 122206
+! Last modified: 2023-10-28 11:31:40
+! Total Count: 122210
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -11523,6 +11523,7 @@
 ||beat.yourtv.jp^
 ||beatbase.live^
 ||beatifulapplabland.com^
+||beatifulllhistory.com^
 ||beatricecathy.com^
 ||beatricenba.com^
 ||beatsightcab.com^
@@ -29149,6 +29150,7 @@
 ||heaterrobotscompute.com^
 ||heatertried.com^
 ||heathertravelledpast.com^
+||heatmap.com^
 ||heatmap.emma.tools^
 ||heatmap.it^
 ||heatmap.services^
@@ -46904,6 +46906,7 @@
 ||planetconstituent.com^
 ||planetup.com^
 ||planetvids.online^
+||planetvids.space^
 ||plankbritish.com^
 ||planktab.com^
 ||planmybackup.co^
@@ -74151,9 +74154,9 @@ buondua.com##.b1a05af5ade94f4004a7f9ca27d9eeffb
 buondua.com##.b2b4677020d78f744449757a8d9e94f28
 buondua.com##.b489c672a2974fbd73005051bdd17551f
 buondua.com##small[style^="border-bottom: solid 1px;"]
-buondua.com,buondua.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
+buondua.com,buondua.us,kostaku.art,kostaku.com,kostaku.live,kostaku.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
 burnerapp.com##.exit__overlay
 business-standard.com##.adv-height-135
 business-standard.com##.adv-height-220
@@ -89702,7 +89705,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .ga/ads.
 .gameleads.ru^
 .gg/ads/
-.gif$domain=kpl037.com
+.gif$domain=kpl037.com|yydy.cc
 .gif$third-party,domain=1024pa.com|922tp.com|avbebe.com|cb.wpio.xyz|cl.wpio.xyz|m.7ktw.com|yasem5.com
 .gif?ad=
 .gif^$domain=kobi8.com|66se2.com
@@ -119429,6 +119432,7 @@ zle.com$script
 ##img[alt="免费VPN"]
 ##img[alt="免费插入的快感"]
 ##img[alt="全国同城约炮"]
+##img[alt="全球狼友募集令"]
 ##img[alt="同城约炮"]
 ##img[alt="啪哩啪哩"]
 ##img[alt="墮落姬甲"]
