@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7GoMQjS6uaRdaA3n/HZjoA
+! Checksum: s2rNAFzMjYSYEIH1bpo4SA
 ! Title: 混合规则(自动更新)
-! Version: 20231029160823
+! Version: 20231030000817
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-29 16:08:23
-! Total Count: 122247
+! Last modified: 2023-10-30 00:08:17
+! Total Count: 122265
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1655,6 +1655,7 @@
 ||3dcn.me^
 ||3de3ac5082.com^
 ||3dfcff2ec15099df0a24ad2cee74f21a.com^
+||3dh9y.com^
 ||3dk.tech^
 ||3dlivestats.com^
 ||3dmax8.com/atu4/
@@ -12718,6 +12719,7 @@
 ||blunksdaler.uno^
 ||blurbigdoable.com^
 ||blurlorum.uno^
+||blurmesses.com^
 ||blushbuiltonboard.com^
 ||blushingbeast.com^
 ||blushingboundary.com^
@@ -27040,6 +27042,7 @@
 ||girohjalm.com.se^
 ||giroxxha.com^
 ||girsescrawk.website^
+||gishejuy.com^
 ||gisp6piot.cyou^
 ||gistblemishparking.com^
 ||git.emarketing724.com^
@@ -27364,6 +27367,7 @@
 ||gmx28.top^
 ||gmx29.top^
 ||gmx30.top^
+||gmx35.top^
 ||gmx38.top^
 ||gmx39.top^
 ||gmx40.top^
@@ -43420,6 +43424,7 @@
 ||oatchelt.com^
 ||oatmealaspectpulp.com^
 ||oatmeallump.com^
+||oatsouje.net^
 ||oaujswgofu.com^
 ||oaxoulro.com^
 ||oaxpcohp.com^
@@ -45374,6 +45379,7 @@
 ||paiwaupseto.com^
 ||paiwhisep.com^
 ||paiwhoki.com^
+||pajhvd.xyz^
 ||pajinse.top^
 ||pajirosandal.com^
 ||pajons.live^
@@ -45396,6 +45402,7 @@
 ||pallaliven.com^
 ||palmangelssverige.com.se^
 ||palpablefungussome.com^
+||palroudi.xyz^
 ||paltryheadline.com^
 ||palycaid.life^
 ||palzscurou.com^
@@ -48579,6 +48586,7 @@
 ||psychedelicarithmetic.com^$third-party
 ||psychedelicchess.com^
 ||psychicbowel.com^
+||psycholjicaque.com^
 ||psychologyairport.com^
 ||psychologycircumvent.com^
 ||psychologydistinguishnest.com^
@@ -51402,6 +51410,7 @@
 ||rethowilmari.com^
 ||reticencecarefully.com^
 ||retinaebiaxal.guru^
+||retinaspealer.com^
 ||retinuedisposablerecuperate.com^
 ||retinuegigoh.com^
 ||retionattings.xyz^
@@ -51910,6 +51919,7 @@
 ||roadmappenal.com^
 ||roakicat.net^
 ||roambedroom.com^
+||roastoup.com^
 ||roataisa.net^
 ||robberyinscription.com^
 ||robberysordid.com^
@@ -52964,6 +52974,7 @@
 ||sandyconference.com^
 ||sanfordcessor.space^
 ||sange20221226.xyz^
+||sangeiunzen.com^
 ||sanggilregard.com^
 ||sanglah.com^
 ||sangogne.com^
@@ -53238,6 +53249,7 @@
 ||schedfi.com^
 ||schemeabsolutejanuary.com^
 ||schinuskolobia.com^
+||schizypdq.com^
 ||schjmp.com^
 ||schlaftabletten.cn^
 ||schochesaynay.website^
@@ -72191,7 +72203,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 9gag.com##div[style*="width: 500px; height: 281px;"]
 9gag.com##div[style^="position: relative; z-index: 10;"]
 9gag.com#?#article:-abp-has(.promoted)
-9gag.com,bundesliga.com,hotstar.com,sport360.fit,talksport.com,trademe.co.nz##.billboard
+9gag.com,bundesliga.com,hotstar.com,sport360.fit,talksport.com,the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie,trademe.co.nz##.billboard
 9gag.tv##.size-728x90
 9game.cn###btInfo
 9game.cn##.guide-app-fix
@@ -73771,6 +73783,7 @@ bing.com##.b_spa_adblock
 bing.com##.bnp_rich_div_visible.bottom
 bing.com##.bnp_rich_div_visible.top
 bing.com##.mapsTextAds
+bing.com##.mma_il
 bing.com##.pa_carousel_mlo
 bing.com##.pa_sb
 bing.com##.productAd
@@ -73779,6 +73792,9 @@ bing.com##.tile_grp
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[h$=",Ads"]
 bing.com##a[href*="/aclick?ld="]
+bing.com##div[aria-label$="ProductAds"]
+bing.com##div[class="ins_exp tds"]
+bing.com##div[class="ins_exp vsp"]
 bing.com##li[class="sa_hd"][role="option"]
 bing.com##li[class^="sa_sg"][stype="PN"]
 bing.com#?#.slide:-abp-has(.rtb_ad_caritem_mvtr)
@@ -85727,6 +85743,8 @@ the-independent.com###taboola-mid-article-thumbnails-iii
 the-scientist.com###Torpedo
 the-scientist.com###preHeader
 the-star.co.ke###teasers
+the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.customiser-v2-layout-1-billboard
+the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.customiser-v2-layout-three-native-ad-container
 the-village.com.ua##.infoA
 the18.com##.push-downv
 theadvocate.com##.asset-breakout-ads
