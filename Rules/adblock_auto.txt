@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7jJZ6K9AB1nU9QpmNkpAyQ
+! Checksum: GCWipP8vsogzJohS/Mo7oA
 ! Title: 混合规则(自动更新)
-! Version: 20231029000756
+! Version: 20231029083240
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-29 00:07:56
-! Total Count: 122219
+! Last modified: 2023-10-29 08:32:40
+! Total Count: 122229
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6904,6 +6904,7 @@
 ||aidaicn.com^$third-party
 ||aidata.io^
 ||aidigua.com^
+||aidmat.icu^
 ||aidomination.xyz^
 ||aidspectacle.com^
 ||aiedduop.cyou^
@@ -19865,6 +19866,7 @@
 ||dfvarz.xyz^
 ||dfvvx58.com^
 ||dfwskw7.com^
+||dfxvkgz.xyz^
 ||dfyl.eeeeehfghrq555^$document
 ||dfyl.eeeeehfghrq555^$~third-party
 ||dfyouolsdq.com^
@@ -27361,6 +27363,7 @@
 ||gmx29.top^
 ||gmx30.top^
 ||gmx38.top^
+||gmx39.top^
 ||gmx40.top^
 ||gmx41.top^
 ||gmx42.top^
@@ -43633,6 +43636,7 @@
 ||oeckey.com^
 ||oedroughl.xyz^
 ||oedspoiletkni.xyz^
+||oehcxmhk.xyz^
 ||oehhq.xyz^
 ||oehwv.xyz^
 ||oemifaobrxe.com^
@@ -59362,6 +59366,7 @@
 ||tget.me^
 ||tgfqtwlwts.com^
 ||tggsd07.com^
+||tgjdbx.xyz^
 ||tgknt.com^
 ||tgktw.xyz^
 ||tglyr.co^
@@ -77982,6 +77987,8 @@ gov.cn###ippad02
 gov.cn###ippad03
 govevents.com###header-display
 govtech.com##.Page-billboard
+gozofinder.com##.advert-iframe
+gozofinder.com##[data-testid="advert"]
 gp123.cc##table[height="66"]
 gpcxw.com###AA2
 gpcxw.com###ad_dl
@@ -83006,7 +83013,9 @@ pollunit.com##.btn[href$="?feature=ads"]
 pollunit.com#?#.owl-carousel:-abp-has(.carousel-ad)
 polygon.com##[data-native-ad-id^="container"]
 poncy.ru###hide-adblock
+pons.com###pons-ad-footer
 pons.com###pons-ad-leaderboard__container
+pons.com##.parallax-container
 pooletown.co.uk##a[href^="https://www.easyfundraising.org.uk"]
 pooletown.co.uk,tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
 popart.hk###slideshow
@@ -86461,11 +86470,11 @@ tvzoneuk.com##[data-hook="HtmlComponent"]
 tw.beanfun.com###flybeanfun
 tw.bid.yahoo.com###livePromote
 tw.mall.yahoo.com##.hpad-wrapper
-tw.news.yahoo.com###sda-LREC2-iframe
 tw.news.yahoo.com###sda-WPS-iframe
 tw.news.yahoo.com##.gn_sub_blue
 tw.news.yahoo.com##li[id^="ad-"]
 tw.news.yahoo.com,yahoo.com###sda-LDRB-iframe
+tw.news.yahoo.com,yahoo.com###sda-LREC2-iframe
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
 tw.stock.yahoo.com###ysmcm
@@ -87928,6 +87937,7 @@ yahoo.com###sda-LREC3-iframe
 yahoo.com###sda-LREC4
 yahoo.com###sda-MAST
 yahoo.com###sda-WFPAD
+yahoo.com###sda-WFPAD-iframe
 yahoo.com###viewer-LDRB
 yahoo.com###viewer-LREC2
 yahoo.com###viewer-LREC2-iframe
