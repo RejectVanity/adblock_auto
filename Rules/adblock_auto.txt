@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: JIwt0vAgC55ESt2mTUH+eg
+! Checksum: ja6k/ef+ODrZ+bS9dPLLSA
 ! Title: 混合规则(自动更新)
-! Version: 20231030161006
+! Version: 20231031000902
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-30 16:10:06
-! Total Count: 122301
+! Last modified: 2023-10-31 00:09:02
+! Total Count: 122315
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4384,6 +4384,7 @@
 ||ad.mail.ru^
 ||ad.mail.ru^$script,redirect-rule=empty
 ||ad.mdmd.info^
+||ad.mediamixer.co.kr^
 ||ad.mediaprimaplus.com.my^
 ||ad.megapeer.ru^
 ||ad.moo-mam-tai.com^
@@ -14031,6 +14032,7 @@
 ||bzclk.baidu.com^
 ||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 ||bzdntl.xyz^
+||bzgmcqqfxd.com^
 ||bzhanyy.com^*.gif
 ||bzlwe.com^
 ||bzngisyv.xyz^
@@ -21133,6 +21135,7 @@
 ||drrzzl.cn^
 ||drsmediaexchange.com^
 ||drtraff.ru^
+||drtyuigj.xyz^
 ||drtyujgsg.xyz^
 ||drubbersestia.com^
 ||drubgyrinid.com^
@@ -22366,6 +22369,7 @@
 ||ejrigxesvg.com^
 ||ejuiashsateampl.info^
 ||ejunshi.com^
+||ejxosoryso.ru^
 ||ejyvgq.xyz^
 ||ejyymghi.com^
 ||ekareqif.xyz^
@@ -27356,6 +27360,7 @@
 ||gmogccmnp.com^
 ||gmossp-sp.jp^
 ||gmpfruktfatpi.com^
+||gmx10.top^
 ||gmx11.top^
 ||gmx12.top^
 ||gmx13.top^
@@ -29832,6 +29837,7 @@
 ||hllowvsion.click^
 ||hlmiq.com^
 ||hlnr9q.icu^
+||hlogger.heraldcorp.com^
 ||hlryy.top^
 ||hlserve.com^
 ||hlstlyy.com^
@@ -40387,6 +40393,7 @@
 ||mmtcw.cn^
 ||mmtnat.com^
 ||mmtro.com^
+||mmvideocdn.com^
 ||mmvjuti.cn^
 ||mmwebhandler.888.com^
 ||mn1nm.com^
@@ -61924,6 +61931,7 @@
 ||trucksift.com^
 ||truckstomatoes.com^
 ||truconversion.com^
+||truculentrate.com^
 ||true2file.com^
 ||truecrimesss.com^
 ||truehits.in.th^
@@ -74236,6 +74244,8 @@ business-standard.com##.adv-height-220
 business-standard.com##.adv-height-250
 business-standard.com##.advertisement-bg
 business-standard.com##.txt-adv-panel
+business-standard.com##div[id^="between_article_content_"]
+business-standard.com,johncodeos.com,worldsex.com##.hide-on-mobile
 business2community.com##.busin-coinzilla-after-content
 business2community.com##.busin-news-placement-2nd-paragraph
 business2community.com##.sticky-header
@@ -78809,7 +78819,7 @@ how2electronics.com##[href^="https://www.pcbway.com/"]
 how2shout.com##.text-ads
 howbuy.com##.topBigAd
 howbuy.com##a[href^="https://www.howbuy.com/advertisement/"]
-howlongagogo.com###FreeStarVideoAdContainer
+howlongagogo.com,neatorama.com###FreeStarVideoAdContainer
 howstuffworks.com###brid-wrap
 howstuffworks.com###inline-video-wrap
 howstuffworks.com##.leaderboard-banner
@@ -80084,7 +80094,6 @@ jobstreet.com.sg##[data-automation="homepage-marketing-banner-ads"]
 joebucsfan.com##.top_banner_cont
 joebucsfan.com##.tweet_div1
 johncodeos.com##.johnc-widget
-johncodeos.com,worldsex.com##.hide-on-mobile
 joindota.com##.monkey-container
 joins.com,kmplayer.com##.r_banner
 jokeji.cn##.ad360_280
@@ -81981,6 +81990,9 @@ ndtv.com##.sp_ad-t
 ndtv.com##.taboolFeed
 ndtv.com,ndtv.in##[class^="firework"]
 ndtv.com,ndtv.in##[id^="firework"]
+neatorama.com###Neatorama_300x250_300x600_160x600_ATF
+neatorama.com###Neatorama_300x250_300x600_160x600_BTF
+neatorama.com###Neatorama_300x250_336x280_320x50_Incontent_1
 neatstudio.com##a[href*="&cps_key="]
 needgayporn.com###side_col > div:not([class]):not([id])
 needgayporn.com##iframe[src^="https://www.needgayporn.com/player/html.php"]
@@ -85134,6 +85146,8 @@ sohu.com##a[href^="https://m.sohu.com/promotion?"]
 sohu.com##div[data-spm-content="promotion"]
 sohu.com##div[id^="COUPLET"]
 sohu.com##div[id^="beans"]
+sohu.com#?##allseeList > .allsee-item.bd-wrap:has(> div > script)
+sohu.com#?#.news-wrapper > .news-box:has(> div[id^="taboola-below-article-widget"])
 sohu.com#?#.news-wrapper > div.news-box.clear:has(> [data-ad-format])
 sohu.com#?#.sidebar.right:has(> div.extend-mod:first-child)
 soisk.pl,samuraiscan.org,magiskmanager.com,infortechno.com,gaypornhdfree.com,powerup-gaming.com,mixrootmod.com,wanderertl130.id,davescomputertips.com,movies4u.*,engtranslations.com,smarttips.in,netfuck.net,sociologicamente.it,freepreset.net,textfonts.net,ketubanjiwa.com,javboys.tv,boyfuck.me,javgay.com,gaypornhot.com,ethernalworld.com,ubitennis.com,3dzip.org,movierulzhd.skin,igay69.com,ayatoon.com,fastssh.com,cgtips.org##+js(addEventListener-defuser, , aadb_get_data)

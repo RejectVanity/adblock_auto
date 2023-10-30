@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BSwCnfBWn55wKwUlGywB/A
+! Checksum: 62iBFPuNSZvwE27UslYqew
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231030161019
+! Version: 20231031000913
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-30 16:10:19
-! Total Count: 24191
+! Last modified: 2023-10-31 00:09:13
+! Total Count: 24194
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1724,6 +1724,7 @@
 ||ad.mail.ru^$domain=my.mail.ru
 ||ad.mail.ru^$script,redirect-rule=empty
 ||ad.mail.ru^$~image,domain=~mail.ru|~sportmail.ru
+||ad.mediamixer.co.kr^
 ||ad.mediaprimaplus.com.my^
 ||ad.moe.video^
 ||ad.mox.tv^
@@ -5731,6 +5732,7 @@
 ||drfvtgbyk.xyz^$third-party
 ||drive2.ru/assets/*/banner.html
 ||drmcmm.baidu.com^
+||drtyuigj.xyz^
 ||drtyujgsg.xyz^
 ||drvsky.com/js/jolimark.gif
 ||ds1.kaijia.com^
@@ -6743,6 +6745,7 @@
 ||gmbuluo.net/js/
 ||gmicu.cn^
 ||gmkmkn.xyz^
+||gmx10.top^
 ||gmx11.top^
 ||gmx12.top^
 ||gmx13.top^
