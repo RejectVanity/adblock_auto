@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gvlUXmItXAFlwAtEl53OPQ
+! Checksum: xGE57Q6deIJ6jDzGOYhjhg
 ! Title: 自用去广告Adblock规则
-! Version: 20231029111737
-! Last modified: 2023-10-29 11:17:37
-! Total Count: 2962
+! Version: 20231031090031
+! Last modified: 2023-10-31 09:00:31
+! Total Count: 2967
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -163,6 +163,9 @@
 ##.nonepc.mad
 ##.noopenlink.ads
 ##.nr_page > [style="width:100%;height:auto;min-height:150px;position:relative;display:block;"][id]
+##.page[style^="padding-bottom:"] > [classname$="_g"][class$="_g"]
+##.page[style^="padding-bottom:"] > [id*="_"][classname$="_f"][class$="_f"]
+##.page[style^="padding-bottom:"] > [id*="_"][classname$="_g"][class$="_g"]
 ##.phone-ads
 ##.play_list_adbox
 ##.player + .sponsor
@@ -1969,6 +1972,8 @@ hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hentaicity.com##[class^="adn-posty_"]
 hentaipaw.com##.header-ad,.middle-ad,[id^="ts_ad_native"]
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
+https://**.*/TC/*/*.gif$third-party,image
+https://**.*/YL/*/*.gif$third-party,image
 ifanr.com##.popup-download
 ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
 ilengmen.com,newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com,shenyedushu.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"],div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
