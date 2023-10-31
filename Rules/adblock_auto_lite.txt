@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 74Z2RZlWVDBFdlKHg0fa0Q
+! Checksum: hZePpa6GmbFh79Wbkrc/WQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231031083104
+! Version: 20231031090303
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-31 08:31:04
-! Total Count: 24198
+! Last modified: 2023-10-31 09:03:03
+! Total Count: 24209
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4340,6 +4340,7 @@
 ||bozhihua.com^$third-party
 ||bp.blogspot.com^$domain=avmimi.com
 ||bp.blogspot.com^*/s1600/dealer
+||bpbfymv.xyz^
 ||bpbpxv.xyz^
 ||bpewo.cyou^
 ||bpimg.com/4851/19f7543667f26682.jpg
@@ -7345,6 +7346,7 @@
 ||hnert.okmwfq.xyz^
 ||hnfnjn.xyz^
 ||hnjls.com.cn^
+||hnkhgw.com^
 ||hnl.ijgocb.cn^
 ||hnr.dodhvug.cn^
 ||hnr.wwxhba.xyz^
@@ -7617,6 +7619,7 @@
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
 ||icast.cn^$third-party
+||iccjkn.icu^
 ||icentos.info^
 ||icepbns.com^$popup,domain=iceporn.com
 ||iceporn.com/player_right_ntv_
@@ -10241,6 +10244,7 @@
 ||nyfgpbsc.xyz^
 ||nyhgvn.xyz^
 ||nypyzx.xyz^
+||nyvgbt.xyz^
 ||nz04com.com/aabdd/
 ||nzporf.xyz^
 ||nzq5.u95ivu.xyz^$third-party
@@ -15873,6 +15877,8 @@ hqporner.com##.ad_video
 hqporner.com##.black_friday
 hqporner.com##.uvb_wrapper
 hqpornstream.com##.lds-hourglass
+https://**.*/TC/*/*.gif$third-party,image
+https://**.*/YL/*/*.gif$third-party,image
 hutporner.com,javzh.com,thesource.com,javcrave.com,indiansexbazar.com,gossipfunda.com,claimfey.com,forexlap.com,courseforfree.net,dailyresearchplot.com,getintocourse.com,techspite.com,aceofhacking.com,freesoft.id###custom_html-5
 i.factor.ua###adb-info
 i.factor.ua##[data-place-block]
@@ -20657,6 +20663,8 @@ _tm11_pmt_
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 cc/o.js$third-party,script
+https://**.*/TC/*/*.gif$third-party,image
+https://**.*/YL/*/*.gif$third-party,image
 leporno.org/english.js
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 php?ad=
@@ -21820,6 +21828,9 @@ zle.com$script
 ##.orbui-post
 ##.overBanner.dowloadBtn
 ##.page-wwads
+##.page[style^="padding-bottom:"] > [classname$="_g"][class$="_g"]
+##.page[style^="padding-bottom:"] > [id*="_"][classname$="_f"][class$="_f"]
+##.page[style^="padding-bottom:"] > [id*="_"][classname$="_g"][class$="_g"]
 ##.pagead_3
 ##.pagecon + .ad1
 ##.pane-emediate

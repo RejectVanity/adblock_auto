@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: fUtHhBndDT5tn09FHYgheg
+! Checksum: oHkZqA7WSE0ETdlh5YL/dg
 ! Title: 混合规则(自动更新)
-! Version: 20231031083050
+! Version: 20231031090250
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-10-31 08:30:50
-! Total Count: 122376
+! Last modified: 2023-10-31 09:02:50
+! Total Count: 122384
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -50888,6 +50888,7 @@
 ||redic6.site^
 ||redichat.com^
 ||redij.online^
+||redintelligence.net^
 ||redir4.net^
 ||redir9.net^
 ||redirect-ads.com^
@@ -78921,6 +78922,8 @@ http://ltslx.qq.com/
 http://ltsws.qq.com/
 http://vhotwsh.video.qq.com/
 httpcn.com##a[href^="http://www.okbmf.com/"] > img
+https://**.*/TC/*/*.gif$third-party,image
+https://**.*/YL/*/*.gif$third-party,image
 https://g.alicdn.com/mm/yksdk/0.2.*/playersdk.js
 https://show.ssports.com/s?uid=&position=preroll&brand=
 https://vm.gtimg.cn/thumbplayer/creative/2.2.*/creative-player-v.js
@@ -100523,6 +100526,8 @@ http://ltsdl.qq.com/
 http://ltslx.qq.com/
 http://ltsws.qq.com/
 http://vhotwsh.video.qq.com/
+https://**.*/TC/*/*.gif$third-party,image
+https://**.*/YL/*/*.gif$third-party,image
 https://g.alicdn.com/mm/yksdk/0.2.*/playersdk.js
 https://show.ssports.com/s?uid=&position=preroll&brand=
 https://vm.gtimg.cn/thumbplayer/creative/2.2.*/creative-player-v.js
@@ -115467,6 +115472,9 @@ zle.com$script
 ##.pageHeaderAd
 ##.pageHeaderAds
 ##.pageTopAd
+##.page[style^="padding-bottom:"] > [classname$="_g"][class$="_g"]
+##.page[style^="padding-bottom:"] > [id*="_"][classname$="_f"][class$="_f"]
+##.page[style^="padding-bottom:"] > [id*="_"][classname$="_g"][class$="_g"]
 ##.page__top-ad-wrapper
 ##.page_ad
 ##.pagead
