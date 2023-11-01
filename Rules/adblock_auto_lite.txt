@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: RrN9GjmjVKbdroehXpiw+Q
+! Checksum: f6wcC8JghwiP4fIhVXq9pw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231101083318
+! Version: 20231101121700
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-01 08:33:18
-! Total Count: 24220
+! Last modified: 2023-11-01 12:17:00
+! Total Count: 24227
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6285,6 +6285,7 @@
 ||fearfulmint.com^$third-party
 ||fearlessfaucet.com^$third-party
 ||featured.perfectionholic.com^
+||februarylovestory.com^$third-party
 ||feesoon.com/js/cnzz_
 ||feijisu5.com/js/huimi-
 ||feild.xyz^
@@ -10026,6 +10027,7 @@
 ||nbsxazr.icu^
 ||nbtfbb.xyz^
 ||nbxymdy.cn^
+||nbycjpo.cn^
 ||nbzabd.xyz^
 ||nccaer.xyz^
 ||ncgqmzm.cn^
@@ -14873,6 +14875,7 @@
 ||zldzbr.xyz^
 ||zlfthh.xyz^
 ||zlgame.top^
+||zlncvn.xyz^
 ||zlongad.com^$third-party
 ||zlsynmlq.fun^
 ||zlsyuulq.cam^
@@ -17195,6 +17198,7 @@ sv.baidu.com##.open-button-wrap
 swaego.ru##body > .special-message-wrapper
 sxyprn.com,sexdiaryz.us,fucksporn.com,fullxcinema1.com,pornxp.com,pornktubes.net,porhubvideo.com,yesleaks.com,bigojav.com,nikaraw.com,javchill.com,weloma.*,kmansin09.com,porn00.org,kisscos.net,fourquarters.biz,readwebtoononline.net,webtoonplus.com,besthdgayporn.com,mangas-raw.com,latinohentai.com,vegvorous.com,gigmature.com,xmegadrive.com,gogoanime.*,linkszia.co,urbharat.xyz,91.208.197.24,edummm.xyz,adslink.pw,pornohubonline.com,movieskafanda.xyz,mangamovil.net,tatli.biz,naijauncut.com,teenager365.com,10convert.com,moviesjoy.*,javenspanish.com,jav-asia.top,komiklokal.xyz,leermanga.net,leechall.com,kantotflix.com,watchfreenet.com,javxxx.me,yifysubtitles.vip,536sdms.com,justcastingporn.com,justfamilyporn.com,simply-hentai.com,onlyfoot.net##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
 sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,mangaraw.vip,klmanga.io,manga1001.se,manga1001.tv,mangarawjp.io,syosetu.*,telorku.xyz,agupulsa.xyz,kissjav.li,lovingsiren.com,mesex.pro,tojav.net,vlxyz.tv,xanimeporn.com##+js(abort-on-stack-trace, atob, _0x)
+sxyprn.net##.tbd,.cbd
 tabooporns.com##+js(addEventListener-defuser, , lockcheck)
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##button[onclick*="this.parentNode.parentNode.removeChild"]
@@ -22883,9 +22887,11 @@ zle.com$script
 ##iframe[src*=".medfoodsafety.com/"]
 ##iframe[src*=".montlusa.top/loader?"]
 ##iframe[src*=".xxmh"][src*="?u="]
+##iframe[src*="//"][src*="&campaign"][src*="/?"][src*="="][src*="="][src*="="]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//av.ageverify.co/"]
+##iframe[src*="//chaturbate.com/"]
 ##iframe[src*="//go.admjmp.com/"]
 ##iframe[src*="//go.cmtaffiliates.com/"]
 ##iframe[src*="//go.currency.com/"]
@@ -22901,6 +22907,7 @@ zle.com$script
 ##iframe[src*="//go.markets.com/visit/?bta="]
 ##iframe[src*="//go.nordvpn.net/aff"]
 ##iframe[src*="//go.skinstrip.net"][src*="?campaignId="]
+##iframe[src*="//go.static-srv.com/"]
 ##iframe[src*="//go.strpjmp.com/"]
 ##iframe[src*="//go.tmrjmp.com"]
 ##iframe[src*="//go.trackitalltheway.com/"]
@@ -24186,7 +24193,7 @@ advancedrenamer.com,alotof.software,android-doc.com,androidrepublic.org,anonymou
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend" i]
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend"]
 apkpure.com#@#.ad-box-auto
-apkpure.com#@#[class$="ad-box"]
+apkpure.com,coolapk.com#@#[class$="ad-box"]
 apkpure.com,job.inshokuten.com,sexgr.net,webbtelescope.org#@#.ad-box
 baidu.com#@#.ad-wrapper
 bestjavporn.com,javhdporn.net,video.bestjavporn.com#@#.ad-placement
