@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xGE57Q6deIJ6jDzGOYhjhg
+! Checksum: xFt2avExw/SceHhNlolobA
 ! Title: 自用去广告Adblock规则
-! Version: 20231031090031
-! Last modified: 2023-10-31 09:00:31
-! Total Count: 2967
+! Version: 20231101121209
+! Last modified: 2023-11-01 12:12:09
+! Total Count: 2973
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -658,9 +658,11 @@
 ##iframe[src*=".magsrv.com/"]
 ##iframe[src*=".medfoodsafety.com/"]
 ##iframe[src*=".montlusa.top/loader?"]
+##iframe[src*="//"][src*="&campaign"][src*="/?"][src*="="][src*="="][src*="="]
 ##iframe[src*="//a.adtng.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//av.ageverify.co/"]
+##iframe[src*="//chaturbate.com/"]
 ##iframe[src*="//go.admjmp.com/"]
 ##iframe[src*="//go.cmtaffiliates.com/"]
 ##iframe[src*="//go.currency.com/"]
@@ -676,6 +678,7 @@
 ##iframe[src*="//go.markets.com/visit/?bta="]
 ##iframe[src*="//go.nordvpn.net/aff"]
 ##iframe[src*="//go.skinstrip.net"][src*="?campaignId="]
+##iframe[src*="//go.static-srv.com/"]
 ##iframe[src*="//go.strpjmp.com/"]
 ##iframe[src*="//go.tmrjmp.com"]
 ##iframe[src*="//go.trackitalltheway.com/"]
@@ -1883,6 +1886,7 @@ colamanhua.com,colamanga.com##[class$="i"][style*="bottom"],[class$="h"][style*=
 colamanhua.com,colamanga.com#@#.gg_950
 colamanhua.com,ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me,colamanga.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
 comgk.com,okdyy.com##a[ontouchstart],a[onclick],[class^="cvbcvxvb"],[href*="baidujkdjklvvsbvk.com"]
+coolapk.com#@#[class$="ad-box"]
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 d1bzw.com##[id="appurl"],[id="bbsurl"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
@@ -2296,6 +2300,7 @@ sqruitu.com##embed[id][src*="://"][src*=".z"][src$="="]
 ssmh01.top,ssmh02.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,wnacg.ru,htcomic.top,wnacg.top,wnacg.com,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru##a[href*=".xyz?ch=ssmh"],a[href^="https://l.hyenadata.com"],img[style][alt][src*="/data/"][src$=".php"],img[style][alt][src*="/data/"][src$=".gif"]
 sunshinewaay.cn##img[class$="BnImg"]
 sv.baidu.com##.open-button-wrap
+sxyprn.net##.tbd,.cbd
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##.top-phonehome
 taisinba.com,taimadou.com,rapidtai.com,taiav.com##button[onclick*="this.parentNode.parentNode.removeChild"]
 taotu.org##img[src*="/adimages/"]
@@ -2603,6 +2608,7 @@ zle.com$script
 ||exosrv.com^
 ||exrtbsrv.com^
 ||fbasd.qwoudjbk.com^$third-party
+||februarylovestory.com^$third-party
 ||ffmehcg.cn^$third-party
 ||fg.knlk2md.cn^$third-party
 ||fourier.alibaba.com^
