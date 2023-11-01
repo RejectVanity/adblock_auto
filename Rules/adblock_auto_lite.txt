@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: zkozaJspGwclh1EV8IrW7Q
+! Checksum: D7yR72viiV78n8aQBJjhxQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231101160948
+! Version: 20231102000857
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-01 16:09:48
-! Total Count: 24228
+! Last modified: 2023-11-02 00:08:57
+! Total Count: 24242
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6369,6 +6369,7 @@
 ||floweryflavor.com^$third-party
 ||flpnnqe.xyz^
 ||fluentmobile.com^
+||fluhmmr.cn^
 ||flurry.cachefly.net^
 ||flurry.com^
 ||flygo.ru^
@@ -8673,6 +8674,7 @@
 ||kj-gov.cn^
 ||kjanfwss.xyz^
 ||kjcvw.xyz^
+||kjdbcjkmc.com^
 ||kjhxw.xyz^
 ||kjndc.xyz^
 ||kjos.vo.llnwd.net^
@@ -10560,6 +10562,7 @@
 ||pchome.com.tw/js/overlay_ad.js
 ||pchome.net/flow.php
 ||pchznf.xyz^
+||pcjx365.com/kpimg/*.gif
 ||pcmtf.cn^
 ||pcmx.autohome.com.cn/impress?
 ||pcmx.autohome.com.cn^
@@ -12015,6 +12018,7 @@
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
 ||sh6ss7.top^
 ||sh996.dftoutiao.com^
+||shabby-constant.com^$third-party
 ||shakegoldfish.com^$third-party
 ||shakyseat.com^$third-party
 ||shakysurprise.com^$third-party
@@ -15170,6 +15174,7 @@ amateur-vids.eu,mature.community,mature.mom,mature.sexy,milf.community,milf.mom,
 amateur8.com,bigtitslust.com,freeporn8.com###lotal
 amateur8.com,bigtitslust.com,maturetubehere.com,lesbian8.com,sortporn.com,freeporn8.com##+js(abort-on-property-read, Q433)
 amateur8.com,ebony8.com,freeporn8.com##li.pignr
+amateur8.com,its.porn##.rmp-container
 amateurfapper.com,iceporn.tv,porner.tv,pornmonde.com##.sources
 amateurporn.co##+js(set-constant, isAdBlockActive, false)
 amateurporn.me,eachporn.com##.item[style]
@@ -15981,7 +15986,6 @@ irk.ru##.b-adblock-message
 it-enginer.ru##body > #modal[style*="blur"]
 its.porn##.desk-banners
 its.porn##.preroll-blocker
-its.porn##.rmp-container
 its.porn#?#.twocolumns > aside:not([class]):not([id]):has(> .table > div[class*="IPO-Itsporn_Native_"])
 its.porn,jizzez.net##.oneBanner
 ivi.ru##.ivi-footer ~ div[class] > style + div[class]
@@ -16270,6 +16274,7 @@ new-porn.club##+js(abort-current-script, document.attachEvent, prt)
 newkaliningrad.ru##body > .soclinks + script + div[class]:not([id])
 newlineporn.com,camsexvideo.net##.list-spots
 newnavitel.blogspot.com##.post-body > div[dir] > div[dir] > h1#result
+news.heytapdownload.com##[class^="oppo-cec-new"]
 nexusmods.com##.areplacer
 nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #313131;"]
 nitroflare-porn.com##center > a[href^="https://www.nitroflare.com/view/"]
@@ -20862,6 +20867,8 @@ zle.com$script
 ###appIn
 ###appad.cate
 ###appqrcode
+###apprecom1.apprecom
+###apprecom2.apprecom
 ###arBRyGHxuDYU
 ###arlinablock
 ###asdw
@@ -21135,6 +21142,7 @@ zle.com$script
 ###rip[href*=".taobao.com"]
 ###rm-float + .popup
 ###rm-float3
+###rmp-ad-click-id
 ###rollingadBox > .wrap
 ###search > a[href="/top1.html"]
 ###sidearm-adblock-modal
@@ -21902,6 +21910,7 @@ zle.com$script
 ##.right_advert
 ##.rightadv
 ##.rightd + .leftd1
+##.rmp-ad-container
 ##.room-ad-bottom
 ##.room-ad-top
 ##.room-ad-video-down
@@ -22045,6 +22054,7 @@ zle.com$script
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
+##[class$="ad-container"]
 ##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
@@ -22347,6 +22357,7 @@ zle.com$script
 ##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//go.admjmp.com/"]
 ##a[href*="//go.bbrdbr.com/"]
+##a[href*="//go.cambaddies.com/"]
 ##a[href*="//go.cmtaffiliates.com/"]
 ##a[href*="//go.currency.com/"]
 ##a[href*="//go.dmzjmp.com"]
@@ -22937,6 +22948,7 @@ zle.com$script
 ##iframe[src^="//us-west1."][src*="/api/spots/"]
 ##iframe[src^="/ad"][src$=".html"]
 ##iframe[src^="/ai/s/s/su.php"]
+##iframe[src^="/frd5/s/s/su.php?"]
 ##iframe[src^="https://creative."][src*="/widgets/"]
 ##iframe[style$="margin: auto 0px !important; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px 0px 0px auto !important; overflow: hidden; z-index: 2147483647;"]
 ##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 21474"]
@@ -22956,6 +22968,7 @@ zle.com$script
 ##iframe[width="728"][height="90"]
 ##iframe[width="780"][height="120"]
 ##iframe[width="980"][height="90"]
+##iframe[width][height][src*="/s/s/su.php?"][src*="https%3A"]
 ##img#adv1
 ##img[alt$="抖阴"]
 ##img[alt$="横幅"][src$=".gif"]
@@ -24151,6 +24164,7 @@ zle.com$script
 @@||pubads.g.doubleclick.net/gampad/ads?ad_rule=0&d_imp=1&gdfp_req=1&impl=ifr$domain=youtube.com
 @@||pubads.g.doubleclick.net/gampad/ads?ad_rule=0&d_imp=1&gdfp_req=1&iu=%2F6762%2Fmkt.ythome_1x1$domain=youtube.com
 @@||qpython.club^$generichide
+@@||realsrv.com/video-outstream.js$domain=chutlunds.com
 @@||s0.wp.com/wp-content/js^$domain=gaypornwave.com
 @@||scatfap.com/scat-porn/modules/vids/misc_static/adverts.js
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
