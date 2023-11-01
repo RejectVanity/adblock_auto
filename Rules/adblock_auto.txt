@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9iDYj2wXnXY3fGgKse7vZQ
+! Checksum: b1JD6AyjdtO+GtWwmUpnqw
 ! Title: 混合规则(自动更新)
-! Version: 20231102000843
+! Version: 20231102003523
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-02 00:08:43
-! Total Count: 122479
+! Last modified: 2023-11-02 00:35:23
+! Total Count: 122480
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -82505,6 +82505,7 @@ nplusonemag.com##.nurble
 npr.org##.ad-config
 nrl.com##.card-content__sponsor
 nrl.com##.partner-groups
+nsfwr34.com##body > div[id][class]:has(img[src*="-ads-block-detector"])
 nsfwyoutube.com##img[src*="data"]
 nta.ng##img[alt="Online Ads WeConnect Platform"]
 ntp.msn.cn##recommended-sites
