@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xFt2avExw/SceHhNlolobA
+! Checksum: LEFiLct0Lc2+45P7uNa60Q
 ! Title: 自用去广告Adblock规则
-! Version: 20231101121209
-! Last modified: 2023-11-01 12:12:09
-! Total Count: 2973
+! Version: 20231101195056
+! Last modified: 2023-11-01 19:50:56
+! Total Count: 2980
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -50,6 +50,7 @@
 ###modal-adblocker
 ###modalAblockWrapper
 ###playerJsvLayer.jsv-layer
+###rmp-ad-click-id
 ###rollingadBox > .wrap
 ###top-ads
 ###top_ad
@@ -179,6 +180,7 @@
 ##.popup + .shortcuts-mobile-overlay
 ##.pre-play-adv
 ##.remove-ads
+##.rmp-ad-container
 ##.sideadvert
 ##.sideadverts
 ##.sidebar-ads
@@ -202,6 +204,7 @@
 ##.yuepa-list
 ##.yuepa-warp
 ##[class$="ad-box"]
+##[class$="ad-container"]
 ##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
@@ -362,6 +365,7 @@
 ##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//go.admjmp.com/"]
 ##a[href*="//go.bbrdbr.com/"]
+##a[href*="//go.cambaddies.com/"]
 ##a[href*="//go.cmtaffiliates.com/"]
 ##a[href*="//go.currency.com/"]
 ##a[href*="//go.dmzjmp.com"]
@@ -706,6 +710,7 @@
 ##iframe[src^="//us-west1."][src*="/api/spots/"]
 ##iframe[src^="/ad"][src$=".html"]
 ##iframe[src^="/ai/s/s/su.php"]
+##iframe[src^="/frd5/s/s/su.php?"]
 ##iframe[src^="https://creative."][src*="/widgets/"]
 ##iframe[style$="margin: auto 0px !important; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px 0px 0px auto !important; overflow: hidden; z-index: 2147483647;"]
 ##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 21474"]
@@ -724,6 +729,7 @@
 ##iframe[width="728"][height="90"]
 ##iframe[width="780"][height="120"]
 ##iframe[width="980"][height="90"]
+##iframe[width][height][src*="/s/s/su.php?"][src*="https%3A"]
 ##img[alt$="抖阴"]
 ##img[alt$="横幅"][src$=".gif"]
 ##img[alt$="约炮"]
@@ -1758,6 +1764,7 @@ aiqicha.baidu.com#@#[class*="ad"][class*="recommend" i]
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend"]
 airplaydirect.com,americaoutloud.com,bigeye.ug,completesports.com,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,flsentinel.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kenyabuzz.com,kiwiblog.co.nz,mature.community,mature.mom,mauitime.com,milf.community,milf.mom,milf.plus,milf.sexy,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,newzimbabwe.com,onislandtimes.com,ouo.press,pornhub.com,punchng.com,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,sports.sexy,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,tntribune.com,wantedinafrica.com,wantedinrome.com,wschronicle.com##img[width="300"]
 ali213.net##iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+amateur8.com##.rmp-container
 anime1.me##div[id^="ad-"] > a
 animehentaihub.com,bestjavporn.com,hentaiasmr.moe,koreanstreamer.xyz,youporntube.net##.happy-header
 autohome.com.cn###float_bottom_button
