@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AtdUb0bzjCJ6MejubwxbKA
+! Checksum: wikMYI9juhqBK8dWL6UBmg
 ! Title: 自用去广告Adblock规则
-! Version: 20231101203128
-! Last modified: 2023-11-01 20:31:28
-! Total Count: 2983
+! Version: 20231102003244
+! Last modified: 2023-11-02 00:32:44
+! Total Count: 2984
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2134,6 +2134,7 @@ mydrivers.com#@#a[href*="/bp.ashx"]
 n6h7m.com##a[href="/pwa/lottery"],img[src*="://ad.xmmnsl.com"],a[referrerpolicy="unsafe-url"][target="_blank"],.float-ad
 news.heytapdownload.com##[class^="oppo-cec-new"]
 nr19.cn#@#img[alt*="广告"][src]
+nsfwr34.com##body > div[id][class]:has(img[src*="-ads-block-detector"])
 nxnba.com##.bootom-fixed
 o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
 okdyy.com##[style*="width:"][style*="100%"],p[style*="display: block;"]
