@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qpmF8qYgBxhghOEjBuBuow
+! Checksum: fy2XgNxx4GgktPBHe71glg
 ! Title: 混合规则(自动更新)
-! Version: 20231102171616
+! Version: 20231103000846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-02 17:16:16
-! Total Count: 122517
+! Last modified: 2023-11-03 00:08:46
+! Total Count: 122521
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -27434,6 +27434,7 @@
 ||gmx29.top^
 ||gmx30.top^
 ||gmx31.top^
+||gmx33.top^
 ||gmx34.top^
 ||gmx35.top^
 ||gmx36.top^
@@ -70509,6 +70510,7 @@
 ||zoeaegyral.com^
 ||zog.link^
 ||zogoluggers.com^
+||zogrepsili.com^
 ||zoileanfinbone.com^
 ||zoiqrudc.com^
 ||zol-img.com.cn/ad/
@@ -71876,6 +71878,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
 423down.com##.entry > P[style$="center;"]
+423down.com##.entry > p[style$="center;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
@@ -87199,6 +87202,7 @@ voicetube.com###tab-ad-site
 voiranime.com###mg_vd
 volcore.xyz##.avd1
 volcore.xyz##.avd2
+vox.com##.l-leaderboard-slot
 vpnmentor.com##.side-top-vendors-wrap
 vpornvideos.com###mn-container
 vpsdx.cn,vpsdx.com##.span4 > a > img
