@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: gTYzEGbVKAOvTq9sIUm54w
+! Checksum: 17UuEeWKWAJITQL/4H3Cyw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231103160947
+! Version: 20231104000856
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-03 16:09:47
-! Total Count: 24261
+! Last modified: 2023-11-04 00:08:56
+! Total Count: 24262
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18,6 +18,7 @@
 |http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
 |http://$image,third-party,domain=pornhub.com|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 |https://m.frgls.com/js/*.js?v=
+||*-hb-bid-feedback.mtgglobals.com^
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*/ad/$redirect=noop-0.1s.mp3,domain=huaren.tv,media
 ||*^sdtfrom=^$media,redirect=noop-0.1s.mp3,domain=qq.com

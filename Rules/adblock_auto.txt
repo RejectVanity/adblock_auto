@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jeyS+CFJJHRZDRMtXySFZA
+! Checksum: EIO9bG1oouDNa0Ey5RErMQ
 ! Title: 混合规则(自动更新)
-! Version: 20231103160936
+! Version: 20231104000846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-03 16:09:36
-! Total Count: 122571
+! Last modified: 2023-11-04 00:08:46
+! Total Count: 122578
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -60,6 +60,7 @@
 |https://$script,third-party,xmlhttprequest,domain=bc.vc|embedscr.to|embedsr.to|iembedrip.com
 |https://$script,xmlhttprequest,domain=urlcash.net
 |https://m.frgls.com/js/*.js?v=
+||*-hb-bid-feedback.mtgglobals.com^
 ||*.$image,redirect=1x1-transparent.gif,third-party,domain=rmdown.com
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
@@ -71925,6 +71926,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
 423down.com##.entry > P[style="font-size: 20px;"]
+423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
@@ -71979,7 +71981,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 4spaces.org,fuliba.net,fuliba2023.net,fuliba23.net,uliba.net,ypojie.com##.widget_ui_orbui
 4sysops.com,9to5linux.com,app-how-to-use-it.com,arcjav.com,backthetruckup.com,catcountry941.com,cnx-software.com,corvetteblogger.com,dailyveracity.com,droidwin.com,dvdgayporn.com,faqforge.com,fastestvpns.com,fuliba2020.net,fuliba2021.net,fuliba2023.net,gamingonphone.com,gizmochina.com,guides.wp-bullet.com,hardwaretimes.com,hotcelebshome.com,jav.guru,javcrave.com,landiannews.com,macsources.com,mangasy.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,nbagaffer.net,openloading.com,psdly.com,pussycatxx.com,quickanswer.blog,robloxhackscripts.com,ruyo.net,sashares.co.za,scienceabc.com,taradinhos.com,techdows.com,techjuice.pk,thetaiwantimes.com,thinkcivics.com,tooxclusive.com,torrentfreak.com,trendingpoliticsnews.com,uliba.net,vrhotporn.top,winandmac.com,xscholarship.com##.widget_custom_html
 4teachers.org###banner-wrapper
-4thsight.xyz,aceofhacking.com,briian.com,buildsometech.com,collegelearners.com,dpfantasy.org,eftm.com,firesticktricks.com,floxblog.com,gfxdrug.com,historicseries.com,hotcelebshome.com,hutporner.com,indiansexbazar.com,jav1080.com,laweekly.com,newtechworld.net,nicekkk.com,pennbookcenter.com,sakurajav.com,sonixgvn.net,streamempire.cc,tecmint.com,watchseinfeld.com,watchtheoffice.cc,zonegfx.com###custom_html-4
+4thsight.xyz,aceofhacking.com,briian.com,buildsometech.com,collegelearners.com,dpfantasy.org,eftm.com,firesticktricks.com,floxblog.com,gfxdrug.com,historicseries.com,hotcelebshome.com,hutporner.com,indiansexbazar.com,jav1080.com,laweekly.com,newtechworld.net,nicekkk.com,pennbookcenter.com,sakurajav.com,sonixgvn.net,streamempire.cc,tecmint.com,tmioe.com,watchseinfeld.com,watchtheoffice.cc,zonegfx.com###custom_html-4
 4tube.com###main-jessy-grid
 4tube.com##.cpp
 4tube.com##.footer-la-jesi
@@ -77765,6 +77767,7 @@ gamerdvr.com##div[style^="min-height:"]
 gamereactor.eu##.ad_Bumper
 gamereactor.eu##.ad_Bumper_2
 gamereactor.eu##.itsanad
+gamersky.com##.ad_cmt_cont
 gamersky.com##.dl_url:nth-child(4)
 gamersky.com##.downLoadGame-2
 gamersky.com##.downLoadGame-2 + .dl_url
@@ -86575,8 +86578,11 @@ touzi.com##.pop720-box
 touzi.com##.tck-cover
 towleroad.com##.towletarget
 townhall.com##.gpt-header
+toy-people.com##.article_insertAD
 toy-people.com##.good72890
 toy-people.com##.rightAd_300250
+toy-people.com##.rightAd_3002502
+toy-people.com##.right_bottom_bb
 tpb.party##a[style][href="https://surferprotector.com/"]
 tpblist.us##.panel-danger
 tporn.xxx##.sug-bnrs
@@ -87677,6 +87683,7 @@ win7xzb.com##.ware_gs
 winaero.com###dfsfsdfs-asdasd-2
 winaero.com###diodfoihdfsd
 winaero.com#?#p:-abp-contains(Advertisement)
+windows-noob.com##[style="text-align:center; margin: 20px;"]
 windows101tricks.com##.zanui-container
 windows2universe.org###google_mockup
 windows7en.com###ad_btm_down
