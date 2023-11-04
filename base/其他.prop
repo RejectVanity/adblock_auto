@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zexb5xlcc4hMbAVfnnCVYA
+! Checksum: cp0RJKfbLCkMVwOIRKLLSA
 ! Title: 自用去广告Adblock规则
-! Version: 20231104192633
-! Last modified: 2023-11-04 19:26:33
-! Total Count: 2985
+! Version: 20231104231735
+! Last modified: 2023-11-04 23:17:35
+! Total Count: 2992
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -437,6 +437,8 @@
 ##a[href="http://595tz166.cc"]
 ##a[href="http://www.zmtt.net/download"]
 ##a[href="https://79440433.com"]
+##a[href="https://js.jtoijdr.cn/download/4122_0.html"]
+##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
 ##a[href="https://kds03.net"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
@@ -512,6 +514,7 @@
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
 ##a[target="_blank"][href="/adjump/acg_show_right.html"]
 ##bkveng
+##body > .ec-ad
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
@@ -564,6 +567,7 @@
 ##div[class*="featherlight"]
 ##div[class*="ff-ads"]
 ##div[class*="invideo-native-adv_"]
+##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
@@ -803,7 +807,9 @@
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
+##img[src*="/image/gg"][width]
 ##img[src*="/images/banner/ads"]
+##img[src*="/images/gg"][width]
 ##img[src*="/laojiuhengfu"][src$=".gif"]
 ##img[src*="/new/ads/"]
 ##img[src*="/upload/ad/"]
@@ -2131,6 +2137,7 @@ mparticle.uc.cn##[class^="index"][class*="block"],[class^="index_"][class*="card
 mpo18.com##[style*="width:"][style*="100vw"]
 msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
+myd666.tv##.is_mb
 mydrivers.com#@#a[href*="/bp.ashx"]
 n6h7m.com##a[href="/pwa/lottery"],img[src*="://ad.xmmnsl.com"],a[referrerpolicy="unsafe-url"][target="_blank"],.float-ad
 news.heytapdownload.com##[class^="oppo-cec-new"]
