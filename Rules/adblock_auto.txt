@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1KzkXWyVroejFg+sle7dhQ
+! Checksum: 1d0i7wlsNStOIimGkNuTaA
 ! Title: 混合规则(自动更新)
-! Version: 20231104193105
+! Version: 20231105000808
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-04 19:31:05
-! Total Count: 122646
+! Last modified: 2023-11-05 00:08:08
+! Total Count: 122662
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -982,6 +982,7 @@
 ||1startfiledownload1.com^
 ||1starwarstx1.com^
 ||1stchina.net/static/js/jquery.in.
+||1t24.com^$third-party
 ||1talking.net^
 ||1tds26q95.de^
 ||1tdscpamedia.xyz^
@@ -9696,6 +9697,7 @@
 ||at*.doubanio.com^
 ||at-o.net^
 ||at.360.audion.fm^
+||at.prod.jimdo.systems^
 ||at.umtrack.com^/*?cid=$document
 ||at.umtrack.com^/*?cid=$~third-party
 ||at98.com^
@@ -16693,6 +16695,7 @@
 ||cnt.nov.ru^
 ||cnt.nuvid.
 ||cnt.nuvid.com^
+||cnt.promodj.com^
 ||cnt.proporn.
 ||cnt.rambler.ru^
 ||cnt.ramlife.ru^
@@ -35991,6 +35994,7 @@
 ||l6ssx.cn^
 ||l74co.xyz^
 ||l7kuyg.site^
+||l80ays.com^
 ||l90.xyz^
 ||l936.expressnews.com^
 ||l997.lmtonline.com^
@@ -71822,6 +71826,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 360kuai.com##.detail__top__title__under
 360kuai.com##.g4.undefined
 360kuai.com##.k-float-btn__qrcode__body
+360kuai.com##.mid-right__operate-adv__container
 360kuai.com##.novel_galery_icon
 360kuai.com##.taskbar
 360kuai.com,hao.360.com###cangbao_redbags
@@ -72185,6 +72190,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 55188.com,g138.com##.gg_head_m
 55188.com,g138.com##.gg_head_r
 5555op.com,router.houzi-blog.top##.img
+555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dd5.com,555dd6.com,555dd7.com,555dd8.com,555dd9.com,555dy.cn,555dy.com,555dy.com.cn,555dy.fun,555dy3.com,555dy4.com,555kan.net,555pian.com,555yy1.com,555yy2.com,555yy3.com,555yy4.com,555yy5.com,5dy7.vip,dami10.me,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,myd666.tv,o8tv.com,zxk555.com##.is_mb
 555hd2.com##a[href^="https://57063683.com"]
 5588.tv##.ProDaTu
 5588.tv##.ringhttu
@@ -72822,6 +72828,10 @@ alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alicocsouth.inter.71edge.com/videos/other/*.f4v
 aliexpress.com,aliexpress.us###card-list > a.search-card-item[href*="&aem_p4p_detail="][href*="&search_p4p_id="][target="_blank"]
+aliexpress.com,aliexpress.us##div[data-spm="seoads"]
+aliexpress.com,aliexpress.us#?#a[class^="manhattan--container--"][class*="main--card--"]:-abp-has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
+aliexpress.com,aliexpress.us#?#a[class^="manhattan--container--"][class*="main--card--"]:-abp-has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])
+aliexpress.com,aliexpress.us#?#div[class*="search-item-card-wrapper-"]:-abp-has(span[class^="multi--ad-"])
 alipay.com###J-cooperant-banner
 alist.nn.ci##.ss
 aliyun.com###yq-a-r-bottom
@@ -82713,7 +82723,6 @@ o8tv.com##.myui-panel_bd > .col-xs-1 > a[target="_blank"] > img
 o8tv.com##a[href^="https://c.madeqr.com/"][target="_blank"] > img
 o8tv.com#?#.container > .row > .myui-panel-bg:has(> .myui-panel-box > .myui-panel_bd > .col-xs-1 > a[target="_blank"] > img)
 o8tv.com#?#.container > .row > .myui-panel-bg:has(> .myui-panel-box > .myui-panel_bd > .myui-vodlist > .col-lg-8 > .myui-vodlist__box > a[target="_blank"])
-o8tv.com,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,555dy.fun,555yy1.com,dami10.me,555yy2.com,555dd9.com,555dd8.com,555dd7.com,555dd6.com,555dd5.com,555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dy4.com,555dy3.com,5dy7.vip,555kan.net,555pian.com,zxk555.com,555dy.com.cn,555dy.com,555dy.cn,555yy3.com,555yy5.com,555yy4.com##.is_mb
 oann.com##.ad-slot__ad-label
 oann.com##.sidebar-ad-slot__ad-label
 oaoa.com###leaderboard-top
@@ -88314,6 +88323,7 @@ yahoo.com###sda-LREC3-iframe
 yahoo.com###sda-LREC4
 yahoo.com###sda-MAST
 yahoo.com###sda-WFPAD
+yahoo.com###sda-WFPAD-1
 yahoo.com###sda-WFPAD-iframe
 yahoo.com###viewer-LDRB
 yahoo.com###viewer-LREC2
@@ -119020,6 +119030,8 @@ zle.com$script
 ##a[href="https://368259.com"]
 ##a[href="https://79440433.com"]
 ##a[href="https://guapitv.app/"]
+##a[href="https://js.jtoijdr.cn/download/4122_0.html"]
+##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
 ##a[href="https://kds03.net"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
@@ -119485,6 +119497,7 @@ zle.com$script
 ##atf-ad-slot
 ##bkveng
 ##body .has-ad
+##body > .ec-ad
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
@@ -119561,6 +119574,7 @@ zle.com$script
 ##div[class*="featherlight"]
 ##div[class*="ff-ads"]
 ##div[class*="invideo-native-adv_"]
+##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
@@ -119947,7 +119961,9 @@ zle.com$script
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
+##img[src*="/image/gg"][width]
 ##img[src*="/images/banner/ads"]
+##img[src*="/images/gg"][width]
 ##img[src*="/laojiuhengfu"][src$=".gif"]
 ##img[src*="/new/ads/"]
 ##img[src*="/upload/ad/"]
