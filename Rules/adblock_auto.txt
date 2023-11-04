@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: YtgPX6LNt2CTzgAoG/rAqQ
+! Checksum: 1KzkXWyVroejFg+sle7dhQ
 ! Title: 混合规则(自动更新)
-! Version: 20231104160919
+! Version: 20231104193105
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-04 16:09:19
-! Total Count: 122640
+! Last modified: 2023-11-04 19:31:05
+! Total Count: 122646
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -71283,6 +71283,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 123movies.net,1stream.link,4anime.biz,4anime.gg,9anime.tube,actvid.com,animebee.to,animefreak.site,animefreak.ws,animefrenzy.net,animeheaven.pro,animekisa.in,animekisa.tv,animepahe.cc,apkmody.io,batotoo.com,beetoon.net,bollyflix.baby,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,dembed1.com,downloadlagu321.site,dragontranslation.com,dramacool.pk,dramacool.sr,dulu.to,filmlinks4u.cam,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,gogoanime.run,gogoplay1.com,goload.pro,harimanga.com,hdjerjer2.com,hds-streaming-hd.com,herogayab.net,hhdmovies.cam,himovies.to,hindilinks4u.cam,hindilinks4u.pm,hothit.me,hurawatch.cc,iflixmovies.com,iflixmovies.lol,instamod.co,jujutsukaisen-manga.online,jujutsukaisenonline.net,leercapitulo.com,linksly.co,manga1st.com,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangas-raw.com,mangatigre.net,mangceh.cc,manhuafast.com,manhwadesu.ink,manhwadesu.org,manhwalist.com,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movierulz.cam,movies-watch.com.pk,movies.ninja,moviesmod.com,moviesmod.pro,mp3fromyou.tube,mreader.co,ngomik.net,nkiri.com,playlist-youtu.be,pomvideo.cc,prmovies.beauty,prmovies.bz,prmovies.cam,prmovies.fyi,prmovies.gay,prmovies.org,prmovies.re,putlocker.vc,putlockers.fm,putlockers.li,rawkuma.com,sflix.se,shortylinks.info,sockshare.ac,ssoap2day.to,streamingcommunity.mom,sukidesuost.info,tamilyogi.best,tamilyogi.bike,uwatchfre.cam,uwatchfree.be,vanime.co,waploaded.com,wat32.tv,watchofree.com,watchomovies.cam,watchomovies.net,watchseries.cyou,watchseries.ninja,wcostream.cc,webtoonshare.com,y-2mate.com,yomovies.bz,yomovies.gay,yomovies.pl,yomovies.pm,yomovies.team,yomovies.ws,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 123pan.com###prod > .ant-carousel
 123pan.com##.advBanner
+123pan.com##[class*="adv-container"]
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
 123proxy.biz###cookieConsentUR99472
 123putlocker.io##[href^="https://moneynow.one/"]
@@ -79607,6 +79608,8 @@ indianapublicmedia.org##.sidebar-upper-underwritings
 indiancountrytoday.com##.skgeoeho
 indianexpress.com###gpt_ad_IE_ROS_BUDGET_BAND
 indianexpress.com##.add-first
+indianexpress.com##.ie-banner-wrapper
+indianexpress.com##.ie-int-campign-ad
 indianexpress.com##.rhs-banner-carousel
 indianpornfuck.com##.spots.appeared
 indianpornfuck.com,xindiansex.com##.banner-fixed
@@ -80782,6 +80785,7 @@ lasvegassportsbetting.com##.recommended-wrap
 lasvegassun.com###ad-colB-1
 lasvegassun.com##.articletoolset
 lasvegassun.com##.varWrapper
+latestdeals.co.uk##.BrD5q
 latestly.com##.lhs_adv_970x90_div
 latimes.com,sandiegouniontribune.com##.revcontent
 law.com,topcultured.com##h3
@@ -82255,10 +82259,12 @@ ndtv.com##.add__txt
 ndtv.com##.add__wrp
 ndtv.com##.add_dxt-non
 ndtv.com##.add_top-wrp-fl
+ndtv.com##.ads-wrp
 ndtv.com##.hmpage_rhs
 ndtv.com##.product_mapping_sticky
 ndtv.com##.sp_ad-t
 ndtv.com##.taboolFeed
+ndtv.com##div[class^="add_"]
 ndtv.com,ndtv.in##[class^="firework"]
 ndtv.com,ndtv.in##[id^="firework"]
 neatorama.com###Neatorama_300x250_300x600_160x600_ATF
