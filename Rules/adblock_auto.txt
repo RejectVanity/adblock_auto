@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: htGkO+CtBo8d3NLZaoMcjA
+! Checksum: i5lQbmpnVS0WwMyKL8Tmdg
 ! Title: 混合规则(自动更新)
-! Version: 20231105083347
+! Version: 20231105090634
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-05 08:33:47
-! Total Count: 122494
+! Last modified: 2023-11-05 09:06:34
+! Total Count: 122501
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -18569,6 +18569,7 @@
 ||d41.co^
 ||d4b138a7aa.com^
 ||d4d48974197052ea.com^
+||d4d99bfbcf.e59f087ae4.com^
 ||d4vd.life/love/
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||d5.sina.com.cn^$object,script
@@ -33970,6 +33971,7 @@
 ||js.bninocerossrhino.com^
 ||js.brstke.top^
 ||js.brstke.top^$third-party
+||js.cabnnr.com^$third-party
 ||js.chetan.com^
 ||js.datadome.co^
 ||js.desiporn.tube/*/baker
@@ -43163,6 +43165,7 @@
 ||null-point.com^
 ||nullboatloo.com^
 ||nulldiscussion.com^
+||nullitics.com^
 ||nullnorth.com^
 ||nullsrefilliron.com^
 ||nulltm.com/adv.js
@@ -67131,6 +67134,7 @@
 ||wpqmiq.cn^
 ||wpqsmse.cn^
 ||wpshsdk.com^
+||wpshsdk.com^$third-party
 ||wpu.sh^
 ||wpunativesh.com^
 ||wpush.org^
@@ -89711,6 +89715,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/adx_
 .com/adz/
 .com/api/getPos?jspath=/$~third-party
+.com/api/senddata?$third-party
 .com/appinstall.js$third-party,script
 .com/bads/
 .com/banner_list.js
@@ -93554,6 +93559,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /advertises/*
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.boardgamegeek.com|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.greunenberg.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
+/advertising.js
 /advertising/banner_
 /advertising/banners/*
 /advertising/traffic-
@@ -119479,6 +119485,7 @@ zle.com$script
 ##div[data-content="Advertisement"]
 ##div[data-contentexchange-widget]
 ##div[data-dfp-id]
+##div[data-element="empty"][data-izone="main"]
 ##div[data-google-query-id]
 ##div[data-id-advertdfpconf]
 ##div[data-insertion]

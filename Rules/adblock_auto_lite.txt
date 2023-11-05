@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: EIHPwygVtmaCaDihIz72Pw
+! Checksum: Z3hq5ty5dCK75p0gDwYusQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231105083401
+! Version: 20231105090651
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-05 08:34:01
-! Total Count: 24289
+! Last modified: 2023-11-05 09:06:51
+! Total Count: 24371
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5256,6 +5256,7 @@
 ||d3f3.xyz^
 ||d3nfknbv.icu^
 ||d4.sina.com.cn^$object,script
+||d4d99bfbcf.e59f087ae4.com^
 ||d4vd.life/love/
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||d5.sina.com.cn^$object,script
@@ -6291,6 +6292,7 @@
 ||featured.perfectionholic.com^
 ||februarylovestory.com^$third-party
 ||feesoon.com/js/cnzz_
+||fehrda.xyz^
 ||feijisu5.com/js/huimi-
 ||feild.xyz^
 ||feiln.xyz^
@@ -8378,6 +8380,7 @@
 ||js.bju888.com^
 ||js.bninocerossrhino.com^
 ||js.brstke.top^$third-party
+||js.cabnnr.com^$third-party
 ||js.desiporn.tube/*/baker
 ||js.desiporn.tube/wovbrqqij/
 ||js.duotegame.com^
@@ -12673,6 +12676,7 @@
 ||tcmap.com.cn/js/b_
 ||tctltb.com^
 ||tcuqqhj.icu^
+||tcvmtp.xyz^
 ||td.easysavemore.com^
 ||td.sxwqhotel.com^
 ||tdavopl.icu^
@@ -13868,6 +13872,7 @@
 ||wpnsrv.com^$third-party,important
 ||wpoarjokzgi.com^
 ||wpozwh.com^
+||wpshsdk.com^$third-party
 ||wqdro6us.icu^
 ||wqmgqm.xyz^
 ||wqnggnse.fun^
@@ -14301,6 +14306,7 @@
 ||xzji.com/data/block_js/softShow_
 ||xzlurd.xyz^
 ||xznrtl.xyz^
+||xzvahr.xyz^
 ||xzvfd.xyz^
 ||xzxhpcdz.icu^
 ||xzyituo.com^
@@ -17926,6 +17932,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com/adv?
 .com/adx/
 .com/api/getPos?jspath=/$~third-party
+.com/api/senddata?$third-party
 .com/appinstall.js$third-party,script
 .com/c.gif?
 .com/candy*.js$third-party
@@ -18640,13 +18647,86 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /adsmatcher-anti-adblock/*
 /advert/youxi.js$script
 /advert?
+/advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
 /advertise/*$domain=~legl.co|~payju.ir
+/advertise125x125.
+/advertise_
+/advertisebanners/*
+/advertisehere.
+/advertisement-$~script,domain=~berlin-airport.de
 /advertisement.
 /advertisement/*
+/advertisement160.
+/advertisement?zoneid=
 /advertisement_
+/advertisement_$~script
+/advertisements-
+/advertisements?
+/advertisements_
+/advertiser/*$domain=~admin.exoclick.com|~ads.microsoft.com|~ads.pinterest.com|~ads.tiktok.com|~advertiser.flossbank.com|~affili.net|~affiliprint.com|~bingads.microsoft.com|~linkpizza.com|~mediance.com|~mobileapptracking.com|~trialpay.com
+/advertisers.$image,script,subdocument,domain=~advertisers.adgoal.de|~advertisers.adversense.com|~advertisers.careerone.com.au|~advertisers.ch|~advertisers.dk|~advertisers.easyweddings.com.au|~advertisers.io|~advertisers.leadia.ru|~advertisers.ypfboost.ph|~panel.rightflow.com
 /advertisers.js
 /advertisers/*$domain=~ad-maven.com|~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
+/advertiserwidget.
+/advertises/*
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
+/advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.boardgamegeek.com|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.greunenberg.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
+/advertising.js
+/advertising/banner_
+/advertising/banners/*
+/advertising/traffic-
+/advertising2.
+/advertising?
+/advertisingWebRenderer.min.js
+/advertising_$domain=~advertising.scoop.co.nz
+/advertisingbanner.
+/advertisingbanner/*
+/advertisingbanner1.
+/advertisingbanner_
+/advertisingbutton.
+/advertisingcontent/*
+/advertisingmodule.
+/advertisings.
+/advertisingwidgets/*
+/advertisment-
+/advertisment/*
+/advertisment/*$~image
+/advertisment1-
+/advertisment4.
+/advertisment_
+/advertisments/*
+/advertize_
+/advertlayer.
+/advertmedia/*
+/advertmsig.
+/advertorial-
+/advertorial/*
+/advertorial_
+/advertorials/*
+/advertphp/*
+/advertpixelmedia1.
+/advertpro/*
+/advertrail.
+/advertright.
+/adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
+/adverts/*$~xmlhttprequest
+/adverts_
+/advertserve.
+/advertsky.
+/advertsquare.
+/advertss/*
+/advertstub.
+/adverttop.
+/advertverticallong.
+/advertwebapp.
+/adverweb.
+/advf1.
+/advfiles/*
+/advhd.
+/advice-ads.
+/advideo.$domain=~advideo.pro|~advideo.site
+/adview.$domain=~adview.mu|~adview.mx|~adview.online|~adview.su
+/adview/*
 /adx_blacklist.js
 /adx_exo_
 /adx_flash.
@@ -22855,6 +22935,7 @@ zle.com$script
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class^="swiper-"] > a[onclick][rel="nofollow"] > img[style="width: 100%; height: 100%"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
+##div[data-element="empty"][data-izone="main"]
 ##div[id*="_"][classname$="_f"][class$="_f"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
@@ -24125,6 +24206,7 @@ zle.com$script
 @@||bestlistofporn.com^$generichide
 @@||bili96.co^$image
 @@||c-ctrip.com/images/*.jpg
+@@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||camsexvideo.net/js/advertising.js
 @@||cdn-static.pornhd.com/pornhd/*/css/dist/main.css$domain=pornhd.com
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
