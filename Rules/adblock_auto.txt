@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: i5lQbmpnVS0WwMyKL8Tmdg
+! Checksum: CVdhOi7QQWbqTPVow8+G3w
 ! Title: 混合规则(自动更新)
-! Version: 20231105090634
+! Version: 20231105100411
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-05 09:06:34
-! Total Count: 122501
+! Last modified: 2023-11-05 10:04:11
+! Total Count: 122509
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -65298,6 +65298,7 @@
 ||vvickycira.com^
 ||vviikig.cn^
 ||vvmblock.ru^
+||vvmeirihd.feijied.xyz^
 ||vvobtrjtinsd.com^
 ||vvphznw.cn^
 ||vvrbjtjxmlgcd.xyz^
@@ -82032,8 +82033,10 @@ namethatporn.com##iframe[src*="//a.adtng.com/"]
 nanfengyl.com##.index-top-ad1
 nanfengyl.com,ziyuanba.com##.top-ad-txt
 nanoreview.net###float-sb-right
+nanoreview.net###nfloat-sb-right
 nanoreview.net###the-app > .mb
 nanoreview.net##.nad_only_desktop
+nanoreview.net##.sinad_only_desktop
 nanrenwo.net##div[id^="content"]
 naozhong.net.cn###pnl-ne0n
 narcity.com###leaderboard-wrapper
@@ -90316,6 +90319,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .xyz/*=$object,third-party
 .xyz/*?16$third-party
 .xyz/*_*.js?*16$third-party
+.xyz/*_*_1_*.js?$third-party
 .xyz/*_*_1_*.js?*16$third-party
 .xyz/*_*_2_*.js?*16$third-party
 .xyz/99x/
@@ -90339,6 +90343,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .xyz/chrdaf_*_*.js?$third-party
 .xyz/cyethhd_*.js?$third-party
 .xyz/d/?resource=bundler&nada=1&widgets=$third-party
+.xyz/do?16$third-party
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
 .xyz/ember?$third-party
@@ -90434,6 +90439,9 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$document
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$~third-party
 /*.php?pid=*&n=$third-party
+/*/*/chart*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la
+/*/*/d3.2.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la
+/*/*/react*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la
 /*_*_/bigREDcat.$third-party
 /*_*_/bigREDdog.$third-party
 /*xmtl$domain=xhxswz.com|biqubao.com
