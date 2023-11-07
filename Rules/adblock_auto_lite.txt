@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: HR8KzMcP/3wUduzL7/D5Zw
+! Checksum: mawvjP0kk/Ho/At0MNvMiQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231108000841
+! Version: 20231108032314
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-08 00:08:41
-! Total Count: 24405
+! Last modified: 2023-11-08 03:23:14
+! Total Count: 24411
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4423,6 +4423,7 @@
 ||bubblesmedia.ru^
 ||buhgalter.com.ua^*/blocker.
 ||buhgalter911.com^*/blocker.
+||buhlvp.pojuko.buzz^
 ||buimg.com^$domain=kisssub.org
 ||bulankk.com^
 ||bumimi.com/money/
@@ -12052,6 +12053,7 @@
 ||sgg.southcn.com^
 ||sgk.xyz/static/js/pc.js
 ||sgnlaigb.fun^
+||sgoijw.com^$third-party
 ||sgsdqs.xyz^
 ||sgzhg.pornlovo.co^
 ||sh.sina.com.cn/iframe/522/
@@ -22510,6 +22512,7 @@ zle.com$script
 ##a[href*="//app.kmtgsopq.com"][target="_blank"]
 ##a[href*="//baidujkdjklvvsbvk.com"]
 ##a[href*="//bitizm.pojuko.buzz/"]
+##a[href*="//buhlvp.pojuko.buzz/"]
 ##a[href*="//go.admjmp.com/"]
 ##a[href*="//go.bbrdbr.com/"]
 ##a[href*="//go.cambaddies.com/"]
@@ -22843,6 +22846,7 @@ zle.com$script
 ##amp-sticky-ad
 ##bkveng
 ##body .has-ad
+##body > #app > .adv-frame
 ##body > .ec-ad
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
@@ -24203,6 +24207,8 @@ zle.com$script
 @@://*/static/ad/main.js
 @@://css.yhdmtu.xyz$image,third-party
 @@://d*.cloudfront.net/douyin
+@@://d*.cloudfront.net/usr/plugins
+@@://d*.cloudfront.net/usr/themes
 @@://img.souche.com/*.jpg
 @@://up.taoseye.com/contents/other/player/playerlogo.png
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
@@ -24247,7 +24253,7 @@ zle.com$script
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
 @@||chaturbate.com/*embed^$domain=sweetpornlinks.com
 @@||cloudflare.com/ajax/libs/dash-shaka-playback/$script,domain=vpornvideos.com
-@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me
+@@||cloudfront.net^$domain=anime1.me|assistant.etxlzb.com|bitly.com|blog.wiki-topia.com|heatworld.com|hotslogs.com|ksl.com|mecox.wpengine.com|nationalreview.com|portmiamiwebcam.com|rethmic.com|soap2day.ai|streamingcommunity.tech|webupd8.org
 @@||cre.dp.sina.cn^
 @@||cyberdean.fr/js/advertisement.js
 @@||darkino.online^$generichide
