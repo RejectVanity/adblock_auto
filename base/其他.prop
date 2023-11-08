@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BMHVox3iEGdCe6e+h2JiGQ
+! Checksum: JE9ACWMaxh0OowQgW5/mZQ
 ! Title: 自用去广告Adblock规则
-! Version: 20231108192413
-! Last modified: 2023-11-08 19:24:13
-! Total Count: 3094
+! Version: 20231109010427
+! Last modified: 2023-11-09 01:04:27
+! Total Count: 3095
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2232,6 +2232,7 @@ myd666.tv##.is_mb
 mydrivers.com#@#a[href*="/bp.ashx"]
 n6h7m.com##a[href="/pwa/lottery"],img[src*="://ad.xmmnsl.com"],a[referrerpolicy="unsafe-url"][target="_blank"],.float-ad
 news.heytapdownload.com##[class^="oppo-cec-new"]
+news.heytapdownload.com##div.news-wrapper
 nr19.cn#@#img[alt*="广告"][src]
 nsfwr34.com##body > div[id][class]:has(img[src*="-ads-block-detector"])
 nxnba.com##.bootom-fixed
