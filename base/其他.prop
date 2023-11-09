@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JE9ACWMaxh0OowQgW5/mZQ
+! Checksum: ijtQMeCNclC0+zlZNqj4BA
 ! Title: 自用去广告Adblock规则
-! Version: 20231109010427
-! Last modified: 2023-11-09 01:04:27
-! Total Count: 3095
+! Version: 20231109135327
+! Last modified: 2023-11-09 13:53:27
+! Total Count: 3102
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -419,6 +419,7 @@
 ##a[href*="AdsCode_"][target="_blank"]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
+##a[href*="jszclock.com/gebi/"]
 ##a[href*="live/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="top/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
@@ -861,6 +862,7 @@
 ##img[style][alt][src*="/data/ds3/"][src$=".php"]
 ##img[style][alt][src*="/data/game/"][src$=".gif"]
 ##img[style^="width:100%;height:1"][style$="px;"][src*=".xyz"][src*="?"][src*="16"]
+##img[width="0"][height="0"]
 ##li > a[data-uuid]
 ##li[class="dataic"] > a[href*="/?channelCode="][target]
 ##li[class="dataic"] > div > a[href][name="点击播放"]
@@ -1344,7 +1346,7 @@
 /apijs/lunbovipdaka/*.js$~third-party
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
 /assets/ad-$domain=~flowus.cn
-/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
+/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com
 /bar/yfgg.js
 /bar/yfggb.js
 /bid?url=http
@@ -1354,6 +1356,7 @@
 /blxn_*.js?
 /bultykh/ipp24/7/*$third-party
 /clientapi/app/getinfo?appid=*&android=true$third-party
+/cnzz/tongji.php
 /config/json/cctv.json?v=1$~third-party
 /display/ads/*
 /dygg_
@@ -2198,6 +2201,7 @@ m.qidian.com##[id*="readTopTip"]
 m.qidian.com##div.jsAuthorSay.read-author-say
 m.sohu.com##.art-rec-news
 m.sohu.com##a[href="javascript:void(0);"]
+m.sohu.com##div#CallAppContainer
 m.thepaper.cn##.index_footer_banner__Mcr_R
 m.thepaper.cn##[class*="index_details_ad"]
 m.wannianli8.com##.cesuankuang
@@ -2496,6 +2500,8 @@ xgroovy.com##div[class^="in is_mobile"]
 xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##.bottom-widget-section,.clipstore-bottom,.player-add-overlay,.promo-message,.sponsorBottom,.video-view-ads,.xplayer-b,.xplayer-hover-menu
 xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##[class$="-pause"],[class*="ads"],[class*="video-view-ads"],[class*="view-ads"],[class*="wio-"],[class*="wixx-"],[class*="yld-"],[class*="yxd-j"],[class^="xp-banner"],[class^="xplayer-banner"],a[href*="adblocked"][target="_blank"],[data-role^="yld-"],[class^="xplayer-ads"]
 xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net,fantuanhd.com,kankanju.cc,renren.pro,sstv.fun##*[style*="bottom"],[class$="_b"]
+xiashuyun.com##[id^="downapp"]
+xiashuyun.com##div#navdown
 xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xn--*.*/ins/js/*16$third-party,script
 xnxx.com##[class*="ad-"]
@@ -2862,6 +2868,7 @@ zle.com$script
 ||mylengmen.com/assets/public/$script
 ||netapd.gdxinya.com^
 ||nmm9i.xyz^
+||nosadfun.com/assets/public/$script
 ||nsclick.baidu.com^
 ||nscxbr.com^$third-party
 ||nwecd.xyz^$third-party
