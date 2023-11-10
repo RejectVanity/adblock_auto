@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0G5GWoHHoYfijB5LdIlQVw
+! Checksum: oqoFsKXnDc5rlM40Cdw36Q
 ! Title: 混合规则(自动更新)
-! Version: 20231110111611
+! Version: 20231110160931
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-10 11:16:11
-! Total Count: 122979
+! Last modified: 2023-11-10 16:09:31
+! Total Count: 122986
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19613,6 +19613,7 @@
 ||departurealtar.com^
 ||departureconspicuous.com^
 ||dependablestaredpollution.com^
+||dependenttrip.com^
 ||dephasevittate.com^
 ||depictimproperdenunciation.com^
 ||depids.com^
@@ -32998,6 +32999,7 @@
 ||its.porn/ai/s/s/js/m/push.js
 ||itseedotor.com^
 ||itselfheater.com^
+||itshang.com/*/*/tools.js$script
 ||itskiddien.club^
 ||itskiddoan.club^
 ||itsmore.cn^$third-party
@@ -54138,6 +54140,7 @@
 ||sentimenthypocrisy.com^
 ||sentrapromosi.com^
 ||sentry.alaatv.com^
+||sentry.alibaba.ir^
 ||sentry.bale.sh^
 ||sentry.basalam.com^
 ||sentry.cafebazaar.org^
@@ -61433,6 +61436,7 @@
 ||tracker.idocdn.com^
 ||tracker.iltrovatore.it^
 ||tracker.iplocation.net^
+||tracker.jabama.com^
 ||tracker.jkstremum.xyz^
 ||tracker.joongang.co.kr^
 ||tracker.joost.com^
@@ -71156,6 +71160,7 @@
 ||zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqp.de^
 ||zyyz.pro^
 ||zyzjpx.cn^
+||zyzo.cn^
 ||zz.bdstatic.com^
 ||zz123.com^$third-party
 ||zz2017.ru^
@@ -78737,7 +78742,9 @@ gzmama.com###zone_index_fullcolumn_2
 gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 gzmama.com###zone_top_fullcolumn
+h-ciyuan.com##+js(abort-current-script, document.write, adbyunion)
 h-ciyuan.com##.aligncenter > a[target="_blank"] > img
+h-ciyuan.com#?#.gridview-featured-posts-area > .widget_media_image:has(> .gridview-box-inside > .wp-block-image > figure > a[target="_blank"])
 h-flash.com##a[style^="width: 320px; height: 250px"]
 h-online.com###bannerzone
 h-online.com##.bcadv
