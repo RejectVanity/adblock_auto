@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0d2mBsJClIQAJ6VVK8K54Q
+! Checksum: yId24GE1he8igkof7pu0Dg
 ! Title: 自用去广告Adblock规则
-! Version: 20231110210707
-! Last modified: 2023-11-10 21:07:07
-! Total Count: 3108
+! Version: 20231111002214
+! Last modified: 2023-11-11 00:22:14
+! Total Count: 3110
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -49,6 +49,7 @@
 ###modal-ad
 ###modal-adblocker
 ###modalAblockWrapper
+###modalAdblock
 ###playerJsvLayer.jsv-layer
 ###rmp-ad-click-id
 ###rollingadBox > .wrap
@@ -2192,6 +2193,7 @@ m.iask.sina.com.cn##[src*="//jcylrv.iask.com.cn"]
 m.ithome.com##.hot-app
 m.jingyanlib.com##.question-other
 m.jingyanlib.com##[class="article-swiper"]
+m.mtrend.cn##a[class][onclick^="window.open("],span[class][onclick^="window.open("],[class^="kong"],iframe[src],#interstitial,#ad_pic_float,[class^="mingpai"],[class*="random_ad"]
 m.qidian.com##.bottom-nav
 m.qidian.com##.btn-primary-circle
 m.qidian.com##.dl-hongbao
