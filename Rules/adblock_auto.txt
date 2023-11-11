@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: EPgN6lXq2jZ6ALwxeVAP6w
+! Checksum: sBCdEmW+P/QeWNxfc1/b8A
 ! Title: 混合规则(自动更新)
-! Version: 20231111160841
+! Version: 20231112000747
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-11 16:08:41
-! Total Count: 123053
+! Last modified: 2023-11-12 00:07:47
+! Total Count: 123072
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1380,6 +1380,7 @@
 ||2ts55ek00.de^
 ||2tyne.ic^
 ||2tyne.icu^
+||2u3v4w5x6y.com^
 ||2ujj.com/js/bo.js
 ||2under.ru^
 ||2vaxwkujrfwh.info^
@@ -50044,6 +50045,7 @@
 ||qopeqi13913fjajba123nfd1344.top^
 ||qopj.xyz^
 ||qopzmao.com^
+||qoqoangry.com^
 ||qoqv.com^
 ||qoqxnuxneo.xyz^
 ||qoredi.com^
@@ -50963,6 +50965,7 @@
 ||reali.st^
 ||realist.gen.tr^
 ||realityamorphous.com^
+||realizedoor.com^
 ||realizerecess.com^
 ||realizesensitivenessflashlight.com^
 ||realizevacation.com^
@@ -57997,6 +58000,7 @@
 ||stringsmile.com^
 ||stringssymptomfishing.com^
 ||stringthumbprowl.com^
+||strip.chat/widgets/$domain=tktube.com
 ||strip.taobaocdn.com/tfscom/$subdocument
 ||stripe.com^$script,domain=~nextdns.io|~obsidian.md
 ||stripe.rs-1028-a.com^
@@ -64395,6 +64399,7 @@
 ||valencevinyls.life^
 ||valentinosverige.com^
 ||valerainingexplain.com^
+||valerieurania.com^
 ||valetedmasaris.website^
 ||valeuceplangka.com^
 ||valgoidaguglia.guru^
@@ -67862,6 +67867,7 @@
 ||www.p.de^
 ||www.pcbeta.com//data/cache/ggk.js
 ||www.pornvideos.casa^
+||www.runningshoessverige.com^
 ||www.stadiumstage.com^
 ||www.tjjd*.live^$third-party
 ||www.tjjd*.xyz^$third-party
@@ -67922,6 +67928,7 @@
 ||wykw.fun^
 ||wylqafraq7.com^
 ||wymcloud.love^
+||wymzwy.cn^
 ||wynather.com^
 ||wynvalur.com^
 ||wyoaij.icu^
@@ -72265,6 +72272,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
 423down.com##.entry > P[style*="20px;color"]
+423down.com##.entry > p[style*="20px;color"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
@@ -73289,6 +73297,7 @@ amishamerica.com,flixtor.video##a[rel="nofollow"] > img
 amoyshare.com##.game-poster
 amp.theguardian.com##[data-sort-time="1"]
 amsterdamnews.com,sundayworld.co.za,universityaffairs.ca##a[href*="/sponsored-content/"]
+amz123.com##.two-activity-style
 ana-white.com###block-views-block-sponsors-block-1
 analdin.com,bclikeqt.com,dailyporn.club,deportealdia.live,electronicproducts.com,fc.lc,fcc.lc,freefeds.com,hentaimama.io,mdn.lol,mp4upload.com,powvideo.net,serialeonline.biz,sharer.pw,sportsbay.org,streamplay.to,techgeek.digital,techydino.net,teleriumtv.com,tophostingapp.com,underhentai.net,uxstyle.com,watchhentai.net,xozilla.com,za.gl###overlay
 analdin.com,goodav17.com,mangovideo.pw,pornkino.cc,streamporn.pw,watchpornfree.info,xopenload.me##+js(abort-on-property-read, popunder)
@@ -73520,6 +73529,7 @@ applefans.today#$#.tipi-overlay { display: none !important; }
 applefans.today,ulifestyle.com.hk#$#body { overflow: auto !important; }
 appleinsider.com##.exclusive-wrap
 appleinsider.com##.push
+appleinsider.com,dappradar.com,euroweeklynews.com,thefinancialbrand.com##[rel*="sponsored"]
 appleinsider.com,gter.net##.bottom
 appleworld.today###block-26
 apprcn.com##a[href*=".lizhi."]
@@ -76047,10 +76057,13 @@ currys.co.uk##.criteoproducts-section
 curseforge.com###cdm-zone-03
 cutegurlz.com,maketecheasier.com##.header-widget
 cutyt.com,onlineocr.net,publish0x.com##.d-xl-block
+cw.com.tw##.ad--video
+cw.com.tw##.article__promotion
 cw.com.tw##.cw__advertising
 cw.com.tw##.emailorder
 cw.com.tw#?#.adActive > .list-link:has(> ul > li > div[id^="div-gpt-ad"])
 cw.com.tw#?#.adActive > div[class^="leaflet"]:has(> div[id^="div-gpt-ad"])
+cw.com.tw,sogou.com##.bottombar
 cww.net.cn##.adlinkL
 cww.net.cn##.adlinkR
 cww.net.cn##.ggbar
@@ -76201,7 +76214,6 @@ dappradar.com##.Container--bottomBanners
 dappradar.com##.bottom-networks
 dappradar.com##.rankings-ad-row
 dappradar.com##[href^="https://bogged.finance/"]
-dappradar.com,euroweeklynews.com,thefinancialbrand.com##[rel*="sponsored"]
 daringfireball.net###SidebarMartini
 darknessporn.com##.a-3.g-single
 darknessporn.com##.after-boxes
@@ -81708,6 +81720,7 @@ manhuadb.com##.ad_2_wrap
 manhuadb.com##.comicbook-index
 manhuadb.com##.d-flex.px-2
 manhuadb.com##a.d-block
+manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
 manhuagui.com##.gg_728
 manhuagui.com##.gg_950
 manhuagui.com##.w250 > .mt10[style="width: 300px; height: 250px;"]
@@ -85742,7 +85755,6 @@ sogou.com###text_ad_area
 sogou.com##.ad-img-bt + .picContainer
 sogou.com##.ad_result
 sogou.com##.aside-qcode
-sogou.com##.bottombar
 sogou.com##.game-op
 sogou.com##.hd-slider > .slider-container
 sogou.com##.js-ad-item
@@ -88137,6 +88149,8 @@ wionews.com##.ad-height
 wionews.com##.ads-box-300x300
 wireshark.org##.banner-img-downloads
 wiseway.com.cn##.float-kefu
+wish.com#?#div[class^="ProductGrid__FeedTileWidthWrapper-"]:-abp-has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
+wish.com#?#div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:-abp-has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 wishdown.com##img[href*=".41gw.com/"]
 witcp.com##.global_ifmobile_mask
 wjbc.com##a[href^="http://sweetdeals.com/bloomington/deals"]
@@ -118905,6 +118919,7 @@ zle.com$script
 ##a[href$=".120ydrayy.com"]
 ##a[href$=".anwangdaohang.com"]
 ##a[href$=".cc:8443"]
+##a[href$=".html?c=adha8"][target="_blank"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
 ##a[href$=".vip"][target="_blank"][class] > span
 ##a[href$=".xyz:8443"]
@@ -119387,6 +119402,7 @@ zle.com$script
 ##a[href*="top/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
 ##a[href*="xn--dpq21dn8asxam8v16q0j5c.com"]
+##a[href*="xn--gnr806avi6ad2dt3f2np.com"][target="_blank"]
 ##a[href*="xyz/?token="][href*="&screen_"][target="_blank"]
 ##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
@@ -119925,6 +119941,7 @@ zle.com$script
 ##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
+##div > ul > li > a[href][title="APP下载"]
 ##div#HMRichBox
 ##div#HMcoupletDivleft
 ##div#HMcoupletDivright
@@ -120177,6 +120194,7 @@ zle.com$script
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*="//"][src*="&campaign"][src*="/?"][src*="="][src*="="][src*="="]
 ##iframe[src*="//a.adtng.com"]
+##iframe[src*="//a.realsrv.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//av.ageverify.co/"]
 ##iframe[src*="//chaturbate.com/"]
@@ -120216,6 +120234,7 @@ zle.com$script
 ##iframe[src*="//tfosrv.com"]
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
+##iframe[src*="/lvesnk.html?zoneid="]
 ##iframe[src*="/redbaiduct.com?s="]
 ##iframe[src*="/smartpop/"]
 ##iframe[src="/ad.html"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: i+lfVaTSHnMVjZtwHRNBUg
+! Checksum: JXeVoWqBZi87KfIhFNX92g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231111160855
+! Version: 20231112000757
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-11 16:08:55
-! Total Count: 24479
+! Last modified: 2023-11-12 00:07:57
+! Total Count: 24489
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -557,6 +557,7 @@
 ||2r6.cn^
 ||2tyne.ic^
 ||2tyne.icu^
+||2u3v4w5x6y.com^
 ||2ujj.com/js/bo.js
 ||2yjw.com/statics/js/jquery.min.
 ||2zzt.com/file/aliyun
@@ -11356,6 +11357,7 @@
 ||qnsb.com/news/index.php?m=poster&
 ||qnvod.net/qna/
 ||qooav.top^
+||qoqoangry.com^
 ||qosbbzw.cyou^
 ||qowg.top^
 ||qpb*.sohu.com^
@@ -12543,6 +12545,7 @@
 ||streamporn.pw/wp-content/themes/PsyPlay/billo.
 ||stretchsister.com^$third-party
 ||stretchsneeze.com^$third-party
+||strip.chat/widgets/$domain=tktube.com
 ||strip.taobaocdn.com/tfscom/$subdocument
 ||stroi-help.ru/forum/script_new.js
 ||stuff.wikiporno.org^
@@ -13464,6 +13467,7 @@
 ||v9gfm.xyz^
 ||vainews.cn^
 ||vakdop.icu^
+||valerieurania.com^
 ||valshara.com^$third-party
 ||valuepornmedia.com^$third-party
 ||vanessajumpd.com^
@@ -14025,6 +14029,7 @@
 ||wyhifdpatl.com^
 ||wyiegt.icu^
 ||wyjbvoz.xyz^
+||wymzwy.cn^
 ||wyoaij.icu^
 ||wyohm.xyz^
 ||wyq3rum.icu^
@@ -22428,6 +22433,7 @@ zle.com$script
 ##a[clickmode="ad"]
 ##a[data-track-content][data-content-name][target="_blank"]
 ##a[href$=".cc:8443"]
+##a[href$=".html?c=adha8"][target="_blank"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
 ##a[href$=".vip"][target="_blank"][class] > span
 ##a[href$=".xyz:8443"]
@@ -22753,6 +22759,7 @@ zle.com$script
 ##a[href*="top/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="www.pssy.xyz"]
 ##a[href*="xn--dpq21dn8asxam8v16q0j5c.com"]
+##a[href*="xn--gnr806avi6ad2dt3f2np.com"][target="_blank"]
 ##a[href*="xyz/?token="][href*="&screen_"][target="_blank"]
 ##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
@@ -22953,6 +22960,7 @@ zle.com$script
 ##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
+##div > ul > li > a[href][title="APP下载"]
 ##div#ad_id
 ##div#xinxi
 ##div.ad-nav-box
@@ -23131,6 +23139,7 @@ zle.com$script
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*="//"][src*="&campaign"][src*="/?"][src*="="][src*="="][src*="="]
 ##iframe[src*="//a.adtng.com"]
+##iframe[src*="//a.realsrv.com"]
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//av.ageverify.co/"]
 ##iframe[src*="//chaturbate.com/"]
@@ -23170,6 +23179,7 @@ zle.com$script
 ##iframe[src*="//tfosrv.com"]
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
+##iframe[src*="/lvesnk.html?zoneid="]
 ##iframe[src*="/redbaiduct.com?s="]
 ##iframe[src*="/smartpop/"]
 ##iframe[src="/ad.html"]
