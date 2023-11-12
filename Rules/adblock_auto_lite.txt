@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ugoxjlciSFi940VCwwt4Vw
+! Checksum: 5AXKFinY+mU4KtAMd96sag
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231112112314
+! Version: 20231112160903
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-12 11:23:14
-! Total Count: 24502
+! Last modified: 2023-11-12 16:09:03
+! Total Count: 24507
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -10246,6 +10246,7 @@
 ||nndytv.xyz^
 ||nndzsw.com^
 ||nndzsw1.com^
+||nnfalf.xyz^
 ||nnfyxd.xyz^
 ||nnm-club.ws/forum/docs/requests.js
 ||nnqwe.xyz^
@@ -13867,6 +13868,7 @@
 ||whols.cn^
 ||whqgyo.xyz^
 ||whqxj.xyz^
+||whranc.cn^
 ||whrc.xyz^
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||whum.top^
@@ -22012,6 +22014,7 @@ zle.com$script
 ##.leftd3 + .rightd3
 ##.leo-container .ssr1
 ##.link > .image[src*=".qhimg.com/"]
+##.links-topxxx > ul > li
 ##.listok > a > img[src*=".alicdn.com"][width="980"][height="80"]
 ##.listok > a > img[style^="width:980px;height:"]
 ##.loc-home-top-adv-new
@@ -22591,6 +22594,7 @@ zle.com$script
 ##a[href*="//adclick.g.doubleclick.net"]
 ##a[href*="//adultfriendfinder.com"]
 ##a[href*="//app.kmtgsopq.com"][target="_blank"]
+##a[href*="//app.zuozuomu.xyz"]
 ##a[href*="//baidujkdjklvvsbvk.com"]
 ##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//buhlvp.pojuko.buzz/"]
@@ -23308,6 +23312,7 @@ zle.com$script
 ##img[src*="//acc.snmovie.com"]
 ##img[src*="//ad.xmmnsl.com"]
 ##img[src*="//api.promptsgod.com/"][style*="width: 100%;"]
+##img[src*="//app.zuozuomu.xyz"]
 ##img[src*="//fhh.emossvu.cn"]
 ##img[src*="//hfh.bgfe26.cn"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
