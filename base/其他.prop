@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S3mqwufNWc+jv9Ici4N/mg
+! Checksum: /cedz3LbMdrudtv93/PGwg
 ! Title: 自用去广告Adblock规则
-! Version: 20231112015554
-! Last modified: 2023-11-12 01:55:54
-! Total Count: 3118
+! Version: 20231112215414
+! Last modified: 2023-11-12 21:54:14
+! Total Count: 3122
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -527,6 +527,7 @@
 ##body > .ec-ad
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
+##body > [style$="background-size: 407px 127px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
@@ -542,6 +543,7 @@
 ##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
+##body > script + [id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body.page > .popup
 ##body[ontouchstart] > #topBox
@@ -2163,6 +2165,7 @@ jingyanlib.com##[adtemplate]
 jingyanlib.com##[class$="-ad"]
 jingyanlib.com##div[id^="adIndex"]
 jinxiyue.com##a[onclick^="qinlintest"]
+jwdyw.com##body > [class][classname],div[class^="show-app"],table
 kdslife.com##[class*="DownloadGuide"]
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
 kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
@@ -2789,6 +2792,7 @@ zle.com$script
 ||hnrte.ghkmoert.xyz^
 ||hosr.xyz^
 ||hotjar.com^$third-party
+||hstjjg.com/show/$script
 ||huayiyuan.hk^
 ||hubiazhi.com^
 ||hxdqsvw.cn^
