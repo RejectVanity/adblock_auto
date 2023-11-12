@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aiS3LELtYisyyizt6qudNw
+! Checksum: S3mqwufNWc+jv9Ici4N/mg
 ! Title: 自用去广告Adblock规则
-! Version: 20231111193641
-! Last modified: 2023-11-11 19:36:41
-! Total Count: 3115
+! Version: 20231112015554
+! Last modified: 2023-11-12 01:55:54
+! Total Count: 3118
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -152,6 +152,7 @@
 ##.leftd1 + .rightd1
 ##.leftd2 + .rightd2
 ##.leftd3 + .rightd3
+##.links-topxxx > ul > li
 ##.m-ad-full
 ##.m-hm-ad
 ##.maomi-content > .section-banner
@@ -364,6 +365,7 @@
 ##a[href*="//adclick.g.doubleclick.net"]
 ##a[href*="//adultfriendfinder.com"]
 ##a[href*="//app.kmtgsopq.com"][target="_blank"]
+##a[href*="//app.zuozuomu.xyz"]
 ##a[href*="//baidujkdjklvvsbvk.com"]
 ##a[href*="//bitizm.pojuko.buzz/"]
 ##a[href*="//buhlvp.pojuko.buzz/"]
@@ -813,6 +815,7 @@
 ##img[src*="//acc.snmovie.com"]
 ##img[src*="//ad.xmmnsl.com"]
 ##img[src*="//api.promptsgod.com/"][style*="width: 100%;"]
+##img[src*="//app.zuozuomu.xyz"]
 ##img[src*="//fhh.emossvu.cn"]
 ##img[src*="//hfh.bgfe26.cn"]
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
