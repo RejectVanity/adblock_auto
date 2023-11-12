@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 5AXKFinY+mU4KtAMd96sag
+! Checksum: ARwGm/9HvbNIZwrOMel1nw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231112160903
+! Version: 20231113000751
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-12 16:09:03
-! Total Count: 24507
+! Last modified: 2023-11-13 00:07:51
+! Total Count: 24514
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4292,6 +4292,7 @@
 ||bmp1.ali213.net/js/
 ||bmp1.ali213.net/pubjs/index_sc_utf8.js
 ||bmp2.ali213.net/js/
+||bmtfka93.xyz^
 ||bmxvxl.xyz^
 ||bmyrihf.icu^
 ||bnbvd.xyz^
@@ -7496,6 +7497,7 @@
 ||hsrgnac.cn^
 ||hssebb.xyz^
 ||hstbrt.xyz^
+||hstjjg.com/show/$script
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 ||htbdvx.xyz^
 ||hthivr.xyz^
@@ -8086,6 +8088,7 @@
 ||itshang.com/*/*/tools.js$script
 ||ituba.cc/uploads/allimg/201610/603/
 ||itv.hexun.com
+||itwzlyq.com^
 ||itxueyuan.com/advPicture/
 ||itxueyuan.com^*.mp4
 ||iu9g.top^
@@ -8751,6 +8754,7 @@
 ||kkkqo.cn^
 ||kklpe.xyz^
 ||kkmbbvz.xyz^
+||kkmsa.top^
 ||kl87n.xyz^
 ||kl91ccp.com^
 ||klandmart.com/K-Landmart_0011.jpg
@@ -16188,6 +16192,7 @@ jpg2.su,overhentai.net,kawai.pics,kaoskrew.org,hentaiteca.net,amateurporn.co,fre
 just-for-fun.ru##body > div[class*="-container"][class*="-hide"]
 justfullporn.com,xorgasmo.com#?#.row > div.order-1:has(> div.video-block-happy)
 justporno.tv##.frame-box
+jwdyw.com##body > [class][classname],div[class^="show-app"],table
 kaermorhen.ru###top-line-container
 kanobu.ru##.c-moneyPlace_empty
 kartaplovdiv.com##+js(remove-attr, href, a[href="https://kartaplovdiv.com/c5/sexdating.php"])
@@ -22938,6 +22943,7 @@ zle.com$script
 ##body > .ec-ad
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
+##body > [style$="background-size: 407px 127px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
@@ -22955,6 +22961,7 @@ zle.com$script
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
+##body > script + [id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
 ##body.page > .popup

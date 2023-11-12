@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mDx18sDfNJ07IMfZJdOOJA
+! Checksum: kHPemcDwsa1pbQWjr3WWtQ
 ! Title: 混合规则(自动更新)
-! Version: 20231112160848
+! Version: 20231113000741
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-12 16:08:48
-! Total Count: 123109
+! Last modified: 2023-11-13 00:07:41
+! Total Count: 123125
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -12733,6 +12733,7 @@
 ||bms*.adjarabet.com^
 ||bmsgznx.cn^
 ||bmst.pw^
+||bmtfka93.xyz^
 ||bmvjxiiijtebtu.com^
 ||bmw100.cn^$third-party
 ||bmwebm.org^
@@ -15528,6 +15529,7 @@
 ||chimaerason.com^
 ||chimamanndgaocozmi.com^
 ||chimarssensory.com^
+||chimbsbuckle.com^
 ||chimlaresider.com^
 ||chimneylurdane.com^
 ||china-india.wang^
@@ -30472,6 +30474,7 @@
 ||hstats*.hepsiburada.com^
 ||hstbrt.xyz^
 ||hstbufg.cn^
+||hstjjg.com/show/$script
 ||hstpnetwork.com^
 ||hstrck.com^
 ||hsy0616.love^
@@ -33055,6 +33058,7 @@
 ||itweedler.com^
 ||itweepinbelltor.com^
 ||itwkuouldhuke.info^
+||itwzlyq.com^
 ||itxinrou.com^
 ||itxueyuan.com/advPicture/
 ||itxueyuan.com^*.mp4
@@ -35326,6 +35330,7 @@
 ||kklpe.xyz^
 ||kkmacsqsbf.info^
 ||kkmbbvz.xyz^
+||kkmsa.top^
 ||kkpgv2.xunlei.com^
 ||kkqeqk.cn^
 ||kkuabdkharhi.com^
@@ -51853,6 +51858,7 @@
 ||revenuestripe.com^
 ||revenuevids.com^
 ||revenuewire.net^
+||reverbstuffing.com^
 ||reversehunchet.com^
 ||reversionhubbypole.com^
 ||revertterm.com^
@@ -73288,6 +73294,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="adplacements:"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="multi-brand-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="sp-desktop-carousel_handsfree-browse"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[class*="_dpNoOverflow_"][data-idt]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-a-carousel-options*="\"isSponsoredProduct\":\"true\""]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-a-carousel-options*="\\\"isSponsoredProduct\\\":\\\"true\\\""]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[data-ad-id]
@@ -80826,6 +80833,7 @@ justthenews.com##div[class*="block-simple-blockad-"]
 juxia.com###fmt
 juxia.com##.game_img_list
 juxia.com##.index_bttg
+jwdyw.com##body > [class][classname],div[class^="show-app"],table
 jwire.com.au##div[style^="width:468px;"]
 jx.la##[onclick*="apk"]
 jx3pve.com##.m-banner-tool
@@ -80886,6 +80894,8 @@ katestube.com##.spot-holder
 kathmandupost.com##.pt-0
 kathmandupost.com##.sticky--bottom
 katv.com##.index-module_adAfterContent__1cww
+kayak.com#?#[role="button"]:-abp-has([class*="ad-marking"])
+kayak.com#?#[role="tab"]:-abp-has([class*="sponsored"])
 kbb.com###contentFor_kbbAdsSimplifiedNativeAd
 kbjfree.com##.h-\[250px\]
 kbjfree.com##.w-\[728px\]
@@ -115498,6 +115508,7 @@ zle.com$script
 ##.lr-pack-ad
 ##.lr_skyad
 ##.lrec-container
+##.lst_ads
 ##.lt_ad
 ##.luxeAd
 ##.lv-Adunit
@@ -116626,6 +116637,8 @@ zle.com$script
 ##.result_ad
 ##.resultad
 ##.results-ads
+##.resultsList > div > div > div > div.G-5c[role="tab"][tabindex="0"] > .yuAt-pres-rounded
+##.resultsList > div > div > div > div[data-resultid$="-sponsored"]
 ##.resultsList > div > div > div.G-5c[role="tab"][tabindex="0"]
 ##.rev_square_side_door
 ##.revcontent-main-ad
@@ -119936,6 +119949,7 @@ zle.com$script
 ##body > .ec-ad
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
+##body > [style$="background-size: 407px 127px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
@@ -119953,6 +119967,7 @@ zle.com$script
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
+##body > script + [id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
 ##body.page > .popup
@@ -121844,6 +121859,7 @@ zle.com$script
 @@||captcha.qq.com^*?*=*=*=$subdocument
 @@||captcha.su.baidu.com^
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
+@@||catchapp.net/ad/img/$~third-party
 @@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net
 @@||cc.zorores.com/ad/*.vtt$domain=rapid-cloud.co
 @@||ccb.com^*^ad
