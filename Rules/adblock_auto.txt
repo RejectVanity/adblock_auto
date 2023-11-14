@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: E/jNSToKM+RUb5euLF7R+A
+! Checksum: KA2HK99ZgbyB4+wVtcoKQg
 ! Title: 混合规则(自动更新)
-! Version: 20231114000851
+! Version: 20231114083143
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-14 00:08:51
-! Total Count: 123173
+! Last modified: 2023-11-14 08:31:43
+! Total Count: 123191
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8002,6 +8002,7 @@
 ||analytics.cmn.com^
 ||analytics.cn.ru^
 ||analytics.cnd-motionmedia.de^
+||analytics.cocolog-nifty.com^
 ||analytics.code.illusion.jp^
 ||analytics.codigo.se^
 ||analytics.competitoor.com^
@@ -9112,6 +9113,7 @@
 ||aqhfqaaq.xyz^
 ||aqhnmof.cn^
 ||aqi.wd.amberweather.com^
+||aqiemc.xyz^
 ||aqiwxzv.cn^
 ||aqjlgsv7cvkzocg.ru^
 ||aqkkoalfpz.com^
@@ -24705,6 +24707,7 @@
 ||fgopr.top^
 ||fgre9.top^
 ||fgrvbkquwurttn.com^
+||fgttbz.xyz^
 ||fgxfnkiojgs.com^
 ||fh-main.measure.agilemeasure.com^
 ||fh21.com.cn/js/passport/createQuickMenu.js
@@ -25604,6 +25607,7 @@
 ||frapsguardo.com^
 ||frarybjrbnlfd.com^
 ||frauck.com^
+||fraud.adjoe.zone^
 ||fraudclatterflying.com^
 ||fraudholdingpeas.com^
 ||fraudjs.io^
@@ -26413,6 +26417,7 @@
 ||gaoimg.xyz/images/
 ||gaojiedesign.cn^
 ||gaokao.asia^
+||gaopinoa.cn^
 ||gaoqing.la/wp-content/uploads/*/gg
 ||gaoqing.la/wp-content/uploads/*/kaiboer.gif
 ||gaoqing.la/wp-content/uploads/*980x
@@ -28284,6 +28289,7 @@
 ||gscsahv011.com^
 ||gscsahv012.com^
 ||gscsahv013.com^
+||gscsahv014.com^
 ||gsdpw.com/file/script/A
 ||gsecondscreen.com^
 ||gsecurecontent.com^
@@ -31931,6 +31937,7 @@
 ||imwarwi.ru^
 ||imwhite.ru^
 ||imwx.com/mobile/adconfig/
+||imxsvpxe.xyz^
 ||imzahrwl.xyz^
 ||in-appadvertising.com^
 ||in-page-push.com^
@@ -37393,6 +37400,7 @@
 ||llhhbb.top^
 ||llj22.com/1.gif
 ||llmeocaptainh.com^
+||llnxdx.xyz^
 ||llog.pl^
 ||lloogg.com^
 ||llpnrfplbkoalts.com^
@@ -48183,6 +48191,7 @@
 ||ppcwzry.cn^
 ||ppdb.pl^
 ||ppdiatk.com^
+||ppenid.xyz^
 ||ppfrlfe.com^
 ||ppgjebhcyu.com^
 ||pphauantic.com^
@@ -53876,6 +53885,7 @@
 ||sdjvbsjbvas.com^
 ||sdk-api-v1.singular.net^
 ||sdk-log-inter.youdao.com^
+||sdk-monitoring.ogury.co^
 ||sdk-orion.appboy.com^
 ||sdk-services.appsflyer.com^
 ||sdk.51.la^
@@ -62411,6 +62421,7 @@
 ||trqpfc.cn^
 ||trqs.vip^
 ||trribbup.xyz^
+||trrmkzesvyqrary.com^
 ||trrmmxjst.com^
 ||trsbmiw.com^
 ||trskwvl.com^
@@ -66374,6 +66385,7 @@
 ||webassembly.stream^
 ||webatam.com^
 ||webbannons.ntm.eu^
+||webbplatsanalys.goteborg.se^
 ||webcampromo.com^
 ||webcampromotions.com^
 ||webcare.byside.com^
@@ -67898,6 +67910,7 @@
 ||www-path.com^
 ||www-sina-cn-com.com^
 ||www.adbert.com.tw^
+||www.adnordics.com^
 ||www.adsnet.se^
 ||www.air-max.se^
 ||www.alphalete.com.se^
@@ -75671,6 +75684,7 @@ cocomanga.com,colamanga.com##+js(no-setTimeout-if, loadErrorTip)
 cocomanga.com,ohmanhua.com,onemanhua.com##+js(no-setTimeout-if, checkSiteNormalLoad)
 cocomanga.com,ohmanhua.com,onemanhua.com##+js(set-constant, NativeAd, noopFunc)
 cocomanga.com,ohmanhua.com,onemanhua.com##+js(set-constant, __jsadsuccess, true)
+codapedia.com##a[href^="/ad-click.cfm"]
 codeceo.com##div[style="width:970px;margin:0 auto"]
 codeceo.com,fuli8.net##.widget_text:first-child
 codeforge.cn##.webnotice-right
@@ -80594,6 +80608,7 @@ javtiful.com#?#.related-videos > .row > .pb-3:-abp-has(> .card > .video-tmb[href
 javtorrent.me##div[style^="width:728px; height: 90px;"]
 javvr.net##.jplayerbutton
 javynow.com##.videos-ad__ad
+jayisgames.com##.sidebar-ad-top
 jb51.net###gaosu
 jb51.net##.gsdw
 jb51.net##.idc3
@@ -81395,6 +81410,8 @@ linkedin.com##article[data-is-sponsored]
 linkedin.com##li[data-is-sponsored="true"]
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
+linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
+linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkfang.org###LinkFang_Horizontal
 linkhub.icu##a[href^="/downloadnow.php?"]
 linkhub.icu##a[href^="/linknow.php?"]
@@ -86445,6 +86462,7 @@ techrepublic.com,zdnet.com##.content-leader-bottom
 techrepublic.com,zdnet.com##.content-leader-top
 techrounder.com###footerFixBanner
 techspot.com###tsadvideo
+techspot.com##.adContainerSide2
 techspot.com##.billboard_placeholder_home
 techspot.com##.billboard_placeholder_min
 techspot.com##.blu
