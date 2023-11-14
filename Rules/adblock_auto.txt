@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: L4PlbYIyMhEzuxjUfGa3hw
+! Checksum: 91u/2myaL2Kg9W6KRE6/Hw
 ! Title: 混合规则(自动更新)
-! Version: 20231114160948
+! Version: 20231115000836
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-14 16:09:48
-! Total Count: 123216
+! Last modified: 2023-11-15 00:08:36
+! Total Count: 123223
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5342,6 +5342,7 @@
 ||adrunnr.com^
 ||ads*-normal-lq.zijieapi.com^
 ||ads*.bojijulebu.com^
+||ads*.production-public.tubi.io^
 ||ads-6686.top^
 ||ads-admin.hubs.vn^
 ||ads-api.kidsnote.com^
@@ -14931,6 +14932,7 @@
 ||cdn.steambets.net^
 ||cdn.sunporno.com/sunstatic/v*/common/sunporno/compiled/script.v*.min.js
 ||cdn.teleportapi.com^
+||cdn.thehiveworks.com/images/bees/mobile$image,domain=smbc-comics.com
 ||cdn.topmind.io^
 ||cdn.trafficexchangelist.com^
 ||cdn.umh.ua^
@@ -25474,6 +25476,7 @@
 ||fortunegossipyattentive.com^
 ||fortunescrollstrap.com^
 ||fortvision.com^
+||fortxfq.cn^
 ||fortyflattenrosebud.com^
 ||forum.51nb.com/images/
 ||forum.globusevent.ru^
@@ -33794,6 +33797,7 @@
 ||jingujie.com/public/jgj_
 ||jingujie.com/public/js/*html.js
 ||jingwuhotel.com/static/xbiquge
+||jingxuanjingyan.com^
 ||jingyanlib.com/home/data/getAdOnlineList?
 ||jingyixuanstore.cn^
 ||jingyue.co^
@@ -37462,6 +37466,7 @@
 ||lmx7.com^
 ||lmxzlb.xyz^
 ||ln.tian-ting.ink^
+||ln0.com.cn^
 ||lnabew.com^
 ||lnaevr.fun^
 ||lnbswijsipf.com^
@@ -40731,6 +40736,7 @@
 ||moatads.com.edgekey.net^
 ||moatads.com^
 ||moatshoal.digital^
+||mob*.novanewsapp.com^
 ||mob1ledev1ces.com^
 ||moba8.net^
 ||mobadme.jp^
@@ -40947,6 +40953,7 @@
 ||mon-*.tiktokv.com^
 ||mon-pagerank.com^
 ||mon-va.byteoversea.com^
+||mon.byteoversea.com^
 ||mon.isnssdk.com^
 ||mon.snssdk.com^
 ||mon.tiktokv.com^
@@ -72378,7 +72385,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 423down.com##.content > div[style="text-align: left;"]
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
-423down.com##.entry > p[style*="20px;color"]
+423down.com##.entry > p[style$="111"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
