@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: etpmUaJVHvT/t4ePMHQC7g
+! Checksum: 3krubakxW/kRNZhxh8oN9A
 ! Title: 混合规则(自动更新)
-! Version: 20231116190055
+! Version: 20231117000923
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-16 19:00:55
-! Total Count: 123397
+! Last modified: 2023-11-17 00:09:23
+! Total Count: 123412
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9360,6 +9360,7 @@
 ||artsai.com^
 ||artsrookpassed.com^
 ||artsybutchercluster.com^
+||arttrk.com^
 ||artz3keya.cyou^
 ||aruhdx.com^
 ||arukmstgnlaper.xyz^
@@ -24870,6 +24871,7 @@
 ||finalid.com^
 ||finalizeforce.com^
 ||finallysuburblaunching.com^
+||finalyticsdata.com^
 ||finance-hot-news.com^
 ||finance2you.org^
 ||financefear.com^
@@ -38723,8 +38725,6 @@
 ||m.alphaporno.com/adman_ai/
 ||m.aty.sohu.com^
 ||m.audio699.com/template/m/js/qqwweef
-||m.biqiugexx.com/js/*ad*bb*.js
-||m.biqiugexx.com/js/dj*bb*.js
 ||m.bjdcfy.net^*.js
 ||m.cdsvyatka.com/btaho.jpg
 ||m.danmeixsw.com/js/mwap.js
@@ -39523,6 +39523,7 @@
 ||mbidinp.com^
 ||mbidpsh.com^
 ||mbindu.com^
+||mbiypew.cn^
 ||mblapi.ssl2.duapps.com^
 ||mbledeparatea.com^
 ||mblhzlqkhukry.com^
@@ -39832,6 +39833,7 @@
 ||meepwrite.com^
 ||meerihoh.net^
 ||meestuch.com^
+||meet-buddy.com^
 ||meet4you.net^
 ||meet4youu.com^
 ||meet4youu.net^
@@ -41361,6 +41363,7 @@
 ||mpnrs.com^
 ||mppapi.io^
 ||mppmnetwork.com^
+||mpraven.org^
 ||mpression.net^
 ||mprjoat.cn^
 ||mps-gba.de^
@@ -55977,6 +55980,8 @@
 ||smashsurprise.com^
 ||smathe.com^
 ||smatr.icu^
+||smatr.net^
+||smazaz.icu^
 ||smct.co^
 ||smearedbin.com^
 ||smearincur.com^
@@ -66852,6 +66857,7 @@
 ||wenrunyu.com^
 ||wensaidoheth.xyz^
 ||wenshenbang.com^$third-party
+||wensonk.com^
 ||wenxue.weimeifan.net^
 ||wenzhougy.cn^
 ||weoesgvow.xyz^
@@ -68108,6 +68114,7 @@
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
 ||www.googleadservices.com/pagead/conversion
 ||www.guesssverige.com.se^
+||www.gym-sharksweden.com^
 ||www.gymshark-sweden.com.se^
 ||www.gymsharkswedens.com^
 ||www.hey.lt^
@@ -70918,6 +70925,7 @@
 ||zhmyq.cn^
 ||zhmzsjvkii.com^
 ||zhongfujiaoyu.cn^
+||zhongfumzzew.com^
 ||zhongkaowu.com^$third-party
 ||zhonglitz.cn^
 ||zhongmeigk.hk^
@@ -74264,6 +74272,7 @@ baidu.com##.slide-bner-adv-ret
 baidu.com##.spage-couplet-container
 baidu.com##.spread-wrap
 baidu.com##.swan-ad-fc-feed
+baidu.com##.tab_news
 baidu.com##.tb-threadlist__item.tb-banner
 baidu.com##.tc-card[tpl="fc_before_fixads"]
 baidu.com##.text-advertise
@@ -74295,6 +74304,7 @@ baidu.com##[class*="brand"][class*="Entry"]
 baidu.com##[class^="cu-video-player"]
 baidu.com##[class^="sfc-video-page"] > [class="mask"],[class="sfc-video-page-vertical-player-layer"],div[class^="sfc-video-page-list"],[class^="c-loading"]
 baidu.com##[srcid*="_ad"]
+baidu.com##div.blank-frame
 baidu.com##div[class$="-ecom-ads"]
 baidu.com##div[class*="fc-"][tplid]
 baidu.com##div[data-ad]
@@ -75055,6 +75065,7 @@ bt.cn,lotour.com##.btad
 bt1207ma.xyz##a[href*="/uuribao.com/"]
 bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
 btbtt.me###wrapper2 > .width
+btbtt18.com##.wrapper_bg_c
 btcmanager.com##.boo_3oo_6oo
 btcmanager.com##.f_man_728
 btime.com###ad_full_button_placehoder
@@ -75764,10 +75775,10 @@ cnbeta.com#?#.items-area > .item:-abp-has(> dl > dt > a[href^="http"]:not([href*
 cnbeta.com,cnbeta.com.tw##.cbv:not(#cb_share)
 cnbeta.com,cnbeta.com.tw##.tks
 cnbeta.com,cnbeta.com.tw,qudong.com##a[href*=".ctyun."]
+cnbeta.com,cnbeta.com.tw,thinkphp.cn##.cooperation
 cnbeta.com,editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
 cnbeta.com,itboth.com,itkeyword.com,ruyo.net##a[href*="cloud.tencent."]
 cnbeta.com,sojson.com##a[href*=".upyun."]
-cnbeta.com,thinkphp.cn##.cooperation
 cnbeta.com,vdianying.cc##div[style^="display:block !important;"]
 cnbeta.com.tw##.cbv:not(#cb_share) a
 cnbeta.com.tw##[class^="cbv"]
@@ -88932,6 +88943,7 @@ xw.qq.com##.globalThemeTip
 xxbrits.com##.block-offer
 xxbrits.com##button[class^="click-fun"]
 xxx-videosex.porn###provider
+xxx18.uno##.sticky-elem
 xxx888porn.com##div[id^="insad"]
 xxx888porn.com#$##main { display: block !important; }
 xxx888porn.com#$#div[id^="ads"] { display: none !important; }
@@ -91733,6 +91745,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /\/esnk\/[0-9]{7}\/code\.js$/$important,script,third-party,match-case
 /\/js\/(dola|baf|skrrt)\.js$/$script,domain=filemoon.*,important
 /\/js\/[a-z]j\.js$/$script,~third-party,domain=joysporn.sex
+/\/js\/[djpf]{2}(ad)?.*a\d{2}\.js/$domain=biqiugexx.com
 /\/js\/wap.*[0-9]{1}-jm-ms\.js\?ver=.*[0-9]$/$script,~third-party
 /\/local\_(p|ssu)\.js/$script,important
 /\/out\.php\?mode=main&c=[A-Z]{2}#https?:\/\//$popup,important
@@ -93059,8 +93072,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /adman/*
 /adman_
 /admanager.$~object,domain=~admanager.alzura.com|~admanager.google.com
-/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
-/admanager/*$~object,domain=~blog.google|~konograma.com
+/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.line.biz|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
+/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~konograma.com
 /admanager3.
 /admanager_$domain=~konograma.com
 /admanagers/*
@@ -120204,6 +120217,7 @@ zle.com$script
 ##amp-embed[type="taboola"]
 ##amp-fx-flying-carpet
 ##amp-iframe[src^="https://ad.mediawayss.com/"]
+##amp-iframe[src^="https://ad.vidverto.io/"]
 ##amp-iframe[src^="https://html.redtram.com/"]
 ##amp-iframe[src^="https://widgets.outbrain.com"]
 ##amp-sticky-ad
@@ -122375,6 +122389,7 @@ zle.com$script
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||guokr.com/apis/flowingboard/item/guokrapp_
 @@||guokr.com/apis/flowingboard/item/m_
+@@||h1g.jp/img/ad/ad_heigu.html$~third-party
 @@||haichaobiao.com^$generichide
 @@||haiwai.com^$generichide
 @@||hanjubaike.com^$script,~third-party

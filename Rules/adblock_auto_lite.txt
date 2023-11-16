@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: /dCNO+jsET3YH9xhc6hXzg
+! Checksum: p0g7nE3oZ6j8MN76lZq/3A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231116190106
+! Version: 20231117000933
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-16 19:01:06
-! Total Count: 24585
+! Last modified: 2023-11-17 00:09:33
+! Total Count: 24588
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9435,8 +9435,6 @@
 ||m.alphaporno.com/adman_ai/
 ||m.aty.sohu.com^
 ||m.audio699.com/template/m/js/qqwweef
-||m.biqiugexx.com/js/*ad*bb*.js
-||m.biqiugexx.com/js/dj*bb*.js
 ||m.bjdcfy.net^*.js
 ||m.cdsvyatka.com/btaho.jpg
 ||m.danmeixsw.com/js/mwap.js
@@ -9614,6 +9612,7 @@
 ||mbalib.com/common/a_mbalib/
 ||mbekgac.xyz^
 ||mbepa.xyz^
+||mbiypew.cn^
 ||mblapi.ssl2.duapps.com^
 ||mbly0.xyz^
 ||mbn.com.ua^
@@ -15030,6 +15029,7 @@
 ||zhiqi.pub^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||zhongfujiaoyu.cn^
+||zhongfumzzew.com^
 ||zhongkaowu.com^$third-party
 ||zhongwangmy.cn^$third-party
 ||zhongyi.ifeng.com/a/zt.js
@@ -15488,6 +15488,7 @@ baidu.com##.ec_sma_im
 baidu.com##.ec_wise_ad
 baidu.com##.gg-content
 baidu.com##.na-ec-ad-tag
+baidu.com##.tab_news
 baidu.com##.wgt-union-wapqbyoux-ads
 baidu.com##[class$="_ad"]
 baidu.com##[class$="_ads"]
@@ -15499,6 +15500,7 @@ baidu.com##[class*="brand"][class*="Entry"]
 baidu.com##[class^="cu-video-player"]
 baidu.com##[class^="sfc-video-page"] > [class="mask"],[class="sfc-video-page-vertical-player-layer"],div[class^="sfc-video-page-list"],[class^="c-loading"]
 baidu.com##[srcid*="_ad"]
+baidu.com##div.blank-frame
 baidu.com,bdimg.com###aside-ad
 baidu.com,jingyanlib.com,xvideos.com##[class$="-ad"]
 baidu.com,xvideos.com##[class$="-ads"]
@@ -23004,6 +23006,7 @@ zle.com$script
 ##amp-embed[type="outbrain"]
 ##amp-embed[type="smi2"]
 ##amp-iframe[src^="https://ad.mediawayss.com/"]
+##amp-iframe[src^="https://ad.vidverto.io/"]
 ##amp-iframe[src^="https://html.redtram.com/"]
 ##amp-iframe[src^="https://widgets.outbrain.com"]
 ##amp-sticky-ad
