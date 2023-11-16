@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /cedz3LbMdrudtv93/PGwg
+! Checksum: dNCUtomNswR7x58/4tVznA
 ! Title: 自用去广告Adblock规则
-! Version: 20231112215414
-! Last modified: 2023-11-12 21:54:14
-! Total Count: 3122
+! Version: 20231116185757
+! Last modified: 2023-11-16 18:57:57
+! Total Count: 3130
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -897,6 +897,7 @@
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##table[border="1"] > tbody > tr > td > a[href][onclick*="Novel"][title]
+##ul > li > a[href*=".pojuko.buzz/"]
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
 &adZones$xmlhttprequest
 &ad_block=
@@ -1020,6 +1021,7 @@
 .com:*/d/*?t=
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
+.com:*/stats/*/*?*=*&host=$third-party
 .com:*/vh1/$third-party
 .com:*/vh2/$third-party
 .com:*/vh3/$third-party
@@ -1151,6 +1153,7 @@
 .xyz/vue?$third-party
 .xyz/wb/*-*-*.yb$third-party
 .xyz/wiseindex*?*16$third-party
+.xyz/xfb_m.js$third-party,script
 .xyz/xling_*_*.js?
 .xyz/zooker?$third-party
 /*.php?pid=*&n=$third-party
@@ -1993,6 +1996,7 @@ boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove
 bqg33.com##a[href][target="_blank"],font[color="red"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
+btsj6.com##em > strong
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
 buondua.com,buondua.us,kostaku.art,kostaku.com,kostaku.live,kostaku.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
@@ -2680,6 +2684,7 @@ zle.com$script
 ||cer.niaideren.icu^
 ||ceseasons.com^
 ||ceshi*.ink/s/*?_=$third-party
+||cgovyjnmdtauwdhek.com^
 ||chiluyingxiao.com^$third-party
 ||chushoushijian.cn^$third-party
 ||cje7egcisdr.xyz^
@@ -2912,6 +2917,7 @@ zle.com$script
 ||pjy55d.com^
 ||pnpy.mmtnat.com^$third-party,script
 ||poh.uoydhco.cn^
+||pojuko.buzz^
 ||porn5f.com/nb/*.php?
 ||profitablegatetocontent.com^
 ||pssy.xyz^$third-party
@@ -2968,6 +2974,7 @@ zle.com$script
 ||skluff.com^$third-party
 ||smachnakittchen.com^
 ||sofire.bdstatic.com^
+||srijbbzpx.xyz^
 ||srnov.top^
 ||srv.dropkickmedia.com$third-party
 ||ss.zuixinyiqi.com^
@@ -3098,6 +3105,7 @@ zle.com$script
 ||yourporn.sexy/nbsys3/fsyspp.js
 ||yourporn.to/script*/ad*.js
 ||yourporngod.com/cdn-cgi/apps/head/*.js
+||yungreencn.net^
 ||yutew.cc^$third-party
 ||yxvoud.com^
 ||yyefao.com^
