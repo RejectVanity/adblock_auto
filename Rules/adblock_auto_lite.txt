@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 3YVgx53hFt+R0097C6gtBA
+! Checksum: mTZ1uqhfnSZ+im2UiATUQg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231117083211
+! Version: 20231117160954
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-17 08:32:11
-! Total Count: 24595
+! Last modified: 2023-11-17 16:09:54
+! Total Count: 24601
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -12340,6 +12340,7 @@
 ||slfindmarket.live^
 ||slimyseashore.com^$third-party
 ||slit.cn/slimages/
+||sllo.top^
 ||slopesoap.com^$third-party
 ||slowbeat.fun^
 ||slsynmlb.fun^
@@ -12817,6 +12818,7 @@
 ||tdavopl.icu^
 ||tdhlmto.cn^
 ||teachscape.vo.llnwd.net^
+||teamjwar.com^
 ||tech.jiukang.org^
 ||techporn.ph/wp-content/uploads/Ad-
 ||techritual.com/wp-content/uploads/*/HDcource_
@@ -13094,6 +13096,7 @@
 ||tradplusad.com^
 ||traff10wap.com^
 ||traffer.net^
+||trafficfactory.biz^
 ||traffichaus.com^
 ||trafficjam.cn^$third-party
 ||trafficjunky.com^
@@ -22284,6 +22287,8 @@ zle.com$script
 ##.textadlist
 ##.textadv
 ##.theme_custom_slidebox-ad-below
+##.thumb-ad
+##.thumb-nat-ad
 ##.title > .gg
 ##.tmall_ad_container
 ##.tmall_bg15
@@ -22858,6 +22863,7 @@ zle.com$script
 ##a[href*="live/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="nnqp.vip"]
 ##a[href*="top/?token="][href*="&screen_"][target="_blank"]
+##a[href*="trafficfactory.biz/click/"]
 ##a[href*="www.pssy.xyz"]
 ##a[href*="xn--dpq21dn8asxam8v16q0j5c.com"]
 ##a[href*="xn--gnr806avi6ad2dt3f2np.com"][target="_blank"]
