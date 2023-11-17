@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LlKKqXfBroXSVTdH9s3cQA
+! Checksum: ac32dD7oXiNSkuNFt/9hNw
 ! Title: 自用去广告Adblock规则
-! Version: 20231116201738
-! Last modified: 2023-11-16 20:17:38
-! Total Count: 3132
+! Version: 20231117092803
+! Last modified: 2023-11-17 09:28:03
+! Total Count: 3136
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -193,6 +193,8 @@
 ##.synopsisAd
 ##.tads
 ##.textadv
+##.thumb-ad
+##.thumb-nat-ad
 ##.top-ads-content
 ##.topads
 ##.txtguanggao
@@ -426,6 +428,7 @@
 ##a[href*="jszclock.com/gebi/"]
 ##a[href*="live/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="top/?token="][href*="&screen_"][target="_blank"]
+##a[href*="trafficfactory.biz/click/"]
 ##a[href*="www.pssy.xyz"]
 ##a[href*="xn--dpq21dn8asxam8v16q0j5c.com"]
 ##a[href*="xn--gnr806avi6ad2dt3f2np.com"][target="_blank"]
@@ -3008,6 +3011,7 @@ zle.com$script
 ||tpic.kszvmqo.cn^$third-party
 ||tpic.mhslbqk.cn^
 ||traffer.net^
+||trafficfactory.biz^
 ||traffichaus.com^
 ||trafficjunky.com^
 ||trafficjunky.net^
