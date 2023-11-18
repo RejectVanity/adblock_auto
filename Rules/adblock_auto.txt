@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 61CY9kfF6JmX3ZYGV4p3Ow
+! Checksum: 7GC1wcu30z6igX+a1Majig
 ! Title: 混合规则(自动更新)
-! Version: 20231118083111
+! Version: 20231118160909
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-18 08:31:11
-! Total Count: 123521
+! Last modified: 2023-11-18 16:09:09
+! Total Count: 123533
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -943,6 +943,7 @@
 ||1m72cfole.de^
 ||1mp.mobi^
 ||1mrmsp0ki.de^
+||1mxabnt.com^
 ||1n4o.icu^
 ||1niao20230410.live^
 ||1nimo.com^
@@ -2969,6 +2970,7 @@
 ||88885aaa.com^
 ||8889888.vip^
 ||888bb666cc.com^
+||888cool.cn^
 ||888dizhi.com/888/
 ||888fr.xyz^
 ||888media.net^
@@ -29112,6 +29114,7 @@
 ||harmfulresolution.com^
 ||harmlessepic.com^
 ||harmlesstacticalhonorable.com^
+||harmoniousfamiliar.pro^
 ||harmonypix.com^
 ||harn8.info^
 ||harolmo.ru^
@@ -31387,6 +31390,7 @@
 ||ietyofedinj89yewtburgh.com^
 ||ieuhd.com^
 ||ieurop.net^
+||ievclqmo.com^
 ||iewhonhdvryu.com^
 ||ieydkx.com^
 ||iezptsoc.com^
@@ -41163,6 +41167,7 @@
 ||monsido.com^
 ||monstat.com^
 ||monsterofnews.com^
+||monstrous-boyfriend.pro^
 ||monstrousrowandays.com^
 ||monsy.com^
 ||montafp.top^
@@ -44292,6 +44297,7 @@
 ||ograuwih.com^
 ||ogrid.org^
 ||ogrltiahldr.com^
+||ogrrmasukq.com^
 ||ogs.google.*/widget/callout$subdocument
 ||ogskle.com^
 ||ogt.jp^
@@ -65331,6 +65337,7 @@
 ||vidsforyou.mom^
 ||vidsforyou.online^
 ||vidsfull.online^
+||vidsfull.space^
 ||vidsfun.info^
 ||vidsfun.online^
 ||vidsfun.space^
@@ -80425,6 +80432,7 @@ insideevs.com,motor1.com##.apb
 insidehighered.com##.pane-dfp
 insidemydream.com##.afxshop
 insideottawavalley.com##.adLabelWrapperManual
+insiderintelligence.com##.min-h-top-banner
 insta-stories-viewer.com##.context
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
@@ -100644,6 +100652,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 :701/gd_xueersi/$popup
 :7701/load.cw.js
 :800*/d/*?n=$script,third-party
+:800*/d/*?t=$script,third-party
 :800*/sc/*?n=$script,third-party
 :8080/ad/
 :8080/advserver/
@@ -119087,6 +119096,7 @@ zle.com$script
 ##.zox-widget-side-ad
 ##.zox_ad_widget
 ##.zox_adv_widget
+##A#wrapper_left_bg\ llll
 ##AD-SLOT
 ##AD-TRIPLE-BOX
 ##ADS-RIGHT
@@ -119325,7 +119335,9 @@ zle.com$script
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
 ##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
+##a#wrapper_left_bg
 ##a#wrapper_left_bg[target="_blank"]
+##a#wrapper_right_bg
 ##a#wrapper_right_bg[target="_blank"]
 ##a-ad
 ##a.ad_links

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: STApbXvw08t0J1iHAuvPMQ
+! Checksum: SZDKs0D0iP3VZsY5ZiT+lw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231118083122
+! Version: 20231118160920
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-18 08:31:22
-! Total Count: 24621
+! Last modified: 2023-11-18 16:09:20
+! Total Count: 24628
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -420,6 +420,7 @@
 ||1kqfzwd.com^
 ||1l1.cc^
 ||1mp.mobi^
+||1mxabnt.com^
 ||1porp.top^
 ||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
@@ -1115,6 +1116,7 @@
 ||7d108.cn^
 ||7daystodie.cn^$third-party
 ||7down.com/static/js/foot_
+||7dusx.xyz^
 ||7hjb8.com^*.php
 ||7i4dka.cn^
 ||7junshi.com/con/ad
@@ -1199,6 +1201,7 @@
 ||8886i.top^
 ||88885aaa.com^
 ||888bb666cc.com^
+||888cool.cn^
 ||888dizhi.com/888/
 ||888fr.xyz^
 ||88993aaa.com^
@@ -8251,6 +8254,7 @@
 ||jeedi.xyz^
 ||jeepyy.com^$third-party
 ||jeidd.xyz^
+||jeqxuvv.icu^
 ||jerrytom.xyz^
 ||jevwdao.cn^
 ||jfanhao.com^
@@ -22400,6 +22404,7 @@ zle.com$script
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
+##A#wrapper_left_bg\ llll
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
@@ -22533,7 +22538,9 @@ zle.com$script
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
 ##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
+##a#wrapper_left_bg
 ##a#wrapper_left_bg[target="_blank"]
+##a#wrapper_right_bg
 ##a#wrapper_right_bg[target="_blank"]
 ##a.hengfu > img.hengfu
 ##a[alt="545新葡京"][target="_blank"]
