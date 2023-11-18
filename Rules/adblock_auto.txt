@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 7GC1wcu30z6igX+a1Majig
+! Checksum: MIgDYPNONez4PAdfbGx31w
 ! Title: 混合规则(自动更新)
-! Version: 20231118160909
+! Version: 20231119000753
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-18 16:09:09
-! Total Count: 123533
+! Last modified: 2023-11-19 00:07:53
+! Total Count: 123539
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -44470,6 +44470,7 @@
 ||oldership.com^
 ||oldeststrickenambulance.com^
 ||oldevent.togothermany.com^
+||oldfashionedoffer.com^
 ||oldgyhogola.com^
 ||oldied.com^
 ||oldmilram.com^
@@ -76946,7 +76947,7 @@ dnxtc.net##.header > div[style*="margin-top:"]
 dnxtc.net##div[style="width:1200px;height:108px;margin:0 auto;margin-top:15px;"]
 doc88.com##.adpx250
 doc88.com##.dk-side-gif
-docer.com,eol.cn,fapnado.com,firefoxchina.cn,myd666.tv,site.baidu.com,waipian5.com,young-sexy.com##.popup
+docer.com,eol.cn,fapnado.com,firefoxchina.cn,meiyida01.com,myd666.tv,site.baidu.com,waipian5.com,young-sexy.com##.popup
 docin.com###docindex_ad
 docin.com##.cpro_mod
 docin.com##.sider_gg
@@ -79298,6 +79299,7 @@ hao.360.com###top-nav
 hao.360.com##.licai-right
 hao.360.com#?#.cube-container div.cube-mod:has(span.adMark)
 hao.360.com#?#.cube-list-recommend > div.cube-mod.cpc-card > div.cube-bd > div.cube-card > div.dh-cpcad-container:upward(div.cube-mod.cpc-card)
+hao.360.com#?#.cube-mod:-abp-has(.dh-cpcad-container)
 hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 hao.lenovo.com.cn##.IconLink
 hao.lenovo.com.cn##.left.icons
@@ -80886,6 +80888,7 @@ javgg.net###adlink
 javgg.net##.home_iframead
 javgg.net##.home_iframead > a[target="_blank"] > img
 javgg.net##[href^="https://onlyfans.com/action/trial/"]
+javguard.xyz###dl > a[target="_blank"][id]
 javhd.com##.benefits-list-holder
 javhd.run##.loading-ad
 javhd.today###ics
@@ -82324,6 +82327,8 @@ meilleurpronostic.fr##.ne4u07a96r5c3
 meishij.net##.cp_body_right
 meitu.com###meipaiFixed
 meituan.com##.component-downtip
+meiyida01.com,myd666.tv##.module-blocklist
+meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download/"])
 meizhou.cn##.toptonglan
 meizhou.cn##.tuwengg
 meizhou.com##.adwords + div
@@ -82793,8 +82798,6 @@ mybanktracker.com###article-content > .lazyloaded
 mybib.com###footer > div
 mybroadband.co.za##.box-sponsored
 mycq.qq.com##div[style^="width:960px;"]
-myd666.tv##.module-blocklist
-myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download/"])
 mydailyfreedom.com##.code-block-16
 myday.com.tw##.myday_ad_950
 myday.com.tw##.myday_ad_left
@@ -85113,6 +85116,8 @@ rebelnews.com##[href^="https://www.eventbrite.com/"]
 rebooo.com###gong
 recipesandcooker.com##.pbl
 recombu.com##.takeover-right
+recordbate.com##.image-box
+recordbate.com,vivo.sx##.preload
 recruit.com.hk###topBar
 recruit.com.hk##div[id^="banner"]
 redboing.com##.fw-ad
@@ -86405,6 +86410,7 @@ start.firefoxchina.cn##.mod-delay-resource
 start.firefoxchina.cn##.wrap > div[style]:last-child
 startpage.com##.a-bg
 startpage.com##.css-1h9yhzw.top-attribution
+startpage.com##.nord-vpn-promo
 startpage.com##.pa-bg
 startpage.com##.pa-bg-carousel
 startpage.com##.total-adblock-desktop
@@ -88076,7 +88082,6 @@ visualcapitalist.com##.visua-target
 viu.com##div[data-marker-title="undefined"]
 viu.com##div[id^="info"]
 viva.co.nz##.big-banner
-vivo.sx##.preload
 vivud.com##.in_stream_banner
 vivud.com##.inplayer_banners
 vivud.com,zmovs.com##.player-aside-banners
@@ -119337,6 +119342,7 @@ zle.com$script
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
 ##a#wrapper_left_bg
 ##a#wrapper_left_bg[target="_blank"]
+##a#wrapper_left_bg\ llll
 ##a#wrapper_right_bg
 ##a#wrapper_right_bg[target="_blank"]
 ##a-ad
