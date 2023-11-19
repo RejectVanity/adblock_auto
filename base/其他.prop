@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ac32dD7oXiNSkuNFt/9hNw
+! Checksum: AhgRO4UYN6CY3dFBPhmWNg
 ! Title: 自用去广告Adblock规则
-! Version: 20231117092803
-! Last modified: 2023-11-17 09:28:03
-! Total Count: 3136
+! Version: 20231119161653
+! Last modified: 2023-11-19 16:16:53
+! Total Count: 3154
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -119,6 +119,7 @@
 ##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottomads
 ##.cctv_banner_dv
+##.center-div.sponsor
 ##.commentads
 ##.common_banner[style="width: 100%;"] > a[target="_blank"][style="width: 375px; height: 75px; max-width: 100%; max-height: 75px; display: block; margin: 0px auto; overflow: hidden;"]
 ##.conch-ads-box
@@ -388,6 +389,7 @@
 ##a[href*="//go.nordvpn.net/aff"] > img
 ##a[href*="//go.skinstrip.net"][href*="?campaignId="]
 ##a[href*="//go.strpjmp.com/"]
+##a[href*="//go.superchatlive.com"]
 ##a[href*="//go.tmrjmp.com"]
 ##a[href*="//go.trackitalltheway.com/"]
 ##a[href*="//go.xlirdr.com"]
@@ -561,6 +563,7 @@
 ##div > a[href^="https://b"][href$=".vip"][target="_blank"] > img[src]
 ##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
+##div > iframe[src*="&width=300&height=100&"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div > ul > li > a[href][title="APP下载"]
 ##div.ad-nav-box
@@ -708,6 +711,7 @@
 ##iframe[src*="//go.skinstrip.net"][src*="?campaignId="]
 ##iframe[src*="//go.static-srv.com/"]
 ##iframe[src*="//go.strpjmp.com/"]
+##iframe[src*="//go.superchatlive.com"]
 ##iframe[src*="//go.tmrjmp.com"]
 ##iframe[src*="//go.trackitalltheway.com/"]
 ##iframe[src*="//go.xlirdr.com"]
@@ -1259,6 +1263,7 @@
 /adclick?
 /adclickcv.php
 /adfox/*
+/adgpt.js
 /ads.dp.js?
 /ads/ads.js$script
 /ads/index-
@@ -1357,8 +1362,14 @@
 /adx_flash.
 /adx_iframe_
 /adxads.
+/ai/s/s/js/
 /ai/s/s/su
+/ai2/s/s/js/
 /ai2/s/s/su
+/ai3/s/s/js/
+/ai3/s/s/su
+/ai4/s/s/js/
+/ai4/s/s/su
 /aj*.php?pid=*&n=$third-party
 /api/*/g?kyurl=http*&refer=&pid=*=16*&callback=$third-party
 /api/LM/*placeUUID=$third-party
@@ -2408,11 +2419,13 @@ sogou.com##.ad_result
 sogou.com##.aside-qcode
 sogou.com##.bottombar
 sogou.com##.game-op
+sogou.com##.gamesRec20220801
 sogou.com##.hd-slider > .slider-container
 sogou.com##.js-ad-item
 sogou.com##.mobad
 sogou.com##.pop-tuiguang
 sogou.com##.pz-widget-flash-container
+sogou.com##.rec-vrResult[data-v="-5"][exposed="1"]
 sogou.com##.recommend-pop
 sogou.com##.side_adv_wrap
 sogou.com##.sponsored
@@ -2424,6 +2437,7 @@ sogou.com##.top-list[data-type="hotword"]
 sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
+sogou.com##.vrResult[data-v="102"][exposed="1"]
 sogou.com##A[data-log*="PicAd"]
 sogou.com##LI.sugg-hot
 sogou.com##div[class^="news-top-banner"]
@@ -2557,6 +2571,7 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com,colamanga.com##embed[src]
 yhpdm.com,yhdmp.net,d53px.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
 yitongqinba.com##.visible-xs
+yourlust.com##[class^="root--"]
 yydstv.net##body > div[class][style]
 yydy.cc##a[onclick^="window"] > img[id][width="1"],a[style*="width:99%"][style*="z-index:100000"][style*="block"]
 yz.m.sm.cn##[id^="dl-banner-"]
@@ -2770,6 +2785,7 @@ zle.com$script
 ||go.adltserv.com^
 ||go.goaserv.com$third-party
 ||go.meiweifood.xyz^
+||go.superchatlive.com^
 ||go.xlirdr.com^
 ||go.xlivrdr.com^
 ||go.xlviiirdr.com^
@@ -2792,6 +2808,7 @@ zle.com$script
 ||ha.liuye.club^
 ||halihali*.com/js/wap2-jm-ms.js?$script
 ||hb.vhsrv.com^
+||hdpornfree.xxx/sup/*.js
 ||hffxc.com^$third-party,script
 ||hhxsp.xyz/hf.js$script
 ||highperformancedisplayformat.com^
@@ -3048,6 +3065,7 @@ zle.com$script
 ||vlets.reebbwi.cyou^
 ||vmsolxc.cn^
 ||volgreal.com^$third-party
+||voxar.xyz^
 ||vs*.bozhou666.com^$third-party
 ||vuhbgtsi.xyz^$third-party
 ||vvmeirihd.feijied.xyz^
