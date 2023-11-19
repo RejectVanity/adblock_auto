@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mu3I9FLJPXoV2kDgJSZETA
+! Checksum: P3u3sQdfKXsChtLi5rI8Hw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231119160903
+! Version: 20231119161950
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-19 16:09:03
-! Total Count: 24638
+! Last modified: 2023-11-19 16:19:50
+! Total Count: 24655
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6888,6 +6888,7 @@
 ||go.meiweifood.xyz^
 ||go.mobstitialtag.com^
 ||go.pornav.net^
+||go.superchatlive.com^
 ||go.vrvm.com^
 ||go.xlirdr.com^
 ||go.xlivrdr.com^
@@ -7266,6 +7267,7 @@
 ||hdporn.to^$popup,third-party
 ||hdporn24.org/vcrtlrvw/
 ||hdpornfree.xxx/rek/
+||hdpornfree.xxx/sup/*.js
 ||hdpornmax.com/tmp/
 ||hdpornphotos.com/images/728x180_
 ||hdpornphotos.com/images/banner_
@@ -13738,6 +13740,7 @@
 ||vorluic.cn^
 ||vorsprung-online.de/images/images/*/Werbung/bannermobilwerbung.jpg
 ||vouninked.com^
+||voxar.xyz^
 ||voxirf.xyz^
 ||vozftn.xyz^
 ||vpn.baolq666.com^$third-party
@@ -15351,7 +15354,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
 6japaneseporn.com##.player-place > .player-place-wide-bn-ob
 7itv.com##*[style*="display"][style*="block"],*[style*="position"][style*="fixed"],*[style*="bottom:"],[class$="_b"]
-7mmtv.sx,adultdeepfakes.com,missav.com,missav123.com,missav789.com,missav888.com,thisav.com##[class^="root--"]
+7mmtv.sx,adultdeepfakes.com,missav.com,missav123.com,missav789.com,missav888.com,thisav.com,yourlust.com##[class^="root--"]
 7sim.net##html > body ~ div
 91porn.com##+js(set-constant, player.preroll, noopFunc)
 91porn.com##.vjs-preroll
@@ -17410,11 +17413,13 @@ sogou.com##.ad_result
 sogou.com##.aside-qcode
 sogou.com##.bottombar
 sogou.com##.game-op
+sogou.com##.gamesRec20220801
 sogou.com##.hd-slider > .slider-container
 sogou.com##.js-ad-item
 sogou.com##.mobad
 sogou.com##.pop-tuiguang
 sogou.com##.pz-widget-flash-container
+sogou.com##.rec-vrResult[data-v="-5"][exposed="1"]
 sogou.com##.recommend-pop
 sogou.com##.side_adv_wrap
 sogou.com##.sr-adv
@@ -17425,6 +17430,7 @@ sogou.com##.top-list[data-type="hotword"]
 sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
+sogou.com##.vrResult[data-v="102"][exposed="1"]
 sogou.com##A[data-log*="PicAd"]
 sogou.com##LI.sugg-hot
 sogou.com##div[class^="news-top-banner"]
@@ -18864,6 +18870,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /adclick?
 /adclickcv.php
 /adfox/*
+/adgpt.js
 /ads.dp.js?
 /ads/ads.js$script
 /ads/index-
@@ -18963,8 +18970,14 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /adx_flash.
 /adx_iframe_
 /adxads.
+/ai/s/s/js/
 /ai/s/s/su
+/ai2/s/s/js/
 /ai2/s/s/su
+/ai3/s/s/js/
+/ai3/s/s/su
+/ai4/s/s/js/
+/ai4/s/s/su
 /aj*.php?pid=*&n=$third-party
 /antiadblockmsg.
 /antv/*/antv-v*_asqt*.apk$document
@@ -21935,6 +21948,7 @@ zle.com$script
 ##.cari-ads
 ##.cc5278_banner_ad
 ##.cctv_banner_dv
+##.center-div.sponsor
 ##.cfa_popup
 ##.chat-ad
 ##.chat-right-ad
@@ -22741,6 +22755,7 @@ zle.com$script
 ##a[href*="//go.nordvpn.net/aff"] > img
 ##a[href*="//go.skinstrip.net"][href*="?campaignId="]
 ##a[href*="//go.strpjmp.com/"]
+##a[href*="//go.superchatlive.com"]
 ##a[href*="//go.tmrjmp.com"]
 ##a[href*="//go.trackitalltheway.com/"]
 ##a[href*="//go.xlirdr.com"]
@@ -23106,6 +23121,7 @@ zle.com$script
 ##div > a[href^="https://b"][href$=".vip"][target="_blank"] > img[src]
 ##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
+##div > iframe[src*="&width=300&height=100&"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div > ul > li > a[href][title="APP下载"]
 ##div#ad_id
@@ -23307,6 +23323,7 @@ zle.com$script
 ##iframe[src*="//go.skinstrip.net"][src*="?campaignId="]
 ##iframe[src*="//go.static-srv.com/"]
 ##iframe[src*="//go.strpjmp.com/"]
+##iframe[src*="//go.superchatlive.com"]
 ##iframe[src*="//go.tmrjmp.com"]
 ##iframe[src*="//go.trackitalltheway.com/"]
 ##iframe[src*="//go.xlirdr.com"]

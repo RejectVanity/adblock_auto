@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: lqXOWF0UOscIT8mAbk5snA
+! Checksum: SteDXrq7TZKa5MzH4Vx5bA
 ! Title: 混合规则(自动更新)
-! Version: 20231119160852
+! Version: 20231119161939
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-19 16:08:52
-! Total Count: 123565
+! Last modified: 2023-11-19 16:19:39
+! Total Count: 123585
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -27669,6 +27669,7 @@
 ||go.mobstitialtag.com^
 ||go.pornav.net^
 ||go.sohu.com/
+||go.superchatlive.com^
 ||go.toutapp.com^
 ||go.ukrleads.com^
 ||go.vnecdn.com^
@@ -29344,6 +29345,7 @@
 ||hdporn.to^$popup,third-party
 ||hdporn24.org/vcrtlrvw/
 ||hdpornfree.xxx/rek/
+||hdpornfree.xxx/sup/*.js
 ||hdpornmax.com/tmp/
 ||hdpornphotos.com/images/728x180_
 ||hdpornphotos.com/images/banner_
@@ -65879,6 +65881,7 @@
 ||vowcertainly.com^
 ||vowdistractingbuoyancy.com^
 ||voweve.com^
+||voxar.xyz^
 ||voxfind.com^
 ||voxirf.xyz^
 ||voxjvytmisj.com^
@@ -73060,7 +73063,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 7mm001.com,7mmtv.sx##.a-d-block
 7mm001.com,7mmtv.sx##.set_height_250
 7mmtv.sx##.player-overlay
-7mmtv.sx,adultdeepfakes.com,missav.com,missav123.com,missav789.com,missav888.com,thisav.com##[class^="root--"]
+7mmtv.sx,adultdeepfakes.com,missav.com,missav123.com,missav789.com,missav888.com,thisav.com,yourlust.com##[class^="root--"]
 7mmtv.tv###mvspan_2_s_k_i_p
 7mmtv.tv###player-container
 7mmtv.tv###player-container[style="width:300px;height:250px"]
@@ -76220,8 +76223,11 @@ cool3c.com##div[id^="gpt-c3c_all_side_"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 coolaler.com###hd
 coolinet.com##.section-banner
+coolors.co###header_nav + a
+coolors.co##.carbon-cad
 coolors.co##[style*="position:absolute;top:20px;"]
 coolors.co##a[href*="srv.Buysellads.com"]
+coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
 coolpc.com.tw##TD[onclick="cancelBubble()"]
 coolsaid.com##iframe[src="http://coolsaid.com/gmifr_lei.html"]
 copyfuture.com#?#.tabbable > div:-abp-contains(宝红)
@@ -86202,11 +86208,13 @@ sogou.com##.ad-img-bt + .picContainer
 sogou.com##.ad_result
 sogou.com##.aside-qcode
 sogou.com##.game-op
+sogou.com##.gamesRec20220801
 sogou.com##.hd-slider > .slider-container
 sogou.com##.js-ad-item
 sogou.com##.mobad
 sogou.com##.pop-tuiguang
 sogou.com##.pz-widget-flash-container
+sogou.com##.rec-vrResult[data-v="-5"][exposed="1"]
 sogou.com##.recommend-pop
 sogou.com##.side_adv_wrap
 sogou.com##.sr-adv
@@ -86217,6 +86225,7 @@ sogou.com##.top-list[data-type="hotword"]
 sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
+sogou.com##.vrResult[data-v="102"][exposed="1"]
 sogou.com##A[data-log*="PicAd"]
 sogou.com##LI.sugg-hot
 sogou.com##div[class^="news-top-banner"]
@@ -93077,6 +93086,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /adgitize-
 /adgoal.
 /adgooglefull2.
+/adgpt.js
 /adgraphics/*
 /adgroupdetailv2.
 /adguru.
@@ -94784,8 +94794,14 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /afu.php?$popup
 /agetsou.js
 /ahmestatic/ads/*
+/ai/s/s/js/
 /ai/s/s/su
+/ai2/s/s/js/
 /ai2/s/s/su
+/ai3/s/s/js/
+/ai3/s/s/su
+/ai4/s/s/js/
+/ai4/s/s/su
 /aimatch_ad_
 /aipai/player/game_video/videoAdvert_
 /aj*.php?pid=*&n=$third-party
@@ -113513,6 +113529,7 @@ zle.com$script
 ##.center-ad-long
 ##.center-content-ad
 ##.center-content-ads
+##.center-div.sponsor
 ##.center-gray-ad-txt
 ##.center-tag-rightad
 ##.center-tag-rightadbottom
@@ -119669,6 +119686,7 @@ zle.com$script
 ##a[href*="//go.nordvpn.net/aff"] > img
 ##a[href*="//go.skinstrip.net"][href*="?campaignId="]
 ##a[href*="//go.strpjmp.com/"]
+##a[href*="//go.superchatlive.com"]
 ##a[href*="//go.tmrjmp.com"]
 ##a[href*="//go.trackitalltheway.com/"]
 ##a[href*="//go.xlirdr.com"]
@@ -120429,6 +120447,7 @@ zle.com$script
 ##div > a[href^="https://b"][href$=".vip"][target="_blank"] > img[src]
 ##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
+##div > iframe[src*="&width=300&height=100&"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div > ul > li > a[href][title="APP下载"]
 ##div#HMRichBox
@@ -120704,6 +120723,7 @@ zle.com$script
 ##iframe[src*="//go.skinstrip.net"][src*="?campaignId="]
 ##iframe[src*="//go.static-srv.com/"]
 ##iframe[src*="//go.strpjmp.com/"]
+##iframe[src*="//go.superchatlive.com"]
 ##iframe[src*="//go.tmrjmp.com"]
 ##iframe[src*="//go.trackitalltheway.com/"]
 ##iframe[src*="//go.xlirdr.com"]
