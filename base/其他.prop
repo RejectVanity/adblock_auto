@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AhgRO4UYN6CY3dFBPhmWNg
+! Checksum: P3xRs7rF+RHX0OTzze2Y6A
 ! Title: 自用去广告Adblock规则
-! Version: 20231119161653
-! Last modified: 2023-11-19 16:16:53
-! Total Count: 3154
+! Version: 20231120093353
+! Last modified: 2023-11-20 09:33:53
+! Total Count: 3161
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -200,6 +200,7 @@
 ##.topads
 ##.txtguanggao
 ##.under-player-ad-mobile
+##.under_player > div[class*="lg:hidden"]
 ##.van-tab__panel > .noTop.main-content > .group-content
 ##.widget-ad
 ##.widget-ads
@@ -588,6 +589,7 @@
 ##div[class*="ff-ads"]
 ##div[class*="invideo-native-adv_"]
 ##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
+##div[class*="lg:hidden"] > .mx-auto
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
@@ -1376,6 +1378,7 @@
 /api/LM/Report*placeUUID=$third-party
 /api/LM/Report?placeUUID=$third-party
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
+/api/spots/*?*=$third-party
 /apijs/lunbovipdaka/*.js$~third-party
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
 /assets/ad-$domain=~flowus.cn
@@ -1570,6 +1573,8 @@
 /redbaiduct.com?s=$third-party
 /rs/js/temp_1.js$script,third-party
 /rs/shto/*?n=*&p=false&t=16$third-party
+/sad3.js?
+/sad3.js?$third-party
 /sbar.json?key=
 /sdk/push_web/?zid=
 /search/tsc.php?
@@ -2932,6 +2937,7 @@ zle.com$script
 ||peizi00.com^$third-party
 ||pemsrv.com^
 ||pemsrv.com^$third-party
+||phimvu.app^$third-party
 ||piankudy.com/gg$script
 ||pic.dibtvft.cn^$script,third-party
 ||pic.ivzfpwm.cn^$script,third-party
@@ -3072,6 +3078,7 @@ zle.com$script
 ||vxinzheng.xyz^$third-party
 ||vzigttqgqx.com^
 ||wap.gonb.org/qjlm_wap.js
+||wdwdwd3d.com^
 ||wendypha.com^$third-party
 ||wotmvdc.cn^
 ||wpadmngr.com^

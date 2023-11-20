@@ -1,15 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: komHtlVgSkgvPtn4iWhHKw
+! Checksum: tQPqKIEZpXxML0QjETPMUw
 ! Title: 拦截黄色网站转跳
-! Version: 20231029105451
-! Last modified: 2023-10-29 10:54:51
-! Total Count: 366
+! Version: 20231120093058
+! Last modified: 2023-11-20 09:30:58
+! Total Count: 384
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
 .app?c=ggcha$~third-party
 .cc/?c=axza$document
 .cc/?c=axza$~third-party
+.cc/?ch=rxpp$document
+.cc/?ch=rxpp$~third-party
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
 .cn-shanghai.nlb.aliyuncs.com:*/16*/*/m.html#$document
@@ -24,6 +26,8 @@
 .cn:*/?channelCode=$~third-party
 .com/?invite=*&nt=0$document
 .com/?invite=*&nt=0$~third-party
+.com/aff-w2aK$document
+.com/aff-w2aK$~third-party
 .com/h.html?id=$document
 .com/h.html?id=$~third-party
 .com/new/5*.html$document
@@ -54,6 +58,8 @@
 .live/h.html?id=$~third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
+.ltd/?channelCode=$document
+.ltd/?channelCode=$~third-party
 .me/?channelCode=$document
 .me/?channelCode=$~third-party
 .net:*/index.html?shareName=$document
@@ -124,6 +130,8 @@
 /?channelId=$~third-party
 /?channelNo=*#/home$document
 /?channelNo=*#/home$~third-party
+/?dc=guochao$document
+/?dc=guochao$~third-party
 /?linkid=*&pop=1$document
 /?linkid=*&pop=1$~third-party
 /?linkid=*&type=$document
@@ -138,6 +146,8 @@
 /antv/*/antv-v*_asqt*.apk$~third-party
 /antv/antv_v*.*.apk$document
 /antv/antv_v*.*.apk$~third-party
+/c1.html?c=axza$document
+/c1.html?c=axza$~third-party
 /channel/downApk*&appName=antv$document
 /channel/downApk*&appName=antv$~third-party
 /chunyu*.html?channelCode=$document
@@ -158,6 +168,8 @@
 /index.html#/register$~third-party
 /index.html?shareName=$document
 /index.html?shareName=$~third-party
+/jypro.html?c=pxza$document
+/jypro.html?c=pxza$~third-party
 /m.html?rmid=*&yd=$document
 /m.html?rmid=*&yd=$~third-party
 /v*/?channelCode=$document
@@ -294,6 +306,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||lu.lindhf4.com^$~third-party
 ||luochong2.cn^$document
 ||luochong2.cn^$~third-party
+||lutube2310.com^$document
+||lutube2310.com^$~third-party
 ||msfd8mty4nzux.fua*.cc^$document
 ||msfd8mty4nzux.fua*.cc^$~third-party
 ||mzgcst.mbibioe.cn^$document
@@ -332,6 +346,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||szpsys.com^$~third-party
 ||szptlkj.com^$document
 ||szptlkj.com^$~third-party
+||t.dhusr.com^$document
+||t.dhusr.com^$~third-party
 ||ttzzz11.com^$document
 ||ttzzz11.com^$~third-party
 ||ttzzz22.com^$document
@@ -342,6 +358,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ttzzz44.com^$~third-party
 ||twinrdsrv.com^$document
 ||twinrdsrv.com^$~third-party
+||uunrkj.com^$document
+||uunrkj.com^$~third-party
 ||v59833.com:^$document
 ||v59833.com:^$~third-party
 ||vn2s.com^$document
