@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8YZaCrXrdDzxWvktXCh/6w
+! Checksum: Yr0ntRfLV9/atizyLyopEA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231120094004
+! Version: 20231120161039
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-20 09:40:04
-! Total Count: 24689
+! Last modified: 2023-11-20 16:10:39
+! Total Count: 24696
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -7473,6 +7473,7 @@
 ||hoiea.xyz^
 ||hoiplay.com/tm_popup.html$popup
 ||holder.com.ua^
+||holdntlc.com^
 ||hollowafterthought.com^$third-party
 ||homosexualprovenance.com^
 ||homosexualprovenance.com^$popup
@@ -15057,6 +15058,7 @@
 ||zhalinylqq.com^
 ||zhalinyyds.com^
 ||zhangguangzong.com^$third-party
+||zhangyuting04.cn^
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
 ||zhaozongqq.com^
@@ -15666,6 +15668,7 @@ btsj6.com##em > strong
 bubbaporn.com,kalporn.com,koloporno.com,pornodingue.com,pornodoido.com,pornozot.com,serviporno.com,voglioporno.com##.banners-footer
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
 buildsometech.com,4thsight.xyz,zonegfx.com,hutporner.com,jav1080.com,sakurajav.com,laweekly.com,watchseinfeld.com,historicseries.com,indiansexbazar.com,sonixgvn.net,eftm.com,streamempire.cc,pennbookcenter.com,floxblog.com,aceofhacking.com,watchtheoffice.cc,newtechworld.net,gfxdrug.com,collegelearners.com,tecmint.com,firesticktricks.com###custom_html-4
+buondua.com,buondua.us##.search-form + br + div[class]
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
 buondua.com,buondua.us,kostaku.art,kostaku.com,kostaku.live,kostaku.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
@@ -19013,6 +19016,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /api/LM/*placeUUID=$third-party
 /api/LM/Report*placeUUID=$third-party
 /api/LM/Report?placeUUID=$third-party
+/api/ad/*
+/api/adplogger/*
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
 /api/spots/*?*=$third-party
 /apijs/lunbovipdaka/*.js$~third-party
@@ -24471,6 +24476,8 @@ zle.com$script
 @@/adsbygoogle.js$script,domain=arabiaweather.com
 @@/adsense.js$~third-party,domain=handjob.pro|lezbiyen-tube.com|mybigbeautifulwoman.com|mystreetgirl.com|sex-jav.com
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr|macupload.net|majorgeeks.com|upload.ac
+@@/api/ad/*$domain=pinduoduo.com
+@@/api/ads?$domain=nmkjxy.com
 @@/api/models?$domain=tik.porn
 @@/api/v2/models-online?$domain=tik.porn
 @@/index.m3u8

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6UisMUS19aDCiXsVZeuMkw
+! Checksum: I9P+rpkhyYsoyQLebpDsZQ
 ! Title: 混合规则(自动更新)
-! Version: 20231120093953
+! Version: 20231120161029
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-20 09:39:53
-! Total Count: 123628
+! Last modified: 2023-11-20 16:10:29
+! Total Count: 123634
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -30230,6 +30230,7 @@
 ||hoiwcg.cn^
 ||hokierloopy.digital^
 ||holder.com.ua^
+||holdntlc.com^
 ||holdonstranger.com^
 ||holdsbracketsherry.com^
 ||holdsoutset.com^
@@ -70994,6 +70995,7 @@
 ||zhangmingqin.tech^
 ||zhangshiyuan.com^
 ||zhangwanwan.online^
+||zhangyuting04.cn^
 ||zhangzhiyang01.cn^
 ||zhangzishi.cc/cdn-cgi/apps/
 ||zhanjiangletian.com^
@@ -75253,6 +75255,7 @@ buondua.com##.b1a05af5ade94f4004a7f9ca27d9eeffb
 buondua.com##.b2b4677020d78f744449757a8d9e94f28
 buondua.com##.b489c672a2974fbd73005051bdd17551f
 buondua.com##small[style^="border-bottom: solid 1px;"]
+buondua.com,buondua.us##.search-form + br + div[class]
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
 buondua.com,buondua.us,kostaku.art,kostaku.com,kostaku.live,kostaku.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
@@ -76911,6 +76914,7 @@ disk.yandex.com,disk.yandex.ru##.direct-public__sticky-box
 diskingdom.com##div[id="diski-"]
 dismall.com##.d_money
 disney.com##.gpt
+disneydining.com##div[style="min-height:125px;"]
 disp.cc###ads_page_b
 disp.cc###ads_page_r
 disp.cc##.ads_bot_block
@@ -93957,6 +93961,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /ads_codes/*
 /ads_config.
 /ads_controller.
+/ads_controller.js
 /ads_detect.
 /ads_dfp/*
 /ads_display.
@@ -94906,6 +94911,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /api/Video/GetAdsDataList?
 /api/aaaac/list
 /api/ad/*
+/api/adplogger/*
 /api/ads/*
 /api/ads?
 /api/apiFetchAdsData
