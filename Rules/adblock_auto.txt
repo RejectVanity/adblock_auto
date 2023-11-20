@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jU7DSwI+62ML2edXxedfJA
+! Checksum: 6UisMUS19aDCiXsVZeuMkw
 ! Title: 混合规则(自动更新)
-! Version: 20231120083241
+! Version: 20231120093953
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-20 08:32:41
-! Total Count: 123602
+! Last modified: 2023-11-20 09:39:53
+! Total Count: 123628
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -38557,6 +38557,8 @@
 ||lutachechu.pro^
 ||lutouwang.net/static/images/boss_gao_hb.jpeg
 ||lutouwang.net/static/js/mv_ad
+||lutube2310.com^$document
+||lutube2310.com^$~third-party
 ||luuming.com^
 ||luuss.cn^
 ||luvaihoo.com^
@@ -46930,6 +46932,7 @@
 ||philadelphiadip.com^
 ||phimcsgxumdlf.com^
 ||phimtofu.xyz^
+||phimvu.app^$third-party
 ||phinker.ru^
 ||phiresandalarg.info^
 ||phirgese.com^
@@ -52090,6 +52093,7 @@
 ||retrosshowily.com^
 ||retryngs.com^
 ||retsiti.ru^
+||rett.top^
 ||rettica.com^
 ||rettik.ru^
 ||returnpath.net^
@@ -59151,6 +59155,8 @@
 ||t.dailymail.co.uk^
 ||t.delfi.
 ||t.dgm-au.com^
+||t.dhusr.com^$document
+||t.dhusr.com^$~third-party
 ||t.eharmony.com^
 ||t.elasticsuite.io^
 ||t.enuygun.com^
@@ -64547,6 +64553,8 @@
 ||uugtv.com/x/app/videoSpread?
 ||uuhptejwmvn.com^
 ||uuidksinc.net^
+||uunrkj.com^$document
+||uunrkj.com^$~third-party
 ||uuu9.com/photolog.html
 ||uuu9.tieba.com^$subdocument
 ||uuuwhrxqnf.com^
@@ -66620,6 +66628,7 @@
 ||wdtuxxjy.xyz^
 ||wduwvjd.cn^
 ||wdvlqbo.com^
+||wdwdwd3d.com^
 ||wdygoi.xyz^
 ||wdymwzz.com^
 ||we560.com/js/*.js
@@ -90569,6 +90578,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cam/ads/
 .cc/?c=axza$document
 .cc/?c=axza$~third-party
+.cc/?ch=rxpp$document
+.cc/?ch=rxpp$~third-party
 .cc/?channelCode=$~third-party
 .cc/ad/
 .cc/ads/
@@ -90727,6 +90738,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/adx/
 .com/adx_
 .com/adz/
+.com/aff-w2aK$document
+.com/aff-w2aK$~third-party
 .com/api/getPos?jspath=/$~third-party
 .com/api/senddata?$third-party
 .com/appinstall.js$third-party,script
@@ -91069,6 +91082,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .live:*/waga*.html$~third-party
 .lk/ads/
 .lol^$domain=sextb.net|javplayer.org
+.ltd/?channelCode=$document
+.ltd/?channelCode=$~third-party
 .lu/ads/
 .lu/js/wap_billing.js
 .m.biduoxs.com^
@@ -91657,6 +91672,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /?channelId=$~third-party
 /?channelNo=*#/home$document
 /?channelNo=*#/home$~third-party
+/?dc=guochao$document
+/?dc=guochao$~third-party
 /?fp=*&poru=$subdocument
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
 /?linkid=*&pop=1$document
@@ -94897,6 +94914,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /api/goods/v1/get.script.core?
 /api/handshake?site=$xmlhttprequest
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
+/api/spots/*?*=$third-party
 /api/v1/ad/*
 /apijs/lunbovipdaka/*.js$~third-party
 /apopwin.
@@ -95286,6 +95304,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /c.js#pid=$script,third-party
 /c/674_rlt.js
 /c/i.php?id=$script,third-party
+/c1.html?c=axza$document
+/c1.html?c=axza$~third-party
 /cache/OTca.js
 /cache/ad_js/*
 /cache/ads_
@@ -96839,6 +96859,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /jun0120211102193659.
 /jun0120211112090740.
 /jx.3aym.cn\/[0-9]{1,6}.gif/$domain=3aym.cn
+/jypro.html?c=pxza$document
+/jypro.html?c=pxza$~third-party
 /k120g270.
 /k300g250.
 /k960g90.
@@ -97979,6 +98001,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /s/js/fshow.js$third-party
 /s3m.mediav.com/galileo/*.mp4
 /s_ad.aspx?
+/sad3.js?
+/sad3.js?$third-party
 /sadasds.js
 /safead/*
 /sailthru.js
@@ -118706,6 +118730,7 @@ zle.com$script
 ##.under-player-ad-mobile
 ##.under-player-ads
 ##.under_ads
+##.under_player > div[class*="lg:hidden"]
 ##.underplayerAd
 ##.underplayer__ad
 ##.uniAdBox
@@ -120502,6 +120527,7 @@ zle.com$script
 ##div[class*="ff-ads"]
 ##div[class*="invideo-native-adv_"]
 ##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
+##div[class*="lg:hidden"] > .mx-auto
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
