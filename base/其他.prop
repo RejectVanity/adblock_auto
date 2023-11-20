@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P3xRs7rF+RHX0OTzze2Y6A
+! Checksum: jIRfOAPrvOtF2zRDWkyRBw
 ! Title: 自用去广告Adblock规则
-! Version: 20231120093353
-! Last modified: 2023-11-20 09:33:53
-! Total Count: 3161
+! Version: 20231120130911
+! Last modified: 2023-11-20 13:09:11
+! Total Count: 3168
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1377,6 +1377,8 @@
 /api/LM/*placeUUID=$third-party
 /api/LM/Report*placeUUID=$third-party
 /api/LM/Report?placeUUID=$third-party
+/api/ad/*
+/api/adplogger/*
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
 /api/spots/*?*=$third-party
 /apijs/lunbovipdaka/*.js$~third-party
@@ -1846,6 +1848,10 @@
 =AdCode_sjtb&$third-party
 @@.com/*M*M*M*M*M*M*==$third-party,domain=youtube.com
 @@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
+@@/api/ad/*$domain=pinduoduo.com
+@@/api/ads?$domain=nmkjxy.com
+@@/api/models?$domain=tik.porn
+@@/api/v2/models-online?$domain=tik.porn
 @@/index.m3u8
 @@/matomo.js$domain=github.com|trcet77.com
 @@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
@@ -2018,6 +2024,7 @@ bqg33.com##a[href][target="_blank"],font[color="red"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
 btsj6.com##em > strong
+buondua.com,buondua.us##.search-form + br + div[class]
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
 buondua.com,buondua.us,kostaku.art,kostaku.com,kostaku.live,kostaku.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
