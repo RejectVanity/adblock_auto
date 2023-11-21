@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: PnseUZwJs96J/IdCC3alYg
+! Checksum: nSjxJNoitQFrBIQ1hnCG5w
 ! Title: 混合规则(自动更新)
-! Version: 20231121161006
+! Version: 20231121193221
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-21 16:10:06
-! Total Count: 123686
+! Last modified: 2023-11-21 19:32:21
+! Total Count: 123689
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -74002,7 +74002,7 @@ applefans.today#$#.tipi-overlay { display: none !important; }
 applefans.today,ulifestyle.com.hk#$#body { overflow: auto !important; }
 appleinsider.com##.exclusive-wrap
 appleinsider.com##.push
-appleinsider.com,dappradar.com,euroweeklynews.com,thefinancialbrand.com##[rel*="sponsored"]
+appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,thefinancialbrand.com##[rel*="sponsored"]
 appleinsider.com,gter.net##.bottom
 appleworld.today###block-26
 apprcn.com##a[href*=".lizhi."]
@@ -119254,6 +119254,8 @@ zle.com$script
 ##DFP-AD
 ##[class$="ad-box"]
 ##[class$="ad-container"]
+##[class$="ads-box"]
+##[class$="ads-container"]
 ##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
@@ -119289,6 +119291,7 @@ zle.com$script
 ##[class^="ad-bottom"]
 ##[class^="ad-float"]
 ##[class^="ad-layer"]
+##[class^="ad-slot-"]
 ##[class^="ad-top"]
 ##[class^="adDisplay-module"]
 ##[class^="ads"][style] > a > img[width="100%"][alt]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: zd47jgfkLvxxffGJH7hw9A
+! Checksum: h59YEs0jeHH1ky1i/vKsmQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231121161017
+! Version: 20231121193231
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-21 16:10:17
-! Total Count: 24718
+! Last modified: 2023-11-21 19:32:31
+! Total Count: 24752
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -21261,6 +21261,11 @@ zle.com$script
 ###adright
 ###adrights14
 ###ads-blocked
+###ads-container
+###ads-container-2
+###ads-container-anchor
+###ads-container-single
+###ads-container-top
 ###ads.row
 ###ads_c_tpc
 ###ads_inner
@@ -21318,8 +21323,19 @@ zle.com$script
 ###bl_mobile_float
 ###body > #left-promotion
 ###body > #right-promotion
+###bottom-ad-area
+###bottom-ad-banner
+###bottom-ad-container
+###bottom-ad-leaderboard
+###bottom-ad-slot
+###bottom-ad-wrapper
+###bottom-adhesion-container
 ###bottom-ads
+###bottom-ads-bar
 ###bottom-ads-container
+###bottom-adspot
+###bottom-advertising
+###bottom-boxad
 ###bottom-gg1
 ###bottomAD
 ###bottomAd
@@ -21981,6 +21997,7 @@ zle.com$script
 ##.bn728-100
 ##.bn728-93
 ##.book > #btmBox
+##.bottom-ads-container
 ##.bottom-ads-content
 ##.bottom-adv
 ##.bottom-mobile-ad
@@ -22138,6 +22155,7 @@ zle.com$script
 ##.google-ad2_fixed
 ##.google_adsense2
 ##.gpost-below
+##.gpt-ad
 ##.gpt_ads_box
 ##.gpt_ads_title
 ##.guanggaoBox
@@ -22402,6 +22420,7 @@ zle.com$script
 ##.top > a > .topline[src^="/photo/"]
 ##.top > div[style="max-width: 1235px; width: 100%; text-align:center; margin-left: auto; margin-right: auto"]
 ##.top-ads
+##.top-ads-container
 ##.top-ads-content
 ##.top-bar-adblock
 ##.top-gg
@@ -22432,6 +22451,7 @@ zle.com$script
 ##.under-player-ad-mobile
 ##.under_player > div[class*="lg:hidden"]
 ##.van-tab__panel > .noTop.main-content > .group-content
+##.video-ads-container
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
@@ -22446,6 +22466,7 @@ zle.com$script
 ##.wemziguanggao
 ##.wf_ad_block
 ##.wgAdBlockMessage
+##.wide-ads-container
 ##.widget-ad
 ##.widget-ads
 ##.widget-qianhuiji
@@ -22462,6 +22483,9 @@ zle.com$script
 ##.widget_ui_textaub
 ##.wordurl[style="   width: 42%; float:left; text-align: center;"]
 ##.wp > .ad-box
+##.wp-ads-target
+##.wp-block-ad-slot
+##.wp-block-tpd-block-tpd-ads
 ##.wp.a2_h
 ##.wp.a_f
 ##.wp.a_h
@@ -22473,6 +22497,11 @@ zle.com$script
 ##.wrap.mt10.clearfix > .box.top_box
 ##.wrapper > #asxv
 ##.wrapper > a[target="_blank"] > .ads
+##.wrapper-ad
+##.wrapper-header-ad-slot
+##.wrapper_ad
+##.wrapper_advertisement
+##.wrapperad
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
 ##.wwads
@@ -22492,6 +22521,8 @@ zle.com$script
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="ad-box"]
 ##[class$="ad-container"]
+##[class$="ads-box"]
+##[class$="ads-container"]
 ##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
@@ -22526,6 +22557,7 @@ zle.com$script
 ##[class^="ad-bottom"]
 ##[class^="ad-float"]
 ##[class^="ad-layer"]
+##[class^="ad-slot-"]
 ##[class^="ad-top"]
 ##[class^="ads"][style] > a > img[width="100%"][alt]
 ##[class^="ads"][style] > a[target="_blank"]
@@ -24687,6 +24719,7 @@ apkpure.com#@#.ad-box-auto
 apkpure.com,coolapk.com#@#[class$="ad-box"]
 apkpure.com,job.inshokuten.com,sexgr.net,webbtelescope.org#@#.ad-box
 baidu.com#@#.ad-wrapper
+bdsmlr.com#@#.ads-container
 bestjavporn.com,javhdporn.net,video.bestjavporn.com#@#.ad-placement
 bestporncomix.com#@#.adsbar
 colamanhua.com,colamanga.com#@#.gg_950
@@ -24701,6 +24734,7 @@ fstore.biz#@##adblockinfo
 gamaniak.com,rockmods.net#@#.adsbygoogle
 goha.ru#@#.goha_ads
 goha.ru#@#.goha_ads_acceptable
+hkcards.com#@##ad-slot
 hypebeast.com,hypebeast.kr#@#.ad-blocked
 iwin.com#@##sponsorText
 liga.net#@#div[id^="div-gpt-ad"]
