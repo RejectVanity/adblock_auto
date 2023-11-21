@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jIRfOAPrvOtF2zRDWkyRBw
+! Checksum: 5ecGMGd1f4hwHsa639Lq9A
 ! Title: 自用去广告Adblock规则
-! Version: 20231120130911
-! Last modified: 2023-11-20 13:09:11
-! Total Count: 3168
+! Version: 20231121192903
+! Last modified: 2023-11-21 19:29:03
+! Total Count: 3205
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -20,10 +20,28 @@
 ###adbox_content
 ###adbox_right
 ###adh5
+###ads-container
+###ads-container-2
+###ads-container-anchor
+###ads-container-single
+###ads-container-top
 ###advertisings
 ###allpng
 ###bl_mobile_float
+###bottom-ad-area
+###bottom-ad-banner
+###bottom-ad-container
+###bottom-ad-leaderboard
+###bottom-ad-slot
+###bottom-ad-wrapper
+###bottom-adhesion-container
 ###bottom-ads
+###bottom-ads-bar
+###bottom-ads-container
+###bottom-adspot
+###bottom-advertising
+###bottom-boxad
+###bottom-gg1
 ###bottom_ad
 ###coupletLeft
 ###coupletRight
@@ -113,6 +131,7 @@
 ##.bigads
 ##.bing-ads-wrapper
 ##.bing-native-ad
+##.bottom-ads-container
 ##.bottom-ads-content
 ##.bottom-mobile-ad
 ##.bottom_fixed > a > img[src$=".gif"]
@@ -144,6 +163,7 @@
 ##.g-slide
 ##.gg_pc
 ##.gg_sj
+##.gpt-ad
 ##.header-ad-desktop
 ##.header-ad-mobile
 ##.ima-ad-container
@@ -196,22 +216,36 @@
 ##.textadv
 ##.thumb-ad
 ##.thumb-nat-ad
+##.top-ads-container
 ##.top-ads-content
 ##.topads
 ##.txtguanggao
 ##.under-player-ad-mobile
 ##.under_player > div[class*="lg:hidden"]
 ##.van-tab__panel > .noTop.main-content > .group-content
+##.video-ads-container
+##.wide-ads-container
 ##.widget-ad
 ##.widget-ads
 ##.widget_ad_rotator
 ##.widget_ads
 ##.widget_adsensem
 ##.widget_advert
+##.wp > .ad-box
+##.wp-ads-target
+##.wp-block-ad-slot
+##.wp-block-tpd-block-tpd-ads
+##.wrapper-ad
+##.wrapper-header-ad-slot
+##.wrapper_ad
+##.wrapper_advertisement
+##.wrapperad
 ##.yuepa-list
 ##.yuepa-warp
 ##[class$="ad-box"]
 ##[class$="ad-container"]
+##[class$="ads-box"]
+##[class$="ads-container"]
 ##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
@@ -237,6 +271,7 @@
 ##[class^="ad-bottom"]
 ##[class^="ad-float"]
 ##[class^="ad-layer"]
+##[class^="ad-slot-"]
 ##[class^="ad-top"]
 ##[class^="ads"][style] > a > img[width="100%"][alt]
 ##[class^="ads"][style] > a[target="_blank"]
@@ -1976,6 +2011,7 @@ baike.baidu.com##[class^="relative-shop-"]
 baike.baidu.com##[class^="yitiao-"]
 baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
 baike.so.com##[id^="business-flow"]
+bdsmlr.com#@#.ads-container
 bilibili.com##.float-btn
 bilibili.com##.read-recommend-info
 bing.com###BottomAppPro
@@ -2132,6 +2168,7 @@ hanyu.baidu.com##[id^="fengchao_els"]
 hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
 hentaicity.com##[class^="adn-posty_"]
 hentaipaw.com##.header-ad,.middle-ad,[id^="ts_ad_native"]
+hkcards.com#@##ad-slot
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
 https://**.*/TC/*/*.gif$third-party,image
 https://**.*/YL/*/*.gif$third-party,image
