@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: zKqj5M5pVnW/+pC+N1Fmwg
+! Checksum: YUWkeeZ0nLVtqj3muqUPUw
 ! Title: 混合规则(自动更新)
-! Version: 20231122203505
+! Version: 20231123000923
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-22 20:35:05
-! Total Count: 123920
+! Last modified: 2023-11-23 00:09:23
+! Total Count: 123930
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -833,6 +833,7 @@
 ||18teensex.tv/player/html.php$subdocument
 ||18tlm4jee.de^
 ||190282.xyz^
+||1905.com/data/js/*.json?pwd=*.shtml&rand=$xmlhttprequest
 ||1905.com/data/js/*.json?pwd=*?fr=videoplay_*&rand=$xmlhttprequest
 ||1909.me/upload/ad/
 ||1917697853.rsc.cdn77.org^
@@ -28371,6 +28372,7 @@
 ||groguzoo.net^
 ||groininsightclaimed.com^
 ||groinmonsieur.com^
+||gronsoad.com^
 ||grooksom.com^
 ||groomoub.com^
 ||groopsie.net^
@@ -76504,6 +76506,7 @@ crsky.com##.adowGright
 crsky.com##.banner-leader
 crsky.com##.ml10.Gs_d
 crsky.com##a[href^="http://count."][href$=".exe"]
+cruisecritic.co.uk#?#div[role="group"]:-abp-contains(Sponsored)
 cruisecritic.co.uk,cruisecritic.com##div[class^="ArticleItem_ad"]
 cruisecritic.co.uk,cruisecritic.com,cruisecritic.com.au##.css-1kyizeh
 cruisecritic.com,cruisecritic.com.au##.ArticleItem_scrollTextContainer__GrBC_
@@ -80583,6 +80586,9 @@ infobetting.com##.ibBanner
 infographicjournal.com##.et_pb_module:-abp-contains(Partners)
 infographicjournal.com##.et_pb_module:-abp-contains(Partners) + .et_pb_module
 infographicjournal.com##.et_pb_widget:-abp-contains(Partners)
+infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
+infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
+infographicjournal.com#?#.et_pb_widget:-abp-contains(Partners)
 infoplease.com###block-ipabovethefold
 infoplease.com###block-ipbtfad
 infoplease.com###block-ipleaderboardad
@@ -84476,7 +84482,7 @@ porndoe.com##[class^="-banner"],[href*="//ads"],[href^="/redirect"]
 porndoe.com##[ng-if*="service.banners"]
 porndoe.com##div[class*="-h-banner"]
 porndoe.com##ul[class="-h-nav"] > li > a[target="_blank"][href^="/track/"]
-porndoe.com,pornhdtube.tv,pornhdvideos.tv,realgfporn.com##.video-overlay
+porndoe.com,pornhdtube.tv,pornhdvideos.tv,realgfporn.com,recordbate.com##.video-overlay
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 porndoe.com,tube8.es,tube8.fr,youporngay.com##video[autoplay]
@@ -85731,6 +85737,7 @@ searchenginereports.net###imagess2
 searchenginereports.net###imagess3
 searchenginereports.net##a[title="Ad"]
 searchfiles.de###nextuse
+seatguru.com###comparePrices
 seattlepi.com##.b-gray300
 seattlepi.com##.ctpl-fullbanner
 seattlepi.com##.hnpad-Flex1
@@ -87697,7 +87704,10 @@ tribunnews.com###wideskyscraper
 tribunnews.com##.box__reserved
 tripadvisor.com##.iab_leaBoa
 tripadvisor.com##.iab_medRec
+tripadvisor.com##.rSJod
+tripadvisor.com##div[class="ui_container dSjaD _S"]
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
+tripadvisor.com#?#div:-abp-has(>div[class="ui_columns is-multiline "])
 tripsonabbeyroad.com##[href^="https://tp.media/"]
 tripsonabbeyroad.com#?#.e-con-inner:-abp-has(tp-cascoon)
 tripstodiscover.com##.fs-dynamic
