@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5ecGMGd1f4hwHsa639Lq9A
+! Checksum: yOtum4BeDYxZ7fUJTnDetA
 ! Title: 自用去广告Adblock规则
-! Version: 20231121192903
-! Last modified: 2023-11-21 19:29:03
-! Total Count: 3205
+! Version: 20231122203138
+! Last modified: 2023-11-22 20:31:38
+! Total Count: 3212
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -937,6 +937,7 @@
 ##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
 ##span[id$="bottom_gg"]
 ##span[id$="top_gg"]
+##span[id] > div[id][style*="no-repeat;"][style*="/"][style*="100%"]
 ##span[onclick^="window"][onclick$=".RD();"]
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
@@ -1105,6 +1106,7 @@
 .icu/*/20*/*/16*.gif$image,third-party
 .icu/biyys*.js$third-party,script
 .icu/pssbk?$third-party
+.icu/release*ts?*16$third-party
 .la/8WaadBLH/*.js
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
@@ -1234,7 +1236,6 @@
 /ad-blocking-detector/*
 /ad-tetris-site/file
 /ad/display.php?$third-party
-/ad/gudingwei.js
 /ad/gudingwei.js$~third-party,script
 /ad/iframe.
 /ad/iframe/*
@@ -1509,6 +1510,8 @@
 /js/dj1ll*.js
 /js/dj2ll*.js
 /js/dnsads.js?
+/js/hfee*.js?v=$~third-party
+/js/hfss*.js?v=$~third-party
 /js/jads.js$script
 /js/jads.js?
 /js/pfadll*.js
@@ -1561,6 +1564,7 @@
 /new/yinghua*/top.js$third-party,script
 /new/yinghuacd*/bottom.js$third-party,script
 /npc/sdk/wp-banners.js$script,third-party
+/obcdle*/fuoihgyg*.js$~third-party
 /openads-
 /openads.
 /openads/*
@@ -1610,7 +1614,6 @@
 /redbaiduct.com?s=$third-party
 /rs/js/temp_1.js$script,third-party
 /rs/shto/*?n=*&p=false&t=16$third-party
-/sad3.js?
 /sad3.js?$third-party
 /sbar.json?key=
 /sdk/push_web/?zid=
@@ -2656,6 +2659,7 @@ zle.com$script
 ||2023welcome.com^$third-party
 ||33.autohome.com.cn^
 ||3pmcoohke.scriptmh.com^
+||3v7c7y.online^$third-party
 ||3zmm.net/*/*.js
 ||51.la^$third-party
 ||510cg.com/1688/m_*.php$~third-party
@@ -2675,6 +2679,7 @@ zle.com$script
 ||ad.hailangouwu.com^
 ||ad999.biz^$third-party
 ||adactioner.com^$third-party
+||adb.*.online/o.js$third-party
 ||adb.*.online/slot?$third-party
 ||adda.ljhhhhrt.top^
 ||addthis.com^
@@ -2802,6 +2807,7 @@ zle.com$script
 ||dvnsdo.com^$third-party
 ||dydytt.net/js3
 ||e.1bctkn.xyz^$third-party
+||eaaaej.icu^$third-party
 ||effirst.com^$third-party
 ||ehfjup.xyz^$third-party
 ||elonreptiloid.com^$third-party
@@ -3041,6 +3047,7 @@ zle.com$script
 ||shabby-constant.com^$third-party
 ||siduohua.top^
 ||simplewebanalysis.com^
+||sinodan.link/js/js4.js?v=
 ||sitewithg.com^
 ||sjdfuvz.cn^
 ||skluff.com^$third-party
