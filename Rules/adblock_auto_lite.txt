@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: o22IXU7ZOmOCgkQ9g6a7Rw
+! Checksum: ZTyA9G/q/PhB62pjP+U8tA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231122161020
+! Version: 20231122203515
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-22 16:10:20
-! Total Count: 24768
+! Last modified: 2023-11-22 20:35:15
+! Total Count: 24909
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -739,6 +739,7 @@
 ||3uvz5.xyz^
 ||3v4w.top^
 ||3v7c7y.com^
+||3v7c7y.online^$third-party
 ||3wk.cc/images/*.gif
 ||3xy1.dvv9dkv.site^$third-party
 ||3z7qn.cn^
@@ -753,6 +754,7 @@
 ||4080kan.com/js/head
 ||4080kan.com/js/head1.js
 ||40wan.com/js/www2/
+||415677.com^
 ||42cao.com/ckplay/js.jpg
 ||4399.com/baiduad/
 ||4399.com/jss/*coup.js
@@ -1857,6 +1859,7 @@
 ||adaround.net^
 ||adarutoad.com^
 ||adatrix.com^$third-party
+||adb.*.online/o.js$third-party
 ||adb.*.online/slot?$third-party
 ||adb.xfilm.me^
 ||adb7rtb.com^
@@ -5951,6 +5954,7 @@
 ||e7ckr.icu^
 ||e8jp9.com^
 ||e9377f.com^$redirect=noop-0.1s.mp3,domain=eastday.com,media
+||eaaaej.icu^$third-party
 ||eaica.xyz^
 ||ealdi.xyz^
 ||ealooov.cn^
@@ -8224,6 +8228,7 @@
 ||jandan.net^*/3kbw2.png
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
+||jane1.top^
 ||jane2.top^
 ||janwzsqi.icu^
 ||jaowd.xyz^
@@ -12377,6 +12382,7 @@
 ||singlove.com/qq/qq.js
 ||singmwn51g.com^
 ||sinkbooks.com^$third-party
+||sinodan.link/js/js4.js?v=
 ||sinolub.com/index.php?m=poster&
 ||sinst.fwdcdn.com/_uploaded_files/ads/
 ||sisjwol.xyz^
@@ -12698,6 +12704,7 @@
 ||stroi-help.ru/forum/script_new.js
 ||stuff.wikiporno.org^
 ||stulip.org/static/js/header.js
+||stylishar.com^
 ||su.bdimg.com/static/dspui/js/
 ||sub.powerapple.com^
 ||sub.xxx-porn-tube.com^
@@ -18430,6 +18437,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .icu/biyys*.js$third-party,script
 .icu/pssbk?$third-party
 .icu/pssbk?*16$third-party
+.icu/release*ts?*16$third-party
 .icu:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tangsanshu.la|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com
 .in/js/ads/
 .info/ad.js
@@ -19210,6 +19218,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /js/dnsads.js?
 /js/gadks.js?$~third-party,script
 /js/gano.js?$~third-party,script
+/js/hfee*.js?v=$~third-party
+/js/hfss*.js?v=$~third-party
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/jads.js$script
 /js/jads.js?
@@ -19275,6 +19285,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /nonAdBlock/*
 /npc/sdk/wp-banners.js$script,third-party
 /npsblocker/js/ads.
+/obcdle*/fuoihgyg*.js$~third-party
 /openads-
 /openads.
 /openads/*
@@ -19334,7 +19345,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /redbaiduct.com?s=$third-party
 /rs/js/temp_1.js$script,third-party
 /rs/shto/*?n=*&p=false&t=16$third-party
-/sad3.js?
 /sad3.js?$third-party
 /sbar.json?key=
 /sdk/push_web/?zid=
@@ -19580,6 +19590,19 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://ln.*.mobi$third-party
 ://ly*.guixiangyuan.xyz$document
 ://ly*.guixiangyuan.xyz$~third-party
+://m.*23ddw.app/*/*.js
+://m.*23ddw.cc/*/*.js
+://m.*23ddw.cn/*/*.js
+://m.*23ddw.co/*/*.js
+://m.*23ddw.com/*/*.js
+://m.*23ddw.info/*/*.js
+://m.*23ddw.la/*/*.js
+://m.*23ddw.me/*/*.js
+://m.*23ddw.net/*/*.js
+://m.*23ddw.org/*/*.js
+://m.*23ddw.so/*/*.js
+://m.*23ddw.tw/*/*.js
+://m.*23ddw.us/*/*.js
 ://m.*81zw.app/*/*.js
 ://m.*81zw.cc/*/*.js
 ://m.*81zw.cn/*/*.js
@@ -19736,6 +19759,32 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://m.*yetianlian.so/*/*.js
 ://m.*yetianlian.tw/*/*.js
 ://m.*yetianlian.us/*/*.js
+://m.23ddw*.app/*/*.js
+://m.23ddw*.cc/*/*.js
+://m.23ddw*.cn/*/*.js
+://m.23ddw*.co/*/*.js
+://m.23ddw*.com/*/*.js
+://m.23ddw*.info/*/*.js
+://m.23ddw*.la/*/*.js
+://m.23ddw*.me/*/*.js
+://m.23ddw*.net/*/*.js
+://m.23ddw*.org/*/*.js
+://m.23ddw*.so/*/*.js
+://m.23ddw*.tw/*/*.js
+://m.23ddw*.us/*/*.js
+://m.23ddw.app/*/*.js
+://m.23ddw.cc/*/*.js
+://m.23ddw.cn/*/*.js
+://m.23ddw.co/*/*.js
+://m.23ddw.com/*/*.js
+://m.23ddw.info/*/*.js
+://m.23ddw.la/*/*.js
+://m.23ddw.me/*/*.js
+://m.23ddw.net/*/*.js
+://m.23ddw.org/*/*.js
+://m.23ddw.so/*/*.js
+://m.23ddw.tw/*/*.js
+://m.23ddw.us/*/*.js
 ://m.81zw*.app/*/*.js
 ://m.81zw*.cc/*/*.js
 ://m.81zw*.cn/*/*.js
@@ -20080,6 +20129,19 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://vlets.*.cyou$third-party
 ://vlets.*.shop$third-party
 ://vlets.*.xyz$third-party
+://wap.*23ddw.app/*/*.js
+://wap.*23ddw.cc/*/*.js
+://wap.*23ddw.cn/*/*.js
+://wap.*23ddw.co/*/*.js
+://wap.*23ddw.com/*/*.js
+://wap.*23ddw.info/*/*.js
+://wap.*23ddw.la/*/*.js
+://wap.*23ddw.me/*/*.js
+://wap.*23ddw.net/*/*.js
+://wap.*23ddw.org/*/*.js
+://wap.*23ddw.so/*/*.js
+://wap.*23ddw.tw/*/*.js
+://wap.*23ddw.us/*/*.js
 ://wap.*81zw.app/*/*.js
 ://wap.*81zw.cc/*/*.js
 ://wap.*81zw.cn/*/*.js
@@ -20236,6 +20298,32 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://wap.*yetianlian.so/*/*.js
 ://wap.*yetianlian.tw/*/*.js
 ://wap.*yetianlian.us/*/*.js
+://wap.23ddw*.app/*/*.js
+://wap.23ddw*.cc/*/*.js
+://wap.23ddw*.cn/*/*.js
+://wap.23ddw*.co/*/*.js
+://wap.23ddw*.com/*/*.js
+://wap.23ddw*.info/*/*.js
+://wap.23ddw*.la/*/*.js
+://wap.23ddw*.me/*/*.js
+://wap.23ddw*.net/*/*.js
+://wap.23ddw*.org/*/*.js
+://wap.23ddw*.so/*/*.js
+://wap.23ddw*.tw/*/*.js
+://wap.23ddw*.us/*/*.js
+://wap.23ddw.app/*/*.js
+://wap.23ddw.cc/*/*.js
+://wap.23ddw.cn/*/*.js
+://wap.23ddw.co/*/*.js
+://wap.23ddw.com/*/*.js
+://wap.23ddw.info/*/*.js
+://wap.23ddw.la/*/*.js
+://wap.23ddw.me/*/*.js
+://wap.23ddw.net/*/*.js
+://wap.23ddw.org/*/*.js
+://wap.23ddw.so/*/*.js
+://wap.23ddw.tw/*/*.js
+://wap.23ddw.us/*/*.js
 ://wap.81zw*.app/*/*.js
 ://wap.81zw*.cc/*/*.js
 ://wap.81zw*.cn/*/*.js
@@ -20549,6 +20637,19 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://wap.yetianlian.tw/*/*.js
 ://wap.yetianlian.us/*/*.js
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
+://www.*23ddw.app/*/*.js
+://www.*23ddw.cc/*/*.js
+://www.*23ddw.cn/*/*.js
+://www.*23ddw.co/*/*.js
+://www.*23ddw.com/*/*.js
+://www.*23ddw.info/*/*.js
+://www.*23ddw.la/*/*.js
+://www.*23ddw.me/*/*.js
+://www.*23ddw.net/*/*.js
+://www.*23ddw.org/*/*.js
+://www.*23ddw.so/*/*.js
+://www.*23ddw.tw/*/*.js
+://www.*23ddw.us/*/*.js
 ://www.*81zw.app/*/*.js
 ://www.*81zw.cc/*/*.js
 ://www.*81zw.cn/*/*.js
@@ -20705,6 +20806,32 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://www.*yetianlian.so/*/*.js
 ://www.*yetianlian.tw/*/*.js
 ://www.*yetianlian.us/*/*.js
+://www.23ddw*.app/*/*.js
+://www.23ddw*.cc/*/*.js
+://www.23ddw*.cn/*/*.js
+://www.23ddw*.co/*/*.js
+://www.23ddw*.com/*/*.js
+://www.23ddw*.info/*/*.js
+://www.23ddw*.la/*/*.js
+://www.23ddw*.me/*/*.js
+://www.23ddw*.net/*/*.js
+://www.23ddw*.org/*/*.js
+://www.23ddw*.so/*/*.js
+://www.23ddw*.tw/*/*.js
+://www.23ddw*.us/*/*.js
+://www.23ddw.app/*/*.js
+://www.23ddw.cc/*/*.js
+://www.23ddw.cn/*/*.js
+://www.23ddw.co/*/*.js
+://www.23ddw.com/*/*.js
+://www.23ddw.info/*/*.js
+://www.23ddw.la/*/*.js
+://www.23ddw.me/*/*.js
+://www.23ddw.net/*/*.js
+://www.23ddw.org/*/*.js
+://www.23ddw.so/*/*.js
+://www.23ddw.tw/*/*.js
+://www.23ddw.us/*/*.js
 ://www.81zw*.app/*/*.js
 ://www.81zw*.cc/*/*.js
 ://www.81zw*.cn/*/*.js
@@ -23652,6 +23779,7 @@ zle.com$script
 ##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
 ##span[id$="bottom_gg"]
 ##span[id$="top_gg"]
+##span[id] > div[id][style*="no-repeat;"][style*="/"][style*="100%"]
 ##span[onclick^="window"][onclick$=".RD();"]
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
@@ -24054,6 +24182,7 @@ zle.com$script
 @@.app/script/wap.js$~third-party
 @@.app/script/yuedu.js$~third-party
 @@.app/static/h5.js$~third-party
+@@.app/style/*.js$~third-party
 @@.app/themes/$~third-party
 @@.app/xxgg/bookll*.js$~third-party
 @@.app/xxgg/bookxxll*.js$~third-party
@@ -24094,6 +24223,7 @@ zle.com$script
 @@.cc/script/wap.js$~third-party
 @@.cc/script/yuedu.js$~third-party
 @@.cc/static/h5.js$~third-party
+@@.cc/style/*.js$~third-party
 @@.cc/themes/$~third-party
 @@.cc/xxgg/bookll*.js$~third-party
 @@.cc/xxgg/bookxxll*.js$~third-party
@@ -24134,6 +24264,7 @@ zle.com$script
 @@.cn/script/wap.js$~third-party
 @@.cn/script/yuedu.js$~third-party
 @@.cn/static/h5.js$~third-party
+@@.cn/style/*.js$~third-party
 @@.cn/themes/$~third-party
 @@.cn/xxgg/bookll*.js$~third-party
 @@.cn/xxgg/bookxxll*.js$~third-party
@@ -24174,6 +24305,7 @@ zle.com$script
 @@.co/script/wap.js$~third-party
 @@.co/script/yuedu.js$~third-party
 @@.co/static/h5.js$~third-party
+@@.co/style/*.js$~third-party
 @@.co/themes/$~third-party
 @@.co/xxgg/bookll*.js$~third-party
 @@.co/xxgg/bookxxll*.js$~third-party
@@ -24215,6 +24347,7 @@ zle.com$script
 @@.com/script/wap.js$~third-party
 @@.com/script/yuedu.js$~third-party
 @@.com/static/h5.js$~third-party
+@@.com/style/*.js$~third-party
 @@.com/themes/$~third-party
 @@.com/xxgg/bookll*.js$~third-party
 @@.com/xxgg/bookxxll*.js$~third-party
@@ -24256,6 +24389,7 @@ zle.com$script
 @@.info/script/wap.js$~third-party
 @@.info/script/yuedu.js$~third-party
 @@.info/static/h5.js$~third-party
+@@.info/style/*.js$~third-party
 @@.info/themes/$~third-party
 @@.info/xxgg/bookll*.js$~third-party
 @@.info/xxgg/bookxxll*.js$~third-party
@@ -24296,6 +24430,7 @@ zle.com$script
 @@.la/script/wap.js$~third-party
 @@.la/script/yuedu.js$~third-party
 @@.la/static/h5.js$~third-party
+@@.la/style/*.js$~third-party
 @@.la/themes/$~third-party
 @@.la/xxgg/bookll*.js$~third-party
 @@.la/xxgg/bookxxll*.js$~third-party
@@ -24336,6 +24471,7 @@ zle.com$script
 @@.me/script/wap.js$~third-party
 @@.me/script/yuedu.js$~third-party
 @@.me/static/h5.js$~third-party
+@@.me/style/*.js$~third-party
 @@.me/themes/$~third-party
 @@.me/xxgg/bookll*.js$~third-party
 @@.me/xxgg/bookxxll*.js$~third-party
@@ -24376,6 +24512,7 @@ zle.com$script
 @@.net/script/wap.js$~third-party
 @@.net/script/yuedu.js$~third-party
 @@.net/static/h5.js$~third-party
+@@.net/style/*.js$~third-party
 @@.net/themes/$~third-party
 @@.net/xxgg/bookll*.js$~third-party
 @@.net/xxgg/bookxxll*.js$~third-party
@@ -24416,6 +24553,7 @@ zle.com$script
 @@.org/script/wap.js$~third-party
 @@.org/script/yuedu.js$~third-party
 @@.org/static/h5.js$~third-party
+@@.org/style/*.js$~third-party
 @@.org/themes/$~third-party
 @@.org/xxgg/bookll*.js$~third-party
 @@.org/xxgg/bookxxll*.js$~third-party
@@ -24456,6 +24594,7 @@ zle.com$script
 @@.so/script/wap.js$~third-party
 @@.so/script/yuedu.js$~third-party
 @@.so/static/h5.js$~third-party
+@@.so/style/*.js$~third-party
 @@.so/themes/$~third-party
 @@.so/xxgg/bookll*.js$~third-party
 @@.so/xxgg/bookxxll*.js$~third-party
@@ -24496,6 +24635,7 @@ zle.com$script
 @@.tw/script/wap.js$~third-party
 @@.tw/script/yuedu.js$~third-party
 @@.tw/static/h5.js$~third-party
+@@.tw/style/*.js$~third-party
 @@.tw/themes/$~third-party
 @@.tw/xxgg/bookll*.js$~third-party
 @@.tw/xxgg/bookxxll*.js$~third-party
@@ -24536,6 +24676,7 @@ zle.com$script
 @@.us/script/wap.js$~third-party
 @@.us/script/yuedu.js$~third-party
 @@.us/static/h5.js$~third-party
+@@.us/style/*.js$~third-party
 @@.us/themes/$~third-party
 @@.us/xxgg/bookll*.js$~third-party
 @@.us/xxgg/bookxxll*.js$~third-party

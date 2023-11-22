@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Wf/PqWjZOq4vhgn3r1XGrA
+! Checksum: zKqj5M5pVnW/+pC+N1Fmwg
 ! Title: 混合规则(自动更新)
-! Version: 20231122161009
+! Version: 20231122203505
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-22 16:10:09
-! Total Count: 123779
+! Last modified: 2023-11-22 20:35:05
+! Total Count: 123920
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1759,6 +1759,7 @@
 ||3uvz5.xyz^
 ||3v4w.top^
 ||3v7c7y.com^
+||3v7c7y.online^$third-party
 ||3wk.cc/images/*.gif
 ||3wr110.net^
 ||3xhmhct.cn^
@@ -1790,6 +1791,7 @@
 ||40wan.com/js/www2/
 ||413dfe9f11.com^
 ||4140690839.com^
+||415677.com^
 ||41df76c67812005c.com^
 ||41f6f373a2.com^
 ||4251.tech^
@@ -4571,6 +4573,7 @@
 ||adat.freemail.hu^
 ||adatrix.com^
 ||adavz.xyz^
+||adb.*.online/o.js$third-party
 ||adb.*.online/slot?$third-party
 ||adb7rtb.com^
 ||adballoon.afreecatv.com^
@@ -21867,6 +21870,7 @@
 ||ea3w.com/pv.js
 ||ea6353e47e0ab3f78.com^
 ||ea778a21c7.com^
+||eaaaej.icu^$third-party
 ||eabids.com^
 ||eabithecon.xyz^
 ||eac0823ca94e3c07.com^
@@ -33558,6 +33562,7 @@
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
 ||jandaqwe.com^
+||jane1.top^
 ||jane2.top^
 ||janendark.life^
 ||janetrace.com^
@@ -55715,6 +55720,7 @@
 ||sinkdescriptivepops.com^
 ||sinmgaepu3or9a61w.com^
 ||sinmufar.com^
+||sinodan.link/js/js4.js?v=
 ||sinogamepeck.com^
 ||sinolub.com/index.php?m=poster&
 ||sinproductors.org^
@@ -58522,6 +58528,7 @@
 ||stylesheet-js.ru^
 ||styleui.ru^
 ||stylewhiskerscreepy.com^
+||stylishar.com^
 ||stylliyote.com^
 ||styrianauf.com^
 ||su.bdimg.com/static/dspui/js/
@@ -91152,6 +91159,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .icu/biyys*.js$third-party,script
 .icu/pssbk?$third-party
 .icu/pssbk?*16$third-party
+.icu/release*ts?*16$third-party
 .icu:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tangsanshu.la|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com
 .ie/ads/
 .il/ads.
@@ -96926,6 +96934,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /js/gg123/*
 /js/ggtop.js
 /js/guanggao_gg.js
+/js/hfee*.js?v=$~third-party
+/js/hfss*.js?v=$~third-party
 /js/home/ad/ad.
 /js/huath_2.js
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
@@ -97488,6 +97498,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /oasisi-
 /oasisi.
 /oasx/*
+/obcdle*/fuoihgyg*.js$~third-party
 /oiopub-ads/*
 /oiopub-direct/*$~stylesheet
 /ojborn.so?$script,third-party
@@ -98145,7 +98156,6 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /s/js/fshow.js$third-party
 /s3m.mediav.com/galileo/*.mp4
 /s_ad.aspx?
-/sad3.js?
 /sad3.js?$third-party
 /sadasds.js
 /safead/*
@@ -99401,6 +99411,19 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://m.*.pw/*.js?ssid=_
 ://m.*.pw/*/*.js?$third-party
 ://m.*.top/*.js?ssid=_
+://m.*23ddw.app/*/*.js
+://m.*23ddw.cc/*/*.js
+://m.*23ddw.cn/*/*.js
+://m.*23ddw.co/*/*.js
+://m.*23ddw.com/*/*.js
+://m.*23ddw.info/*/*.js
+://m.*23ddw.la/*/*.js
+://m.*23ddw.me/*/*.js
+://m.*23ddw.net/*/*.js
+://m.*23ddw.org/*/*.js
+://m.*23ddw.so/*/*.js
+://m.*23ddw.tw/*/*.js
+://m.*23ddw.us/*/*.js
 ://m.*81zw.app/*/*.js
 ://m.*81zw.cc/*/*.js
 ://m.*81zw.cn/*/*.js
@@ -99557,6 +99580,32 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://m.*yetianlian.so/*/*.js
 ://m.*yetianlian.tw/*/*.js
 ://m.*yetianlian.us/*/*.js
+://m.23ddw*.app/*/*.js
+://m.23ddw*.cc/*/*.js
+://m.23ddw*.cn/*/*.js
+://m.23ddw*.co/*/*.js
+://m.23ddw*.com/*/*.js
+://m.23ddw*.info/*/*.js
+://m.23ddw*.la/*/*.js
+://m.23ddw*.me/*/*.js
+://m.23ddw*.net/*/*.js
+://m.23ddw*.org/*/*.js
+://m.23ddw*.so/*/*.js
+://m.23ddw*.tw/*/*.js
+://m.23ddw*.us/*/*.js
+://m.23ddw.app/*/*.js
+://m.23ddw.cc/*/*.js
+://m.23ddw.cn/*/*.js
+://m.23ddw.co/*/*.js
+://m.23ddw.com/*/*.js
+://m.23ddw.info/*/*.js
+://m.23ddw.la/*/*.js
+://m.23ddw.me/*/*.js
+://m.23ddw.net/*/*.js
+://m.23ddw.org/*/*.js
+://m.23ddw.so/*/*.js
+://m.23ddw.tw/*/*.js
+://m.23ddw.us/*/*.js
 ://m.81zw*.app/*/*.js
 ://m.81zw*.cc/*/*.js
 ://m.81zw*.cn/*/*.js
@@ -99914,6 +99963,19 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://vlets.*.cyou$third-party
 ://vlets.*.shop$third-party
 ://vlets.*.xyz$third-party
+://wap.*23ddw.app/*/*.js
+://wap.*23ddw.cc/*/*.js
+://wap.*23ddw.cn/*/*.js
+://wap.*23ddw.co/*/*.js
+://wap.*23ddw.com/*/*.js
+://wap.*23ddw.info/*/*.js
+://wap.*23ddw.la/*/*.js
+://wap.*23ddw.me/*/*.js
+://wap.*23ddw.net/*/*.js
+://wap.*23ddw.org/*/*.js
+://wap.*23ddw.so/*/*.js
+://wap.*23ddw.tw/*/*.js
+://wap.*23ddw.us/*/*.js
 ://wap.*81zw.app/*/*.js
 ://wap.*81zw.cc/*/*.js
 ://wap.*81zw.cn/*/*.js
@@ -100070,6 +100132,32 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://wap.*yetianlian.so/*/*.js
 ://wap.*yetianlian.tw/*/*.js
 ://wap.*yetianlian.us/*/*.js
+://wap.23ddw*.app/*/*.js
+://wap.23ddw*.cc/*/*.js
+://wap.23ddw*.cn/*/*.js
+://wap.23ddw*.co/*/*.js
+://wap.23ddw*.com/*/*.js
+://wap.23ddw*.info/*/*.js
+://wap.23ddw*.la/*/*.js
+://wap.23ddw*.me/*/*.js
+://wap.23ddw*.net/*/*.js
+://wap.23ddw*.org/*/*.js
+://wap.23ddw*.so/*/*.js
+://wap.23ddw*.tw/*/*.js
+://wap.23ddw*.us/*/*.js
+://wap.23ddw.app/*/*.js
+://wap.23ddw.cc/*/*.js
+://wap.23ddw.cn/*/*.js
+://wap.23ddw.co/*/*.js
+://wap.23ddw.com/*/*.js
+://wap.23ddw.info/*/*.js
+://wap.23ddw.la/*/*.js
+://wap.23ddw.me/*/*.js
+://wap.23ddw.net/*/*.js
+://wap.23ddw.org/*/*.js
+://wap.23ddw.so/*/*.js
+://wap.23ddw.tw/*/*.js
+://wap.23ddw.us/*/*.js
 ://wap.81zw*.app/*/*.js
 ://wap.81zw*.cc/*/*.js
 ://wap.81zw*.cn/*/*.js
@@ -100383,6 +100471,19 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://wap.yetianlian.tw/*/*.js
 ://wap.yetianlian.us/*/*.js
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
+://www.*23ddw.app/*/*.js
+://www.*23ddw.cc/*/*.js
+://www.*23ddw.cn/*/*.js
+://www.*23ddw.co/*/*.js
+://www.*23ddw.com/*/*.js
+://www.*23ddw.info/*/*.js
+://www.*23ddw.la/*/*.js
+://www.*23ddw.me/*/*.js
+://www.*23ddw.net/*/*.js
+://www.*23ddw.org/*/*.js
+://www.*23ddw.so/*/*.js
+://www.*23ddw.tw/*/*.js
+://www.*23ddw.us/*/*.js
 ://www.*81zw.app/*/*.js
 ://www.*81zw.cc/*/*.js
 ://www.*81zw.cn/*/*.js
@@ -100539,6 +100640,32 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://www.*yetianlian.so/*/*.js
 ://www.*yetianlian.tw/*/*.js
 ://www.*yetianlian.us/*/*.js
+://www.23ddw*.app/*/*.js
+://www.23ddw*.cc/*/*.js
+://www.23ddw*.cn/*/*.js
+://www.23ddw*.co/*/*.js
+://www.23ddw*.com/*/*.js
+://www.23ddw*.info/*/*.js
+://www.23ddw*.la/*/*.js
+://www.23ddw*.me/*/*.js
+://www.23ddw*.net/*/*.js
+://www.23ddw*.org/*/*.js
+://www.23ddw*.so/*/*.js
+://www.23ddw*.tw/*/*.js
+://www.23ddw*.us/*/*.js
+://www.23ddw.app/*/*.js
+://www.23ddw.cc/*/*.js
+://www.23ddw.cn/*/*.js
+://www.23ddw.co/*/*.js
+://www.23ddw.com/*/*.js
+://www.23ddw.info/*/*.js
+://www.23ddw.la/*/*.js
+://www.23ddw.me/*/*.js
+://www.23ddw.net/*/*.js
+://www.23ddw.org/*/*.js
+://www.23ddw.so/*/*.js
+://www.23ddw.tw/*/*.js
+://www.23ddw.us/*/*.js
 ://www.81zw*.app/*/*.js
 ://www.81zw*.cc/*/*.js
 ://www.81zw*.cn/*/*.js
@@ -121152,6 +121279,7 @@ zle.com$script
 ##span[data-ez-ph-id]
 ##span[id$="bottom_gg"]
 ##span[id$="top_gg"]
+##span[id] > div[id][style*="no-repeat;"][style*="/"][style*="100%"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[onclick^="window"][onclick$=".RD();"]
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
@@ -121629,6 +121757,7 @@ zle.com$script
 @@.app/script/wap.js$~third-party
 @@.app/script/yuedu.js$~third-party
 @@.app/static/h5.js$~third-party
+@@.app/style/*.js$~third-party
 @@.app/themes/$~third-party
 @@.app/xxgg/bookll*.js$~third-party
 @@.app/xxgg/bookxxll*.js$~third-party
@@ -121669,6 +121798,7 @@ zle.com$script
 @@.cc/script/wap.js$~third-party
 @@.cc/script/yuedu.js$~third-party
 @@.cc/static/h5.js$~third-party
+@@.cc/style/*.js$~third-party
 @@.cc/themes/$~third-party
 @@.cc/xxgg/bookll*.js$~third-party
 @@.cc/xxgg/bookxxll*.js$~third-party
@@ -121709,6 +121839,7 @@ zle.com$script
 @@.cn/script/wap.js$~third-party
 @@.cn/script/yuedu.js$~third-party
 @@.cn/static/h5.js$~third-party
+@@.cn/style/*.js$~third-party
 @@.cn/themes/$~third-party
 @@.cn/xxgg/bookll*.js$~third-party
 @@.cn/xxgg/bookxxll*.js$~third-party
@@ -121749,6 +121880,7 @@ zle.com$script
 @@.co/script/wap.js$~third-party
 @@.co/script/yuedu.js$~third-party
 @@.co/static/h5.js$~third-party
+@@.co/style/*.js$~third-party
 @@.co/themes/$~third-party
 @@.co/xxgg/bookll*.js$~third-party
 @@.co/xxgg/bookxxll*.js$~third-party
@@ -121794,6 +121926,7 @@ zle.com$script
 @@.com/script/wap.js$~third-party
 @@.com/script/yuedu.js$~third-party
 @@.com/static/h5.js$~third-party
+@@.com/style/*.js$~third-party
 @@.com/themes/$~third-party
 @@.com/xxgg/bookll*.js$~third-party
 @@.com/xxgg/bookxxll*.js$~third-party
@@ -121837,6 +121970,7 @@ zle.com$script
 @@.info/script/wap.js$~third-party
 @@.info/script/yuedu.js$~third-party
 @@.info/static/h5.js$~third-party
+@@.info/style/*.js$~third-party
 @@.info/themes/$~third-party
 @@.info/xxgg/bookll*.js$~third-party
 @@.info/xxgg/bookxxll*.js$~third-party
@@ -121878,6 +122012,7 @@ zle.com$script
 @@.la/script/wap.js$~third-party
 @@.la/script/yuedu.js$~third-party
 @@.la/static/h5.js$~third-party
+@@.la/style/*.js$~third-party
 @@.la/themes/$~third-party
 @@.la/xxgg/bookll*.js$~third-party
 @@.la/xxgg/bookxxll*.js$~third-party
@@ -121918,6 +122053,7 @@ zle.com$script
 @@.me/script/wap.js$~third-party
 @@.me/script/yuedu.js$~third-party
 @@.me/static/h5.js$~third-party
+@@.me/style/*.js$~third-party
 @@.me/themes/$~third-party
 @@.me/xxgg/bookll*.js$~third-party
 @@.me/xxgg/bookxxll*.js$~third-party
@@ -121958,6 +122094,7 @@ zle.com$script
 @@.net/script/wap.js$~third-party
 @@.net/script/yuedu.js$~third-party
 @@.net/static/h5.js$~third-party
+@@.net/style/*.js$~third-party
 @@.net/themes/$~third-party
 @@.net/xxgg/bookll*.js$~third-party
 @@.net/xxgg/bookxxll*.js$~third-party
@@ -121998,6 +122135,7 @@ zle.com$script
 @@.org/script/wap.js$~third-party
 @@.org/script/yuedu.js$~third-party
 @@.org/static/h5.js$~third-party
+@@.org/style/*.js$~third-party
 @@.org/themes/$~third-party
 @@.org/xxgg/bookll*.js$~third-party
 @@.org/xxgg/bookxxll*.js$~third-party
@@ -122039,6 +122177,7 @@ zle.com$script
 @@.so/script/wap.js$~third-party
 @@.so/script/yuedu.js$~third-party
 @@.so/static/h5.js$~third-party
+@@.so/style/*.js$~third-party
 @@.so/themes/$~third-party
 @@.so/xxgg/bookll*.js$~third-party
 @@.so/xxgg/bookxxll*.js$~third-party
@@ -122079,6 +122218,7 @@ zle.com$script
 @@.tw/script/wap.js$~third-party
 @@.tw/script/yuedu.js$~third-party
 @@.tw/static/h5.js$~third-party
+@@.tw/style/*.js$~third-party
 @@.tw/themes/$~third-party
 @@.tw/xxgg/bookll*.js$~third-party
 @@.tw/xxgg/bookxxll*.js$~third-party
@@ -122119,6 +122259,7 @@ zle.com$script
 @@.us/script/wap.js$~third-party
 @@.us/script/yuedu.js$~third-party
 @@.us/static/h5.js$~third-party
+@@.us/style/*.js$~third-party
 @@.us/themes/$~third-party
 @@.us/xxgg/bookll*.js$~third-party
 @@.us/xxgg/bookxxll*.js$~third-party
