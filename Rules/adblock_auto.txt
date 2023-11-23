@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: NwkRrTvZLu5NjGesZWgzZw
+! Checksum: Q78aKU898EbwgoiG8MgvzQ
 ! Title: 混合规则(自动更新)
-! Version: 20231123160947
+! Version: 20231124000850
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-23 16:09:47
-! Total Count: 124024
+! Last modified: 2023-11-24 00:08:50
+! Total Count: 124030
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -32218,6 +32218,7 @@
 ||inboldoreer.com^
 ||inbornsodcharms.com^
 ||inbound-analytics.pixlee.co^
+||inbound-analytics.pixlee.com^
 ||inboxtag.com^
 ||incarnatepicturesque.com^
 ||incentivesnetwork.net^
@@ -35176,6 +35177,7 @@
 ||kbugxeslbjc8.com^
 ||kbyjxhnweoi.com^
 ||kbywyjnqrjaaa.top^
+||kbzs88.com^
 ||kc.gouchezj.com^
 ||kccdk.com/Content/img/*.gif
 ||kcdn.xyz^
@@ -38125,6 +38127,7 @@
 ||logging.je-apps.com^
 ||logging.kinhtedothi.vn^
 ||logging.prefixbox.com^
+||logging.pw.adn.cloud^
 ||loggingapi.spingo.com^
 ||loggingservices.tribune.com^
 ||loggly.cheatsheet.com^
@@ -70109,6 +70112,7 @@
 ||yiyuwl.cn^
 ||yizawe.xyz^
 ||yizhibo.com/special/h5corner.html
+||yjbdyjnctgj.top^
 ||yjcf360.com/ad.
 ||yjegf.com^
 ||yjgkcbvmnqnicep.xyz^
@@ -80745,6 +80749,8 @@ interestingengineering.com##.BigAdBorder_isPremium__RXPuj
 interestingengineering.com##.BigAd_ad__m0kt9
 interestingengineering.com##.adW
 interglot.com,sodapdf.com,stopmalvertising.com##div[style^="width:728px;"]
+internationalsexguide.nl,usasexguide.nl##.isg_background_border_banner
+internationalsexguide.nl,usasexguide.nl##.isg_banner
 internet-law.ru###fab-enabled
 interviews.adultdvdtalk.com##.widget_adt_performer_buy_links_widget
 inthesetimes.com##.sites-of-interest
@@ -81581,6 +81587,7 @@ kekenet.com##.h_news_c
 kekenet.com##.lp_r_bar:first-child
 kekeshici.com###pcAd
 kelatv.com##a[href^="https://www.kelatv.com/api/go."]
+kemono.su##[href^="//a.adtng.com/get/"]
 kengso.com###tbk_left
 kengso.com###tbk_right
 kengso.com,pansoso.com,xgsoso.com##a[href*=".click.taobao.com"]
@@ -87983,12 +87990,13 @@ twitter.com##.promoted-trend
 twitter.com##.promoted-tweet[data-disclosure-type="issue"]
 twitter.com##.promoted-tweet[data-disclosure-type="political"]
 twitter.com##.promoted-tweet[data-disclosure-type="promoted"]
+twitter.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
 twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 twitter.com#?#.tweet:-abp-has(.promo)
-twitter.com#?#[data-testid="primaryColumn"] [data-testid="cellInnerDiv"]:-abp-has([data-testid="top-impression-pixel"])
 twitter.com#?#article[data-testid="tweet"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com#?#div[data-testid="UserCell"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com#?#div[data-testid="eventHero"]:-abp-has(path[d$="10H8.996V8h7v7z"])
+twitter.com#?#div[data-testid="placementTracking"]:-abp-has(div[data-testid$="-impression-pixel"])
 twitter.com#?#div[data-testid="trend"]:-abp-has(path[d$="10H8.996V8h7v7z"])
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
@@ -88184,8 +88192,6 @@ urbandictionary.com##.mb-4.justify-center
 urbandictionary.com##[aria-label*="Advertise"]
 urgayporn.com##.block-banvert
 usasexguide.nl###uiISGAdFooter
-usasexguide.nl##.isg_background_border_banner
-usasexguide.nl##.isg_banner
 usasexguide.nl##[href^="https://instable-easher.com/"]
 usatoday.com##.affiliate-widget-wrapper
 usatoday.com##.gnt_tb
