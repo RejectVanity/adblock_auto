@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yOtum4BeDYxZ7fUJTnDetA
+! Checksum: AbWRXSZqKYZ9VlVafKvXqQ
 ! Title: 自用去广告Adblock规则
-! Version: 20231122203138
-! Last modified: 2023-11-22 20:31:38
-! Total Count: 3212
+! Version: 20231125105757
+! Last modified: 2023-11-25 10:57:57
+! Total Count: 3216
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -131,6 +131,7 @@
 ##.bigads
 ##.bing-ads-wrapper
 ##.bing-native-ad
+##.body > script + div[style*="135px;"]
 ##.bottom-ads-container
 ##.bottom-ads-content
 ##.bottom-mobile-ad
@@ -584,7 +585,7 @@
 ##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
-##body > script + [id][class][classname]
+##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body.page > .popup
 ##body[ontouchstart] > #topBox
@@ -1807,6 +1808,7 @@
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
 ://*.27txt.La/xi.js$~third-party
+://*.adfsda*.xyz/*/*$third-party
 ://*.aj25*.bid/*.js$third-party
 ://*.xn--*.cc/jav/*?x=16$third-party
 ://*.xn--*.net/y16*.js$third-party,script
@@ -2357,6 +2359,7 @@ ppys66.com##a[title="成人深夜福利"]
 qinav.com##div[id^="qinav_b"]
 renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
+rule34video.com##.thumb:has([src*="/lv/esnk/"]),.thumb:has([src*=".jads."]),.footer_spots:has([src*="/lv/esnk/"]),.footer_spots:has([src*=".jads."])
 sbdm.net##div#vodshare
 seajav.com##.under_player,img[border="0"][width="300"][height="80"],[class*="lg:hidden"],[class][style*="131px"]
 sewen.life,sewen.net,sewen.com,sewen.buzz,sewen.xyz,sewen.top,sewen4.top##img[src*=".xyz/"][src*="16"],[style*="bottom: 0px; left: 0px; z-index:"][style*="100vw;"],.hotcmd-box,.links-top,table[border="1"]
@@ -2490,6 +2493,7 @@ sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
 sogou.com##.vrResult[data-v="102"][exposed="1"]
+sogou.com##.vrResult[data-v="103"][exposed="1"]
 sogou.com##A[data-log*="PicAd"]
 sogou.com##LI.sugg-hot
 sogou.com##div[class^="news-top-banner"]
@@ -2683,6 +2687,7 @@ zle.com$script
 ||adb.*.online/slot?$third-party
 ||adda.ljhhhhrt.top^
 ||addthis.com^
+||adfsda005.xyz^$third-party
 ||adfstat.yandex.ru^
 ||adl-hunter.com^
 ||adnewnc.app.autohome.com.cn^
