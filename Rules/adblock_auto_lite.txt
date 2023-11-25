@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: fYqp1y7fk1slMWh+8lCvaA
+! Checksum: eXWjT5uTw8/gPXI0ah/qTA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231125083846
+! Version: 20231125111810
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-25 08:38:46
-! Total Count: 24955
+! Last modified: 2023-11-25 11:18:10
+! Total Count: 24961
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2095,6 +2095,7 @@
 ||adfreewatch.info^$popup
 ||adfrika.com^$third-party
 ||adfrontiers.com^
+||adfsda005.xyz^$third-party
 ||adfstat.yandex.ru^
 ||adfunkyserver.com^
 ||adfusion.com^
@@ -9165,6 +9166,7 @@
 ||lele36.com/p/*.gif
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
+||lemida.xyz^
 ||lendc.xyz^
 ||lenosoft.net/js/ad
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
@@ -17232,6 +17234,7 @@ rpdrlatino.live,ntvid.online,playerhd.org,gledajvideo.top,younetu.*,tikzoo.xyz,v
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
 ruangmoviez.my.id,magicemperor.online,xmoviesforyou.com,thatav.net,playpornfree.xyz,gounlimited.to,jetload.net,megapornfreehd.com,fileone.tv,javhiv.com,nyafilmer.com,gotgayporn.com,hqq.tv,pornhd.com,sextfun.com,imgoutlet.com,imgrock.net,myreadingmanga.info,porntrex.com,faselhd.co,tnaflix.com,anysex.com,filecrypt.cc,icdrama.se,faselhd.com,jawcloud.co,xmoviesforyou.com,swapsmut.com,pornwhite.com,dir50.com,pornstash.in,zerion.cc,uraaka-joshi.com,sxyprn.net,pahe.win,javplay.me,hispasexy.org,moviecrumbs.net,segurosdevida.site,xvideos.com,technicalatg.xyz,czxxx.org,ashemaletube.com,moviesand.com,prostylex.org,faptube.xyz,erogarga.com,redhdtube.xxx,nyafilmer.*##+js(abort-on-property-read, popns)
 rule34porn.net,mangoporn.net##a[href="https://theporndude.com"]
+rule34video.com##.thumb:has([src*="/lv/esnk/"]),.thumb:has([src*=".jads."]),.footer_spots:has([src*="/lv/esnk/"]),.footer_spots:has([src*=".jads."])
 rumporn.com,stilltube.com###floaterRight
 rusnext.ru###detectAdblock
 rusopen.com##.classblsi.addshr
@@ -17537,6 +17540,7 @@ sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
 sogou.com##.vrResult[data-v="102"][exposed="1"]
+sogou.com##.vrResult[data-v="103"][exposed="1"]
 sogou.com##A[data-log*="PicAd"]
 sogou.com##LI.sugg-hot
 sogou.com##div[class^="news-top-banner"]
@@ -19544,6 +19548,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
 ://*.27txt.La/xi.js$~third-party
+://*.adfsda*.xyz/*/*$third-party
 ://*.aj25*.bid/*.js$third-party
 ://*.bid^$script,third-party,domain=xxxmax.net|watchfreexxx.net|speedporn.net|filmlinks4u.is|needgayporn.com|gaypornmasters.com|uploadbank.com|clicknupload.org|ouo.press|dir50.com|thepiratebay.org|psarips.com|ouo.io|apkmirrorfull.com
 ://*.tv/ad/$domain=~moviedj.tv
@@ -22180,6 +22185,7 @@ zle.com$script
 ##.bm.a_c
 ##.bn728-100
 ##.bn728-93
+##.body > script + div[style*="135px;"]
 ##.book > #btmBox
 ##.bottom-ads-container
 ##.bottom-ads-content
@@ -23379,7 +23385,7 @@ zle.com$script
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
-##body > script + [id][class][classname]
+##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
 ##body.page > .popup
