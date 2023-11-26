@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AbWRXSZqKYZ9VlVafKvXqQ
+! Checksum: TOXQPnHgXAgk93BZCBXDow
 ! Title: 自用去广告Adblock规则
-! Version: 20231125105757
-! Last modified: 2023-11-25 10:57:57
-! Total Count: 3216
+! Version: 20231127010322
+! Last modified: 2023-11-27 01:03:22
+! Total Count: 3239
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2178,7 +2178,29 @@ hoho.tv##[class^="hoho-ad"],[data-ad-client]
 https://**.*/TC/*/*.gif$third-party,image
 https://**.*/YL/*/*.gif$third-party,image
 ifanr.com##.popup-download
-ifeng.com##section > [class^="index_toolbar"],[class^="index_box"],[class^="index_videoList"],[class^="index_more"],[class^="index_relateVideo"],[class^="index_callup"],[class^="index_release"],[class^="index_hot_box"],[class="openapp"],[class^="down"][class$="float"][id^="dl"][id$="float"],[class*="temp-ad"],[id*="top_ad"],[class^="index_bookrack"],[class^="index_pageBottomBrand"],[class^="ad_box"],[class^="hot_box"],[class^="fixSlideBox-"],[class^="bottom_box"],[class^="appRecommend"],[class^="index_headerBox"],[class^="index_openBtn"],[class^="index_rec"][class$="Container"],[class^="index_recVContainer"]
+ifeng.com##[class*="temp-ad"]
+ifeng.com##[class="openapp"]
+ifeng.com##[class^="ad_box"]
+ifeng.com##[class^="appRecommend"]
+ifeng.com##[class^="bottom_box"]
+ifeng.com##[class^="down"][class$="float"][id^="dl"][id$="float"]
+ifeng.com##[class^="fixSlideBox-"]
+ifeng.com##[class^="hot_box"]
+ifeng.com##[class^="index_bookrack"]
+ifeng.com##[class^="index_bottom_box"]
+ifeng.com##[class^="index_callup"]
+ifeng.com##[class^="index_headerBox"]
+ifeng.com##[class^="index_hot_box"]
+ifeng.com##[class^="index_more"]
+ifeng.com##[class^="index_openBtn"]
+ifeng.com##[class^="index_pageBottomBrand"]
+ifeng.com##[class^="index_rec"][class$="Container"]
+ifeng.com##[class^="index_recVContainer"]
+ifeng.com##[class^="index_relateVideo"]
+ifeng.com##[class^="index_release"]
+ifeng.com##[class^="index_videoList"]
+ifeng.com##[id*="top_ad"]
+ifeng.com##section > [class^="index_toolbar"]
 ilengmen.com,newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com,shenyedushu.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"],div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
 iookd.cc##[class="ads"] > img,img[src*="jiongnet.cn"]
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
