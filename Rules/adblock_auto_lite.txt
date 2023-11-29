@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ev1gFl3nHyjVXt20r/ZmBQ
+! Checksum: e62LiLRWOX1eCLws5q6jCA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231129085215
+! Version: 20231129161018
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-29 08:52:15
-! Total Count: 25053
+! Last modified: 2023-11-29 16:10:18
+! Total Count: 25058
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19637,6 +19637,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://*.*.com/asdzx.html$~third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
 ://*.*.xyz:*/*/*-*-*-*/$third-party
+://*.*/js/js4.js?v=$~third-party
 ://*.*27txt.com/*/*.js$~third-party
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
@@ -23320,6 +23321,7 @@ zle.com$script
 ##a[href="https://js.jtoijdr.cn/download/4122_0.html"]
 ##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
 ##a[href="https://kds03.net"][target="_blank"]
+##a[href="https://sk83k.com"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
 ##a[href="https://www.ledlandi.com"]
@@ -23515,6 +23517,7 @@ zle.com$script
 ##div.down-list > ul > li > dt
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
+##div.links-top > ul.icon-list
 ##div.suiji.bottom,div.suiji.topad
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
@@ -23668,6 +23671,8 @@ zle.com$script
 ##embed[width="468"][height="60"]
 ##embed[width="600"][height="160"]
 ##embed[width="728"][height="90"]
+##font > #float_boxcode
+##font > .topfixed
 ##gpt-ad
 ##guj-ad
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
