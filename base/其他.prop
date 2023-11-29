@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TOXQPnHgXAgk93BZCBXDow
+! Checksum: cnkPehbcNdF0vnhE0Omjgw
 ! Title: 自用去广告Adblock规则
-! Version: 20231127010322
-! Last modified: 2023-11-27 01:03:22
-! Total Count: 3239
+! Version: 20231129144851
+! Last modified: 2023-11-29 14:48:51
+! Total Count: 3244
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -490,6 +490,7 @@
 ##a[href="https://js.jtoijdr.cn/download/4122_0.html"]
 ##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
 ##a[href="https://kds03.net"][target="_blank"]
+##a[href="https://sk83k.com"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
 ##a[href="javascript:void(0)"][rel="nofollow"][target="_new"] > img[src]
@@ -612,6 +613,7 @@
 ##div.down-list > ul > li > dt
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
+##div.links-top > ul.icon-list
 ##div.suiji.bottom,div.suiji.topad
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
@@ -717,6 +719,8 @@
 ##embed[width="468"][height="60"]
 ##embed[width="600"][height="160"]
 ##embed[width="728"][height="90"]
+##font > #float_boxcode
+##font > .topfixed
 ##gpt-ad
 ##guj-ad
 ##hl-adsense
@@ -1804,6 +1808,7 @@
 :*/ty/*-*-*-*.blpha$third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
 ://*.*.xyz:*/*/*-*-*-*/$third-party
+://*.*/js/js4.js?v=$~third-party
 ://*.*27txt.com/*/*.js$~third-party
 ://*.*27txt.com/xi.js$~third-party
 ://*.27txt.La/*/*.js$~third-party
