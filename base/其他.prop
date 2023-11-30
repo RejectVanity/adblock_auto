@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cnkPehbcNdF0vnhE0Omjgw
+! Checksum: /WIz3cAPVP0PU19SHJIsew
 ! Title: 自用去广告Adblock规则
-! Version: 20231129144851
-! Last modified: 2023-11-29 14:48:51
-! Total Count: 3244
+! Version: 20231130194811
+! Last modified: 2023-11-30 19:48:11
+! Total Count: 3249
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1801,6 +1801,7 @@
 7itv.com##*[style*="display"][style*="block"],*[style*="position"][style*="fixed"],*[style*="bottom:"],[class$="_b"]
 7mmtv.sx##[class^="root--"]
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
+91short.com##.player-info
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 99re.com##a[href][target="_blank"] > img[src]
 :*/static/lbsite/*/*.js?v=16$third-party
@@ -2269,6 +2270,9 @@ jinxiyue.com##a[onclick^="qinlintest"]
 jwdyw.com##body > [class][classname],div[class^="show-app"],table
 kdslife.com##[class*="DownloadGuide"]
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
+kiutaku.com##.search-form + br + div[class]
+kiutaku.com##div[class^="b"]:has(ins[data-zoneid])
+kiutaku.com##div[class^="i"][class*="9"]
 kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
 lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"],[class^="tsgg"],[id*="ggsj"]
 luoqiuzw.com##.show-app2
@@ -2717,6 +2721,7 @@ zle.com$script
 ||adfsda005.xyz^$third-party
 ||adfstat.yandex.ru^
 ||adl-hunter.com^
+||adm.shinobi.jp^
 ||adnewnc.app.autohome.com.cn^
 ||adprosrv.com^
 ||adproxy.autohome.com.cn^
