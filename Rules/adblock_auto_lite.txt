@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Bf00dZnDXIwnttBIaq7/FQ
+! Checksum: J7A4SEt16cdyEebtUgxp9Q
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231130231124
+! Version: 20231201000931
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-11-30 23:11:24
-! Total Count: 25079
+! Last modified: 2023-12-01 00:09:31
+! Total Count: 25089
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2261,6 +2261,7 @@
 ||adm.beimg.com^
 ||adm.cloud.cnfol.com^
 ||adm.cnzz.net^$third-party
+||adm.shinobi.jp^
 ||adm.shinobi.jp^$third-party
 ||admachina.com^
 ||admachina.com^$popup
@@ -10677,6 +10678,7 @@
 ||open.play.cn/api/*/show_advt.json
 ||openinstall.io^$third-party,script
 ||openloadpro.com/wp-content/themes/opro/ad/
+||operqr.top^
 ||opgge.xyz^
 ||opida.xyz^
 ||opikervop.xyz^
@@ -14320,6 +14322,7 @@
 ||wwwbaiducom.xyz/4/js4/
 ||wwwcdn.kimiss.net/btn/
 ||wwwww.asia^
+||wwxufo.com^
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
 ||wxfkanv.cn^
@@ -14526,6 +14529,7 @@
 ||xkdlqq.com^
 ||xkfigjh.cn^
 ||xkhall.xyz^
+||xkjmjj.com^
 ||xkjxgt.com^$third-party
 ||xkmwxwy.cn^
 ||xkqit.com^
@@ -15553,6 +15557,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 91porn.com##+js(set-constant, player.preroll, noopFunc)
 91porn.com##.vjs-preroll
 91porn.com#?##videodetails > div:has(> a[href][target="_blank"])
+91short.com##.player-info
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 9908ww.com,adelaidepawnbroker.com,bztube.com,disputeresolutionfinance.uk,hotovs.com,insuredhome.org,nudegista.com,pornluck.com,vidd.se,redtube.*,youpornru.com,tube8.com,tube8.es,tube8.fr,tube8.net##+js(set-constant, page_params.holiday_promo, true)
 99re.com##a[href][target="_blank"] > img[src]
@@ -15844,9 +15849,9 @@ btsj6.com##em > strong
 bubbaporn.com,kalporn.com,koloporno.com,pornodingue.com,pornodoido.com,pornozot.com,serviporno.com,voglioporno.com##.banners-footer
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
 buildsometech.com,4thsight.xyz,zonegfx.com,hutporner.com,jav1080.com,sakurajav.com,laweekly.com,watchseinfeld.com,historicseries.com,indiansexbazar.com,sonixgvn.net,eftm.com,streamempire.cc,pennbookcenter.com,floxblog.com,aceofhacking.com,watchtheoffice.cc,newtechworld.net,gfxdrug.com,collegelearners.com,tecmint.com,firesticktricks.com###custom_html-4
-buondua.com,buondua.us##.search-form + br + div[class]
 buondua.com,buondua.us##img[loading="lazy"][src^="//buondua.com/"]
 buondua.com,buondua.us##video[autoplay="true"][loop="true"][preload="auto"]
+buondua.com,buondua.us,kiutaku.com##.search-form + br + div[class]
 buondua.com,buondua.us,kostaku.art,kostaku.com,kostaku.live,kostaku.us##div[class] > div[class^="b"][class*="9"],div[class] > div[class^="i"][class*="9"],div[class] > div > div[class^="i"][class*="9"],div[class] > div > div[class^="b"][class*="9"]
 bustyporn.com##.widget-friends
 bycard.by,goodfon.ru,kimo.ma,old-games.ru,satsis.info,swordmaster.org##.adb
@@ -16534,6 +16539,8 @@ kinoafisha.ua##.turn-off-add-block-text
 kinoprofi.net##.warning-adblock
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
 kissvk.com###madBlockModal,.modal-backdrop
+kiutaku.com##div[class^="b"]:has(ins[data-zoneid])
+kiutaku.com##div[class^="i"][class*="9"]
 komikhentaiterbaru.xtgem.com,rajahentai.com,komikhentai.me,komikhentai.online,hexat.com,yhentai.sextgem.com,bursahentai.com##div[id^="st"][style^="z-index: 9999"]
 koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
 korall.xyz,javcl.com,vsttorrents.net,kropic.com,shorterall.com,fakyutube.com,javtiful.com,22pixx.xyz,porndish.com,mypornhd.com,europeanclassiccomic.blogspot.com,holanime.com,oloadporn.com,tamilyogi.vip,bleach-hdtv.blogspot.com,telewizja-internetowa.pl,webcamshows.org,team1x1.com,thehiddenbay.com,ask4movie.com,peeplink.in,animeultima.eu,darmowa-telewizja.online,kastream.biz##+js(abort-on-property-read, _pop)
@@ -22620,6 +22627,7 @@ zle.com$script
 ##.pane-emediate
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
 ##.phone-ads
@@ -22761,10 +22769,12 @@ zle.com$script
 ##.under-player-ad-mobile
 ##.under_player > div[class*="lg:hidden"]
 ##.van-tab__panel > .noTop.main-content > .group-content
+##.vg-overlay-pause
 ##.video-ads-container
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
+##.video-player > .gg-bg-cover
 ##.video_details > .banner
 ##.vodads
 ##.w-full > .banner.el-carousel
