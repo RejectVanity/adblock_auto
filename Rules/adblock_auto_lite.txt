@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: j58XdfOyMnaXn9LExfj8og
+! Checksum: aDpz4rwm0vZCYNkrq9ZQAw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231201161008
+! Version: 20231202000911
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-01 16:10:08
-! Total Count: 25098
+! Last modified: 2023-12-02 00:09:11
+! Total Count: 25110
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -415,6 +415,7 @@
 ||1cdhf.top^
 ||1cjzfyb.com^
 ||1cpkcnm.com^
+||1dcbzuv.com^
 ||1iuybpo.com^
 ||1jc5t.xyz^
 ||1k2l3m4n5o.com^
@@ -427,6 +428,7 @@
 ||1porp.top^
 ||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
+||1qkmxbt.com^
 ||1qlgi.top^
 ||1qm5.top^
 ||1s8pj.cn^$third-party
@@ -1179,6 +1181,7 @@
 ||8499258.com^
 ||8499683.com^
 ||84zm8.xyz^
+||85566.net/js/loadjs/jquery
 ||8585go.com/recommend
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
@@ -3160,6 +3163,7 @@
 ||adx.36kr.com^
 ||adx.io^$popup,third-party
 ||adx.io^$third-party
+||adx.mala.cn^
 ||adx1.com^
 ||adxadserv.com^
 ||adxadserv.com^$third-party
@@ -3688,6 +3692,7 @@
 ||aquvg.com^
 ||aqvwn18102h.com^
 ||aqy103.com/js/aqy/
+||ar611.xyz^
 ||arabs.alarabsex.com^
 ||arbbj6.com^
 ||area51.porn/sw.js
@@ -6013,6 +6018,7 @@
 ||eamqbaqzaewwq.top^
 ||eap.big5.enorth.com.cn^
 ||eap.enorth.com.cn^
+||eapect.icu^
 ||eapsmnw.cyou^
 ||easou.com/brandImage/ad/
 ||easou.com/online/banner/
@@ -8839,6 +8845,7 @@
 ||kcieo.xyz^$third-party
 ||kcnwe.xyz^
 ||kcqpvqr.cn^
+||kdgjsf.com^
 ||kdhome.net/images/banner
 ||kdhome.net/templets/default/img/tpfd.jpg
 ||kdou.com/ad_js.php?adid=
@@ -10212,6 +10219,7 @@
 ||mygeek.cn/pic_$domain=dapenti.com
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
+||myhaitang.cc/assets/public/*.js
 ||myhao.club^
 ||myhdporn.net/ccc.gif
 ||myhdporn.net/sss.gif
@@ -11958,6 +11966,7 @@
 ||rppihz.xyz^
 ||rpvdfb.xyz^
 ||rpyor0k.xyz^
+||rqauutf.icu^
 ||rqmob.com^
 ||rqnggnsz.fun^
 ||rqrvfp.xyz^
@@ -12190,6 +12199,7 @@
 ||sdk.adtiming.com^
 ||sdk.native123.com^
 ||sdk.starbolt.io^
+||sdklcnskvbks.com^
 ||sdkv2.imaginationunwired.com^
 ||sdnc.top^
 ||sdo.com/static/image/mkads/
@@ -13586,6 +13596,7 @@
 ||ufz.doesxyz.com^
 ||ugnlaigt.fun^
 ||ugvbsrbht.xyz^
+||ugwxwy.xyz^
 ||uhjxitn.xyz^
 ||uhwnrfu.cn^
 ||uibjhqwkl.com^
@@ -23123,6 +23134,7 @@ zle.com$script
 ##a[href*=".sjzbqnxx.com/"]
 ##a[href*=".sng.link/"]
 ##a[href*=".ssmh"][href*="?u="]
+##a[href*=".sudun.com/"]
 ##a[href*=".supernfp.com/"]
 ##a[href*=".taobao.com"] > .top1
 ##a[href*=".tdchat.in"]

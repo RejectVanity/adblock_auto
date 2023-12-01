@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: gpdfmU6DDhhUP/pML8dBPQ
+! Checksum: tbVPub5VNEZgr4Uk604W5g
 ! Title: 混合规则(自动更新)
-! Version: 20231201160958
+! Version: 20231202000901
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-01 16:09:58
-! Total Count: 124198
+! Last modified: 2023-12-02 00:09:01
+! Total Count: 124215
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -861,6 +861,7 @@
 ||1d1a.com^
 ||1d27313995.com^
 ||1d5d7fb584.com^
+||1dcbzuv.com^
 ||1dfsdfg.com^
 ||1dmp.io^
 ||1dtdsln1j.de^
@@ -930,6 +931,7 @@
 ||1push.io^
 ||1pwx.com/js/ck.js
 ||1qi.info^
+||1qkmxbt.com^
 ||1qlgi.top^
 ||1qm5.top^
 ||1r4g65b63.de^
@@ -2881,6 +2883,7 @@
 ||84zm8.xyz^
 ||8500.pro^
 ||8509717d76.com^
+||85566.net/js/loadjs/jquery
 ||8585go.com/recommend
 ||8592fb1c1d.com^
 ||85b4ff59c0.com^
@@ -9178,6 +9181,7 @@
 ||ar-x.site^
 ||ar.umeng.com^
 ||ar1nvz5.com^
+||ar611.xyz^
 ||arabdevastatingpatty.com^
 ||arablucidlygrease.com^
 ||arabs.alarabsex.com^
@@ -30547,6 +30551,7 @@
 ||hotjar.com^
 ||hotjar.com^$third-party
 ||hotjar.io^
+||hotkabachok.com^
 ||hotlinemultiply.com^
 ||hotlog.ru^
 ||hotnews1.me^
@@ -53113,6 +53118,7 @@
 ||rpyor0k.xyz^
 ||rpzbfftekjdz.com^
 ||rqakljxbs.com^
+||rqauutf.icu^
 ||rqfedjzveel.com^
 ||rqhere.com^
 ||rqhere2.com^
@@ -54404,6 +54410,7 @@
 ||sdk.zadn.vn^
 ||sdkfjxjertertry.com^
 ||sdkl.info^
+||sdklcnskvbks.com^
 ||sdks.stats-locations.com^
 ||sdkv2.imaginationunwired.com^
 ||sdljvrf.cn^
@@ -60273,6 +60280,7 @@
 ||tendencysanction.com^
 ||tenderlywomblink.com^
 ||tendernessbranch.com^
+||tendernessknockout.com^
 ||tendersugar.com^
 ||tendertest.com^
 ||tendingstonier.com^
@@ -61456,6 +61464,7 @@
 ||tongsgodforsaken.com^
 ||tongsone.uno^
 ||tonicelement.digital^
+||tonicneighbouring.com^
 ||toninjaska.com^
 ||tonnn.com/promotion2/*.js
 ||tonopole.com^
@@ -63873,6 +63882,7 @@
 ||ugripaid.com^
 ||ugroocuw.net^
 ||ugvbsrbht.xyz^
+||ugwxwy.xyz^
 ||ugyeon.com^
 ||ugyplysh.com^
 ||ugyyod.com^
@@ -65381,6 +65391,7 @@
 ||verifypow.com^
 ||verifyvegetable.com^
 ||veritaswhang.com^
+||veritiesgarlejobade.com^
 ||verninchange.com^
 ||vernondesigninghelmet.com^
 ||veronalhaf.com^
@@ -83592,6 +83603,7 @@ news24.com##.featured-category
 news365.co.za##.stream-item-widget-content
 news9live.com###left_before_story
 newsbusters.org###intranet_mid
+newscientist.com##.Outbrain
 newsday.com##.midPg
 newser.com###DivStoryAdContainer
 newser.com###divImageAd
@@ -88033,6 +88045,7 @@ tundraheadquarters.com##a[href^="http://www.tkqlhce.com/"]
 tunefind.com##div[class^="AdSlot_inner_"]
 tunefind.com##div[class^="ImageListAdSlot_"]
 turbobit.net###__bgd_link
+turbobits.cc,turbobits.net##center > a > img
 tut.by##body > div[style*="position: fixed;"][style*="right: 0;"]
 tutiempo.net##.ContBannerTop
 tutorialink.com##.tutorialink-ad1
@@ -101268,7 +101281,10 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 :7701/load.cw.js
 :800*/d/*?n=$script,third-party
 :800*/d/*?t=$script,third-party
+:800*/d/*n=$script,third-party
+:800*/d/*t=$script,third-party
 :800*/sc/*?n=$script,third-party
+:800*/sc/*n=$script,third-party
 :8080/ad/
 :8080/advserver/
 :8080/js/v1.js$third-party
@@ -120193,6 +120209,7 @@ zle.com$script
 ##a[href*=".sng.link/"]
 ##a[href*=".snmlyshj.com/"]
 ##a[href*=".ssmh"][href*="?u="]
+##a[href*=".sudun.com/"]
 ##a[href*=".supernfp.com/"]
 ##a[href*=".taobao.com"] > .top1
 ##a[href*=".tdchat.in"]
