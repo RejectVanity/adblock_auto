@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: j3gIWAsgIE1pv0A5sau6Ew
+! Checksum: +8QipRqMw69RAOKthPg+1A
 ! Title: 混合规则(自动更新)
-! Version: 20231202160851
+! Version: 20231203000801
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-02 16:08:51
-! Total Count: 124267
+! Last modified: 2023-12-03 00:08:01
+! Total Count: 124278
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2165,6 +2165,7 @@
 ||58cdn.com.cn/ds/tgbrand/*.js
 ||58cdn.com.cn/ds/zhuangxiu/jzad-
 ||58cdn.com.cn/nowater/webim/big/n_v2acfbdb173d7a411a89aff3ae0cc05d71.
+||58cdn.com.cn/nowater/webim/big/n_v2e722db7ca7f1458d92b7d6e57f833548.
 ||58cdn.com.cn/resource/xxzl/xxfw/
 ||58cdn.com.cn^$domain=tvyb03.com
 ||58file.com/down/xyk.
@@ -27768,6 +27769,7 @@
 ||go-rillatrack.com^
 ||go-srv.com^
 ||go.*.com/apu.php$redirect=noop.txt,domain=movies.is,image,media,subdocument,stylesheet,script,xmlhttprequest,other
+||go.activengage.com^
 ||go.adltserv.com^
 ||go.admost.com^
 ||go.bestmobiworld.com^
@@ -30118,6 +30120,7 @@
 ||hitbip.com^
 ||hitbox.com^
 ||hitchbuildingeccentric.com^
+||hitchprivilege.com^
 ||hitchrational.com^
 ||hitcount.dk^
 ||hitcounter.ru
@@ -33970,6 +33973,7 @@
 ||jhgtf.com^
 ||jhkggrr.icu^
 ||jhkj.work^
+||jhl1993.cn^
 ||jhlazsot.icu^
 ||jhlxfw.cn^
 ||jhoncj.com^
@@ -75826,6 +75830,7 @@ cars.com##[id$="-sponsored"]
 carsales.com.au,technobuffalo.com##.page-header
 carscoops.com##.in-asd-content
 carsdirect.com###TopBanner
+carsdirect.com##.adFooterWrapper
 cartoon-sex.tv##+js(addEventListener-defuser, mousedown, )]){return)
 cartoon-sex.tv##.f-banner
 cartoon18.com##.embed-responsive.position-relative + .card-body > .lines > span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
@@ -78206,6 +78211,7 @@ ezprice.com.tw##.col-md-3
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 eztv.tf,eztv.yt,123unblock.bar#?#tbody:-abp-contains(WARNING! Use a)
 ezvivi.com###table1[width="336"]
+f150lightningforum.com##.customizedBox
 f1gamesetup.com##.supp-footer-banner
 f1gamesetup.com##.supp-header-banner
 f1gamesetup.com##.supp-sense-desk-large
@@ -80816,6 +80822,7 @@ indianexpress.com###gpt_ad_IE_ROS_BUDGET_BAND
 indianexpress.com##.add-first
 indianexpress.com##.ie-banner-wrapper
 indianexpress.com##.ie-int-campign-ad
+indianexpress.com##.osv-ad-class
 indianexpress.com##.rhs-banner-carousel
 indianpornfuck.com##.spots.appeared
 indianpornfuck.com,xindiansex.com##.banner-fixed
@@ -81409,6 +81416,8 @@ jdbbs.com###portal_block_2826
 jdbbs.com##.adyihifi
 jdbbs.com##div[id^="archy_ad"]
 jdbbs.com##div[style="margin: 0 auto 10px; width: 1000px;"]
+jdpower.com##.rrail__ad-wrap
+jdpower.com##.site-top-ad
 jdwx.info,motobuy.com.tw##.other
 jdyou.com###contentSlide
 jdyou.com###popWrap
@@ -88975,6 +88984,7 @@ wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
 wenxuecity.com##label[style*="darkgrey"]
 weraveyou.com##div[id^="werav-"]
 westcapenews.com###leaderboardspace
+westernjournal.com###stnvideo
 westword.com##.a65vezphb1
 westword.com##.hil28zhf1wyd
 wethegeek.com##.mfp-content
@@ -113559,6 +113569,7 @@ zle.com$script
 ##.bg-ad-top
 ##.bg-ads
 ##.bg-ads-space
+##.bg-grey-ad
 ##.bgAdBlue
 ##.bg_ad
 ##.bg_ads
