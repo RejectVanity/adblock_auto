@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /WIz3cAPVP0PU19SHJIsew
+! Checksum: rMaD2syPxiDVM1Nz1s4iaA
 ! Title: 自用去广告Adblock规则
-! Version: 20231130194811
-! Last modified: 2023-11-30 19:48:11
-! Total Count: 3249
+! Version: 20231203222338
+! Last modified: 2023-12-03 22:23:38
+! Total Count: 3253
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2181,8 +2181,8 @@ hentaicity.com##[class^="adn-posty_"]
 hentaipaw.com##.header-ad,.middle-ad,[id^="ts_ad_native"]
 hkcards.com#@##ad-slot
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
-https://**.*/TC/*/*.gif$third-party,image
-https://**.*/YL/*/*.gif$third-party,image
+https://*.*/TC/*/*.gif$third-party,image
+https://*.*/YL/*/*.gif$third-party,image
 ifanr.com##.popup-download
 ifeng.com##[class*="temp-ad"]
 ifeng.com##[class="openapp"]
@@ -2799,6 +2799,7 @@ zle.com$script
 ||chiluyingxiao.com^$third-party
 ||chushoushijian.cn^$third-party
 ||cje7egcisdr.xyz^
+||clarity.ms^
 ||clickx.autohome.com.cn^
 ||cloudflare.solutions^
 ||cloudflare.st^
@@ -3167,7 +3168,9 @@ zle.com$script
 ||vzigttqgqx.com^
 ||wap.gonb.org/qjlm_wap.js
 ||wdwdwd3d.com^
+||weixiaoke.top^
 ||wendypha.com^$third-party
+||winniephc.com^
 ||wotmvdc.cn^
 ||wpadmngr.com^
 ||wpnsrv.com^
@@ -3191,6 +3194,7 @@ zle.com$script
 ||xlyzjs.com$third-party
 ||xmsflzmygw.com^
 ||xn--*.xn--fiqs8s^$~third-party
+||xn--1qwynp09f.net^
 ||xn--2quv4et7i4yno8fbua.xn--fiqs8s^
 ||xn--dpq21dn8asxam8v16q0j5c.com^
 ||xn--gov-x68dy61b.club^
