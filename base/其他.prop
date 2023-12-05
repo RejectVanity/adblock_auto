@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rMaD2syPxiDVM1Nz1s4iaA
+! Checksum: TFRcnnfQF7Bxf7NqA2A4bg
 ! Title: 自用去广告Adblock规则
-! Version: 20231203222338
-! Last modified: 2023-12-03 22:23:38
-! Total Count: 3253
+! Version: 20231205155021
+! Last modified: 2023-12-05 15:50:21
+! Total Count: 3266
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -529,6 +529,7 @@
 ##a[href^="https://adultfriendfinder.com"]
 ##a[href^="https://app.kmtgsopq.com?agentId="][target="_blank"]
 ##a[href^="https://b9556.vip"]
+##a[href^="https://i.vip.po18ad.com/"][target="_blank"]
 ##a[href^="https://igt17.net"]
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://mnwkcf.pojuko.buzz"]
@@ -1044,6 +1045,12 @@
 .com/ad-provider.js$third-party
 .com/api/getPos?jspath=/$~third-party
 .com/api/senddata?$third-party
+.com/assets/public/chart.1.js$script,~third-party
+.com/assets/public/d3.2.js$script,~third-party
+.com/assets/public/react.3.js$script,~third-party
+.com/assets/publish/chart.1.js$script,~third-party
+.com/assets/publish/d3.2.js$script,~third-party
+.com/assets/publish/react.3.js$script,~third-party
 .com/candy*.js$third-party
 .com/j/*$script,third-party
 .com/k/*$script,third-party
@@ -1425,7 +1432,7 @@
 /apijs/lunbovipdaka/*.js$~third-party
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
 /assets/ad-$domain=~flowus.cn
-/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com
+/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com|shenyelook.com|hetang123.com|tinghaolook.com|sadnofun.com
 /bar/yfgg.js
 /bar/yfggb.js
 /bid?url=http
@@ -1929,6 +1936,7 @@
 @@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me|assistant.etxlzb.com
 @@||cre.dp.sina.cn^
 @@||eporner.com^$~third-party
+@@||fapcat.com^$~third-party
 @@||fusacq.com/javascript/advertising.js|$script
 @@||gk.sina.cn^
 @@||guokr.com/apis/flowingboard/item/guokrapp_
@@ -2389,6 +2397,7 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 ppys66.com##a[title="成人深夜福利"]
 qinav.com##div[id^="qinav_b"]
 renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
+rouwenge.vip#@#[class$="ad-container"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
 rule34video.com##.thumb:has([src*="/lv/esnk/"]),.thumb:has([src*=".jads."]),.footer_spots:has([src*="/lv/esnk/"]),.footer_spots:has([src*=".jads."])
 sbdm.net##div#vodshare
@@ -2902,6 +2911,7 @@ zle.com$script
 ||halihali*.com/js/wap2-jm-ms.js?$script
 ||hb.vhsrv.com^
 ||hdpornfree.xxx/sup/*.js
+||hetang123.com/assets/public/$script
 ||hffxc.com^$third-party,script
 ||hhxsp.xyz/hf.js$script
 ||highperformancedisplayformat.com^
@@ -3072,6 +3082,7 @@ zle.com$script
 ||s.69vj.com/assets/DIY.$image,media
 ||s.htkk*.top:20443^$script
 ||s2dcm.com^$third-party,script
+||sadnofun.com/assets/public/$script
 ||sas.com^
 ||sbcjahdc.com^$third-party
 ||sc-gov-cn.website^
@@ -3083,6 +3094,7 @@ zle.com$script
 ||sfvsjv.com/sh$third-party,script
 ||sgoijw.com^$third-party
 ||shabby-constant.com^$third-party
+||shenyelook.com/assets/publish/$script
 ||siduohua.top^
 ||simplewebanalysis.com^
 ||sinodan.link/js/js4.js?v=
@@ -3118,6 +3130,7 @@ zle.com$script
 ||thisav.com/pop?url=
 ||thyn.renzhen8.cn^$third-party
 ||tinghao8.com/assets/publish/$script
+||tinghaolook.com/assets/publish/$script
 ||tongji.click^
 ||toutiaoimg.com^$image,domain=350xs.com
 ||tpic.kszvmqo.cn^$third-party
