@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: gdEwmjUlmgLZOSmixNMUHw
+! Checksum: XpMRKGWdUGBAhUFSsNNCgA
 ! Title: 混合规则(自动更新)
-! Version: 20231205160957
+! Version: 20231206000933
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-05 16:09:57
-! Total Count: 123879
+! Last modified: 2023-12-06 00:09:33
+! Total Count: 123896
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -758,6 +758,7 @@
 ||18ap945.cn^
 ||18av.mm-cg.com/*/7mmtv.gif
 ||18avday.*/aa/
+||18comic.*/exads-adblock-*/backend_loader.php
 ||18comic.*/iframe
 ||18comic.*/media/albums/*?$media
 ||18comic.*/media/logo/
@@ -1840,6 +1841,7 @@
 ||4f4e1936f7.com^
 ||4fef80eb73.com^
 ||4gamers.com.tw/ads-
+||4gamers.com.tw/site/api/aols/media?
 ||4gamers.com.tw/site/iframe-aols/
 ||4ggame8.com^
 ||4go.cc^
@@ -28962,6 +28964,7 @@
 ||haokan5.com/js/haokanjs/playa
 ||haokan5.com/js/haokanjs/tj.js
 ||haokan5.com/js/haokanjs/youxiajiao.js
+||haokanshipin.com^
 ||haokoubei.top^
 ||haolepic.com/blz/
 ||haolepic.com/js/
@@ -52941,6 +52944,7 @@
 ||rtb.appbid.com^
 ||rtb.com.ru^
 ||rtb.mts.ru^
+||rtb.pixad.com.tr^
 ||rtb.trade^
 ||rtb.wedeo.ru^
 ||rtb123.com^
@@ -53420,6 +53424,7 @@
 ||s4ls9.top^
 ||s4zqj3m.cn^
 ||s5ikadi.fun^
+||s5ue6.com^
 ||s6.textlink.vn^
 ||s65m.win^
 ||s6in.cc^
@@ -63585,6 +63590,7 @@
 ||uioubveq.com^
 ||uisafnit.space^
 ||uiswtr3.xyz^
+||uiszwh.icu^
 ||uiteo.xyz^
 ||uitrens.ru^
 ||uittupxr.com^
@@ -71131,6 +71137,7 @@
 ||ziyu.net^
 ||ziyuanm.com/js/g11.js
 ||ziyuanyinhang.wang^
+||ziyzcu.buzz^
 ||zizcy.com^
 ||zizoxozoox.com^
 ||zjai.xyz^
@@ -71960,6 +71967,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 123pan.com###prod > .ant-carousel
 123pan.com##.advBanner
 123pan.com##.ant-carousel
+123pan.com##.baidu-banner-container
 123pan.com##.banner-container-pc
 123pan.com##[class*="adv-container"]
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
@@ -72014,6 +72022,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 159i.com#?#.style15:-abp-has(> img[src="//159i.com/images/arrow3.gif"])
 159i.com#?#:-abp-has(> img[src*="gif"])
 159i.com#?#div:-abp-has(> img+a)
+159i.com,18-comic.work,18comic.org,18comic.vip,18pussy.porn,720video.me,asian-teen-sex.com,babesjoy.com,baltasar5010purohentai.com,besthindisexstories.com,blameless.work,dailyimages.xyz,ecoimages.xyz,fapality.com,freee-porns.com,gifhq.com,gottanut.com,hentaila.com,hot-sex-tube.com,imgmercy.com,javbuz.com,javteentube.com,mangoporn.co,my18pussy.com,noodlemagazine.com,nudeclap.com,pandamovies.pw,pimpandhost.com,pornhat.com,pornhills.com,pornkino.cc,reblop.com,stileproject.com,streamporn.pw,tbib.org,teen-tube-20.com,thisvid.com,tmohentai.com,tubsexer.com,watchpornfree.info,watchpornfree.ws,watchpornx.com,xopenload.me,xxxmoviestream.xyz,xxxparodyhd.net,youav.com,youwatchporn.com##+js(abort-current-script, document.dispatchEvent, /getexoloader/)
 159i.com,androidauthority.com##.aa
 159i.com,china.com.cn,mydrivers.com,ncomputers.org,servertest.online##.ab
 159i.com,thechinaproject.com##.a4d
@@ -72136,6 +72145,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 17yy.com##.t2_3
 17yy.com##.t2r_3
 18-comic.work,18comic.org,18comic.vip##.div_sticky2
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
@@ -72178,7 +72188,10 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.org,18comic.vip##div[data-group^="photo_center_games_"]
+18comic.org,18comic.vip,18-comic.work#$?#.col-xs-6 > div[data-type][style]:has(> ins + script) { remove: true; }
+18comic.org,18comic.vip,18-comic.work#?#.col-xs-6 > div[data-show][style]:has(> p:only-child > a[target="_blank"] > img)
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
+18comic.org,18comic.vip,18-comic.work#@?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
@@ -72650,9 +72663,11 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 423down.com##.content > div[style="text-align: left;"]
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
+423down.com##.entry > P[style^="font-size"] > A[href*="/go."]
 423down.com##.entry > p[style$="111"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
+423down.com##.entry > p[style^="font-size"] > a[href*="/go."]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
@@ -77548,6 +77563,7 @@ empflix.com##.pause-overlay
 empflix.com##.rightBarBannersx
 empflix.com,tnaflix.com##.mewBlock
 empiremovies.com###bannerbar
+empireonline.com##.advertWrapper_billboard___I9D0
 empireonline.com##.article_adContainer__wYS5j
 emulatorgames.net##.site-label
 emulatorgames.net##.site-unit-lg
@@ -84063,7 +84079,6 @@ pilipali.cc##.tips-widget-weixin
 pilipili.site##.block-sales
 pimpandhost.com##.aaablock_yes
 pimpandhost.com##a[href^="https://www.myfreecams.com/"][href*="&track="]
-pimpandhost.com,my18pussy.com,18pussy.porn,thisvid.com,pornhills.com,gifhq.com,nudeclap.com,hentaila.com,fapality.com,720video.me,javbuz.com,youwatchporn.com,watchpornx.com,xxxparodyhd.net,pornhat.com,baltasar5010purohentai.com,hot-sex-tube.com,teen-tube-20.com,javteentube.com,asian-teen-sex.com,babesjoy.com,gottanut.com,pornkino.cc,watchpornfree.info,freee-porns.com,xxxmoviestream.xyz,mangoporn.co,besthindisexstories.com,imgmercy.com,ecoimages.xyz,youav.com,tmohentai.com,tbib.org,dailyimages.xyz,159i.com,xopenload.me,reblop.com,tubsexer.com,blameless.work,streamporn.pw,stileproject.com,watchpornfree.ws,noodlemagazine.com,pandamovies.pw##+js(abort-current-script, document.dispatchEvent, /getexoloader/)
 pimpandhost.com,pornone.com##.iframe-container
 pimylifeup.com##[href^="https://go.pimylifeup.com/"]
 pinchofyum.com##.adthrive_header_ad
@@ -84858,6 +84873,7 @@ qbiao.com##div[id^="aup"]
 qciss.net##+js(window.open-defuser, 0, qciss.net)
 qciss.net##.container-fluid > #lightbox
 qciss.net##div[style^="border-style:solid;"][style*="border-width:2px;"][style*="width: 80%;"]
+qdmm.com###page-ops
 qdmm.com,qidian.com##.qdRead_client
 qdmm.com,qidian.com##.qdRead_redscan
 qger.net##body > :not(div):not(header):not(img):not(ocjx):not(span):not(ui)
@@ -87278,6 +87294,7 @@ thumbnails.porncore.net##div[id][style$="height:200px;width:800px;"]
 thumbnails.porncore.net##iframe[width="200"][height="1000"]
 thumbsnap.com##.ts-blurb-wrap
 thwiki.cc##.on-right > .swiper-container
+tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
 tianshui.com.cn##td[height="420"]
 tiantianzhibo.com###sliderb_container
