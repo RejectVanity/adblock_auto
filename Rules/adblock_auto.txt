@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 6QW91GKonekGQ8q6Daihvg
+! Checksum: gdEwmjUlmgLZOSmixNMUHw
 ! Title: 混合规则(自动更新)
-! Version: 20231205083245
+! Version: 20231205160957
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-05 08:32:45
-! Total Count: 123858
+! Last modified: 2023-12-05 16:09:57
+! Total Count: 123879
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8771,6 +8771,7 @@
 ||api.bonusberry.ru^
 ||api.branch.io^
 ||api.brs.intl.miui.com^
+||api.bytebrew.io^
 ||api.cazamba.com^
 ||api.clickaine.com^
 ||api.cloudmobi.net
@@ -17472,6 +17473,7 @@
 ||core-cen-54.com^
 ||core.airbridge.io^
 ||core.centotag.io^
+||core.dimatter.ai^
 ||core.manatee.io^
 ||core.unit-sense.net^
 ||core.vchat.vn^
@@ -29566,6 +29568,7 @@
 ||hetahien.com^
 ||hetaint.com^
 ||hetairagalapee.tech^
+||hetang123.com/assets/public/$script
 ||hetapugs.com^
 ||hetapus.com^
 ||hetartwg.com^
@@ -29779,6 +29782,7 @@
 ||highrevenuecpmnetrok.com^
 ||highrevenuecpmnetwork.com^
 ||highrevenuegate.com^
+||hightech24h.com^
 ||hightopnews.com^
 ||hightopnewstoday.com^
 ||highwaycpmrevenue.com^
@@ -30394,6 +30398,7 @@
 ||housemaiddevolution.com^
 ||housewifecheeky.com^
 ||housewifehaunted.com^
+||houston.advgo.net^
 ||houstonbbs.com/data/ad/
 ||houyi.baofeng.net^*.html
 ||hoverr.co^
@@ -39100,6 +39105,7 @@
 ||maispremium.com.br^
 ||maist.jp^
 ||maisvznypp.com^
+||maithooh.net^
 ||maiuschaco.com^
 ||majasgaol.com^
 ||majesticinsensitive.com^
@@ -49946,6 +49952,7 @@
 ||qehwgbwjmjvq.xyz^
 ||qel-qel-fie.com^
 ||qelqlunebz.com^
+||qemyetwxfcwhtyy.com^
 ||qeptzff.cn^
 ||qeqaqnvwmbkyj.top^
 ||qerbert78.xyz^
@@ -52751,6 +52758,7 @@
 ||roujonoa.net^
 ||roulax.io^
 ||roulediana.com^
+||roumakie.com^
 ||rouman5.com/a2/*.gif
 ||rouman5.com/cps/*.gif
 ||rouman5.com/hlw.jpg
@@ -53465,6 +53473,7 @@
 ||sadjklq.com^
 ||sadjune.com^
 ||sadloaf.com^
+||sadnofun.com/assets/public/$script
 ||sadobeanalytics.geico.com^
 ||sadobo.com^
 ||sadorsagreeng.com^
@@ -55010,6 +55019,7 @@
 ||shenouth.com^
 ||shentongjiakao.ren^
 ||shentupk85.com^
+||shenyelook.com/assets/publish/$script
 ||shenyunkeji.com^
 ||shenzo.xyz^
 ||shepeekr.net^
@@ -60172,6 +60182,7 @@
 ||thathechoxe.com^
 ||thathersevengid.ru^
 ||thatincidentwad.com^
+||thatmonkeybites3.com^
 ||thatobjective.pro^
 ||thaudray.com^
 ||thauftoa.net^
@@ -60719,6 +60730,7 @@
 ||tingexceleler.com^
 ||tinggalklik.com^
 ||tinghao8.com/assets/publish/$script
+||tinghaolook.com/assets/publish/$script
 ||tingledpredy.com^
 ||tinglian.com^
 ||tingroom.com/file/A*.js
@@ -90793,6 +90805,12 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/api/getPos?jspath=/$~third-party
 .com/api/senddata?$third-party
 .com/appinstall.js$third-party,script
+.com/assets/public/chart.1.js$script,~third-party
+.com/assets/public/d3.2.js$script,~third-party
+.com/assets/public/react.3.js$script,~third-party
+.com/assets/publish/chart.1.js$script,~third-party
+.com/assets/publish/d3.2.js$script,~third-party
+.com/assets/publish/react.3.js$script,~third-party
 .com/bads/
 .com/banner_list.js
 .com/c.gif?
@@ -95019,7 +95037,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /assets/dayu/ainfiniteactivity-
 /assets/doubleclick/*
 /assets/frameworks/types-*?plm=$script,third-party
-/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com
+/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|hetang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lewenlook.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|nosadfun.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|sadnofun.com|shenyedushu.com|shenyelook.com|soosadfun.com|sqruitu.com|tangsanshu.info|tangsanshu.la|tinghao8.com|tinghaodebook.com|tinghaolook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com
 /assets/sidebar/*$domain=v2ex.com
 /assets/sponsored/*
 /assets/t_j/tongji.js
@@ -120409,6 +120427,7 @@ zle.com$script
 ##a[href^="https://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="https://hot-growngames.life/"]
 ##a[href^="https://hotplaystime.life/"]
+##a[href^="https://i.vip.po18ad.com/"][target="_blank"]
 ##a[href^="https://iactrivago.ampxdirect.com/"]
 ##a[href^="https://igt17.net"]
 ##a[href^="https://incisivetrk.cvtr.io/click?"]
@@ -122753,6 +122772,7 @@ zle.com$script
 @@||familyporner.com/jesojof/js/prebid-ads.js
 @@||fang.com/stats/clickm2011.js
 @@||fangcloud.com^$generichide
+@@||fapcat.com^$~third-party
 @@||feilusw.com/search.html$genericblock,generichide
 @@||fengkongcloud.com/fpv2.js
 @@||fharr.com^$generichide
@@ -123779,6 +123799,7 @@ right.com.cn#@##sitefocus.focus
 ripley.cl#@#.dfp-ad-unit
 rjno1.com#@#[id^="aswift_"]
 rjno1.com#@#main > div[class^="qnb"]
+rouwenge.vip#@#[class$="ad-container"]
 ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
 rupors.com#@#.advertSlider
 sankei.com#@#.module_ad
