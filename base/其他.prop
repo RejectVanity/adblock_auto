@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TFRcnnfQF7Bxf7NqA2A4bg
+! Checksum: V8U6jDtjBTk/75Y/dFJ4qA
 ! Title: 自用去广告Adblock规则
-! Version: 20231205155021
-! Last modified: 2023-12-05 15:50:21
-! Total Count: 3266
+! Version: 20231206172113
+! Last modified: 2023-12-06 17:21:13
+! Total Count: 3270
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -78,6 +78,8 @@
 ##.ReadAd2
 ##.__bm_btn_div
 ##._ads
+##.ad-box
+##.ad-container
 ##.ad-placement
 ##.ad-title
 ##.ad.noadmo
@@ -243,8 +245,9 @@
 ##.wrapperad
 ##.yuepa-list
 ##.yuepa-warp
-##[class$="ad-box"]
-##[class$="ad-container"]
+##[class$="-ad-box"]
+##[class$="-ad-container"]
+##[class$="_ad-container"]
 ##[class$="ads-box"]
 ##[class$="ads-container"]
 ##[class$="card-ad-video"]
@@ -1432,7 +1435,7 @@
 /apijs/lunbovipdaka/*.js$~third-party
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
 /assets/ad-$domain=~flowus.cn
-/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com|shenyelook.com|hetang123.com|tinghaolook.com|sadnofun.com
+/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com|shenyelook.com|hetang123.com|tinghaolook.com|sadnofun.com|bookhaitang.com
 /bar/yfgg.js
 /bar/yfggb.js
 /bid?url=http
@@ -2397,7 +2400,7 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 ppys66.com##a[title="成人深夜福利"]
 qinav.com##div[id^="qinav_b"]
 renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
-rouwenge.vip#@#[class$="ad-container"]
+rouwenge.vip,jpq.me#@#[class$="ad-container"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
 rule34video.com##.thumb:has([src*="/lv/esnk/"]),.thumb:has([src*=".jads."]),.footer_spots:has([src*="/lv/esnk/"]),.footer_spots:has([src*=".jads."])
 sbdm.net##div#vodshare
@@ -2783,6 +2786,7 @@ zle.com$script
 ||bjzankai.com^$script,third-party
 ||bl230126pb.com^
 ||bnsdk.top^
+||bookhaitang.com/assets/publish/$script
 ||browser.sentry-cdn.com^
 ||btds.zog.link^$third-party
 ||bto.tooopen.com^$third-party
