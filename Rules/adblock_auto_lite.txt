@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 21pksKn+NnmKLZle8L4BLw
+! Checksum: qzofzLBGRk1n3TFxdVhFgw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231207083317
+! Version: 20231207160958
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-07 08:33:17
-! Total Count: 24309
+! Last modified: 2023-12-07 16:09:58
+! Total Count: 24321
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -699,6 +699,7 @@
 ||4399.com/loadimg/iframe_
 ||4399.com/loadimg/loading.htm
 ||4399sj.com^*/mask-ad
+||44180055.cn^
 ||4438x*.com/Runtime/js/
 ||44629.com^
 ||44jq.cn^
@@ -4212,6 +4213,7 @@
 ||blxfqq.com^
 ||blz105.com/player/ad.html
 ||bm999999.com^$popup
+||bmatgg18.xyz^
 ||bmiea.xyz^
 ||bmjs.xzw.com^
 ||bmjvrf.xyz^
@@ -5143,6 +5145,7 @@
 ||cwgshkz.cn^
 ||cwmlm.com^$third-party
 ||cwolwc.xyz^
+||cwrxgb.icu^
 ||cwsgbekun.xyz^
 ||cww.net.cn/include/show.asp?boardID=
 ||cww.net.cn/js/urdev.js
@@ -7553,6 +7556,7 @@
 ||ieequd.icu^
 ||ieforex.com/r/cms/www/red/red2/images/*0.
 ||iepda.xyz^
+||iephrenhq.com^
 ||ifbfksf.xyz^
 ||ifbqves.cn^
 ||ifc-edu.cn^$third-party
@@ -9120,6 +9124,7 @@
 ||lvse.com/9
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lvy0.cn^
+||lvzkfcm.cn^
 ||lw0mp.fun^
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
@@ -9322,6 +9327,7 @@
 ||manifest.auditude.com^$domain=~not_for_sdn_filter.com
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
+||manymgsgn.com^
 ||manysex.com/culxmuixbbr
 ||manysex.com/xc$script
 ||maodh.com/admin/up/*.gif
@@ -9351,6 +9357,8 @@
 ||matwbp.iask.sina.com.cn^
 ||max211.top^
 ||maxthonimg.com/v6/festival/
+||maxun066.top^
+||maxun118.top^
 ||mb.gulongbbs.com^
 ||mbalib.com/common/a_mbalib/
 ||mbekgac.xyz^
@@ -10075,6 +10083,7 @@
 ||nweon.com/wp-content/repo/ad/
 ||nwera.xyz^
 ||nwmol.top^
+||nwpcptmm.xyz^
 ||nwrgdifq.xyz^
 ||nwuidsbjak.com^
 ||nwxs5.com/js/
@@ -11346,6 +11355,7 @@
 ||rfp.dspcdn.com/tags/*.html$domain=setn.com
 ||rfrhfh.xyz^
 ||rfto9i.icu^
+||rfxnff.xyz^
 ||rgpujh.xyz^
 ||rgyfqq.com^
 ||rhesed.site^
@@ -22120,6 +22130,7 @@ zle.com$script
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
+##TD[id^="td_"] > A[href^="/htmm/"]
 ##[class$="-ad-box"]
 ##[class$="-ad-container"]
 ##[class$="_ad-container"]
@@ -22354,6 +22365,7 @@ zle.com$script
 ##a[href*=".impreshunz.com/"]
 ##a[href*=".las88889999.com:"]
 ##a[href*=".lvdou.life/"][target="_blank"]
+##a[href*=".mhtimes.cn"]
 ##a[href*=".mmrjmh.com/"]
 ##a[href*=".n7.org.cn"]
 ##a[href*=".nffhome.com/"]
