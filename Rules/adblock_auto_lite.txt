@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qzofzLBGRk1n3TFxdVhFgw
+! Checksum: ohSHjSyKloXL/8G6CLth/g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231207160958
+! Version: 20231208000917
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-07 16:09:58
-! Total Count: 24321
+! Last modified: 2023-12-08 00:09:17
+! Total Count: 24341
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -522,6 +522,7 @@
 ||2cq.com/third/tieba/sidebar
 ||2d4f.com/love/
 ||2fa20230511.live^
+||2ghai.com/zz/
 ||2hfby.top^
 ||2hpg0.fun^
 ||2hvl4.fun^
@@ -4627,6 +4628,7 @@
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haocaa.com^
 ||cdn.haokongbu1.com^*.js
+||cdn.holmesmind.com^$third-party
 ||cdn.jampp.com^
 ||cdn.mob-api.net/mbanner.js
 ||cdn.mobilefuse.com^
@@ -6577,6 +6579,7 @@
 ||geobanner.sexfinder.com^$third-party
 ||geoloc.yospace.com^
 ||geotmt.com^$third-party
+||getcdnpix.name^
 ||getitfree.cn/wp-content/plugins/adunblocker/*.js
 ||getitfree.cn/wp-content/plugins/anti-
 ||getsgroup.cn^
@@ -6706,6 +6709,7 @@
 ||gmx46.top^
 ||gmx47.top^
 ||gmx48.top^
+||gn01.top^
 ||gniew.xyz^
 ||gnrty.kmjkwe.xyz^
 ||gnuoipb.cn^
@@ -7276,6 +7280,7 @@
 ||holder.com.ua^
 ||holdntlc.com^
 ||hollowafterthought.com^$third-party
+||holmesmind.com^
 ||homosexualprovenance.com^$popup
 ||hongjiujiaoyi.com^$third-party
 ||honglingjin.co.uk/wp-content/uploads/*-Homepage-Takeover-BG-
@@ -8406,6 +8411,7 @@
 ||jxnews.com.cn^*_ad_
 ||jxtejf.xyz^
 ||jxtest.bolecdn.com/player/*.gif
+||jxuhurp.icu^
 ||jxvyrv.xyz^
 ||jy.zhongxues.com^
 ||jy135.com/js/pubuliu.
@@ -9932,6 +9938,7 @@
 ||newasp.net/apps/counts.php?tid=
 ||newasp.net/misc/js/foot_
 ||newasp.net/static/js/foot_
+||newdin.name^
 ||newfeatureview.perfectionholic.com^
 ||newpgqnfapkamg.xyz^
 ||news.99k.tw/open/open*.php
@@ -13951,6 +13958,7 @@
 ||xonlines.com/yyh_qp_200_200.png
 ||xopew.cyou^
 ||xopxptn.cn^
+||xozilla.xxx/static/js/ppndr*.js
 ||xp85.com/common/js/allpage.js
 ||xpcha.com/js/notice.js
 ||xpcwrgy.cn^
@@ -14322,6 +14330,7 @@
 ||ysxs8.vip/js/bd_top.js
 ||ysxs8.vip/js/play_db.js
 ||ysxs8.vip/ysgg/
+||ysxt9.com^
 ||yszpegh.xyz^
 ||yt-adp.nosdn.127.net^
 ||yt-adp.ws.126.net^
@@ -21193,6 +21202,7 @@ zle.com$script
 ###rm-float3
 ###rmp-ad-click-id
 ###rollingadBox > .wrap
+###sc-superman-ad
 ###search > a[href="/top1.html"]
 ###sidearm-adblock-modal
 ###sign-ad
@@ -21303,6 +21313,7 @@ zle.com$script
 ##.ab-detected
 ##.ab-notice
 ##.abde
+##.above_video_banner
 ##.ad-300x600
 ##.ad-5
 ##.ad-6
@@ -21511,6 +21522,7 @@ zle.com$script
 ##.adv-300-250
 ##.adv-couplets
 ##.adv-g1
+##.adv-overlay
 ##.adv250
 ##.advInfoElem
 ##.adv_img
@@ -21874,6 +21886,7 @@ zle.com$script
 ##.mobile-ad-placeholder
 ##.mobile-ad-slider
 ##.mobile-ads
+##.mobile_aboveplayer
 ##.moboad
 ##.mod + #bottomBox
 ##.mod-ad
@@ -21949,6 +21962,7 @@ zle.com$script
 ##.pre-play-adv
 ##.preroll-blocker
 ##.privilege-promote
+##.pro-molnk
 ##.promolink-[style="position:relative;width:100%;height:100%;"]
 ##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
@@ -22707,6 +22721,7 @@ zle.com$script
 ##a[target="_blank"][href*="//ads.traffichaus.com/"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
 ##a[target="_blank"][href="/adjump/acg_show_right.html"]
+##a[target="_blank"][href^="https://365fun.sng.link"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##adblock-detect
 ##adblock-modal-component
@@ -22953,6 +22968,8 @@ zle.com$script
 ##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//av.ageverify.co/"]
 ##iframe[src*="//chaturbate.com/"]
+##iframe[src*="//deliver.ptgncdn.com/"]
+##iframe[src*="//getcdnpix.name/"]
 ##iframe[src*="//go.admjmp.com/"]
 ##iframe[src*="//go.cmtaffiliates.com/"]
 ##iframe[src*="//go.currency.com/"]
@@ -23019,6 +23036,7 @@ zle.com$script
 ##iframe[width="728"][height="90"]
 ##iframe[width="780"][height="120"]
 ##iframe[width="980"][height="90"]
+##iframe[width][height][src*="/api/spots/"][src*="?"]
 ##iframe[width][height][src*="/s/s/su.php?"][src*="https%3A"]
 ##img#GGADIMG
 ##img#adv1
@@ -23148,6 +23166,7 @@ zle.com$script
 ##img[src*="tp.chsq.one/gg"][src$=".gif"]
 ##img[src*="u1011.com/"]
 ##img[src*="u1055.com/"]
+##img[src*="www.pussyspace.com"]
 ##img[src*="yslulu"][src*=".xyz"]
 ##img[src*="z4a.net"][src*="/images/20"]
 ##img[src*="zhanlangimg.dingjiancdn.com"][src$=".gif"]
@@ -23170,6 +23189,7 @@ zle.com$script
 ##img[width="0"][height="0"]
 ##img[width="320"][height="50"]
 ##li > a[data-uuid]
+##li.adcls
 ##li[class="dataic"] > a[href*="/?channelCode="][target]
 ##li[class="dataic"] > div > a[href][name="点击播放"]
 ##li[id^="dataic"] > div > a[href][name="点击播放"]
