@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yi3rLTMWgX3UYgvcNIuqDw
+! Checksum: eyQ9vpTXRC0aPpQsIqb8/A
 ! Title: 自用去广告Adblock规则
-! Version: 20231207183946
-! Last modified: 2023-12-07 18:39:46
-! Total Count: 3282
+! Version: 20231208233330
+! Last modified: 2023-12-08 23:33:30
+! Total Count: 3285
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -579,6 +579,7 @@
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 127px !important;"]
+##body > [style$="background-size: 407px 129px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
@@ -643,6 +644,7 @@
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
 ##div[class="need_grid_text"] > ul > li
+##div[class="overfloat"][id="gui_kai"]
 ##div[class="photo-two"] > a[target="_blank"]
 ##div[class="v-banner"][style]
 ##div[class] > div[class][style^="box-sizing: border-box; position: relative; left: 0px; z-index: 2147"]
@@ -2829,6 +2831,7 @@ zle.com$script
 ||cloudfrale.com^
 ||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|adshort.club|newepisodes.co|megaup.net|ckk.ai|uploadas.com|gounlimited.to|streamtajm.com|yesmovies.to|thehouseofportable.com|kanqite.com|oke.io|xmovies8.pl|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|drhtv.com.pl|srt.am|dancingastronaut.com|mixing.dj|gamesofpc.com|tinyical.com|vizer.tv|itdmusic.com|prefiles.com|cloudyfiles.co|anime-odcinki.pl|clicknupload.link|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|feliratozz.hu|filescdn.com|javgo.me|katcr.co|katfile.com|keeplinks.eu|leporno.org|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sadeemapk.com|sankakucomplex.com|shink.in|uplod.it|uplod.ws|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|mrpcgamer.co|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|allmoviesforyou.net|soap2day.ac|torrentgalaxy.mx|igg-games.co|manganelo.tv|ziperto.com|bluemediafile.*|oxtorrent.sk
 ||cloudfront.net^/?clzed=$third-party
+||clouds.kunlunus.com^
 ||cmx.autohome.com.cn^
 ||cnt.xhamster.com^
 ||comm.app.autohome.com.cn^
