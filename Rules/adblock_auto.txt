@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: W+4EA142Li+UOH5JD2Hr4g
+! Checksum: n9TfHmqX+n7B7N6x4gep3g
 ! Title: 混合规则(自动更新)
-! Version: 20231208161011
+! Version: 20231209000912
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-08 16:10:11
-! Total Count: 124134
+! Last modified: 2023-12-09 00:09:12
+! Total Count: 124151
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2932,6 +2932,7 @@
 ||88993aaa.com^
 ||88b96b9c4d.com^
 ||88d7b6aa44fb8eb.com^
+||88dml.top^
 ||88eg.cn^
 ||88eq7spm.de^
 ||88kids.mobi^
@@ -16423,6 +16424,7 @@
 ||cloudpsh.top^
 ||cloudpsvn.com^
 ||cloudroad.shop^
+||clouds.kunlunus.com^
 ||cloudsdestruction.com^
 ||cloudservice24.kingsoft-office-service.com/cards
 ||cloudtracer101.com^
@@ -28842,6 +28844,7 @@
 ||hades.qyer.com^
 ||hadesleta.com^
 ||hadeti.xyz^
+||hadmvmqe.com^
 ||hadronid.net^
 ||hadsans.com^
 ||hadsanz.com^
@@ -38448,6 +38451,7 @@
 ||lsancil.top^
 ||lsbebm.xyz^
 ||lscckgm.cn^
+||lsce.top^
 ||lsckongo.website^
 ||lsdm.co^
 ||lsfinteractive.com^
@@ -43858,6 +43862,7 @@
 ||nwera.xyz^
 ||nwhocamewi.xyz^
 ||nwhoxwpuj6.com^
+||nwhuomqmuym.com^
 ||nwhvceb.cn^
 ||nwmol.top^
 ||nwmum.com^
@@ -44737,6 +44742,7 @@
 ||oncgqzu.cn^
 ||onclarck.com^
 ||onclasrv.com^
+||onclick.ir^
 ||onclickads.net^
 ||onclickalgo.com^
 ||onclickclear.com^
@@ -56423,6 +56429,7 @@
 ||so.com/index/advertise
 ||so.com/recomm/simi?
 ||so.com/resource/js/mod/detail/business.
+||so.com^*baike/ads?
 ||so.open.163.com/v/list.htm?pid=
 ||so1cool.com^
 ||so333o.com^
@@ -61736,6 +61743,7 @@
 ||track.berliner-kurier.de^
 ||track.bizjournals.com^
 ||track.briskfile.com^
+||track.btdmp.com^
 ||track.buybox.click^
 ||track.buzzerilla.com^
 ||track.byzon.swelen.net^
@@ -64885,6 +64893,7 @@
 ||valencevinyls.life^
 ||valentinosverige.com^
 ||valerainingexplain.com^
+||valerieavisnba.com^
 ||valerieurania.com^
 ||valetedmasaris.website^
 ||valeuceplangka.com^
@@ -75212,6 +75221,7 @@ bodu365.co###iside
 bodysize.org,porngo.com,heavy-r.com,y2mate.com,niceporn.xxx,0gomovies.com,igg-games.com#$?#iframe[srcdoc*="XMLHttpRequest"] { remove: true; }
 bog.ac##.sidebar-url
 boingboing.net##.boing-leaderboard-below-menu
+boingboing.net##.boing-primis-video-in-article-content
 boke112.com###linkdh
 boke112.com###sidebar img
 boke112.com##.custom-html-widget > div[style="margin-bottom: -7px;"]
@@ -77933,6 +77943,7 @@ euronews.com##.m-object--is-partner-content
 euronews.com##.qa-dfpLeaderBoard
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 euroweeklynews.com###banner-970
+euroweeklynews.com##[data-revive-zoneid]
 ev-database.org##.adslot_detail1
 ev-database.org##.adslot_detail2
 eve-search.com##td[height="90"]
@@ -85374,6 +85385,7 @@ rat.xxx##.b-spot
 rat.xxx##.mob-nat-spot
 rat.xxx,zbporn.tv##.cs-holder
 rateherpussy.com##font[size="1"][face="Verdana"]
+ratemycourses.io##[href^="https://www.essaypal.ai"]
 ratemymelons.com##.bannus
 rateyourmusic.com##.column_filler
 rateyourmusic.com##.page_creative_frame
@@ -89789,6 +89801,7 @@ youtube.com###__ffYoutube2
 youtube.com###__ffYoutube3
 youtube.com###__ffYoutube4
 youtube.com###feed-pyv-container
+youtube.com###main > #banner.ytd-merch-shelf-renderer
 youtube.com###masthead-ad
 youtube.com###merch-shelf
 youtube.com###offer-module
@@ -89799,6 +89812,7 @@ youtube.com###promo-info
 youtube.com###promo-list
 youtube.com###promotion-shelf
 youtube.com###related > div#player-ads
+youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
 youtube.com###search-pva
 youtube.com###shelf-pyv-container
 youtube.com###video-masthead
@@ -96240,6 +96254,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /fage/sjad.js
 /fake_app.mp4$domain=91porn.com
 /fastclick.min.js
+/fastclick.min.js|
 /fawu999/*.js$script,third-party
 /fc_ads.
 /fdjdjghrut_tt.js
@@ -120929,6 +120944,7 @@ zle.com$script
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 127px !important;"]
+##body > [style$="background-size: 407px 129px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
@@ -121017,6 +121033,7 @@ zle.com$script
 ##div[class="list-block"] > div[data-content-name][data-track-content]
 ##div[class="main_column"] > div[class="VIP"] > a[class="hot"][href]
 ##div[class="need_grid_text"] > ul > li
+##div[class="overfloat"][id="gui_kai"]
 ##div[class="photo-two"] > a[target="_blank"]
 ##div[class="v-banner"][style]
 ##div[class] > div[class][style^="box-sizing: border-box; position: relative; left: 0px; z-index: 2147"]
