@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ohSHjSyKloXL/8G6CLth/g
+! Checksum: +qJj2taTJo9PaaR997/Fiw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231208000917
+! Version: 20231208083339
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-08 00:09:17
-! Total Count: 24341
+! Last modified: 2023-12-08 08:33:39
+! Total Count: 24350
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4952,6 +4952,7 @@
 ||cnpingpang.com/uploadfile/TTW.gif
 ||cnplugins.com/templets/cnplugins/pushbox1.js
 ||cnprint.org/bbs/images/gg/
+||cnqaaa.xyz^
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnr.cn/s?z=
 ||cnrdlpk.xyz^
@@ -7075,6 +7076,7 @@
 ||hcqumrjbx.xyz^
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
+||hdbppx.xyz^
 ||hdc.maxli.cn^
 ||hdchina.*/styles/topshow/AD/
 ||hdfdsdaw.com^
@@ -8430,6 +8432,7 @@
 ||jzdgn.cn^
 ||jzdwl4.cn^
 ||jzixypd.icu^
+||jzlso.xyz^
 ||jzxpxj.xyz^
 ||k-img.com/script/fixed_bnr_area.js$domain=s.kakaku.com
 ||k0lksy.xyz^
@@ -9687,6 +9690,7 @@
 ||mrporngeek.com^$third-party
 ||mrqbuf.xyz^
 ||mrruuov.cn^
+||mrs30w.com^
 ||mrthav.xyz^
 ||mryqtym.cn^
 ||ms*.applvn.com^
@@ -9728,6 +9732,7 @@
 ||multporn.net/fern*_pen.js
 ||multporn.net/frunti_punti_lad.js
 ||mundanenail.com^$third-party
+||murdyq.com^
 ||musdga.xyz^
 ||muteknife.com^$third-party
 ||muterange.com^$third-party
@@ -13002,6 +13007,7 @@
 ||uiiwzyv.cn^
 ||uioozpxq.com^
 ||uiszwh.icu^
+||uito.top^
 ||ujgf120.com^
 ||ujian.cc^$third-party
 ||ujnkn.com^
@@ -13685,6 +13691,7 @@
 ||wwads.cn^$third-party
 ||wwandle.top^
 ||wwgqqq.com^
+||wwhsxwow.xyz^
 ||wwqfqq.com^
 ||www-dnwx-com.anquanbao.cn/pic
 ||www.adbert.com.tw^
@@ -13731,6 +13738,7 @@
 ||wzguosutang.com^
 ||wzjs1.oss-accelerate.aliyuncs.com^
 ||wzkxke.xyz^
+||wzzlnld.xyz^
 ||x-eu.64e98469810bd13e2b45e52d19d6fddfe333b3528350d8cfa792d478.com^
 ||x-resource05.com/media_orange/server-img/*_1200_120.
 ||x.appbaqend.com^
@@ -14123,6 +14131,7 @@
 ||ydqcjy.cn^
 ||ydss.cn/test.www.jdpay.com
 ||ydstatic.com/dsp_website/
+||ydv7k.cyou^
 ||yea.im/5hq.gif
 ||yea.im/5ht.gif
 ||yecaoyun.com/AD/
@@ -22144,7 +22153,6 @@ zle.com$script
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
-##TD[id^="td_"] > A[href^="/htmm/"]
 ##[class$="-ad-box"]
 ##[class$="-ad-container"]
 ##[class$="_ad-container"]
@@ -23223,6 +23231,7 @@ zle.com$script
 ##style + .vdgdo
 ##table[border="1"] > tbody > tr > td > a[href][onclick*="Novel"][title]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##td[id^="td_"] > a[href^="/htmm/"]
 ##ul > li > a[href*=".pojuko.buzz/"]
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
 ##vg-pause-ads
