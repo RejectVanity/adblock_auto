@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: GvobXL7A7Vu9HWFXLJ1y+w
+! Checksum: NKi3aMkS1O7ED30TlCEjog
 ! Title: 混合规则(自动更新)
-! Version: 20231210083511
+! Version: 20231210160857
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-10 08:35:11
-! Total Count: 124400
+! Last modified: 2023-12-10 16:08:57
+! Total Count: 124408
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -25666,6 +25666,7 @@
 ||foutyoxyaena.website^
 ||foviyii.com^
 ||fovs.qkvipgloy.xyz^
+||foxoxn.xyz^
 ||foxpush.com^
 ||foxpush.io^
 ||foxpush.net^
@@ -59379,6 +59380,7 @@
 ||szafvjdd.icu^
 ||szasm8.com^
 ||szbnnqyqn.com^
+||szbxm.cn^
 ||szcmcs.com^
 ||szdzbx.com^
 ||szene-traffic.com^
@@ -64902,6 +64904,7 @@
 ||uwayemfogibbgh.xyz^
 ||uwdspsh.cn^
 ||uwdvcn.com^
+||uwerpyh.cn^
 ||uwfcqtdb.xyz^
 ||uwfxvvm.cn^
 ||uwgmguwpzkeudh.com^
@@ -68674,6 +68677,7 @@
 ||wxlide.ink^
 ||wxmicgwfzqekj.com^
 ||wxseedslpi.com^
+||wxsignin.top^
 ||wxskqy.cn^
 ||wxtp.cdn.bcebos.com^$popup
 ||wxumevd.cn^
@@ -82558,6 +82562,7 @@ m.youku.com##.cmt-more-cont
 m.youku.com##.hdwrap
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
 m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, {})
+m.youtube.com##lazy-list > ad-slot-renderer
 m4411.com##[style*="131px"],.adlists
 m4ff.com##.content2
 m4ff.com##.index_gg_wz
@@ -90049,8 +90054,10 @@ youtube.com###__ffYoutube1
 youtube.com###__ffYoutube2
 youtube.com###__ffYoutube3
 youtube.com###__ffYoutube4
+youtube.com###content > ytd-ad-slot-renderer
+youtube.com###contents.style-scope.ytd-search-pyv-renderer
 youtube.com###feed-pyv-container
-youtube.com###main > #banner.ytd-merch-shelf-renderer
+youtube.com###items > ytd-ad-slot-renderer
 youtube.com###masthead-ad
 youtube.com###merch-shelf
 youtube.com###offer-module
@@ -90061,7 +90068,6 @@ youtube.com###promo-info
 youtube.com###promo-list
 youtube.com###promotion-shelf
 youtube.com###related > div#player-ads
-youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
 youtube.com###search-pva
 youtube.com###shelf-pyv-container
 youtube.com###video-masthead
@@ -90099,6 +90105,7 @@ youtube.com##.ytp-ad-overlay-container
 youtube.com##.ytp-ad-player-overlay-flyout-cta
 youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
+youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
 youtube.com##YTM-PROMOTED-VIDEO-RENDERER
 youtube.com##[aria-label*="广告"]
 youtube.com##[class^="ytd-display-ad-"]
@@ -90106,6 +90113,7 @@ youtube.com##[layout*="display-ad-"]
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
 youtube.com##a[href^="https://www.youtube.com/cthru?"]
 youtube.com##ytd-ad-slot-renderer
+youtube.com##ytd-ad-slot-renderer.style-scope.ytd-item-section-renderer
 youtube.com##ytd-banner-promo-renderer
 youtube.com##ytd-compact-promoted-video-renderer
 youtube.com##ytd-companion-slot-renderer
