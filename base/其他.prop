@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mY7MOCURo9c/j8arCQodxQ
+! Checksum: aNDS/9kTJQZAFzAn4Dj2MA
 ! Title: 自用去广告Adblock规则
-! Version: 20231210153929
-! Last modified: 2023-12-10 15:39:29
-! Total Count: 3391
+! Version: 20231210221555
+! Last modified: 2023-12-10 22:15:55
+! Total Count: 3395
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -85,6 +85,7 @@
 ##.ad-title
 ##.ad.noadmo
 ##.ad.none
+##.ad.w
 ##.ad_id_1,.ad_id_2,.ad_id_3,.ad_id_4,.ad_id_5
 ##.ad_img
 ##.adbanner
@@ -457,6 +458,7 @@
 ##a[href*="//y3e33.top"][target="_blank"]
 ##a[href*="/?agent="][target="_blank"]
 ##a[href*="/?agentId="][target="_blank"]
+##a[href*="/?channel="] > img[src]
 ##a[href*="/?utm_source="][target="_blank"]
 ##a[href*="/adslog/"][target="_blank"]
 ##a[href*="/youyicl/youku.html"][style*="position: absolute;"]
@@ -468,6 +470,7 @@
 ##a[href*="?shareName="][target="_blank"]
 ##a[href*="AdCode_"][target="_blank"]
 ##a[href*="AdsCode_"][target="_blank"]
+##a[href*="app:"] > img[src]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="jszclock.com/gebi/"]
@@ -510,6 +513,7 @@
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*=".cos.ap-"][src*=".myqcloud.com/"][src$=".gif"][alt]
+##a[href][target="_blank"] > img[src*="//jusotop.com/"][alt]
 ##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
