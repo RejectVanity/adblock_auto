@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: eD5biSYl4wJpRlitHDNnyQ
+! Checksum: BKE83mOBUFJ0puED1Hy4yQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231211000816
+! Version: 20231211083353
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-11 00:08:16
-! Total Count: 24488
+! Last modified: 2023-12-11 08:33:53
+! Total Count: 24499
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3122,6 +3122,7 @@
 ||adzyou.com^$third-party
 ||aeletheacd.com^
 ||aelxock.cn^
+||aerbgpn.xyz^
 ||af29.com/banner/
 ||afafevk.com^
 ||afdunaui.com^
@@ -8954,6 +8955,7 @@
 ||likdie.com^
 ||liktufmruav.com^$third-party
 ||limitlessexterminator.com^
+||limopf.top^
 ||limurol.com^$third-party
 ||linecg.com/uploads/banner/
 ||lingdianshuwu.com/js/content
@@ -10914,6 +10916,7 @@
 ||ptbus.com/s.js
 ||ptdofj.xyz^
 ||ptfish.com/*/ad$image,object
+||ptflrj.xyz^
 ||ptfxh.com^
 ||ptmabek.cn^
 ||ptoutsexe.com^
@@ -11290,6 +11293,7 @@
 ||rarbt.cc/js/index960_
 ||rardi.cyou^
 ||ratedxbiz.com/d/
+||ravzbd.xyz^
 ||rawindianporn.com/f_rawindianporn.com.js
 ||raxetyrw.xyz^
 ||rayjump.com/openapi/ad/
@@ -12013,6 +12017,7 @@
 ||slkdfg.com^
 ||sllo.top^
 ||slopesoap.com^$third-party
+||sltle.icu^
 ||sm2kz.net^
 ||smabye.com^
 ||smachnakittchen.com^
@@ -14553,6 +14558,7 @@
 ||zetporn.com/LQMDQSMLDAZAEHERE/
 ||zewfbw.buzz^$third-party
 ||zexfzson.icu^
+||zf4.top^
 ||zfcdirf.icu^
 ||zfehvv.xyz^
 ||zffymmdg.com^
@@ -14757,6 +14763,7 @@
 ||zxjrbz.xyz^
 ||zxpgfl.xyz^
 ||zxptw.cn^$third-party
+||zxpvalr.xyz^
 ||zxrcfw.com^
 ||zxw51.com^$third-party
 ||zyauopr.icu^
@@ -21503,6 +21510,7 @@ zle.com$script
 ##.ad.mi_btcon
 ##.ad.noadmo
 ##.ad.none
+##.ad.w
 ##.ad01
 ##.ad02
 ##.ad03
@@ -22640,6 +22648,7 @@ zle.com$script
 ##a[href*="/?aff="][target="_blank"]
 ##a[href*="/?agent="][target="_blank"]
 ##a[href*="/?agentId="][target="_blank"]
+##a[href*="/?channel="] > img[src]
 ##a[href*="/?intr="]
 ##a[href*="/?utm_source="][target="_blank"]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
@@ -22714,6 +22723,7 @@ zle.com$script
 ##a[href*="?shareName="][target="_blank"]
 ##a[href*="AdCode_"][target="_blank"]
 ##a[href*="AdsCode_"][target="_blank"]
+##a[href*="app:"] > img[src]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
 ##a[href*="jszclock.com/gebi/"]
@@ -22765,6 +22775,7 @@ zle.com$script
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*=".cos.ap-"][src*=".myqcloud.com/"][src$=".gif"][alt]
+##a[href][target="_blank"] > img[src*="//jusotop.com/"][alt]
 ##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
