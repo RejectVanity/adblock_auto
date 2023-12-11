@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TW18y16Y+E2gJRgC3tk8yg
+! Checksum: 1aLNUTYYVUOKuYTC8kayjQ
 ! Title: 混合规则(自动更新)
-! Version: 20231211161054
+! Version: 20231212000937
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-11 16:10:54
-! Total Count: 124478
+! Last modified: 2023-12-12 00:09:37
+! Total Count: 124493
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14958,6 +14958,7 @@
 ||cdn.imvkan.com^
 ||cdn.jampp.com^
 ||cdn.jst.ai^
+||cdn.keajs.com^
 ||cdn.klasseo.com^
 ||cdn.lodeo.io^
 ||cdn.logrocket.com^
@@ -35685,6 +35686,7 @@
 ||kkggy.top^
 ||kkghcdvxdfvsq.com^
 ||kkgytur.cn^
+||kkisoo.com^
 ||kkizyys.cn^
 ||kkjrwxs.com^
 ||kkjuu.xyz^
@@ -73989,6 +73991,7 @@ aiyifan.tv,iyf.tv##+js(abort-on-property-read, Object.prototype.ShouldLoadAds)
 aiyifan.tv,iyf.tv##+js(remove-class, publicplay, #main-player)
 aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
 aiyifan.tv,iyf.tv#?#.video-player + div.ps > div:has(> div.bb)
+aiyingshi.tv###ADmask
 aiyuke.com###Playerpad
 aiyuke.com###js-ad-type4
 aiyuke.com##.GGad
@@ -74058,6 +74061,7 @@ allkeyshop.com,cdkeyit.it,cdkeynl.nl,cdkeypt.pt,clavecd.es,goclecd.fr,keyforstea
 allkpop.com##.akp2_wrap
 allmonitors24.com,streamable.com##.bottombanner
 allmovie.com,realestate.com.au,theoldie.co.uk##.header-leaderboard
+allmusic.com##.insticator_ct
 allmusic.com##.medium-rectangle
 allnewspipeline.com###content > [href]
 allnewspipeline.com###isg_add
@@ -74735,6 +74739,7 @@ backchina.com##.eis_subnav_area
 backchina.com##a[href*=".21usdeal.com"]
 backchina.com##a[href*=".cardbenefit.com/"]
 backchina.com##div[style^="width:300px; min-height: 250px;"]
+backgrounds.wetransfer.net##we-wallpaper
 backpack.tf,backpacktf.com#?#.panel:-abp-contains(createAd)
 backpacker.com,betamtb.com,betternutrition.com,cleaneatingmag.com,climbing.com,gymclimber.com,outsideonline.com,oxygenmag.com,pelotonmagazine.com,rockandice.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##.c-thinbanner
 badassbitch.pics,dm530.net,hdshare.cn,it168.com###adv
@@ -82439,6 +82444,7 @@ lovenovels.net#?#center:-abp-contains(Advertisement)
 lovepanky.com##.full-width.row > .medium-12:first-child
 loverslab.com##.ll_adblock
 loveshang.com##div[class^="float-ad-"]
+lowcarbtips.org##.wp-block-image.size-full
 lowes.com###lws_hp_recommendations_belowimage_1
 lowes.com##.lws_pdp_recommendations_sponsored
 lowtoxlife.com##.openpay-footer
@@ -84354,6 +84360,7 @@ paraphraser.io##.after_button_box
 parentdish.co.uk###rr-amazon
 parkers.co.uk##.inline-leaderboard-ad-wrapper
 passiontimes.hk##.rectAd680
+paste.fo##div.wrapper > [class] > a[href][target="_blank"]
 paste.fo##div.wrapper > div[class] > a[href][target="_blank"]
 pastebin.com##.content > [style^="padding-bottom:"]
 pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
@@ -84475,6 +84482,7 @@ pcworld.com##.coupons
 pcworld.com##.topDeals
 pcworld.com,techhive.com###tso
 pcworld.idg.com.au##.module-rhs-brandpost
+pd3.gg##.app-ad-placeholder
 peacemakeronline.com###above_top_banner
 peacemakeronline.com###front_mid_right > center
 peacemakeronline.com###latest_news > center
@@ -84751,6 +84759,7 @@ point2homes.com###smartAsset
 point2homes.com##.saved-search-banner-list
 point2homes.com,propertyshark.com##div[style^="margin-bottom: 10px;"]
 point2homes.com,propertyshark.com##div[style^="min-height: 360px;"]
+pokebattler.com##.curse-ad
 pokernews.com##.gameCards
 pokernews.com##.virgutis
 pokertube.com##.promo-holder
@@ -86906,6 +86915,7 @@ soufun.com##.danmu_inbox
 soundofhope.org###itb_ads_catfish
 soundofhope.org##.itb_ads
 soundofhope.org##div[class*="AD_"]
+soundonsound.com##.block---managed
 sourceforge.jp###gpt-sf_dev_300
 sourceforge.net###banner-sterling
 south-plus.net##a[onclick*="'ad'"]
@@ -89120,6 +89130,7 @@ wethegeek.com##.popup-dialog
 wethegeek.com##.win
 wetpussy.sexy##.mansonry-item
 wetpussygames.com###under728
+wetransfer.com##.wallpaper
 wezhicms.com##.activity
 wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 wgrr.com##a[href^="https://www.mccabelumber.com/"]
@@ -89418,6 +89429,7 @@ xanimu.com,familyporner.com,darknessporn.com,freepublicporn.com,pisshamster.com,
 xanimu.com,familyporner.com,darknessporn.com,freepublicporn.com,pisshamster.com,punishworld.com##div[id^="inside-video-boxes-mobile"]
 xbabe.com##.bnnrs-aside
 xbeibeix.com##+js(no-setTimeout-if, /\.height\(\) == 0|adsbygoogle/)
+xbgame.net#$#.download .content-area > div[class] { background-image: none !important; }
 xbiquwx.la##.box_con > div[style="margin:10px auto;width: 930px;height: 250px;"]
 xblian.com##a[href^="https://page.pe/"]
 xblian.com##img[alt*="广告"]
@@ -90120,6 +90132,7 @@ youtube.com###masthead-ad
 youtube.com###masthead-ad > .ytd-rich-grid-renderer
 youtube.com###merch-shelf
 youtube.com###offer-module
+youtube.com###panels > [target-id="engagement-panel-ads"]
 youtube.com###pla-shelf
 youtube.com###player-ads
 youtube.com###premium-yva
@@ -95894,7 +95907,6 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /boxad2.
 /boxad3.
 /boxad_
-/brainforce.cookies/jquery.ihavecookies.min.js
 /brand-ad-
 /brandingAd.
 /breakad_
@@ -111397,6 +111409,9 @@ zle.com$script
 ##.admessage
 ##.admiddle
 ##.admiddlesidebar
+##.admngr
+##.admngrfr
+##.admngrft
 ##.admods
 ##.admodule
 ##.admoduleB
@@ -124105,7 +124120,7 @@ cmbc.com.cn#@#.adBox
 cnki.net#@#.ad_right
 cnys.tv#@#.player-news > .news-list
 cocomanga.com,cocomanhua.com#@#.gg430
-codejie.net,developers.google.com,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wnacg.com,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru#@##google-ads
+codejie.net,developers.google.com,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wnacg.com,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru,xbgame.net#@##google-ads
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
 colamanga.com,colamanhua.com#@#.gg_950
 comptoir-info.com,kingsofchaos.com#@#.textad
@@ -124227,7 +124242,7 @@ heatware.com#@#.ads-image
 hebdenbridge.co.uk#@#.smallads
 help.xunlei.com#@#.a_fr
 hentaicomic.org,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wnacg.com,wnacg.org,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru,wnacg4.com,wnacgs.com#@##adsbox
-hentaicomic.org,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wnacg.com,wnacg.org,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru,wnacg4.com,wnacgs.com#@#.google-ads
+hentaicomic.org,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wnacg.com,wnacg.org,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru,wnacg4.com,wnacgs.com,xbgame.net#@#.google-ads
 herbanomic.com#@#[href^="https://www.herbanomic.com/"] > img
 herstage.com#@##ads-wrapper
 hibox.hinet.net#@#.adarea
