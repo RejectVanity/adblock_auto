@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PxFN6Ay+W4hPrVi1Y2XbQA
+! Checksum: E2s3UuP3381veftGZNbRaA
 ! Title: 自用去广告Adblock规则
-! Version: 20231212233031
-! Last modified: 2023-12-12 23:30:31
-! Total Count: 3398
+! Version: 20231213012514
+! Last modified: 2023-12-13 01:25:14
+! Total Count: 3403
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1018,6 +1018,7 @@
 .biz/ad/
 .biz/ad2/
 .biz/ads/
+.buzz:*/api/v4/g?kyurl=$third-party
 .bz/ads/
 .ca/ads-
 .ca/ads/
@@ -1147,6 +1148,7 @@
 .live/ty/*-*.alpha$third-party
 .live/ty/*-*.blpha$third-party
 .live/wiseindex*?*16$third-party
+.live:*/api/v4/g?kyurl=$third-party
 .live:*/vh5/$third-party
 .net/20*/*/*.txt$third-party
 .ph/ads/
@@ -1180,6 +1182,7 @@
 .top/k/*$script,third-party
 .top/wiseindex*?*16$third-party
 .top/xling_*_*.js?
+.top:*/api/v4/g?kyurl=$third-party
 .top:*/o.js$third-party,script
 .top:*/vh5/$third-party
 .xin/blxn_*.js?
@@ -1234,6 +1237,7 @@
 .xyz/xfb_m.js$third-party,script
 .xyz/xling_*_*.js?
 .xyz/zooker?$third-party
+.xyz:*/api/v4/g?kyurl=$third-party
 /*.php?pid=*&n=$third-party
 /*/*/chart*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
 /*/*/d3.2.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
@@ -1936,6 +1940,7 @@
 91short.com##.player-info
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 99re.com##a[href][target="_blank"] > img[src]
+:*/api/v4/g?kyurl=$third-party
 :*/static/lbsite/*/*.js?v=16$third-party
 :*/ty/*-*-*-*.alpha$third-party
 :*/ty/*-*-*-*.blpha$third-party
