@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ZzW1Jg98qmurRc6CcVvKMA
+! Checksum: knIN98QQyDmzfwgbmGl9pw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231212161017
+! Version: 20231213000854
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-12 16:10:17
-! Total Count: 24512
+! Last modified: 2023-12-13 00:08:54
+! Total Count: 24517
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1120,6 +1120,7 @@
 ||888cool.cn^
 ||888dizhi.com/888/
 ||888fr.xyz^
+||88dgl.top^
 ||88dml.top^
 ||88lajs1.com^
 ||88lajs2.com^
@@ -4151,6 +4152,7 @@
 ||bilezdq.cn^
 ||bilibilijj.com/image/right_bottom.gif
 ||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
+||binqriksc.com^
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
 ||bio-equip.com/uploadimages/peiqing.gif
@@ -6300,6 +6302,7 @@
 ||flasmr.top/leb.
 ||flighty.cn/images/
 ||flimsythought.com^$third-party
+||flo.uri.sh/visualisation/14819166/embed?auto=$subdocument,domain=tw.news.yahoo.com
 ||flowerstreatment.com^$third-party
 ||floweryfact.com^$third-party
 ||floweryflavor.com^$third-party
@@ -17866,6 +17869,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com:*/?channelCode=$document
 .com:*/?channelCode=$~third-party
 .com:*/adduv_*_*_16$third-party
+.com:*/api/v4/*?*=$third-party
+.com:*/api/v4/g?kyurl=$third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/entry/register/?i_code=$document
