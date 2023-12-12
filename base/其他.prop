@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aNDS/9kTJQZAFzAn4Dj2MA
+! Checksum: PxFN6Ay+W4hPrVi1Y2XbQA
 ! Title: 自用去广告Adblock规则
-! Version: 20231210221555
-! Last modified: 2023-12-10 22:15:55
-! Total Count: 3395
+! Version: 20231212233031
+! Last modified: 2023-12-12 23:30:31
+! Total Count: 3398
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1092,6 +1092,8 @@
 .com/vj5/$third-party
 .com/wcm/?sh=*&$third-party
 .com:*/adduv_*_*_16$third-party
+.com:*/api/v4/*?*=$third-party
+.com:*/api/v4/g?kyurl=$third-party
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/sc/*?n=$third-party
@@ -2900,6 +2902,7 @@ zle.com$script
 ||bbangads.*.net^$third-party
 ||beijing163.aliyunapi.org^$third-party,script
 ||bihunekus.com^
+||binqriksc.com^
 ||bisonads.com^
 ||bitizm.pojuko.buzz^
 ||bj-gov-cn.website^
