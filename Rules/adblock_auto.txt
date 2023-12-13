@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mVprtfVdBWo6J+oVGxjfNg
+! Checksum: 0d4qGoZ10PMMZvdqqNH/vw
 ! Title: 混合规则(自动更新)
-! Version: 20231213160942
+! Version: 20231214000828
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-13 16:09:42
-! Total Count: 123988
+! Last modified: 2023-12-14 00:08:28
+! Total Count: 123996
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3146,6 +3146,7 @@
 ||9831tb.com^
 ||9857047066.com^
 ||9869936.com^
+||98765.pw^
 ||988aiai.com/static/js/common.js
 ||98a54df250.com^
 ||98dvu.fun^
@@ -45536,6 +45537,7 @@
 ||p1.zhongyoo.com^
 ||p11q.cn^
 ||p123p.com^
+||p16-ad.byteoversea.com^
 ||p1corn.com^
 ||p23jac.top^
 ||p24.hu^
@@ -73008,7 +73010,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 9gag.com##div[style="position: relative; z-index: 3; width: 640px; min-height: 202px; margin: 0px auto;"]
 9gag.com##div[style^="position: relative; z-index: 10;"]
 9gag.com#?#article:-abp-has(.promoted)
-9gag.com,bundesliga.com,hotstar.com,sport360.fit,talksport.com,the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie,trademe.co.nz##.billboard
+9gag.com,bundesliga.com,hotstar.com,scotsman.com,sport360.fit,talksport.com,the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie,trademe.co.nz##.billboard
 9gag.tv##.size-728x90
 9game.cn###btInfo
 9game.cn##.guide-app-fix
@@ -73596,7 +73598,7 @@ animecharactersdatabase.com##.promobanner
 animedub.ru##.poverh
 animefire.net##.divSection3
 animehentaihub.com,bestjavporn.com,hdporn92.com,hentaiasmr.moe,koreanstreamer.xyz,vrhotporn.top,youporntube.net##.happy-header
-animehentaihub.com,gaytail.com,gotocam.net,javfull.pro,mundoxgay.com,pornxday.com,sexkbj.com,twinkybf.com,vrhotporn.top,x-picture.com,youporntube.net##.happy-sidebar
+animehentaihub.com,deepfake-porn.com,gaytail.com,gotocam.net,javfull.pro,mundoxgay.com,pornxday.com,sexkbj.com,twinkybf.com,vrhotporn.top,x-picture.com,youporntube.net##.happy-sidebar
 animehub.ac##.sb-subs
 animehub.ac,secretmine.net###main-content > center
 animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jeanzzz.ru##.no-adb
@@ -81356,6 +81358,8 @@ khmertimeskh.com##.sow-slider-image
 khmertimeskh.com,toolfk.com##.swiper-container-horizontal
 kickassanime.am##.rs
 kickasstorrents.to##.dssdffds
+kickasstorrents.to##a[href="http://kickass-vpn.com"]
+kickasstorrents.to##a[href^="/download/"]
 kidspot.com.au##.secondary-video
 kijiji.ca##.gqNGFh
 kijiji.ca##.inline-banner
@@ -81899,6 +81903,7 @@ loveshang.com##div[class^="float-ad-"]
 lowcarbtips.org##.wp-block-image.size-full
 lowes.com###lws_hp_recommendations_belowimage_1
 lowes.com##.lws_pdp_recommendations_sponsored
+lowfuelmotorsport.com##.ads-stats
 lowtoxlife.com##.openpay-footer
 lqz.cn###ad_index
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
@@ -82178,6 +82183,7 @@ mamieastuce.com##.k39oyi
 mamieastuce.com##.y288crhb
 mamul.am##.bannerb
 managertoday.com.tw##.pumkinBox
+manga-miz.vy1.click###header_banner
 manga-raw.club,pornpics.network##div[style^="height: 250px;"]
 manga-raw.club,zhangxinxu.com##div[style^="height: 300px;"]
 mangable.com,tutorial9.net,webdesign.org##.bsarocks
@@ -83660,6 +83666,7 @@ one.com.mt,vanguardngr.com###header-sidebar
 onebox.mydown.com##.advertisement_pic
 onebox.mydown.com##.fcAgain
 onebox.mydown.com##.fcGg
+onecompiler.com##[href^="https://www.datawars.io"]
 oneesports.gg##.pr-sm-4
 oneindia.com###closePopupDiv
 oneindia.com###taboola-mid-article-thumbnails
@@ -86543,6 +86550,7 @@ sss.xxx##.fel-item
 sssam.com##+js(set-constant, ads, '')
 sssam.com##.widget_html_ad
 sstv.pw##.container > a > img[style="width: 100%;"]
+ssyoutube.com##.b-widget-left
 ssyy.ee##.container > a[target="_blank"] > img
 stackoverflow.com##.clc-cp-lb
 stackoverflow.com##.js-sidebar-zone
