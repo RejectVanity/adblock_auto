@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: EDaPxs9FhzAg5I+Fh9gpQg
+! Checksum: Cj6YnyFILA4XQy0LOfwF2A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231214083213
+! Version: 20231214104341
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-14 08:32:13
-! Total Count: 24523
+! Last modified: 2023-12-14 10:43:41
+! Total Count: 24532
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -512,6 +512,7 @@
 ||2982a.com^
 ||29spp.com/js/tj.js
 ||2aqr.net^
+||2biqu.com/static/*/*.js
 ||2btu.com/gg.jpg
 ||2c0a5.xyz^
 ||2ccc.com/images/WebXone.gif
@@ -6438,6 +6439,7 @@
 ||fuyime.com^$document
 ||fuyime.com^$~third-party
 ||fuzzyerror.com^$third-party
+||fvcwqkkqmuv.com^
 ||fvxlhn.xyz^
 ||fvzljv.xyz^
 ||fweia.xyz^
@@ -15343,6 +15345,7 @@ ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href="###"] img:not(#trk_hc
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##div > a[href][target="_blank"] > img
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##div > span > a > img
+ddzzxs.com###inglestore
 de-sexy-tube.ru,pornxs.com,tubsxxx.com##+js(no-setTimeout-if, window.location.href)
 deepfakeporn.net##.primary > li.highlight ~ li
 delfi.ee###ab--notification-ribbon
@@ -18739,6 +18742,11 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
 /assets/ad-$domain=~flowus.cn
 /assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com|shenyelook.com|hetang123.com|tinghaolook.com|sadnofun.com|bookhaitang.com
+/assets/public/d3.2.js$script,~third-party
+/assets/public/react.3.js$script,~third-party
+/assets/publish/chart.1.js$script,~third-party
+/assets/publish/d3.2.js$script,~third-party
+/assets/publish/react.3.js$script,~third-party
 /backend_loader.php$domain=beeg.com|croea.com|hipornvideo.com|imagetwist.com|imgskull.com|kporno.com|picfox.org|picshick.com|picturelol.com|porntube.com|pron.tv|yourporn.sexy
 /bar/yfgg.js
 /bar/yfggb.js
@@ -19790,6 +19798,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://pic.*.cn/*/*.js$third-party,script
 ://rou*/_next/static/chunks/pages/home-
 ://rou*/_next/static/chunks/pages/home-$~third-party
+://s.*srv.com/*.php?idzone=$third-party
 ://s.htkk*.top:$script,third-party
 ://seai*/ads/float.js
 ://shiold*.zhaosw.com$script
