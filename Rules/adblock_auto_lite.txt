@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Cj6YnyFILA4XQy0LOfwF2A
+! Checksum: 7k4Mb8DsCYtdX9JpiGiTHg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231214104341
+! Version: 20231214160954
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-14 10:43:41
-! Total Count: 24532
+! Last modified: 2023-12-14 16:09:54
+! Total Count: 24547
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -212,6 +212,8 @@
 ||122.114.239.160^
 ||122.225.103.*.htm
 ||122.228.200.55:8082/blr.gif
+||1227a.xyz^
+||1229a.xyz^
 ||123.sogou.com/discover/?
 ||123456.asia^
 ||123hala.com^
@@ -227,6 +229,7 @@
 ||127.net/external/js6promote
 ||127.net/external/js6public126_
 ||127.net/external/js6public163_
+||1287a.xyz^
 ||12img.com/ad/
 ||131458.com/union/
 ||1328f.com/js/jquery.js
@@ -441,6 +444,7 @@
 ||220.115.251.25^
 ||221.204.213.222^
 ||222.186.12.235^
+||222aa333bb.com^
 ||222xs.com/js/greentea.js
 ||22588888.com^$popup
 ||228tuchuang.com^
@@ -841,6 +845,7 @@
 ||55cc.xyz/myjs/all.js
 ||55imgs.com/upload/banner/
 ||55sky.com/js/diecuo/
+||5698tp.com^
 ||56ads.com/js/main.js
 ||56img.com^*/baidu-promotion.js
 ||56img.com^*/search-engine-promotion.js
@@ -952,6 +957,7 @@
 ||6665432.com^*.gif
 ||666579.xyz^
 ||6669667.com^
+||666aa777bb.com^
 ||6686bb.app^
 ||6696q.com^
 ||6699fa.cn/imagestb/
@@ -1432,6 +1438,7 @@
 ||aa.xiangxiangmf.com^
 ||aa665588aa.com^
 ||aa889977aa.com^
+||aa889988aa.com^
 ||aa993366aa.com^$domain=9xav.cc
 ||aa993388aa.com^
 ||aaa.tumanyi.com^
@@ -3868,6 +3875,7 @@
 ||baitaiz.com^
 ||baiten.cn/images/weInternation/
 ||baitu1llbkotsfthllcjeg.com^
+||baitu3lllqubyqmttdkjsv.com^
 ||baitugu.com^$third-party
 ||baixing.com/bb/*/?category=
 ||baixing.com/widget/
@@ -8578,6 +8586,7 @@
 ||kfckcu.xyz^
 ||kfjpren.xyz^
 ||kfocoq.xyz^
+||kfpicimage.xyz^
 ||kgacp.cyou^
 ||kgcyvd.com^
 ||kgeesh.site^
@@ -9406,6 +9415,7 @@
 ||max211.top^
 ||maxthonimg.com/v6/festival/
 ||maxun066.top^
+||maxun103.top^
 ||maxun118.top^
 ||mb.gulongbbs.com^
 ||mbalib.com/common/a_mbalib/
@@ -9727,6 +9737,7 @@
 ||mross011.com^
 ||mross022.com^
 ||mross033.com^
+||mross044.com^
 ||mrporngeek.com^$third-party
 ||mrqbuf.xyz^
 ||mrruuov.cn^
@@ -11563,6 +11574,7 @@
 ||rvzlobj.cn^
 ||rwarwf.icu^
 ||rwefsw55.com^
+||rwnmcum.cn^
 ||rxrdjb.xyz^
 ||rxyggrq.cn^
 ||rxys.cn^
@@ -11691,6 +11703,7 @@
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sda.seksohub.com^
+||sda1.dev^
 ||sdbeta.com/statics/mystyle/js/1
 ||sdchb2.com^
 ||sdcuo.com^
@@ -12060,6 +12073,7 @@
 ||smart.tinyhoneybee.com/log/
 ||smartadserver.com^
 ||smartfarming.cn^
+||smbx8.net^
 ||smgbka.xyz^
 ||smgzyi.com^$document
 ||smgzyi.com^$~third-party
@@ -18262,6 +18276,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .xyz/vj2/$third-party
 .xyz/vue?$third-party
 .xyz/wb/*-*-*.yb$third-party
+.xyz/wiseindex*?$third-party
 .xyz/wiseindex*?*16$third-party
 .xyz/xfb_m.js$third-party,script
 .xyz/xling_*_*.js?
