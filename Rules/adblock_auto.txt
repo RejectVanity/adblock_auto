@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mUMRjGLc8idLD1pmwD9ejA
+! Checksum: qzrP9ZSV33VlYfX9s0p2zQ
 ! Title: 混合规则(自动更新)
-! Version: 20231215160945
+! Version: 20231215181500
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-15 16:09:45
-! Total Count: 124208
+! Last modified: 2023-12-15 18:15:00
+! Total Count: 124216
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -7135,6 +7135,7 @@
 ||albynloxia.website^
 ||albyprd.cn^
 ||alcesinassing.xyz^
+||alchemeeten.com^
 ||alchemysocial.com^
 ||alcmpn.com^
 ||alcoholsupervisiondisplace.com^
@@ -10671,6 +10672,7 @@
 ||bailifftoddle.com^
 ||bailoaso.xyz^
 ||bailonushe.com^
+||baimakanshu.com/assets/public/$script
 ||baimbw.cn^
 ||bainederrain.xyz^
 ||bainiaochaofeng.xyz^
@@ -14882,6 +14884,7 @@
 ||cdn7.network^
 ||cdn7.rocks^
 ||cdn7.space^
+||cdn77.org^*.mp4
 ||cdn93d99x0e.23bei.com^
 ||cdnads.com^
 ||cdnads.geeksforgeeks.org^
@@ -19078,6 +19081,7 @@
 ||dayouyuanliao.com^
 ||daysou.com/images/huaweicloud.png
 ||daysstone.com^
+||dayu778.com/assets/publish/$script
 ||dayznews.biz^
 ||daz3rw5a5k4h.com^
 ||dazhantai.com^
@@ -36775,6 +36779,7 @@
 ||lempeehu.xyz^
 ||lencool.cn^
 ||lendc.xyz^
+||lengmen.cc/assets/public/$script
 ||lengtikto.xyz^
 ||lenkmio.com^
 ||lenmit.com^
@@ -56411,6 +56416,7 @@
 ||solemncringle.com^
 ||solemnlypink.com^
 ||solemnvine.com^
+||solengmen.com/assets/publish/$script
 ||solestudious.com^
 ||soliads.net^
 ||solicitorlaptopfooting.com^
@@ -67765,6 +67771,7 @@
 ||worldcommonwords.com^
 ||worldcoolfeed.com^
 ||worldcup1.com/imgs/*.gif$domain=avcao.cc
+||worlderva.com^
 ||worldfilia.net^
 ||worldflagcounter.com^
 ||worldfreshblog.com^
@@ -95392,7 +95399,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /assets/dayu/ainfiniteactivity-
 /assets/doubleclick/*
 /assets/frameworks/types-*?plm=$script,third-party
-/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com|shenyelook.com|hetang123.com|tinghaolook.com|sadnofun.com|bookhaitang.com
+/assets/publi*/$script,domain=baimakanshu.com|bookhaitang.com|btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dayu778.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|hetang123.com|iyungong.com|ledlmw.com|lengmen.cc|lengmen.org|lengmenbook.com|lengmenread.com|lewenlook.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|nosadfun.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|sadnofun.com|shenyedushu.com|shenyelook.com|solengmen.com|soosadfun.com|sqruitu.com|tangsanshu.info|tangsanshu.la|tinghao8.com|tinghaodebook.com|tinghaolook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com
 /assets/public/d3.2.js$script,~third-party
 /assets/public/react.3.js$script,~third-party
 /assets/publish/chart.1.js$script,~third-party
@@ -121150,6 +121157,7 @@ zle.com$script
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class][style="bottom: 129px;"]
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147"][style$="top: 135px;"]
