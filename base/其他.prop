@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ENTQ1Q3hkF5fuCzoTV3mpQ
+! Checksum: VfZl2YU9urr7Oxy4+gSNaQ
 ! Title: 自用去广告Adblock规则
-! Version: 20231215142337
-! Last modified: 2023-12-15 14:23:37
-! Total Count: 3414
+! Version: 20231215181040
+! Last modified: 2023-12-15 18:10:40
+! Total Count: 3419
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -596,6 +596,7 @@
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class][style="bottom: 129px;"]
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147"][style$="top: 135px;"]
@@ -1559,7 +1560,7 @@
 /apijs/lunbovipdaka/*.js$~third-party
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
 /assets/ad-$domain=~flowus.cn
-/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com|shenyelook.com|hetang123.com|tinghaolook.com|sadnofun.com|bookhaitang.com
+/assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com|shenyelook.com|hetang123.com|tinghaolook.com|sadnofun.com|bookhaitang.com|lengmen.cc|baimakanshu.com|dayu778.com|solengmen.com
 /assets/public/d3.2.js$script,~third-party
 /assets/public/react.3.js$script,~third-party
 /assets/publish/chart.1.js$script,~third-party
@@ -2913,6 +2914,7 @@ zle.com$script
 ||baby.thinkmore.top^
 ||baglezymoses.com^$third-party
 ||baidujkdjklvvsbvk.com^$third-party
+||baimakanshu.com/assets/public/$script
 ||banquetunarmedgrater.com^$script
 ||bbangads.*.net^$third-party
 ||beijing163.aliyunapi.org^$third-party,script
@@ -2982,6 +2984,7 @@ zle.com$script
 ||daraz.com^
 ||dashenya.com/js/jquery.js
 ||data.bilibili.com/log
+||dayu778.com/assets/publish/$script
 ||dbwmpqd.cn^
 ||dcba.zle.com^
 ||deliver.ptgncdn.com^
@@ -3130,6 +3133,7 @@ zle.com$script
 ||lanmeifeel.xyz^
 ||leads.api.autohome.com.cn^
 ||leads.autohome.com.cn^
+||lengmen.cc/assets/public/$script
 ||lezhutv.com/static/jquerys.js
 ||lhotajl.icu^$third-party
 ||liktufmruav.com^$third-party
@@ -3250,6 +3254,7 @@ zle.com$script
 ||skluff.com^$third-party
 ||smachnakittchen.com^
 ||sofire.bdstatic.com^
+||solengmen.com/assets/publish/$script
 ||srijbbzpx.xyz^
 ||srnov.top^
 ||srv.dropkickmedia.com$third-party
