@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tQPqKIEZpXxML0QjETPMUw
+! Checksum: jZClkOXbqv0ARVlH3MsdWw
 ! Title: 拦截黄色网站转跳
-! Version: 20231120093058
-! Last modified: 2023-11-20 09:30:58
-! Total Count: 384
+! Version: 20231212234609
+! Last modified: 2023-12-12 23:46:09
+! Total Count: 394
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -24,6 +24,8 @@
 .cn/h.html?id=$~third-party
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
+.com/*?key=*&submetric=$document
+.com/*?key=*&submetric=$~third-party
 .com/?invite=*&nt=0$document
 .com/?invite=*&nt=0$~third-party
 .com/aff-w2aK$document
@@ -240,6 +242,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||at.umtrack.com^/*?cid=$~third-party
 ||atala-apw.com/domredirect?$document
 ||atala-apw.com/domredirect?$~third-party
+||attendancereporterwren.com^$document
+||attendancereporterwren.com^$~third-party
 ||blmlt.szjunda.cn^$document
 ||blmlt.szjunda.cn^$~third-party
 ||buyu*9.com^$document
@@ -254,6 +258,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||cariribef.uno^$~third-party
 ||chadnli.cn^$document
 ||chadnli.cn^$~third-party
+||chinxfayan.com^$document
+||chinxfayan.com^$~third-party
+||conqueredallrightswell.com^$document
+||conqueredallrightswell.com^$~third-party
 ||daohan1.com^$document
 ||daohan1.com^$~third-party
 ||daohan15.com^$document
@@ -342,6 +350,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||smmma.xyz^$~third-party
 ||ssb717.xyz^$document
 ||ssb717.xyz^$~third-party
+||strongersummon.com^$document
+||strongersummon.com^$~third-party
 ||szpsys.com^$document
 ||szpsys.com^$~third-party
 ||szptlkj.com^$document
