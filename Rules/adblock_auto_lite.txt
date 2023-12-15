@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: lvLySyVH2lBL3zsKZrLhKA
+! Checksum: 4/VD5qNrxRVcDPfHfHPjYg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231215083311
+! Version: 20231215160955
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-15 08:33:11
-! Total Count: 24559
+! Last modified: 2023-12-15 16:09:55
+! Total Count: 24567
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4174,6 +4174,7 @@
 ||biquge99.cc/js/dj
 ||birdmedia.com^$third-party
 ||birgga.top^
+||birglucy.xyz^
 ||bis8j.com^
 ||bisonads.com^
 ||bitauto.com/js/sense*.js
@@ -11241,6 +11242,7 @@
 ||qslbahy.top^
 ||qsmdeyz.cn^$third-party
 ||qsptv.com/tpl/newstyle/js/extension.js
+||qtciam.xyz^
 ||qtd95fj.online^$third-party
 ||qtienly.top^
 ||qtmojo.com^$third-party
@@ -11711,7 +11713,6 @@
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sda.seksohub.com^
-||sda1.dev^
 ||sdbeta.com/statics/mystyle/js/1
 ||sdchb2.com^
 ||sdcuo.com^
@@ -13378,6 +13379,7 @@
 ||vj1p.xyz^
 ||vjhjxh.xyz^
 ||vjie.com^$third-party
+||vjnxpj.xyz^
 ||vjrpnv.xyz^
 ||vjzjpt.xyz^
 ||vk920.com/img1/
@@ -22839,11 +22841,14 @@ zle.com$script
 ##a[href="/static/xzgg/index.html"]
 ##a[href="/vod/detail/id/118265.html"]
 ##a[href="http://52199.vip"]
+##a[href="http://555x.com"]
 ##a[href="http://595tz166.cc"]
 ##a[href="http://hqbet2191.com"]
+##a[href="http://ty9.bet"]
 ##a[href="http://www.zmtt.net/download"]
 ##a[href="https://79440433.com"]
 ##a[href="https://js.jtoijdr.cn/download/4122_0.html"]
+##a[href="https://js.ojbkdns.com/url.php"]
 ##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
 ##a[href="https://kds03.net"][target="_blank"]
 ##a[href="https://sk83k.com"][target="_blank"]
@@ -22886,6 +22891,7 @@ zle.com$script
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/redirect?tid="]
 ##a[href^="/template/1/html/ad/"]
+##a[href^="http"] > img[src*="p.sda1.dev"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://2kkfof.vip"]
@@ -22986,6 +22992,7 @@ zle.com$script
 ##body > #app > .adv-frame
 ##body > .ec-ad
 ##body > [style$="background-size: 407px 101px !important;"]
+##body > [style$="background-size: 407px 104px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 127px !important;"]
 ##body > [style$="background-size: 407px 129px !important;"]
@@ -24386,6 +24393,7 @@ zle.com$script
 @@://d*.cloudfront.net/usr/themes
 @@://img.souche.com/*.jpg
 @@://up.taoseye.com/contents/other/player/playerlogo.png
+@@cc/o.js$third-party,script,domain=mpo18.com
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
