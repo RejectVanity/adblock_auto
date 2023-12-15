@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VfZl2YU9urr7Oxy4+gSNaQ
+! Checksum: FbEMz07h1PHIU21Z83vWhg
 ! Title: 自用去广告Adblock规则
-! Version: 20231215181040
-! Last modified: 2023-12-15 18:10:40
-! Total Count: 3419
+! Version: 20231215211334
+! Last modified: 2023-12-15 21:13:34
+! Total Count: 3421
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -582,6 +582,7 @@
 ##a[target="_blank"][href^="https://365fun.sng.link"]
 ##bkveng
 ##body > #app > .adv-frame
+##body > #showcloneshengxiaon
 ##body > .ec-ad
 ##body > [style$="background-size: 407px 101px !important;"]
 ##body > [style$="background-size: 407px 104px !important;"]
@@ -2330,6 +2331,7 @@ hkcards.com#@##ad-slot
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
 https://*.*/TC/*/*.gif$third-party,image
 https://*.*/YL/*/*.gif$third-party,image
+https://*.*/ZB/*/*.gif$third-party,image
 ifanr.com##.popup-download
 ifeng.com##[class*="temp-ad"]
 ifeng.com##[class="openapp"]
