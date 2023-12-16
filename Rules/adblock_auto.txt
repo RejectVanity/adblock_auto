@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Ayd7Wyl4WPaW5TI6PZO2PQ
+! Checksum: JpM1K1nmXGqx6n+N1Yb1Sw
 ! Title: 混合规则(自动更新)
-! Version: 20231216160833
+! Version: 20231216171005
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-16 16:08:33
-! Total Count: 124288
+! Last modified: 2023-12-16 17:10:05
+! Total Count: 124292
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -80056,7 +80056,9 @@ http://ltsws.qq.com/
 http://vhotwsh.video.qq.com/
 httpcn.com##a[href^="http://www.okbmf.com/"] > img
 https://*.*/TC/*/*.gif$third-party,image
+https://*.*/YC/*/*.gif$third-party,image
 https://*.*/YL/*/*.gif$third-party,image
+https://*.*/YX/*/*.gif$third-party,image
 https://*.*/ZB/*/*.gif$third-party,image
 https://*.*/dh/*/*.gif$third-party,image
 https://*.*/dl/*/*.gif$third-party,image
@@ -102362,7 +102364,9 @@ http://ltslx.qq.com/
 http://ltsws.qq.com/
 http://vhotwsh.video.qq.com/
 https://*.*/TC/*/*.gif$third-party,image
+https://*.*/YC/*/*.gif$third-party,image
 https://*.*/YL/*/*.gif$third-party,image
+https://*.*/YX/*/*.gif$third-party,image
 https://*.*/ZB/*/*.gif$third-party,image
 https://*.*/dh/*/*.gif$third-party,image
 https://*.*/dl/*/*.gif$third-party,image
