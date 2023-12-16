@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jZClkOXbqv0ARVlH3MsdWw
+! Checksum: LQyq6c6L/4akHMD/xPtgjQ
 ! Title: 拦截黄色网站转跳
-! Version: 20231212234609
-! Last modified: 2023-12-12 23:46:09
-! Total Count: 394
+! Version: 20231216173344
+! Last modified: 2023-12-16 17:33:44
+! Total Count: 400
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -40,6 +40,8 @@
 .com:*/*/m.html?shareName=$~third-party
 .com:*/?channelCode=$document
 .com:*/?channelCode=$~third-party
+.com:*/?i_code=$document
+.com:*/?i_code=$~third-party
 .com:*/entry/register/?i_code=$document
 .com:*/entry/register/?i_code=$~third-party
 .com:*/m/#/home?register=1&agent=$document
@@ -58,6 +60,8 @@
 .live/?channelCode=$~third-party
 .live/h.html?id=$document
 .live/h.html?id=$~third-party
+.live:*/?i_code=$document
+.live:*/?i_code=$~third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
 .ltd/?channelCode=$document
@@ -74,6 +78,8 @@
 .top/h.html?id=$~third-party
 .top:*/#?shareName=$document
 .top:*/#?shareName=$~third-party
+.top:*/?i_code=$document
+.top:*/?i_code=$~third-party
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
 .vip:*/#?shareName=$document
