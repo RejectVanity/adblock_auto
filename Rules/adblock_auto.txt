@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: KS4JyU/a22R/Kv529RlQ5A
+! Checksum: XCwxwWOLvSLHlbYJEnSpLA
 ! Title: 混合规则(自动更新)
-! Version: 20231217000817
+! Version: 20231217001521
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-17 00:08:17
-! Total Count: 124306
+! Last modified: 2023-12-17 00:15:21
+! Total Count: 124310
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -78720,6 +78720,8 @@ gamer.com.tw#$##flyRightBox { position: absolute!important; left: -3000px!import
 gamer.com.tw#$#img[onload="AntiAd.check(this)"] { position: absolute!important; left: -3000px!important; }
 gamer.com.tw,~buy.gamer.com.tw##a[href^="https://buy.gamer.com.tw"]
 gamerdvr.com##div[style^="min-height:"]
+gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se##.yks300
+gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se##div[style="min-height: 600px; margin-bottom: 20px;"]
 gamereactor.eu##.ad_Bumper
 gamereactor.eu##.ad_Bumper_2
 gamereactor.eu##.itsanad
@@ -121247,6 +121249,7 @@ zle.com$script
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class="swiper swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden"]
 ##body > div[class][style="bottom: 129px;"]
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
@@ -121281,6 +121284,7 @@ zle.com$script
 ##div > a[href^="https://b"][href$=".vip"][target="_blank"] > img[src]
 ##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
+##div > div[class="swiper-c swiper-initialized swiper-horizontal swiper-autoheight swiper-ios swiper-backface-hidden"]
 ##div > iframe[src*="&width=300&height=100&"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div > ul > li > a[href][title="APP下载"]
