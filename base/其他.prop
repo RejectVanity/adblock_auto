@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SYvTP5S/G00DFkxEfPaR9A
+! Checksum: lKp8XhWujbTJodNh5dCwHQ
 ! Title: 自用去广告Adblock规则
-! Version: 20231216180352
-! Last modified: 2023-12-16 18:03:52
-! Total Count: 3431
+! Version: 20231217001309
+! Last modified: 2023-12-17 00:13:09
+! Total Count: 3433
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -597,6 +597,7 @@
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
+##body > div[class="swiper swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden"]
 ##body > div[class][style="bottom: 129px;"]
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
@@ -620,6 +621,7 @@
 ##div > a[href^="https://b"][href$=".vip"][target="_blank"] > img[src]
 ##div > a[target="_blank"] > img[src$=".gif"][style*="width:100%"]
 ##div > a[target="_blank"] > img[style="width:100%;height:100%"][src$=".gif"]
+##div > div[class="swiper-c swiper-initialized swiper-horizontal swiper-autoheight swiper-ios swiper-backface-hidden"]
 ##div > iframe[src*="&width=300&height=100&"]
 ##div > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##div > ul > li > a[href][title="APP下载"]
