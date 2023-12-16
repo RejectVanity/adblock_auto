@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FbEMz07h1PHIU21Z83vWhg
+! Checksum: M9ezIfGWVM82LDZT0qnAbg
 ! Title: 自用去广告Adblock规则
-! Version: 20231215211334
-! Last modified: 2023-12-15 21:13:34
-! Total Count: 3421
+! Version: 20231216120536
+! Last modified: 2023-12-16 12:05:36
+! Total Count: 3426
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2332,6 +2332,10 @@ hoho.tv##[class^="hoho-ad"],[data-ad-client]
 https://*.*/TC/*/*.gif$third-party,image
 https://*.*/YL/*/*.gif$third-party,image
 https://*.*/ZB/*/*.gif$third-party,image
+https://*.*/dh/*/*.gif$third-party,image
+https://*.*/dl/*/*.gif$third-party,image
+https://*.*/dl/*/1.jpg$third-party,image
+https://*.*/hx/*/*.gif$third-party,image
 ifanr.com##.popup-download
 ifeng.com##[class*="temp-ad"]
 ifeng.com##[class="openapp"]
@@ -3398,6 +3402,7 @@ zle.com$script
 ||yourporngod.com/cdn-cgi/apps/head/*.js
 ||yungreencn.net^
 ||yutew.cc^$third-party
+||yx.tellenw.top^$image
 ||yxvoud.com^
 ||yyefao.com^
 ||zawqwpajq.live^
