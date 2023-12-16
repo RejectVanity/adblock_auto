@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M9ezIfGWVM82LDZT0qnAbg
+! Checksum: F5NeHOW0lRyZq1LnomtjuA
 ! Title: 自用去广告Adblock规则
-! Version: 20231216120536
-! Last modified: 2023-12-16 12:05:36
-! Total Count: 3426
+! Version: 20231216121419
+! Last modified: 2023-12-16 12:14:19
+! Total Count: 3428
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2330,7 +2330,9 @@ hentaipaw.com##.header-ad,.middle-ad,[id^="ts_ad_native"]
 hkcards.com#@##ad-slot
 hoho.tv##[class^="hoho-ad"],[data-ad-client]
 https://*.*/TC/*/*.gif$third-party,image
+https://*.*/YC/*/*.gif$third-party,image
 https://*.*/YL/*/*.gif$third-party,image
+https://*.*/YX/*/*.gif$third-party,image
 https://*.*/ZB/*/*.gif$third-party,image
 https://*.*/dh/*/*.gif$third-party,image
 https://*.*/dl/*/*.gif$third-party,image
