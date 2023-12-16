@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: JpM1K1nmXGqx6n+N1Yb1Sw
+! Checksum: KS4JyU/a22R/Kv529RlQ5A
 ! Title: 混合规则(自动更新)
-! Version: 20231216171005
+! Version: 20231217000817
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-16 17:10:05
-! Total Count: 124292
+! Last modified: 2023-12-17 00:08:17
+! Total Count: 124306
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2922,6 +2922,7 @@
 ||88d7b6aa44fb8eb.com^
 ||88dgl.top^
 ||88dgn.top^
+||88dgs.top^
 ||88dgx.top^
 ||88dml.top^
 ||88eg.cn^
@@ -9188,6 +9189,7 @@
 ||ariyayin.com^
 ||arizonapuzzle.com^
 ||ark.le.com/s?vid=
+||ark.letv.com/s?
 ||ark.letv.com/t?
 ||arkalealb.site^
 ||arkayne.com^
@@ -11329,6 +11331,7 @@
 ||bdwmhz.120askimages.com^
 ||bdx.playnext.cn^
 ||bdxiguaimg.com^$domain=biquav.com|feisucn.net
+||bdzdd2-sdd53-vxc.com^
 ||bdzkrl.cn^
 ||be-mine.ru^
 ||be47f5d7a4.com^
@@ -32440,6 +32443,7 @@
 ||instructoralphabetoverreact.com^
 ||instructorloneliness.com^
 ||instructorstudied.com^
+||instructscornfulshoes.com^
 ||instrumentinsect.com^
 ||instrumentsponge.com^
 ||instrumenttactics.com^
@@ -41463,6 +41467,7 @@
 ||mqquas.xyz^
 ||mqqxkkenfws.com^
 ||mqrupjsm.xyz^
+||mqznjujv.xyz^
 ||mr-rank.de^
 ||mr2cnjuh34jb.com^
 ||mr956.xyz^
@@ -61473,6 +61478,7 @@
 ||tqxthzy.cn^
 ||tqxwilx.com^
 ||tqytqdrq.icu^
+||tqznjujv.xyz^
 ||tr-boost.com^
 ||tr-monday.xyz^
 ||tr-op.datatrics.com^
@@ -73093,7 +73099,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 778772.com##td[style*="PADDING-BOTTOM:"] > a > img
 77bike.com,ghoffice.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
 77kpp.com##div[style="z-index:1000000;position: fixed;top:0;left:0;"]
-77mh.cc###bdcotopnew
+77mh.cc,77mh.nl###bdcotopnew
 7808.cn###float-chat
 7808.cn###force-popup
 789ys.com,calmlab.com,ruanyifeng.com##div[style*="important"]
@@ -78156,8 +78162,8 @@ filmibeat.com##.filmibeat-top-ad
 filmibeat.com##.infinite-scroll-add
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 filmibeat.com,oneindia.com###fw-int-ad
-filmix.biz,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
-filmix.biz,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
+filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
+filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
 filmschoolrejects.com,reneweconomy.com.au,theteche.com###custom_html-8
 filmvilag.me,liderendeportes.com,serieskao.tv,freefilm.to,ac24.cz,nsfwyoutube.com,jpblow.info,hesgoal.com,filmisub.com,igg-games.com,ruwhite.info,slones.info,ukhello.info,uaclips.com,thodkyaat.com,kzclip.com,onlymen.cz,ultimasnoticias.com.ve,freeserial.to,ibb.co##pp
 filtercams.com###bannerFC
@@ -82675,6 +82681,7 @@ meishij.net##.cp_body_right
 meitu.com###meipaiFixed
 meituan.com##.component-downtip
 meiyida01.com,myd666.tv##.module-blocklist
+meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download"])
 meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download/"])
 meizhou.cn##.toptonglan
 meizhou.cn##.tuwengg
@@ -91156,6 +91163,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/*/ddd3.js
 .com/*/ddd4.js
 .com/*/ffff.js
+.com/*/invoke.js$script,third-party
 .com/*/js/8*/8*/8*/8*?r=https$third-party
 .com/*/ua.php$third-party
 .com/*/uagu.php$third-party
@@ -91372,6 +91380,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com:*/*/m.html?shareName=$~third-party
 .com:*/?channelCode=$document
 .com:*/?channelCode=$~third-party
+.com:*/?i_code=$document
+.com:*/?i_code=$~third-party
 .com:*/adduv_*_*_16$third-party
 .com:*/api/v4/*?*=$third-party
 .com:*/api/v4/g?kyurl=$third-party
@@ -91573,6 +91583,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .live/wiseindex*?*16$third-party
 .live/xtub_*_rony.js$third-party
 .live:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.live:*/?i_code=$document
+.live:*/?i_code=$~third-party
 .live:*/api/v4/g?kyurl=$third-party
 .live:*/vh5/$third-party
 .live:*/waga*.html$document
@@ -91781,6 +91793,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .top:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .top:*/#?shareName=$document
 .top:*/#?shareName=$~third-party
+.top:*/?i_code=$document
+.top:*/?i_code=$~third-party
 .top:*/api/v4/g?kyurl=$third-party
 .top:*/o.js$third-party,script
 .top:*/vh5/$third-party
