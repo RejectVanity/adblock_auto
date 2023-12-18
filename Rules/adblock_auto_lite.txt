@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: yiyJl3QOJsiHew5res6IVw
+! Checksum: VDQE49RszcZ7PA3LP3vhcA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231218161041
+! Version: 20231219000902
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-18 16:10:41
-! Total Count: 24649
+! Last modified: 2023-12-19 00:09:02
+! Total Count: 24658
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5670,6 +5670,7 @@
 ||doujinnomori.com/ad/
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
+||douyin.com/api/user/getPcBanner?
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
 ||douyucdn.cn/butterfly-java/*?width=1200&height=100&
@@ -8727,6 +8728,7 @@
 ||kqwerp.top^
 ||kqwip.cyou^
 ||kravma.xyz^
+||kreisis.top^
 ||krjzxie.cn^
 ||krp3g.top^
 ||krt.asycxtz.cn^
@@ -9845,6 +9847,7 @@
 ||mvgucp.com^
 ||mvng.cn^
 ||mvo.g45td.xyz^
+||mvpqrydt.xyz^
 ||mvxz.com/bar3.js
 ||mvxz.com/boximg/
 ||mvxz.com/img/
@@ -11950,7 +11953,10 @@
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
 ||sh6ss7.top^
 ||sh996.dftoutiao.com^
+||shabby-constant.com^
+||shabby-constant.com^$document
 ||shabby-constant.com^$third-party
+||shabby-constant.com^$~third-party
 ||shakegoldfish.com^$third-party
 ||shakyseat.com^$third-party
 ||shakysurprise.com^$third-party
@@ -12980,6 +12986,7 @@
 ||tv99.tv/wp-content/uploads/pum/
 ||tvdpebx.cn^
 ||tveta.naver.net^
+||tvpqrydt.xyz^
 ||tvrshv.xyz^
 ||tvsou.com/js/360ad.js
 ||tvszazx.icu^
@@ -14171,6 +14178,7 @@
 ||xvideo.cc/wefong2.js
 ||xvliqsa.cn^
 ||xvorpqz.cn^
+||xvpqrydt.xyz^
 ||xvrvgod.xyz^
 ||xvzfyra.xyz^
 ||xw.ooegpip.cn^$third-party,image
@@ -15561,6 +15569,7 @@ finget.ru,katalog-aktsii.ru,rp5.by,rp5.kz,rp5.ru,sms24.info,sms24.me,vikings-war
 flightradar24.com###bottomRightPanel
 flightradar24.com###responsiveBottomPanel
 forced-tube.net,hqasianporn.org##.coverup
+forum.flprog.ru###phpbb_announcement
 forum.pcastuces.com##div > [src] + [id] + [class][style^="display: block;"]
 forum.qrz.ru,life.ru,mastergrad.com,rtlxl.nl,wallpapershome.ru##.adblock
 forum.vip-cxema.org##body > #document_modal.modal,#some_ad_block_key_popup
