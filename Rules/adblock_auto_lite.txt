@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mwAlChlq6zxo2gLiI2t7nw
+! Checksum: Eg/fMmi4P+zb+B2djm8TDA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231222000845
+! Version: 20231222083205
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-22 00:08:45
-! Total Count: 24704
+! Last modified: 2023-12-22 08:32:05
+! Total Count: 24718
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3475,6 +3475,7 @@
 ||anythinktech.com^
 ||anyunwl04.com^
 ||anywlan.com/link/*.gif
+||aokkwzg.cn^
 ||aol32.cn^
 ||aolusb.com/forever/
 ||aomeng.net^$third-party
@@ -6168,6 +6169,7 @@
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
 ||ezacci.xyz^
+||ezeqcy.xyz^
 ||ezf48.xyz^
 ||ezlgszdb.icu^
 ||ezprice.com.tw/ezysm/
@@ -6709,6 +6711,7 @@
 ||ghland.site^
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
+||ghreha.top^
 ||ghsnhjk.cn^
 ||giaoji.com/Runtime/Js/
 ||giga.de/static-local/dist/theme/assets/js/module/giga-*.mobile-stopper.js
@@ -6966,6 +6969,7 @@
 ||gumgum.com^
 ||gumtree.com/partner/bing?*&adUnitId=
 ||gumtree.com/partner/bingimpression?
+||gunepszy.xyz^
 ||gunmi.cn^$third-party
 ||guode.cyou^
 ||guojitv.com/m/ad/
@@ -8828,6 +8832,7 @@
 ||kxmusic.top/tc/js/script.js
 ||ky891.oss-*.aliyuncs.com^
 ||kybzkiw.xyz^
+||kycxhgrp.xyz^
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
 ||kyjwtxei.xyz^
@@ -9123,6 +9128,7 @@
 ||lmlmvip.com^
 ||lmlzht.xyz^
 ||lmnpd.xyz^
+||lmrhhn.xyz^
 ||lmtnfl.xyz^
 ||lmx7.com^
 ||lmxzlb.xyz^
@@ -11358,6 +11364,7 @@
 ||qx568.com^$popup
 ||qxakzox.cn^
 ||qxrvmu.com^
+||qxzlmzt.xyz^
 ||qy0.ru/data/game/
 ||qy1.ru/data/game/
 ||qycfqk.xyz^
@@ -12346,6 +12353,8 @@
 ||ssyy881.com/zz/
 ||st-fly.b-cdn.net^
 ||st.ipornia.com^$third-party
+||staffboozerenamed.com^$document
+||staffboozerenamed.com^$~third-party
 ||stakingsmile.com^$third-party
 ||stalesummer.com^$third-party
 ||star-media.cn^$third-party
@@ -14874,6 +14883,7 @@
 ||zol.com.cn/active/*tmall
 ||zol.com.cn/adrs/
 ||zol.com.cn/js/ask/ask.js
+||zomcz.cyou^
 ||zone.pornlovo.co^
 ||zone1.bestporn24.com^
 ||zongheng.com/upload/hzds/
@@ -18099,6 +18109,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
 .com:8010/sc/*?*=$third-party
+.com:8891/vh3/
 .com:9*/yc/c/*/GEBEF$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
@@ -19125,6 +19136,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /original/ad_
 /os230718.oss-
 /other/ads/*
+/other/survey/system_vpn_update/$document
+/other/survey/system_vpn_update/$~third-party
 /p.js$domain=sexxxplanet.net
 /page/?s=$third-party
 /pagead2.
@@ -21650,6 +21663,7 @@ zle.com$script
 ###xqad1
 ###xqad2
 ###xqad3
+###yp-home[role="tabpanel"]
 ##.AD_TAC_BOX
 ##.AdTop
 ##.AdblockBanner
