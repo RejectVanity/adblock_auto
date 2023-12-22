@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: MTiz/TjqbLuvlUiGNrIE7Q
+! Checksum: NNBLq3divJQFf2dM5tahnw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231223000842
+! Version: 20231223001554
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-23 00:08:42
-! Total Count: 24729
+! Last modified: 2023-12-23 00:15:54
+! Total Count: 24765
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -19049,7 +19049,11 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /javascripts/ads/*
 /jquery.modal.$domain=1909.me|8se.me|litu100.xyz|xchina.co|xchina.fun|xchina.pro
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
+/js/AD_tv.js
 /js/GDHF.js
+/js/aa.htm$script
+/js/aahome.htm
+/js/ad.js?slot=
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
 /js/adlmb.js$third-party,script
@@ -19057,24 +19061,56 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
+/js/ads/dui.js
 /js/ads/hf*.js
+/js/ads/neiye
+/js/ads/piao.js
+/js/ads/to
+/js/ads/yezi
 /js/ads/youxiajiao.js
 /js/ads/zuoxiajiao.js
+/js/ads888/*
 /js/advertiser.js
 /js/adverts-
+/js/adwordstracking.
+/js/adz.
+/js/axdd.js
+/js/bdgg/*
+/js/bocaiadv.
+/js/bpolknm.js
+/js/btdigg.js
 /js/chunk-vendors.js?16$third-party,script
+/js/common/gg.js
+/js/cpc2_dl.js
+/js/cpc2_i.js
+/js/cpc2_rp.js
+/js/cpc_i.js
+/js/cpv_dl.js
+/js/cpv_fm_
+/js/db.js$script,third-party
+/js/dfp-
 /js/dj1ll*.js
 /js/dj2ll*.js
 /js/dnsads.js?
+/js/doubleclick/*
+/js/dyguosj/*
+/js/easyAD.js
+/js/easyAD2.js
 /js/gadks.js?$~third-party,script
 /js/gano.js?$~third-party,script
+/js/gg0.js
+/js/gg123/*
+/js/ggtop.js
+/js/guanggao_gg.js
 /js/hfee*.js?v=$~third-party
 /js/hfss*.js?v=$~third-party
+/js/home/ad/ad.
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/jads.js$script
 /js/jads.js?
 /js/pfadll*.js
 /js/popunder.js$domain=pornstash.in
+/js/profit.js$~third-party
 /js/script_*.js?$~third-party,domain=video.q34r.org|korall.xyz|porntoday.ws|tabooporns.com|netuplayer.top|wiztube.xyz|netu.ac|cumgloryhole.com|zerknij.cc|speedporn.net|chillicams.net|meucdn.vip|yandexcdn.com|hindipix.in|hindipix.in|waaw1.tv|waaw.*|czxxx.org|newhost.me|scenelife.org|hqq.*|tikzoo.xyz|gledajvideo.top|playerhd.org|ntvid.online|rpdrlatino.live|vertelenovelasonline.com|1069jp.com|diziturk.club|stbnetu.xyz|mundosinistro.com|younetu.org|playvideohd.com
 /js/sp_ad.js$script
 /json/ads/*
