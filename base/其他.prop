@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sqFQ7hlJtJVJZLesrUF5Bg
+! Checksum: FjKk/4DGsChfNvhVJKMTEQ
 ! Title: 自用去广告Adblock规则
-! Version: 20231224083612
-! Last modified: 2023-12-24 08:36:12
-! Total Count: 3483
+! Version: 20231224103509
+! Last modified: 2023-12-24 10:35:09
+! Total Count: 3489
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -42,6 +42,7 @@
 ###bottom-advertising
 ###bottom-boxad
 ###bottom-gg1
+###bottomRow.bottom-fixed-app
 ###bottom_ad
 ###coupletLeft
 ###coupletRight
@@ -613,6 +614,7 @@
 ##body > embed[id][src^="https:///"]
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
+##body#app.pc.mobile
 ##body.page > .popup
 ##body[ontouchstart] > #topBox
 ##body[style^="padding"] > [style$="background-size: 407px 148.5px !important;"]
@@ -654,6 +656,7 @@
 ##div[class*="invideo-native-adv_"]
 ##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
 ##div[class*="lg:hidden"] > .mx-auto
+##div[class*="swiper-"][class*="-initialized"][class*="-horizontal"][class*="-ios"]
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
@@ -2459,6 +2462,7 @@ javme.net##.top-ads-content,.bottom-ads-content
 javme.net##div[class^="b"][class*="9"],div[class^="i"][class*="9"]
 javmenu.top,javmenu03.top,javmenu02.top##.common_banner
 javrank.com##.justify-content-around.d-flex.align-content-center
+jb59.net##.test3
 jingyan.baidu.com##.ad-card
 jingyan.baidu.com##.bk-common-video-list
 jingyan.baidu.com##.content-box.wgt-ad-guess
@@ -2914,6 +2918,7 @@ zle.com$script
 ||a.shukriya90.com^
 ||aaenv48847h.com^$script
 ||abc*.sssxwsry.com^$script,third-party
+||abc.jayhou.top/js/
 ||abc.yebaike.com^
 ||abc.zgm*.com^$script
 ||abcd.zle.com^
@@ -3178,6 +3183,7 @@ zle.com$script
 ||kairuxinxi.xyz^$third-party
 ||kcieo.xyz^$third-party
 ||keiow.xyz^$third-party
+||kkkkim.skar.top^$image
 ||kme.zygehty.cn^
 ||kmr.rsvqlz.cn^
 ||kmr.vcunkbo.cn^
