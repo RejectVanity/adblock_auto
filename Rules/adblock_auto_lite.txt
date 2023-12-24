@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SaMXZC8UsQ6tuCPUAxmPqg
+! Checksum: /SmrZaweWWaWXJr5xRfgTA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231224092429
+! Version: 20231224160903
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-24 09:24:29
-! Total Count: 24843
+! Last modified: 2023-12-24 16:09:03
+! Total Count: 24854
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1485,6 +1485,7 @@
 ||abc.douguo.com^
 ||abc.hkepc.com^
 ||abc.hkepc.net^
+||abc.jayhou.top/js/
 ||abc.rwpt.top^
 ||abc.yebaike.com^
 ||abc.zgm*.com^$script
@@ -4062,6 +4063,7 @@
 ||bdmjs.xywy.com^
 ||bdnvklavbklabl.com^
 ||bdrzxp.xyz^
+||bdsahkln.xyz^
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
 ||bdstatic.com/img/image/su/
 ||bdstatic.com/pc_static/detail/game_promotion/
@@ -8695,6 +8697,7 @@
 ||kkkjpg-522.cc^$third-party
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
+||kkkkim.skar.top^$image
 ||kkkqi.cn^
 ||kkkqo.cn^
 ||kklpe.xyz^
@@ -12253,6 +12256,7 @@
 ||sogou.com/reventondc/inner/gamebrand?
 ||sogou.com/uniplan/?pageID=
 ||sogou.com/wap_ask_service?
+||sogou.st^
 ||sogoucdn.com/app/a/100540022/2021022016080586548810.jpg
 ||sogoucdn.com/app/a/200692/960_80_feedback_
 ||sogoucdn.com/dhfe/
@@ -13209,6 +13213,7 @@
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
 ||udpdmeb.cn^
+||udsahkln.xyz^
 ||ue8im.com^
 ||uebipacy.xyz^
 ||uejdsw.com^
@@ -14033,6 +14038,7 @@
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
 ||xdrig.com^
+||xdsahkln.xyz^
 ||xdw9.top^
 ||xdyjt.com^
 ||xdytt.com/b_*.js
@@ -14258,6 +14264,7 @@
 ||xuruochen.cn^
 ||xuwfmhh.icu^
 ||xuxiaoran.xyz^
+||xuyanlong1.cn^
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xv.leirsw.com^
 ||xv98.com/js/daohang
@@ -16095,6 +16102,7 @@ javporn.tv,hentaiworld.tv###floating-banner
 javporn18.com##+js(abort-current-script, mypop)
 javrank.com##.justify-content-around.d-flex.align-content-center
 javsex.vip,pornsexxxer.com##.prefix-player-promo-col
+jb59.net##.test3
 jingyan.baidu.com##.ad-card
 jingyan.baidu.com##.bk-common-video-list
 jingyan.baidu.com##.content-box.wgt-ad-guess
@@ -21427,6 +21435,7 @@ zle.com$script
 ###bottomAd
 ###bottomApp
 ###bottomNavad
+###bottomRow.bottom-fixed-app
 ###bottom_ad
 ###bottom_qr_code
 ###bottomad
@@ -23259,6 +23268,7 @@ zle.com$script
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
+##body#app.pc.mobile
 ##body.page > .popup
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
@@ -23312,6 +23322,7 @@ zle.com$script
 ##div[class*="invideo-native-adv_"]
 ##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
 ##div[class*="lg:hidden"] > .mx-auto
+##div[class*="swiper-"][class*="-initialized"][class*="-horizontal"][class*="-ios"]
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]

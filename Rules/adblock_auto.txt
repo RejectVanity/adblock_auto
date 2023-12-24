@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: YnwxKoEIXXqh21tHiza0Tg
+! Checksum: yAC3rSPvXQHQ7owC+ch8Ng
 ! Title: 混合规则(自动更新)
-! Version: 20231224092419
+! Version: 20231224160853
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-24 09:24:19
-! Total Count: 125178
+! Last modified: 2023-12-24 16:08:53
+! Total Count: 125188
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3727,6 +3727,7 @@
 ||abc.esprit.de^
 ||abc.hkepc.com^
 ||abc.hkepc.net^
+||abc.jayhou.top/js/
 ||abc.pema.cl^
 ||abc.rwpt.top^
 ||abc.yebaike.com^
@@ -11345,6 +11346,7 @@
 ||bdqjqfqyw.xyz^
 ||bdros.com^
 ||bdrzxp.xyz^
+||bdsahkln.xyz^
 ||bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/5e4103a342883a925a81aea7fe356bef
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
 ||bdstatic.com/img/image/su/
@@ -21272,6 +21274,7 @@
 ||dsgvlrcjcmfrr.xyz^
 ||dshangyan.com/pc/advertising/
 ||dshapv.xyz^
+||dsj4qf77pyncykf2dki6isfcuy0orwhc.lambda-url.eu-west-1.on.aws^
 ||dskjhs.com^
 ||dskrt.net^
 ||dsmmadvantage.com^
@@ -35747,6 +35750,7 @@
 ||kkkjpg-522.cc^$third-party
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
+||kkkkim.skar.top^$image
 ||kkkqi.cn^
 ||kkkqo.cn^
 ||kklpe.xyz^
@@ -69139,6 +69143,7 @@
 ||xdowl0adxd0wnloadx.com^
 ||xdrig.com^
 ||xdrzdh.cn^
+||xdsahkln.xyz^
 ||xdserv.com^
 ||xduvqslud.com^
 ||xdvsijtlhr.com^
@@ -69808,6 +69813,7 @@
 ||xuxiaoran.xyz^
 ||xuxjaqp.cn^
 ||xuxs.site^
+||xuyanlong1.cn^
 ||xuzeez.com^
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xv.leirsw.com^
@@ -81818,6 +81824,7 @@ jb51.net##.tipsa_ds
 jb51.net##p[style$="text-align: center; padding: 0px; margin: 20px 0px;"]
 jb51.net,makaidong.com###txtlink
 jb51.net,makaidong.com##.topimg
+jb59.net##.test3
 jbaaza.com##.notice-img
 jbtalks.cc##.threadad
 jbtalks.cc,jbtalks.com##.jbt-ad-region
@@ -105800,6 +105807,7 @@ zle.com$script
 ###bottomMPU
 ###bottomNavad
 ###bottomRightAd
+###bottomRow.bottom-fixed-app
 ###bottom_ad
 ###bottom_ad_728
 ###bottom_ad_area
@@ -121984,6 +121992,7 @@ zle.com$script
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
+##body#app.pc.mobile
 ##body.page > .popup
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
@@ -122046,6 +122055,7 @@ zle.com$script
 ##div[class*="invideo-native-adv_"]
 ##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
 ##div[class*="lg:hidden"] > .mx-auto
+##div[class*="swiper-"][class*="-initialized"][class*="-horizontal"][class*="-ios"]
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
