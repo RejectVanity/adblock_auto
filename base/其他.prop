@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GHQlVeGfp2Q1pk8nX6KQPQ
+! Checksum: sqFQ7hlJtJVJZLesrUF5Bg
 ! Title: 自用去广告Adblock规则
-! Version: 20231223001247
-! Last modified: 2023-12-23 00:12:47
-! Total Count: 3477
+! Version: 20231224083612
+! Last modified: 2023-12-24 08:36:12
+! Total Count: 3483
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -176,6 +176,7 @@
 ##.ima-ad-container
 ##.img-cctv.lazyLoad
 ##.index-center-tc-index2.index-center-tc > a
+##.j-cctv-click
 ##.leftd + .rightd
 ##.leftd1 + .rightd1
 ##.leftd2 + .rightd2
@@ -219,6 +220,8 @@
 ##.slide-ad
 ##.slide-hd > ul > li > a
 ##.slider-ad[adid]
+##.swiper-wrapper.gpwggaoh
+##.swipercctv
 ##.synopsisAd
 ##.tads
 ##.textadv
@@ -369,6 +372,7 @@
 ##[style="text-align: center; margin: 40px 0; color: blue; font-size: larger;"]
 ##[style^="display: inline-block;"][style*="margin:"] > a[target="_blank"][href][title]
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
+##a.downurl[target="_blank"][referrerpolicy="no-referrer"]
 ##a[alt="545新葡京"][target="_blank"]
 ##a[alt="91Pro"][target="_blank"]
 ##a[alt="91视频"][target="_blank"]
@@ -659,6 +663,7 @@
 ##div[class="need_grid_text"] > ul > li
 ##div[class="overfloat"][id="gui_kai"]
 ##div[class="photo-two"] > a[target="_blank"]
+##div[class="swiper-container swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden"]
 ##div[class="v-banner"][style]
 ##div[class] > div[class][style^="box-sizing: border-box; position: relative; left: 0px; z-index: 2147"]
 ##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
@@ -827,6 +832,7 @@
 ##iframe[width="980"][height="90"]
 ##iframe[width][height][src*="/api/spots/"][src*="?"]
 ##iframe[width][height][src*="/s/s/su.php?"][src*="https%3A"]
+##img.lazyLoad.videoCover
 ##img[alt$="抖阴"]
 ##img[alt$="横幅"][src$=".gif"]
 ##img[alt$="约炮"]
