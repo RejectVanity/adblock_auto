@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FjKk/4DGsChfNvhVJKMTEQ
+! Checksum: jRcCvh7eWq4g66vNH+UD2w
 ! Title: 自用去广告Adblock规则
-! Version: 20231224103509
-! Last modified: 2023-12-24 10:35:09
-! Total Count: 3489
+! Version: 20231226050612
+! Last modified: 2023-12-26 05:06:12
+! Total Count: 3493
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1211,6 +1211,8 @@
 .xyz/?channelCode=$~third-party
 .xyz/Uxxt*zt.js
 .xyz/ack?s=
+.xyz/ad/
+.xyz/ads/
 .xyz/alpine?$third-party
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
@@ -3252,6 +3254,7 @@ zle.com$script
 ||pagead2.googlesyndication.com^
 ||pcd.autohome.com.cn^
 ||pcmx.autohome.com.cn^
+||pctv.xyz^
 ||peizi00.com^$third-party
 ||pemsrv.com^
 ||pemsrv.com^$third-party
@@ -3383,6 +3386,7 @@ zle.com$script
 ||usjbwvtqwv.com^$third-party
 ||uztyvfk.cn^$third-party,image
 ||v*.qudou100.com^$script
+||v.vgbhujklp.xyz^
 ||vcvbnmto.xyz^$third-party
 ||vikiporn.com/js/license.*.js
 ||vikiporn.com/plugin.js
