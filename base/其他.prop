@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jRcCvh7eWq4g66vNH+UD2w
+! Checksum: JsBdzExPt6/681nWoOUGuA
 ! Title: 自用去广告Adblock规则
-! Version: 20231226050612
-! Last modified: 2023-12-26 05:06:12
-! Total Count: 3493
+! Version: 20231226075341
+! Last modified: 2023-12-26 07:53:41
+! Total Count: 3495
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -756,6 +756,7 @@
 ##guj-ad
 ##hl-adsense
 ##iframe.ad-frame
+##iframe[data-src*="//a.magsrv.com/"]
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
 ##iframe[src*=".jads."]
 ##iframe[src*=".magsrv.com/"]
@@ -2486,6 +2487,7 @@ kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
 kiutaku.com##.search-form + br + div[class]
 kiutaku.com##div[class^="b"]:has(ins[data-zoneid])
 kiutaku.com##div[class^="i"][class*="9"]
+koreaporn.net##div.bb_mobile
 kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
 lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"],[class^="tsgg"],[id*="ggsj"]
 luoqiuzw.com##.show-app2
