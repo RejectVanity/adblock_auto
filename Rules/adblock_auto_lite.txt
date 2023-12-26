@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0iupz9A6JNtCKH/v+222BA
+! Checksum: IIYOFlSGLPB0RMvUUhPM6A
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231226000831
+! Version: 20231226083131
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-26 00:08:31
-! Total Count: 24876
+! Last modified: 2023-12-26 08:31:31
+! Total Count: 24886
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8130,6 +8130,7 @@
 ||javporn.tv/wp-content/uploads/*.mp4
 ||javpornclub.com/images/banners/takefile72890.gif
 ||jayhou.top^
+||jazftz.xyz^
 ||jb.dianshu119.com^
 ||jb.ecar168.cn^
 ||jb51.net/imgby/logo_
@@ -8686,6 +8687,7 @@
 ||kiees.cn/k1.js
 ||kiees.com^$image,subdocument,third-party
 ||kifyeldd.top^
+||kiiepofl.xyz^
 ||kikinote.net/iframe
 ||killcovid2021.com^*.mp4
 ||kingkongapp.com^*/web/adv/list?
@@ -10023,6 +10025,7 @@
 ||n7181.com^
 ||nafqioj.cn^
 ||nagmopd.cn^
+||nahgvfhs.xyz^
 ||nahsfl.xyz^
 ||nai7.xyz^
 ||naiep.xyz^
@@ -10594,6 +10597,7 @@
 ||pcqsajr.icu^
 ||pcstore.com.tw/adm/psearch_payad_
 ||pcstore.com.tw/css/myacc_init.js
+||pctv.xyz^
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
 ||pcvzpj.xyz^
 ||pcxtvr.xyz^
@@ -11594,6 +11598,7 @@
 ||rixgpx.xyz^
 ||rixqlvd.cn^
 ||rizgtf.xyz^
+||rjlfolk.xyz^
 ||rjsos.com/channel/laomo_dibu.png
 ||rjwljrf.xyz^
 ||rjzqtz.xyz^
@@ -13407,6 +13412,7 @@
 ||v.tgslww.cn^$third-party
 ||v.tlscqw.cn^$third-party
 ||v.tysjkw.cn^$third-party
+||v.vgbhujklp.xyz^
 ||v0cf.xyz^
 ||v1.19purify.com^
 ||v1.kwpewga.cn^
@@ -14092,6 +14098,7 @@
 ||xiaobaipan.com/tb.html
 ||xiaobi*.com/layer/layer.js
 ||xiaobixiaobi.com^
+||xiaobizaizi1.top^
 ||xiaochen1.cn^
 ||xiaodutv.com/xda?
 ||xiaohuishu.top^
@@ -16161,6 +16168,7 @@ komikhentaiterbaru.xtgem.com,rajahentai.com,komikhentai.me,komikhentai.online,he
 koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
 korall.xyz,javcl.com,vsttorrents.net,kropic.com,shorterall.com,fakyutube.com,javtiful.com,22pixx.xyz,porndish.com,mypornhd.com,europeanclassiccomic.blogspot.com,holanime.com,oloadporn.com,tamilyogi.vip,bleach-hdtv.blogspot.com,telewizja-internetowa.pl,webcamshows.org,team1x1.com,thehiddenbay.com,ask4movie.com,animeultima.eu,darmowa-telewizja.online,kastream.biz##+js(abort-on-property-read, _pop)
 koreaporn.net##.bb_desktop
+koreaporn.net##div.bb_mobile
 kubik3.ru##.adbs
 kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
 l-a-w.ru,mhelp.kz##.swal2-container
@@ -18443,6 +18451,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .xyz/Uxxt*zt.js
 .xyz/ack?s=
 .xyz/ad/
+.xyz/ads/
 .xyz/alpine?$third-party
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
@@ -23487,6 +23496,7 @@ zle.com$script
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##hl-adsense
 ##iframe.ad-frame
+##iframe[data-src*="//a.magsrv.com/"]
 ##iframe[src$="/app/index.html"][width="100%"][scrolling][frameborder="0"]
 ##iframe[src*=".jads."]
 ##iframe[src*=".magsrv.com/"]
