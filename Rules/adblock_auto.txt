@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: e26TMe/m4WuVT/6cxqWfjg
+! Checksum: CklbAWchnINgvLwQHTVeaQ
 ! Title: 混合规则(自动更新)
-! Version: 20231228213534
+! Version: 20231229000836
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-28 21:35:34
-! Total Count: 125456
+! Last modified: 2023-12-29 00:08:36
+! Total Count: 125462
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -41317,6 +41317,7 @@
 ||mneljcvkiwe.xyz^
 ||mnetads.com^
 ||mnevjhg.com^
+||mnfhxszj.xyz^
 ||mng-ads.com^
 ||mnhjk.com^
 ||mnhknds.com^
@@ -63713,6 +63714,7 @@
 ||tupian888.*.bcebos.com^
 ||tuplzt.xyz^
 ||tupwiwm.com^
+||tuqnwz.icu^
 ||tuquesrefuser.website^
 ||tur-tur-key.com^
 ||turbanconstituent.com^
@@ -89366,8 +89368,10 @@ v.baidu.com##div[id^="adv_asp_"]
 v.baidu.com,v.duba.com##div[id*="categoryPageColumn"]
 v.ifeng.com##.keyword
 v.pptv.com###video-download-game
+v.qq.com###iwan-gamependant-page
 v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
 v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
+v.qq.com##.game-switch-ad
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
@@ -103744,6 +103748,7 @@ zle.com$script
 ###ad-300x250-sidebar
 ###ad-300x250-wrapper
 ###ad-300x250_mid
+###ad-300x250_mid_mobile
 ###ad-300x250_mobile
 ###ad-300x250_top
 ###ad-300x600_top
@@ -121599,6 +121604,7 @@ zle.com$script
 ##a[href*="/d27.tv"]
 ##a[href*="/d6586.com:"]
 ##a[href*="/ddtz5.com"]
+##a[href*="/dsf188.cc"]
 ##a[href*="/ftyvrfy05.com"]
 ##a[href*="/g3656.com:"]
 ##a[href*="/h91.tv"]
