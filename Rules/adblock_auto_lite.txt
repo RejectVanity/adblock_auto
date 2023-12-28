@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: iWWdtCuqPyfp8q73sDfmPw
+! Checksum: +eC33yJkSNdkuB4XPhhPPA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20231228160955
+! Version: 20231228213544
 ! Expires: 12 hours (update frequency)
-! Last modified: 2023-12-28 16:09:55
-! Total Count: 24935
+! Last modified: 2023-12-28 21:35:44
+! Total Count: 24945
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -743,6 +743,7 @@
 ||4kwu.cc/static/js/tj.js
 ||4l903.com^
 ||4paradigm.com^$domain=sina.com.cn
+||4sexmail.com^
 ||5.ccutu.com^
 ||5.gzfenda.com^
 ||50.17.161.250/appodeal/
@@ -3547,6 +3548,7 @@
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
 ||api2.appscraft.mobi/banner/get_banners.php
+||apiapi88.com^$image
 ||apic.91bixin.net/api/thirdadv/
 ||apic.in/mmd.gif
 ||apiimg.com/huaer/xiahe.
@@ -6019,6 +6021,7 @@
 ||eghyahl.cn^
 ||egipsbvlgn.xyz^
 ||eglizqf.cn^
+||ehaie.top^
 ||eheb8.cn^
 ||eheuye.xyz^
 ||ehfjup.xyz^$third-party
@@ -9744,6 +9747,7 @@
 ||mmeimh.xyz/static/100.
 ||mmeimh.xyz/static/images/
 ||mmiedf.xyz^
+||mmn811.top^
 ||mmonly.cc/js/mmonlyAPP.js
 ||mmp001.scalemonk.com^
 ||mmtalk.net/images/banner
@@ -12932,6 +12936,7 @@
 ||tnc16-alisg.isnssdk.com^
 ||tnc16-useast1a.isnssdk.com^
 ||tnebxv.top^
+||tnfhxszj.xyz^
 ||tngmn.com^$third-party
 ||tnkfactory.com^$third-party
 ||tns.simba.taobao.com^
@@ -13592,6 +13597,7 @@
 ||vjhjxh.xyz^
 ||vjie.com^$third-party
 ||vjnxpj.xyz^
+||vjpgm.space^
 ||vjrpnv.xyz^
 ||vjzjpt.xyz^
 ||vk920.com/img1/
@@ -14267,6 +14273,7 @@
 ||xn--xhq9mt12cf5v.xn--io0a7i^$third-party
 ||xn--zw0autp42d.cn^
 ||xne1ocient87zxz.360doc.cn^
+||xnfhxszj.xyz^
 ||xng02.com/api.php?mod=ad&
 ||xni.ink^
 ||xnjklp.xyz^
@@ -18496,6 +18503,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .xyz/?channelCode=$csp=script-src
 .xyz/?channelCode=$document
 .xyz/?channelCode=$~third-party
+.xyz/?token=$third-party
 .xyz/?token=*&screen_*=*&ref=$third-party
 .xyz/Uxxt*zt.js
 .xyz/ack?s=
@@ -22714,6 +22722,7 @@ zle.com$script
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
+##A[href*="/dsf188.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="-ad-box"]
@@ -22984,6 +22993,7 @@ zle.com$script
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*=".xyanovo.com/"]
 ##a[href*=".xyz"][target="_blank"][class] > span
+##a[href*=".xyz/?token="][target="_blank"]
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ##a[href*=".xyz:"] > img[src]
 ##a[href*=".xyz?ch=ssmh"]
@@ -23325,6 +23335,7 @@ zle.com$script
 ##body > [style$="background-size: 407px 104px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 127px !important;"]
+##body > [style$="background-size: 407px 128px !important;"]
 ##body > [style$="background-size: 407px 129px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
@@ -23402,7 +23413,6 @@ zle.com$script
 ##div[class*="invideo-native-adv_"]
 ##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
 ##div[class*="lg:hidden"] > .mx-auto
-##div[class*="swiper-"][class*="-initialized"][class*="-horizontal"][class*="-ios"]
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
