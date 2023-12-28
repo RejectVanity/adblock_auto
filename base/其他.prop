@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JsBdzExPt6/681nWoOUGuA
+! Checksum: VFfQdy5OSLv8SsbmgpYxCw
 ! Title: 自用去广告Adblock规则
-! Version: 20231226075341
-! Last modified: 2023-12-26 07:53:41
-! Total Count: 3495
+! Version: 20231228212846
+! Last modified: 2023-12-28 21:28:46
+! Total Count: 3501
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -412,6 +412,7 @@
 ##a[href*=".top:"][target="_blank"][class] > span
 ##a[href*=".vip:"] > img[src]
 ##a[href*=".xyz"][target="_blank"][class] > span
+##a[href*=".xyz/?token="][target="_blank"]
 ##a[href*=".xyz:"] > img[src]
 ##a[href*=".xyz?ch=ssmh"]
 ##a[href*="//ad.doubleclick.net"]
@@ -594,6 +595,7 @@
 ##body > [style$="background-size: 407px 104px !important;"]
 ##body > [style$="background-size: 407px 127.188px !important;"]
 ##body > [style$="background-size: 407px 127px !important;"]
+##body > [style$="background-size: 407px 128px !important;"]
 ##body > [style$="background-size: 407px 129px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
@@ -656,7 +658,6 @@
 ##div[class*="invideo-native-adv_"]
 ##div[class*="is_mb"] > a[href] > img[alt="a"][width="100%"]
 ##div[class*="lg:hidden"] > .mx-auto
-##div[class*="swiper-"][class*="-initialized"][class*="-horizontal"][class*="-ios"]
 ##div[class*="video-item--adv"]
 ##div[class="bf_btn"] > [class="copy_div_btn"]
 ##div[class="dmcenter"] > a[href][target="_blank"] > img[src$=".gif"]
@@ -1210,6 +1211,7 @@
 .xyz/?ch=ssmh
 .xyz/?channelCode=$document
 .xyz/?channelCode=$~third-party
+.xyz/?token=$third-party
 .xyz/Uxxt*zt.js
 .xyz/ack?s=
 .xyz/ad/
@@ -2914,6 +2916,7 @@ zle.com$script
 ||3pmcoohke.scriptmh.com^
 ||3v7c7y.online^$third-party
 ||3zmm.net/*/*.js
+||4sexmail.com^
 ||51.la^$third-party
 ||510cg.com/1688/m_*.php$~third-party
 ||5hte21mz.com^
@@ -2970,6 +2973,7 @@ zle.com$script
 ||antiadblocksystems.com^
 ||anyshare.icu^*.js
 ||api.aflsj.com^$third-party
+||apiapi88.com^$image
 ||app2.*dfs.com^
 ||applogapi.autohome.com.cn^
 ||aqhfqaaq.xyz^
@@ -3067,11 +3071,13 @@ zle.com$script
 ||dspmnt.autohome.com.cn^
 ||dtscout.com^
 ||dvnsdo.com^$third-party
+||dwadwere.xyz^
 ||dydytt.net/js3
 ||e.1bctkn.xyz^$third-party
 ||eaaaej.icu^$third-party
 ||effectivedisplayformats.com^
 ||effirst.com^$third-party
+||ehaie.top^
 ||ehfjup.xyz^$third-party
 ||elonreptiloid.com^$third-party
 ||elsynmlw.fun^
