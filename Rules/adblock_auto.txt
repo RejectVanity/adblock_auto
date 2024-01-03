@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xLd+pb3RLevYYaj77BlRRg
+! Checksum: J5QzHEkhxZWugOpZzDLd4Q
 ! Title: 混合规则(自动更新)
-! Version: 20240103160918
+! Version: 20240104000930
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-03 16:09:18
-! Total Count: 125882
+! Last modified: 2024-01-04 00:09:30
+! Total Count: 125897
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6853,6 +6853,7 @@
 ||aheightbaaing.website^
 ||ahejtw.onelink.me^
 ||ahejtw.onelink.me^$third-party
+||ahernssa.com^
 ||ahfy.me^
 ||ahgame.com/js/new_ad.js
 ||ahgfdhp.xyz^
@@ -7997,6 +7998,7 @@
 ||analytics.amakings.com^
 ||analytics.amedigital.vn^
 ||analytics.any.do^
+||analytics.api.justeattakeaway.com^
 ||analytics.apnewsregistry.com^
 ||analytics.apotekhjartat.se^
 ||analytics.appsbnet.com.br^
@@ -13283,6 +13285,7 @@
 ||bqg99.cc^
 ||bqgaa.com/js/hf*.js?v=$script
 ||bqge.xyz^
+||bqgeu.com/js/h
 ||bqgw.xyz^
 ||bqgyy.com^
 ||bqiapp.com/api/config/ad?
@@ -24730,6 +24733,7 @@
 ||fddxbn.xyz^
 ||fde1403147.com^
 ||fdelphaswcealifornica.com^
+||fdfda.zhuzhai.com^
 ||fdfghgfdd.yunqishi.net^
 ||fdgem.com^
 ||fdiirjong.com^
@@ -41316,6 +41320,7 @@
 ||mk795.cn^
 ||mkavkaz.ru^
 ||mkazanc.com^
+||mkbbjtfp.xyz^
 ||mkcurches.com^
 ||mkd88.cc/16.32.jpg
 ||mkgiiijigxwwn.com^
@@ -53350,6 +53355,7 @@
 ||rmgfulosqmlcly.com^
 ||rmgmggg.cn^
 ||rmgserving.com^
+||rmhfrtnd.com^$third-party
 ||rmhptjwikttv.com^
 ||rmipoz.com/dp.js
 ||rmirha.cn^
@@ -61855,6 +61861,7 @@
 ||tk.promit.ru^
 ||tk0x1.com^
 ||tkaqlvqjnn.com^
+||tkbbjtfp.xyz^
 ||tkbo.com^
 ||tkcareqvptjwhie.xyz^
 ||tkcatrun.aotter.net^
@@ -74769,7 +74776,9 @@ aitextpromptgenerator.com##[href^="https://app.getsitepop.com/"]
 aiweibk.com##.lili
 aiweibk.com##.pc
 aiyifan.tv,iyf.tv##+js(abort-on-property-read, Object.prototype.ShouldLoadAds)
+aiyifan.tv,iyf.tv##+js(abort-on-stack-trace, Object.prototype.ppmm, invokeInterstitial)
 aiyifan.tv,iyf.tv##+js(remove-class, publicplay, #main-player)
+aiyifan.tv,iyf.tv##.video-player > .cc > .ng-star-inserted[style="position: relative;"]
 aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
 aiyifan.tv,iyf.tv#?#.video-player + div.ps > div:has(> div.bb)
 aiyingshi.tv###ADmask
@@ -75915,7 +75924,7 @@ bd2020.co##body > div[id^="z"]
 bd2020.co,bd2020.com###fmtdiv
 bde4.com##+js(nano-setInterval-booster, timerAdCountdown, , 0.02)
 bde4.icu#$#a[href*="/entry/register/?i_code="] { position: absolute !important; left: -3000px !important; }
-bde4.icu,familyporner.com,men4menporn.eu,mp4er.cc,mp4er.com,player.cdnm4m.nl##+js(set-constant, canRunAds, true)
+bde4.icu,familyporner.com,men4menporn.eu,mp4er.cc,mp4er.com,player.cdnm4m.nl,tingfm.com##+js(set-constant, canRunAds, true)
 bdimg.com,tieba.baidu.com,tieba.com##div[class][lgoinprompt="prompt"]
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos > .label_text_tag:-abp-contains(广告))
 bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_post_list_item)
@@ -77551,6 +77560,7 @@ consobaby.co.uk,gumtree.com,pcgamingwiki.com,thefootballnetwork.net###mpu
 constative.com##div[class^="ad_placeholder_"]
 constative.com##div[style]:not([class])
 constructionenquirer.com##.ad-page-takeover
+content.dictionary.com##.lp-code:has(> [class$="Ad"])
 contents.internet.apps.samsung.com##.page-bar
 conversanttraveller.com###text-39
 conversanttraveller.com###text-40
@@ -79457,7 +79467,7 @@ finance.yahoo.com##.ad-lrec3
 finance.yahoo.com##[id^="defaultLREC"]
 financemagnates.com##.article__mpu-banner
 financemagnates.com##.banner__outer-wrapper
-financemagnates.com##.top-side-unit
+financemagnates.com,forexlive.com##.top-side-unit
 financerites.com##div[id^="__vliadb"]
 financialexpress.com##.ie-network-taboola
 finbold.com###ba200ba7ef5e1
@@ -79853,7 +79863,7 @@ fusetter.com##a[href^="https://mahoyaku.onelink.me/"] > img
 futbin.com##.fb-ad-placement
 futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
 futbol24.com##.rek
-futbol24.com,kdhome.net,mobilemagazinehk.com,yxdm.li##.adv2
+futbol24.com,kdhome.net,mobilemagazinehk.com,mydown.com,yxdm.li##.adv2
 futurecurrencyforecast.com##.cwc-tor-widget
 futuregaming.io##.ez-video-wrap
 futurenet.club##.fn-banner
@@ -84478,6 +84488,8 @@ mydigit.cn##.view-hover[channelid="smzdm"]
 mydigit.cn,storyren.top###diyfastposttop
 mydorpie.com###imgbcont
 mydorpie.com##.rbancont
+mydown.com,onebox.mydown.com##.advertisement_pic
+mydown.com,onebox.mydown.com##.fcGg
 mydowndown.com##p[style="color:#ff0000;"] > a[target="_blank"]
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
 mydramalist.com##.col-lg-4 > .clear
@@ -85253,9 +85265,7 @@ oncam.me##a[href^="https://publishers.clickadilla.com/signup"]
 oncam.me##a[href^="https://torguard.net/aff.php"]
 oncam.me##a[href^="https://www.clickadu.com/?rfd="]
 one.com.mt,vanguardngr.com###header-sidebar
-onebox.mydown.com##.advertisement_pic
 onebox.mydown.com##.fcAgain
-onebox.mydown.com##.fcGg
 onecompiler.com##[href^="https://www.datawars.io"]
 oneesports.gg##.pr-sm-4
 oneindia.com###closePopupDiv
@@ -85739,6 +85749,7 @@ pixiv.net##.ad-footer + .hover-item
 pixiv.net##.ads_anchor
 pixiv.net##.multi-ads-area
 pixiv.net##a[target="premium_noads"]
+pixiv.net##div[id^="adsdk-"]
 pixiv.net##iframe[width="300"][height="250"]
 pixnet.net###pixblogad
 pixnet.net###pixblogad-banner2
@@ -90020,6 +90031,8 @@ waerfa.com#?#.content-area > div#content > div > div.item:has(> a:not([href*="wa
 wahcricket.com##.site-mainhead
 wahm.com##.rad-links
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian.com##[href^="https://at.umtrack.com"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#$#.player-rm > a[target="_blank"] { position: absolute !important; left: -3000px !important; }
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#$#a[href*=".umtrack.com/"] { position: absolute !important; left: -3000px !important; }
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
 walgreens.com##.sponsored-padding
 walletinvestor.com##.sticky-footer-content
@@ -91693,6 +91706,7 @@ zhuna.cn##a[href*="quchuchai."]
 zhuwang.cc###ALayer1
 zhuwang.cc###ALayer2
 zhuwang.cc###main_newad
+zhuzhai.com##.news-details-ad
 zi.media##body > div[style="height: 300px;"]
 zillow.com##.vPTHT
 zillow.com##[data-test="search-list-first-ad"]
@@ -125873,7 +125887,8 @@ verizonwireless.com#@#.contentAds
 video.tv-tokyo.co.jp#@##adspace
 vmall.com#@#.iframeAd
 vukajlija.com#@#.large-advert
-waipian5.com#@#a[href*=".umtrack.com/"]
+waipian1.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian2.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian3.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian4.com,waipian40.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com#@#a[href*=".umtrack.com/"]
+waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#@#.player-rm > a[target="_blank"]
 wantgoo.com#@#.shareBtns
 weather.com.cn,wed114.cn#@#.adpic
 wegotads.co.za#@#.ad-source
