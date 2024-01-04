@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: VQTm4qyXhtTFmzucAxALAQ
+! Checksum: HYew3eKgFO4yw0HRc2yrlQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240104160950
+! Version: 20240105000858
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-04 16:09:50
-! Total Count: 25051
+! Last modified: 2024-01-05 00:08:58
+! Total Count: 25057
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3679,6 +3679,7 @@
 ||at*.doubanio.com^
 ||at.umtrack.com^/*?cid=$document
 ||at.umtrack.com^/*?cid=$~third-party
+||at885.icu^
 ||atala-apw.com/domredirect?$document
 ||atala-apw.com/domredirect?$~third-party
 ||atanx.alicdn.com^
@@ -4384,6 +4385,7 @@
 ||bqgw.xyz^
 ||bqgyy.com^
 ||bqiapp.com/api/config/ad?
+||bqjqripb.xyz^
 ||bqsxqq.com^
 ||bqtwbx.xyz^
 ||bqxexj.xyz^
@@ -4446,6 +4448,7 @@
 ||buhgalter911.com^*/blocker.
 ||buhlvp.pojuko.buzz^
 ||buimg.com^$domain=kisssub.org
+||bujz.top^
 ||bumimi.com/money/
 ||buondua.com/temp*_/?
 ||buondua.com/temp*_/temp*_.js$script
@@ -13072,6 +13075,7 @@
 ||tq121.com.cn/j/ad/
 ||tqdctl.xyz^
 ||tqdpqq.com^
+||tqjqripb.xyz^
 ||tqrznqs.cn^
 ||tqytqdrq.icu^
 ||tqznjujv.xyz^
@@ -13937,6 +13941,7 @@
 ||wenrunyu.com^
 ||wenshenbang.com^$third-party
 ||wenxue.weimeifan.net^
+||werssf.com^
 ||west.bidtellect.com^
 ||west.cn/vcp/getJScode/
 ||westca.com/server/
@@ -14405,6 +14410,7 @@
 ||xqbjjh.xyz^
 ||xqblnei.cn^
 ||xqgduov.cn^
+||xqjqripb.xyz^
 ||xrb0owc.icu^
 ||xrcembm.cn^
 ||xrewo.xyz^
