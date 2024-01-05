@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: d449gYa4sdnbjPaVsHVMYg
+! Checksum: 3M44k9oWEEmWAmGOHo3L4g
 ! Title: 混合规则(自动更新)
-! Version: 20240105160939
+! Version: 20240106000814
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-05 16:09:39
-! Total Count: 126219
+! Last modified: 2024-01-06 00:08:14
+! Total Count: 126228
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6086,6 +6086,7 @@
 ||adv.anhsangvacuocsong.vn^
 ||adv.autosurf.vn^
 ||adv.bandi.so^
+||adv.baoangiang.com.vn^
 ||adv.baotintuc.vn^
 ||adv.baovemoitruong.org.vn^
 ||adv.ettoday.net^
@@ -11282,6 +11283,7 @@
 ||bbvever.com^
 ||bbwzzwremrvkl.top^
 ||bbyavrykjopnnx.xyz^
+||bbyfsfo.cn^
 ||bbyjgkkdihiyxy.com^
 ||bbzerk.cn^
 ||bc-click.net^
@@ -36182,6 +36184,7 @@
 ||kkosiso.com^
 ||kkpgv2.xunlei.com^
 ||kkqeqk.cn^
+||kksjoa.com^
 ||kktxgytr.com^
 ||kkuabdkharhi.com^
 ||kkualfvtaot.com^
@@ -38639,6 +38642,7 @@
 ||log.thanhnien.vn^
 ||log.theleader.vn^
 ||log.thevideo.me^
+||log.thuonggiaonline.vn^
 ||log.tienphong.vn^
 ||log.tieudungthoinay.vn^
 ||log.tiktokv.com^
@@ -42296,6 +42300,7 @@
 ||mptri.net
 ||mpuls.ru^
 ||mpwe.net^
+||mpyerxzn.xyz^
 ||mpymea.xyz^
 ||mpzwsvueph.com^
 ||mq.d6s3mov.cn^
@@ -49464,6 +49469,7 @@
 ||prdlam.com^
 ||prdmjzogryvhhz.com^
 ||prdredir.com^
+||prdwebcollector.ruetracking.com^
 ||pre.03porno.com^
 ||pre.102porno.club^
 ||pre.102porno.net^
@@ -62734,6 +62740,7 @@
 ||tpvuxt.xyz^
 ||tpx.tesseradigital.com^
 ||tpydhykibbz.com^
+||tpyerxzn.xyz^
 ||tpyxplkcap.top^
 ||tpzatf.xyz^
 ||tpzzdrxnp.com^
@@ -78720,8 +78727,8 @@ docin.com##.cpro_mod
 docin.com##.sider_gg
 docs.cfw.lbyczf.com###推广
 docs.cfw.lbyczf.com###推广 + div.list
-docsmall.com##+js(set-constant, _AdBlockInit, noopFunc)
 docsmall.com##.modal-connection.show
+docsmall.com,playwright.nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
 doctorrouter.ru##.jgcabd-container
 dofap.com##.b_videobot
 dofap.com,novinite.com##.banner300x250
@@ -86159,6 +86166,7 @@ playunturned.ru##.side_right > center
 playvids.com##.add_href_jsclick
 playvids.com##.col-lg-6.col-xl-4
 playvids.com,pornflip.com##.invideoBlock
+playwright.nodejs.cn###pagead
 playzuan.com###ShouYe_ShangBu
 pln-pskov.ru###check_ad_block
 plos.org##.head-top
@@ -105900,6 +105908,7 @@ zle.com$script
 ###adsense-468x60
 ###adsense-area
 ###adsense-bottom
+###adsense-container-bottom
 ###adsense-head-spacer
 ###adsense-header
 ###adsense-link
