@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VFfQdy5OSLv8SsbmgpYxCw
+! Checksum: irjaE9qw3tFW3+o2oCxmJQ
 ! Title: 自用去广告Adblock规则
-! Version: 20231228212846
-! Last modified: 2023-12-28 21:28:46
-! Total Count: 3501
+! Version: 20240106232909
+! Last modified: 2024-01-06 23:29:10
+! Total Count: 3504
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -364,6 +364,7 @@
 ##[ontouchstart*="location.href"][ontouchstart*="baidujkdjklvvsbvk.com"]
 ##[src*="//ad.a-ads.com/"]
 ##[src*="//sejieboxapi.yingyangdj.com"]
+##[src*="/adBanner"]
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -1258,6 +1259,7 @@
 .xyz/xling_*_*.js?
 .xyz/zooker?$third-party
 .xyz:*/api/v4/g?kyurl=$third-party
+.xyz:*/cc/*?is_not=$third-party
 /*.php?pid=*&n=$third-party
 /*/*/chart*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
 /*/*/d3.2.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
@@ -3105,6 +3107,7 @@ zle.com$script
 ||g.shommaipl.com^$third-party
 ||ga-ads.com^
 ||gadscc.xyz^
+||gdqrcloud.com/adBanner
 ||getcdnpix.name^
 ||gl.zle.com^
 ||gnrty.kmjkwe.xyz^
