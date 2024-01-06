@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: iy8g+5KrC2TUo1kmNQHWoA
+! Checksum: kO6m5P9gj2ohrqjjhZQsqg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240106160854
+! Version: 20240107000806
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-06 16:08:54
-! Total Count: 25088
+! Last modified: 2024-01-07 00:08:06
+! Total Count: 25097
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6705,6 +6705,7 @@
 ||gdmm.com/api.php?mod=js&bid=2111
 ||gdmm.com/images/leftbottom.png
 ||gdn.bigfishgames.com^
+||gdqrcloud.com/adBanner
 ||gdr3.com/us/
 ||gdt.qq.com^
 ||gdxxb.com^$third-party
@@ -7385,6 +7386,7 @@
 ||hitime5.com/skin/css/*.js
 ||hitubt.xyz^
 ||hixutb.xyz^
+||hjdha.cn^
 ||hjdkvt.xyz^
 ||hjfile.cn/analytics/site/TrackEvent.js
 ||hjgkr0g.xyz^
@@ -9876,6 +9878,7 @@
 ||moend.xyz^
 ||moerats.com/usr/affpc/
 ||mofox.com^
+||mogtrmjz.xyz^
 ||mojiva.com^
 ||molibaike.com/images/ads/
 ||molibaike.com/js/ads.
@@ -12711,6 +12714,7 @@
 ||sznews.com/s?z=
 ||sznj91.com^
 ||szonline.net/static/js/ads.js
+||szpbg.cn^
 ||szpsys.com^$document
 ||szpsys.com^$~third-party
 ||szptlkj.com^$document
@@ -13036,6 +13040,7 @@
 ||tobyxev.com^
 ||todayapp.tv^$popup,third-party
 ||todayweather.co/ads.json
+||togtrmjz.xyz^
 ||tom*.com/js/advment.js
 ||tom.com/*TomFlashAd
 ||tom.com/adsender/
@@ -14407,6 +14412,7 @@
 ||xnxx-cdn.com/*/ppsuma*.js$script
 ||xnxxporn.video/nb39.12/
 ||xnzetb.xyz^
+||xogtrmjz.xyz^
 ||xoimg.com^$domain=18board.com|18p2p.com
 ||xokcaxw.cn^
 ||xolerkr.cn^
@@ -21447,6 +21453,7 @@ zle.com$script
 
 ! →→→→通用Css规则 起始←←←← !
 ###ADbox
+###ADtip
 ###AdBlockDialog
 ###AdBox2
 ###Ad_windows
@@ -22649,6 +22656,7 @@ zle.com$script
 ##.pcd_ad
 ##.pcgg
 ##.pggb > .ng-star-inserted
+##.pggc > .ng-star-inserted
 ##.phone-ads
 ##.photo-two > a[onclick^="_czc."]
 ##.play_list_adbox
@@ -22987,6 +22995,7 @@ zle.com$script
 ##[ontouchstart*="location.href"][ontouchstart*="baidujkdjklvvsbvk.com"]
 ##[src*="//ad.a-ads.com/"]
 ##[src*="//sejieboxapi.yingyangdj.com"]
+##[src*="/adBanner"]
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
