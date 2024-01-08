@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: IHy+ceD4wTSwqxy/ZFYwzQ
+! Checksum: gRuLqs5YVO8IZIaKyogmsg
 ! Title: 混合规则(自动更新)
-! Version: 20240108161021
+! Version: 20240109000856
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-08 16:10:21
-! Total Count: 126484
+! Last modified: 2024-01-09 00:08:56
+! Total Count: 126492
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -15192,6 +15192,7 @@
 ||cdn7.rocks^
 ||cdn7.space^
 ||cdn77.org^*.mp4
+||cdn77.org^*.mp4$badfilter
 ||cdn93d99x0e.23bei.com^
 ||cdnads.com^
 ||cdnads.geeksforgeeks.org^
@@ -42579,6 +42580,7 @@
 ||mtur.xkmnbt.xyz^
 ||mtvekq.com^
 ||mtwdmk9ic.com^
+||mtwwzqdx.xyz^
 ||mtypitea.net^
 ||mtzenhigqg.com^
 ||mu6m1.com^
@@ -44888,6 +44890,7 @@
 ||o0pvw.cn^
 ||o1.jyjyj.cn^
 ||o1000929.ingest.sentry.io^
+||o1184810.ingest.sentry.io^
 ||o18.click^
 ||o18.link^
 ||o1qry0qq83.com^
@@ -60496,6 +60499,7 @@
 ||t.jobsyn.org^
 ||t.karte.io^
 ||t.kck.st^
+||t.la-croix.com^
 ||t.lafa.site/pic/yabrmob.png
 ||t.leady.com^
 ||t.leady.cz^
@@ -60708,6 +60712,7 @@
 ||tags.dxmdp.com^
 ||tags.fullcontact.com^
 ||tags.master-perf-tools.com^
+||tags.newscgp.com^
 ||tags.op-palvelut.fi^
 ||tags.refinery89.com^
 ||tags.soloway.ru^
@@ -64293,6 +64298,7 @@
 ||ttus.tructiepbongda.me^
 ||ttwrhns.cn^
 ||ttwwy.top^
+||ttwwzqdx.xyz^
 ||ttxs8.xyz^
 ||ttykabh.icu^
 ||ttz.com^$third-party
@@ -77238,6 +77244,7 @@ caoporn.com,webjx.com###middleimg
 capetownmagazine.com###top-leader-wrapper
 capitalfm.com,m.youku.com,radiox.co.uk,smoothradio.com,xxxporn.pics##.download
 capsulenz.com,dexdotexe.com,ssbcrack.com,thecoinrise.com##.td_spot_img_all
+caq98i.top##+js(abort-on-property-read, alertadmodal)
 carandclassic.co.uk##.ebayRSS
 carbuzz.com##.cb-video-ad-block
 cardealermagazine.co.uk,rule34.xxx##.desktop
@@ -82553,6 +82560,7 @@ ip-address.org##.aduns2
 ip-address.org##td[style="padding-top:0.3em"]
 ip.cn##.well > p > a
 ip.sb##.rivencloud_ads
+ip138.com###banana
 ipcfun.com###crumb_r
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
