@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 1Aeki/7GkZdVUjStITMCUQ
+! Checksum: M07/iRagINGMFrmK8iUqCw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240109161020
+! Version: 20240110000919
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-09 16:10:20
-! Total Count: 25142
+! Last modified: 2024-01-10 00:09:19
+! Total Count: 25149
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2895,6 +2895,7 @@
 ||adtrue.info^
 ||adtrue24.com^
 ||adtvedk.com^
+||adtx2.cn^
 ||adulatorycrappyghastly.com^
 ||adulatorydigestionmanicure.com^
 ||aduld.click^
@@ -4390,6 +4391,7 @@
 ||bqgaa.com/js/hf*.js?v=$script
 ||bqge.xyz^
 ||bqgeu.com/js/h
+||bqgeu.com/js/h$script
 ||bqgw.xyz^
 ||bqgyy.com^
 ||bqiapp.com/api/config/ad?
@@ -9238,6 +9240,7 @@
 ||liweiling.xyz^
 ||liwupuba.com/livead/
 ||lixiangmo.com^
+||ljhbhy.cn^
 ||ljhhhhrt.top^
 ||ljnrjt.xyz^
 ||ljte0.com^
@@ -10114,6 +10117,7 @@
 ||myweb.hinet.net/menu.htm
 ||myyxox.icu^
 ||mzamin.com/advert/
+||mzelzfnj.xyz^
 ||mzgcst.mbibioe.cn^$document
 ||mzgcst.mbibioe.cn^$~third-party
 ||mzhhdn.com/hongbao.jpg
@@ -13320,6 +13324,7 @@
 ||tyrsn6di.icu^
 ||tyuetxt.com^
 ||tz-68-fabb.com/qiye/
+||tzelzfnj.xyz^
 ||tzfdc.com.cn/userfiles/flash/
 ||tzfdc.com/Images/09/flv/flv_index.js
 ||tzfdc.com/fdcSell/
@@ -23410,6 +23415,7 @@ zle.com$script
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
+##a[href][target="_blank"] > img[src^="https://imgsrc.baidu.com/forum/pic/item"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
 ##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##a[href][target="_blank"][onclick*="广告"]
@@ -23587,6 +23593,7 @@ zle.com$script
 ##div.content > div[style] > div[class="photo-two"]
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
+##div.flex.justify-center > ins[id]
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div.links-top > ul.icon-list
