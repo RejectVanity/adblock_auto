@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: irjaE9qw3tFW3+o2oCxmJQ
+! Checksum: FqJkKJh4LcqFbNhMD5yF2A
 ! Title: 自用去广告Adblock规则
-! Version: 20240106232909
-! Last modified: 2024-01-06 23:29:10
-! Total Count: 3504
+! Version: 20240109201854
+! Last modified: 2024-01-09 20:18:54
+! Total Count: 3507
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -530,6 +530,7 @@
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
+##a[href][target="_blank"] > img[src^="https://imgsrc.baidu.com/forum/pic/item"]
 ##a[href][target="_blank"] > img[src^="images/gg/"][alt]
 ##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##a[href][target="_blank"][onclick*="广告"]
@@ -642,6 +643,7 @@
 ##div.content > div[style] > div[class="photo-two"]
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
+##div.flex.justify-center > ins[id]
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div.links-top > ul.icon-list
@@ -1257,6 +1259,7 @@
 .xyz/wiseindex*?$third-party
 .xyz/xfb_m.js$third-party,script
 .xyz/xling_*_*.js?
+.xyz/z/*/code.js$script,third-party
 .xyz/zooker?$third-party
 .xyz:*/api/v4/g?kyurl=$third-party
 .xyz:*/cc/*?is_not=$third-party
