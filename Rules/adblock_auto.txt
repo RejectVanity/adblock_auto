@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: OP/up2xIMgMjHW78d7kPrg
+! Checksum: arjySsNouUzl/KtFIVGaAA
 ! Title: 混合规则(自动更新)
-! Version: 20240110120255
+! Version: 20240110160959
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-10 12:02:55
-! Total Count: 126612
+! Last modified: 2024-01-10 16:09:59
+! Total Count: 126621
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2667,6 +2667,7 @@
 ||777755.net^
 ||77777.org^$third-party
 ||777aa999aa.com^
+||777bb111ww.com^
 ||777seo.com^
 ||777zz777zz.com^
 ||778669.com^
@@ -8403,6 +8404,7 @@
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
 ||analytics.yts.vn^
+||analytics.zapps.me^
 ||analytics.zapps.vn^
 ||analytics.zg-api.com^
 ||analytics.ziftsolutions.com^
@@ -14154,6 +14156,7 @@
 ||byjykj.xyz^
 ||byjykj.xyz^$third-party,image
 ||byluvdiscor.com^
+||bymahuxv.xyz^
 ||bymnyzbkylaaw.top^
 ||bymnyzbkylvkv.top^
 ||bymyth.com^
@@ -38710,6 +38713,7 @@
 ||log.kinhtedouong.vn^
 ||log.klook.com^
 ||log.krs-ix.ru^
+||log.lichviet.org^
 ||log.m.sm.cn^
 ||log.ma-jin.jp^
 ||log.make50.com^
@@ -40673,6 +40677,7 @@
 ||measure.ly^
 ||measure.mf.cz^
 ||measure.refinery89.com^
+||measure.vndirect.com.vn^
 ||measuread.com^
 ||measurecaption.com^
 ||measured.com^
@@ -55815,6 +55820,7 @@
 ||sentry.footballiapp.com^
 ||sentry.hamravesh.com^
 ||sentry.malltina.com^
+||sentry.mediacdn.vn^
 ||sentry.namava.ir^
 ||sentry.outbid.io^
 ||sentry.quera.org^
@@ -81801,8 +81807,11 @@ hk.yahoo.com###mntl1
 hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 hk.yahoo.com##div[id^="my-ads"]
 hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
+hk01.com###debug-0-ad-outer-container
+hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
 hk01.com##.md\:min-h-\[90px\]
 hk01.com##.min-h-\[250px\].mb-3
+hk01.com##div[class^="Box-v"] > .enterviewport__wrapper:has(> div[data-id="lazyload-placeholder"]:only-child)
 hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
 hk01.com##div[data-id="lazyload-placeholder"]
 hkcards.com###ad-slot-01
