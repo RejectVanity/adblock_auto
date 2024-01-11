@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HdkVorYUSl1VF+tsUdwXWg
+! Checksum: aTi/Ol/xUJEnCHn6DF+NRA
 ! Title: 自用去广告Adblock规则
-! Version: 20240111090204
-! Last modified: 2024-01-11 09:02:04
-! Total Count: 3510
+! Version: 20240111172114
+! Last modified: 2024-01-11 17:21:14
+! Total Count: 3515
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2193,6 +2193,10 @@ avgle.com##img[src*=".php"]
 baidu.com###content_right > div > div[id^="m"]
 baidu.com###ec_im_container
 baidu.com###header > div:last-child > div > a:first-child
+baidu.com###s-hotsearch-wrapper
+baidu.com###search-union-ad
+baidu.com###u1 > div.guide-info:last-child
+baidu.com##.FYB_RD
 baidu.com##.baiduapp-ad-container
 baidu.com##.barea-ad
 baidu.com##.brand-entry
@@ -2455,6 +2459,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > t
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"],.result-op[tpl="game-page-romance"],.result-op[tpl="right_chris_prize_list"],.result-op[tpl="right_game_recommend"],.result-op[tpl="right_timeliness2"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + style + div + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="_canvas"],div[id^="ecl-pc-game-"]
+ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#.c-container:-abp-has(.t > a[data-landurl])
 iyar.com.cn,m4411.com##[class][style*="131px"]
 jable.tv###jimds-slider
 jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
