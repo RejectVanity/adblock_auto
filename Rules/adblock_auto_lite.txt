@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mZNAI/mEHC7UsWH1tlBV2Q
+! Checksum: SRdia0Zp00ZPakNO9V2+SA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240111161002
+! Version: 20240111172346
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-11 16:10:02
-! Total Count: 25185
+! Last modified: 2024-01-11 17:23:46
+! Total Count: 25191
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14313,6 +14313,7 @@
 ||xdyjt.com^
 ||xdytt.com/b_*.js
 ||xeazoj.icu^
+||xebohjhh.xyz^
 ||xecner.top^
 ||xeghes.fun^
 ||xeiatmf.cn^
@@ -15594,6 +15595,10 @@ badjojo.com,boysfood.com,definebabe.com,efukt.com,fantasti.cc,girlsofdesire.org,
 baidu.com###content_right > div > div[id^="m"]
 baidu.com###ec_im_container
 baidu.com###header > div:last-child > div > a:first-child
+baidu.com###s-hotsearch-wrapper
+baidu.com###search-union-ad
+baidu.com###u1 > div.guide-info:last-child
+baidu.com##.FYB_RD
 baidu.com##.baiduapp-ad-container
 baidu.com##.barea-ad
 baidu.com##.brand-entry
@@ -16359,6 +16364,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > t
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"],.result-op[tpl="game-page-romance"],.result-op[tpl="right_chris_prize_list"],.result-op[tpl="right_game_recommend"],.result-op[tpl="right_timeliness2"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + style + div + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="_canvas"],div[id^="ecl-pc-game-"]
+ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#.c-container:-abp-has(.t > a[data-landurl])
 irk.ru##.b-adblock-message
 it-enginer.ru##body > #modal[style*="blur"]
 its.porn##.desk-banners
