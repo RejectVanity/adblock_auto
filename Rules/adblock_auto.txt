@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: EfmuEQyeIA7VPkF+eLhjqA
+! Checksum: vlr+q3jJELTDvBdrKL9kTQ
 ! Title: 混合规则(自动更新)
-! Version: 20240111172336
+! Version: 20240111203747
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-11 17:23:36
-! Total Count: 126682
+! Last modified: 2024-01-11 20:37:47
+! Total Count: 126692
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -9834,6 +9834,7 @@
 ||atmtaoda.com^
 ||atnnf.xyz^
 ||ato.mx^
+||ato.tooopen.com^
 ||ato.tooopen.com^$third-party
 ||atom-log.3.cn^
 ||atomex.net^
@@ -29339,6 +29340,7 @@
 ||h0w-t0-watch.net^
 ||h1.cfxinxi.cn^
 ||h1.kukuw.com^
+||h1.wk2.com^
 ||h12-media.com^
 ||h12h.fun^
 ||h15maincat.com^
@@ -52277,6 +52279,7 @@
 ||raphidewakener.com^
 ||rapidads.de^
 ||rapidcounter.com^
+||rapidgator.net/images/pics/$domain=appshot.cc
 ||rapidgatorporn.net/templates/rapidgatorporn/images/Flashbit.gif
 ||rapidhits.net^
 ||rapidkittens.com^
@@ -61310,6 +61313,7 @@
 ||teazzer.ru^
 ||tebadu.com^
 ||tebaidu.cn^$third-party
+||tebohjhh.xyz^
 ||tebrand.asia^
 ||tebrand.vn^
 ||tecaavdsy.com^
@@ -64935,6 +64939,7 @@
 ||u1trkqf.com^
 ||u1tshop.ru^
 ||u1zga.letsporn.com^
+||u21033.com^
 ||u21drwj6mp.com^
 ||u22011.com^
 ||u22033.com^
@@ -68403,6 +68408,7 @@
 ||webclickmanager.com^
 ||webclicktracker.com^
 ||webcompteur.com^
+||webconf.douyucdn.cn/resource/common/giftPhotos_w.json
 ||webcontentassessor.com^
 ||webcounter.co.za^
 ||webcounter.goweb.de^
@@ -74079,7 +74085,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
 18-comic.work,18comic.org,18comic.vip,18comic1.art,18comic2.art,bejson.com,breakingenergy.com,epicload.com,jmcomic.me,json.cn,movieclassic.net,pianyuan.org,qixingquan.com,shine.cn##.modal-backdrop
 18-comic.work,18comic.org,18comic.vip,18comic1.art,18comic2.art,jmcomic.me###guide-modal
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
+18-comic.work,18comic.org,18comic.vip,boylove1.mobi,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
@@ -77112,6 +77118,10 @@ boylove.cc###floating_page
 boylove.cc###yteggbue
 boylove.cc##.dzxvovcm
 boylove.cc#?#.stui-pannel__bd > div[class]:has(> div[class] > div[class] > a[href][target="_blank"][rel="nofollow"] > img[src^="/bookimages/img/"][src$=".gif"])
+boylove1.mobi##.fuafxnfq
+boylove1.mobi##.main-banner
+boylove1.mobi##.sponsor-colse
+boylove1.mobi##div[data-group="300x100"]
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##[class^="swiper-slide"]
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##[data-group]
 boyloves.fun,boylov.xyz,boylove.today,boylove.cc,boylove1.cc,boylove3.cc,boylove5.cc,boylove.mobi##[style*="min-height:"][style*="border-bottom: solid"]
