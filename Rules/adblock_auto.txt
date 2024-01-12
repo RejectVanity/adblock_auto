@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Ktd5o++4vLrlVneNVRpx0Q
+! Checksum: KfHE52Y2i4SsVazp2+pdHw
 ! Title: 混合规则(自动更新)
-! Version: 20240112160945
+! Version: 20240112164044
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-12 16:09:45
-! Total Count: 126785
+! Last modified: 2024-01-12 16:40:44
+! Total Count: 126788
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -54174,6 +54174,7 @@
 ||routierbefit.space^
 ||routingnaias.com^
 ||rouvoute.net^
+||rouwenge.vip/astyle/$script
 ||rouwhapt.com^
 ||rovion.com^
 ||rovno.xyz^
@@ -94064,6 +94065,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .vip/?channelCode=$document
 .vip/?channelCode=$~third-party
 .vip/ads/
+.vip/astyle/wap.js$script,~third-party
 .vip/gg/
 .vip/html/ddx.js
 .vip/html/hfv.js
@@ -94144,6 +94146,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .xyz/polymer?$third-party
 .xyz/r/*$xmlhttprequest
 .xyz/read?$third-party
+.xyz/send?$third-party
 .xyz/stimulus?$third-party
 .xyz/svelte?$third-party
 .xyz/ttdlyqbff/*/*.gif?$third-party,image
