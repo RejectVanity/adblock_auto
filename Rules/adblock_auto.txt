@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SKVdB9/dNgR/kBXVRRNNtA
+! Checksum: M+/O2hOlz0I/g8VfWHXEAw
 ! Title: 混合规则(自动更新)
-! Version: 20240112083316
+! Version: 20240112145625
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-12 08:33:16
-! Total Count: 126777
+! Last modified: 2024-01-12 14:56:25
+! Total Count: 126785
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5397,6 +5397,7 @@
 ||ads-admin.hubs.vn^
 ||ads-api.kidsnote.com^
 ||ads-api.playfun.vn^
+||ads-api.production.nebula-drupal.stuff.co.nz^
 ||ads-api.twitter.com^$xmlhttprequest,redirect-rule=noop.txt
 ||ads-api.twitter.com^$xmlhttprequest,redirect-rule=nooptext
 ||ads-bidder-api.twitter.com^
@@ -11464,6 +11465,7 @@
 ||bdimg.com/static/wkcore/widget/commerce/fengchao/
 ||bdimg.com/static/wkview/widget/download_after_activity_new/download_after_activity_new_
 ||bdimg.com^$domain=diyifuli.top|idaohang.top|ifulione.com|ifulione.top|onedh.xyz|onefuli.top
+||bdjdpyrt.xyz^
 ||bdjg.xyz^
 ||bdjiaoben.wmxa.cn^
 ||bdjj.bzr99.com^
@@ -20184,6 +20186,7 @@
 ||df.tanx.com^
 ||df253f3b96.com^
 ||df5b.top^
+||df63x.xyz^
 ||df77.com^
 ||df888.eastday.com^
 ||df9377.com^$third-party
@@ -34917,6 +34920,7 @@
 ||jnsgdaqsiqcumg.xyz^
 ||jntmedia.cn^$third-party
 ||jntxvf.xyz^
+||jnwpzq.com^
 ||jnwq.xyz^
 ||jnwsrqxrdqct.top^
 ||jnxm2.com^
@@ -65161,6 +65165,7 @@
 ||udifvi.cn^
 ||udinugoo.com^
 ||udiy.club^
+||udjdpyrt.xyz^
 ||udkcrj.com^
 ||udlqdkqdfymq.com^
 ||udmserve.net^
@@ -75728,6 +75733,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##div[cel_widget_id="desktop-dp-sims_sb-dp-id"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
+amazon.com##[data-car-metrics-id]
 amazonadviser.com,apptrigger.com,arrowheadaddict.com,bamsmackpow.com,fansided.com,gamesided.com,gojoebruin.com,hiddenremote.com,lastnighton.com,mentalfloss.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,stormininnorman.com,winteriscoming.net##.style_k8mr7b-o_O-style_1ts1q2h
 amazonadviser.com,apptrigger.com,fansided.com,hiddenremote.com,lastnighton.com,lawlessrepublic.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,stormininnorman.com,winteriscoming.net##.header-billboard
 amctheatres.com##.flt-ad-strut
@@ -87647,6 +87653,7 @@ rawindianporn.com###divtime
 rawstory.com###rawstory_front_2_container
 rawstory.com###story-top-ad
 rawstory.com##.connatix-hodler
+rawstory.com##.container_proper-ad-unit
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 reachmax.cn
 reactiongifs.com##div[style="width:499px; background:#ffffff; margin:00px 0px 35px 180px; padding:20px 0px 20px 20px; "]
@@ -98444,6 +98451,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /detroitchicago/tuscon.js
 /detroitchicago/vista.js
 /detroitchicago/vpp.gif?
+/detroitchicago/wichita.js
 /develop/ads_
 /devicead/*
 /dfp-ads.
