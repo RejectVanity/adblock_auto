@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aTi/Ol/xUJEnCHn6DF+NRA
+! Checksum: QfgkA4kWxdgPWgkkWQmZYw
 ! Title: 自用去广告Adblock规则
-! Version: 20240111172114
-! Last modified: 2024-01-11 17:21:14
-! Total Count: 3515
+! Version: 20240112163814
+! Last modified: 2024-01-12 16:38:15
+! Total Count: 3519
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1208,6 +1208,7 @@
 .top:*/api/v4/g?kyurl=$third-party
 .top:*/o.js$third-party,script
 .top:*/vh5/$third-party
+.vip/astyle/wap.js$script,~third-party
 .xin/blxn_*.js?
 .xyz/*.gif?*16$third-party
 .xyz/*?16$third-party
@@ -1247,6 +1248,7 @@
 .xyz/polymer?$third-party
 .xyz/r/*$xmlhttprequest
 .xyz/read?$third-party
+.xyz/send?$third-party
 .xyz/stimulus?$third-party
 .xyz/svelte?$third-party
 .xyz/ty/*-*.alpha$third-party
@@ -3203,6 +3205,7 @@ zle.com$script
 ||js.mtgqt.com/vdn/$script
 ||js.users.51.la^
 ||js.xgmeitu.com/*/*.js
+||jsjtjj.xyz^
 ||juicyads.com^
 ||kairuxinxi.xyz^$third-party
 ||kcieo.xyz^$third-party
@@ -3317,6 +3320,7 @@ zle.com$script
 ||riamiavid.com^
 ||rkgwzfwjgk.com^$third-party
 ||route34.cn^
+||rouwenge.vip/astyle/$script
 ||rpninf.xyz^$third-party
 ||rpvdfb.xyz^
 ||rtbpopd.com^
