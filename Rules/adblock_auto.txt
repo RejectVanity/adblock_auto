@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: t9tzLmTs4sPRrl+np/+atA
+! Checksum: r6k+z4itd1z/EZ6fuEacvw
 ! Title: 混合规则(自动更新)
-! Version: 20240114160853
+! Version: 20240115000815
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-14 16:08:53
-! Total Count: 131462
+! Last modified: 2024-01-15 00:08:15
+! Total Count: 131463
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -50259,6 +50259,7 @@
 ||pfiuyt.com^
 ||pfja.top^
 ||pfjfj45.xyz^
+||pfjtgxc.cn^
 ||pflexads.com^
 ||pflhnpu.cn^
 ||pfp.sina.com.cn^$script,subdocument
@@ -96956,7 +96957,7 @@ youtube.com##ytd-video-masthead-ad-v3-renderer
 youtube.com##ytd-watch-flexy > #columns > #primary > #primary-inner > #below > ytd-merch-shelf-renderer > #main > #banner.ytd-merch-shelf-renderer
 youtube.com##ytd-watch-flexy > #columns > #primary > #primary-inner > #below > ytd-merch-shelf-renderer > #main > #item-list > #scroll-container > #items.ytd-merch-shelf-renderer[style="transform: translateX(0px);"]
 youtube.com##ytd-watch-flexy > #columns > #secondary > #secondary-inner > #related > #player-ads.style-scope.ytd-watch-flexy
-youtube.com##ytd-watch-flexy > #columns > #secondary > #secondary-inner > #related > ytd-watch-next-secondary-results-renderer > #items > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer
+youtube.com##ytd-watch-flexy > #columns > .ytd-watch-flexy[id$="ary"] > .ytd-watch-flexy[id$="ary-inner"] > #related > ytd-watch-next-secondary-results-renderer > #items > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer
 youtube.com##ytm-companion-slot
 youtube.com##ytm-promoted-sparkles-text-search-renderer
 youtube.com##ytm-promoted-sparkles-web-renderer
