@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: XAJu5J6bZK+SO3khtfbNmQ
+! Checksum: t9tzLmTs4sPRrl+np/+atA
 ! Title: 混合规则(自动更新)
-! Version: 20240114083644
+! Version: 20240114160853
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-14 08:36:44
-! Total Count: 131454
+! Last modified: 2024-01-14 16:08:53
+! Total Count: 131462
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -2125,6 +2125,7 @@
 ||53shop.com/ime/*.js
 ||53shop.com/img/*.js
 ||53shop.com/js/dun.js
+||53ynh.xyz^
 ||54.169.80.245/ad^
 ||54.222.186.106^
 ||543et.com/detail/
@@ -14763,6 +14764,7 @@
 ||c9l.xyz^
 ||c9p7at3pctmprvb5ecq66vvd.ml^
 ||c9qh3.website^
+||c9ql2.com^
 ||c9r05q.com^
 ||c9tt3jj.top^
 ||c9xv.xyz^
@@ -19847,6 +19849,7 @@
 ||danstr.fun^
 ||dantbritingd.club^
 ||dantri.live^
+||dantrii.info^
 ||danun.cn^
 ||danzhallfes.com^
 ||danzigtitoism.guru^
@@ -24792,6 +24795,7 @@
 ||evs.data.ciceksepeti.com^
 ||evs.proxy.analytics.shutterstock.com^
 ||evs.sgmt.loom.com^
+||evscnfj.cn^
 ||evsembu.com^
 ||evt-api.ntm.eu^
 ||evt.houzz.com^
@@ -83857,10 +83861,11 @@ douban.com##.rec_topics_name[href^="https://erebor.douban."]
 douban.com##iframe[src*="//at4.doubanio.com"]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 doubibackup.com###guangg_image
-doubibackup.com##.guangg
 doubibackup.com##.new_zixun
 doubibackup.com##.widgetRoller
 doubibackup.com##a[href*="/rightad"]
+doubibackup.com,github.io##.guangg
+doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
 doubleviking.com,mrskin.com##.az
 doubtnut.com###Desktop_VideoPage_Side_Banner_1-container
 doubtnut.com###Web_HomePage_Banner_Resposive_1-container
@@ -122994,6 +122999,7 @@ zle.com$script
 ##.homeadnews
 ##.homeadwrapper
 ##.homefront468Ad
+##.homepage > .wp-none1
 ##.homepage--sponsor-content
 ##.homepage-300-250-ad
 ##.homepage-ad
@@ -123912,6 +123918,7 @@ zle.com$script
 ##.module-image-ad
 ##.module-rectangleads
 ##.module-sponsored-ads
+##.module-tglist > .tg-normal-box
 ##.module-ttlist.tt_w-2
 ##.module-yylist.tg_w
 ##.module-zerg
@@ -124341,6 +124348,7 @@ zle.com$script
 ##.pads2
 ##.pads_bulk_widget
 ##.padvertlabel
+##.page > .wp-none1
 ##.page-ad
 ##.page-ads
 ##.page-advert
