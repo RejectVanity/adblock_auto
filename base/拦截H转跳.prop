@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /mFWuFolfLXTj+2VEYp3zQ
+! Checksum: 27COFqAZqwvqQt1hxOxwUg
 ! Title: 拦截黄色网站转跳
-! Version: 20231224084217
-! Last modified: 2023-12-24 08:42:17
-! Total Count: 416
+! Version: 20240115115434
+! Last modified: 2024-01-15 11:54:34
+! Total Count: 422
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -148,6 +148,8 @@
 /?linkid=*&pop=1$~third-party
 /?linkid=*&type=$document
 /?linkid=*&type=$~third-party
+/?user_id=*&token=*&device_id=*&*#/$document
+/?user_id=*&token=*&device_id=*&*#/$~third-party
 /?utm_source=*&utm_campaign=*$document
 /?utm_source=*&utm_campaign=*$~third-party
 /Goto/aWNvbi*=/*$document
@@ -236,6 +238,8 @@
 :2023/vip/index.php?refresh&rand=$~third-party
 ?channelCode=chigua$document
 ?channelCode=chigua$~third-party
+caigepseyoulianjie-*.*.com$document
+caigepseyoulianjie-*.*.com$~third-party
 zhaotianbao1.cn/*/ywy*.apk$document
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||144w6.com^$document
@@ -308,6 +312,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||h.*tad.cn/?$~third-party
 ||h5.sdahh.com^$document
 ||h5.sdahh.com^$~third-party
+||h5.xn--jzu814j.com^$document
+||h5.xn--jzu814j.com^$~third-party
 ||hh*.huojiabeijing.org^$document
 ||hh*.huojiabeijing.org^$~third-party
 ||iqbecde.cn^$document

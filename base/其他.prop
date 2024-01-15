@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QfgkA4kWxdgPWgkkWQmZYw
+! Checksum: lPkWUu8cDl7o1EUAKw6hSA
 ! Title: 自用去广告Adblock规则
-! Version: 20240112163814
-! Last modified: 2024-01-12 16:38:15
-! Total Count: 3519
+! Version: 20240115115229
+! Last modified: 2024-01-15 11:52:29
+! Total Count: 3521
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -592,6 +592,7 @@
 ##a[target="_blank"][href="/adjump/acg_show_right.html"]
 ##a[target="_blank"][href^="https://365fun.sng.link"]
 ##bkveng
+##body > #__nuxt
 ##body > #app > .adv-frame
 ##body > #showcloneshengxiaon
 ##body > .ec-ad
@@ -619,6 +620,7 @@
 ##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
+##body > noscript + #app
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body#app.pc.mobile
