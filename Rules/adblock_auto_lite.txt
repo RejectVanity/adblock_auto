@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: whXitw4ZlnaxLCVKxd5tWg
+! Checksum: J6zZ7AI6YxX43jyktKjQMg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240115083447
+! Version: 20240115161111
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-15 08:34:47
-! Total Count: 25252
+! Last modified: 2024-01-15 16:11:11
+! Total Count: 25266
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -423,6 +423,7 @@
 ||2023518.com/js/mi.js
 ||2023sb.net^
 ||2023welcome.com^$third-party
+||2024114t.shop^
 ||2048hd1.com/js/tc.js
 ||205.209.138.102^
 ||20mao.com/52
@@ -5371,6 +5372,7 @@
 ||daeis.cn^
 ||daenf.cn^
 ||dafdf.cn^
+||dafdfd.cn^
 ||daftporn.com/nb_
 ||dagamemisdeed.com^
 ||dagft.cn^
@@ -7140,6 +7142,8 @@
 ||h5.isnssdk.com^
 ||h5.sdahh.com^$document
 ||h5.sdahh.com^$~third-party
+||h5.xn--jzu814j.com^$document
+||h5.xn--jzu814j.com^$~third-party
 ||h6295.com^$popup
 ||h731.icu^
 ||ha-api.pushwoosh.com^
@@ -11911,6 +11915,7 @@
 ||ruten.com.tw^*/ahd_
 ||ruyig.com/730x76.png
 ||ruyqiolnz.cyou^
+||rvbiocn.cn^
 ||rvlgrb.xyz^
 ||rvreuxi.cn^
 ||rvvji.online^
@@ -13447,6 +13452,7 @@
 ||u25022.com^
 ||u2676.com^
 ||u26u.com^$popup,third-party
+||u2tu4.icu^
 ||u33011.com^
 ||u33022.com^
 ||u55011.com^
@@ -15797,6 +15803,8 @@ buondua.com,buondua.us,kostaku.art,kostaku.com,kostaku.live,kostaku.us##div[clas
 bustyporn.com##.widget-friends
 bycard.by,goodfon.ru,kimo.ma,old-games.ru,satsis.info,swordmaster.org##.adb
 byzoo.org,videobug.net##div[style^="position: absolute; width: 300px;"]
+caigepseyoulianjie-*.*.com$document
+caigepseyoulianjie-*.*.com$~third-party
 cam4.com###headerMenuMainUL > li > #sexgames
 cam69.com,sexu.com##.sidebarBanner
 cambb.xxx,chaturbate.com,dlgal.com,m.90xw.com,playboy.com,rampant.tv,sex.com,signbucks.com,sprashivalka.com,tallermaintenancar.com,tehvids.com,thehentaiworld.com,thehun.net,theporn.cc,tiktits.com,uflash.tv,xcafe.com##.ad
@@ -18918,6 +18926,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /?linkid=*&pop=1$~third-party
 /?linkid=*&type=$document
 /?linkid=*&type=$~third-party
+/?user_id=*&token=*&device_id=*&*#/$document
+/?user_id=*&token=*&device_id=*&*#/$~third-party
 /?utm_source=*&utm_campaign=*$document
 /?utm_source=*&utm_campaign=*$~third-party
 /AdS/RAD.
@@ -21572,6 +21582,8 @@ _rony.js$script,third-party
 _tm11_pmt_
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
+caigepseyoulianjie-*.*.com$document
+caigepseyoulianjie-*.*.com$~third-party
 cc/o.js$third-party,script
 https://*.*/TC/*/*.gif$third-party,image
 https://*.*/YC/*/*.gif$third-party,image
@@ -23631,6 +23643,7 @@ zle.com$script
 ##amp-sticky-ad
 ##bkveng
 ##body .has-ad
+##body > #__nuxt
 ##body > #app > .adv-frame
 ##body > #showcloneshengxiaon
 ##body > .ec-ad
@@ -23660,6 +23673,7 @@ zle.com$script
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
+##body > noscript + #app
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
