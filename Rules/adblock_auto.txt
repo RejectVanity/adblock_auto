@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ulrjPS7tgfnuYDJJIbkREQ
+! Checksum: zYIJGmGnwcPrnWeu4OqjhQ
 ! Title: 混合规则(自动更新)
-! Version: 20240115161100
+! Version: 20240116000901
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-15 16:11:00
-! Total Count: 131529
+! Last modified: 2024-01-16 00:09:01
+! Total Count: 131534
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -42205,6 +42205,7 @@
 ||maxonclick.com^
 ||maxplan.ru^
 ||maxprofitcontrol.com^
+||maxrilla.com^
 ||maxserving.com^
 ||maxthonimg.com/v6/festival/
 ||maxtracker.net^
@@ -63077,6 +63078,7 @@
 ||sts.eccmp.com^
 ||stt.nimbusweb.me^
 ||sttcc.top^
+||stteeruptowind.com^
 ||stthykerewasn.com^
 ||sttrr.top^
 ||stubborndreadcounterfeit.com^
@@ -83538,6 +83540,7 @@ dataguru.cn,qianlima.com###bg
 datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###inline-top
 datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###sticky-bottom
 datapps.org##+js(remove-attr, onclick, a[href][onclick^="setpos"])
+datareportal.com###fuse-sticky
 dataversity.net,forum.qrz.ru,life.ru,mastergrad.com,rtlxl.nl,sakshi.com,songlyrics.com,wallpapershome.ru,yallamotor.com##.adblock
 datedatego.com##.ddg
 datedatego.com##.ddg0
@@ -88381,7 +88384,10 @@ karnalguide.com##.two_third > .push20
 kartaplovdiv.com##+js(remove-attr, href, a[href="https://kartaplovdiv.com/c5/sexdating.php"])
 kaskus.co.id##.bottom-frame
 kastown.com##.tkyrwhgued
+katestube.com###pre-block
+katestube.com##.player-aside
 katestube.com##.spot-holder
+katestube.com,pornwhite.com##.bottom-items
 kathmandupost.com##.pt-0
 kathmandupost.com##.sticky--bottom
 katv.com##.index-module_adAfterContent__1cww
@@ -90573,9 +90579,9 @@ niutuku.com###downAD1
 niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
-nivod4.tv,nivod5.tv##.nav-ads
 nivod4.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
-nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
+nivod4.tv,nivod5.tv,nivod7.tv##+js(set-constant, detailParams.is_ad_play, false)
+nivod4.tv,nivod5.tv,nivod7.tv##.nav-ads
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.jumpUrl, '')
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.mediaUrl, '')
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.title, '')
@@ -91873,7 +91879,6 @@ pornvideotop.com##+js(no-setTimeout-if, location.href)
 pornwatch.ws,hindimoviestv.com,123-movies.life,thetodaypost.com,123films.cc,123ssgm.cc,123moviesfx.live,123movies4u.icu,5movies.buzz,xxxparodyhd.net,movgotv.com,123movies.*,bluemovies.co,freeomovie.info,gofilms4u.co,gomovies.ltd,gomovieshd.be,hindilinks4u.co,movi.pk,moviesahd.com,my123movies.org,novamovie.net,openloadmovies.stream,prmovies.co,putlocker.*,putlockerslinks.com,rdxhd.cool,streamporn.pw,streamup.pro,the123movies.com,xopenload.me##.mvic-btn > a.btn-successful
 pornwatchers.com,pornrabbit.com##.stage-promo
 pornwhite.com##+js(abort-on-property-read, customScript)
-pornwhite.com##.bottom-items
 pornwhite.com##.info_wrap > div[class="cs"]
 pornwhite.com##.player-spots
 pornwhite.com#?#.container-side:has(> b:first-child + div[data-banner]:last-child)

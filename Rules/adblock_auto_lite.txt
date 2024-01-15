@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: J6zZ7AI6YxX43jyktKjQMg
+! Checksum: VAQfxS0VUI3USyat12G/Eg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240115161111
+! Version: 20240116000911
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-15 16:11:11
-! Total Count: 25266
+! Last modified: 2024-01-16 00:09:11
+! Total Count: 25264
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20,7 +20,6 @@
 |https://m.frgls.com/js/*.js?v=
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*/ad/$redirect=noop-0.1s.mp3,domain=huaren.tv,media
-||*^sdtfrom=^$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||*ggua.xyz^$third-party
 ||*xav.*/guang/*.gif
 ||*xav.*/guang/*.jpg
@@ -9406,7 +9405,6 @@
 ||ltienll.top^
 ||ltkbyfd.icu^
 ||ltn.com.tw/js/ad_door.js
-||lts*.qq.com^*.ts?index=$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||ltsubzgmw.xyz^
 ||ltwfd.xyz^
 ||lu.lindhf4.com^$document
