@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 23rN9px3oATFvezzMKH+Rg
+! Checksum: /N+PWAp+vzJOhXPAy9qzSA
 ! Title: 自用去广告Adblock规则
-! Version: 20240116211320
-! Last modified: 2024-01-16 21:13:20
-! Total Count: 3522
+! Version: 20240117224817
+! Last modified: 2024-01-17 22:48:17
+! Total Count: 3524
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -632,6 +632,7 @@
 ##dd > a[data-uuid]
 ##display-ad-component
 ##display-ads
+##div + .slide > a[href*=".hanguomanhua.me"]
 ##div > [style="display: flex; flex-direction: column;width: 100%;"] > [style$="overflow: hidden; cursor: pointer;"]
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > a[href^="https://b"][href$=".vip"][target="_blank"] > img[src]
@@ -845,7 +846,6 @@
 ##iframe[width="980"][height="90"]
 ##iframe[width][height][src*="/api/spots/"][src*="?"]
 ##iframe[width][height][src*="/s/s/su.php?"][src*="https%3A"]
-##img.lazyLoad.videoCover
 ##img[alt$="抖阴"]
 ##img[alt$="横幅"][src$=".gif"]
 ##img[alt$="约炮"]
@@ -2246,6 +2246,7 @@ baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
 baike.so.com##[id^="business-flow"]
 baobao.baidu.com##section.qb-commend-wrap
 bdsmlr.com#@#.ads-container
+bh300.top##div:has(img[src^="https://img6.aliyuncdn6.top/ad/"])
 bilibili.com##.float-btn
 bilibili.com##.read-recommend-info
 bing.com###BottomAppPro
@@ -3152,6 +3153,7 @@ zle.com$script
 ||gz-yunxi.com^
 ||ha.liuye.club^
 ||halihali*.com/js/wap2-jm-ms.js?$script
+||hanguomanhua.me/style*/js20*.js?v=
 ||hb.vhsrv.com^
 ||hdpornfree.xxx/sup/*.js
 ||hetang123.com/assets/public/$script
