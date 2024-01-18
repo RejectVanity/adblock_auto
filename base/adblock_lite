@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: H1Bden6MN1v9X+MYh9s4KQ
+! Checksum: g+/PUw0zeSW0mi4Oc1ioCQ
 ! Title: 混合规则(精简版)
-! Version: 20240117223414
+! Version: 20240118131337
 ! Expires: 1145141919810
-! Last modified: 2024-01-17 22:36:27
-! Total Count: 25236
+! Last modified: 2024-01-18 13:15:27
+! Total Count: 25238
 ! Homepage: https://lingeringsound.github.io/adblock
 ! Gitea Homepage: https://gitea.com/lonely_dog/adblock/src/branch/master/README.md
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock
@@ -7178,6 +7178,7 @@
 ||handuwl.top^
 ||hangchen.icu^
 ||hangtuo.pub^
+||hanguomanhua.me/style*/js20*.js?v=
 ||hangzhouhdb.top^
 ||hanjutv2020.com/index.php?c=dudu_
 ||hanjutv2020.com/statics/skin/*/js/plus.js
@@ -17590,8 +17591,6 @@ sogou.com##.top-list[data-type="hotword"]
 sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
-sogou.com##.vrResult[data-v="102"][exposed="1"]
-sogou.com##.vrResult[data-v="103"][exposed="1"]
 sogou.com##A[data-log*="PicAd"]
 sogou.com##LI.sugg-hot
 sogou.com##div[class^="news-top-banner"]
@@ -23667,6 +23666,7 @@ zle.com$script
 ##dd > a[data-uuid]
 ##display-ad-component
 ##display-ads
+##div + .slide > a[href*=".hanguomanhua.me"]
 ##div > [style="display: flex; flex-direction: column;width: 100%;"] > [style$="overflow: hidden; cursor: pointer;"]
 ##div > a[href][target="_blank"][rel="nofollow"] > img[src$=".gif"]
 ##div > a[href^="https://b"][href$=".vip"][target="_blank"] > img[src]
@@ -25245,6 +25245,8 @@ reshu.by,reshuent.kz,reshuolymp.ru,sdamgia.ru#@#.googlead
 rouwenge.vip,jpq.me#@#[class$="ad-container"]
 sexbjcam.com#@#.google-ad
 shahid4u.club#@#.adsBox
+sogou.com#@#.vrResult[data-v="102"][exposed="1"]
+sogou.com#@#.vrResult[data-v="103"][exposed="1"]
 ssmh01.top,ssmh02.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,wnacg.ru,htcomic.top,wnacg.top,wnacg.com,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru#@##ads
 ssmh01.top,ssmh02.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,wnacg.ru,htcomic.top,wnacg.top,wnacg.com,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru#@##adsbox
 ssmh01.top,ssmh02.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,wnacg.ru,htcomic.top,wnacg.top,wnacg.com,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru#@##google-ads
