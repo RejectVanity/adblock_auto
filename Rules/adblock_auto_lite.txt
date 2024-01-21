@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: hhd/3W6h0RhZgDm9M0VEoA
+! Checksum: XnylAUilFYmeiHhufg01xA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240121160918
+! Version: 20240122000827
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-21 16:09:18
-! Total Count: 25361
+! Last modified: 2024-01-22 00:08:27
+! Total Count: 25365
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14465,6 +14465,7 @@
 ||xghylt.com/api.php?mod=ad&adid=
 ||xgrcfz.xyz^
 ||xh33g.net^
+||xhbheroq.xyz^
 ||xhi8.xyz^
 ||xhiit0n.xyz^
 ||xhpghv.xyz^
@@ -17936,6 +17937,7 @@ watchpornx.com#?#aside > div.widget_execphp:has(> div[class] script[type])
 webofcomics.ru##.reklandvipinfo
 webpornblog.com##+js(abort-current-script, doMyStuff)
 wen.baidu.com##.feed-recommend
+wendangwang.com##[onclick="CloseAD();"]
 wenwen.sogou.com##.recommend-list
 wenwen.sogou.com##.sgui-hint.sgui-item
 wetpussy.sexy##.mansonry-item
@@ -18900,6 +18902,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .xyz/chrdaf_*_*.js?$third-party
 .xyz/cyethhd_*.js?$third-party
 .xyz/d/?resource=bundler&nada=1&widgets=$third-party
+.xyz/do?$third-party
 .xyz/do?16$third-party
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
@@ -23840,6 +23843,7 @@ zle.com$script
 ##div[class="swiper-container swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden"]
 ##div[class="v-banner"][style]
 ##div[class] > div[class][style^="box-sizing: border-box; position: relative; left: 0px; z-index: 2147"]
+##div[class] > span + img[src*=".xyz"]
 ##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
