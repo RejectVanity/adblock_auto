@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /N+PWAp+vzJOhXPAy9qzSA
+! Checksum: tFtsULWH6yOHw2IJQEAO+w
 ! Title: 自用去广告Adblock规则
-! Version: 20240117224817
-! Last modified: 2024-01-17 22:48:17
-! Total Count: 3524
+! Version: 20240121231533
+! Last modified: 2024-01-21 23:15:33
+! Total Count: 3527
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -679,6 +679,7 @@
 ##div[class="swiper-container swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden"]
 ##div[class="v-banner"][style]
 ##div[class] > div[class][style^="box-sizing: border-box; position: relative; left: 0px; z-index: 2147"]
+##div[class] > span + img[src*=".xyz"]
 ##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
@@ -1234,6 +1235,7 @@
 .xyz/c.php?s=
 .xyz/cyethhd_*.js?$third-party
 .xyz/d/?resource=bundler&nada=1&widgets=$third-party
+.xyz/do?$third-party
 .xyz/do?16$third-party
 .xyz/effect.php?
 .xyz/ejrtpppyjfgejy_*_*.js?$third-party
@@ -2760,14 +2762,14 @@ sogou.com##.top-list[data-type="hotword"]
 sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
-sogou.com#@#.vrResult[data-v="102"][exposed="1"]
-sogou.com#@#.vrResult[data-v="103"][exposed="1"]
 sogou.com##A[data-log*="PicAd"]
 sogou.com##LI.sugg-hot
 sogou.com##div[class^="news-top-banner"]
 sogou.com##div[class^="rt-gameright"]
 sogou.com##ul[class^="atAd"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
+sogou.com#@#.vrResult[data-v="102"][exposed="1"]
+sogou.com#@#.vrResult[data-v="103"][exposed="1"]
 spankbang.com,spankbang.party###interstitial_div_v2
 spankbang.com,spankbang.party###interstitial_div_v3
 spankbang.com,spankbang.party##.ptgncdn_holder
@@ -2816,6 +2818,7 @@ wandoujia.com##[class="infos download-rank"],[class^="brand-"],[class^="midbanne
 wannianli8.com##.cesuankuang
 wannianli8.com##.csbox
 wen.baidu.com##.feed-recommend
+wendangwang.com##[onclick="CloseAD();"]
 wenwen.sogou.com##.recommend-list
 wenwen.sogou.com##.sgui-hint.sgui-item
 wuzhuiso.com###appMiddleBanner
