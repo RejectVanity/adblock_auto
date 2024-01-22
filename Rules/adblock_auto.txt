@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: dft6k1lkFcocNY6SIYWLUQ
+! Checksum: q4467pwz6TB8oDGj7WxZew
 ! Title: 混合规则(自动更新)
-! Version: 20240122161038
+! Version: 20240123000912
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-22 16:10:38
-! Total Count: 128921
+! Last modified: 2024-01-23 00:09:12
+! Total Count: 128929
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8078,6 +8078,7 @@
 ||analytics-ingress-global.bitmovin.com^
 ||analytics-ingress.bitmovin.com^
 ||analytics-mkt.wemakeprice.com^
+||analytics-prd.aws.wehaa.net^
 ||analytics-rollout-*.amazonaws.com^
 ||analytics-script.ad-shield.io^
 ||analytics-scripts.cablelabs.com^
@@ -32129,6 +32130,7 @@
 ||idmfullcrack.info^
 ||idnbckbknxurmf.xyz^
 ||idnhanquatang.vn^
+||idns.online^
 ||idntfy.ru^
 ||idohethisisathllea.com^
 ||idolbucks.com^
@@ -47463,6 +47465,7 @@
 ||ovibospeseta.com^
 ||ovintic.ru^
 ||ovkamwvdof.com^
+||ovnrmvg.cn^
 ||ovoadv.com^
 ||ovoordie.xyz^
 ||ovplnxsq.com^
@@ -56655,6 +56658,7 @@
 ||seostar2.xyz^
 ||seowebbs.com^
 ||seowhy.com/ask/img/*gg
+||seownae.space^
 ||separashparyro.info^
 ||separate-sing.pro^
 ||separate-tie.pro^
@@ -73045,8 +73049,10 @@
 ||xpst0kx.cn^
 ||xpuqrn.com^
 ||xpyerxzn.xyz^
+||xpyjyhny.xyz^
 ||xpynqq.com^
 ||xpysozb.cn^
+||xq2024.com^
 ||xq5tf4nfccrb.info^
 ||xqbjjh.xyz^
 ||xqblnei.cn^
@@ -76886,6 +76892,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 500.com###live_top_ad
 500.com##.tz_pai
 500.com##a[href*="sanyol.cn"]
+5000yan.com###cebianlan > div[style^="background-color:"][style*="border-radius:"]
 500papa.com,papa03.com###content > div[align="center"] > a > img
 500papa.com,papa03.com##a[href*="9927.com"] img
 500px.com###hellobar
@@ -90301,6 +90308,7 @@ setn.com##.header-left-banner
 setn.com##.header-right-banner-b
 setn.com##.rightFloat
 seura.fi##.nativead:not(.list)
+sevenforums.com##.infeed1
 sevenforums.com,tenforums.com##.chill
 sewen.life,sewen.net,sewen.com,sewen.buzz,sewen.xyz,sewen.top,sewen4.top##img[src*=".xyz/"][src*="16"],[style*="bottom: 0px; left: 0px; z-index:"][style*="100vw;"],.hotcmd-box,.links-top,table[border="1"]
 sex-jav.com##a[href^="https://www.sex-jav.com/goto/?pID="] > img
