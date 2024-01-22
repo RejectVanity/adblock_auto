@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vhwcTIvUc5GFq/vPwoTINg
+! Checksum: CL9YOsTvC+d1OYWj+Yy0Dw
 ! Title: 自用去广告Adblock规则
-! Version: 20240121233837
-! Last modified: 2024-01-21 23:38:37
-! Total Count: 3528
+! Version: 20240123001136
+! Last modified: 2024-01-23 00:11:36
+! Total Count: 3542
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -71,6 +71,8 @@
 ###modalAblockWrapper
 ###modalAdblock
 ###playerJsvLayer.jsv-layer
+###popup-overlay0.popup-overlay
+###popup-overlay1.popup-overlay
 ###rmp-ad-click-id
 ###rollingadBox > .wrap
 ###top-ads
@@ -81,6 +83,7 @@
 ##.ReadAd2
 ##.__bm_btn_div
 ##._ads
+##.abk-item.abk-banner
 ##.above_video_banner
 ##.ad-box
 ##.ad-container
@@ -112,6 +115,7 @@
 ##.adx_center
 ##.appguide-wrap
 ##.articleads
+##.artplayer-plugin-ads
 ##.bads
 ##.banner-cctv-style-top
 ##.bdads
@@ -214,6 +218,7 @@
 ##.player-info > .recommend-two.recommend-list
 ##.player-rm > a[target="_blank"]
 ##.popup + .shortcuts-mobile-overlay
+##.popup.popup-abk
 ##.pre-play-adv
 ##.remove-ads
 ##.rmp-ad-container
@@ -566,6 +571,7 @@
 ##a[href^="https://www.zhao-zupu.com"]
 ##a[href^="https://xlivesex.com/"]
 ##a[href^="https://xxuudxdu.live?"]
+##a[href^="https://ycmw647.com"][target="_blank"]
 ##a[href^="javascript:linkto"][href*="_blank"] > img
 ##a[id$="ads-link"]
 ##a[onclick*="博彩"]
@@ -646,6 +652,7 @@
 ##div.ad_popper
 ##div.ad_txt_li,div.ad_txt
 ##div.advertisement-box
+##div.cell-lr[onclick^="window.open("]
 ##div.content > div[style] > div[class="photo-two"]
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
@@ -653,6 +660,7 @@
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div.links-top > ul.icon-list
+##div.nv_blist_cell[onclick^="window.open("]
 ##div.suiji.bottom,div.suiji.topad
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
@@ -689,6 +697,8 @@
 ##div[class] > ul > li > a[href][alt^="同城"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
+##div[class][onclick*="/?channelCode="]
+##div[class][onclick*="/index.html?shareName="]
 ##div[class][style$="0vh; width: 0vw; bottom: 0px; left: 0px;"]
 ##div[class][style$="background-size: 393px 131px !important;"]
 ##div[class][style*="100vw"][style*="no-repeat"][style*="background:"][style*="0px"]
@@ -962,6 +972,7 @@
 ##img[src][style*="width:100%;height:auto;"][id^="hengfu"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
+##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][onclick]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://rpninf.xyz"]
 ##img[src^="https://sbb.bbb.byjykj.xyz"]
@@ -2771,6 +2782,8 @@ sogou.com##ul[class^="atAd"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
 sogou.com#@#.vrResult[data-v="102"][exposed="1"]
 sogou.com#@#.vrResult[data-v="103"][exposed="1"]
+sosad123.com##[src="div class="]
+sosad123.com##div > div[id]:has(img[src*=".xyz/"])
 spankbang.com,spankbang.party###interstitial_div_v2
 spankbang.com,spankbang.party###interstitial_div_v3
 spankbang.com,spankbang.party##.ptgncdn_holder
@@ -3178,6 +3191,7 @@ zle.com$script
 ||hzk6.fun^
 ||i.6v6.work^$third-party
 ||i.hao61.net^
+||iewtwo.xyz^
 ||ifengimg.com^*/sta_collection
 ||image.hxgmcml.cn^
 ||img.imimimi.top^
