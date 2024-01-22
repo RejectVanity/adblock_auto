@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: SHBiVel5XBLuu2s/b9rTQg
+! Checksum: qRGFHpeMqLSBwTnW7E/DvQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240122083505
+! Version: 20240122161048
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-22 08:35:05
-! Total Count: 25371
+! Last modified: 2024-01-22 16:10:48
+! Total Count: 25373
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5208,6 +5208,7 @@
 ||cpro.xixiliya.cn^
 ||cpro.zol.com.cn^
 ||cpt.9136.com/img/b_special/
+||cpyjyhny.xyz^
 ||cqfygc.xyz^
 ||cqmpigx.cn^
 ||cqsng.com/mm.js
@@ -24031,6 +24032,7 @@ zle.com$script
 ##iframe[src*="//rtbrenab.com/get"]
 ##iframe[src*="//syndication.exosrv.com/"]
 ##iframe[src*="//tfosrv.com"]
+##iframe[src*="//tsyndicate.com/"]
 ##iframe[src*="//vidsservices.space/"]
 ##iframe[src*="/ads-iframe/"]
 ##iframe[src*="/lvesnk.html?zoneid="]
