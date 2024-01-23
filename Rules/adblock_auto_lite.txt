@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ILi2mHHDUJo5+gebgGMpYw
+! Checksum: /UpbsMqKBqe1/tZ5NyhrNg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240123083407
+! Version: 20240123161036
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-23 08:34:07
-! Total Count: 25389
+! Last modified: 2024-01-23 16:10:36
+! Total Count: 25401
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4958,6 +4958,7 @@
 ||chuantu.biz^$domain=7mav2.com|aotu43.com|thztv.cc
 ||chuantu.xyz/t6/714/1580707721x3703728804.jpg
 ||chuapp.com/wp-content/Picture/2017-08-14/59917b959139f.png
+||chubsxmg.xyz^
 ||chubun.com/images/banners/
 ||chubun.com/uploads/pic/img
 ||chunmiaosh.com^
@@ -5001,6 +5002,7 @@
 ||cjpczyi.cn^
 ||cjw123.com/jx/static/picture/
 ||cjx111.com/ads/
+||cjzrfxs.xyz^
 ||ck180.net/mitao
 ||ck33.top^
 ||ckg.vipyl.com^
@@ -6501,6 +6503,7 @@
 ||flyingsexul.space^
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm086.com/Plugins/search
+||fm44f.space^
 ||fmblph.xyz^
 ||fmgmh.com/template/wap/default/js/lunbo.js
 ||fmhua.com/template/*/images/g_js/*.html
@@ -6652,6 +6655,7 @@
 ||fyber.com^
 ||fyexyd.icu^
 ||fytpft.xyz^
+||fyvpzn.xyz^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzcsd33.com^
 ||fzd3.com/gg/
@@ -7581,6 +7585,7 @@
 ||hqporn.su/myvids/
 ||hqpornstream.com/pub/
 ||hqzcths.cn^
+||hrbpopp.cn^
 ||hrjg.com.cn^$third-party
 ||hrngmf.com^
 ||hrtinqj.cn^
@@ -10272,6 +10277,7 @@
 ||namesexual.com^
 ||namethatporn.com/assets/dev_popscript.js^
 ||nan-net.com/*/bbs/s/inc/$subdocument
+||nanaimostarkle.com^
 ||naned.xyz^
 ||nanfengyl.com/static/js/zdad.js
 ||nangongmall.com^
@@ -10729,6 +10735,7 @@
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
 ||oyotqp.icu^
+||oyugspe.cn^
 ||oyvyxj.cn^$third-party
 ||oyxp.xyz^
 ||oyysbc.xyz^
@@ -11022,6 +11029,7 @@
 ||plnrkgc.xyz^
 ||plnshao.xyz^
 ||plof69.com^
+||plotafb.com^
 ||pluckypocket.com^$third-party
 ||plugin.mediavoice.com^$third-party
 ||plugin.mobopay.baidu.com^
@@ -13679,6 +13687,7 @@
 ||uqelxct.cn^
 ||uqeuxpl.cn^
 ||uqjqripb.xyz^
+||uqueae.xyz^
 ||uraseszincy.com^
 ||urccncd.xyz^
 ||urgayporn.com/bn/
@@ -14875,6 +14884,7 @@
 ||yht7.com/web/assets/js/right.js
 ||yhtpsy8888.cc^
 ||yhtuchuang.com^
+||yhubsxmg.xyz^
 ||yhzzzs02.com^
 ||yi.ximizi.com^
 ||yichengjiajupt.com^$third-party
@@ -22922,6 +22932,7 @@ zle.com$script
 ##.pagead_3
 ##.pagecon + .ad1
 ##.pane-emediate
+##.panel > .nav-list > a > dl
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ##.pccb > .ng-star-inserted
@@ -23914,6 +23925,7 @@ zle.com$script
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class^="swiper-"] > a[onclick][rel="nofollow"] > img[style="width: 100%; height: 100%"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
+##div[class^="swiper-wrapper"] > div[class^="swiper-slide"][aria-label*="/"][role="group"]
 ##div[data-element="empty"][data-izone="main"]
 ##div[id*="_"][classname$="_f"][class$="_f"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
