@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CL9YOsTvC+d1OYWj+Yy0Dw
+! Checksum: GAWVR7vZUivdk6TKPKf+FA
 ! Title: 自用去广告Adblock规则
-! Version: 20240123001136
-! Last modified: 2024-01-23 00:11:36
-! Total Count: 3542
+! Version: 20240123092510
+! Last modified: 2024-01-23 09:25:10
+! Total Count: 3544
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -207,6 +207,7 @@
 ##.page[style^="padding-bottom:"] > [classname$="_g"][class$="_g"]
 ##.page[style^="padding-bottom:"] > [id*="_"][classname$="_f"][class$="_f"]
 ##.page[style^="padding-bottom:"] > [id*="_"][classname$="_g"][class$="_g"]
+##.panel > .nav-list > a > dl
 ##.phone-ads
 ##.play_list_adbox
 ##.player + .sponsor
@@ -736,6 +737,7 @@
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class^="swiper-"] > a[onclick][rel="nofollow"] > img[style="width: 100%; height: 100%"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
+##div[class^="swiper-wrapper"] > div[class^="swiper-slide"][aria-label*="/"][role="group"]
 ##div[data-element="empty"][data-izone="main"]
 ##div[id*="_"][classname$="_f"][class$="_f"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
