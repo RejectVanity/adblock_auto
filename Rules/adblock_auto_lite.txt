@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 2aF2hMyPeR+j2LXdA7X7qQ
+! Checksum: ILi2mHHDUJo5+gebgGMpYw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240123000923
+! Version: 20240123083407
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-23 00:09:23
-! Total Count: 25377
+! Last modified: 2024-01-23 08:34:07
+! Total Count: 25389
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17728,6 +17728,8 @@ sogou.com##ul[class^="atAd"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
 soonnight.com##.display_natural
 sopornmovies.com##.mexu-bns-bl
+sosad123.com##[src="div class="]
+sosad123.com##div > div[id]:has(img[src*=".xyz/"])
 sostav.ru###rek_blocker
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 spanishdict.com##.whitelist
@@ -22143,6 +22145,8 @@ zle.com$script
 ###plus-upsell-adblock
 ###pop_hongbao
 ###popapIsBlockedAd
+###popup-overlay0.popup-overlay
+###popup-overlay1.popup-overlay
 ###popup.t
 ###pp-modal-id
 ###projectpostbody > a[target="_blank"]
@@ -22289,6 +22293,7 @@ zle.com$script
 ##.ab-detected
 ##.ab-notice
 ##.abde
+##.abk-item.abk-banner
 ##.above_video_banner
 ##.ad-300x600
 ##.ad-5
@@ -22947,6 +22952,7 @@ zle.com$script
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-m-overlay
 ##.popup + .shortcuts-mobile-overlay
+##.popup.popup-abk
 ##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
@@ -23690,6 +23696,7 @@ zle.com$script
 ##a[href^="https://www.zhao-zupu.com"]
 ##a[href^="https://xlivesex.com/"]
 ##a[href^="https://xxuudxdu.live?"]
+##a[href^="https://ycmw647.com"][target="_blank"]
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
@@ -23817,6 +23824,7 @@ zle.com$script
 ##div.ad_popper
 ##div.ad_txt_li,div.ad_txt
 ##div.advertisement-box
+##div.cell-lr[onclick^="window.open("]
 ##div.content > div[style] > div[class="photo-two"]
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
@@ -23824,6 +23832,7 @@ zle.com$script
 ##div.g-list > ul > li
 ##div.g-slide > div[class^="swiper-"]
 ##div.links-top > ul.icon-list
+##div.nv_blist_cell[onclick^="window.open("]
 ##div.suiji.bottom,div.suiji.topad
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
@@ -23865,6 +23874,8 @@ zle.com$script
 ##div[class] > ul > li > a[href][alt^="澳门"][target="_blank"]
 ##div[class] > ul > li > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class][id][style] > .pic_container
+##div[class][onclick*="/?channelCode="]
+##div[class][onclick*="/index.html?shareName="]
 ##div[class][style$="0vh; width: 0vw; bottom: 0px; left: 0px;"]
 ##div[class][style$="background-size: 393px 131px !important;"]
 ##div[class][style*="100vw"][style*="no-repeat"][style*="background:"][style*="0px"]
@@ -24206,6 +24217,7 @@ zle.com$script
 ##img[src][style*="width:100%;height:auto;"][id^="hengfu"]
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
+##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][onclick]
 ##img[src^="https://pic.lsddkd.com:"]
 ##img[src^="https://rpninf.xyz"]
 ##img[src^="https://sbb.bbb.byjykj.xyz"]
