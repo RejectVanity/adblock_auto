@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: +h36PZwq+FbvfkvDP4KFzw
+! Checksum: si+HLAQwZ6l3nJWJLcoHYA
 ! Title: 混合规则(自动更新)
-! Version: 20240125161015
+! Version: 20240126000912
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-25 16:10:15
-! Total Count: 130300
+! Last modified: 2024-01-26 00:09:12
+! Total Count: 130313
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3662,6 +3662,7 @@
 ||aamapi.com^
 ||aamsitecertifier.com^
 ||aamv.vip^
+||aan.amazon.*^
 ||aan.amazon.com^
 ||aanetwork.vn^
 ||aanqylta.com^
@@ -4449,6 +4450,7 @@
 ||ad.xrea.com^
 ||ad.yemeksepeti.com^
 ||ad.youku.com/vp?
+||ad.youku.com^
 ||ad.zijieapi.com^
 ||ad.zima.kg^
 ||ad.zing.vn^
@@ -6281,6 +6283,7 @@
 ||adx-dre.op.hicloud.com^
 ||adx-exchange.toast.com^
 ||adx-in.ads.heytapmobile.com^
+||adx-open-service.youku.com^
 ||adx-tk.rayjump.com^
 ||adx.36kr.com^
 ||adx.baolongan.vn^
@@ -8236,6 +8239,7 @@
 ||analytics.paddle.com^
 ||analytics.pagefly.io^
 ||analytics.pancake.vn^
+||analytics.pangle-ads.com^
 ||analytics.partcommunity.com^
 ||analytics.peraichi.com^
 ||analytics.pgncs.notion.so^
@@ -14433,6 +14437,7 @@
 ||caclick.baidu.com^
 ||cacmatch.com^
 ||cacvduyrybba.xyz^
+||cad.youku.com^
 ||cadbitff.com^
 ||cadencesubject.com^
 ||cadfixbig.site^
@@ -41268,6 +41273,7 @@
 ||madriyelowd.com^
 ||madrogueindulge.com^
 ||mads.*.pinenutsdev.net/md.request.php
+||mads.amazon.com^
 ||mads.bz^
 ||mads7.icu^
 ||madsabs.com^
@@ -47353,6 +47359,7 @@
 ||ogkfuw.xyz^
 ||ogle-0740lb.com^
 ||oglooque.com^
+||ogmjhve.cn^
 ||ogmvulgumhk.xyz^
 ||ogniicbnb.ru^
 ||ognimyjm.com^
@@ -73848,6 +73855,7 @@
 ||xhmnbvn.com^
 ||xhmybanjia.cn^
 ||xhnedvpcml.com^
+||xhnvgdkw.xyz^
 ||xhpghv.xyz^
 ||xhpzrfj.com^
 ||xhqg.xyz^
@@ -75240,6 +75248,7 @@
 ||yjxzvqy.xyz^
 ||yjyc-ask.com/res/ads/
 ||yk9s.top^
+||ykad-data.youku.com^
 ||ykdwyf.com^
 ||ykg5.cn^
 ||ykghl.top^
@@ -92483,6 +92492,7 @@ standard.co.uk##.dXaqls
 standard.co.uk##.kcdphh
 standardmedia.co.ke##.border-thick-branding
 standardmedia.co.ke##.my-2
+staples.com##.SearchRootUX2__bannerAndSkuContainer
 staples.com##div[class^="sku-configurator__banner"]
 staradvertiser.com##.csMon
 starbaby.cn###top_ad_show
@@ -111968,6 +111978,7 @@ zle.com$script
 ###kfpopupDiv
 ###ks > .DaKuang
 ###kt_player > a[target="_blank"]
+###kt_player > div[style="position: absolute; inset: 0px; z-index: 170;"]
 ###kt_player>a[target="_blank"]
 ###large-ads
 ###large-bottom-leaderboard-ad
@@ -126608,6 +126619,7 @@ zle.com$script
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="http://adf.ly/?id="]
+##a[href^="http://admediatex.net/"]
 ##a[href^="http://adultfriendfinder.com/go/"]
 ##a[href^="http://adultfriendfinder.com/go/page/landing"]
 ##a[href^="http://adultgames.xxx/"]
@@ -126944,6 +126956,7 @@ zle.com$script
 ##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 ##a[href^="https://www.sheetmusicplus.com/?aff_id="]
 ##a[href^="https://www.sugarinstant.com/?partner_id="]
+##a[href^="https://www.toprevenuegate.com/"]
 ##a[href^="https://www.zhao-zupu.com"]
 ##a[href^="https://www.zubivu.com/"]
 ##a[href^="https://xlivesex.com/"]
