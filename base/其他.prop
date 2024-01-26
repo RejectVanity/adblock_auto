@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3ewJ1bB6r4UghUiedoWxRA
+! Checksum: W/0hBh8GA1N8JthykvcXAg
 ! Title: 自用去广告Adblock规则
-! Version: 20240126130240
-! Last modified: 2024-01-26 13:02:40
-! Total Count: 3546
+! Version: 20240126210811
+! Last modified: 2024-01-26 21:08:11
+! Total Count: 3574
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -46,6 +46,13 @@
 ###bottom_ad
 ###coupletLeft
 ###coupletRight
+###first-ads
+###first_ad
+###firstad
+###fixed-ad
+###fixed-bottom-modal[style^="right:"][style$="px; display: block;"]
+###fixedAd
+###fixedban
 ###footads
 ###global-banner-ad
 ###globalLeftNavAd
@@ -170,6 +177,18 @@
 ##.exo-ad-ins-container
 ##.fed-play-advs
 ##.feed-ad
+##.fixed-ad-aside
+##.fixed-ad-bottom
+##.fixed-ads
+##.fixed-bottom-ad
+##.fixed-bottom.jsv.jsv-g1
+##.fixed-sidebar-ad
+##.fixedAds
+##.fixedLeftAd
+##.fixedRightAd
+##.fixed_ad
+##.fixed_adslot
+##.fixed_advert_banner
 ##.float-ad
 ##.floating_ads
 ##.foot-dp-fix
@@ -1503,6 +1522,7 @@
 /ads?zone_id=
 /ads_iframe
 /ads_iframe.
+/advanced-ads-$domain=~wordpress.org
 /advert/youxi.js$script
 /advert?
 /advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
@@ -2077,6 +2097,7 @@
 ://api.*.com/sh/to/$third-party,xmlhttprequest
 ://ayq*nsx.icu/*.js$third-party,script
 ://chaturbate.com$third-party
+://creative.*.com/widgets/v4/Universal
 ://d*.cloudfront.net$third-party
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
@@ -2211,6 +2232,7 @@ autohome.com.cn##[class$="-loading"][data-action="loading"][id="loadMore"]
 autohome.com.cn##ol
 avgle.com##a[href*="/redirect"]
 avgle.com##img[src*=".php"]
+avtik.com###player > .player-wrapper + section
 baidu.com###content_right > div > div[id^="m"]
 baidu.com###ec_im_container
 baidu.com###header > div:last-child > div > a:first-child
@@ -2951,6 +2973,7 @@ zle.com$script
 ||2022welcome.com^$third-party
 ||2023welcome.com^$third-party
 ||2biqu.com/static/*/*.js
+||2cnjuh34jbpoint.com^
 ||33.autohome.com.cn^
 ||3pmcoohke.scriptmh.com^
 ||3v7c7y.online^$third-party
@@ -3038,6 +3061,7 @@ zle.com$script
 ||bj-gov-cn.website^
 ||bjzankai.com^$script,third-party
 ||bl230126pb.com^
+||bnhtml.com^
 ||bnsdk.top^
 ||bookhaitang.com/assets/publish/$script
 ||browser.sentry-cdn.com^
@@ -3079,6 +3103,7 @@ zle.com$script
 ||comm.app.autohome.com.cn^
 ||cos.ap-*.myqcloud.com^$third-party
 ||cpro.baidustatic.com^
+||creative.ohmycams.com^
 ||creative.xlirdr.com^
 ||creative.xlivrdr.com^
 ||creative.xlviiirdr.com^
@@ -3136,6 +3161,7 @@ zle.com$script
 ||februarylovestory.com^$third-party
 ||ffmehcg.cn^$third-party
 ||fg.knlk2md.cn^$third-party
+||fluentfixing.com^
 ||fourier.alibaba.com^
 ||friendshipmale.com^
 ||ftd.agency^$third-party
@@ -3344,6 +3370,7 @@ zle.com$script
 ||realsrv.com^
 ||realsrv.com^$third-party
 ||rexsrv.com^
+||rfeablduda.com^
 ||riamiavid.com^
 ||rkgwzfwjgk.com^$third-party
 ||route34.cn^
@@ -3428,6 +3455,7 @@ zle.com$script
 ||twrkcbs.cn^
 ||twww.sbs^$third-party
 ||tydouke.com^
+||u9axpzf50.com^
 ||udajswf.cn^
 ||umtpopxcsedc.cdnvideo*.com$third-party
 ||un.salangane.asia^
