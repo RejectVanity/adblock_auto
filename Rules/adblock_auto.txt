@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Ff7tNoDXgpvT2yXjkE0xbA
+! Checksum: 4eStAWTXX95fGWy301PanA
 ! Title: 混合规则(自动更新)
-! Version: 20240126160923
+! Version: 20240127000837
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-26 16:09:23
-! Total Count: 130504
+! Last modified: 2024-01-27 00:08:37
+! Total Count: 130521
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1258,6 +1258,7 @@
 ||2ccc.com/images/sdo.jpg
 ||2ccc.com/images/show/
 ||2ccc.com/images/sino.gif
+||2ch-c.net/mgs/
 ||2cjlj3c15.de^
 ||2cnjuh34jb.com^
 ||2cnjuh34jbhub.com^
@@ -16288,6 +16289,7 @@
 ||cl*.k5a.io^
 ||cl-ad.x-flow.app^
 ||cl-eu2.k5a.io^
+||cl-eu4.k5a.io^
 ||cl.canva.com^
 ||cl.k5a.io^
 ||cl.qualaroo.com^
@@ -18322,6 +18324,7 @@
 ||creative.live.missav.com^
 ||creative.live.tktube.com^
 ||creative.live7mm.tv^
+||creative.ohmycams.com^
 ||creative.prf.hn^
 ||creative.sphdigital.com^
 ||creative.usasexcams.com^
@@ -18992,6 +18995,7 @@
 ||d-064.com^
 ||d-agency.net^
 ||d-bi.fr^
+||d-load.org^$script,domain=2ch-c.net
 ||d-log.asahi.co.jp^
 ||d-log.bs-asahi.tv^
 ||d-log.tv-asahi.co.jp^
@@ -24207,6 +24211,7 @@
 ||events.busuu.com^
 ||events.cardsmobile.ru^
 ||events.chaordicsystems.com^
+||events.character.ai^
 ||events.claspws.tv^
 ||events.demoup.com^
 ||events.devcycle.com^
@@ -26036,6 +26041,7 @@
 ||fluemantappall.guru^
 ||fluencymedia.com^
 ||fluencythingy.com^
+||fluentfixing.com^
 ||fluentmobile.com^
 ||fluese.com^
 ||fluffychair.pro^
@@ -49714,8 +49720,10 @@
 ||pdqwaan.cn^
 ||pdridjiviq.com^
 ||pdrqubl.com^
+||pds.gmarket.co.kr^
 ||pdsrnxdwimme.com^
 ||pdss.xyz^
+||pdsssl.gmarket.co.kr^
 ||pdsvrtb.cn^
 ||pdsyibwlxd.xyz^
 ||pdtqjd.cn^
@@ -52169,6 +52177,7 @@
 ||prod-collector.bigbasket.com^
 ||prod-mhaa.mhtr.be^
 ||prod-sb-appanalytics-us1.servicebus.windows.net^
+||prod.adjoe.zone^
 ||prod.cm.publishers.advertising.a2z.com^
 ||prod.ew.srp.navigacloud.com^
 ||prod.fennec.atp.fox^
@@ -55715,6 +55724,7 @@
 ||rezhiv.ru^
 ||reztrack.com^
 ||rfdfgourgoldpiec.info^
+||rfeablduda.com^
 ||rferl.c.goolara.net^
 ||rfhddwa.com^
 ||rfidworld.com.cn/Notice/Home
@@ -55960,6 +55970,7 @@
 ||riverpush.com^
 ||rivetrearrange.com^
 ||rivne.space^
+||riweeboo.com^
 ||rixaka.com^
 ||rixgpx.xyz^
 ||rixqlvd.cn^
@@ -68935,6 +68946,7 @@
 ||utript.com^
 ||utrius.com^
 ||uts.auction.co.kr
+||uts.gmarket.co.kr^
 ||utsssl.auction.co.kr^
 ||utstancecaricit.com^
 ||utt.impactcdn.com^
@@ -74504,6 +74516,7 @@
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xpjjlgzqs.com^
 ||xpkftctvei.com^
+||xpkxahje.xyz^
 ||xplme.xyz^
 ||xplnnxx.top^
 ||xplosion.de^
@@ -79910,6 +79923,7 @@ avtb01.com##.ads-player
 avtb01.com##a[href^="http://xgn66.com/?aff="]
 avtb01.com##body > div[id^="haoetv"]
 avtb2022.com###menu-main-content > li:nth-child(n+5)
+avtik.com###player > .player-wrapper + section
 awaker.cn###jiji + div[style="padding: 20px"]
 awaker.cn##.good-price
 awaliwa.com##.bottomAdsBox
@@ -93398,6 +93412,7 @@ theregister.com##.wptl
 theroanoketribune.org##div[id^="thero-"]
 theroar.com.au##.u-d-block
 thesaurus.com##.e1wyd5nb0
+thesaurus.com##.fHACXxic9xvQeSNITiwH
 thesaurus.com##section[data-type="ad-horizontal-module"]
 thescore.com##.Ad__container--2fhQb
 thescore1260.com##.block-content > a[href*="sweetdealscumulus.com"]
@@ -105707,6 +105722,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 ://chaturbate.com$third-party
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+://creative.*.com/widgets/v4/Universal
 ://d*.cloudfront.net$third-party
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
@@ -125942,6 +125958,7 @@ zle.com$script
 ##ADS-RIGHT
 ##AMP-AD
 ##A[href*=".com/?Agent="]
+##A[href*="/dsf66.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD

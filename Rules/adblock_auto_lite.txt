@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: CbIo0YZQ+i6Mh44le0+rlw
+! Checksum: /jalWAfVwnkwDsgRAXmojA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240126160934
+! Version: 20240127000848
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-26 16:09:34
-! Total Count: 25445
+! Last modified: 2024-01-27 00:08:48
+! Total Count: 25476
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -533,7 +533,9 @@
 ||2ccc.com/images/sdo.jpg
 ||2ccc.com/images/show/
 ||2ccc.com/images/sino.gif
+||2ch-c.net/mgs/
 ||2cnjuh34jbman.com^$third-party
+||2cnjuh34jbpoint.com^
 ||2cq.com/third/tieba/sidebar
 ||2d4f.com/love/
 ||2fa20230511.live^
@@ -4342,6 +4344,7 @@
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
 ||bnfhxszj.xyz^
 ||bnfyzszm.icu^
+||bnhtml.com^
 ||bnhxxj.xyz^
 ||bnl2bii.icu^
 ||bnnfvd.xyz^
@@ -5229,6 +5232,7 @@
 ||creative.live.bestjavporn.com^
 ||creative.live.javhdporn.net/widgets/Spot/lib.js
 ||creative.live.javhdporn.net^
+||creative.ohmycams.com^
 ||creative.usasexcams.com^
 ||creative.xlirdr.com^
 ||creative.xlivrdr.com^
@@ -5331,6 +5335,7 @@
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
 ||d*.ruiwen.com^
 ||d*.xinshipu.com^
+||d-load.org^$script,domain=2ch-c.net
 ||d-test.39.net^
 ||d.6xw.com^
 ||d.8181zx.com^
@@ -6496,6 +6501,7 @@
 ||floweryfact.com^$third-party
 ||floweryflavor.com^$third-party
 ||flpnnqe.xyz^
+||fluentfixing.com^
 ||fluentmobile.com^
 ||fluhmmr.cn^
 ||flurry.cachefly.net^
@@ -11324,6 +11330,7 @@
 ||pro.cn^$third-party
 ||pro.iweihai.cn^
 ||procdn.asia^
+||prod.adjoe.zone^
 ||prod.cm.publishers.advertising.a2z.com^
 ||producecopy.com^$third-party
 ||production-adserver-*.amazonaws.com^
@@ -11847,6 +11854,7 @@
 ||rexsrv.com^
 ||rexxtourist.com^$document
 ||rexxtourist.com^$~third-party
+||rfeablduda.com^
 ||rfidworld.com.cn/Notice/Home
 ||rfidworld.com.cn/js/RFID.js
 ||rfidworld.com.cn/js/RFIDExec.js
@@ -13565,6 +13573,7 @@
 ||u833ij.com^
 ||u88.cn^$third-party
 ||u97jr.xyz^
+||u9axpzf50.com^
 ||uafuzcxr.xyz^
 ||uahozcfq.xyz^
 ||uakxkb.icu^
@@ -14688,6 +14697,7 @@
 ||xphcrjth.xyz^
 ||xpicj1.cc^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
+||xpkxahje.xyz^
 ||xplme.xyz^
 ||xporn.in^
 ||xpornotubes.com/ponrtube.html
@@ -15796,6 +15806,7 @@ autohome.com.cn##[class$="-loading"][data-action="loading"][id="loadMore"]
 autohome.com.cn##ol
 avgle.com##a[href*="/redirect"]
 avgle.com##img[src*=".php"]
+avtik.com###player > .player-wrapper + section
 babeimpact.com,decorativemodels.com,sexykittenporn.com##iframe[src^="/smallfr"]
 babesandstars.com,pornhubpremium.com##.join
 badjojo.com,boysfood.com,definebabe.com,efukt.com,fantasti.cc,girlsofdesire.org,imagepix.org,javfor.me,pornxs.com,shemaletubevideos.com,therealpornwikileaks.com##a[href*=".php"]
@@ -19383,6 +19394,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /ads_iframe
 /ads_iframe.
 /adsmatcher-anti-adblock/*
+/advanced-ads-$domain=~wordpress.org
 /advert/youxi.js$script
 /advert?
 /advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
@@ -20048,6 +20060,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://chaturbate.com$third-party
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
+://creative.*.com/widgets/v4/Universal
 ://d*.cloudfront.net$third-party
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
@@ -22034,7 +22047,13 @@ zle.com$script
 ###everydayadv_mask
 ###fab
 ###fc_foot > #f_skyf
+###first-ads
+###first_ad
+###firstad
+###fixed-ad
 ###fixed-bottom-modal[style^="right:"][style$="px; display: block;"]
+###fixedAd
+###fixedban
 ###fk_faiVisitStateAd
 ###flashad
 ###floatAD_l
@@ -22763,7 +22782,18 @@ zle.com$script
 ##.feed-ad
 ##.feed-item[data-ad]
 ##.ff-ads
+##.fixed-ad-aside
+##.fixed-ad-bottom
+##.fixed-ads
+##.fixed-bottom-ad
 ##.fixed-bottom.jsv.jsv-g1
+##.fixed-sidebar-ad
+##.fixedAds
+##.fixedLeftAd
+##.fixedRightAd
+##.fixed_ad
+##.fixed_adslot
+##.fixed_advert_banner
 ##.flash_ad
 ##.flex-row > #propagandaLeft
 ##.flex-row > #propagandaRight
@@ -23197,6 +23227,7 @@ zle.com$script
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
+##A[href*="/dsf66.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class$="-ad-box"]
