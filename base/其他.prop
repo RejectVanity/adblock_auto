@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i3G23DqIAZ6v1XRnhl15Gg
+! Checksum: hfvFn81qVn1G6Oza/a+DRA
 ! Title: 自用去广告Adblock规则
-! Version: 20240127090659
-! Last modified: 2024-01-27 09:06:59
-! Total Count: 3572
+! Version: 20240127235852
+! Last modified: 2024-01-27 23:58:52
+! Total Count: 3588
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -281,6 +281,8 @@
 ##.wrapperad
 ##.yuepa-list
 ##.yuepa-warp
+##[ad_display_dot]
+##[ad_dot_url]
 ##[class$="-ad-box"]
 ##[class$="-ad-container"]
 ##[class$="_ad-container"]
@@ -1017,6 +1019,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script + #strl
+##script + iframe[src^="https://s.uuidksinc.net"]
 ##section > span[style="display:block;clear:both;overflow:hidden;z-index:2147483647"]
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
@@ -1126,9 +1129,13 @@
 .com/?channelCode=$~third-party
 .com/ad-provider.js$third-party
 .com/api/getPos?jspath=/$~third-party
+.com/api/ipv4check?mark
 .com/api/senddata?$third-party
 .com/assets/public/chart.1.js$script,~third-party
 .com/candy*.js$third-party
+.com/ev/*?type=events&event=
+.com/ev/*?type=impressions
+.com/in/multy$third-party
 .com/j/*$script,third-party
 .com/k/*$script,third-party
 .com/o.js$third-party
@@ -1139,6 +1146,7 @@
 .com/sh/*.js$third-party
 .com/sh/back/*$third-party
 .com/sh/to/*$third-party
+.com/track/pv?id=
 .com/vh1/$third-party
 .com/vh2/$third-party
 .com/vh3/$third-party
@@ -1704,6 +1712,7 @@
 /iframe/ad/*
 /iframe/ad_
 /iframe/ads/*
+/in-stream-ad-admanager/build.js
 /in/track?data=
 /javascript/ads/*
 /javascript/gpt-
@@ -1937,6 +1946,8 @@
 /tops.ads.
 /torget_ads.
 /upload/ads/*$domain=~ads.ae
+/video-slider-ad/build.js
+/vlcdn.tsyndicate.com/videos
 /vs.php?id=$third-party,xmlhttprequest
 /wcm/?sh=*&*=*&*=$third-party
 /wenziad.js?var=$script,~third-party
@@ -2711,6 +2722,7 @@ sm.cn##.sc_operating_activity_ball
 sm.cn##.sc_operating_activity_banner
 sm.cn##.wl-dot-container
 sm.cn##.wolong-container
+sm.cn##[ad_display_dot],[ad_dot_url]
 sm.cn##a[href*="sm.cn/adclick?"]
 sm.cn##div[id*="_Shopping_Etao_"]
 sm.cn##div[id^="ad_ele_"]
@@ -3138,6 +3150,7 @@ zle.com$script
 ||dydytt.net/js3
 ||e.1bctkn.xyz^$third-party
 ||eaaaej.icu^$third-party
+||eb480dde95.com^
 ||effectivedisplayformats.com^
 ||effirst.com^$third-party
 ||ehaie.top^
@@ -3250,6 +3263,8 @@ zle.com$script
 ||jnmami.cn^
 ||js.bninocerossrhino.com^
 ||js.cabnnr.com^$third-party
+||js.canstrm.com^
+||js.capndr.com^
 ||js.gg-baidu.xyz^
 ||js.hailangouwu.com^
 ||js.mfsft.com/*/*.js
@@ -3382,6 +3397,7 @@ zle.com$script
 ||rtmark.net^
 ||s.69vj.com/assets/DIY.$image,media
 ||s.htkk*.top:20443^$script
+||s.uuidksinc.net^
 ||s2dcm.com^$third-party,script
 ||sadnofun.com/assets/public/$script
 ||sas.com^
