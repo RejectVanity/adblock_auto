@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: o80iT5u2rdrEKWT8MDzSKA
+! Checksum: gYYkc+wNNs+gyluYj7HvYQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240127160845
+! Version: 20240128000743
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-27 16:08:45
-! Total Count: 25489
+! Last modified: 2024-01-28 00:07:43
+! Total Count: 25509
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6044,6 +6044,7 @@
 ||easyai.tech/wp-content/uploads/*-576x1024.
 ||easyicon.net/gg2019/
 ||easyporn.xxx/tmp/
+||eb480dde95.com^
 ||ebbs.jp/js/adjs01.js
 ||ebbs.jp/test_ad/
 ||ebiotrade.com/jslibrary/js
@@ -8564,6 +8565,8 @@
 ||js.bninocerossrhino.com^
 ||js.brstke.top^$third-party
 ||js.cabnnr.com^$third-party
+||js.canstrm.com^
+||js.capndr.com^
 ||js.desiporn.tube/*/baker
 ||js.desiporn.tube/wovbrqqij/
 ||js.duotegame.com^
@@ -9330,6 +9333,7 @@
 ||linuxeden.com/plus/web_js.php
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/list
+||lioyfmp.cn^
 ||lishuaibin.cn^
 ||liu16.com/vip.png
 ||liugaohao.com^
@@ -12055,6 +12059,7 @@
 ||s.mycar-life.com/amp-itd.html
 ||s.mycar-life.com/amp-side-special01.html
 ||s.ssl.qhres2.com/ssl/$third-party
+||s.uuidksinc.net^
 ||s.weibo.com/widget.html
 ||s.yimg.com/av/curveball/ads/pr/$redirect=noop.txt,important,domain=sports.yahoo.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
@@ -14532,6 +14537,7 @@
 ||xgrcfz.xyz^
 ||xh33g.net^
 ||xhbheroq.xyz^
+||xhgpuxim.xyz^
 ||xhi8.xyz^
 ||xhiit0n.xyz^
 ||xhnvgdkw.xyz^
@@ -17710,6 +17716,7 @@ sm.cn##.sc_operating_activity_ball
 sm.cn##.sc_operating_activity_banner
 sm.cn##.wl-dot-container
 sm.cn##.wolong-container
+sm.cn##[ad_display_dot],[ad_dot_url]
 sm.cn##div[id^="dl-banner-"]
 sm.cn,yz.m.sm.cn##a[href*="sm.cn/adclick?"]
 sm.cn,yz.m.sm.cn##div[id*="_Shopping_Etao_"]
@@ -18545,6 +18552,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com/aff-w2aK$document
 .com/aff-w2aK$~third-party
 .com/api/getPos?jspath=/$~third-party
+.com/api/ipv4check?mark
 .com/api/senddata?$third-party
 .com/appinstall.js$third-party,script
 .com/assets/public/chart.1.js$script,~third-party
@@ -18562,6 +18570,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com/dm/bofangxia.js
 .com/dm/dibu.js
 .com/dongcidaci/
+.com/ev/*?type=events&event=
+.com/ev/*?type=impressions
 .com/ge/?s=$script,third-party
 .com/get?$third-party
 .com/gg.js
@@ -18570,6 +18580,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com/h.html?id=$document
 .com/h.html?id=$~third-party
 .com/images/102.js
+.com/in/multy$third-party
 .com/inc/?s=$third-party
 .com/j/*$script,third-party
 .com/java/shang1.js
@@ -18630,6 +18641,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com/tonglan.js
 .com/tonglan2.js
 .com/topjs/
+.com/track/pv?id=
 .com/ttdlyqbff/*/*.gif?$third-party,image
 .com/uploads/*-860x250.gif
 .com/user?$third-party
@@ -19647,6 +19659,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /images/*/istripper/*$domain=8boobs.com|babesinporn.com|bustybloom.com|fooxybabes.com|hotstunners.com|mainbabes.com|rabbitsfun.com|silkengirl.com|silkengirl.net|wantedbabes.com|pleasuregirl.net
 /images/*/strp_v*.js$domain=8boobs.com|babesinporn.com|bustybloom.com|fooxybabes.com|hotstunners.com|rabbitsfun.com|silkengirl.com
 /img/banners/*$domain=fullporn.online|tmail.gg|mega4upload.com
+/in-stream-ad-admanager/build.js
 /in/track?data=
 /inc/antiblock.
 /index.html#/register$document
@@ -19924,6 +19937,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /upload/ads/*$domain=~ads.ae
 /v*/?channelCode=$document
 /v*/?channelCode=$~third-party
+/video-slider-ad/build.js
+/vlcdn.tsyndicate.com/videos
 /vs.php?id=$third-party,xmlhttprequest
 /wcm/?sh=*&*=*&*=$third-party
 /wdbloogablock.js
@@ -23022,6 +23037,7 @@ zle.com$script
 ##.panel > .nav-list > a > dl
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##.pause-ad
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
@@ -23244,6 +23260,8 @@ zle.com$script
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
+##[ad_display_dot]
+##[ad_dot_url]
 ##[class$="-ad-box"]
 ##[class$="-ad-container"]
 ##[class$="_ad-container"]
@@ -23499,6 +23517,7 @@ zle.com$script
 ##a[href*=".sudun.com/"]
 ##a[href*=".supernfp.com/"]
 ##a[href*=".taobao.com"] > .top1
+##a[href*=".taobao.com"] > img[src*=".tucao."]
 ##a[href*=".tdchat.in"]
 ##a[href*=".tholikiranam.com/"]
 ##a[href*=".top"] > img[src]
@@ -24347,6 +24366,7 @@ zle.com$script
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
+##script + iframe[src^="https://s.uuidksinc.net"]
 ##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##section > span[style="display:block;clear:both;overflow:hidden;z-index:2147483647"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: tIGn60Ba18S1NZVcRUVkrQ
+! Checksum: rfDF5l5T5ySfv04FGgAIaQ
 ! Title: 混合规则(自动更新)
-! Version: 20240127160835
+! Version: 20240128000733
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-27 16:08:35
-! Total Count: 130448
+! Last modified: 2024-01-28 00:07:33
+! Total Count: 130473
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -22501,6 +22501,7 @@
 ||eayeewlvmeqel.top^
 ||eazyleads.com^
 ||eb1a6329bb.com^
+||eb480dde95.com^
 ||eb5232b35d.com^
 ||ebaayshopping.site^
 ||ebank.hlug1k.com^
@@ -36114,6 +36115,8 @@
 ||js.brstke.top^
 ||js.brstke.top^$third-party
 ||js.cabnnr.com^$third-party
+||js.canstrm.com^
+||js.capndr.com^
 ||js.chetan.com^
 ||js.datadome.co^
 ||js.desiporn.tube/*/baker
@@ -39549,6 +39552,7 @@
 ||lionelimburse.com^
 ||lionesssupercatering.com^
 ||lionporcelain.com^
+||lioyfmp.cn^
 ||lipidicchaoush.com^
 ||lipmswonv.com^
 ||lippedabyssal.com^
@@ -56902,6 +56906,7 @@
 ||s.ssl.qhres2.com/ssl/$third-party
 ||s.tuoitre.vn^
 ||s.union.360.cn^
+||s.uuidksinc.net^
 ||s.weibo.com/widget.html
 ||s.yaozui.com^
 ||s.yimg.com/av/curveball/ads/pr/$redirect=noop.txt,important,domain=sports.yahoo.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
@@ -73957,6 +73962,7 @@
 ||xhd.cn/topic/leyu-piaofu/
 ||xhflovezyy.asia^
 ||xhfvljklvq.com^
+||xhgpuxim.xyz^
 ||xhhy.online^
 ||xhi8.xyz^
 ||xhiit0n.xyz^
@@ -82196,6 +82202,9 @@ csdn.net##li[data-type="ad"]
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 csdn.net#?#aside > div.slide-outer:has(> div.box > div[adsid])
 csdn.net,itboth.com,iteye.com,itkeyword.com###ad_pop
+csgoob.com###ADback
+csgoob.com##.lg\:basis-1
+csgoob.com##.lg\:sticky.lg\:top-22 > .card-shadow:not(.py-4)
 csgoob.com#$##ADback { background: none !important; }
 csgoob.com#?#div[class^="dark:shadow"]:has(> a[href^="https://www.k7csgo.com/"][target="_blank"])
 csgoob.com#?#div[class^="dark:shadow-none"]:has(> div.ant-carousel)
@@ -87684,6 +87693,7 @@ lewdgamer.com##div[id^="spot-"]
 lewdninja.com##.stargate
 lewdspot.com###rightSidebarAdContainerPause
 lewdspot.com,mopoga.com###belowGameAdContainerPause
+lewdzone.com##.alnk
 lewdzone.com##.f8rpo
 lexico.com##.banbox
 lexico.com##.banbox-mini
@@ -92226,6 +92236,7 @@ sm.cn##.sc_operating_activity_ball
 sm.cn##.sc_operating_activity_banner
 sm.cn##.wl-dot-container
 sm.cn##.wolong-container
+sm.cn##[ad_display_dot],[ad_dot_url]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 sm.cn##div[id^="dl-banner-"]
 sm.cn,yz.m.sm.cn##a[href*="sm.cn/adclick?"]
@@ -92858,6 +92869,7 @@ taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 taiwancall.com##.gad
 taiwandaily.net##.gofollow[data-track] > img
 taiwanlibrarysearch.herokuapp.com##+js(no-fetch-if, www3.doubleclick.net)
+taiwanus.net##td[width="900"] + td[width="320"]
 takeover_background.
 takeover_banner_
 talkandroid.com##.talka-adlabel
@@ -94568,9 +94580,9 @@ waterfordwhispersnews.com##.wwn-ad-unit
 watson.ch##.watson-ad
 waust.at
 waybig.com##.sidebar_zing
+wayfair.*,wayfair.co.uk,wayfair.com#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 wayfair.com##.MediaNativePlacement-wrapper-link
 wayfair.com##div[data-enzyme-id="WssBannerContainer"]
-wayfair.com#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 wbal.com##.wbal-banner
 wbiao.cn###popupImgCorner
 wbiao.cn##.wb-panel
@@ -97073,6 +97085,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/aff-w2aK$document
 .com/aff-w2aK$~third-party
 .com/api/getPos?jspath=/$~third-party
+.com/api/ipv4check?mark
 .com/api/senddata?$third-party
 .com/appinstall.js$third-party,script
 .com/assets/public/chart.1.js$script,~third-party
@@ -97095,6 +97108,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/dm/dibu.js
 .com/dongcidaci/
 .com/doubleclick/
+.com/ev/*?type=events&event=
+.com/ev/*?type=impressions
 .com/exad/
 .com/gads/
 .com/ge/?s=$script,third-party
@@ -97111,6 +97126,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/im_ad/
 .com/image/ll/$script
 .com/images/102.js
+.com/in/multy$third-party
 .com/inc/?s=$third-party
 .com/j/*$script,third-party
 .com/java/shang1.js
@@ -97185,6 +97201,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com/tonglan.js
 .com/tonglan2.js
 .com/topjs/
+.com/track/pv?id=
 .com/ttdlyqbff/*/*.gif?$third-party,image
 .com/uploads/*-860x250.gif
 .com/user?$third-party
@@ -102979,6 +102996,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /impactAds.
 /impop.
 /impopup/*
+/in-stream-ad-admanager/build.js
 /in/show/?mid=$third-party
 /in/track?data=
 /ina_ad_
@@ -105203,6 +105221,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /video-ads-player.
 /video-ads/*
 /video-js-ads.
+/video-slider-ad/build.js
 /video.ads.
 /video/ad/*
 /video/ads/*
@@ -105248,6 +105267,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /virtualgirlhd-
 /vision/ads/*
 /vjioew-1322507002.
+/vlcdn.tsyndicate.com/videos
 /vld.ads?
 /vmind.qqvideo.tc.qq.com^
 /vnads.
@@ -123377,6 +123397,7 @@ zle.com$script
 ##.partnersTextLinks
 ##.pasuAD
 ##.patronad
+##.pause-ad
 ##.pauseAdPlacement
 ##.pb-ad
 ##.pb-ad-curated
@@ -125888,6 +125909,8 @@ zle.com$script
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
+##[ad_display_dot]
+##[ad_dot_url]
 ##[class$="-ad-box"]
 ##[class$="-ad-container"]
 ##[class$="_ad-container"]
@@ -126355,6 +126378,7 @@ zle.com$script
 ##a[href*=".sudun.com/"]
 ##a[href*=".supernfp.com/"]
 ##a[href*=".taobao.com"] > .top1
+##a[href*=".taobao.com"] > img[src*=".tucao."]
 ##a[href*=".tdchat.in"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
@@ -127778,6 +127802,7 @@ zle.com$script
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
 ##script + div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
+##script + iframe[src^="https://s.uuidksinc.net"]
 ##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
