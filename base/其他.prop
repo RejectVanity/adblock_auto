@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W/0hBh8GA1N8JthykvcXAg
+! Checksum: i3G23DqIAZ6v1XRnhl15Gg
 ! Title: 自用去广告Adblock规则
-! Version: 20240126210811
-! Last modified: 2024-01-26 21:08:11
-! Total Count: 3574
+! Version: 20240127090659
+! Last modified: 2024-01-27 09:06:59
+! Total Count: 3572
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -618,7 +618,6 @@
 ##a[target="_blank"][href="/adjump/acg_show_right.html"]
 ##a[target="_blank"][href^="https://365fun.sng.link"]
 ##bkveng
-##body > #__nuxt
 ##body > #app > .adv-frame
 ##body > #showcloneshengxiaon
 ##body > .ec-ad
@@ -2540,7 +2539,6 @@ jingyanlib.com##[adtemplate]
 jingyanlib.com##[class$="-ad"]
 jingyanlib.com##div[id^="adIndex"]
 jinxiyue.com##a[onclick^="qinlintest"]
-joia.cn#@#body > #__nuxt
 jwdyw.com##body > [class][classname],div[class^="show-app"],table
 kdslife.com##[class*="DownloadGuide"]
 kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
