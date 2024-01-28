@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: oBv4mo9jjCki5ks5tZ0LIQ
+! Checksum: AM99oDzcUYv5+srVYVhfig
 ! Title: 混合规则(自动更新)
-! Version: 20240128160943
+! Version: 20240129000731
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-28 16:09:43
-! Total Count: 130487
+! Last modified: 2024-01-29 00:07:31
+! Total Count: 130493
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -74439,6 +74439,7 @@
 ||xpcha.com/js/notice.js
 ||xpcwrgy.cn^
 ||xpdjsd.cn^
+||xpdronhu.xyz^
 ||xpdyqax.cn^
 ||xpeeps.com^
 ||xpevhinqadlokh.com^
@@ -86371,7 +86372,10 @@ inquinte.ca##.unit-block
 inquirer.com##.inno-ad
 inquirer.com##.inno-ad__ad
 inquirer.net###billboard_article
+inquirer.net###cdn-life-mrec
+inquirer.net##.desktop_smdc-FT-survey
 inquirer.net##a[href^="http://ruby.inquirer.net/"]
+inquirer.net##a[href^="https://ruby.inquirer.net/"]
 insauga.com##.proper-content-dynamic
 insidebitcoins.com##.banner-cta-wrapper
 insidebitcoins.com##.c-FloatingPrompt
@@ -90145,6 +90149,7 @@ picnob.com,pixwox.com##.ah-box-n-w
 picrew.me##.play-Imagemaker_Footer
 pics4upload.com,imgsen.com##a[href="https://besthotgayporn.com/"] > img
 picsporn.net##.box:has(> .dip-exms)
+pictoa.com###d-zone-1
 picuki.me##.media-wrap-h12
 pigai.org###newnotice
 pigglywigglystores.com##.fp-item:has(.fp-tag-ad)
@@ -130011,6 +130016,7 @@ zle.com$script
 abbao.cn#@##adContent
 abbao.cn,guloggratis.dk,tt1069.com,xietui.com#@##adcontent
 about.com#@##adcontainer1
+aca.best#@#body > noscript + #app
 adbug.cn#@#.google_ads
 adeam.com#@#.atf-wrapper
 adexchanger.com,gottabemobile.com,mrmoneymustache.com,stealjobs.com,thinkcomputers.org#@#.custom-ad

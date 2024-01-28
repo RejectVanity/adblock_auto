@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: DBNN1SQfR5PgqcVYFgZZRg
+! Checksum: 5qxX01NunLW0/ZSkKHwYhg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240128160955
+! Version: 20240129000741
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-28 16:09:55
-! Total Count: 25520
+! Last modified: 2024-01-29 00:07:41
+! Total Count: 25522
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14720,6 +14720,7 @@
 ||xp85.com/common/js/allpage.js
 ||xpcha.com/js/notice.js
 ||xpcwrgy.cn^
+||xpdronhu.xyz^
 ||xpffkbpq.xyz^
 ||xphcrjth.xyz^
 ||xpicj1.cc^
@@ -25481,6 +25482,7 @@ zle.com$script
 @@||youtube.com/my_video_ad$document
 @@||ytimg.com^*_banner$domain=youtube.com
 @@||zagaz.com/img/blogads.css
+aca.best#@#body > noscript + #app
 advancedrenamer.com,alotof.software,android-doc.com,androidrepublic.org,anonymousemail.me,apk.tw,apkmirror.com,blog.reh.tw,chaojizhibo.net,chtoen.com,demos.krajee.com,dizhishengcheng.com,doitwell.tw,epicbundle.com,epinv.com,ff14angler.com,fxpan.com,gamaniak.com,haoweichi.com,hs-exp.jp,kadinlarkulubu.com,korail.pe.kr,logi.im,lspdfrcn.com,moa.tw,moe123.net,numberempire.com,phcorner.net,pixiz.com,playok.com,reh.tw,rockmods.net,shenfendaquan.com,slashview.com,sockscap64.com,spoilertv.com,vaptcha.com,willyoupressthebutton.com,yabook.org#@#ins.adsbygoogle
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend" i]
 aiqicha.baidu.com#@#[class*="ad"][class*="recommend"]
