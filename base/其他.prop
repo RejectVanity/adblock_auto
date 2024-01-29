@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pBeRcF3xtB8LDdHmBvbYww
+! Checksum: 8P8jAOb/5WlTEypN9DLsTg
 ! Title: 自用去广告Adblock规则
-! Version: 20240129140833
-! Last modified: 2024-01-29 14:08:33
-! Total Count: 3603
+! Version: 20240129144248
+! Last modified: 2024-01-29 14:42:48
+! Total Count: 3604
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2648,6 +2648,7 @@ mobile.baidu.com##div[class^="detail-banner-"]
 mparticle.uc.cn##[class^="index"][class*="block"],[class^="index_"][class*="card"],[class^="index"][class*="loading"],[class^="index"][class*="news"],[class^="index"][class*="push"],[class^="index"][class*="shortCard"],[id*="_open_uc_id"],[class^="index"][class*="newsController"],[app-type="uc"],[class^="index"][class*="moreContainerParent"]
 mpo18.com##[style*="width:"][style*="100vw"]
 mpo18.com##a[href^="https://api.openpanel.analytics.international"]
+mpo18.com##script + style + div[id]
 msn.com,msn.cn##[class^="nativeAd-"]
 msn.com,msn.cn##[data-t*="NativeAd"]
 myd666.tv##.is_mb
