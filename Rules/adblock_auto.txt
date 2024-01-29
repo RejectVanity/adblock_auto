@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: jBQwkShM7wd+5fixd9WSPQ
+! Checksum: ZKqYx+VVtPb5fROgqfc26Q
 ! Title: 混合规则(自动更新)
-! Version: 20240129204828
+! Version: 20240129220648
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-29 20:48:28
-! Total Count: 130793
+! Last modified: 2024-01-29 22:06:48
+! Total Count: 130809
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -10156,6 +10156,7 @@
 ||autopsycarrel.com^
 ||autopsyglossy.com^
 ||autoteaser.ru^
+||autotrack.studyquicks.com^
 ||autoua.com^
 ||autous.ru^
 ||autumncamping.com^
@@ -11613,6 +11614,7 @@
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.carfax.com^
+||beacon.cdn.qq.com^
 ||beacon.cdnma.com^
 ||beacon.digima.com^
 ||beacon.dropbox.com^
@@ -26196,6 +26198,7 @@
 ||flytechb.com^
 ||flyv.tv/a/$xmlhttprequest
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
+||fm-analytics-api.pocketfm.com^
 ||fm086.com/Plugins/search
 ||fm44f.space^
 ||fmagnitude.cfd^
@@ -40211,6 +40214,7 @@
 ||log-upload-os.mihoyo.com^
 ||log-upload.mihoyo.com^
 ||log-vietnamplus-vn.cdn.ampproject.org^
+||log.51changdu.com^
 ||log.adap.tv^
 ||log.ahamo.com^
 ||log.aimtell.com^
@@ -40252,6 +40256,7 @@
 ||log.doanhnhan.vn^
 ||log.down61.com^
 ||log.dpa.com^
+||log.dramaboxdb.com^
 ||log.droid4x.cn^
 ||log.dubaotiente.com^
 ||log.dzen.ru^
@@ -40609,6 +40614,7 @@
 ||lookszone.ru^
 ||looktt.xyz^
 ||lookujie.net^
+||lookup-domain.com^
 ||lookypeacing.uno^
 ||loolausufouw.com^
 ||loolowhy.com^
@@ -47652,6 +47658,7 @@
 ||ognyvo.ru^
 ||ogocvet.ru^
 ||ogouawc.cn^
+||ografazu.xyz^
 ||ograuwih.com^
 ||ogrid.org^
 ||ogrrmasukq.com^
@@ -54766,6 +54773,7 @@
 ||ratemytop.app^
 ||ratesatrociousplans.com^
 ||rathelycornett.com^
+||ratimsub.net^
 ||rating.in^
 ||ratioboom.ru^
 ||rationalan.pro^
@@ -59893,6 +59901,7 @@
 ||skatingbelonged.com^
 ||skatingperformanceproblems.com^
 ||skattamindre.se^
+||skawwebless.com^
 ||skbao.co^
 ||skcapepyshdr.xyz^
 ||skcrtxr.com^
@@ -61967,6 +61976,7 @@
 ||stats.stg.zaloapp.com^
 ||stats.storify.com^
 ||stats.streamhub.io^
+||stats.studyquicks.com^
 ||stats.stylight.de^
 ||stats.suite101.com^
 ||stats.tamdiem247.com^
@@ -62187,6 +62197,7 @@
 ||stiftood.xyz^
 ||stigala.com^
 ||stigat.com^
+||stigmaicomfy.com^
 ||stigmuuua.xyz^
 ||stiksaud.com^
 ||stilaed.com^
@@ -62998,6 +63009,7 @@
 ||swimsunleisure.com^
 ||swimtwittercloakroom.com^
 ||swindlehumorfossil.com^
+||swindlelaceratetorch.com^
 ||swinesuburbanclue.com^
 ||swingebudded.com^
 ||swingelinseys.com^
@@ -63155,6 +63167,7 @@
 ||sysmon.kakaku.com^
 ||sysomos.com^
 ||sysoutvariola.com^
+||system-debug-1.b-cdn.net^
 ||system-notify.app^
 ||systeme-business.online^
 ||systemengagedwisely.com^
@@ -69387,6 +69400,7 @@
 ||vaedan.top^
 ||vaehxkhbhguaq.xyz^
 ||vaemfecqllefj.xyz^
+||vagilunger.com^
 ||vagkcwvqpty.com^
 ||vagromdecane.website^
 ||vagueleader.pro^
@@ -75359,6 +75373,7 @@
 ||yellowjm.com^
 ||yellpeculiarities.com^
 ||yelmlrq.cn^
+||yeloads.com^
 ||yemancomic.com/static/maoshuang.js
 ||yemancomic.com/static/xiaomage.js
 ||yemonisoni.com^
@@ -128541,6 +128556,7 @@ zle.com$script
 #@#.vw-header-ads-leader-board
 #@#.ws_contentAd660
 #@#[id^="google_ads_iframe"]
+#@#body > noscript + #app
 #@#ins.adsbygoogle
 012.tw#@#.ad728
 10.10.5.12,xchina.co,xchina.fun,xchina.pro#@#.banner_ad
