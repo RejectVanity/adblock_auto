@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3S/d7VLhWfYK9iJFSJZhtw
+! Checksum: pBeRcF3xtB8LDdHmBvbYww
 ! Title: 自用去广告Adblock规则
-! Version: 20240128162839
-! Last modified: 2024-01-28 16:28:40
-! Total Count: 3589
+! Version: 20240129140833
+! Last modified: 2024-01-29 14:08:33
+! Total Count: 3603
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -123,6 +123,7 @@
 ##.appguide-wrap
 ##.articleads
 ##.artplayer-plugin-ads
+##.av-apps
 ##.bads
 ##.banner-cctv-style-top
 ##.bdads
@@ -263,6 +264,7 @@
 ##.under_player > div[class*="lg:hidden"]
 ##.van-tab__panel > .noTop.main-content > .group-content
 ##.video-ads-container
+##.video-inline-ads
 ##.wide-ads-container
 ##.widget-ad
 ##.widget-ads
@@ -853,6 +855,7 @@
 ##iframe[src*="/lvesnk.html?zoneid="]
 ##iframe[src*="/redbaiduct.com?s="]
 ##iframe[src*="/smartpop/"]
+##iframe[src*="deliver.ptgncdn.com"]
 ##iframe[src="/ad.html"]
 ##iframe[src^="//ad.a-ads.com/"]
 ##iframe[src^="//ads."]
@@ -1200,6 +1203,7 @@
 .com:8010/cc/*?*=$third-party
 .com:8010/sc/*?*=$third-party
 .com:8891/vh3/
+.com:8891/vj3/
 .com:9*/yc/c/*/GEBEF$third-party
 .gif$domain=kpl037.com|yydy.cc
 .html?channelCode=$third-party
@@ -1337,6 +1341,7 @@
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|chikiporn.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|hog.tv|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
 /^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=4kporn.xxx|4tube.com|alotporn.com|alphaporno.com|alrincon.com|amateur8.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bestfreetube.xxx|bigtitslust.com|bravotube.net|cockmeter.com|crazyporn.xxx|daftporn.com|ebony8.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|gotporn.com|hdporn24.org|hdpornmax.com|hdtube.porn|hellporno.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
 /^https?:\/\/.*\/[a-z]{4,}\/[a-z]{4,}\.js/$script,~third-party,domain=bdsmx.tube|bigdick.tube|desiporn.tube|hclips.com|hdzog.com|hdzog.tube|hotmovs.com|inporn.com|porn555.com|pornzog.com|shemalez.com|tporn.xxx|tubepornclassic.com|txxx.com|upornia.com|vjav.com|vxxx.com|youteenporn.net
+/^https?:\/\/[^\s]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
 /_next/static/chunks/$script,domain=hentaipaw.com
 /_xa/ads?
@@ -1653,6 +1658,7 @@
 /bultykh/ipp24/7/*$third-party
 /clientapi/app/getinfo?appid=*&android=true$third-party
 /cnzz/tongji.php
+/code/native.js?h=$script
 /config/json/cctv.json?v=1$~third-party
 /css/ad.
 /display/ads/*
@@ -1725,6 +1731,7 @@
 /js/ad.js?slot=
 /js/ad_jyshe.js$third-party,script
 /js/adb.js$third-party
+/js/adh5.js$~third-party
 /js/adlmb.js$third-party,script
 /js/ads.js?v=
 /js/ads/*0.js
@@ -1797,6 +1804,7 @@
 /lv/esnk/*/code.js$script,third-party
 /matomo.js$third-party,script
 /mdzzxttss.php?s=
+/mnrt/kmrr1.json
 /modalad.
 /module-ads-html-$script
 /module-ads/*
@@ -2190,7 +2198,7 @@
 @@||c-ctrip.com/images/*.jpg
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||camsexvideo.net/js/advertising.js
-@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me|assistant.etxlzb.com
+@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me|assistant.etxlzb.com|gualaoshi.org
 @@||cre.dp.sina.cn^
 @@||eporner.com^$~third-party
 @@||fapcat.com^$~third-party
@@ -2465,6 +2473,7 @@ https://*.*/dh/*/*.gif$third-party,image
 https://*.*/dl/*/*.gif$third-party,image
 https://*.*/dl/*/1.jpg$third-party,image
 https://*.*/hx/*/*.gif$third-party,image
+https://*.*/zh/*/*.gif$third-party,image
 ifanr.com##.popup-download
 ifeng.com##[class*="temp-ad"]
 ifeng.com##[class="openapp"]
@@ -2821,13 +2830,16 @@ sogou.com#@#.vrResult[data-v="102"][exposed="1"]
 sogou.com#@#.vrResult[data-v="103"][exposed="1"]
 sosad123.com##[src="div class="]
 sosad123.com##div > div[id]:has(img[src*=".xyz/"])
-spankbang.com,spankbang.party###interstitial_div_v2
-spankbang.com,spankbang.party###interstitial_div_v3
-spankbang.com,spankbang.party##.ptgncdn_holder
-spankbang.com,spankbang.party##[class*="_ad"]
-spankbang.com,spankbang.party##[class="thumb is_live"]
-spankbang.com,spankbang.party##[class^="lv_cm_int_"]
-spankbang.com,spankbang.party##div[class*="top"] > img[src][class*="cls"]
+spankbang.com,spankbang.party,spankbang-com.zproxy.org###interstitial_div_v2
+spankbang.com,spankbang.party,spankbang-com.zproxy.org###interstitial_div_v3
+spankbang.com,spankbang.party,spankbang-com.zproxy.org##.ptgncdn_holder
+spankbang.com,spankbang.party,spankbang-com.zproxy.org##.video-inline-ads
+spankbang.com,spankbang.party,spankbang-com.zproxy.org##[class*="_ad"]
+spankbang.com,spankbang.party,spankbang-com.zproxy.org##[class="thumb is_live"]
+spankbang.com,spankbang.party,spankbang-com.zproxy.org##[class^="lv_cm_int_"]
+spankbang.com,spankbang.party,spankbang-com.zproxy.org##div[class*="top"] > img[src][class*="cls"]
+spankbang.com,spankbang.party,spankbang-com.zproxy.org##iframe[src*="deliver.ptgncdn.com"]
+spankbang.com,spankbang.party,spankbang-com.zproxy.org##ins.ptgncdn_holder
 sqruitu.com##embed[id][src*="://"][src*=".z"][src$="="]
 ssmh01.top,ssmh02.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,wnacg.ru,htcomic.top,wnacg.top,wnacg.com,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru##a[href*=".xyz?ch=ssmh"],a[href^="https://l.hyenadata.com"],img[style][alt][src*="/data/"][src$=".php"],img[style][alt][src*="/data/"][src$=".gif"]
 sunshinewaay.cn##img[class$="BnImg"]
@@ -3313,6 +3325,7 @@ zle.com$script
 ||mc.webvisor.org^
 ||mc.yandex.ru^
 ||mc2n.xyz^
+||mcizas.com^
 ||merwds.qwuidbn.com^$third-party
 ||missav.com/pop?url=
 ||missav123.com/pop?url=
@@ -3363,6 +3376,7 @@ zle.com$script
 ||profitablegatetocontent.com^
 ||pssy.xyz^$third-party
 ||pstatp.com^*/push.js
+||puabvo.com^
 ||public.app.autohome.com.cn^
 ||push.app.autohome.com.cn^
 ||pvx.autohome.com.cn^
