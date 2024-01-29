@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ZKqYx+VVtPb5fROgqfc26Q
+! Checksum: cWL9MDTzy6Z+/+qzcRqUlQ
 ! Title: 混合规则(自动更新)
-! Version: 20240129220648
+! Version: 20240130000846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-29 22:06:48
-! Total Count: 130809
+! Last modified: 2024-01-30 00:08:46
+! Total Count: 130810
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -81063,6 +81063,7 @@ boomlive.in##.right_ad_4
 booom.net,x6d.com,ziyuanyo.com##.tmall_tab
 bootcss.com##.bs-docs-sidebar a[href^="http://click.aliyun.com/"]
 boots.com##li.estore_product_container:has(.sponsored)
+boots.com#?#.oct-listers-hits__item:-abp-contains(Sponsored)
 bootyheroes.com##.cross-promo-bnr
 bootyoftheday.co###lj
 bootyoftheday.co###random-div-wrapper
