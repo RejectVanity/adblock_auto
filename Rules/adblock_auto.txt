@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: GKsYan1q6rMEhOz5vw+HDw
+! Checksum: 3CwTY6nKHUs1U2ZlkSOreQ
 ! Title: 混合规则(自动更新)
-! Version: 20240130160937
+! Version: 20240130224414
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-30 16:09:37
-! Total Count: 130881
+! Last modified: 2024-01-30 22:44:14
+! Total Count: 130900
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4581,6 +4581,7 @@
 ||adaranth.com^
 ||adaround.net^
 ||adarutoad.com^
+||adasdz.cn^
 ||adash.m.taobao.com^
 ||adash.man.aliyuncs.com^
 ||adashx4ae.ut.taobao.com^
@@ -5488,6 +5489,7 @@
 ||ads.edadeal.ru^
 ||ads.elpais.com.uy^
 ||ads.enrt.eu^
+||ads.environmentalleader.com^
 ||ads.eorezo.com^
 ||ads.expekt.se^
 ||ads.facebook.com^$xmlhttprequest,redirect-rule=noop.txt
@@ -9691,6 +9693,7 @@
 ||asserts.avple.tv/file/avple-asserts/ad.js
 ||assetize.com^
 ||assets.adfenix.com^
+||assets.datarize.ai^
 ||assets.harafunnel.com^
 ||assets.heylink.com^
 ||assets.msn.cn/bundles/v1/microsoftNews/latest/placement-manager.*.js$domain=microsoftnews.msn.cn
@@ -20718,6 +20721,7 @@
 ||dioimg.net^$domain=18board.com|18board.net|18board.org|18p2p.com|88files.net|t66y.com
 ||dionympoalike.website^
 ||diopic.net^$domain=18board.com|18p2p.com
+||diopousg.com^
 ||diorismmotes.website^
 ||diouy9cvtx.xyz^
 ||dioxidtoluyls.com^
@@ -21928,6 +21932,7 @@
 ||dtprofit.com^
 ||dtqbqmzzbeck.com^
 ||dtqiow.cn^
+||dtr-onsite-feed.datarize.ai^
 ||dtrk.slimcdn.com^
 ||dtscdn.com^
 ||dtscout.com^
@@ -40364,6 +40369,7 @@
 ||log.particlenews.com^
 ||log.perfecttitspics.com^
 ||log.pinterest.com^
+||log.pipeline.datarize.io^
 ||log.plo.vn^
 ||log.pngindir.com^
 ||log.polarisoffice.com^
@@ -55048,6 +55054,7 @@
 ||realsrvcdn.com^
 ||realssp.co.kr^
 ||realtime-bid.com^
+||realtime-profiling.datarize.ai^
 ||realtimely.io^
 ||realtimewebstats.net^
 ||realtracker.com^
@@ -55501,6 +55508,7 @@
 ||reliablemore.com^
 ||reliableorientdelirium.com^
 ||reliantstacklaugh.com^
+||relicsheer.com^
 ||reliefindividual.com^
 ||relievedgeoff.com^
 ||relishcoincidencehandbag.com^
@@ -57002,6 +57010,7 @@
 ||rutube.com^
 ||rutvind.com^
 ||rutwdj.id^
+||ruuaqkw.com^
 ||ruutjhlmv.com^
 ||ruuwkftrtegqj.com^
 ||ruwei.me^
@@ -74807,6 +74816,7 @@
 ||xpst0kx.cn^
 ||xpuqrn.com^
 ||xpvojrfwabtkr.com^
+||xpwlctfk.xyz^
 ||xpyerxzn.xyz^
 ||xpyjyhny.xyz^
 ||xpynqq.com^
@@ -77215,6 +77225,7 @@
 ||zoagremo.net^
 ||zoaheeth.com^
 ||zoaptaup.com^
+||zoawhoal.com^
 ||zoawufoy.net^
 ||zobesmu.cn^
 ||zobsaims.com^
@@ -119548,6 +119559,7 @@ zle.com$script
 ##.afc_popup
 ##.aff-big-unit
 ##.aff-iframe
+##.affTpllay[style]
 ##.afffix-custom-ad
 ##.affiliate-ad
 ##.affiliate-footer
@@ -122147,6 +122159,7 @@ zle.com$script
 ##.head-banner468
 ##.head-top-ads
 ##.headAd
+##.headThreeImg > .block > a > img
 ##.head_ad
 ##.head_ad_wrapper
 ##.head_ads
@@ -127123,6 +127136,7 @@ zle.com$script
 ##a[href="https://js.ojbkdns.com/url.php"]
 ##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
 ##a[href="https://kds03.net"][target="_blank"]
+##a[href="https://mbfbf022.xyz"][target="_blank"]
 ##a[href="https://sk83k.com"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
@@ -127587,6 +127601,9 @@ zle.com$script
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
+##a[target="_blank"] > img[src$="-150-300.gif"]
+##a[target="_blank"] > img[src$="-150x300.gif"]
+##a[target="_blank"] > img[src$="/150x300.gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href*="//ads.traffichaus.com/"]
@@ -127705,6 +127722,7 @@ zle.com$script
 ##div.links-top > ul.icon-list
 ##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
 ##div.nv_blist_cell[onclick^="window.open("]
+##div.p > a > img[style*="width:100%;"]
 ##div.suiji.bottom,div.suiji.topad
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
@@ -128157,6 +128175,7 @@ zle.com$script
 ##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="jiongnet.cn"]
+##img[src*="kfpicimage.xyz"]
 ##img[src*="mt7y9.com/"]
 ##img[src*="sm2he.net/"]
 ##img[src*="sm2kz.net"]

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BszYeHFyS13xc11Ecj8oZA
+! Checksum: vZAIPbCkrtPmAzDd7bVQhQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240130160947
+! Version: 20240130224424
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-01-30 16:09:47
-! Total Count: 25230
+! Last modified: 2024-01-30 22:44:24
+! Total Count: 25242
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1777,6 +1777,7 @@
 ||adaranth.com^
 ||adaround.net^
 ||adarutoad.com^
+||adasdz.cn^
 ||adatrix.com^$third-party
 ||adb.*.online/o.js$third-party
 ||adb.*.online/slot?$third-party
@@ -5588,6 +5589,7 @@
 ||dioimg.net/images/*.gif
 ||dioimg.net^$domain=18board.com|18board.net|18board.org|18p2p.com|88files.net|t66y.com
 ||diopic.net^$domain=18board.com|18p2p.com
+||diopousg.com^
 ||diouy9cvtx.xyz^
 ||discuss.com.hk/dfp_forum.php?au=Discuss_Web_
 ||discuss.com.hk/oath/
@@ -11809,6 +11811,7 @@
 ||ruten.com.tw/js/gads_
 ||ruten.com.tw/search/imp_ad_
 ||ruten.com.tw^*/ahd_
+||ruuaqkw.com^
 ||ruyig.com/730x76.png
 ||ruyqiolnz.cyou^
 ||rvbiocn.cn^
@@ -14454,6 +14457,7 @@
 ||xporn.in^
 ||xpornotubes.com/ponrtube.html
 ||xprdmnlo.xyz^
+||xpwlctfk.xyz^
 ||xpyerxzn.xyz^
 ||xpyjyhny.xyz^
 ||xpynqq.com^
@@ -22341,6 +22345,7 @@ zle.com$script
 ##.adx-wrapper-middle
 ##.adx_center
 ##.afc_popup
+##.affTpllay[style]
 ##.alert_windows > .q-card__actions > a
 ##.amp-ad container
 ##.amp-ad-container
@@ -22603,6 +22608,7 @@ zle.com$script
 ##.hbp > .wp_banner
 ##.hd-adv
 ##.head-ad
+##.headThreeImg > .block > a > img
 ##.head_ad
 ##.headad
 ##.header-ad-desktop
@@ -23456,6 +23462,7 @@ zle.com$script
 ##a[href="https://js.ojbkdns.com/url.php"]
 ##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
 ##a[href="https://kds03.net"][target="_blank"]
+##a[href="https://mbfbf022.xyz"][target="_blank"]
 ##a[href="https://sk83k.com"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
@@ -23572,6 +23579,9 @@ zle.com$script
 ##a[target=" _blank"] > img[src$=".gif"][style*="width:100%"]
 ##a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
 ##a[target="_blank"] > img.king
+##a[target="_blank"] > img[src$="-150-300.gif"]
+##a[target="_blank"] > img[src$="-150x300.gif"]
+##a[target="_blank"] > img[src$="/150x300.gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ##a[target="_blank"][href*="//ads.traffichaus.com/"]
@@ -23668,6 +23678,7 @@ zle.com$script
 ##div.g-slide > div[class^="swiper-"]
 ##div.links-top > ul.icon-list
 ##div.nv_blist_cell[onclick^="window.open("]
+##div.p > a > img[style*="width:100%;"]
 ##div.suiji.bottom,div.suiji.topad
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
@@ -24039,6 +24050,7 @@ zle.com$script
 ##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="jiongnet.cn"]
+##img[src*="kfpicimage.xyz"]
 ##img[src*="mt7y9.com/"]
 ##img[src*="sm2he.net/"]
 ##img[src*="sm2kz.net"]
