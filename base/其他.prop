@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TCTtg1xkD4VNysC3nJt/jQ
+! Checksum: wXs3zXj2BLJpmS6+l08hSw
 ! Title: 自用去广告Adblock规则
-! Version: 20240129222819
-! Last modified: 2024-01-29 22:28:19
-! Total Count: 3604
+! Version: 20240130164754
+! Last modified: 2024-01-30 16:47:54
+! Total Count: 3612
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -120,6 +120,7 @@
 ##.adx-wrapper
 ##.adx-wrapper-middle
 ##.adx_center
+##.affTpllay[style]
 ##.appguide-wrap
 ##.articleads
 ##.artplayer-plugin-ads
@@ -198,6 +199,7 @@
 ##.gg_pc
 ##.gg_sj
 ##.gpt-ad
+##.headThreeImg > .block > a > img
 ##.header-ad-desktop
 ##.header-ad-mobile
 ##.ima-ad-container
@@ -541,6 +543,7 @@
 ##a[href="https://js.ojbkdns.com/url.php"]
 ##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
 ##a[href="https://kds03.net"][target="_blank"]
+##a[href="https://mbfbf022.xyz"][target="_blank"]
 ##a[href="https://sk83k.com"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
@@ -617,6 +620,9 @@
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[style*="width:99%"][style*="z-index:100000"][style*="block"]
 ##a[target=" _blank"] > img[src$=".gif"][style*="width:100%"]
+##a[target="_blank"] > img[src$="-150-300.gif"]
+##a[target="_blank"] > img[src$="-150x300.gif"]
+##a[target="_blank"] > img[src$="/150x300.gif"]
 ##a[target="_blank"][href*="//ads.traffichaus.com/"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
 ##a[target="_blank"][href="/adjump/acg_show_right.html"]
@@ -683,6 +689,7 @@
 ##div.g-slide > div[class^="swiper-"]
 ##div.links-top > ul.icon-list
 ##div.nv_blist_cell[onclick^="window.open("]
+##div.p > a > img[style*="width:100%;"]
 ##div.suiji.bottom,div.suiji.topad
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
@@ -981,6 +988,7 @@
 ##img[src*="cn-chengdu.aliyuncs.com/"][alt][style*="width"][style*="100%"]
 ##img[src*="https://p.qlogo.cn/qqmail_head"]
 ##img[src*="jiongnet.cn"]
+##img[src*="kfpicimage.xyz"]
 ##img[src*="mt7y9.com/"]
 ##img[src*="sm2he.net/"]
 ##img[src*="sm2kz.net"]
