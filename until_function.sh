@@ -376,6 +376,3 @@ cat << key > "${file}"
 key
 }
 
-touch "${0%/*}/Adblock.txt"
-write_head "${0%/*}/Adblock.txt"
-update_README_info
