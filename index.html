@@ -97,13 +97,13 @@
 	<p id="githubfast2" style="display: none;" >https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt</p>
 	<p id="gitcode1" style="display: none;" >https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto.txt</p>
 	<p id="gitcode2" style="display: none;" >https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt</p>
-	<p id="gitlab1" style="display: none;" >https://jihulab.com/foreseeable_boy/adblock_auto/-/raw/main/Rules/adblock_auto.txt</p>
-	<p id="gitlab2" style="display: none;" >https://jihulab.com/foreseeable_boy/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt</p>
+	<p id="gitlink1" style="display: none;" >https://www.gitlink.org.cn/api/keytoolazy/adblock_auto/raw/Rules/adblock_auto.txt?ref=main</p>
+	<p id="gitlink2" style="display: none;" >https://www.gitlink.org.cn/api/keytoolazy/adblock_auto/raw/Rules/adblock_auto_lite.txt?ref=main</p>
 </div>
 
 <div id="Rules_table" class="Rules_table" >
 		<h3 style="text-align:center;">点击可复制订阅链接</h3>
-		<p style="text-align:center; font-size:13px;">国内订阅推荐优先排名 Github加速订阅链接(能用就用，不能再换Gitcode) &gt;= Gitlab(目前稳定，同步也快) &gt; Gitcode(同步慢，但是稳定些) &gt; Github(国内有的无法访问，需要梯子) </p>
+		<p style="text-align:center; font-size:13px;">国内订阅推荐优先排名 Github加速订阅链接(能用就用，不能再换Gitcode) &gt;= Gitlink(需手动同步) = Gitcode(需手动同步) &gt; Github(国内有的无法访问，需要梯子) </p>
 <table id="table" >
 	<thead>
 <tr>
@@ -120,14 +120,14 @@
 	<td><button onclick="copyTextgithub1()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
 	<td><button onclick="copyTextgithubfast1()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
 	<td><button onclick="copyTextgitcode1()" style="text-align:center; font-size:10px;" > 点击复制 </button></td>
-	<td><button onclick="copyTextgitlab1()" style="text-align:center; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgitlink1()" style="text-align:center; font-size:10px;" > 点击复制 </button> </td>
 </tr>
 	<tr>
 	<td>混合规则(精简版)</td>
 	<td><button onclick="copyTextgithub2()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
 	<td><button onclick="copyTextgithubfast2()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
 	<td><button onclick="copyTextgitcode2()" style="text-align:center; font-size:10px;" > 点击复制 </button></td>
-	<td><button onclick="copyTextgitlab2()" style="text-align:center; font-size:10px;" > 点击复制 </button></td>
+	<td><button onclick="copyTextgitlink2()" style="text-align:center; font-size:10px;" > 点击复制 </button> </td>
 </tr>
 		</tbody>
 	</table>
@@ -147,7 +147,7 @@
 	<p>
 		<a href="https://github.com/lingeringsound/adblock_auto" target="_blank" > GIthub/ </a>
 		<a href="https://gitcode.net/weixin_45617236/adblock_auto" target="_blank" > Gitcode/ </a>
-		<a href="https://jihulab.com/foreseeable_boy/adblock_auto" target="_blank" > Gitlab </a>
+		<a href="https://www.gitlink.org.cn/keytoolazy/adblock_auto" target="_blank" > Gitlink </a>
 	</p>
 </div>
 
@@ -255,25 +255,23 @@ function copyTextgitcode2() {
 	document.body.removeChild(inputElement);
 	alert("复制内容: "+copyText.textContent+" ");
 }
-function copyTextgitlab1() {
-	var copyText = document.getElementById("gitlab1");
+function copyTextgitlink1() {
+	var copyText = document.getElementById("gitlink1");
 	var inputElement = document.createElement("input");
 	inputElement.setAttribute("value", copyText.textContent);
 		document.body.appendChild(inputElement);
 	inputElement.select();
 		document.execCommand("copy");
 	document.body.removeChild(inputElement);
-	alert("复制内容: "+copyText.textContent+" ");
 }
-function copyTextgitlab2() {
-	var copyText = document.getElementById("gitlab2");
+function copyTextgitlink2() {
+	var copyText = document.getElementById("gitlink2");
 	var inputElement = document.createElement("input");
 	inputElement.setAttribute("value", copyText.textContent);
 		document.body.appendChild(inputElement);
 	inputElement.select();
 		document.execCommand("copy");
 	document.body.removeChild(inputElement);
-	alert("复制内容: "+copyText.textContent+" ");
 }
 </script>
 
