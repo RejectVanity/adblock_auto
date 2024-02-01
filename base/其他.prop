@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wXs3zXj2BLJpmS6+l08hSw
+! Checksum: SE4L/xmG3QFRL3SIXdJINA
 ! Title: 自用去广告Adblock规则
-! Version: 20240130164754
-! Last modified: 2024-01-30 16:47:54
-! Total Count: 3612
+! Version: 20240202015124
+! Last modified: 2024-02-02 01:51:24
+! Total Count: 3642
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -243,6 +243,7 @@
 ##.popup + .shortcuts-mobile-overlay
 ##.popup.popup-abk
 ##.pre-play-adv
+##.qgg_popup_close2
 ##.remove-ads
 ##.rmp-ad-container
 ##.sideadvert
@@ -400,6 +401,8 @@
 ##[src*="/adBanner"]
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
+##[style*="cos.ap-guangzhou.myqcloud.com/img/"][style*=".js"]
+##[style*="cos.ap-nanjing.myqcloud.com/img/"][style*=".js"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style*="https://fjkb.tyvzyn.com/"]
 ##[style="position: absolute; inset: 0px;"]
@@ -1094,6 +1097,8 @@
 .biz/ad2/
 .biz/ads/
 .buzz:*/api/v4/g?kyurl=$third-party
+.buzz:80*/cc/*?is_not=$third-party
+.buzz:80*/sc/*?is_not=$third-party
 .bz/ads/
 .ca/ads-
 .ca/ads/
@@ -1122,6 +1127,27 @@
 .cn:*/vh5/$third-party
 .cn:*/vj5/$third-party
 .cn:12443/ty/$third-party
+.cn:80*/cc/*?is_not=$third-party
+.cn:8001/cc/*?is_not=
+.cn:8001/sc/*?is_not=
+.cn:8002/cc/*?is_not=
+.cn:8002/sc/*?is_not=
+.cn:8003/cc/*?is_not=
+.cn:8003/sc/*?is_not=
+.cn:8004/cc/*?is_not=
+.cn:8004/sc/*?is_not=
+.cn:8005/cc/*?is_not=
+.cn:8005/sc/*?is_not=
+.cn:8006/cc/*?is_not=
+.cn:8006/sc/*?is_not=
+.cn:8007/cc/*?is_not=
+.cn:8007/sc/*?is_not=
+.cn:8008/cc/*?is_not=
+.cn:8008/sc/*?is_not=
+.cn:8009/cc/*?is_not=
+.cn:8009/sc/*?is_not=
+.cn:8010/cc/*?is_not=
+.cn:8010/sc/*?is_not=
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
 .com./$popup,domain=pornhub.com
@@ -1228,6 +1254,8 @@
 .live/wiseindex*?*16$third-party
 .live:*/api/v4/g?kyurl=$third-party
 .live:*/vh5/$third-party
+.live:80*/cc/*?is_not=$third-party
+.live:80*/sc/*?is_not=$third-party
 .net/20*/*/*.txt$third-party
 .ph/ads/
 .php/ad/
@@ -1324,6 +1352,7 @@
 .xyz/zooker?$third-party
 .xyz:*/api/v4/g?kyurl=$third-party
 .xyz:*/cc/*?is_not=$third-party
+.xyz:80*/sc/*?is_not=$third-party
 /*.php?pid=*&n=$third-party
 /*/*/chart*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
 /*/*/d3.2.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
@@ -1896,6 +1925,7 @@
 /sbar.json?key=
 /sdk/push_web/?zid=
 /search/tsc.php?
+/sign?v=$domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 /splash.php?cat=&idzone=*
 /tempads/*
 /template/*/adm/*
