@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SE4L/xmG3QFRL3SIXdJINA
+! Checksum: YiAOy3g7rJ0ZOHagOxyAWg
 ! Title: 自用去广告Adblock规则
-! Version: 20240202015124
-! Last modified: 2024-02-02 01:51:24
+! Version: 20240202100737
+! Last modified: 2024-02-02 10:07:37
 ! Total Count: 3642
 ###ADbox
 ###AdBox2
@@ -1096,6 +1096,7 @@
 .biz/ad/
 .biz/ad2/
 .biz/ads/
+.buzz/video-ads/
 .buzz:*/api/v4/g?kyurl=$third-party
 .buzz:80*/cc/*?is_not=$third-party
 .buzz:80*/sc/*?is_not=$third-party
@@ -1840,7 +1841,6 @@
 /lv/esnk/*/code.js$script,third-party
 /matomo.js$third-party,script
 /mdzzxttss.php?s=
-/mnrt/kmrr1.json
 /modalad.
 /module-ads-html-$script
 /module-ads/*
