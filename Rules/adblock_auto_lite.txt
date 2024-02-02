@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 5vmiAS/yhg2b5qzSBdKtPA
+! Checksum: +n/kd2/JQvBvUlDrR9qmsg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240202160935
+! Version: 20240203000728
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-02 16:09:35
-! Total Count: 25135
+! Last modified: 2024-02-03 00:07:28
+! Total Count: 25147
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -904,6 +904,7 @@
 ||666579.xyz^
 ||6669667.com^
 ||666aa777bb.com^
+||666bb777ww.com^
 ||6686bb.app^
 ||6696q.com^
 ||6699fa.cn/imagestb/
@@ -4237,6 +4238,7 @@
 ||boats8.top^
 ||bobdz.com^
 ||boce.com/statics/img/img27b.png
+||bocenamesingle.xyz^
 ||bockd.xyz^
 ||boewgph.icu^
 ||bogtrmjz.xyz^
@@ -4555,6 +4557,7 @@
 ||casting-porno-tube.com/old-frog-d67e/
 ||catbox.moe/bb5wdv.jpg
 ||catdomepimyth.com^
+||catwalkoutled.com^
 ||cauly.co.kr/richad/
 ||causecherry.com^$third-party
 ||cautiouscredit.com^$third-party
@@ -5886,6 +5889,7 @@
 ||easyai.tech/wp-content/uploads/*-576x1024.
 ||easyicon.net/gg2019/
 ||easyporn.xxx/tmp/
+||eazhm.com^
 ||eb480dde95.com^
 ||ebbs.jp/js/adjs01.js
 ||ebbs.jp/test_ad/
@@ -7945,11 +7949,13 @@
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 ||irtefs.xyz^
 ||iruacwa.xyz^
+||is1-ssl.mzstatic.com^
 ||is686.com^$third-party
 ||isancio.top^
 ||isdfbvkvsc.xyz^
 ||ishisetianxia.com/tb.js
 ||ishowx.com/www/2015/js/top.js
+||isigqno.com^
 ||isine88.com^
 ||isksss.top^
 ||isky.ltd/skin/js/ad.js
@@ -14326,6 +14332,7 @@
 ||xstt5.com/template/js/fx
 ||xsvkfwth.xyz^
 ||xtbzff.xyz^
+||xtcxflak.xyz^
 ||xtdsxjlk.club^
 ||xtgem.com/images/influenza/$domain=sextgem.com
 ||xtgem.com/images/xtvid/$domain=sextgem.com
@@ -15397,6 +15404,7 @@ badjojo.com,boysfood.com,definebabe.com,efukt.com,fantasti.cc,girlsofdesire.org,
 baidu.com###content_right > div > div[id^="m"]
 baidu.com###ec_im_container
 baidu.com###header > div:last-child > div > a:first-child
+baidu.com###page-copyright > div[style^="position: fixed;"][ref]
 baidu.com###s-hotsearch-wrapper
 baidu.com###search-union-ad
 baidu.com###u1 > div.guide-info:last-child
@@ -18275,6 +18283,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com:*/c.php?s=
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/effect.php?type=*=*&zoneid=*
 .com:*/entry/register/?i_code=$document
 .com:*/entry/register/?i_code=$~third-party
 .com:*/m/#/home?register=1&agent=$document
@@ -18295,6 +18304,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com:*/waga*.html$document
 .com:*/waga*.html$~third-party
 .com:12289/$script,third-party
+.com:26579/*/*.json
 .com:80*/cc/*?is_not=$third-party
 .com:80*/cc/*?is_not=0&$document
 .com:80*/cc/*?is_not=0&$~third-party
@@ -22637,6 +22647,7 @@ zle.com$script
 ##.nr_page > [style="width:100%;height:auto;min-height:150px;position:relative;display:block;"][id]
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
+##.orbui-site
 ##.overBanner.dowloadBtn
 ##.page > .wp-none1
 ##.page-wwads
@@ -23156,6 +23167,7 @@ zle.com$script
 ##a[href*=".youxi126.com"]
 ##a[href*=".youxi141.com"]
 ##a[href*=".youxi142.com"]
+##a[href*=".ysmdhk.com/"]
 ##a[href*=".zcxnbj.com/"]
 ##a[href*="//ad.doubleclick.net"]
 ##a[href*="//adclick.g.doubleclick.net"]
