@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CjSIZAAbOzN0LmJn9BVaiQ
+! Checksum: 1/wlLwp9aMFd4/A+Lmb10A
 ! Title: 自用去广告Adblock规则
-! Version: 20240202104549
-! Last modified: 2024-02-02 10:45:49
-! Total Count: 3648
+! Version: 20240202163521
+! Last modified: 2024-02-02 16:35:21
+! Total Count: 3652
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1204,6 +1204,7 @@
 .com:*/c.php?s=
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
+.com:*/effect.php?type=*=*&zoneid=*
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/stats/*/*?*=*&host=$third-party
@@ -1217,6 +1218,7 @@
 .com:*/vj3/$third-party
 .com:*/vj4/$third-party
 .com:*/vj5/$third-party
+.com:26579/*/*.json
 .com:80*/cc/*?is_not=$third-party
 .com:80*/d/*?c=*&$third-party,script
 .com:8001/cc/*?*=$third-party
@@ -2296,6 +2298,7 @@ avtik.com###player > .player-wrapper + section
 baidu.com###content_right > div > div[id^="m"]
 baidu.com###ec_im_container
 baidu.com###header > div:last-child > div > a:first-child
+baidu.com###page-copyright > div[style^="position: fixed;"][ref]
 baidu.com###s-hotsearch-wrapper
 baidu.com###search-union-ad
 baidu.com###u1 > div.guide-info:last-child
@@ -3208,6 +3211,7 @@ zle.com$script
 ||dydytt.net/js3
 ||e.1bctkn.xyz^$third-party
 ||eaaaej.icu^$third-party
+||eazhm.com^
 ||eb480dde95.com^
 ||effectivedisplayformats.com^
 ||effirst.com^$third-party
