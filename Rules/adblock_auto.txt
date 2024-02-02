@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: oRoXMtdZxWbbxcxgVV3Dxw
+! Checksum: p5Y79+QizSqYL15SReSOVQ
 ! Title: 混合规则(自动更新)
-! Version: 20240202000845
+! Version: 20240202083100
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-02 00:08:45
-! Total Count: 128934
+! Last modified: 2024-02-02 08:31:00
+! Total Count: 128975
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5473,6 +5473,7 @@
 ||ads.traffichaus.com^
 ||ads.travelaudience.com^
 ||ads.tvb.com^
+||ads.tvp.pl^
 ||ads.twitter.com/favicon.ico$image,third-party,redirect-rule=32x32.png
 ||ads.ultraviewer.net^
 ||ads.ungdomar.se^
@@ -11495,6 +11496,7 @@
 ||beggarlyfilmingabreast.com^
 ||beggingoppida.space^
 ||beginnerhooligansnob.com^
+||begracetindery.com^
 ||begripecheatee.guru^
 ||begruzar.com^
 ||beguat.com^
@@ -14323,6 +14325,7 @@
 ||candac.iridion.de^
 ||canddi.com^
 ||candiruarf.com^
+||candledvenesia.com^
 ||candy-network.com^
 ||candyhiss.com^
 ||candypeaches.com^
@@ -30666,6 +30669,7 @@
 ||hkosgxn.cn^
 ||hkpscjgfnxquj.com^
 ||hkrpg-log-upload-os.hoyoverse.com^
+||hkrpg-log-upload.mihoyo.com^
 ||hkrytf.xyz^
 ||hkscldggm.xyz^
 ||hksmstpzsnlj.com^
@@ -42873,6 +42877,7 @@
 ||montelena-rcv.auction.co.kr^
 ||montelena-rcv.gmarket.co.kr^
 ||montelena.auction.co.kr^
+||monthcurrencybeam.com^
 ||monthlyindirectelsewhere.com^
 ||montkpl.top^
 ||montkyodo.top^
@@ -52165,6 +52170,7 @@
 ||qccoccocmedia.vn^
 ||qceyyxauc.xyz^
 ||qcffrrsyaxcccx.xyz^
+||qcfkvespkj.com^
 ||qchannel03.cn^
 ||qchfbnjagbdst.com^
 ||qcigbljyenh.com^
@@ -66735,6 +66741,7 @@
 ||unarbokor.com^
 ||unaspajas.com^
 ||unaswpzo.com^
+||unattractivehastypendulum.com^
 ||unauthorizedblur.com^
 ||unawakegaleus.com^
 ||unawar.com^
@@ -71784,6 +71791,7 @@
 ||wtfdontblock.theporndudes.xyz^
 ||wtfgep.xyz^
 ||wtg-ads.com^
+||wthbjrj.com^
 ||wtienle.top^
 ||wtkfxoqolprv.com^
 ||wtm.monitoringservice.co^
@@ -71856,6 +71864,7 @@
 ||wutou20230201.live^
 ||wutseelo.xyz^
 ||wutsldsk.xyz^
+||wutsumazxq.com^
 ||wuwaii.com^
 ||wuwutnnyedlhvr.com^
 ||wuxiann.top^
@@ -74103,6 +74112,7 @@
 ||ypgpjvfv.xyz^
 ||yphdrphx.xyz^
 ||yping.online^
+||ypkljvp.com^
 ||ypkxahje.xyz^
 ||ypmadserver.com^
 ||ypmob.com^
@@ -82192,6 +82202,7 @@ fightful.com###betway-sports
 fightnews.info##body > blockquote
 fijisun.com.fj##.widget-1
 fijisun.com.fj##.widget-3
+filecrypt.cc##.filItheadbIockgueue3
 filecrypt.cc##.filltheadblockqueue3
 filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
 filecrypt.cc,filecrypt.co##.hghspd
@@ -95328,6 +95339,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .buzz/*=$object,third-party
 .buzz:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .buzz:*/api/v4/g?kyurl=$third-party
+.buzz:80*/cc/*?is_not=$third-party
+.buzz:80*/sc/*?is_not=$third-party
 .bz/ads/
 .ca/ads-
 .ca/ads/
@@ -95414,6 +95427,27 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cn:*/vh5/$third-party
 .cn:*/vj5/$third-party
 .cn:12443/ty/$third-party
+.cn:80*/cc/*?is_not=$third-party
+.cn:8001/cc/*?is_not=
+.cn:8001/sc/*?is_not=
+.cn:8002/cc/*?is_not=
+.cn:8002/sc/*?is_not=
+.cn:8003/cc/*?is_not=
+.cn:8003/sc/*?is_not=
+.cn:8004/cc/*?is_not=
+.cn:8004/sc/*?is_not=
+.cn:8005/cc/*?is_not=
+.cn:8005/sc/*?is_not=
+.cn:8006/cc/*?is_not=
+.cn:8006/sc/*?is_not=
+.cn:8007/cc/*?is_not=
+.cn:8007/sc/*?is_not=
+.cn:8008/cc/*?is_not=
+.cn:8008/sc/*?is_not=
+.cn:8009/cc/*?is_not=
+.cn:8009/sc/*?is_not=
+.cn:8010/cc/*?is_not=
+.cn:8010/sc/*?is_not=
 .co/ads/
 .co/ads/$popup
 .co/ads?
@@ -95858,6 +95892,8 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .live:*/vh5/$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
+.live:80*/cc/*?is_not=$third-party
+.live:80*/sc/*?is_not=$third-party
 .lk/ads/
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
@@ -96215,6 +96251,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .xyz:*/cc/*?is_not=$third-party
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
+.xyz:80*/sc/*?is_not=$third-party
 .xyz^$~media,third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 .za/ads.
 .za/ads/$domain=~ananzi.co.za
@@ -103031,6 +103068,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /sidekickads.
 /sidelinead.
 /siframead.
+/sign?v=$domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 /silver/ads/*
 /silverads.
 /simad.min.js
@@ -122120,6 +122158,7 @@ zle.com$script
 ##.pw-in-article-relevant-container
 ##.pz-ad-box
 ##.qa-placement-outbrain-under-post-cr
+##.qgg_popup_close2
 ##.qpdb + a[href]
 ##.quads-ad-label
 ##.quads-bg-ad
@@ -124587,6 +124626,8 @@ zle.com$script
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
 ##[style*="b-cdn.net"][style*="background-size"]
+##[style*="cos.ap-guangzhou.myqcloud.com/img/"][style*=".js"]
+##[style*="cos.ap-nanjing.myqcloud.com/img/"][style*=".js"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style*="https://fjkb.tyvzyn.com/"]
 ##[style*="mi-img.com"][style*="calc"]

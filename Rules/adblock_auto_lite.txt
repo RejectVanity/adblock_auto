@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: L4oIXWPWUwzZsJt7c+n0aA
+! Checksum: sThawcyFmmjjuhH+Jkt6cA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240202000855
+! Version: 20240202083110
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-02 00:08:55
-! Total Count: 25089
+! Last modified: 2024-02-02 08:31:10
+! Total Count: 25119
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -17997,6 +17997,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .buzz/*=$object,third-party
 .buzz:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .buzz:*/api/v4/g?kyurl=$third-party
+.buzz:80*/cc/*?is_not=$third-party
+.buzz:80*/sc/*?is_not=$third-party
 .bz/ads/
 .ca/ads-
 .ca/ads/
@@ -18065,6 +18067,27 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .cn:*/vh5/$third-party
 .cn:*/vj5/$third-party
 .cn:12443/ty/$third-party
+.cn:80*/cc/*?is_not=$third-party
+.cn:8001/cc/*?is_not=
+.cn:8001/sc/*?is_not=
+.cn:8002/cc/*?is_not=
+.cn:8002/sc/*?is_not=
+.cn:8003/cc/*?is_not=
+.cn:8003/sc/*?is_not=
+.cn:8004/cc/*?is_not=
+.cn:8004/sc/*?is_not=
+.cn:8005/cc/*?is_not=
+.cn:8005/sc/*?is_not=
+.cn:8006/cc/*?is_not=
+.cn:8006/sc/*?is_not=
+.cn:8007/cc/*?is_not=
+.cn:8007/sc/*?is_not=
+.cn:8008/cc/*?is_not=
+.cn:8008/sc/*?is_not=
+.cn:8009/cc/*?is_not=
+.cn:8009/sc/*?is_not=
+.cn:8010/cc/*?is_not=
+.cn:8010/sc/*?is_not=
 .co/ads/
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
@@ -18383,6 +18406,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .live:*/vh5/$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
+.live:80*/cc/*?is_not=$third-party
+.live:80*/sc/*?is_not=$third-party
 .lol^$domain=sextb.net|javplayer.org
 .ltd/?channelCode=$document
 .ltd/?channelCode=$~third-party
@@ -18623,6 +18648,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .xyz:*/cc/*?is_not=$third-party
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
+.xyz:80*/sc/*?is_not=$third-party
 .zone/ads/
 /#/home?c=ggcha$document
 /#/home?c=ggcha$~third-party
@@ -19426,6 +19452,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /sdk/push_web/?zid=
 /search/tsc.php?
 /sex.gif$domain=epikporn.com|erotichdworld.com|guruofporn.com|jesseporn.xyz|jumboporn.xyz|kendralist.com|steezylist.com
+/sign?v=$domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 /smallfr*/*$subdocument,domain=babeimpact.com|decorativemodels.com|sexykittenporn.com
 /splash.php?cat=&idzone=*
 /srmeiwd.html$document
@@ -22651,6 +22678,7 @@ zle.com$script
 ##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
 ##.pure-g[onclick*="float"]
+##.qgg_popup_close2
 ##.qpdb + a[href]
 ##.qzdhf
 ##.qzhfaaa
@@ -22958,6 +22986,8 @@ zle.com$script
 ##[src*="/adBanner"]
 ##[src*="advertising"][src*="banner"]
 ##[style*="0vw"][style*="0vh"][style*="0px"]
+##[style*="cos.ap-guangzhou.myqcloud.com/img/"][style*=".js"]
+##[style*="cos.ap-nanjing.myqcloud.com/img/"][style*=".js"]
 ##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style*="https://fjkb.tyvzyn.com/"]
 ##[style*="mi-img.com"][style*="calc"]
