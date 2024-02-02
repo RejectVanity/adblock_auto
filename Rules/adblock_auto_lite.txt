@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: sThawcyFmmjjuhH+Jkt6cA
+! Checksum: mtFy8uisCXQJjbV7dEDCOQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240202083110
+! Version: 20240202101933
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-02 08:31:10
-! Total Count: 25119
+! Last modified: 2024-02-02 10:19:33
+! Total Count: 25130
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1058,6 +1058,7 @@
 ||8861202.com^
 ||8881img.com^
 ||8886i.top^
+||888bb111ww.com^
 ||888bb666cc.com^
 ||888cool.cn^
 ||888dizhi.com/888/
@@ -7007,6 +7008,7 @@
 ||h5.xn--jzu814j.com^$~third-party
 ||h6295.com^$popup
 ||h731.icu^
+||h7h35.space^
 ||ha-api.pushwoosh.com^
 ||ha.liuye.club^
 ||habitualhumor.com^$third-party
@@ -8639,6 +8641,7 @@
 ||kjacgk.xyz^
 ||kjappzvz.xyz^
 ||kjdbcjkmc.com^
+||kjjjusb.xyz^
 ||kjos.vo.llnwd.net^
 ||kjrspnbf.xyz^
 ||kjugr.xyz^
@@ -9428,6 +9431,7 @@
 ||maiqi.xyz^
 ||majunguo.cn^
 ||makaidong.com/img/
+||makqsd.icu^
 ||malimali5.com/ad1.png
 ||mall.xinkuaituan.com/zhuanti/
 ||mall0.qiyipic.com^
@@ -11271,6 +11275,7 @@
 ||qooav.top^
 ||qoqoangry.com^
 ||qoswfds.cn^
+||qpawkw.xyz^
 ||qpb*.sohu.com^
 ||qpcvlbp.cn^
 ||qpgyy.com/add01.html
@@ -13767,6 +13772,7 @@
 ||wcv68kw.com^
 ||wd.adcolony.xyz^
 ||wdadad.cn^
+||wdakda.cn^
 ||wdcigo.xyz^
 ||wddsva0.com^
 ||wdff.buzz/hengf.
@@ -14689,6 +14695,7 @@
 ||yt-adp.nosdn.127.net^
 ||yt-adp.ws.126.net^
 ||ytbbs.com/images/index/
+||ytcxflak.xyz^
 ||ytelc.com^$third-party
 ||ytezym.xyz^
 ||ytjzqde.xyz^
@@ -15074,6 +15081,7 @@
 ||zvasuzb.icu^
 ||zvdc9y.icu^
 ||zvfaxh.xyz^
+||zvnjvd.xyz^
 ||zvtnj.icu^
 ||zwfkxb.xyz^
 ||zx.docin.com^
@@ -17995,6 +18003,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .bt*.com/imgs.js?t=
 .buzz/$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .buzz/*=$object,third-party
+.buzz/video-ads/
 .buzz:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .buzz:*/api/v4/g?kyurl=$third-party
 .buzz:80*/cc/*?is_not=$third-party
@@ -23942,6 +23951,8 @@ zle.com$script
 ##img[src="/apijs/image/960x100.gif"]
 ##img[src][style*="width:100%;height:auto;"][id^="hengfu"]
 ##img[src^="/uploads/aidou/adlist/"]
+##img[src^="https://888bb111ww.com/"]
+##img[src^="https://888xx222kk.com/"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][onclick]
 ##img[src^="https://pic.lsddkd.com:"]
