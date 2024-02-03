@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Jcxk6noCtWZA7XYjf0Npuw
+! Checksum: oVkSKXTg+/5LOiYO/Rok8g
 ! Title: 自用去广告Adblock规则
-! Version: 20240203090353
-! Last modified: 2024-02-03 09:03:53
-! Total Count: 3658
+! Version: 20240203143053
+! Last modified: 2024-02-03 14:30:53
+! Total Count: 3661
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1049,6 +1049,7 @@
 ##table[border="1"] > tbody > tr > td > a[href][onclick*="Novel"][title]
 ##ul > li > a[href*=".pojuko.buzz/"]
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
+$third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
 &ad_code=
@@ -1251,6 +1252,7 @@
 .gif$domain=kpl037.com|yydy.cc
 .html?channelCode=$third-party
 .icu/*/20*/*/16*.gif$image,third-party
+.icu/?token=$third-party
 .icu/biyys*.js$third-party,script
 .icu/pssbk?$third-party
 .icu/release*ts?*16$third-party
@@ -2988,6 +2990,7 @@ xiuren5.com,xgmn02.com##a[href] > img[src$=".gif"]
 xn--*.*/ins/js/*16$third-party,script
 xnxx.com##[class*="ad-"]
 xnxx.com##[id^="ad-"]
+xs77.cc,xs77.com,xs77.buzz,xs77.cn,xs77.xyz##body > div[style*="margin:"] > div
 xvideos.com##[class$="-ad"]
 xvideos.com##[class$="-ads"]
 xvideos.com##[id^="ad-"]
