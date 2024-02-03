@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: BGvctcvf28xOvbzAKSmbbA
+! Checksum: tYGKhJ009ZkGd96oGAWIHg
 ! Title: 混合规则(自动更新)
-! Version: 20240203083116
+! Version: 20240203140232
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-03 08:31:16
-! Total Count: 129153
+! Last modified: 2024-02-03 14:02:32
+! Total Count: 129174
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14665,6 +14665,7 @@
 ||cbt.whatcounts.net^
 ||cbttnmo.xyz^
 ||cbvxguwbuq.com^
+||cbyhoe.xyz^
 ||cbyiqsfp.com^
 ||cc-api-data.adobe.io^
 ||cc-dt.com^
@@ -16463,6 +16464,7 @@
 ||clx.ru^
 ||clxlxmbtysabn.com^
 ||clydetugger.com^
+||clypzbzs.xyz^
 ||clzw.cyou^
 ||cm-exchange.toast.com^
 ||cm-trk3.com^
@@ -20545,6 +20547,7 @@
 ||djsxyvgrkyl.com^
 ||djxfar6.com^
 ||djytaswabirm.xyz^
+||dk45h.icu^
 ||dk4ywix.com^
 ||dkagiqnjsdoqli.com^
 ||dkbgcxltwljdua.com^
@@ -29298,6 +29301,7 @@
 ||gyh1lh20owj.ru^
 ||gyhgcgj.xyz^
 ||gyhyhyq.website^
+||gyjgrvd.cn^
 ||gyjwkknwanbug.xyz^
 ||gykj.xyz^
 ||gykyec.xyz^
@@ -33993,6 +33997,7 @@
 ||it168.com/pv.js
 ||it5s.top^
 ||it610.com/views/front/js/special/
+||it8vh.site^
 ||itad.linetv.tw/api/v2/vmap?ad_id=$xmlhttprequest,redirect=noop.txt
 ||itad.linetv.tw/api/v2/vmap?ad_id=$xmlhttprequest,redirect=nooptext
 ||itad.linetv.tw^
@@ -37122,6 +37127,7 @@
 ||kpic.pbaiyho.cn^$third-party
 ||kpiwgio.cn^
 ||kpkgkkbs.xyz^
+||kpm.jhzpgw.com^
 ||kpougoavtxkrew.com^
 ||kppav.info^
 ||kppt.cc/zb_system/script/common.js
@@ -52344,6 +52350,7 @@
 ||qerbert78.xyz^
 ||qerusgreyt.com^
 ||qetdpyialxousr.com^
+||qeuckn.icu^
 ||qezpjlp.cn^
 ||qf1d.top^
 ||qfblqq.com^
@@ -67577,6 +67584,9 @@
 ||utywsi.cn^
 ||utzwgittihhvn.com^
 ||uu1.3gu.com^
+||uu11881.com^
+||uu22002.com^
+||uu22332.com^
 ||uu2e.com^
 ||uu3192uu.com^
 ||uu5731uu.com^
@@ -68266,6 +68276,7 @@
 ||vdtxlt.xyz^
 ||vdzzauf.cn^
 ||ve.kj-cy.cn^
+||ve0ke.icu^
 ||veadmin.com^
 ||vebadu.com^
 ||vebo123.vip^
@@ -70366,6 +70377,7 @@
 ||wbilvnmool.com^
 ||wbjjkdofo.xyz^
 ||wbkaqly.cn^
+||wbnbocz.xyz^
 ||wbnhqq.com^
 ||wbnlwyj.xyz^
 ||wboptim.online^
@@ -71949,6 +71961,7 @@
 ||wtsdc.uhc.com^
 ||wtstats.com^
 ||wtstats.ro^
+||wttuuyd.cn^
 ||wty007.xyz^
 ||wu3wl2g7.cn^
 ||wubizigeng.com^
@@ -73992,6 +74005,7 @@
 ||ylx-3.com^
 ||ylx-4.com^
 ||ylykd.cn^
+||ylypzbzs.xyz^
 ||ylzkfpzqffqon.com^
 ||ylznwl.cn^
 ||ym-a.cc^
@@ -74999,6 +75013,7 @@
 ||zfnclk.buzz^
 ||zfood029.com^
 ||zfp32.buzz^
+||zfpkrl.xyz^
 ||zfsfkp.com^
 ||zfteiv.xyz^
 ||zfvltd.xyz^
@@ -95591,6 +95606,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
 .cn:*/c.php?s=
+.cn:*/mnrt/*.json
 .cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
@@ -95865,6 +95881,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com:*/entry/register/?i_code=$~third-party
 .com:*/m/#/home?register=1&agent=$document
 .com:*/m/#/home?register=1&agent=$~third-party
+.com:*/mnrt/*.json
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/stats/*/*?*=*&host=$third-party
@@ -96063,6 +96080,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .live:*/?i_code=$document
 .live:*/?i_code=$~third-party
 .live:*/api/v4/g?kyurl=$third-party
+.live:*/mnrt/*.json
 .live:*/vh5/$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -96423,6 +96441,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .xyz:*/*.html?uid=$~third-party
 .xyz:*/api/v4/g?kyurl=$third-party
 .xyz:*/cc/*?is_not=$third-party
+.xyz:*/mnrt/*.json
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
 .xyz:80*/sc/*?is_not=$third-party
@@ -124710,6 +124729,7 @@ zle.com$script
 ##[href^="https://charmingdatings.life/"]
 ##[href^="https://cipledecline.buzz/"]
 ##[href^="https://click2cvs.com/"]
+##[href^="https://clicks.affstrack.com/"] > img
 ##[href^="https://cpa.10kfreesilver.com/"]
 ##[href^="https://detachedbates.com/"]
 ##[href^="https://engine.gettopple.com/"]
@@ -125901,6 +125921,7 @@ zle.com$script
 ##body > [style$="background-size: 407px 127px !important;"]
 ##body > [style$="background-size: 407px 128px !important;"]
 ##body > [style$="background-size: 407px 129px !important;"]
+##body > [style$="background-size: 407px 132px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="background-size: 407px 95px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]

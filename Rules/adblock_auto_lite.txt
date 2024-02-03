@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: ucGNsLZbPSDKITQULYNiZQ
+! Checksum: M6x0c4gpqLgTMWFHV2ZloQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240203083126
+! Version: 20240203140242
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-03 08:31:26
-! Total Count: 25146
+! Last modified: 2024-02-03 14:02:42
+! Total Count: 25166
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -4568,6 +4568,7 @@
 ||cbfw.cn/gonggong/chibi/cf_
 ||cbjs.baidu.com^
 ||cbttnmo.xyz^
+||cbyhoe.xyz^
 ||cc.8181zx.com^
 ||cc.histoires-de-sexe-gratuites.com^
 ||cc.porno-rasskazy-sex.com^
@@ -4911,6 +4912,7 @@
 ||cls.vrvm.com^
 ||clscsbcj.com^$third-party
 ||clumsycar.com^$third-party
+||clypzbzs.xyz^
 ||cm.baidu.com^
 ||cm.ksmobile.com/api/GetCloudMsgAdv^
 ||cmath.fr/images/fond2.gif
@@ -5536,6 +5538,7 @@
 ||djmss.cn^$~third-party
 ||djponj.xyz^
 ||djs.baomihua.com^
+||dk45h.icu^
 ||dkcwnsu.xyz^
 ||dkvakldvnsv.com^
 ||dkyd6.xyz^
@@ -6985,6 +6988,7 @@
 ||gxzhshop.com^
 ||gybyxsy1588.com^
 ||gyhgcgj.xyz^
+||gyjgrvd.cn^
 ||gykyec.xyz^
 ||gynax.com^
 ||gyq3bew.icu^
@@ -7967,6 +7971,7 @@
 ||iszbxqps.com^
 ||it165.net/index.php?m=poster&
 ||it610.com/views/front/js/special/
+||it8vh.site^
 ||itad.linetv.tw/api/v2/vmap?ad_id=$xmlhttprequest,redirect=noop.txt
 ||itadapi.ithome.com.tw^
 ||itavcn.com/images/2012/ad_
@@ -8732,6 +8737,7 @@
 ||kpbqlqv.cn^
 ||kphcrjth.xyz^
 ||kpic.pbaiyho.cn^$third-party
+||kpm.jhzpgw.com^
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||kpqdkg.xyz^
@@ -11165,6 +11171,7 @@
 ||qdtjjxr.xyz^
 ||qdzyspjx.com^
 ||qerbert78.xyz^
+||qeuckn.icu^
 ||qfblqq.com^
 ||qfdtqq.com^
 ||qgfzb.com^$document
@@ -13383,6 +13390,9 @@
 ||utnwxhjv.xyz^
 ||utwwzqdx.xyz^
 ||uu1.3gu.com^
+||uu11881.com^
+||uu22002.com^
+||uu22332.com^
 ||uu3192uu.com^
 ||uu5731uu.com^
 ||uu6522uu.com^
@@ -13512,6 +13522,7 @@
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrfes.site^
 ||vdtxlt.xyz^
+||ve0ke.icu^
 ||vel7.xyz^
 ||velti.com^
 ||venea.net/web/ab_message?
@@ -13770,6 +13781,7 @@
 ||waymom.xyz^
 ||wazveqv.xyz^
 ||wbkaqly.cn^
+||wbnbocz.xyz^
 ||wbnhqq.com^
 ||wbnlwyj.xyz^
 ||wbqosw.xyz^
@@ -13978,6 +13990,7 @@
 ||wtfdontblock.theporndudes.xyz^
 ||wtienle.top^
 ||wtraff.com^
+||wttuuyd.cn^
 ||wubizigeng.com^
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
@@ -14605,6 +14618,7 @@
 ||ylgvlvbc.xyz^
 ||yllix.com^
 ||ylykd.cn^
+||ylypzbzs.xyz^
 ||ym.oaclrst.cn^$third-party
 ||ymcdn.ymtrack6.co/ads_file/
 ||ymcdn.ymtrack6.co/offer_single_files/
@@ -14901,6 +14915,7 @@
 ||zfmtyv.xyz^
 ||zfnclk.buzz^
 ||zfp32.buzz^
+||zfpkrl.xyz^
 ||zfteiv.xyz^
 ||zfvltd.xyz^
 ||zfvtswv.xyz^
@@ -18080,6 +18095,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .cn:*/?channelCode=$document
 .cn:*/?channelCode=$~third-party
 .cn:*/c.php?s=
+.cn:*/mnrt/*.json
 .cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
@@ -18287,6 +18303,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com:*/entry/register/?i_code=$~third-party
 .com:*/m/#/home?register=1&agent=$document
 .com:*/m/#/home?register=1&agent=$~third-party
+.com:*/mnrt/*.json
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/stats/*/*?*=*&host=$third-party
@@ -18426,6 +18443,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .live:*/?i_code=$document
 .live:*/?i_code=$~third-party
 .live:*/api/v4/g?kyurl=$third-party
+.live:*/mnrt/*.json
 .live:*/vh5/$third-party
 .live:*/waga*.html$document
 .live:*/waga*.html$~third-party
@@ -18669,6 +18687,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .xyz:*/*.html?uid=$~third-party
 .xyz:*/api/v4/g?kyurl=$third-party
 .xyz:*/cc/*?is_not=$third-party
+.xyz:*/mnrt/*.json
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
 .xyz:80*/sc/*?is_not=$third-party
@@ -23516,6 +23535,7 @@ zle.com$script
 ##body > [style$="background-size: 407px 127px !important;"]
 ##body > [style$="background-size: 407px 128px !important;"]
 ##body > [style$="background-size: 407px 129px !important;"]
+##body > [style$="background-size: 407px 132px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="background-size: 407px 95px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
