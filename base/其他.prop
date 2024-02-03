@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oVkSKXTg+/5LOiYO/Rok8g
+! Checksum: um9rkicNQ+21zW33x5KpaQ
 ! Title: 自用去广告Adblock规则
-! Version: 20240203143053
-! Last modified: 2024-02-03 14:30:53
-! Total Count: 3661
+! Version: 20240203164018
+! Last modified: 2024-02-03 16:40:18
+! Total Count: 3663
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1836,6 +1836,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /js/pfadll*.js
 /js/profit.js$~third-party
 /js/sp_ad.js$script
+/js/wap2-jm-ms.js?ver=$~third-party,script
 /json/ads/*
 /juicyads_
 /laojiuhengfu*.gif$image,third-party
@@ -2248,7 +2249,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 @@||c-ctrip.com/images/*.jpg
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||camsexvideo.net/js/advertising.js
-@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me|assistant.etxlzb.com|gualaoshi.org
+@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me|assistant.etxlzb.com|gualaoshi.org|bitbucket.org
 @@||cre.dp.sina.cn^
 @@||eporner.com^$~third-party
 @@||fapcat.com^$~third-party
@@ -3621,6 +3622,7 @@ zle.com$script
 ||yber.fourlaile.com^$third-party
 ||yeduxiaoshuoo.com/lokedpgdjs$script
 ||yetianlian.la/*/*.js
+||yhdm*.*/js/wap2-jm-ms.js$script
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yijfdsu.cn^
 ||yinghua*.*/bar/$script,~third-party
