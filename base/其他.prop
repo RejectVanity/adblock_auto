@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: um9rkicNQ+21zW33x5KpaQ
+! Checksum: 77Pg30zIEMlKkBgbkHB0Mg
 ! Title: 自用去广告Adblock规则
-! Version: 20240203164018
-! Last modified: 2024-02-03 16:40:18
-! Total Count: 3663
+! Version: 20240203204008
+! Last modified: 2024-02-03 20:40:08
+! Total Count: 3672
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -542,6 +542,7 @@
 ##a[href="http://ty9.bet"]
 ##a[href="http://www.zmtt.net/download"]
 ##a[href="https://79440433.com"]
+##a[href="https://bw5388.vip"]
 ##a[href="https://js.jtoijdr.cn/download/4122_0.html"]
 ##a[href="https://js.ojbkdns.com/url.php"]
 ##a[href="https://kdocs.cn/l/cvrhLsljwX1C"]
@@ -596,6 +597,7 @@
 ##a[href^="https://t.acam.link/"]
 ##a[href^="https://t.adating.link/"]
 ##a[href^="https://t.aslnk.link/"]
+##a[href^="https://www.b9282.vip"]
 ##a[href^="https://www.cgkjvip.com"]
 ##a[href^="https://www.hnhflqgc.com"]
 ##a[href^="https://www.zhao-zupu.com"]
@@ -1009,6 +1011,7 @@
 ##img[src^="/uploads/aidou/adlist/"]
 ##img[src^="https://888bb111ww.com/"]
 ##img[src^="https://888xx222kk.com/"]
+##img[src^="https://888xx555kk.com"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][onclick]
 ##img[src^="https://pic.lsddkd.com:"]
@@ -2158,6 +2161,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*:*/yeyue.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$document
 ://16*.com:*/wap_*_*_16*$third-party
+://888bb*ww.com/$image,third-party
+://888xx*kk.com/$image,third-party
 ://a.*srv.com^$script,third-party
 ://aj25*.bid/$third-party
 ://api.*.com/s/c?_=$third-party
@@ -2619,6 +2624,7 @@ kiutaku.com##.search-form + br + div[class]
 kiutaku.com##div[class^="b"]:has(ins[data-zoneid])
 kiutaku.com##div[class^="i"][class*="9"]
 koreaporn.net##div.bb_mobile
+ktmukmx.com##.container > div[style] > div.row > .col-sm-3 > a[target="_blank"]
 kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
 lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"],[class^="tsgg"],[id*="ggsj"]
 luoqiuzw.com##.show-app2
@@ -3063,6 +3069,7 @@ zle.com$script
 ||5wxw.com^$third-party
 ||888bb111ww.com^
 ||888xx222kk.com^
+||888xx555kk.com^
 ||a.adtng.com^
 ||a.shukriya90.com^
 ||aaenv48847h.com^$script
@@ -3127,6 +3134,7 @@ zle.com$script
 ||ato.tooopen.com^$third-party
 ||axkq.xyz^$third-party,script
 ||ayq3nsx.icu^$third-party
+||b9282.vip^
 ||baby.thinkmore.top^
 ||baglezymoses.com^$third-party
 ||baidujkdjklvvsbvk.com^$third-party
@@ -3153,6 +3161,7 @@ zle.com$script
 ||buondua.us/temp*_/?
 ||buondua.us/temp*_/temp*_.js$script
 ||buqajvxicma.com^
+||bw5388.vip^
 ||byjdg.xyz^$third-party
 ||byjykj.xyz^$third-party,image
 ||bytegoofy.com/goofy/*/push.js?
