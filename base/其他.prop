@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1/wlLwp9aMFd4/A+Lmb10A
+! Checksum: Jcxk6noCtWZA7XYjf0Npuw
 ! Title: 自用去广告Adblock规则
-! Version: 20240202163521
-! Last modified: 2024-02-02 16:35:21
-! Total Count: 3652
+! Version: 20240203090353
+! Last modified: 2024-02-03 09:03:53
+! Total Count: 3658
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -640,6 +640,7 @@
 ##body > [style$="background-size: 407px 127px !important;"]
 ##body > [style$="background-size: 407px 128px !important;"]
 ##body > [style$="background-size: 407px 129px !important;"]
+##body > [style$="background-size: 407px 132px !important;"]
 ##body > [style$="background-size: 407px 135px !important;"]
 ##body > [style$="background-size: 407px 95px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
@@ -1124,6 +1125,7 @@
 .cn/vj5/$third-party
 .cn/x/*-*-*.as$third-party
 .cn:*/c.php?s=
+.cn:*/mnrt/*.json
 .cn:*/sc/*?c=$third-party
 .cn:*/sc/*?n=$third-party
 .cn:*/sc/*?t=$third-party
@@ -1205,6 +1207,7 @@
 .com:*/ck*/get*.html$third-party
 .com:*/d/*?t=
 .com:*/effect.php?type=*=*&zoneid=*
+.com:*/mnrt/*.json
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/stats/*/*?*=*&host=$third-party
@@ -1260,6 +1263,7 @@
 .live/ty/*-*.blpha$third-party
 .live/wiseindex*?*16$third-party
 .live:*/api/v4/g?kyurl=$third-party
+.live:*/mnrt/*.json
 .live:*/vh5/$third-party
 .live:80*/cc/*?is_not=$third-party
 .live:80*/sc/*?is_not=$third-party
@@ -1359,6 +1363,7 @@
 .xyz/zooker?$third-party
 .xyz:*/api/v4/g?kyurl=$third-party
 .xyz:*/cc/*?is_not=$third-party
+.xyz:*/mnrt/*.json
 .xyz:80*/sc/*?is_not=$third-party
 /*.php?pid=*&n=$third-party
 /*/*/chart*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
@@ -3346,6 +3351,7 @@ zle.com$script
 ||kmy.qhwifeq.cn^
 ||kmyyuw.xyz^$third-party
 ||kpic.pbaiyho.cn^$third-party
+||kpm.jhzpgw.com^
 ||kszc.j1evtmx.xyz^
 ||kszvmqo.cn^$third-party
 ||kszxqq.com^$third-party
