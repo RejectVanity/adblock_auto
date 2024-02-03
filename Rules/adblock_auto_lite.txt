@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TX3h0sOzm476ccI8A+B0bQ
+! Checksum: 3fOyshg+OAFlqjYdXyOF+g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240203160843
+! Version: 20240203164218
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-03 16:08:43
-! Total Count: 25170
+! Last modified: 2024-02-03 16:42:18
+! Total Count: 25172
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -14529,6 +14529,7 @@
 ||yh20230625tu.com^
 ||yhbheroq.xyz^
 ||yhdd1.com^$third-party
+||yhdm*.*/js/wap2-jm-ms.js$script
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yhdm44.com/123.html
 ||yhdongman.xyz/piao/
@@ -19372,6 +19373,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /js/profit.js$~third-party
 /js/script_*.js?$~third-party,domain=video.q34r.org|korall.xyz|porntoday.ws|tabooporns.com|netuplayer.top|wiztube.xyz|netu.ac|cumgloryhole.com|zerknij.cc|speedporn.net|chillicams.net|meucdn.vip|yandexcdn.com|hindipix.in|hindipix.in|waaw1.tv|waaw.*|czxxx.org|newhost.me|scenelife.org|hqq.*|tikzoo.xyz|gledajvideo.top|playerhd.org|ntvid.online|rpdrlatino.live|vertelenovelasonline.com|1069jp.com|diziturk.club|stbnetu.xyz|mundosinistro.com|younetu.org|playvideohd.com|vzlinks.com|javboys.cam|xz6.top
 /js/sp_ad.js$script
+/js/wap2-jm-ms.js?ver=$~third-party,script
 /json/ads/*
 /juicyads_
 /jypro.html?c=pxza$document
@@ -25007,7 +25009,7 @@ zle.com$script
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
 @@||chaturbate.com/*embed^$domain=sweetpornlinks.com
 @@||cloudflare.com/ajax/libs/dash-shaka-playback/$script,domain=vpornvideos.com
-@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me|assistant.etxlzb.com|gualaoshi.org
+@@||cloudfront.net^$domain=anime1.me|assistant.etxlzb.com|bitbucket.org|bitly.com|blog.wiki-topia.com|gualaoshi.org|heatworld.com|hotslogs.com|ksl.com|mecox.wpengine.com|nationalreview.com|portmiamiwebcam.com|rethmic.com|soap2day.ai|streamingcommunity.tech|webupd8.org
 @@||cre.dp.sina.cn^
 @@||cyberdean.fr/js/advertisement.js
 @@||darkino.online^$generichide

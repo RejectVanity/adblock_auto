@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qxPtQjlpxLFYHs4UGfjKSQ
+! Checksum: 24I+RrmKAmmWRZaKj7ivGA
 ! Title: 混合规则(自动更新)
-! Version: 20240203160833
+! Version: 20240203164209
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-03 16:08:33
-! Total Count: 129179
+! Last modified: 2024-02-03 16:42:09
+! Total Count: 129181
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -73746,6 +73746,7 @@
 ||yhbdrnr.cn^
 ||yhbheroq.xyz^
 ||yhdd1.com^$third-party
+||yhdm*.*/js/wap2-jm-ms.js$script
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yhdm.io/bar/
 ||yhdm.so/bar/
@@ -101894,6 +101895,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /js/utils51.js
 /js/utils78.js
 /js/wahha/*
+/js/wap2-jm-ms.js?ver=$~third-party,script
 /js/wlfloat.js
 /js/xb.js$script,third-party
 /js/youmuffpu.js
@@ -127940,7 +127942,7 @@ zle.com$script
 @@||cloudflare.com/ajax/libs/dash-shaka-playback/$script,domain=vpornvideos.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.net^$script,domain=colamanga.com|colamanhua.com
-@@||cloudfront.net^$domain=portmiamiwebcam.com|mecox.wpengine.com|rethmic.com|soap2day.ai|nationalreview.com|bitly.com|hotslogs.com|webupd8.org|heatworld.com|streamingcommunity.tech|blog.wiki-topia.com|ksl.com|anime1.me|assistant.etxlzb.com|gualaoshi.org
+@@||cloudfront.net^$domain=anime1.me|assistant.etxlzb.com|bitbucket.org|bitly.com|blog.wiki-topia.com|gualaoshi.org|heatworld.com|hotslogs.com|ksl.com|mecox.wpengine.com|nationalreview.com|portmiamiwebcam.com|rethmic.com|soap2day.ai|streamingcommunity.tech|webupd8.org
 @@||club.tgfcer.com^$generichide
 @@||cmbc.com.cn^*ads/
 @@||cmbchina.com/ads/
