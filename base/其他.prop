@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 77Pg30zIEMlKkBgbkHB0Mg
+! Checksum: CBmHNYTEU3Hq6c3JQPbFEA
 ! Title: 自用去广告Adblock规则
-! Version: 20240203204008
-! Last modified: 2024-02-03 20:40:08
-! Total Count: 3672
+! Version: 20240204121323
+! Last modified: 2024-02-04 12:13:23
+! Total Count: 3675
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -2139,6 +2139,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*.27txt.La/xi.js$~third-party
 ://*.adfsda*.xyz/*/*$third-party
 ://*.aj25*.bid/*.js$third-party
+://*.kuaijuwu.*/js/cba/$script,~third-party
 ://*.xn--*.cc/jav/*?x=16$third-party
 ://*.xn--*.net/y16*.js$third-party,script
 ://*.yinghua*.*/bar$script,~third-party
@@ -2220,6 +2221,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 =AdCode_sjdb$third-party
 =AdCode_sjtb&$third-party
 @@.com/*M*M*M*M*M*M*==$third-party,domain=youtube.com
+@@.com/o.js$third-party,script,domain=mpo18.com|xcupfox.com
 @@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
 @@/api/ad/*$domain=pinduoduo.com
 @@/api/ads?$domain=nmkjxy.com
@@ -2238,7 +2240,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 @@://d*.cloudfront.net/usr/themes
 @@://img.souche.com/*.jpg
 @@://up.taoseye.com/contents/other/player/playerlogo.png
-@@cc/o.js$third-party,script,domain=mpo18.com
+@@cc/o.js$third-party,script,domain=mpo18.com|xcupfox.com
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
 @@game.baifumeiba.com/login/ad/adex.js
 @@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
@@ -3283,6 +3285,7 @@ zle.com$script
 ||goadsexchange.com^$third-party
 ||goasrv.com^
 ||godpvqnszo.com^$third-party
+||goo.kkjshsj.com^
 ||google-analytics.com^
 ||googletagmanager.com^
 ||gov-cn.website^
