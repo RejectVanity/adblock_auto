@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CBmHNYTEU3Hq6c3JQPbFEA
+! Checksum: rHZAEFAiSHwd39Kq6wujUg
 ! Title: 自用去广告Adblock规则
-! Version: 20240204121323
-! Last modified: 2024-02-04 12:13:23
-! Total Count: 3675
+! Version: 20240206140458
+! Last modified: 2024-02-06 14:04:58
+! Total Count: 3682
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1038,6 +1038,10 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script + #strl
+##script + .show-app
+##script + .show-app2
+##script + .show-app3
+##script + .show-app4
 ##script + iframe[src^="https://s.uuidksinc.net"]
 ##section > span[style="display:block;clear:both;overflow:hidden;z-index:2147483647"]
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
@@ -2140,6 +2144,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*.adfsda*.xyz/*/*$third-party
 ://*.aj25*.bid/*.js$third-party
 ://*.kuaijuwu.*/js/cba/$script,~third-party
+://*.xn--*.*/1*/*_0*.js$third-party
 ://*.xn--*.cc/jav/*?x=16$third-party
 ://*.xn--*.net/y16*.js$third-party,script
 ://*.yinghua*.*/bar$script,~third-party
@@ -3615,9 +3620,11 @@ zle.com$script
 ||xn--*.xn--fiqs8s^$~third-party
 ||xn--1qwynp09f.net^
 ||xn--2quv4et7i4yno8fbua.xn--fiqs8s^
+||xn--49s928hlshoya.cn^
 ||xn--dpq21dn8asxam8v16q0j5c.com^
 ||xn--gov-x68dy61b.club^
 ||xn--lms23v745btkai5c.net^$third-party,script
+||xn--qrq171dxpq.com^
 ||xozilla.xxx/static/js/ppndr*.js
 ||xplme.xyz^
 ||xtdsxjlk.club^
