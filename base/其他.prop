@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rHZAEFAiSHwd39Kq6wujUg
+! Checksum: VSThEVxQXpdFO2i7H0hjYA
 ! Title: 自用去广告Adblock规则
-! Version: 20240206140458
-! Last modified: 2024-02-06 14:04:58
-! Total Count: 3682
+! Version: 20240206231442
+! Last modified: 2024-02-06 23:14:42
+! Total Count: 3690
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1118,6 +1118,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .cc/?channelCode=$~third-party
 .cc/ad/
 .cc/api/getPos?jspath=/$~third-party
+.cc/o.js$third-party,script
 .club/r/*$xmlhttprequest
 .cn/*-*-*.xc$script,third-party
 .cn/20*/*/*.txt$third-party
@@ -1216,6 +1217,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:*/d/*?t=
 .com:*/effect.php?type=*=*&zoneid=*
 .com:*/mnrt/*.json
+.com:*/o.js$third-party
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/stats/*/*?*=*&host=$third-party
@@ -1263,6 +1265,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .icu/biyys*.js$third-party,script
 .icu/pssbk?$third-party
 .icu/release*ts?*16$third-party
+.icu:28883/*/*$third-party
 .la/8WaadBLH/*.js
 .live/j/*/*?$third-party
 .live/k/*/*?$third-party
@@ -1302,6 +1305,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .shop/xling_*_*.js?
 .shop:*/o.js$third-party,script
 .site:*/*/*.js
+.site:28883/*/*$third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
 .top/j/*$script,third-party
@@ -2130,7 +2134,9 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 91short.com##.player-info
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 99re.com##a[href][target="_blank"] > img[src]
+:*/*/sv?gp=*=*=$third-party
 :*/api/v4/g?kyurl=$third-party
+:*/pv.php?op=pv&ext=$third-party
 :*/static/lbsite/*/*.js?v=16$third-party
 :*/ty/*-*-*-*.alpha$third-party
 :*/ty/*-*-*-*.blpha$third-party
@@ -2425,7 +2431,6 @@ cambb.xxx,chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermain
 camporn.to,camseek.tv,camstreams.tv,domainnamewire.com,eurogirlsescort.com,ghostbin.me,hdtube.porn,hotstunners.com,i24news.tv,manofmany.com,marinetechnologynews.com,maritimepropulsion.com,mumbrella.com.au,paste.fo,petapixel.com,pornburst.xxx,pornflix.to,punishbang.com,rapidtvnews.com,sexu.com,teenfuckhd.com,telesurtv.net,thehackernews.com,theporngod.com,travelpulse.com,vibexxx.com,wantedbabes.com,wonderopolis.org,worldofmods.com,xxxadultphoto.com,xxxdl.net##.banners
 canovel.com,aaanovel.com,hhhbook.com##[id*="_IM_Chat"]
 canovel.com,aaanovel.com,hhhbook.com##a[href][title][target="_blank"]
-cc/o.js$third-party,script
 che168.com##.talkprice.liaoliao.float-zixun
 chejiahao.m.autohome.com.cn##.pgc-details-recommend-list
 chinasex.com.es##[class^="footer-ad"]
@@ -3259,6 +3264,7 @@ zle.com$script
 ||februarylovestory.com^$third-party
 ||ffmehcg.cn^$third-party
 ||fg.knlk2md.cn^$third-party
+||fhn.hnw6.icu^
 ||fluentfixing.com^
 ||fourier.alibaba.com^
 ||friendshipmale.com^
@@ -3349,6 +3355,7 @@ zle.com$script
 ||jkjoiij.cn^
 ||jm.ethylintusker.com^$third-party
 ||jnmami.cn^
+||js.123ylk3q.cc^
 ||js.bninocerossrhino.com^
 ||js.cabnnr.com^$third-party
 ||js.canstrm.com^
@@ -3660,6 +3667,7 @@ zle.com$script
 ||yutew.cc^$third-party
 ||yx.tellenw.top^$image
 ||yxvoud.com^
+||yy4480qpgyy.com^
 ||yyefao.com^
 ||zawqwpajq.live^
 ||zb.mtwie.com^
