@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: PfzR/hjqihmanpXgYu5piA
+! Checksum: 6NyWbxFOy2sCIQg93wEltw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240206161040
+! Version: 20240206231851
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-06 16:10:40
-! Total Count: 25243
+! Last modified: 2024-02-06 23:18:51
+! Total Count: 25254
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6315,6 +6315,7 @@
 ||fhdjdv.xyz^
 ||fherunm.cn^
 ||fhglcpf.icu^
+||fhn.hnw6.icu^
 ||fhvbhx.xyz^
 ||fifqjp.xyz^
 ||fijipic.xyz^
@@ -8362,6 +8363,7 @@
 ||jrzj.com/img_index/index_
 ||js*.abolezi.com^
 ||js-js.oss-cn-beijing.aliyuncs.com/mnpc-umeng.js$domain=dianyingim.com
+||js.123ylk3q.cc^
 ||js.263y.com^
 ||js.92aliyun.com^
 ||js.allporncomic.com^
@@ -10067,6 +10069,7 @@
 ||namesexual.com^
 ||namethatporn.com/assets/dev_popscript.js^
 ||nan-net.com/*/bbs/s/inc/$subdocument
+||nan-net.com/show/bbs/inc/pc_side_adv/
 ||nanaimostarkle.com^
 ||naned.xyz^
 ||nanfengyl.com/static/js/zdad.js
@@ -14166,6 +14169,7 @@
 ||xdjdpyrt.xyz^
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
+||xdolhlwq.xyz^
 ||xdrig.com^
 ||xdsahkln.xyz^
 ||xdw9.top^
@@ -14829,6 +14833,7 @@
 ||yy17173.dtime.com^
 ||yy18.info/yyads/
 ||yy18.info^*thanks$popup
+||yy4480qpgyy.com^
 ||yy8090.vip/js/abc/
 ||yye2.top^
 ||yyefao.com^
@@ -18107,6 +18112,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .cc/ads/
 .cc/api/getPos?jspath=/$~third-party
 .cc/js/ads/
+.cc/o.js$third-party,script
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
 .cloud/ads/
@@ -18365,6 +18371,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .com:*/m/#/home?register=1&agent=$document
 .com:*/m/#/home?register=1&agent=$~third-party
 .com:*/mnrt/*.json
+.com:*/o.js$third-party
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/stats/*/*?*=*&host=$third-party
@@ -18460,6 +18467,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .icu/pssbk?*16$third-party
 .icu/release*ts?*16$third-party
 .icu:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.icu:28883/*/*$third-party
 .in/js/ads/
 .info/ad.js
 .info/ad/
@@ -18603,6 +18611,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .shop:*/o.js$third-party,script
 .site:*/*/*.js
 .site:20443/*.js^$script,third-party
+.site:28883/*/*$third-party
 .swf?clicktag=
 .test15./
 .top/$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
@@ -19706,7 +19715,9 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /ylnew/*.js$image
 139.196.80.247$document
 139.196.80.247$~third-party
+:*/*/sv?gp=*=*=$third-party
 :*/api/v4/g?kyurl=$third-party
+:*/pv.php?op=pv&ext=$third-party
 :*/static/lbsite/*/*.js?v=16$third-party
 :*/ty/*-*-*-*.alpha$third-party
 :*/ty/*-*-*-*.blpha$third-party

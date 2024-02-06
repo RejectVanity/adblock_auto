@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: YIMDzIpiAz6WEq6k+v+1oA
+! Checksum: vhbcvjOLFh3KhvlaVJEV2w
 ! Title: 混合规则(自动更新)
-! Version: 20240206161030
+! Version: 20240206231840
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-06 16:10:30
-! Total Count: 129923
+! Last modified: 2024-02-06 23:18:40
+! Total Count: 129945
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -25316,6 +25316,7 @@
 ||fhjvhupv.com^
 ||fhlceugidb.xyz^
 ||fhlong2000.xyz^
+||fhn.hnw6.icu^
 ||fhnmzqw.cn^
 ||fhpjoqi.cn^
 ||fhrptbwtcmdibr.com^
@@ -35789,6 +35790,7 @@
 ||js-agent.newrelic.com^
 ||js-js.oss-cn-beijing.aliyuncs.com/mnpc-umeng.js$domain=dianyingim.com
 ||js-tianqilm.com^
+||js.123ylk3q.cc^
 ||js.23yy.com^
 ||js.263y.com^
 ||js.92aliyun.com^
@@ -37603,6 +37605,7 @@
 ||ktvtxir.xyz^
 ||ktwwzqdx.xyz^
 ||ktxtr.com^
+||ktxvbcbfs.xyz^
 ||ktzhk.com/file/adv/
 ||ku2d3a7pa8mdi.com^
 ||ku42hjr2e.com^
@@ -44494,6 +44497,7 @@
 ||namol.xyz^
 ||namystal.com^
 ||nan-net.com/*/bbs/s/inc/$subdocument
+||nan-net.com/show/bbs/inc/pc_side_adv/
 ||nan46ysangt28eec.com^
 ||nanaimostarkle.com^
 ||nancontrast.com^
@@ -55496,6 +55500,7 @@
 ||rnvlkhahv.com^
 ||rnwbrm.com^
 ||rnzqde.xyz^
+||ro.ondatrakrafts.com^
 ||roabmyrevngqqk.com^
 ||roachoavi.com^
 ||roadmappenal.com^
@@ -61301,6 +61306,7 @@
 ||sterouhavene.org^
 ||steshacm.xyz^
 ||stethaug.xyz^
+||stethuth.xyz^
 ||stethydelicat.com^
 ||stetic.com^
 ||steveoriginate.com^
@@ -64577,7 +64583,9 @@
 ||tobaitsie.com^
 ||tobaltoyon.com^
 ||tobapplog.ctobsnssdk.com^
+||tobapplog.tobsnssdk.com^
 ||toblog.ctobsnssdk.com^
+||toblog.tobsnssdk.com^
 ||toboads.com^
 ||tobyxev.com^
 ||toc.io^
@@ -70132,6 +70140,7 @@
 ||volatilerainstorm.com^$third-party
 ||volatintptr.com^
 ||volcanoimplement.com^
+||volceapplog.com^
 ||voldarinis.com^
 ||volgograd-info.ru^
 ||volgreal.com^$third-party
@@ -73121,6 +73130,7 @@
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
 ||xdohrleybrd.com^
+||xdolhlwq.xyz^
 ||xdowl0adxd0wnloadx.com^
 ||xdrig.com^
 ||xdrzdh.cn^
@@ -75240,6 +75250,7 @@
 ||yy18.info/yyads/
 ||yy18.info^*thanks$popup
 ||yy32.com^$third-party
+||yy4480qpgyy.com^
 ||yy8090.vip/js/abc/
 ||yy9s51b2u05z.com^
 ||yybx.oss-cn-hangzhou.aliyuncs.com^
@@ -84669,6 +84680,8 @@ heatmap.news##.middle_leaderboard
 heavy-r.com##.first-row > a[href][target="_blank"]:not([href="http://pornedup.com/"]):not([href="https://www.mrporngeek.com"])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 heb.com#?#div[class^="sc-"]:-abp-has(>div[data-qe-id="productCard"]:-abp-contains(Promoted))
+hedgefollow.com##[class$="side_scraper"]
+hedgefollow.com##[data-dee_type^="large_banner"]
 hefei.cc##.bbs_app_fk > a:first-child
 hehagame.com##.webad_bottom
 hehagame.com##.webad_right
@@ -92231,6 +92244,7 @@ target.com##div[class^="styles__PubAd"]
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
+tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 tasexy.com##[id^="sexy_b"]
 taskandpurpose.com##.empire-unit-prefill-container
 tassbiz.ru##.adblock_notif
@@ -96254,6 +96268,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .cc/ads/
 .cc/api/getPos?jspath=/$~third-party
 .cc/js/ads/
+.cc/o.js$third-party,script
 .cc/s.php?id=$script,third-party
 .cc:*/index.html?shareName=$document
 .cc:*/index.html?shareName=$~third-party
@@ -96597,6 +96612,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .com:*/m/#/home?register=1&agent=$document
 .com:*/m/#/home?register=1&agent=$~third-party
 .com:*/mnrt/*.json
+.com:*/o.js$third-party
 .com:*/sc/*?n=$third-party
 .com:*/sc/*?x=$third-party
 .com:*/stats/*/*?*=*&host=$third-party
@@ -96727,6 +96743,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .icu/pssbk?*16$third-party
 .icu/release*ts?*16$third-party
 .icu:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
+.icu:28883/*/*$third-party
 .ie/ads/
 .il/ads.
 .il/ads/
@@ -96971,6 +96988,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 .show_ad_
 .site:*/*/*.js
 .site:20443/*.js^$script,third-party
+.site:28883/*/*$third-party
 .sk/ads/
 .sponsorads.
 .streamads.
@@ -104972,7 +104990,9 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 2qpqwkx.cn
 728x90.jpg|
 91p20.space
+:*/*/sv?gp=*=*=$third-party
 :*/api/v4/g?kyurl=$third-party
+:*/pv.php?op=pv&ext=$third-party
 :*/static/lbsite/*/*.js?v=16$third-party
 :*/ty/*-*-*-*.alpha$third-party
 :*/ty/*-*-*-*.blpha$third-party
@@ -126333,6 +126353,7 @@ zle.com$script
 ##a[href^="https://clicks.pipaffiliates.com/"]
 ##a[href^="https://clixtrac.com/"]
 ##a[href^="https://clk.wrenchsound.store/"]
+##a[href^="https://combodef.com/"]
 ##a[href^="https://consali.com/"]
 ##a[href^="https://convertmb.com/"]
 ##a[href^="https://cpmspace.com/"]
@@ -129359,6 +129380,7 @@ zle.com$script
 @@||uu.res.netease.com/pc/zt/*/img/ad_
 @@||uukanshu.com^$generichide
 @@||v.fwmrm.net/ad/g/*$domain=nhl.com|dtmts.com
+@@||v.fwmrm.net/ad/g/*Nelonen$script
 @@||v.fwmrm.net/ad/g/1$domain=uktv.co.uk|vevo.com
 @@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
 @@||v.fwmrm.net/ad/g/1?*_html5_live$domain=~gulli.fr|~msn.com
