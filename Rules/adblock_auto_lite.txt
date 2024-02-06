@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: xSlUKR2h0gKhet6QjK4XiQ
+! Checksum: PfzR/hjqihmanpXgYu5piA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240206083113
+! Version: 20240206161040
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-06 08:31:13
-! Total Count: 25227
+! Last modified: 2024-02-06 16:10:40
+! Total Count: 25243
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3670,6 +3670,7 @@
 ||awdc6.com^
 ||awesomeagreement.com^$third-party
 ||awestat.com^$domain=leporno.org
+||awhsaso.cn^
 ||awifi.cn^$third-party
 ||awoudsoo.xyz^
 ||awrfds3.pornpapa.com^
@@ -4683,6 +4684,7 @@
 ||cdntxt.com/t1/
 ||cdntxt.com/t2/
 ||cdnu.porndoe.com/static/pop/slide-in/*.mp4
+||cdolhlwq.xyz^
 ||cdp.cloud.unity3d.com^
 ||cdsa2.icu^
 ||cdxyb.cn^$third-party
@@ -4853,6 +4855,7 @@
 ||cidianwang.com/js/zdtop.js
 ||cifyeldf.top^
 ||cifzuqopdpzi.com^
+||ciimar.icu^
 ||cilimao.*/amaod/
 ||cimg.cnyes.cool/prod/adContent/$image
 ||citysbs.com/chongqing/*/1920x179-
@@ -7754,6 +7757,7 @@
 ||im.51yaliesha.com^$third-party
 ||im.ov.yahoo.co.jp^
 ||im286.net/286/
+||im71za.cn^
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
 ||image.51cto.com/ad/
@@ -8967,6 +8971,7 @@
 ||ldjhlqr.cn^
 ||ldjnbn.xyz^
 ||ldmnq.com^$third-party,badfilter
+||ldvdwlt.xyz^
 ||ldvnehc.xyz^
 ||ldxinb.xyz^
 ||le4le.com^
@@ -9990,6 +9995,7 @@
 ||myhaitang.cc/assets/public/*.js
 ||myhdporn.net/ccc.gif
 ||myhdporn.net/sss.gif
+||myiryc.xyz^
 ||mylengmen.com/assets/public/$script
 ||mylust.com/images/mobile/mobile_advirtisement_250.png
 ||mymahuxv.xyz^
@@ -10047,6 +10053,7 @@
 ||n4403ad.doubleclick.net^
 ||n522rv1.cn^
 ||n5725.com^
+||n5n5s.icu^
 ||n6579.com^
 ||n7181.com^
 ||nahgvfhs.xyz^
@@ -10760,6 +10767,7 @@
 ||pjcn.org^$third-party
 ||pjsbuhl.icu^
 ||pjtime.com/js/show_ad
+||pjvkhh.xyz^
 ||pjy55d.com^
 ||pjzmbhf.cn^
 ||pkfuxvbk.xyz^
@@ -14312,6 +14320,7 @@
 ||xn--2quv4et7i4yno8fbua.xn--fiqs8s^
 ||xn--2qux23confgml.club^$third-party
 ||xn--2ss830adjbqy7h.xn--fiqs8s^
+||xn--49s928hlshoya.cn^
 ||xn--521-x72fh66s.cn^
 ||xn--9kq29i0tjy6b044actm.com^
 ||xn--dpq21dn8asxam8v16q0j5c.com^
@@ -14321,6 +14330,7 @@
 ||xn--jvrp4x1zyfta.net^
 ||xn--lms23v745btkai5c.net^$third-party,script
 ||xn--mtso8sj6menhyil.online^$third-party
+||xn--qrq171dxpq.com^
 ||xn--wxtr9fwyxk9c.club^$third-party
 ||xn--xhq9mt12cf5v.shop^$third-party
 ||xn--xhq9mt12cf5v.top^$third-party
@@ -14526,6 +14536,7 @@
 ||yddbysa.xyz^
 ||ydgal.com/axfile/
 ||ydgh0zc.com^
+||ydolhlwq.xyz^
 ||ydqcjy.cn^
 ||ydss.cn/test.www.jdpay.com
 ||ydstatic.com/dsp_website/
@@ -19713,6 +19724,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://*.bid^$script,third-party,domain=xxxmax.net|watchfreexxx.net|speedporn.net|filmlinks4u.is|needgayporn.com|gaypornmasters.com|uploadbank.com|clicknupload.org|ouo.press|dir50.com|thepiratebay.org|psarips.com|ouo.io|apkmirrorfull.com
 ://*.kuaijuwu.*/js/cba/$script,~third-party
 ://*.tv/ad/$domain=~moviedj.tv
+://*.xn--*.*/1*/*_0*.js$third-party
 ://*.xn--*.cc/jav/*?x=16$third-party
 ://*.xn--*.net/16*.html#/$document
 ://*.xn--*.net/16*.html#/$~third-party
@@ -24077,6 +24089,10 @@ zle.com$script
 ##script + #rbbox
 ##script + #strl
 ##script + #strl + div[style]
+##script + .show-app
+##script + .show-app2
+##script + .show-app3
+##script + .show-app4
 ##script + [id][style="width:100%;height:auto;min-height:120px;position:relative;display:block;"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
