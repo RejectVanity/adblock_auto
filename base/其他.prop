@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VSThEVxQXpdFO2i7H0hjYA
+! Checksum: Wgycj3Sz9EUFGxbSuPE5Kg
 ! Title: 自用去广告Adblock规则
-! Version: 20240206231442
-! Last modified: 2024-02-06 23:14:42
-! Total Count: 3690
+! Version: 20240207231017
+! Last modified: 2024-02-07 23:10:17
+! Total Count: 3693
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1333,6 +1333,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz/alpine?$third-party
 .xyz/angular.js?
 .xyz/api/getPos?jspath=/$~third-party
+.xyz/apijs/$script
 .xyz/ba.php?id=$third-party
 .xyz/base*.js?
 .xyz/biyys*.js$third-party,script
@@ -1700,6 +1701,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /api/adplogger/*
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
 /api/spots/*?*=$third-party
+/apijs/lunbo/lunboding.js?v=
 /apijs/lunbovipdaka/*.js$~third-party
 /asset/*.min.js?*=*&$domain=vcdn.io|suzihaza.com|ns21.online|diasfem.com|izleorg3.org|nezuko-ah.nl|dfmagazine.co.uk|javcl.me|bazavox.com|avhost.xyz|asianclub.tv|javlove.club|javip.pro|videogreen.xyz|ujav.me|mavplayer.xyz|vcdn2.space|xxxjaa.xyz|mavlecteur.com|vidcloud.*|javmvp.com|mm9842.com|fplayer.info|ondembed.xyz|fakyutube.com|streamabc.xyz|hentai4.me|animepl.xyz|gdstream.net|rubicstreaming.com|layarkacaxxi.icu|mycloudzz.com|playerjavhd.com|cutl.xyz|myvideoplayer.monster|cinemaemcasa.xyz|luxubu.review|cinegrabber.com|obaplayer.xyz|yuamikami.xyz|cloudrls.com|javpornhd.online|watch-jav-english.live|zojav.com|javenglish.me|vidplay.ch|vanfem.com|vcdn-stream.xyz|av4asia.com|javsubbed.xyz|xsub.cc|mavavid.com|baldrfilms.xyz|streamm4u.club|m4uhd.club
 /assets/ad-$domain=~flowus.cn
@@ -3234,6 +3236,7 @@ zle.com$script
 ||doyougothere.com^$third-party
 ||dpic.wxddid.cn^$third-party
 ||drfvtgbyk.xyz^$third-party
+||drucnf.twqtf.boats^
 ||dspmnt.autohome.com.cn^
 ||dtscout.com^
 ||dvnsdo.com^$third-party
