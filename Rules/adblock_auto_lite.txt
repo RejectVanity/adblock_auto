@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: LFpTze3sVNFvIxrGwgOIKQ
+! Checksum: rBuemQetZWi1GXGfPjsQpg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240210160822
+! Version: 20240211000841
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-10 16:08:22
-! Total Count: 25314
+! Last modified: 2024-02-11 00:08:41
+! Total Count: 25323
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1258,6 +1258,7 @@
 ||9wcn.com/gcld/500.gif
 ||9wsbf.top^
 ||9xu.com^$third-party
+||9y01.xyz/app/index.html
 ||9ya.net/con/ad
 ||9ye.com/Files/Editor/ad/
 ||9zvip.net/hi5asd/
@@ -12301,6 +12302,7 @@
 ||smmmqq.com^
 ||smqzj.com/seo.js
 ||smuc.cnnfootballclub.com^
+||smxflvz.cn^
 ||smzy.com/v1/img/
 ||sncop.uioozpxq.com^$all
 ||snipersex.com^
@@ -12942,6 +12944,7 @@
 ||tkbbjtfp.xyz^
 ||tkcatrun.aotter.net^
 ||tkcatwalk.aotter.net^
+||tklivechat.com/widgets/$third-party
 ||tklnzv.xyz^
 ||tkmedia-cache.aotter.net^
 ||tkmedia.aotter.net^
@@ -13008,6 +13011,7 @@
 ||topsexcams.club^$third-party
 ||topsexmovs.com^
 ||topthink.com/api/basic/
+||toptoon03.xyz/app/tuijian.html
 ||toqsxdpx.xyz^
 ||totheglory.im/pic/business/
 ||totheglory.im/pic/fangtuo.jpg
@@ -14204,6 +14208,7 @@
 ||xcqbbcqpl.xyz^
 ||xcvwrj.xyz^
 ||xcysqq.com^
+||xdazjxso.xyz^
 ||xdcad.net/source/plugin/disad/disad.js
 ||xdf.cn/v4/js/leyus/
 ||xdfdqce.xyz^
@@ -22016,6 +22021,8 @@ zle.com$script
 ###player_pause[style^="position"] > a[target="_blank"]
 ###plus-upsell-adblock
 ###pop_hongbao
+###popadv_popmask
+###popadv_popmenu
 ###popapIsBlockedAd
 ###popup-overlay0.popup-overlay
 ###popup-overlay1.popup-overlay
@@ -22367,6 +22374,7 @@ zle.com$script
 ##.ads_all > .ads_w
 ##.ads_desktop
 ##.ads_mobile
+##.ads_plugin
 ##.adsblocked
 ##.adsbyexoclick
 ##.adsbytrafficjunky
@@ -22554,6 +22562,7 @@ zle.com$script
 ##.corner-gg
 ##.counterAdblocks
 ##.couplet_9cb0d
+##.coupletad
 ##.cpcad.nopc
 ##.ct-ad-article-wrapper
 ##.ctm_ad
