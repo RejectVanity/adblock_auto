@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Wgycj3Sz9EUFGxbSuPE5Kg
+! Checksum: 24X1PX0DZvimZ9chVs7W7w
 ! Title: 自用去广告Adblock规则
-! Version: 20240207231017
-! Last modified: 2024-02-07 23:10:17
-! Total Count: 3693
+! Version: 20240211185736
+! Last modified: 2024-02-11 18:57:36
+! Total Count: 3696
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -597,6 +597,7 @@
 ##a[href^="https://t.acam.link/"]
 ##a[href^="https://t.adating.link/"]
 ##a[href^="https://t.aslnk.link/"]
+##a[href^="https://test.oktongji.com/"][target="_blank"]
 ##a[href^="https://www.b9282.vip"]
 ##a[href^="https://www.cgkjvip.com"]
 ##a[href^="https://www.hnhflqgc.com"]
@@ -606,6 +607,7 @@
 ##a[href^="https://ycmw647.com"][target="_blank"]
 ##a[href^="javascript:linkto"][href*="_blank"] > img
 ##a[id$="ads-link"]
+##a[id][href*="/c.php?s="][href$="="]
 ##a[onclick*="博彩"]
 ##a[onclick*="同城"]
 ##a[onclick*="外接'"]
@@ -3279,6 +3281,7 @@ zle.com$script
 ||ga-ads.com^
 ||gadscc.xyz^
 ||gdqrcloud.com/adBanner
+||ge.zacuin.com^
 ||getcdnpix.name^
 ||gl.zle.com^
 ||gnrty.kmjkwe.xyz^
