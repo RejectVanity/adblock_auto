@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: fAUMjrGqcrMEXbtYBugzuw
+! Checksum: d6KR3ppzgq6urMyuvZAGCQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240213000826
+! Version: 20240213083138
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-13 00:08:26
-! Total Count: 25354
+! Last modified: 2024-02-13 08:31:38
+! Total Count: 25357
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6681,6 +6681,7 @@
 ||gdxxb.com^$third-party
 ||gdyjs.com^
 ||gdz0cqs.icu^
+||ge.zacuin.com^
 ||ged46.xyz^
 ||geede.info^
 ||geekbang.org/public/serving/
@@ -23636,6 +23637,7 @@ zle.com$script
 ##a[href^="https://t.acam.link/"]
 ##a[href^="https://t.adating.link/"]
 ##a[href^="https://t.aslnk.link/"]
+##a[href^="https://test.oktongji.com/"][target="_blank"]
 ##a[href^="https://www.b9282.vip"]
 ##a[href^="https://www.cgkjvip.com"]
 ##a[href^="https://www.hnhflqgc.com"]
@@ -23651,6 +23653,7 @@ zle.com$script
 ##a[id$="ads-link"]
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
+##a[id][href*="/c.php?s="][href$="="]
 ##a[id][target="_blank"] > img[src*="help-ol.bj.bcebos.com"]
 ##a[onclick*=".337770.xyz"]
 ##a[onclick*=".lyty665.com"]
