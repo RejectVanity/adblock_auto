@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 8mKhFXmbK3ISM+nRtpz5jQ
+! Checksum: 1KookUNzADUpunkVUtS2MQ
 ! Title: 混合规则(自动更新)
-! Version: 20240213161024
+! Version: 20240213175323
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-13 16:10:24
-! Total Count: 130581
+! Last modified: 2024-02-13 17:53:23
+! Total Count: 130584
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -75808,6 +75808,7 @@
 ||yymnik.cn^
 ||yynwgrdr.com^
 ||yyo876.com^*.php
+||yyodimq.cn^
 ||yyp17.com^
 ||yypcalcnqk.com^
 ||yypd.top^
@@ -77489,7 +77490,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 163.com##span[class^="gg"]
 163.com,55188.com,csai.cn,miercn.com##div[class^="gg"]
 163.com,allnigerianrecipes.com,antimusic.com,camwhores.tv,changsha.cn,darkcapture.app,forum.sbenny.com,hao6v.com,jrj.com.cn,lostarkcodex.com,malekal.com,neotv.com.cn,newsindiatimes.com,regular-expressions.info,roadtests.com,sina.cn,sina.com.cn,sportslens.com,vibraporn.com,weihemenye.com##.topad
-163.com,automotive-fleet.com,baixing.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,jav.work,leiphone.com,ncaa.com,rigzone.com,schoolbusfleet.com,sina.com.cn,wltreport.com,zybang.com##.top-banner
+163.com,automotive-fleet.com,baixing.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,jav.work,leiphone.com,ncaa.com,pcwdld.com,rigzone.com,schoolbusfleet.com,sina.com.cn,wltreport.com,zybang.com##.top-banner
 163.com,bilibili.com,longzhu.com##a[href*=".admaster."]
 163.com,jishujd.com##.index_top_ad
 163.com,~love.163.com##a[href^="http://love.163.com/"]
@@ -89912,6 +89913,8 @@ pcstore.com.tw##.priority
 pcstore.com.tw##.priority1
 pcstore.com.tw##.priority_ad
 pcstore.com.tw##div[class^="ad388zone"]
+pcwdld.com###ct-popup
+pcwdld.com##.sbcontent
 pcworks.cn##.md-show
 pcworks.cn,vdianying.cc##.xintheme-ad
 pcworld.com##.coupons
