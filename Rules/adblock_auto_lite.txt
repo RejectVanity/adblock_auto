@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: YphhIvt4aAFmGXdUIEseVA
+! Checksum: lzDbkjKwkuBzyJir5WOW3g
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240214083121
+! Version: 20240214161003
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-14 08:31:21
-! Total Count: 25372
+! Last modified: 2024-02-14 16:10:03
+! Total Count: 25388
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1198,6 +1198,7 @@
 ||99496.com/v9/head.js
 ||996000996.xyz/ga/$image,domain=yaociyuan.bid
 ||99886aaa.com^
+||998sus.com^
 ||9999961.com/JS/bofang.js
 ||9999961.com/JS/daohang.js
 ||9999961.com/JS/lianmeng.js
@@ -4287,6 +4288,7 @@
 ||books.rakuten.co.jp/books/img/js/smart/sp-footer-ad-banner
 ||booktxt.net/js/easyAD
 ||booktxt.net/js/mangoIndexBanner.js
+||boost-next.co.jp^
 ||boostads.net^
 ||bootcss.com/assets/js/and
 ||boplgt.icu^
@@ -4640,6 +4642,7 @@
 ||cdhfvrug.xyz^
 ||cdkke.xyz^
 ||cdmjur.xyz^
+||cdmnlxtu.xyz^
 ||cdn*-sites.porntube.com/tb/banner/
 ||cdn-99-pic.cc^
 ||cdn-adn-*.rayjump.com^
@@ -5590,6 +5593,7 @@
 ||dla.tuobeng.net/*-*.apk$document
 ||dla.tuobeng.net/*-*.apk$~third-party
 ||dlads.cn^$third-party
+||dlbghx.xyz^
 ||dlbooks.to/img/smart/bn_
 ||dlkoo.cc/down/$subdocument
 ||dlkoo.cc/down/*.htm$popup
@@ -9513,6 +9517,7 @@
 ||mahua.com/api/$subdocument
 ||mahua.com/www/default/js/mahua_show.js
 ||mahua.com/www/default/js/replace_ab.js
+||mai22uc.cn^
 ||maiche.com/iframe/rank.html
 ||mail.7porn.ru^
 ||mail.google.com/mail/ads^
@@ -9914,6 +9919,7 @@
 ||mqjqripb.xyz^
 ||mql5.com/rq?
 ||mqrupjsm.xyz^
+||mqsnce.xyz^
 ||mqxnid.cn^
 ||mqznjujv.xyz^
 ||mr956.xyz^
@@ -10233,6 +10239,7 @@
 ||nfuwow.com/static/nfuwow/source/front/new/images/
 ||nfydd.com/template/wap1/js/dd.js
 ||ngbthf.xyz^
+||ngnxyub.cn^
 ||nhcdn.cn^
 ||nhjkm.com^
 ||nhvgrb.xyz^
@@ -10264,6 +10271,7 @@
 ||njslx.cn^
 ||njtbiml.xyz^
 ||njtprv.xyz^
+||njxraqb.xyz^
 ||njxzwh.com/pcsoft/statics/ycgg/
 ||nkis.nikkei.com^
 ||nkvwvx.xyz^
@@ -11654,6 +11662,7 @@
 ||rfrhfh.xyz^
 ||rfto9i.icu^
 ||rfxnff.xyz^
+||rgdcrt.xyz^
 ||rgpujh.xyz^
 ||rgyfqq.com^
 ||rhesed.site^
@@ -11788,6 +11797,7 @@
 ||ruiwen.com/js/p.js
 ||ruiwen.com/jscss/
 ||ruiwen.com/sp/
+||ruliaoqi.com^
 ||rulwph.xyz^
 ||runmang.vip/img/
 ||runnergamesch.com/*/BasCount/adAll
@@ -13271,6 +13281,7 @@
 ||tydzfldt.xyz^
 ||tyjryuk.cn^$third-party
 ||tymahuxv.xyz^
+||tyodot.icu^
 ||tyrsn6di.icu^
 ||tyuetxt.com^
 ||tz-68-fabb.com/qiye/
@@ -13335,6 +13346,8 @@
 ||u5nvu.xyz^
 ||u644.fun^
 ||u66099.com^
+||u68t5.icu^
+||u78s.top^
 ||u833ij.com^
 ||u88.cn^$third-party
 ||u97jr.xyz^
@@ -14637,6 +14650,7 @@
 ||ydgal.com/axfile/
 ||ydgh0zc.com^
 ||ydhfvrug.xyz^
+||ydmnlxtu.xyz^
 ||ydolhlwq.xyz^
 ||ydqcjy.cn^
 ||ydss.cn/test.www.jdpay.com
@@ -22741,6 +22755,7 @@ zle.com$script
 ##.img-cctv.lazyLoad
 ##.imgBox > div[class^="ad"]
 ##.imgad
+##.inPlayerGGdiv
 ##.index-center-tc-index2.index-center-tc > a
 ##.index-top-aassd
 ##.index-top-ad
@@ -23098,6 +23113,7 @@ zle.com$script
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
+##A[onclick$="'clicked', 'ad');"]
 ##[ad_display_dot]
 ##[ad_dot_url]
 ##[class$="-ad-box"]
