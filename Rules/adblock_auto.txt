@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: TeVzKxn0+VZ7wJAgRpHIUQ
+! Checksum: VajShEq57k/GFjeTMcclVA
 ! Title: 混合规则(自动更新)
-! Version: 20240214000901
+! Version: 20240214083110
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-14 00:09:01
-! Total Count: 130774
+! Last modified: 2024-02-14 08:31:10
+! Total Count: 130788
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -20931,6 +20931,7 @@
 ||dla.tuobeng.net/*-*.apk$~third-party
 ||dlads.cn^
 ||dlads.cn^$third-party
+||dlbghx.xyz^
 ||dlbooks.to/img/smart/bn_
 ||dldsrs.com^
 ||dle-news.xyz^
@@ -41444,6 +41445,7 @@
 ||mahua.com/www/default/js/mahua_show.js
 ||mahua.com/www/default/js/replace_ab.js
 ||mahuangperosis.cfd^
+||mai22uc.cn^
 ||maibaume.com^
 ||maicaoren.cn^
 ||maiche.com/iframe/rank.html
@@ -44042,6 +44044,7 @@
 ||mqquas.xyz^
 ||mqqxkkenfws.com^
 ||mqrupjsm.xyz^
+||mqsnce.xyz^
 ||mqxnid.cn^
 ||mqznjujv.xyz^
 ||mr-rank.de^
@@ -46117,6 +46120,7 @@
 ||njvfidke.xyz^
 ||njxczy.com^
 ||njxjrar.cn^
+||njxraqb.xyz^
 ||njxyh66.cn^
 ||njxzwh.com/pcsoft/statics/ycgg/
 ||njygp.cn^
@@ -55667,6 +55671,7 @@
 ||rgbvgxfcp.xyz^
 ||rgbvncnqzlvwr.com^
 ||rgcxmzrmcvbxem.com^
+||rgdcrt.xyz^
 ||rgentssep.xyz^
 ||rgfftupf.
 ||rgfqcly.cn^
@@ -67670,6 +67675,7 @@
 ||u644.fun^
 ||u652.myplainview.com^
 ||u66099.com^
+||u68t5.icu^
 ||u756fvjp.cn^
 ||u7kgr54jr7.ru^
 ||u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me^
@@ -74986,6 +74992,7 @@
 ||ydhfvrug.xyz^
 ||ydhwhz.cn^
 ||ydjs.luyouwang.com^
+||ydmnlxtu.xyz^
 ||ydolhlwq.xyz^
 ||ydonkuan.com^
 ||ydqcjy.cn^
@@ -77546,7 +77553,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 123.com.cn##.bottom-ylink
 123.com.cn##.wraper_ad
 123.com.cn,fanyi.sogou.com##.img-banner
-123.com.cn,politico.com##.fixed-top
+123.com.cn,manhuascan.io,politico.com##.fixed-top
 123.sogou.com,daohang.qq.com,hao.qq.com##.guess
 123.sogou.com,qq.com,web.sogou.com##.cs_right_hw
 123.sogou.com,web.sogou.com##.adword > a
@@ -79585,7 +79592,7 @@ applefans.today#$#.tipi-overlay { display: none !important; }
 applefans.today,ulifestyle.com.hk#$#body { overflow: auto !important; }
 appleinsider.com##.exclusive-wrap
 appleinsider.com##.push
-appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,thefinancialbrand.com##[rel*="sponsored"]
+appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,thefinancialbrand.com,tld-list.com##[rel*="sponsored"]
 appleinsider.com,gter.net##.bottom
 appleworld.today###block-26
 apprcn.com##a[href*=".lizhi."]
@@ -79645,6 +79652,7 @@ as.com,desdelinux.net,tutiempo.net,ubunlog.com##.publi
 as.com,gokunming.com##.prom
 ascii-code.com##.text-center.mb-3
 asda.com##.co-item:has(.co-item__sponsored-label)
+asda.com##.co-product-list[data-module-type="HookLogic"]
 ashemaletube.com,pornoxo.com,fetishpapa.com##.video-extra-overlay
 ashemaletv.com,freepornhq.xxx,gaytiger.com,handjobhub.com,hdporn-movies.com,hentai2w.com,homemoviestube.com,hypnotube.com,iporntoo.com,italianoxxx.com,iyottube.com,madnessporn.com,messytube.com,nudez.com,pornclipsxxx.com,pornwatchers.com,pornxt.com,sextubefun.com,shemalestube.com,tsmodelstube.com,wankflix.com,xhentai.tv###playerOverlay
 asheville.com##.injected-ads
@@ -80702,6 +80710,8 @@ boke112.com##a[href*=".tencent.com"]
 boke112.com##a[href*="url.cn"]
 boke112.com##a[href^="https://dwz.cn/"]
 boke112.com,dzbhdm.net,mzh.ren,techweb.com.cn,whsir.com##a[href*=".aliyun.com"]
+bolavip.com##.boxbanner_container
+bolavip.com##.video-player-placeholder
 boldsky.com##.header-ad-block
 boldsky.com,careerindia.com,drivespark.com,filmibeat.com,goodreturns.in,nativeplanet.com##.oiad-txt1
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article1
@@ -82026,6 +82036,7 @@ countdown.co.nz##cdx-card:has(product-badge-list)
 countdown.co.nz,irishnews.com,iwan.baidu.com,jns.org,nscreenmedia.com,whoscored.com##.banner-container
 counter.dev,lindaikejisblog.com##.da
 counterpunch.org##.header-center
+couplesinternational.com##a[href^="https://www.redhotpie.com"]
 courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com##.partner-placement
 courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com##promo-story-bucket-short[style="min-height: 335px;"]
 coursedrive.org##.cours-adsense-in-feed
@@ -89923,6 +89934,7 @@ ottverse.com##.livevideostack-ad
 ourworldofenergy.com###sponsors_container
 out.com###sPost_Layout_Default_0_0_20_0_0_2_2
 outlook.live.com##.N3k7EN5vRGTrONWBPg250
+outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 outlook.live.com##._BAY1XlyQSIe6kyKPlYP
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
@@ -93800,6 +93812,7 @@ torbay.gov.uk##.track
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 torlock.com##[class^="wrn"]
 torlock.com##table.hidden-xs
+torrentgalaxy.to###startad
 torrentgalaxy.to##[href^="/bub.php"]
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
 torrentgalaxy.to##a[href^="/hux?"]
@@ -127134,6 +127147,7 @@ zle.com$script
 ##a[href^="https://affpa.top/"]
 ##a[href^="https://agacelebir.com/"]
 ##a[href^="https://ak.hauchiwu.com/"]
+##a[href^="https://ak.oalsauwy.net/"]
 ##a[href^="https://ak.psaltauw.net/"]
 ##a[href^="https://albionsoftwares.com/"]
 ##a[href^="https://app.kmtgsopq.com?agentId="][target="_blank"]
