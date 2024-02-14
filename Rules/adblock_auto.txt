@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 85bta/7xhT+SJ3GIGaIF8A
+! Checksum: HctO2x+svPJZUmQTSiYjRw
 ! Title: 混合规则(自动更新)
-! Version: 20240214160952
+! Version: 20240215000912
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-14 16:09:52
-! Total Count: 130809
+! Last modified: 2024-02-15 00:09:12
+! Total Count: 130818
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3416,6 +3416,7 @@
 ||a.cnki.net/a/
 ||a.cookpad-ads.com^
 ||a.ddli.jp^
+||a.deadlinefunnel.com^
 ||a.dlads.cn^$third-party
 ||a.doganburda.com^
 ||a.duanmeiwen.com^
@@ -52527,6 +52528,7 @@
 ||pt.appirits.com^
 ||pt.crossmediaservices.com^
 ||pt.ispot.tv^
+||pt.wisernotify.com^
 ||pt0zhwhc26.ru^
 ||ptadrony.xyz^
 ||ptadsrv.de^
@@ -57518,6 +57520,7 @@
 ||scriptil.com^
 ||scripts-ads.s3.ir-thr-at1.arvanstorage.com^
 ||scripts-repo.reelevant.com^
+||scripts.jixie.media^
 ||scripts.makeinfluence.com^
 ||scripts.opti-digital.com^
 ||scripts.psyma.com^
@@ -65774,7 +65777,6 @@
 ||track.99acres.com^
 ||track.accesstrade.vn^
 ||track.adabra.com^
-||track.addevent.com^
 ||track.adshay.vn^
 ||track.adspire.io^
 ||track.americansongwriter.com^
@@ -73842,6 +73844,7 @@
 ||xdjdpyrt.xyz^
 ||xdmanage.com^
 ||xdmicjkveqlgllp.com^
+||xdmnlxtu.xyz^
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
 ||xdohrleybrd.com^
@@ -79192,7 +79195,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alicocsouth.inter.71edge.com/videos/other/*.f4v
-aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:-abp-has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:-abp-contains(/^(?:AD|An[uú]ncio|광고|広告)$/))
+aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:-abp-has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:-abp-contains(/^(?:AD|An[uú]ncio|광고|広告)$/)):-abp-has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
 aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
@@ -88423,6 +88426,7 @@ maturesex.fun,teenpornvideo.fun,xteensex.net,oosex.net,theteensexy.com,nakedteen
 maturesladies.com###inVideoInner
 mautofied.com###topLeaderboard
 maxfoodfun.com###links > div[id] > div.hslice:not(#search):not(#qrcode):not(#category):not([id*="-article"]):not(#latest-comment)
+maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponsored"])
 maxjizztube.com,yteenporn.com###spotxt
 maxthon.cn###festival-bottom-wrapper
 maxthon.cn###festival-center-wrapper
@@ -94817,6 +94821,7 @@ webcarstory.com###Ads
 weberblog.net##[href^="https://www.neox-networks.com/"]
 webfail.com###wf-d-300x250
 webfail.com###wf-d-300x250-sb1
+webhd.top##.justify-content-center.pt-2
 webkaka.com###div_bottomad_m
 webkaka.com###tdmd
 webkaka.com##.pNavigateAd
@@ -120448,6 +120453,7 @@ zle.com$script
 ##.c-gallery-vertical__advert
 ##.c-googleadslot
 ##.c-gpt-ad
+##.c-header__ad
 ##.c-header__advert-container
 ##.c-inblog_ad
 ##.c-main-header__ad
@@ -126283,6 +126289,7 @@ zle.com$script
 ##[data-ad-width]
 ##[data-adblockkey]
 ##[data-adbridg-ad-class]
+##[data-adshim]
 ##[data-advadstrackid]
 ##[data-css-class="dfp-inarticle"]
 ##[data-d-ad-id]
@@ -126548,6 +126555,7 @@ zle.com$script
 ##a[href*=".bucd.icu"]
 ##a[href*=".bucd.top"]
 ##a[href*=".buscandolaidea.com/"]
+##a[href*=".bvftxy.com/"]
 ##a[href*=".c43066a9.com"]
 ##a[href*=".cangpie.com/"]
 ##a[href*=".caohang.com.cn/"]
@@ -127449,6 +127457,7 @@ zle.com$script
 ##a[id][href*="/?register="]
 ##a[id][href*="/c.php?s="][href$="="]
 ##a[id][target="_blank"] > img[src*="help-ol.bj.bcebos.com"]
+##a[onclick$="'clicked', 'ad');"]
 ##a[onclick*=".337770.xyz"]
 ##a[onclick*=".lyty665.com"]
 ##a[onclick*="/dasp.php?a="]
