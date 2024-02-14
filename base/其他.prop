@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 24X1PX0DZvimZ9chVs7W7w
+! Checksum: CUZLFJ4n3X4qNcGFaabVwA
 ! Title: 自用去广告Adblock规则
-! Version: 20240211185736
-! Last modified: 2024-02-11 18:57:36
-! Total Count: 3696
+! Version: 20240214134852
+! Last modified: 2024-02-14 13:48:52
+! Total Count: 3698
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -204,6 +204,7 @@
 ##.header-ad-mobile
 ##.ima-ad-container
 ##.img-cctv.lazyLoad
+##.inPlayerGGdiv
 ##.index-center-tc-index2.index-center-tc > a
 ##.j-cctv-click
 ##.leftd + .rightd
@@ -3168,6 +3169,7 @@ zle.com$script
 ||bnhtml.com^
 ||bnsdk.top^
 ||bookhaitang.com/assets/publish/$script
+||boost-next.co.jp^
 ||browser.sentry-cdn.com^
 ||btds.zog.link^$third-party
 ||bto.tooopen.com^$third-party
