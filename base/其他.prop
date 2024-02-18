@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CUZLFJ4n3X4qNcGFaabVwA
+! Checksum: ZvTWVbBpbUnedvBCvjD+hw
 ! Title: 自用去广告Adblock规则
-! Version: 20240214134852
-! Last modified: 2024-02-14 13:48:52
-! Total Count: 3698
+! Version: 20240218161641
+! Last modified: 2024-02-18 16:16:42
+! Total Count: 3702
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1262,6 +1262,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:8891/vj3/
 .com:9*/yc/c/*/GEBEF$third-party
 .gif$domain=kpl037.com|yydy.cc
+.gif$third-party,domain=lfwx2.com
 .html?channelCode=$third-party
 .icu/*/20*/*/16*.gif$image,third-party
 .icu/?token=$third-party
@@ -1383,9 +1384,11 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz:*/mnrt/*.json
 .xyz:80*/sc/*?is_not=$third-party
 /*.php?pid=*&n=$third-party
+/*/*/*.gif?bdSecret=*&DdTime=*$third-party
 /*/*/chart*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
 /*/*/d3.2.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
 /*/*/react*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
+/*_*_*_min.css?$third-party,domain=lfwx2.com
 /*_*_/bigREDcat.$third-party
 /*_*_/bigREDdog.$third-party
 /?channelCode=bfy$document
@@ -3442,6 +3445,7 @@ zle.com$script
 ||nwecd.xyz^$third-party
 ||oce.nexithrom.com^$third-party
 ||oclasrv.com^
+||ogznfgl.cn^$third-party
 ||omkxes.xyz^
 ||openinstall.io^$third-party,script
 ||oqedci.xyz^$third-party
