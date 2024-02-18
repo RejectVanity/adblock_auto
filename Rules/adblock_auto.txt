@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: mtpJBCHLFC3dp6GkjEiVVA
+! Checksum: 4TMWjyhi70P1IiITnIqtXA
 ! Title: 混合规则(自动更新)
-! Version: 20240218161927
+! Version: 20240219000730
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-18 16:19:27
-! Total Count: 131392
+! Last modified: 2024-02-19 00:07:30
+! Total Count: 131415
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -8000,6 +8000,7 @@
 ||analytics.callbell.eu^
 ||analytics.carambo.la^
 ||analytics.carbaselive.com^
+||analytics.castel.jp^
 ||analytics.cdn.live^
 ||analytics.cdn112.com^
 ||analytics.ceneo.pl^
@@ -24272,6 +24273,7 @@
 ||event.hket.com^
 ||event.impression-neo.naver.com^
 ||event.instiengage.com^
+||event.lib.visumo.io^
 ||event.scimo.io^
 ||event.syndigo.cloud^
 ||event.togothermany.com^
@@ -37729,6 +37731,7 @@
 ||kkqeqk.cn^
 ||kksapygupdp.com^
 ||kksjoa.com^
+||kksjsa.top^
 ||kktxgytr.com^
 ||kkuabdkharhi.com^
 ||kkualfvtaot.com^
@@ -69313,6 +69316,24 @@
 ||utilizedshoe.com^
 ||utilizeimplore.com^
 ||utillib.xyz^
+||utiq-aws.net^
+||utiq.24auto.de^
+||utiq.24hamburg.de^
+||utiq.24rhein.de^
+||utiq.buzzfeed.de^
+||utiq.come-on.de^
+||utiq.einfach-tasty.de^
+||utiq.fnp.de^
+||utiq.fr.de^
+||utiq.hna.de^
+||utiq.ingame.de^
+||utiq.kreiszeitung.de^
+||utiq.merkur.de^
+||utiq.mopo.de^
+||utiq.op-online.de^
+||utiq.soester-anzeiger.de^
+||utiq.tz.de^
+||utiq.wa.de^
 ||utjzyutegq.com^
 ||utl-1.com^
 ||utlhaoyc.xyz^
@@ -74351,6 +74372,7 @@
 ||xdvsijtlhr.com^
 ||xdw9.top^
 ||xdwan.com^$third-party
+||xdybwjpa.xyz^
 ||xdycqcoefditwj.com^
 ||xdyjt.com^
 ||xdytt.com/b_*.js
@@ -95423,6 +95445,7 @@ weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
 weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class*="head-info_"]>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class*="head-info_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
@@ -124096,7 +124119,7 @@ zle.com$script
 ##.oasad
 ##.oasads
 ##.ob-ad-carousel-layout
-##.ob-dynamic-rec-container
+##.ob-dynamic-rec-containeoutBrainWrapper
 ##.ob-hover
 ##.ob-p.ob-dynamic-rec-container
 ##.ob-strip-layout
