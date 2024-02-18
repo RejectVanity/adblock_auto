@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: HTwkTeVPqPRd9MVh8n/mQw
+! Checksum: S9BQEOvhaOAwWWgJkLHPJw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240218160927
+! Version: 20240218161938
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-18 16:09:27
-! Total Count: 25444
+! Last modified: 2024-02-18 16:19:38
+! Total Count: 25448
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -10457,6 +10457,7 @@
 ||ogxstqna.xyz^
 ||ogyoopo.cn^
 ||ogznfgl.cn^
+||ogznfgl.cn^$third-party
 ||oh100.com/js/pubuliu.
 ||ohdvafp.xyz^
 ||ohmpyq.xyz^
@@ -18624,6 +18625,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .fun/xtub_*_rony.js$third-party
 .fun:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .gif$domain=kpl037.com|yydy.cc
+.gif$third-party,domain=lfwx2.com
 .gif|$domain=7mshipin.org|99re.com|viidii.info
 .hk/ad2/
 .hk/ads/
@@ -18968,9 +18970,11 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$document
 /(https?:\/\/)qwerty.*[0-9]\.dongjing.*[0-9]\.(xyz|top|live|com|cn|net)\/index.*[0-9].html$/$~third-party
 /*.php?pid=*&n=$third-party
+/*/*/*.gif?bdSecret=*&DdTime=*$third-party
 /*/*/chart*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
 /*/*/d3.2.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
 /*/*/react*.js$domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com
+/*_*_*_min.css?$third-party,domain=lfwx2.com
 /*_*_/bigREDcat.$third-party
 /*_*_/bigREDdog.$third-party
 //adthree.top/*/*/*.html$document
