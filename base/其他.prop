@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZvTWVbBpbUnedvBCvjD+hw
+! Checksum: miKfX7yH9kxyAej4YRSgtg
 ! Title: 自用去广告Adblock规则
-! Version: 20240218161641
-! Last modified: 2024-02-18 16:16:42
-! Total Count: 3702
+! Version: 20240219214503
+! Last modified: 2024-02-19 21:45:03
+! Total Count: 3708
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -346,6 +346,7 @@
 ##[data-d-ad-id]
 ##[data-desktop-ad-id]
 ##[data-dynamic-ads]
+##[data-element="empty"][data-izone="uc-area"]
 ##[data-freestar-ad]
 ##[data-group^="ad_chapter_top"]
 ##[data-id^="div-gpt-ad"]
@@ -749,6 +750,7 @@
 ##div[class][style="display: block; width: 100%; height: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483646;"]
 ##div[class][style^="line-height:"][style*="/"][style*="100vw"][style*="0px"][style*="animation"][style*="infinite"][style*="background:"]
 ##div[class^="Ads_container"]
+##div[class^="_"] > [data-element="empty"][data-izone]
 ##div[class^="ant-"][data-show-prefix="true"] > div
 ##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="cvbcvxvb"][style]
@@ -2298,6 +2300,7 @@ Banner-Ad
 Banner-Adv
 _728x90_
 _ads_banner
+aaread.club##.footer > div[class][id][style],cloudflare-app,.mybook-game-ad,img[id^="GGADIMG"][src]
 aca.best#@#body > noscript + #app
 acgrw.com##img[src^="data:"],[style*="131px"]
 adultdeepfakes.com##[class^="root--"]
@@ -3376,6 +3379,7 @@ zle.com$script
 ||js.mfsft.com/*/*.js
 ||js.mtgqt.com/vdn/$script
 ||js.users.51.la^
+||js.wpushsdk.com^
 ||js.xgmeitu.com/*/*.js
 ||jsjtjj.xyz^
 ||juicyads.com^
@@ -3415,6 +3419,7 @@ zle.com$script
 ||lwonclbench.com^$third-party
 ||magsrv.com^$third-party
 ||mail.kguapp.com^
+||mamalqakba.com^
 ||matomo.cloud^
 ||mc.webvisor.org^
 ||mc.yandex.ru^
@@ -3452,6 +3457,7 @@ zle.com$script
 ||orbsrv.com^
 ||oronwg.xyz^$third-party
 ||pagead2.googlesyndication.com^
+||pavfazbwiap.com^
 ||pcd.autohome.com.cn^
 ||pcmx.autohome.com.cn^
 ||pctv.xyz^
