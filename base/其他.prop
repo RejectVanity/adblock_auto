@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: miKfX7yH9kxyAej4YRSgtg
+! Checksum: zayQrS24OOoilXwDoW84HA
 ! Title: 自用去广告Adblock规则
-! Version: 20240219214503
-! Last modified: 2024-02-19 21:45:03
-! Total Count: 3708
+! Version: 20240221235831
+! Last modified: 2024-02-21 23:58:31
+! Total Count: 3711
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1068,6 +1068,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 &adsrc=
 &platform=*&screen_width=*&screen_height=$third-party
 -1316632262.cos.
+-ad-pixel-
 -advertise/
 -advertisement_
 -advertising/assets/
@@ -3026,11 +3027,13 @@ xvideos.com##[class$="-ads"]
 xvideos.com##[id^="ad-"]
 xvideos.com##[id^="ads-"]
 xxdm.in##.bottom_fixed
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.AdvRsyaCrossPage
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.ImagesTouchViewer-DirectSkeleton.SimpleSkeleton
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.i-bem.justifier__incut_fixed
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__behavioral-direct
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__rim-direct-incut.react-component
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.react-component_js_inited > [class^="m"][class$="_filled"]
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
 ydm.life##[onclick*="surnum"][style],img[style*="z-index:2147483647"][onclick*="javascript:"]
