@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 0bmzhR6p39u6s+JxOWhbGA
+! Checksum: b0Mjl7FQXssm/zKksrE9hg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240221161036
+! Version: 20240222000924
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-21 16:10:36
-! Total Count: 25502
+! Last modified: 2024-02-22 00:09:24
+! Total Count: 25508
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -1418,6 +1418,7 @@
 ||aaknmt.icu^
 ||aamv.vip^
 ||aan.amazon.*^
+||aaoisp.com^
 ||aapeople.cn^
 ||aapubcti.xyz^
 ||aaread.space/images/*0.gif
@@ -4956,6 +4957,7 @@
 ||cloud.tencent.com/developer/api/common/getAds
 ||cloud.tencent.com/developer/api/common/getOneAds
 ||cloudads-a.akamaihd.net^
+||cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/$domain=cloud.tencent.com
 ||clouddn.com/960x60.gif
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
 ||cloudflare.solutions^
@@ -18044,11 +18046,13 @@ xxxvideos.ink,alohatube.xyz,fullpornfuck.com,xxxstreams.org,24animeporn.com,3dhe
 xz6.top,javboys.cam,vzlinks.com,playvideohd.com,younetu.org,mundosinistro.com,stbnetu.xyz,diziturk.club,1069jp.com,vertelenovelasonline.com,playerhd.org,gledajvideo.top,tikzoo.xyz,filme-romanesti.ro,video.q34r.org,ntvid.online,porntoday.ws,netuplayer.top,netu.ac,cumgloryhole.com,peliculas8k.com,hqq.ac,yoixmzo.xyz,tickzoo.com,tabooporns.com,younetu.com,ekino-tv.link,nu6i-bg-net.com,cdngee.com,69x.online,yalapwl.xyz,plushd.bio,zerknij.cc,xxxbestsites.com,universanimevf.com,xkeezmovies.com,stream2watch.be,jaygay.to,javsex.to,europixhd.net,cuevana.*,cuevana3.*,monstream.org,javboys.cam,koreanbj.club,redload.co,streaming-french.net,ytms.one,rpdrlatino.live,vaav.top,ddl-francais.com,cuevana4.cc,watch-series.site,illimite-streaming.com,gratflix.org,multiup.us,player.koreanpornmovie.xyz,filmesonlinehd1x.pro,netu.fshd.link,oyohd.one,xxvideoss.net,pourvous.club,kitraskimisi.com,msmini.cyou,hydrax.xyz,waaw1.tv,vido.fun,czxxx.org,pajalusta.club,goplayer.online,streamzz.*,glokom.club,xtapes.to,wowstream.top,streamon.to,gotoons.org,upvideo.to,moovies.in,thisisrussia.io,richhioon.eu,haes.tech,wiztube.xyz,mp4cage.com,netu.in,cineflixtv.net,vizplay.*,view47.*,streamplusvip.*,oyohd.com,hindilinks4uto.com,msubplix.com,vidxhot.net,waaw.*,chillicams.net,justswallows.com,meucdn.vip,yandexcdn.com,firstr0w.eu,hqq.*,onlystream.tv,streamz.*,hindipix.in,3movs.com,alltube.tv,tryboobs.com,eporner.com,vivatube.com,verystream.com,freeteenporn.xxx,ashemale.one,kaotic.com,hentaicore.org,alltube.pl##+js(abort-on-property-read, BetterJsPop)
 xz6.top,javboys.cam,vzlinks.com,playvideohd.com,younetu.org,mundosinistro.com,stbnetu.xyz,diziturk.club,1069jp.com,vertelenovelasonline.com,rpdrlatino.live,ntvid.online,playerhd.org,gledajvideo.top,tikzoo.xyz,filme-romanesti.ro,peliculas8k.com,video.q34r.org,korall.xyz,porntoday.ws,tabooporns.com,netuplayer.top,wiztube.xyz,netu.ac,cumgloryhole.com,zerknij.cc,speedporn.net,chillicams.net,meucdn.vip,yandexcdn.com,hindipix.in,hindipix.in,waaw1.tv,waaw.*,czxxx.org,newhost.me,scenelife.org,hqq.*##+js(abort-on-property-read, popUrl)
 xz6.top,javboys.cam,vzlinks.com,playvideohd.com,younetu.org,mundosinistro.com,stbnetu.xyz,diziturk.club,1069jp.com,vertelenovelasonline.com,rpdrlatino.live,ntvid.online,playerhd.org,gledajvideo.top,younetu.*,tikzoo.xyz,video.q34r.org,korall.xyz,porntoday.ws,tabooporns.com,netuplayer.top,wiztube.xyz,netu.ac,hqq.to,cumgloryhole.com,hqq.ac,zerknij.cc,speedporn.net,chillicams.net,meucdn.vip,yandexcdn.com,hindipix.in,hindipix.in,waaw1.tv,waaw.*,czxxx.org,newhost.me,scenelife.org,hqq.tv##+js(set-constant, adblockcheck, false)
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.AdvRsyaCrossPage
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.ImagesTouchViewer-DirectSkeleton.SimpleSkeleton
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.i-bem.justifier__incut_fixed
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__behavioral-direct
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__rim-direct-incut.react-component
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.react-component_js_inited > [class^="m"][class$="_filled"]
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
 yarik-sat.com##.noadb
@@ -18261,6 +18265,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 -728-90.
 -728x90.
 -90mh-gg.
+-ad-pixel-
 -adblock-notice-
 -adblock-notice/*
 -advertise/
@@ -23561,6 +23566,7 @@ zle.com$script
 ##a[href*="//xxuudxdu.live?"]
 ##a[href*="//y3e33.top"][target="_blank"]
 ##a[href*="/1124024.xyz"]
+##a[href*="/122.51.121.126:"]
 ##a[href*="/136ayx.vip"]
 ##a[href*="/1560045.cc"]
 ##a[href*="/1651n.com:"]

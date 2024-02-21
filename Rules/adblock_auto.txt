@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: bp7OQ9keFxCliyzZhO8sgg
+! Checksum: HIgj2pxpICyTqc+qEyKkgA
 ! Title: 混合规则(自动更新)
-! Version: 20240221161025
+! Version: 20240222000914
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-21 16:10:25
-! Total Count: 131617
+! Last modified: 2024-02-22 00:09:14
+! Total Count: 131632
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3708,6 +3708,7 @@
 ||aan.amazon.com^
 ||aanetwork.vn^
 ||aanqylta.com^
+||aaoisp.com^
 ||aapeople.cn^
 ||aapubcti.xyz^
 ||aaread.space/images/*0.gif
@@ -7998,6 +7999,7 @@
 ||analytics.audionow.de^
 ||analytics.avanser.com.au^
 ||analytics.aweber.com^
+||analytics.b2.ai^
 ||analytics.bachtuongphat.com^
 ||analytics.bauermedia.sk^
 ||analytics.belgacom.be^
@@ -16744,6 +16746,7 @@
 ||cloudads-a.akamaihd.net^
 ||cloudads.tv^
 ||cloudbet.com/ad/
+||cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/$domain=cloud.tencent.com
 ||cloudcnfare.com^
 ||cloudconf.fengkongcloud.com^
 ||cloudconvenient.com^
@@ -28331,6 +28334,7 @@
 ||ghetic.com^
 ||ghettoschanse.com^
 ||ghfnlorkormcmr.com^
+||ghgasdt963.shop^
 ||ghghgf.51dongshi.com^
 ||ghghgf.xuexiwa.com^
 ||ghhtt.top^
@@ -55784,6 +55788,8 @@
 ||renzw.xyz^
 ||reofamily.cn^
 ||reoiebco.com^
+||reomanager.pl^
+||reonews.pl^
 ||reople.co.kr^
 ||reoreexpresi.com^
 ||reoreexpresi.xyz^
@@ -80009,7 +80015,7 @@ amateur8.com,lesbian8.com,pornfay.org##.kt-api-btn-start
 amateur8.com,maturetubehere.com###nopp
 amateurfapper.com,iceporn.tv,porner.tv,pornmonde.com##.sources
 amateurporn.co##+js(set-constant, isAdBlockActive, false)
-amateurporn.me,anon-v.com,camwhoresbay.*,cccccccccccccccccccccccccccccccccc18pussy.porn,femdomtb.com,freepornvideo.sex,goodporn.to,javbangers.com,javwhores.com,pornchimp.com,pornfapr.com,porntrex.com,tabooporn.tv,teenmastube.com,wankyjob.com,watchmygf.mobi,zavporn.net,zeenite.com##.opt
+amateurporn.me,anon-v.com,camwhoresbay.*,cccccccccccccccccccccccccccccccccc18pussy.porn,femdomtb.com,freepornvideo.sex,goodporn.to,javbangers.com,javwhores.com,pornchimp.com,pornfapr.com,porntrex.com,pornxbox.com,tabooporn.tv,teenmastube.com,wankyjob.com,watchmygf.mobi,zavporn.net,zeenite.com##.opt
 amateurporn.me,eachporn.com##.item[style]
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###nav-swmslot
@@ -82330,6 +82336,7 @@ closermag.fr##div[id^="detection-block"]
 closermag.fr,grazia.fr,topsante.com##.dfp-slot
 closerweekly.com,intouchweekly.com,lifeandstylemag.com###listProductWidgetData
 closerweekly.com,intouchweekly.com,lifeandstylemag.com,usmagazine.com##.ami-video-placeholder
+cloud.tencent.com##.cdc-commercial-card
 cloud.tencent.com##.mod-commercial
 cloud.tencent.com,tencent.com##.cdc-commercial-swiper
 cloudwards.net##.max-medium
@@ -89922,7 +89929,7 @@ namethatporn.com##div[class][data-flba^="https://landing1.brazzersnetwork.com/"]
 namethatporn.com##div[data-flba^="https://landing.brazzersnetwork.com/"]
 namethatporn.com##div[onclick^="FAB"]
 namethatporn.com##iframe[src*="//a.adtng.com/"]
-namethatpornad.com##a[href^="https://www.g2fame.com/"]
+namethatpornad.com,vxxx.com##a[href^="https://www.g2fame.com/"]
 nanfengyl.com##.index-top-ad1
 nanfengyl.com,ziyuanba.com##.top-ad-txt
 nanoreview.net###float-sb-right
@@ -90635,6 +90642,8 @@ ooopic.com##.fix-newUser
 ooopn.com###ab-left
 ooopn.com##a[href*="/jump.html"]
 oops.udn.com#?##wrapper > #mainbar > .area:not(#story):not(#comments):has(> h3 > a[href]:contains(商品推薦))
+ooxxx.com##.video-ntv-wrapper
+ooxxx.com,ph4.ru##div[style^="width: 728px; height: 90px;"]
 op.gg##.e17e77tq6
 op.gg##.e17e77tq8
 op.gg##.life-owner
@@ -90961,7 +90970,6 @@ pgatour.com##.adv-dummy
 pgatour.com##.css-18v0in8
 pgatour.com##.css-1p0f086
 pgatour.com##.css-cl2hq
-ph4.ru##div[style^="width: 728px; height: 90px;"]
 ph4.ru##table[width][height="90"][style]
 pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
@@ -91609,6 +91617,9 @@ pornstar-scenes.com##div[style="border-color:#ffffff;"]
 pornstar-scenes.com#?#.row > div.portfolio-item:has(> div.card > div[id^="chaturbate"])
 pornstarbyface.com##div[id^="sponcored-content-"]
 pornstarchive.com##.squarebanner
+pornstargold.com###basePopping
+pornstargold.com##.et_bloom_popup
+pornstargold.com,safetydetectives.com,univisa.com.cn###popup
 pornstash.in##+js(abort-current-script, document.createElement, Popunder)
 pornstream.org##.player > div.right
 pornstreams.eu###menu-menu > li > a[target="_blank"]
@@ -92475,7 +92486,6 @@ saabplanet.com##.baner
 sabcnews.com##.jeg_topbar
 sabcsport.com##.sbac_header_top_ad
 safetydetectives.com###best_deals_widget
-safetydetectives.com,univisa.com.cn###popup
 saharareporters.com###sidebar-top
 saharareporters.com###stage-header
 saharareporters.com##.body-inject
@@ -96488,11 +96498,13 @@ yam.com##div[id^="adgshp"]
 yamibo.com##a[href*="xqsp.club"]
 yamol.tw##.panel[style="text-align:left;width:100%;padding:0px;background-color:white"]
 yandex.by,yandex.com,yandex.com.tr,yandex.eu,yandex.fr,yandex.kz,yandex.net,yandex.ru,yandex.ua,yandex.uz##div[id^="yandex_ad"]
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.AdvRsyaCrossPage
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.ImagesTouchViewer-DirectSkeleton.SimpleSkeleton
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.i-bem.justifier__incut_fixed
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__behavioral-direct
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.images-viewer-content2__rim-direct-incut.react-component
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.react-component_js_inited > [class^="m"][class$="_filled"]
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
 yanetflix.com##div[style="padding: 5px; background-color: #2b2a2a; border-radius: 30px; text-align: center;"]
 yangluo.cn###frame51RcxP
@@ -113673,6 +113685,7 @@ zle.com$script
 ###pnAd2
 ###pnlLhsNativeAd
 ###pnlRhsNativeAd
+###pop.div_pop
 ###pop_ad
 ###pop_hongbao
 ###pop_up_ad_box_id
@@ -127583,6 +127596,7 @@ zle.com$script
 ##a[href*="//y3e33.top"][target="_blank"]
 ##a[href*="/10093813.com"]
 ##a[href*="/1124024.xyz"]
+##a[href*="/122.51.121.126:"]
 ##a[href*="/1266p.com:"]
 ##a[href*="/136ayx.vip"]
 ##a[href*="/1560045.cc"]
@@ -127942,6 +127956,7 @@ zle.com$script
 ##a[href^="https://a.bestcontentoperation.top/"]
 ##a[href^="https://a.bestcontentweb.top/"]
 ##a[href^="https://a.medfoodhome.com/"]
+##a[href^="https://a.medfoodsafety.com/"]
 ##a[href^="https://a2.adform.net/"]
 ##a[href^="https://ab.advertiserurl.com/aff/"]
 ##a[href^="https://activate-game.com/"]
