@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: WHAzhOz3+6ofxv3vZCbmNA
+! Checksum: bPAoFp3enrtEQzd/u9hiQQ
 ! Title: 混合规则(自动更新)
-! Version: 20240227160916
+! Version: 20240228000839
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-27 16:09:16
-! Total Count: 132324
+! Last modified: 2024-02-28 00:08:39
+! Total Count: 132337
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5640,6 +5640,7 @@
 ||adsandcomputer.com^
 ||adsapi.manhuaren.com^
 ||adsapi.snapchat.com^
+||adsassets-ipv6.waze.com^
 ||adsassets.waze.com^
 ||adsassure.com^
 ||adsb4trk.com^
@@ -25351,6 +25352,7 @@
 ||farmhumor.host^
 ||farmmandatehaggard.com^
 ||faro-collector-prod-*.grafana.net^
+||faro-collector-prod-eu-west-0.grafana.net^
 ||faroff-age.pro^
 ||faroff-painting.pro^
 ||farrierbalmy.com^
@@ -25756,6 +25758,7 @@
 ||feroaptu.xyz^
 ||feroffer.com^
 ||feroxnestor.space^
+||ferriesendless.com^
 ||fertilecalfawelessaweless.com^
 ||fertilisedignoringdeceive.com^
 ||fertilizerpokerelations.com^
@@ -34832,6 +34835,7 @@
 ||ip.tianqiapi.com^
 ||ip.up66.ru^
 ||ip.ws.126.net^$domain=~fxingw.com
+||ip138.com/banana/
 ||ip138.com/banner/
 ||ip138.com/idc/
 ||ip2c.landscape.co.jp^
@@ -54427,6 +54431,7 @@
 ||qksz.net^
 ||qkwsqq.com^
 ||qkyliljavzci.com^
+||qkyspzfxnc.ru^
 ||ql.uzuzuz.com^
 ||qlbbowx.xyz^
 ||qlcbeg.xyz^
@@ -63663,6 +63668,7 @@
 ||svlu.net^
 ||svlzckw.cn^
 ||svm6ryo.cn^
+||svncowt.cn^
 ||svnfgib.cn^
 ||svntrk.com^
 ||svr-prc-01.com^
@@ -65121,6 +65127,7 @@
 ||tgb.hsmedia.ru^
 ||tgbevv.xyz^
 ||tgboghbslgrkg.com^
+||tgccct.icu^
 ||tgcfmh.com^
 ||tgdaudience.com^
 ||tgdopodk.com^
@@ -87575,6 +87582,7 @@ imgtaxi.com##.bottom_abs
 imgur.com##.Gallery-Content-AdSense
 imgur.com##.Grid-column > div[style^="height:"]:has(.AdHomeContainer)
 imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
+imgur.com##.Post-item:has(.Post-item-external-ad)
 imgur.com##.PrimisPlayerContainer
 imgur.com##.Top300x600
 imgur.com##.fast-grid-ad
@@ -90609,6 +90617,10 @@ newegg.com##.item-sponsored-box
 newegg.com##.negspa-brands
 newegg.com##.sponsored-brands
 newegg.com##div.swiper-slide[data-sponsored-catalyst]
+newindian.in##.add160x600
+newindian.in##.add160x600-right
+newindian.in##.deskad
+newindian.in##.rhs-ad2
 newindianexpress.com##.scc
 newkaliningrad.ru##body > .soclinks + script + div[class]:not([id])
 newkerala.com##.pb-2 .text-mute
@@ -92771,6 +92783,7 @@ reddxxx.com#?#[role="gridcell"]:-abp-contains(/^AD$/)
 redferret.net###lb_wrap
 redferret.net##.redfads
 redgifs.com##.LaPF7yJs
+redgifs.com##._advertTab_hvumk_1
 redgifs.com##.placard-wrapper
 redgifs.com##.ySY4Rc9M
 redgifs.com##a[href^="https://camsfinders.com/"]
