@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: FYm5FUtErJu0oRu82Fx2qQ
+! Checksum: q/hJs+VKu1lxj1zZp9HRIQ
 ! Title: 混合规则(自动更新)
-! Version: 20240228193747
+! Version: 20240229000834
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-02-28 19:37:47
-! Total Count: 132417
+! Last modified: 2024-02-29 00:08:34
+! Total Count: 132425
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -6441,6 +6441,7 @@
 ||afdumnnhg.com^
 ||afdunaui.com^
 ||afearprevoid.com^
+||afeerdah.net^
 ||afenjkopoqwm.com^$third-party
 ||afethqrektafa.com^
 ||aff*.kolektiva.net^
@@ -7111,6 +7112,7 @@
 ||aj2526.bid^
 ||aj2532.bid^
 ||aj2550.bid^
+||aj2555.bid^
 ||aj2555.bid^$third-party
 ||aj4j.icu^
 ||ajaltoly.com^
@@ -41657,6 +41659,7 @@
 ||lxtuzcb.cn^
 ||lxudfzptpnim.com^
 ||lxudshpck.com^
+||lxvluwda.com^
 ||lxyl66.cn^
 ||lxznbz.xyz^
 ||ly6080.com.cn/gg/
@@ -71763,6 +71766,7 @@
 ||vlitag.com^
 ||vljjtj.xyz^
 ||vlkkwxncamnq.com^
+||vlkxsrhi.com^
 ||vllsour.com^
 ||vlnk.me^
 ||vlogerads.com^
@@ -81662,7 +81666,9 @@ best-faucets.com,transfermarkt.co.uk,transfermarkt.com##.werbung
 best18porn.com##.in-player-spot
 bestbuy.ca##.pencilAd_EE9DV
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
+bestbuy.ca##div[data-automation^="criteo-sponsored-products-carousel-"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
+bestbuy.com##.generic-morpher:has(.spns-label)
 bestbuy.com##.shop-dedicated-sponsored-carousel
 bestbuy.com##li.embedded-sponsored-listing
 bestcclm.com##.wp.cl > a
@@ -91143,6 +91149,7 @@ officedepot.com##.od-search-piq-banner-ads__lower-leaderboard
 offidocs.com###adbottomoffidocs
 offidocs.com###ja-container-prev
 offidocs.com###ja-container-prev-c
+offidocs.com##[id^="ja-container-prev"]
 ofweek.com###\5f ad-2100
 ofweek.com###fixedADWrap
 ofweek.com###flybox-db
@@ -104939,6 +104946,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /jsc/ads.
 /jscheck.php?enc=$xmlhttprequest
 /jsfiles/ads/*
+/jshexi.hj?lb=
 /jshexo.hj?lb=
 /json/ad/*
 /json/ads/*
