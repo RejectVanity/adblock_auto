@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CyVCx8nMuEKpcs5xB6ftDA
+! Checksum: LIUeny2BQYCm/yHcYpG3aw
 ! Title: 自用去广告Adblock规则
-! Version: 20240228140204
-! Last modified: 2024-02-28 14:02:04
-! Total Count: 3714
+! Version: 20240228192037
+! Last modified: 2024-02-28 19:20:37
+! Total Count: 3718
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -367,7 +367,9 @@
 ##[href*="https://zi.nvurz.com"]
 ##[href="/adad.html"]
 ##[href] > .add
-##[id$="ad-box"]
+##[id$="-ad-box"]
+##[id$="-ads-box"]
+##[id$="_ad_box"]
 ##[id*="theAd_slider"]
 ##[id="bannerCtrl"].source_container.swiper-wrapper
 ##[id] > .wrap > .clearfix.mod
@@ -776,7 +778,6 @@
 ##div[class^="swiper-"] > a[href][alt^="领"][alt$="元"][target="_blank"]
 ##div[class^="swiper-"] > a[onclick][rel="nofollow"] > img[style="width: 100%; height: 100%"]
 ##div[class^="swiper-"] > ul > li > a[target="_blank"]
-##div[class^="swiper-wrapper"] > div[class^="swiper-slide"][aria-label*="/"][role="group"]
 ##div[data-element="empty"][data-izone="main"]
 ##div[id*="_"][classname$="_f"][class$="_f"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
@@ -2454,6 +2455,7 @@ colamanhua.com,colamanga.com#@#.gg_950
 colamanhua.com,ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me,colamanga.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
 comgk.com,okdyy.com##a[ontouchstart],a[onclick],[class^="cvbcvxvb"],[href*="baidujkdjklvvsbvk.com"]
 coolapk.com#@#[class$="ad-box"]
+coolapk.com#@#[id$="ad-box"]
 cupfox.app##[class^="jsx-"] > img[src$=".gif"]
 d1bzw.com##[id="appurl"],[id="bbsurl"]
 daftsex.com,pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com,spankbang.party##a[href*="?ats="]
