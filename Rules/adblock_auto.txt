@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: S7rOyHNfmUB7rV1/xbwcUA
+! Checksum: QQxGacU9QI9YfO5eASCLOA
 ! Title: 混合规则(自动更新)
-! Version: 20240301160940
+! Version: 20240302000819
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-01 16:09:40
-! Total Count: 132552
+! Last modified: 2024-03-02 00:08:19
+! Total Count: 132561
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -15307,7 +15307,6 @@
 ||cdn.neon.click^
 ||cdn.nsimg.net/cache/landing/pr/*/yjmobile-*.xml$domain=youjizz.com
 ||cdn.optmn.cloud^
-||cdn.oribi.io^
 ||cdn.outfit7.com/promo-nc
 ||cdn.pljs.ru^
 ||cdn.porngames.tv/images/skyscrapers
@@ -18621,6 +18620,7 @@
 ||criticpraiser.com^
 ||crittercorupay.com^
 ||crjdgldmb.com^
+||crjeymh.cn^
 ||crjpgate.com^
 ||crjpgate.com^$document
 ||crjpingate.com^
@@ -69207,6 +69207,7 @@
 ||uingroundhe.com^
 ||uioozpxq.com^
 ||uioubveq.com^
+||uiqcf.cn^
 ||uisafnit.space^
 ||uiswtr3.xyz^
 ||uiszwh.icu^
@@ -75563,6 +75564,7 @@
 ||xksdqikwbwat.com^
 ||xksqb.com^
 ||xkwwnle.com^
+||xkyn.com/imgs/js/al.js
 ||xkyn.com/imgs/js/xx.js
 ||xkyphardw.com^
 ||xkzzyk.cn^
@@ -79403,6 +79405,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 247checkers.com###feature-ad-holder
 247media.com.ng,abmedia.io,aboutcrypto.info,appinn.com,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,captainaltcoin.com,carrotchou.blog,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,landiannews.com,laoliublog.cn,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,theoverclocker.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,news-opossumsauce.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
+247solitaire.com,247spades.com##div[class^="aspace-"]
 247sports.com##.minutely-wrapper
 247wallst.com###lb-fill
 247wallst.com###smartasset
@@ -81598,7 +81601,7 @@ baixing.com##.listing-fixed-bottom-promo
 baixing.com##.poster-info-container + .side-block
 baixing.com##.red-package
 baixing.com##.refashion-listing-banner
-baiyangzuo.xkyn.com##+js(set-constant, conone_lmg, noopFunc)
+baiyangzuo.xkyn.com,xkyn.com##+js(set-constant, conone_lmg, noopFunc)
 baking-forums.com,windows10forums.com##div.message--post.message
 balkangreenenergynews.com##.banner-l
 balkangreenenergynews.com##.banner-premium
@@ -83470,6 +83473,7 @@ cornish-times.co.uk###teads
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
 corona.help##.adlg
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
+corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(> h4.block-title > span:-abp-contains(Visit Our Sponsors))
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(>h4.block-title>span:-abp-contains(Visit Our Sponsors))
 cosmopolitan.com##.product-buy-button-wrapper
 cosplayporntube.com##div[class*="Creative"]
@@ -83552,6 +83556,7 @@ creativecow.net##.cowtracks-sidebar-with-cache-busting
 creativecow.net##.cowtracks-target
 creativeuncut.com##.abox-s_i
 creativeuncut.com##.abox-s_i2
+creepypasta.com##center:has(+ #ad-container-1)
 cricbuzz.com##.cbz-leaderboard-banner
 cricket.com##[href^="https://www.a23.com/downloads.html?"] > img
 cricketcountry.com##.ad90mob300
@@ -83994,8 +83999,8 @@ debka.com##.top-full-width-sidebar
 deccanherald.com###desktop-ad
 deccanherald.com###topbar > .hide-desktop + div
 deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
-deccanherald.com#?#div:-abp-has(>div > .ad-background)
-deccanherald.com#?#div[style^="min-height"]:-abp-has(>div > div[id*="-ad-separator"])
+deccanherald.com#?#div:-abp-has(> div > .ad-background)
+deccanherald.com#?#div[style^="min-height"]:-abp-has(> div > div[id*="-ad-separator"])
 deccanherald.com#?#span.container-text:-abp-contains(ADVERTISEMENT)
 decider.com##.nyp-video-player
 deckstats.net###header_right_big
@@ -86929,6 +86934,7 @@ heatmap.news##.middle_leaderboard
 heatmap.news,theweek.com##.infinite-container
 heavy-r.com##.first-row > a[href][target="_blank"]:not([href="http://pornedup.com/"]):not([href="https://www.mrporngeek.com"])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
+heb.com#?#div[class^="sc-"]:-abp-has(> div[data-qe-id="productCard"]:-abp-contains(Promoted))
 heb.com#?#div[class^="sc-"]:-abp-has(>div[data-qe-id="productCard"]:-abp-contains(Promoted))
 hedgefollow.com##[class$="side_scraper"]
 hedgefollow.com##[data-dee_type^="large_banner"]
@@ -87807,6 +87813,7 @@ inapps.appsflyersdk.com^
 inbox.com##.slinks
 inchcalculator.com##.results-ad-container-outer
 independent.co.ug##img[width="320"]
+independent.co.uk##.bXYFQI.dAHemH
 independent.co.uk##.sc-hYYkYm
 independent.co.uk##[data-mpu1]
 independent.co.uk##div[class*="Ad__Wrapper-"]
@@ -87814,6 +87821,7 @@ independent.co.uk##div[class*="TopBanner_"]
 independent.co.uk##div[data-mpu1]
 independent.co.uk,standard.co.uk###stickyFooterRoot
 independent.co.uk,standard.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
+independent.co.uk,the-independent.com###taboola-mid-article-thumbnails-iii
 independent.co.uk,the-independent.com###top-banner-wrapper
 independent.ie##.ad--articlerectangle
 independent.ie##.slot1
@@ -93443,6 +93451,7 @@ sentres.com##.oax_ad_leaderboard
 senzuri.tube##.content > div > .hv-block-transparent
 senzuri.tube##.video-page__watchfull-special
 senzuri.tube##.video-tube-friends
+seowebstat.com###adhead-block
 sephora.com##[data-comp*="RMNCarousel"]
 sephora.com##[data-comp*="RmnBanner"]
 sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
@@ -94757,6 +94766,7 @@ tellymix.co.uk###sidebar > div[style]
 tellymix.co.uk##.a-text
 tellymix.co.uk##.adb_top
 telugupeople.com##.fineprint
+telugupeople.com#?#table:-abp-has(> tbody > tr > td > a:-abp-contains(Advertisements))
 telugupeople.com#?#table:-abp-has(>tbody >tr>td>a:-abp-contains(Advertisements))
 templateshub.net##.col-lg-4.col-md-6:has(> div.singel-course)
 temporary-phone-number.com##.adsense-top-728
@@ -94792,7 +94802,6 @@ tgfcer.com##div[id^="ad_thread"]
 tgstat.com##.r1-aors
 th7.cn##.main > .mb5
 the-independent.com###taboola-mid-article-thumbnails-ii
-the-independent.com###taboola-mid-article-thumbnails-iii
 the-scientist.com###Torpedo
 the-scientist.com###preHeader
 the-star.co.ke###teasers
