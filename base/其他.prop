@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lSHJmuyp+DhZVBQ5Unk5pQ
+! Checksum: Es1zJns0vWlIDEDnFxoHPQ
 ! Title: 自用去广告Adblock规则
-! Version: 20240305201415
-! Last modified: 2024-03-05 20:14:15
-! Total Count: 3721
+! Version: 20240305213614
+! Last modified: 2024-03-05 21:36:14
+! Total Count: 3727
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -518,9 +518,11 @@
 ##a[href*="?shareName="][target="_blank"]
 ##a[href*="AdCode_"][target="_blank"]
 ##a[href*="AdsCode_"][target="_blank"]
+##a[href*="a.baidugg123.cc/"]
 ##a[href*="app:"] > img[src]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
+##a[href*="jiukanjia.com/"]
 ##a[href*="jszclock.com/gebi/"]
 ##a[href*="live/?token="][href*="&screen_"][target="_blank"]
 ##a[href*="top/?token="][href*="&screen_"][target="_blank"]
@@ -3171,6 +3173,7 @@ zle.com$script
 ||b9282.vip^
 ||baby.thinkmore.top^
 ||baglezymoses.com^$third-party
+||baidugg123.cc^
 ||baidujkdjklvvsbvk.com^$third-party
 ||baimakanshu.com/assets/public/$script
 ||banquetunarmedgrater.com^$script
@@ -3284,6 +3287,7 @@ zle.com$script
 ||exoclick.com^$third-party
 ||exosrv.com^
 ||exrtbsrv.com^
+||eyu2017.xzy^
 ||fbasd.qwoudjbk.com^$third-party
 ||februarylovestory.com^$third-party
 ||ffmehcg.cn^$third-party
@@ -3377,6 +3381,7 @@ zle.com$script
 ||jijozdrg.xyz^$third-party
 ||jinxiyue.com/seo.js$script
 ||jiongnet.cn^
+||jiukanjia.com^
 ||jkjoiij.cn^
 ||jm.ethylintusker.com^$third-party
 ||jnmami.cn^
@@ -3550,6 +3555,7 @@ zle.com$script
 ||smachnakittchen.com^
 ||sofire.bdstatic.com^
 ||solengmen.com/assets/publish/$script
+||sp5vip.com/h.js
 ||srijbbzpx.xyz^
 ||srnov.top^
 ||srv.dropkickmedia.com$third-party
