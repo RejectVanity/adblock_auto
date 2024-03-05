@@ -60,7 +60,8 @@ baidu.com.*#results[[:space:]]>[[:space:]]div\[class\]:not(.result):not(.result-
 ! 酷安页面误杀
 ^##\[id\$=\"ad-box\"\]$
 ^##div\[class\^=\"swiper-wrapper\"\][[:space:]]>[[:space:]]div\[class\^=\"swiper-slide\"\]\[aria-label\*=\"\/\"\]\[role=\"group\"\]$
-
+! 123云盘抬高修复
+^\|\|bdad.123pan.cn\^$
 
 
 
