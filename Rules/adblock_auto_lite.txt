@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: JIUnsI5FjZEwcbfVMeuCqw
+! Checksum: vvvEYkDUMNRJNWuETUYqjg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240305161040
+! Version: 20240305224123
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-05 16:10:40
-! Total Count: 25846
+! Last modified: 2024-03-05 22:41:23
+! Total Count: 25857
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -3860,6 +3860,7 @@
 ||baidudsvbshj.com^
 ||baidudvbjkbssjvsvv.com^
 ||baidufkjnvbdsn.com^
+||baidugg123.cc^
 ||baiduisjkbvsjkl.com^
 ||baidujkdjklvvsbvk.com^$third-party
 ||baidujs.cnys.com^
@@ -6288,6 +6289,7 @@
 ||eyny.com/data/cache/js_show_ads.js
 ||eypqbjju.xyz^
 ||eyq3nog.icu^
+||eyu2017.xzy^
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
 ||eyyqwd.icu^
@@ -7729,6 +7731,7 @@
 ||hyperadx.com^
 ||hypwbv.xyz^
 ||hystericalcloth.com^$third-party
+||hyusnisu.top^
 ||hyz86.com^
 ||hz.shouyoutv.com^
 ||hzhyhm.com^
@@ -8421,6 +8424,7 @@
 ||jitashe.org/template/jitashe/image/bc/3
 ||jiuba20230320.live^
 ||jiudashi.shop^
+||jiukanjia.com^
 ||jiumao20230305.live^
 ||jiupaozi.com^
 ||jiutou20230210.live^
@@ -12664,6 +12668,7 @@
 ||sozi.cn/templets/sozi/js/js.js
 ||sozrrkx.xyz^
 ||sp.dnqc.com^
+||sp5vip.com/h.js
 ||spac.me/js/mobiads.js
 ||spanking.wiki/morning-bread-
 ||sparklingshelf.com^$third-party
@@ -15666,6 +15671,10 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 11fzw.com##a[href*="go.php?url="][target="_blank"] > img[src]
 123movies.net,4anime.gg,actvid.com,animefreak.site,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,streamingcommunity.mom,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 123pan.com###prod > .ant-carousel
+123pan.com##.advBanner
+123pan.com##.ant-carousel
+123pan.com##.baidu-banner-container
+123pan.com##.banner-container-pc
 123pan.com##[class*="adv-container"]
 139.196.80.247$document
 139.196.80.247$~third-party
@@ -24008,9 +24017,11 @@ zle.com$script
 ##a[href*="?shareName="][target="_blank"]
 ##a[href*="AdCode_"][target="_blank"]
 ##a[href*="AdsCode_"][target="_blank"]
+##a[href*="a.baidugg123.cc/"]
 ##a[href*="app:"] > img[src]
 ##a[href*="b2pk.com/b/a/d/"][href*=".php?"] > img
 ##a[href*="https://go.live.missav.com/?"][target="_blank"]
+##a[href*="jiukanjia.com/"]
 ##a[href*="jszclock.com/gebi/"]
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="kdocs.cn"] > img[src*="sstv."]
