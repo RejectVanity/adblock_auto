@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: aq9dmVxXxH/UHhDQRkWb5w
+! Checksum: M22z78tGCHTnY3nafouMIQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240306083129
+! Version: 20240306095318
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-06 08:31:29
-! Total Count: 25861
+! Last modified: 2024-03-06 09:53:18
+! Total Count: 25874
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -5314,15 +5314,26 @@
 ||d1.yingyongge.com/qmoshe.js
 ||d1.zhuangxiu6.com^
 ||d10wv.fun^
+||d13jhr4vol1304.cloudfront.net^
+||d15cjcet1djbmv.cloudfront.net^
+||d19xf4taj229i8.cloudfront.net^
 ||d1ad.com^$third-party
 ||d1ezlc9vy4yc7g.cloudfront.net^$third-party
 ||d1net.com/index.php?m=poster&
+||d1pmhihatyvp1k.cloudfront.net^
 ||d2.sina.com.cn^$object,script
 ||d2.yingyongge.com/*?*&$subdocument
+||d239g0z67jcted.cloudfront.net^
 ||d2kadvyeq051an.cloudfront.net^$third-party
+||d2nrdy2pg3k168.cloudfront.net^
+||d2un76zvb5mgzx.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^$third-party
 ||d3.sina.com.cn^$object,script
+||d32z5ni8t5127x.cloudfront.net^
+||d37d9zbli5ytch.cloudfront.net^
 ||d3f3.xyz^
+||d3hdbjtb1686tn.cloudfront.net^
+||d3iih5w7xp5hdg.cloudfront.net^
 ||d3nfknbv.icu^
 ||d4.sina.com.cn^$object,script
 ||d4d99bfbcf.e59f087ae4.com^
@@ -5333,6 +5344,7 @@
 ||d6.mobaders.com^
 ||d67p.com/love/
 ||d7dzf.xyz^
+||d830x8j3o1b2k.cloudfront.net^
 ||d86n.top^
 ||da-ads.com^
 ||da-fan-shu.cn/images/kuaijie.jpg
@@ -5484,6 +5496,7 @@
 ||deansent.top^
 ||deanth.xyz^
 ||deapi.afreecatv.com^
+||debojuagug1sf.cloudfront.net^
 ||debonairtree.com^$third-party
 ||debugease.com/static/js/show.js
 ||dedcrfvdj.xyz^
@@ -5950,6 +5963,7 @@
 ||dzjzg.com^
 ||dzkwj0y.xyz^
 ||dzmanga.com/s/page_runtime_v5.js
+||dzpu6za66svjl.cloudfront.net^
 ||dzuht.cn^
 ||dzvy7.space^
 ||dzwww.com/data/js/asp_$script
@@ -20260,7 +20274,6 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 ://chio*.xyz/*.html$document
 ://chio*.xyz/*.html$~third-party
 ://creative.*.com/widgets/v4/Universal
-://d*.cloudfront.net$third-party
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$document
 ://dl.hdslb.com/mobile/latest/android*/iBiliPlayer-bilih5.apk?key=$~third-party
 ://dmhy.gate.*/*.*?$image
@@ -25696,7 +25709,7 @@ zle.com$script
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
 @@||chaturbate.com/*embed^$domain=sweetpornlinks.com
 @@||cloudflare.com/ajax/libs/dash-shaka-playback/$script,domain=vpornvideos.com
-@@||cloudfront.net^$domain=anime1.me|assistant.etxlzb.com|bitbucket.org|bitly.com|blog.wiki-topia.com|gualaoshi.org|heatworld.com|hotslogs.com|ksl.com|mecox.wpengine.com|nationalreview.com|portmiamiwebcam.com|rethmic.com|soap2day.ai|streamingcommunity.tech|webupd8.org
+@@||cloudfront.net^$domain=anime1.me|assistant.etxlzb.com|bitbucket.org|bitly.com|blog.wiki-topia.com|gualaoshi.org|heatworld.com|hotslogs.com|ksl.com|laoshigua.com|mecox.wpengine.com|nationalreview.com|portmiamiwebcam.com|rethmic.com|soap2day.ai|streamingcommunity.tech|webupd8.org
 @@||cre.dp.sina.cn^
 @@||cyberdean.fr/js/advertisement.js
 @@||darkino.online^$generichide
