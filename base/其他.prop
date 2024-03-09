@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b5N7nLDzi4mejgQ7bftZ+Q
+! Checksum: cS2Ywojn/Iros6/BoT7wcg
 ! Title: 自用去广告Adblock规则
-! Version: 20240306094831
-! Last modified: 2024-03-06 09:48:31
-! Total Count: 3726
+! Version: 20240309214503
+! Last modified: 2024-03-09 21:45:03
+! Total Count: 3727
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -955,7 +955,7 @@
 ##img[id][height$="0001"][width="100%"][border="0"]
 ##img[id^="GGADIMG"][src]
 ##img[id^="daohang_hengfu"][width="100%"]
-##img[onclick^="golh()"][width="100%"],img[onclick^="golh()"][src$=".gif"]
+##img[onclick^="golh"][onclick$=")"][width="100%"],img[onclick^="golh"][onclick$=")"][src$=".gif"]
 ##img[src$="-960x100.gif"]
 ##img[src$="-960x60.gif"]
 ##img[src$="-960x80.gif"]
@@ -3295,6 +3295,7 @@ zle.com$script
 ||fluentfixing.com^
 ||fourier.alibaba.com^
 ||friendshipmale.com^
+||fruitdiscovery.com^
 ||ftd.agency^$third-party
 ||ftiodfqk.com^$third-party
 ||fvcwqkkqmuv.com^
