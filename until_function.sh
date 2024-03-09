@@ -31,6 +31,8 @@ done
 #写入基本信息
 function write_head(){
 local file="${1}"
+local Description="${3}"
+test "${Description}" = "" && Description="${2}"
 local count=`cat "${file}" | sed '/^!/d;/^[[:space:]]*$/d' | wc -l ` 
 local original_file=`cat "${file}"`
 cat << key > "${file}"
@@ -40,6 +42,8 @@ cat << key > "${file}"
 ! Expires: 12 hours (update frequency)
 ! Last modified: `date +'%F %T'`
 ! Total Count: ${count}
+! Blocked Filters: ${count}
+! Description: ${Description}
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
