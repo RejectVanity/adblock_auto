@@ -1,10 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: GyehoE3q0JFm3Ux+hdDrJA
+! Checksum: fHbS26ZGBNgieVAfO9VcXA
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240309160859
+! Version: 20240309215917
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-09 16:08:59
-! Total Count: 25921
+! Last modified: 2024-03-09 21:59:17
+! Total Count: 25926
+! Blocked Filters: 25926
+! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
 ! GitHub Homepage: https://github.com/lingeringsound/adblock_auto
@@ -88,6 +90,7 @@
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0s6s0.top^
 ||0uyt5b.cn^
+||0v1syj.cn^
 ||0yzabcd.com^
 ||1.07swz.com^
 ||1.1010pic.com^
@@ -1073,6 +1076,7 @@
 ||8881img.com^
 ||8886i.top^
 ||888bb111ww.com^
+||888bb555ww.com^
 ||888bb666cc.com^
 ||888cool.cn^
 ||888dizhi.com/888/
@@ -6619,6 +6623,7 @@
 ||frsejhged.xyz^
 ||frtnqps358.shop^
 ||frtnqpw837.shop^
+||fruitdiscovery.com^
 ||frxcdn.xyz^
 ||fsclzs.com/Ad_User/
 ||fsgiosi.com^
@@ -10218,6 +10223,7 @@
 ||mwzbp.iask.com.cn^
 ||mx6.3pornhere.com^
 ||mxaserver.mxplay.com^
+||mxeq.cn^
 ||mxknqq.com^
 ||mxvp-ad-config-prod-1.zenmxapps.com^
 ||mxvp-feature-toggle-prod-1.zenmxapps.com^
@@ -24658,6 +24664,7 @@ zle.com$script
 ##img[onclick*="/c7.net/"]
 ##img[onclick*="/statics/js/"]
 ##img[onclick="window.open(this.url)"][src*="qq.com"]
+##img[onclick^="golh"][onclick$=")"][width="100%"],img[onclick^="golh"][onclick$=")"][src$=".gif"]
 ##img[onclick^="golh()"][width="100%"],img[onclick^="golh()"][src$=".gif"]
 ##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[onclick^="window.open"][src*="pc.qq.com"]
