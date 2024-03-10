@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: q6cpQlvgFn071KDTvx+w2w
+! Checksum: OTz3zuZeVTj8eUqkMVk1vQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240310172146
+! Version: 20240310192121
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-10 17:21:46
-! Total Count: 25953
-! Blocked Filters: 25953
+! Last modified: 2024-03-10 19:21:21
+! Total Count: 26000
+! Blocked Filters: 26000
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -89,6 +89,7 @@
 ||0mnopqr.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0s6s0.top^
+||0uvt8b.cn^
 ||0uyt5b.cn^
 ||0v1syj.cn^
 ||0yzabcd.com^
@@ -1105,6 +1106,8 @@
 ||8961.jianbihua.com^
 ||89hdn.cn^
 ||89mtdab.xyz^
+||8b359.vip^$document
+||8b359.vip^$~third-party
 ||8b4v.cn^
 ||8bo.com/template/default/8bo/j/app.js
 ||8bobf.*/da.aspx
@@ -4234,6 +4237,8 @@
 ||bjzankai.com^$script,third-party
 ||bkae.top^
 ||bkbbjtfp.xyz^
+||bkdp*.xyz^$document
+||bkdp*.xyz^$~third-party
 ||bkhblj.xyz^
 ||bkill.com/css/js/*top
 ||bkill.com/css/js/abcbl.js
@@ -5627,6 +5632,7 @@
 ||dicouksa.com^
 ||dieka888.com/app_ad/
 ||diekd.xyz^
+||dif1qbzytaymu.cloudfront.net^
 ||differentcoat.com^$third-party
 ||difmnd.xyz^
 ||dig.chouti.com/advert
@@ -7035,6 +7041,8 @@
 ||goikbnjksdf.com^
 ||gold.szonline.net^
 ||gold678.com/news/js/layer/layer.js
+||goldsandww.xyz^$document
+||goldsandww.xyz^$~third-party
 ||gome.com.cn/flight?
 ||gongshe99.com/d/js/gongshe/gsw
 ||gongyuxinxi.xyz^
@@ -8068,6 +8076,7 @@
 ||imgs.cc/img/8Pl6FJY.gif
 ||imgs.cc^$domain=fun1shot.com
 ||imgs.itxueyuan.com/advPicture/
+||imgsrc.baidu.com/forum/pic/item/$third-party,image
 ||imgsrc.baidu.com/tieba/pic/item/$image
 ||imgtg.com^*.gif
 ||imgtp.com/2023/02/18/KkRe64ff.png
@@ -12437,6 +12446,8 @@
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
 ||sh6ss7.top^
 ||sh996.dftoutiao.com^
+||shaajinby.bochahao.com^$document
+||shaajinby.bochahao.com^$~third-party
 ||shabby-constant.com^
 ||shabby-constant.com^$document
 ||shabby-constant.com^$~third-party
@@ -18614,6 +18625,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .adwolf.
 .ae/ads/
 .ai/ads.
+.app:*/?i_code=$document
+.app:*/?i_code=$~third-party
 .app?c=ggcha$document
 .app?c=ggcha$~third-party
 .asp?wg&df=$script,third-party
@@ -19096,6 +19109,8 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 .net:*/index.html?shareName=$document
 .net:*/index.html?shareName=$~third-party
 .niusnews.com/upload/banners/
+.nl/?*=*channelCode=$document
+.nl/?*=*channelCode=$~third-party
 .nyaa.fun/static/img/*_refesh.
 .nyaa.fun/static/img/host/*.gif
 .nyahentai.com/cat/l_1.gif
@@ -22239,6 +22254,27 @@ zle.com$script
 ###adBody04
 ###adBody06
 ###adBody07
+###adBrandDev
+###adBrandingStation
+###adBreak
+###adCarousel
+###adChannel
+###adChoiceFooter
+###adChoices
+###adChoicesIcon
+###adChoicesLogo
+###adCol
+###adColumn
+###adColumn3
+###adComponentWrapper
+###adContainer
+###adContainerMobile
+###adContainer_1
+###adContainer_2
+###adContainer_3
+###adContent
+###adContentHolder
+###adContext
 ###adLeftFloat
 ###adPopUpContainer
 ###adRightFloat
@@ -22528,14 +22564,18 @@ zle.com$script
 ###ldgindexbuttom
 ###leftAD
 ###leftCouple
+###leftCouple + #rightFloat
 ###leftCouple1
+###leftCouple1 + #rightFloat1
 ###leftCouplet
+###leftCouplet + #rightFloat
 ###leftFloat + #rightFloat
 ###leftFloat1 + #rightFloat1
 ###leftFloat[style="z-index: 999; position: fixed; left: 0px; bottom: 0px;"]
 ###left_ad
 ###left_adv
 ###left_couple
+###left_couple + #right_float
 ###left_couplet.close_discor
 ###left_down_float_ad
 ###left_float + #right_float
@@ -22543,6 +22583,8 @@ zle.com$script
 ###left_top_ad
 ###left_up_float_ad
 ###leftad
+###leftad2
+###leftd.leftd
 ###lefttd.lefttd
 ###ljPz
 ###loading + #app
@@ -23501,6 +23543,7 @@ zle.com$script
 ##.room-ad-video-down
 ##.rotate-adv
 ##.row > .gao-bg
+##.row > .top-af-container
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.samBannerUnit
@@ -23757,6 +23800,7 @@ zle.com$script
 ##[id*="theAd_slider"]
 ##[id="bannerCtrl"].source_container.swiper-wrapper
 ##[id] > .wrap > .clearfix.mod
+##[id].f_top1
 ##[id^="ad-float"]
 ##[id^="ad-index"]
 ##[id^="ad-wrap-"]
@@ -24330,6 +24374,7 @@ zle.com$script
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
+##body > script
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
@@ -24605,6 +24650,7 @@ zle.com$script
 ##iframe[src^="/ad"][src$=".html"]
 ##iframe[src^="/ai/s/s/su.php"]
 ##iframe[src^="/frd5/s/s/su.php?"]
+##iframe[src^="https://baimei511.mom"]
 ##iframe[src^="https://creative."][src*="/widgets/"]
 ##iframe[style$="margin: auto 0px !important; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px 0px 0px auto !important; overflow: hidden; z-index: 2147483647;"]
 ##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 21474"]
@@ -24805,6 +24851,7 @@ zle.com$script
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
 ##script + iframe[src^="https://s.uuidksinc.net"]
+##script > .p-screen-dialog
 ##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##section > span[style="display:block;clear:both;overflow:hidden;z-index:2147483647"]
