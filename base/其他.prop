@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DMVsPGpyZ/2LWFgkEpjgzA
+! Checksum: AQLNJf5g9APAiCra2GBwWA
 ! Title: 自用去广告Adblock规则
-! Version: 20240310205332
-! Last modified: 2024-03-10 20:53:32
-! Total Count: 3802
+! Version: 20240310225308
+! Last modified: 2024-03-10 22:53:08
+! Total Count: 3805
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -427,6 +427,7 @@
 ##[href*="https://zi.nvurz.com"]
 ##[href="/adad.html"]
 ##[href] > .add
+##[href^="https://cdgjv8760.xyz"]
 ##[id$="-ad-box"]
 ##[id$="-ads-box"]
 ##[id$="_ad_box"]
@@ -1083,6 +1084,7 @@
 ##img[src^="https://888bb111ww.com/"]
 ##img[src^="https://888xx222kk.com/"]
 ##img[src^="https://888xx555kk.com"]
+##img[src^="https://img"][src*="//upload/"][src$=".js"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][onclick]
 ##img[src^="https://pic.lsddkd.com:"]
@@ -3358,6 +3360,7 @@ zle.com$script
 ||exosrv.com^
 ||exrtbsrv.com^
 ||eyu2017.xzy^
+||fardb.lbljsxlyjhq.com^
 ||fbasd.qwoudjbk.com^$third-party
 ||februarylovestory.com^$third-party
 ||ffmehcg.cn^$third-party
