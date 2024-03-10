@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4VHz340+hMFLS67e+oXiXw
+! Checksum: jALV1Qctl1I9PJNMBrwWNA
 ! Title: 拦截黄色网站转跳
-! Version: 20240204121936
-! Last modified: 2024-02-04 12:19:36
-! Total Count: 426
+! Version: 20240310161718
+! Last modified: 2024-03-10 16:17:18
+! Total Count: 442
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app?c=ggcha$document
@@ -158,6 +158,14 @@
 /\/[0-9]{2}\/\?channelCode\=/$~third-party
 /\/[A-Za-z][0-9]{2}\/\?channelCode\=/$document
 /\/[A-Za-z][0-9]{2}\/\?channelCode\=/$~third-party
+/^https?:\/\/[0-9]4\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]4\.[0-9]+\.(com|vip|cn|xyz)/$document
+/^https?:\/\/[0-9]4\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]4\.[0-9]+\.(com|vip|cn|xyz)/$~third-party
+/^https?:\/\/[0-9]4\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]8\.[0-9]+\.(com|vip|cn|xyz)/$document
+/^https?:\/\/[0-9]4\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]8\.[0-9]+\.(com|vip|cn|xyz)/$~third-party
+/^https?:\/\/[0-9]8\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]4\.[0-9]+\.(com|vip|cn|xyz)/$document
+/^https?:\/\/[0-9]8\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]4\.[0-9]+\.(com|vip|cn|xyz)/$~third-party
+/^https?:\/\/[0-9]8\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]8\.[0-9]+\.(com|vip|cn|xyz)/$document
+/^https?:\/\/[0-9]8\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]8\.[0-9]+\.(com|vip|cn|xyz)/$~third-party
 /antv/*/antv-v*_asqt*.apk$document
 /antv/*/antv-v*_asqt*.apk$~third-party
 /antv/antv_v*.*.apk$document
@@ -240,6 +248,8 @@
 ?channelCode=chigua$~third-party
 caigepseyoulianjie-*.*.com$document
 caigepseyoulianjie-*.*.com$~third-party
+xyz:*/cc/*?is_not=$document
+xyz:*/cc/*?is_not=$~third-party
 zhaotianbao1.cn/*/ywy*.apk$document
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||144w6.com^$document
@@ -266,6 +276,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||atala-apw.com/domredirect?$~third-party
 ||attendancereporterwren.com^$document
 ||attendancereporterwren.com^$~third-party
+||avts*.xyz^$document
+||avts*.xyz^$~third-party
 ||blmlt.szjunda.cn^$document
 ||blmlt.szjunda.cn^$~third-party
 ||buyu*9.com^$document
@@ -358,6 +370,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||qgfzb.com^$~third-party
 ||qsbgubdez120.com^$document
 ||qsbgubdez120.com^$~third-party
+||qxig*.xyz^$document
+||qxig*.xyz^$~third-party
 ||reg.jiayuan.com^$document
 ||reg.jiayuan.com^$~third-party
 ||rexxtourist.com^$document
@@ -420,6 +434,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||y6lkc.vip^$~third-party
 ||yingyangdj.com^$document
 ||yingyangdj.com^$~third-party
+||ylhlom.xyz^$document
+||ylhlom.xyz^$~third-party
 ||yrtedzb.cn^$document
 ||yrtedzb.cn^$~third-party
 ||z14.echo258.com^$document

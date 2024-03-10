@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cS2Ywojn/Iros6/BoT7wcg
+! Checksum: LirqTPQyrChdX6J1poV4ng
 ! Title: 自用去广告Adblock规则
-! Version: 20240309214503
-! Last modified: 2024-03-09 21:45:03
-! Total Count: 3727
+! Version: 20240310161454
+! Last modified: 2024-03-10 16:14:54
+! Total Count: 3732
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1046,6 +1046,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script + #strl
+##script + .p-screen-dialog
 ##script + .show-app
 ##script + .show-app2
 ##script + .show-app3
@@ -2152,6 +2153,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 99re.com##a[href][target="_blank"] > img[src]
 :*/*/sv?gp=*=*=$third-party
+:*/api/v1/api2/tongji/start?pid=$third-party
 :*/api/v4/g?kyurl=$third-party
 :*/pv.php?op=pv&ext=$third-party
 :*/static/lbsite/*/*.js?v=16$third-party
@@ -3158,6 +3160,7 @@ zle.com$script
 ||antiadblocksystems.com^
 ||anyshare.icu^*.js
 ||api.aflsj.com^$third-party
+||api.cgyx.tv^
 ||apiapi88.com^$image
 ||app2.*dfs.com^
 ||applogapi.autohome.com.cn^
@@ -3360,6 +3363,7 @@ zle.com$script
 ||image.hxgmcml.cn^
 ||img.imimimi.top^
 ||img.jygdb.com^$script,third-party
+||img.zfzys.top^$third-party,image
 ||imgg.ksjuwqc.cn^
 ||imgjs.gatherfind.com^$third-party
 ||immmg.owowqrf.cn^
@@ -3458,6 +3462,7 @@ zle.com$script
 ||mrkthei.cn^$third-party
 ||mtu.hlkcowp.cn^
 ||mylengmen.com/assets/public/$script
+||net.huaduys.net/guding*.js
 ||netapd.gdxinya.com^
 ||newdin.name^
 ||nmm9i.xyz^
