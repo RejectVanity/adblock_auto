@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v51my3LtgjgllUU7Ux+s0g
+! Checksum: DMVsPGpyZ/2LWFgkEpjgzA
 ! Title: 自用去广告Adblock规则
-! Version: 20240310193736
-! Last modified: 2024-03-10 19:37:36
-! Total Count: 3799
+! Version: 20240310205332
+! Last modified: 2024-03-10 20:53:32
+! Total Count: 3802
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -1333,7 +1333,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:8891/vj3/
 .com:9*/yc/c/*/GEBEF$third-party
 .gif$domain=kpl037.com|yydy.cc
-.gif$third-party,domain=lfwx2.com
+.gif$third-party,domain=lfwx2.com|likeav2.cc|likeav2.com|likeav2.buzz|likeav2.live|likeav2.xyz
 .html?channelCode=$third-party
 .icu/*/20*/*/16*.gif$image,third-party
 .icu/?token=$third-party
@@ -1842,6 +1842,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /file/ads/*
 /fileadmin/ads/*
 /files/ads/*
+/gg/*960X120.gif$third-party,image
 /gonggao/gg.js
 /gs/hengfu_$script
 /html/ads/*
@@ -2725,6 +2726,7 @@ kiutaku.com##div[class^="i"][class*="9"]
 koreaporn.net##div.bb_mobile
 ktmukmx.com##.container > div[style] > div.row > .col-sm-3 > a[target="_blank"]
 kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
+likeav2.cc##.ads
 lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"],[class^="tsgg"],[id*="ggsj"]
 luoqiuzw.com##.show-app2
 m.90xw.com##.ad
@@ -3469,6 +3471,7 @@ zle.com$script
 ||js.wpushsdk.com^
 ||js.xgmeitu.com/*/*.js
 ||jsjtjj.xyz^
+||jsvmkcpnpnbepp.cccsccn.com^
 ||juicyads.com^
 ||kairuxinxi.xyz^$third-party
 ||kcieo.xyz^$third-party
