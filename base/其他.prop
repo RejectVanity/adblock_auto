@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LirqTPQyrChdX6J1poV4ng
+! Checksum: QqhT3RpprviDcZ23027KIg
 ! Title: 自用去广告Adblock规则
-! Version: 20240310161454
-! Last modified: 2024-03-10 16:14:54
-! Total Count: 3732
+! Version: 20240310174419
+! Last modified: 2024-03-10 17:44:20
+! Total Count: 3734
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -669,6 +669,7 @@
 ##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
+##body > script
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body#app.pc.mobile
@@ -1052,6 +1053,7 @@
 ##script + .show-app3
 ##script + .show-app4
 ##script + iframe[src^="https://s.uuidksinc.net"]
+##script > .p-screen-dialog
 ##section > span[style="display:block;clear:both;overflow:hidden;z-index:2147483647"]
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]

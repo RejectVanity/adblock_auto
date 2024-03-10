@@ -1,11 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: shM4X0o/5pJIvTfN03cg8g
+! Checksum: fzeGclXYmcMY9pFzu9d8tA
 ! Title: 拦截黄色网站转跳
-! Version: 20240310171936
-! Last modified: 2024-03-10 17:19:36
-! Total Count: 436
+! Version: 20240310174343
+! Last modified: 2024-03-10 17:43:43
+! Total Count: 448
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
+.app:*/?i_code=$document
+.app:*/?i_code=$~third-party
 .app?c=ggcha$document
 .app?c=ggcha$~third-party
 .cc/?c=axza$document
@@ -70,6 +72,8 @@
 .me/?channelCode=$~third-party
 .net:*/index.html?shareName=$document
 .net:*/index.html?shareName=$~third-party
+.nl/?*=*channelCode=$document
+.nl/?*=*channelCode=$~third-party
 .top/?channelCode=$document
 .top/?channelCode=$~third-party
 .top/?invite=$document
@@ -256,6 +260,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||6633091.com^$~third-party
 ||8002v.com^$document
 ||8002v.com^$~third-party
+||8b359.vip^$document
+||8b359.vip^$~third-party
 ||92g7x.com^$document
 ||92g7x.com^$~third-party
 ||apk.zizhukekong.org^$document
@@ -272,6 +278,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||attendancereporterwren.com^$~third-party
 ||avts*.xyz^$document
 ||avts*.xyz^$~third-party
+||bkdp*.xyz^$document
+||bkdp*.xyz^$~third-party
 ||blmlt.szjunda.cn^$document
 ||blmlt.szjunda.cn^$~third-party
 ||buyu*9.com^$document
@@ -316,6 +324,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||fuxeh.com^$~third-party
 ||fuyime.com^$document
 ||fuyime.com^$~third-party
+||goldsandww.xyz^$document
+||goldsandww.xyz^$~third-party
 ||h.*tad.cn/?$document
 ||h.*tad.cn/?$~third-party
 ||h5.sdahh.com^$document
@@ -376,6 +386,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||sfgprze.cn^$~third-party
 ||sgend.net:^$document
 ||sgend.net:^$~third-party
+||shaajinby.bochahao.com^$document
+||shaajinby.bochahao.com^$~third-party
 ||shabby-constant.com^$document
 ||shabby-constant.com^$~third-party
 ||shianhuanbao.com$document
