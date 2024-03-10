@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OTz3zuZeVTj8eUqkMVk1vQ
+! Checksum: nWifUUdmsR9Gkw7X37qjdw
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240310192121
+! Version: 20240310193957
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-10 19:21:21
-! Total Count: 26000
-! Blocked Filters: 26000
+! Last modified: 2024-03-10 19:39:57
+! Total Count: 26001
+! Blocked Filters: 26001
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -23408,6 +23408,7 @@ zle.com$script
 ##.maomi-content > #main-container > .row.mob40 + .row
 ##.maomi-content > .section-banner
 ##.maomi-content > .section-menu > .row > a[target="_blank"]
+##.maomi-content > .top-af-container
 ##.maomi-content > a[target="_blank"]
 ##.mbads
 ##.mdp-deblocker-wrapper
