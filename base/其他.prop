@@ -1,14 +1,35 @@
 [Adblock Plus 2.0]
-! Checksum: QqhT3RpprviDcZ23027KIg
+! Checksum: yLBrHS80NoiAvrhTg1eb4Q
 ! Title: 自用去广告Adblock规则
-! Version: 20240310174419
-! Last modified: 2024-03-10 17:44:20
-! Total Count: 3734
+! Version: 20240310191508
+! Last modified: 2024-03-10 19:15:08
+! Total Count: 3798
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
 ###__ads_dp
 ###ad-index
+###adBrandDev
+###adBrandingStation
+###adBreak
+###adCarousel
+###adChannel
+###adChoiceFooter
+###adChoices
+###adChoicesIcon
+###adChoicesLogo
+###adCol
+###adColumn
+###adColumn3
+###adComponentWrapper
+###adContainer
+###adContainerMobile
+###adContainer_1
+###adContainer_2
+###adContainer_3
+###adContent
+###adContentHolder
+###adContext
 ###adbox
 ###adbox--hot_news_ad
 ###adbox--page_bottom_ad
@@ -59,6 +80,24 @@
 ###globalTopNavAd
 ###global_header_ad
 ###hfad
+###leftAD
+###leftCouple
+###leftCouple + #rightFloat
+###leftCouple1
+###leftCouple1 + #rightFloat1
+###leftCouplet
+###leftCouplet + #rightFloat
+###leftFloat + #rightFloat
+###leftFloat1 + #rightFloat1
+###left_ad
+###left_couple
+###left_couple + #right_float
+###left_couplet.close_discor
+###left_down_float_ad
+###left_float.close_discor
+###left_up_float_ad
+###leftad2
+###leftd.leftd
 ###loading + #app
 ###midBox > .wrap > .clearfix.mod
 ###mini-ad
@@ -80,6 +119,22 @@
 ###playerJsvLayer.jsv-layer
 ###popup-overlay0.popup-overlay
 ###popup-overlay1.popup-overlay
+###rightAD
+###rightCouple
+###rightCouple + #leftFloat
+###rightCouple1
+###rightCouple1 + #leftFloat1
+###rightCouplet
+###rightCouplet + #leftFloat
+###right_ad
+###right_couple
+###right_couple + #left_float
+###right_couplet.close_discor
+###right_down_float_ad
+###right_float.close_discor
+###right_up_float_ad
+###rightad2
+###rightd.rightd
 ###rmp-ad-click-id
 ###rollingadBox > .wrap
 ###top-ads
@@ -214,7 +269,10 @@
 ##.links-topxxx > ul > li
 ##.m-ad-full
 ##.m-hm-ad
+##.maomi-content > #main-container > .row.mob40 + .row
 ##.maomi-content > .section-banner
+##.maomi-content > .section-menu > .row > a[target="_blank"]
+##.maomi-content > a[target="_blank"]
 ##.mobile-ad-negative-space
 ##.mobile-ad-placeholder
 ##.mobile-ad-slider
@@ -247,6 +305,7 @@
 ##.qgg_popup_close2
 ##.remove-ads
 ##.rmp-ad-container
+##.row > .top-af-container
 ##.sideadvert
 ##.sideadverts
 ##.sidebar-ads
@@ -373,6 +432,7 @@
 ##[id*="theAd_slider"]
 ##[id="bannerCtrl"].source_container.swiper-wrapper
 ##[id] > .wrap > .clearfix.mod
+##[id].f_top1
 ##[id^="ad-float"]
 ##[id^="ad-index"]
 ##[id^="ad-wrap-"]
@@ -884,6 +944,7 @@
 ##iframe[src^="/ad"][src$=".html"]
 ##iframe[src^="/ai/s/s/su.php"]
 ##iframe[src^="/frd5/s/s/su.php?"]
+##iframe[src^="https://baimei511.mom"]
 ##iframe[src^="https://creative."][src*="/widgets/"]
 ##iframe[style$="margin: auto 0px !important; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px 0px 0px auto !important; overflow: hidden; z-index: 2147483647;"]
 ##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 21474"]
@@ -3247,6 +3308,7 @@ zle.com$script
 ||crulxoits.com^$third-party
 ||cvmjf.xyz^$third-party
 ||d1ezlc9vy4yc7g.cloudfront.net^$third-party
+||d2un76zvb5mgzx.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^$third-party
 ||d4d99bfbcf.e59f087ae4.com^
 ||da-ads.com^
@@ -3259,6 +3321,7 @@ zle.com$script
 ||deliver.ptgncdn.com^
 ||dfes68.com^
 ||dicouksa.com^
+||dif1qbzytaymu.cloudfront.net^
 ||dilidili*.com/js/wap2-jm-ms.js$script
 ||dizhi.men/js/*ad*.js$third-party,script
 ||doyougothere.com^$third-party
@@ -3368,6 +3431,7 @@ zle.com$script
 ||img.zfzys.top^$third-party,image
 ||imgg.ksjuwqc.cn^
 ||imgjs.gatherfind.com^$third-party
+||imgsrc.baidu.com/forum/pic/item/$third-party,image
 ||immmg.owowqrf.cn^
 ||impactserving.com^
 ||imprintmake.com^
