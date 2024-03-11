@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: N3/mGDYE1zJiqyOAHWFapw
+! Checksum: Li2IYHMApWU9qZ70hPhjEA
 ! Title: 混合规则(自动更新)
-! Version: 20240311000834
+! Version: 20240311083231
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-11 00:08:34
-! Total Count: 135284
-! Blocked Filters: 135284
+! Last modified: 2024-03-11 08:32:31
+! Total Count: 135299
+! Blocked Filters: 135299
 ! Description: 合并于各种知名的Adblock规则,适用于 Adguard / Ublock Origin / Adblock Plus(用Adblock Plus源码编译的软件也支持，例如嗅觉浏览器 ) 支持复杂语法的过滤器，或者能兼容大规则的浏览器例如 X浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -18112,6 +18112,7 @@
 ||content-cooperation.com^
 ||content-garden.com^
 ||content-rec.com^
+||content-settings.com^$third-party
 ||content.adriver.ru^
 ||content.livesportmedia.eu^
 ||content.mql5.com^
@@ -19419,6 +19420,7 @@
 ||cxiwn.xyz^
 ||cxjrsb.com^
 ||cxkhadk.com^
+||cxlvlbx.xyz^
 ||cxmnsbrbdmxoyd.com^
 ||cxmolk.com^
 ||cxmygp.xyz^
@@ -30466,6 +30468,7 @@
 ||gkspde.cn^
 ||gkswas.xyz^
 ||gkustph.cn^
+||gkutca.xyz^
 ||gkwrae.xyz^
 ||gkzba.com^
 ||gl-cash.com^
@@ -40097,6 +40100,7 @@
 ||kneylhewould.xyz^
 ||knfhxszj.xyz^
 ||knhmgn.com^
+||knifdlad.top^
 ||knightcharleyloudly.com^
 ||knigna.com^
 ||knitstamp.com^$third-party
@@ -40885,6 +40889,7 @@
 ||laeiwbkt.com^
 ||laf1ma3eban85ana.com^
 ||lafastnews.com^
+||lafirx.xyz^
 ||laggerozonid.website^
 ||lagou.com/js/cooperation/
 ||lagqmwyvqr.com^
@@ -49419,6 +49424,7 @@
 ||nshypdry.xyz^
 ||nsimg.net^
 ||nsjczjnrravfcj.com^
+||nsjnmx.icu^
 ||nsjyfpo.com^
 ||nskwqto.com^
 ||nslokxweviwqbg.com^
@@ -62872,6 +62878,7 @@
 ||site-azp.slgnt.eu^
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
 ||site-config.com^
+||site-config.com^$third-party
 ||site-kaiseki-tool.com^
 ||site-rank.com^
 ||site-submit.com.ua^
@@ -76840,6 +76847,7 @@
 ||wopsedoaltuwn.com^
 ||wopsedoaltuwo.com^
 ||wopsedoaltuwp.com^
+||wopvmmy.cn^
 ||woqycyda.com^
 ||word168.cn^
 ||wordbodily.com^
@@ -80984,6 +80992,7 @@
 ||ztrck.me^
 ||ztsrv.com^
 ||zttgwpb.com^
+||zttuvj.xyz^
 ||ztumuvofzbfe.com^
 ||ztvzfq.com^
 ||ztwf8lr.cn^
@@ -83255,6 +83264,8 @@ amateur8.com,its.porn##.rmp-container
 amateur8.com,lesbian8.com,pornfay.org##.kt-api-btn-start
 amateur8.com,maturetubehere.com###nopp
 amateurfapper.com,iceporn.tv,porner.tv,pornmonde.com##.sources
+amateurphotographer.com##.content-ad
+amateurphotographer.com,androidcentral.com,cryptoslate.com,techspot.com##.cta
 amateurporn.co##+js(set-constant, isAdBlockActive, false)
 amateurporn.me,anon-v.com,camwhoresbay.*,cccccccccccccccccccccccccccccccccc18pussy.porn,femdomtb.com,freepornvideo.sex,goodporn.to,javbangers.com,javwhores.com,pornchimp.com,pornfapr.com,porntrex.com,pornxbox.com,tabooporn.tv,teenmastube.com,wankyjob.com,watchmygf.mobi,zavporn.net,zeenite.com##.opt
 amateurporn.me,eachporn.com##.item[style]
@@ -83382,7 +83393,6 @@ androidauthority.com##.andro-in-article-sidebar-desktop-placement
 androidauthority.com##.andro-mid-article-placement
 androidauthority.com,britannica.com,courthousenews.com,diabetesjournals.org,imgmak.com,imgse.com,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com,x13x.space##.ad-banner
 androidcentral.com,crackberry.com,imore.com,technobuffalo.com,thrifter.com,windowscentral.com##.header-top-alert-bar
-androidcentral.com,cryptoslate.com,techspot.com##.cta
 androidcentral.com,imore.com##.no-amazon
 androidcommunity.com##.td-header-rec-wrap
 androiddevtools.cn###auto-scroll-ad-box
@@ -89103,8 +89113,12 @@ greatis.com##.sing
 greatist.com##aside
 greatist.com##hl-adsense
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-11k39sg
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-1cg0byz
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-20w1gi
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-ad]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="driver"]
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="header-leaderboard"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[style*="line-height: 0;"]
 greatist.com,psychcentral.com##.myFinance-widget
 greatwuyi.com##.main_ad2
@@ -92602,7 +92616,6 @@ medicalnewstoday.com###MyFiAd0
 medicalnewstoday.com##[data-empty="true"]
 medicalnewstoday.com##[src^="https://healthline-activation-prod.healthline.com/driver-images/"]
 medicalnewstoday.com##div[id^="inline3"]
-medicalnewstoday.com,psychcentral.com##.css-1cg0byz
 medicinehatnews.com###stickyleaderboard
 medievalists.net##.Mnet_TopLeft_970x250
 medpagetoday.com##.leaderboard-region
@@ -97642,6 +97655,8 @@ themonthly.com.au##.edm_wrapper
 themoscowtimes.com##.mb-4.py-3
 themoviedb.org##.fanhattan
 thenationonlineng.net##.dorvekp-post-bottom
+thenewdaily.com.au##.h-home-ad-height-stop
+thenewdaily.com.au##.md\:h-\[250px\]
 thenewdaily.com.au##.vf-promo
 thenewslens.com##.help-tnl-container-300_250
 thenewslens.com##.help-tnl-container-970_250
