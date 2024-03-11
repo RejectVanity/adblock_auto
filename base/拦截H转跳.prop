@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KmAb+9TGqRg88EzM31zvPg
+! Checksum: C/cXXEGxY2mOHRz4caGPSA
 ! Title: 拦截黄色网站转跳
-! Version: 20240310214836
-! Last modified: 2024-03-10 21:48:36
-! Total Count: 464
+! Version: 20240311213413
+! Last modified: 2024-03-11 21:34:13
+! Total Count: 470
 .*tad.cn/?c=ggmou$document
 .*tad.cn/?c=ggmou$~third-party
 .app:*/?i_code=$document
@@ -112,6 +112,8 @@
 /#/pages/video/video/?shareName=$~third-party
 /#/register/?c=$document
 /#/register/?c=$~third-party
+/(https?:\/\/)([a-z]{1,7}[0-9]{4,8})\.(xn--[a-z].*[0-9].*)\.(xn--.*)\/([0-9]{2,7}\.html)/$document
+/(https?:\/\/)([a-z]{1,7}[0-9]{4,8})\.(xn--[a-z].*[0-9].*)\.(xn--.*)\/([0-9]{2,7}\.html)/$~third-party
 /(https?:\/\/)(this|miss)av[0-9]+\.(xyz|top|live|com|cn)\/pop\?url=/$document
 /(https?:\/\/)(this|miss)av[0-9]+\.(xyz|top|live|com|cn)\/pop\?url=/$~third-party
 /(https?:\/\/).*\.(xyz|top|live|com|cn):*[0-9]\/?channelCode=/$document
@@ -164,18 +166,22 @@
 /\/[0-9]{2}\/\?channelCode\=/$~third-party
 /\/[A-Za-z][0-9]{2}\/\?channelCode\=/$document
 /\/[A-Za-z][0-9]{2}\/\?channelCode\=/$~third-party
-/\/\?channelCode=[0-9]+.*[a-z]/$document
-/\/\?channelCode=[0-9]+.*[a-z]/$~third-party
-/\/\?channelCode=[a-z][0-9]+/$document
-/\/\?channelCode=[a-z][0-9]+/$~third-party
-/\/\?i_code=[0-9]+.*[a-z]/$document
-/\/\?i_code=[0-9]+.*[a-z]/$~third-party
-/\/\?i_code=[a-z][0-9]+/$document
-/\/\?i_code=[a-z][0-9]+/$~third-party
-/\/\?shareName=[0-9]+.*[a-z]/$document
-/\/\?shareName=[0-9]+.*[a-z]/$~third-party
-/\/\?shareName=[a-z][0-9]+/$document
-/\/\?shareName=[a-z][0-9]+/$~third-party
+/\/\?channel=[0-9]+.*[a-z]{1,6}/$document
+/\/\?channel=[0-9]+.*[a-z]{1,6}/$~third-party
+/\/\?channel=[a-z]{1,6}.*[0-9]+/$document
+/\/\?channel=[a-z]{1,6}.*[0-9]+/$~third-party
+/\/\?channelCode=[0-9]+.*[a-z]{1,6}/$document
+/\/\?channelCode=[0-9]+.*[a-z]{1,6}/$~third-party
+/\/\?channelCode=[a-z]{1,6}[0-9]+/$document
+/\/\?channelCode=[a-z]{1,6}[0-9]+/$~third-party
+/\/\?i_code=[0-9]+.*[a-z]{1,6}/$document
+/\/\?i_code=[0-9]+.*[a-z]{1,6}/$~third-party
+/\/\?i_code=[a-z]{1,6}[0-9]+/$document
+/\/\?i_code=[a-z]{1,6}[0-9]+/$~third-party
+/\/\?shareName=[0-9]+.*[a-z]{1,6}/$document
+/\/\?shareName=[0-9]+.*[a-z]{1,6}/$~third-party
+/\/\?shareName=[a-z]{1,6}[0-9]+/$document
+/\/\?shareName=[a-z]{1,6}[0-9]+/$~third-party
 /^https?:\/\/[0-9]{4,8}\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]{4,8}\.[0-9]+\.(com|vip|cn|xyz)/$document
 /^https?:\/\/[0-9]{4,8}\.[0-9]+\.(com|vip|cn|xyz)/[0-9]{2}\.html\?shareName=[0-9]{4,8}\.[0-9]+\.(com|vip|cn|xyz)/$~third-party
 /antv/*/antv-v*_asqt*.apk$document

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xwAjTvAIpZEAqk6gOR+Mxw
+! Checksum: gNdj7p2ixsrTsMZ0c9ieug
 ! Title: 自用去广告Adblock规则
-! Version: 20240310235625
-! Last modified: 2024-03-10 23:56:25
-! Total Count: 3807
+! Version: 20240311213216
+! Last modified: 2024-03-11 21:32:16
+! Total Count: 3816
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -137,6 +137,10 @@
 ###rightd.rightd
 ###rmp-ad-click-id
 ###rollingadBox > .wrap
+###section-ad
+###section-ad-bottom
+###section_ad
+###section_advertisements
 ###top-ads
 ###top_ad
 ###video-ad
@@ -145,6 +149,7 @@
 ##.ReadAd2
 ##.__bm_btn_div
 ##._ads
+##.abk-img
 ##.abk-item.abk-banner
 ##.above_video_banner
 ##.ad-box
@@ -176,6 +181,7 @@
 ##.adx-wrapper-middle
 ##.adx_center
 ##.affTpllay[style]
+##.app-abk
 ##.appguide-wrap
 ##.articleads
 ##.artplayer-plugin-ads
@@ -427,6 +433,7 @@
 ##[href*="https://kkdh.xhdhyv.com"]
 ##[href*="https://zi.nvurz.com"]
 ##[href="/adad.html"]
+##[href="https://05.zde95.vip/"]
 ##[href] > .add
 ##[href^="https://cdgjv8760.xyz"]
 ##[id$="-ad-box"]
@@ -1119,6 +1126,7 @@
 ##script + .show-app4
 ##script + iframe[src^="https://s.uuidksinc.net"]
 ##script > .p-screen-dialog
+##section > .friendlylink > .w
 ##section > span[style="display:block;clear:both;overflow:hidden;z-index:2147483647"]
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
 ##span > video[poster*="-1316632262.cos.ap-"]
@@ -3534,6 +3542,7 @@ zle.com$script
 ||mobixc.wqnggnse.fun^
 ||mopak.ionksfefe.xyz^
 ||mopinion.com^
+||mqsq.vip^
 ||mrkthei.cn^$third-party
 ||mtu.hlkcowp.cn^
 ||mylengmen.com/assets/public/$script
