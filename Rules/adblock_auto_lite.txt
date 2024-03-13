@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XwGgFiLqUXNo6VJy4nO+bw
+! Checksum: PZlGIJt0NuL+K4VWMmZnGg
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240313083057
+! Version: 20240313160930
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-13 08:30:57
-! Total Count: 26079
-! Blocked Filters: 26079
+! Last modified: 2024-03-13 16:09:30
+! Total Count: 26092
+! Blocked Filters: 26092
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -4443,6 +4443,8 @@
 ||bttazsyk.icu^
 ||btwuji.com/jsj1/
 ||btwwzqdx.xyz^
+||btyhnbmn289.shop^
+||btyhnraw653.shop^
 ||bu1.duba.com^
 ||bu1.vvvdj.com^
 ||bubblesmedia.ru^
@@ -14448,6 +14450,7 @@
 ||wjl58.icu^
 ||wjoxqd.com^
 ||wjtij.top^
+||wjwod.cyou^
 ||wkrcbszi.xyz^
 ||wkybwa.xyz^
 ||wkywrc.cn^
@@ -15088,6 +15091,7 @@
 ||ydstatic.com/dsp_website/
 ||ydttxdqe.xyz^
 ||ydv7k.cyou^
+||ydwkrbg.cn^
 ||ydybwjpa.xyz^
 ||yea.im/5hq.gif
 ||yea.im/5ht.gif
@@ -16670,6 +16674,7 @@ hellporno.net##span[id^="HT-Native-Under-Player-"]
 hellporno.net##span[id^="HT-TAB-"]
 hellporno.net,bravoporn.com,alphaporno.com,sex3.com,crocotube.com,bravoteens.com,zedporn.com,hellmoms.com,tubewolf.com,xbabe.com,hellporno.com,xcum.com,anyporn.com##+js(set-constant, vastEnabled, false)
 helpsetup.ru##.veramoy
+hentai.io##.script_manager_video_master
 hentai.video,hentaiporn.tube,naughtyhentai.com###videocon
 hentaicity.com##[class^="adn-posty_"]
 hentaicity.com,porntv.com##.detail-box > div.detail-con ~ div.detail-side-td
@@ -22429,6 +22434,10 @@ zle.com$script
 ###ads_warning
 ###adsblocker_detected
 ###adsense
+###adsense_center
+###adsense_footer
+###adsense_header
+###adsense_insert
 ###adtoniq-msgr-bar
 ###adtop1
 ###adv-2
@@ -23817,6 +23826,8 @@ zle.com$script
 ##[class^="ad-top"]
 ##[class^="ads"][style] > a > img[width="100%"][alt]
 ##[class^="ads"][style] > a[target="_blank"]
+##[class^="adsense-"]
+##[class^="adsense_"]
 ##[class^="adv-banner-"]
 ##[class^="adx_video"]
 ##[class^="app"] > ul > li > a[rel="external nofollow noopener"][target="_blank"][href]
@@ -23881,6 +23892,8 @@ zle.com$script
 ##[id^="adDisabledBtn"][onclick][href]
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
+##[id^="adsense-"]
+##[id^="adsense_"]
 ##[id^="appss"][style]
 ##[id^="bfad"]
 ##[id^="common"].bf_qy.common
