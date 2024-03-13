@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2BGDv9hHBzJGBrUVxIq31A
+! Checksum: 5WgYd3u/nXT3eHmTELC+RQ
 ! Title: 自用去广告Adblock规则
-! Version: 20240312131550
-! Last modified: 2024-03-12 13:15:51
-! Total Count: 3820
+! Version: 20240313152959
+! Last modified: 2024-03-13 15:29:59
+! Total Count: 3829
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -46,6 +46,10 @@
 ###ads-container-anchor
 ###ads-container-single
 ###ads-container-top
+###adsense_center
+###adsense_footer
+###adsense_header
+###adsense_insert
 ###advertisings
 ###allpng
 ###bl_mobile_float
@@ -389,6 +393,8 @@
 ##[class^="ad-top"]
 ##[class^="ads"][style] > a > img[width="100%"][alt]
 ##[class^="ads"][style] > a[target="_blank"]
+##[class^="adsense-"]
+##[class^="adsense_"]
 ##[class^="adv-banner-"]
 ##[class^="adx_video"]
 ##[class^="app"] > ul > li > a[rel="external nofollow noopener"][target="_blank"][href]
@@ -450,6 +456,8 @@
 ##[id^="adDisabledBtn"][onclick][href]
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
+##[id^="adsense-"]
+##[id^="adsense_"]
 ##[id^="appss"][style]
 ##[id^="bfad"]
 ##[id^="common"].bf_qy.common
@@ -2631,6 +2639,7 @@ hanime1.me##.hidden-lg > a > img
 hanyu.baidu.com###download-wrapper
 hanyu.baidu.com##[id^="fengchao_els"]
 hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
+hentai.io##.script_manager_video_master
 hentaicity.com##[class^="adn-posty_"]
 hentaipaw.com##.header-ad,.middle-ad,[id^="ts_ad_native"]
 hkcards.com#@##ad-slot
