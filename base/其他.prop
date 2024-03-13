@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5WgYd3u/nXT3eHmTELC+RQ
+! Checksum: TDCPuCBIkbaMain9ihitcw
 ! Title: 自用去广告Adblock规则
-! Version: 20240313152959
-! Last modified: 2024-03-13 15:29:59
-! Total Count: 3829
+! Version: 20240313171544
+! Last modified: 2024-03-13 17:15:44
+! Total Count: 3833
 ###ADbox
 ###AdBox2
 ###ChapterView > .slide-baidu
@@ -225,6 +225,7 @@
 ##.bottom_fixed > a > img[src$=".gif"]
 ##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottomads
+##.cailyzad
 ##.cctv_banner_dv
 ##.center-div.sponsor
 ##.commentads
@@ -267,6 +268,7 @@
 ##.headThreeImg > .block > a > img
 ##.header-ad-desktop
 ##.header-ad-mobile
+##.htvad
 ##.ima-ad-container
 ##.img-cctv.lazyLoad
 ##.inPlayerGGdiv
@@ -1045,6 +1047,7 @@
 ##img[src$=".gif"][style="border:0;"][width="99%"]
 ##img[src*=".secureserver.net/"][src*=".gif"],img[src*=".secureserver.net/"][src*="960x"],img[src*=".secureserver.net/"][src*="960_"]
 ##img[src*=".tptp002.cfd/"][src$=".gif"]
+##img[src*=".twqtf.boats/"]
 ##img[src*=".wzxty168.com"][src$=".gif"][width="100%"]
 ##img[src*="//acc.snmovie.com"]
 ##img[src*="//ad.xmmnsl.com"]
@@ -1149,6 +1152,7 @@
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
 ##table[border="1"] > tbody > tr > td > a[href][onclick*="Novel"][title]
 ##ul > li > a[href*=".pojuko.buzz/"]
+##ul > li > a[href][data-id][data-type][data-position][target="_self"]
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
@@ -3354,7 +3358,6 @@ zle.com$script
 ||doyougothere.com^$third-party
 ||dpic.wxddid.cn^$third-party
 ||drfvtgbyk.xyz^$third-party
-||drucnf.twqtf.boats^
 ||dspmnt.autohome.com.cn^
 ||dtscout.com^
 ||dvnsdo.com^$third-party
@@ -3703,6 +3706,7 @@ zle.com$script
 ||tsyndicate.com^
 ||tujohhbkeab.com^$third-party
 ||twinrdsrv.com$xmlhttprequest,third-party
+||twqtf.boats^
 ||twrkcbs.cn^
 ||twww.sbs^$third-party
 ||tydouke.com^
