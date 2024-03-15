@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: y+UIQ+DXeK6A0uF0/tEtjA
+! Checksum: buMHVUFTU68orq1dCVrhhw
 ! Title: 混合规则(自动更新)
-! Version: 20240315161004
+! Version: 20240316000919
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-15 16:10:04
-! Total Count: 136102
-! Blocked Filters: 136102
+! Last modified: 2024-03-16 00:09:19
+! Total Count: 136111
+! Blocked Filters: 136111
 ! Description: 合并于各种知名的Adblock规则,适用于 Adguard / Ublock Origin / Adblock Plus(用Adblock Plus源码编译的软件也支持，例如嗅觉浏览器 ) 支持复杂语法的过滤器，或者能兼容大规则的浏览器例如 X浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -40621,7 +40621,9 @@
 ||korenizvosmi.net^
 ||korenle.com^
 ||korewaeroi.com/fukugan_sp_3x4.html
+||korewaeroi.com/fukugan_sp_3x4_rec.html
 ||korewaeroi.com/img/2mm.jpg
+||korewaeroi.com/wp-content/wptouch-data/themes/*/default/ad
 ||korewaeroi.com/wp-content/wptouch-data/themes/classic-redux-copy-1/default/push*.php
 ||korexo.com^
 ||korgala.com^
@@ -82700,7 +82702,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."])
 2345.com,duanwenxue.com###topHf
 247checkers.com###feature-ad-holder
-247media.com.ng,abmedia.io,aboutcrypto.info,appinn.com,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,captainaltcoin.com,carrotchou.blog,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,landiannews.com,laoliublog.cn,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,thecatholictravelguide.com,theoverclocker.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
+247media.com.ng,abmedia.io,aboutcrypto.info,appinn.com,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,captainaltcoin.com,carrotchou.blog,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,landiannews.com,laoliublog.cn,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,thecatholictravelguide.com,theoverclocker.com,thethaiger.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,news-opossumsauce.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
 247solitaire.com,247spades.com##div[class^="aspace-"]
 247sports.com##.minutely-wrapper
@@ -90552,6 +90554,7 @@ homehound.com.au##.left-banner
 homemade.xxx###scrollhere
 homemade.xxx,playsber.xyz,onscreens.me,xn--mgbkt9eckr.net,streamsb.net,4kporn.xxx,javct.net,xozilla.xxx,sexu.*,eroticmv.com,4kpornmovs.com,pornvideos4k.com,seemysex.com,yts.rs,lesbianexpert.com,hdpornvideo.xxx,xozilla.com,octanime.net,filmlinks4u.pro,streamoupload.com,japanesexxxtube.org,cda-hd.cc,xyzcomics.com,savelink.site,turboimagehost.com,moresisek.net,pornxday.com,streamingporn.xyz,xxxstreams.org,turbobit.net,vidoza.org,tubsexer.com,vintagetube.xxx##+js(abort-on-property-read, asgPopScript)
 homemoviestube.com###v_right
+homemoviestube.com##.film-item:not(#showpop)
 homepornking.com##.bbas
 homepornking.com##.bottomlc
 homerun.re,strikeout.co,vipbox.sx,vipleague.ch,vipleague.co,vipleague.is,vipleague.me##span[id][style] > div[id]:first-child:last-child
@@ -90795,6 +90798,7 @@ hybbs.com##div[class^="adtop"]
 hyiptop.net##.supporthome
 hypebeast.com##.shopping-break-container
 hyperallergic.com,repeatreplay.com,steamdeckhq.com##.wp-block-spacer
+hypergames.top,op.gg,pornchimp.com,thecarconnection.com###banner-container
 hypestat.com##.b-error
 hypestat.com##.sem_banner
 hypnohub.net##div[style$="height:255px;"]
@@ -94185,6 +94189,8 @@ netflav.com##.ads_video_overlay_mobile
 netfly.fun##.player-box-main ~ [style^="display: flex; justify-content: space-between;"]
 netfly.fun#?#.content > div:not([class]):has(> [style="display: flex; justify-content: space-between; width: 100%;"])
 netfly.fun,netfly.lol,netfly.tv##[style^="display: flex; justify-content:"]
+netfly.fun,netfly.tv##.container-slide
+netfly.fun,netfly.tv##.content > div > [style="display: flex; flex-direction: column;width: 100%;"]
 netfly.fun,netfly.tv##.module-tg-box
 netfly.fun,netfly.tv##.player-box > div.player-tt-rmm
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
@@ -94785,7 +94791,6 @@ ooxxx.com,ph4.ru##div[style^="width: 728px; height: 90px;"]
 op.gg##.e17e77tq6
 op.gg##.e17e77tq8
 op.gg##.life-owner
-op.gg,pornchimp.com,thecarconnection.com###banner-container
 opdown.com##.cq-recom
 opdown.com##.gxxz-btn
 opdown.com##.listaddrs
@@ -95843,6 +95848,7 @@ power.baidu.com,zhidao.baidu.com##.wgt-clew[data-type="goods"]
 power987.co.za##.power-leader-board-center
 powerboat-world.com###rotator_url
 poxiaotv.net##.vdbto,.qptp + a,[onclick],.qpgdo
+poyopara.com#?#iframe[src^="https://pokoran.com/ad/"]:upward(1)
 poznamka.ru##body > [id]:not([class])[style^="z-index"]
 pp.ua###id_ad_image
 ppc.world##.detected-block-modal
@@ -97279,8 +97285,10 @@ slaynews.com##[href="https://slaynews.com/ads/"]
 sleazyneasy.com##.cams-videos
 sleazyneasy.com##.pre-spots
 slickdeals.net###afscontainer
+slickdeals.net##.announcementBar:has(.sponsorContent)
 slickdeals.net##.bp-p-adBlock
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
+slickdeals.net##.commentsAd
 slickdeals.net##.frontpageGrid__bannerAd
 slickdeals.net##.frontpageGrid__feedItem:has(.dealCardBadge--promoted)
 slickdeals.net##.rightRailBannerSection
@@ -98501,6 +98509,7 @@ thestreet.com##.m-video-unit
 thesun.co.uk##.dpa-slot
 thetealmango.com##div[style^="margin: 8px auto; text-align:"]
 thetechpoint.org##.navigation-banner
+thethaiger.com###custom_html-12
 thetimes.co.uk###ad-intravelarticle-inline
 thetimes.co.uk##.gyLkkj
 thetimes.co.uk##.responsiveweb-sc-1exejum-0
