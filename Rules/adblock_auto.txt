@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yOI60bnf4Occ5SD9om+Eqw
+! Checksum: z4HNj/Bsm5BB97uOJK+kOw
 ! Title: 混合规则(自动更新)
-! Version: 20240316082937
+! Version: 20240316160852
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-16 08:29:37
-! Total Count: 136145
-! Blocked Filters: 136145
+! Last modified: 2024-03-16 16:08:52
+! Total Count: 136170
+! Blocked Filters: 136170
 ! Description: 合并于各种知名的Adblock规则,适用于 Adguard / Ublock Origin / Adblock Plus(用Adblock Plus源码编译的软件也支持，例如嗅觉浏览器 ) 支持复杂语法的过滤器，或者能兼容大规则的浏览器例如 X浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -9552,6 +9552,7 @@
 ||aromabirch.com^
 ||aromatic-possibility.pro^
 ||arongroups.co^
+||arosepageant.com^
 ||arossb.com^
 ||arouac.com^
 ||aroundpayslips.com^
@@ -15941,6 +15942,7 @@
 ||cerningronco.com^
 ||certainalmostcontent.com^
 ||certainlydisparagewholesome.com^
+||certaintyurnincur.com^
 ||certifica.com^
 ||certificaterainbow.com^
 ||certified-apps.com^
@@ -31415,6 +31417,7 @@
 ||gopusher1.com^
 ||gopushka1.com^
 ||gopushmajor1.com^
+||goraccodisobey.com^
 ||goralogplumach.com^
 ||goraps.com^
 ||gordiustouse.website^
@@ -33425,6 +33428,7 @@
 ||hewhimaulols.com^
 ||hewiseryoun.com^
 ||hewmjifrn4gway.com^
+||hewokhn.com^
 ||hexagon-analytics.com^
 ||hexapinow.xyz^
 ||hexcvb.xyz^
@@ -36617,6 +36621,7 @@
 ||inscriptionafford.com^
 ||inscriptionharm.com^
 ||insectclothe.com^
+||insectearly.com^
 ||insectsaw.com^
 ||insectsmanners.com^
 ||insecurepaint.pro^
@@ -40609,6 +40614,7 @@
 ||koophaip.net^
 ||koopheen.com^
 ||koosaipiph.com^
+||kootovouz.com^
 ||kootzjkz.com^
 ||koovaubi.xyz^
 ||koowhoos.com^
@@ -41627,6 +41633,7 @@
 ||lblwhh.xyz^
 ||lbnqnp.xyz^
 ||lbprjdi.cn^
+||lbswotkkpry.com^
 ||lbwjqrtxeeriap.com^
 ||lbx777.*/css/300.js
 ||lbx777.*/css/lbxgg02
@@ -53152,6 +53159,7 @@
 ||pejrq.xyz^
 ||pejzeexukxo.com^
 ||pekingpk10.com^
+||pekroace.net^
 ||pelageforgers.com^
 ||pelagictanjib.com^
 ||pelamydlours.com^
@@ -94213,13 +94221,15 @@ netflav.com##.ads_head_banner_container
 netflav.com##.ads_video_overlay_mobile
 netfly.fun##.player-box-main ~ [style^="display: flex; justify-content: space-between;"]
 netfly.fun#?#.content > div:not([class]):has(> [style="display: flex; justify-content: space-between; width: 100%;"])
-netfly.fun,netfly.lol,netfly.tv##[style^="display: flex; justify-content:"]
+netfly.fun,netfly.tv##.banner[href^="http"]
 netfly.fun,netfly.tv##.container-slide
 netfly.fun,netfly.tv##.content > div > [style="display: flex; flex-direction: column;width: 100%;"]
 netfly.fun,netfly.tv##.module-tg-box
 netfly.fun,netfly.tv##.player-box > div.player-tt-rmm
+netfly.fun,netfly.tv##[style^="display: flex;"]
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
+netfly.lol##[style^="display: flex; justify-content:"]
 netfly.lol,netfly.tv##.module-tglist
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
 nettv4u.com##.desk_only
@@ -101110,6 +101120,21 @@ youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#gu
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #ticket-shelf.ytd-watch-flexy.style-scope + ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope[at-start][item-style] > #main.style-scope.ytd-merch-shelf-renderer > #item-list.style-scope.ytd-merch-shelf-renderer:not(:empty)
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #player.ytd-watch-flexy.style-scope > #player-container-outer.ytd-watch-flexy.style-scope > #player-container-inner.ytd-watch-flexy.style-scope > #player-container.ytd-watch-flexy.style-scope[role="complementary"][style] > ytd-player#ytd-player.ytd-watch-flexy.style-scope[style] > #container.ytd-player.style-scope > #movie_player.playing-mode.html5-video-player[data-version^="/s/player/"][aria-label] > .ytp-suggested-action[data-layer] > button.ytp-suggested-action-badge-with-controls.ytp-suggested-action-badge.ytp-button:not(:empty)
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #secondary.ytd-watch-flexy.style-scope > #secondary-inner.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > #player-ads.ytd-watch-flexy.style-scope:not(:empty)
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scop > #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scop > #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(> #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope)
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scop > #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-grid-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scop > #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-banner-promo-renderer.ytd-rich-grid-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-search.ytd-page-manager.style-scope > #container.ytd-search.style-scope > ytd-two-column-search-results-renderer.ytd-search.style-scope > #primary.ytd-two-column-search-results-renderer.style-scope > ytd-section-list-renderer.ytd-two-column-search-results-renderer.style-scope > #contents.ytd-section-list-renderer.style-scope > ytd-item-section-renderer.ytd-section-list-renderer.style-scope > #contents.ytd-item-section-renderer.style-scope > ytd-ad-slot-renderer.ytd-item-section-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-search.ytd-page-manager.style-scope > #container.ytd-search.style-scope > ytd-two-column-search-results-renderer.ytd-search.style-scope > #primary.ytd-two-column-search-results-renderer.style-scope > ytd-section-list-renderer.ytd-two-column-search-results-renderer.style-scope > #contents.ytd-section-list-renderer.style-scope > ytd-item-section-renderer.ytd-section-list-renderer.style-scope > #contents.ytd-item-section-renderer.style-scope > ytd-search-pyv-renderer.ytd-item-section-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > #player-ads.ytd-watch-flexy.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > #items.ytd-watch-next-secondary-results-renderer.style-scope > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > #items.ytd-watch-next-secondary-results-renderer.style-scope > ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope > #contents.ytd-item-section-renderer.style-scope > ytd-ad-slot-renderer.ytd-item-section-renderer.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope > #main.style-scope.ytd-merch-shelf-renderer > #banner.style-scope.ytd-merch-shelf-renderer
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #below.ytd-watch-flexy.style-scope > ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope > #main.style-scope.ytd-merch-shelf-renderer > #item-list.style-scope.ytd-merch-shelf-renderer
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #primary.ytd-watch-flexy.style-scope > #primary-inner.ytd-watch-flexy.style-scope > #player.ytd-watch-flexy.style-scope > #player-container-outer.ytd-watch-flexy.style-scope > #player-container-inner.ytd-watch-flexy.style-scope > #player-container.ytd-watch-flexy.style-scope > ytd-player#ytd-player.ytd-watch-flexy.style-scope > #container.ytd-player.style-scope > #movie_player.playing-mode.html5-video-player > .ytp-suggested-action > button.ytp-suggested-action-badge-with-controls.ytp-suggested-action-badge.ytp-button
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #secondary.ytd-watch-flexy.style-scope > #secondary-inner.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > #player-ads.ytd-watch-flexy.style-scope
+youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #secondary.ytd-watch-flexy.style-scope > #secondary-inner.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > #items.ytd-watch-next-secondary-results-renderer.style-scope > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+youtube.com##body > ytd-app > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope > #columns.ytd-watch-flexy.style-scope > #secondary.ytd-watch-flexy.style-scope > #secondary-inner.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > #items.ytd-watch-next-secondary-results-renderer.style-scope > ytd-item-section-renderer > #contents > ytd-ad-slot-renderer
 youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-banner-promo-renderer
 youtube.com##ytd-compact-promoted-video-renderer
@@ -103320,6 +103345,7 @@ $websocket,domain=4archive.org|5nj.com|allthetests.com|boards2go.com|cechi8.com|
 /9CCMSPC/images/*.gif
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /:\/\/[A-Za-z0-9]+.ru\/[A-Za-z0-9]{20,25}.js/$domain=music-radio.ru
+/?abt_opts=1&
 /?affiliateId=*&realDomain=
 /?cat=*&groupds=*&clientId=*&productId=*&tracking=*$document
 /?cat=*&groupds=*&clientId=*&productId=*&tracking=*$~third-party
@@ -118126,7 +118152,6 @@ zle.com$script
 ###playerad
 ###playerads
 ###playlistbtn > a[href$=".html"]
-###playlistbtn > a[href="/h0312.html"]
 ###plrAd
 ###plus-upsell-adblock
 ###pnAd2

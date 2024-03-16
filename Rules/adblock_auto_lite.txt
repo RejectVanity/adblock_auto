@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: dxMSw2SVjc/aZ7gnmr9M/w
+! Checksum: lo4FLz8ShAHRQCujIxjYyQ
 ! Title: 混合规则精简版(自动更新)
-! Version: 20240316082948
+! Version: 20240316160904
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-03-16 08:29:48
-! Total Count: 26124
-! Blocked Filters: 26124
+! Last modified: 2024-03-16 16:09:04
+! Total Count: 26133
+! Blocked Filters: 26133
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -89,6 +89,7 @@
 ||0mnopqr.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0op8kh.cn^
+||0oqt9i.cn^
 ||0r3tyg.cn^
 ||0s6s0.top^
 ||0tq6ub.cn^
@@ -7569,6 +7570,7 @@
 ||hk-pub.com/forum/images/banner/
 ||hkaiedb.icu^
 ||hkb123.com/plus/show.php
+||hkbumv.icu^
 ||hkcoding.com/chequeconvert/img/grammarly-
 ||hkcoding.com/img/
 ||hkctmldg.icu^
@@ -9071,6 +9073,7 @@
 ||kskwai.com^
 ||kslbahd.top^
 ||ksrgsc.xyz^
+||kssolo.com^
 ||ksvkfwth.xyz^
 ||kszc.j1evtmx.xyz^
 ||kszvmqo.cn^$third-party
@@ -9254,6 +9257,7 @@
 ||lczk.cn^$third-party
 ||ld0766.com/*20*a/
 ||ldb.cc/js/top.js
+||ldgjwdohqbi.xyz^
 ||ldjhlqr.cn^
 ||ldjnbn.xyz^
 ||ldmnq.com^$third-party,badfilter
@@ -10705,6 +10709,7 @@
 ||offerwall.yandex.net^
 ||ofgsqic.cn^$document
 ||ofgsqic.cn^$~third-party
+||ofkcww.xyz^
 ||ofweek.com/pop/ad/
 ||og.zyzjpx.cn^$third-party
 ||ogkfuw.xyz^
@@ -10957,6 +10962,7 @@
 ||pavfazbwiap.com^
 ||pazz.xyz^
 ||pb.shuxigua.com^
+||pbbhhxm.xyz^
 ||pbmp.ali213.net/js/
 ||pbtsjh.xyz^
 ||pbtxt.win^
@@ -13416,6 +13422,7 @@
 ||tnc16-useast1a.isnssdk.com^
 ||tnfhxszj.xyz^
 ||tngmn.com^$third-party
+||tnifdlai.top^
 ||tnkfactory.com^$third-party
 ||tnllxd.xyz^
 ||tns.simba.taobao.com^
@@ -13786,6 +13793,7 @@
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
 ||udpdmeb.cn^
 ||udsahkln.xyz^
+||udykkl.cn^
 ||ue8im.com^
 ||uebipacy.xyz^
 ||uebohjhh.xyz^
@@ -14929,6 +14937,7 @@
 ||xqjqripb.xyz^
 ||xrb0owc.icu^
 ||xrcembm.cn^
+||xrdqdd.xyz^
 ||xrkyqq.com^
 ||xrllybr.xyz^
 ||xrrhwgj.xyz^
@@ -22758,7 +22767,7 @@ zle.com$script
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
-###playlistbtn > a[href="/h0312.html"]
+###playlistbtn > a[href$=".html"]
 ###plus-upsell-adblock
 ###pop_hongbao
 ###popadv_popmask
